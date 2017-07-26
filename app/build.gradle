@@ -63,6 +63,13 @@ android {
                 minifyEnabled false
             }
         }
+        release {
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "Lawnchair.apk"
+                }
+            }
+        }
     }
     lintOptions {
         abortOnError false
