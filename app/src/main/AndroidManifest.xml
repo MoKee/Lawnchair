@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ch.deletescape.lawnchair">
 
+    <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="26" />
+
     <permission
         android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
         android:description="@string/permdesc_install_shortcut"

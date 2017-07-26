@@ -80,10 +80,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.libraries.launcherclient.LauncherClient;
-import com.microsoft.azure.mobile.MobileCenter;
-import com.microsoft.azure.mobile.analytics.Analytics;
-import com.microsoft.azure.mobile.crashes.Crashes;
-import com.microsoft.azure.mobile.distribute.Distribute;
+// import com.microsoft.azure.mobile.MobileCenter;
+// import com.microsoft.azure.mobile.analytics.Analytics;
+// import com.microsoft.azure.mobile.crashes.Crashes;
+// import com.microsoft.azure.mobile.distribute.Distribute;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -359,8 +359,8 @@ public class Launcher extends Activity
         FeatureFlags.applyDarkThemePreference(this);
         super.onCreate(savedInstanceState);
 
-        if (!BuildConfig.MOBILE_CENTER_KEY.equalsIgnoreCase("null"))
-            MobileCenter.start(getApplication(), BuildConfig.MOBILE_CENTER_KEY, Analytics.class, Crashes.class, Distribute.class);
+        // if (!BuildConfig.MOBILE_CENTER_KEY.equalsIgnoreCase("null"))
+        //     MobileCenter.start(getApplication(), BuildConfig.MOBILE_CENTER_KEY, Analytics.class, Crashes.class, Distribute.class);
 
         LauncherAppState app = LauncherAppState.getInstance();
         app.setMLauncher(this);

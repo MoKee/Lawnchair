@@ -3,10 +3,10 @@ package ch.deletescape.lawnchair;
 import android.app.Application;
 import android.os.Build;
 
-import com.microsoft.azure.mobile.MobileCenter;
-import com.microsoft.azure.mobile.analytics.Analytics;
-import com.microsoft.azure.mobile.crashes.Crashes;
-import com.microsoft.azure.mobile.distribute.Distribute;
+// import com.microsoft.azure.mobile.MobileCenter;
+// import com.microsoft.azure.mobile.analytics.Analytics;
+// import com.microsoft.azure.mobile.crashes.Crashes;
+// import com.microsoft.azure.mobile.distribute.Distribute;
 
 
 public class App extends Application {
