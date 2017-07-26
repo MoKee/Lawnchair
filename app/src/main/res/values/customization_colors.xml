@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="color_variation_entries">
+    <string-array name="color_variation_entries" translatable="false">
         <item>50</item>
         <item>100</item>
         <item>200</item>
@@ -17,7 +17,7 @@
         <item>A700</item>
     </string-array>
 
-    <string-array name="color_variation_values">
+    <string-array name="color_variation_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -34,7 +34,7 @@
         <item>13</item>
     </string-array>
 
-    <string-array name="color_index_entries">
+    <string-array name="color_index_entries" translatable="false">
         <item>@string/white</item>
         <item>@string/black</item>
         <item>@string/red</item>
@@ -58,7 +58,7 @@
         <item>@string/blue_grey</item>
     </string-array>
 
-    <string-array name="color_index_values">
+    <string-array name="color_index_values" translatable="false">
         <item>-3</item>
         <item>-2</item>
         <item>0</item>
@@ -82,7 +82,7 @@
         <item>18</item>
     </string-array>
 
-    <string-array name="arr_red">
+    <string-array name="arr_red" translatable="false">
         <item>#ffebee</item>
         <item>#ffcdd2</item>
         <item>#ef9a9a</item>
@@ -99,7 +99,7 @@
         <item>#d50000</item>
     </string-array>
 
-    <string-array name="arr_pink">
+    <string-array name="arr_pink" translatable="false">
         <item>#FCE4EC</item>
         <item>#F8BBD0</item>
         <item>#F48FB1</item>
@@ -116,7 +116,7 @@
         <item>#C51162</item>
     </string-array>
 
-    <string-array name="arr_purple">
+    <string-array name="arr_purple" translatable="false">
         <item>#F3E5F5</item>
         <item>#E1BEE7</item>
         <item>#CE93D8</item>
@@ -133,7 +133,7 @@
         <item>#AA00FF</item>
     </string-array>
 
-    <string-array name="arr_deep_purple">
+    <string-array name="arr_deep_purple" translatable="false">
         <item>#EDE7F6</item>
         <item>#D1C4E9</item>
         <item>#B39DDB</item>
@@ -150,7 +150,7 @@
         <item>#6200EA</item>
     </string-array>
 
-    <string-array name="arr_indigo">
+    <string-array name="arr_indigo" translatable="false">
         <item>#E8EAF6</item>
         <item>#C5CAE9</item>
         <item>#9FA8DA</item>
@@ -167,7 +167,7 @@
         <item>#304FFE</item>
     </string-array>
 
-    <string-array name="arr_blue">
+    <string-array name="arr_blue" translatable="false">
         <item>#E3F2FD</item>
         <item>#BBDEFB</item>
         <item>#90CAF9</item>
@@ -184,7 +184,7 @@
         <item>#2962FF</item>
     </string-array>
 
-    <string-array name="arr_light_blue">
+    <string-array name="arr_light_blue" translatable="false">
         <item>#E1F5FE</item>
         <item>#B3E5FC</item>
         <item>#81D4FA</item>
@@ -201,7 +201,7 @@
         <item>#0091EA</item>
     </string-array>
 
-    <string-array name="arr_cyan">
+    <string-array name="arr_cyan" translatable="false">
         <item>#E0F7FA</item>
         <item>#B2EBF2</item>
         <item>#80DEEA</item>
@@ -218,7 +218,7 @@
         <item>#00B8D4</item>
     </string-array>
 
-    <string-array name="arr_teal">
+    <string-array name="arr_teal" translatable="false">
         <item>#E0F2F1</item>
         <item>#B2DFDB</item>
         <item>#80CBC4</item>
@@ -235,7 +235,7 @@
         <item>#00BFA5</item>
     </string-array>
 
-    <string-array name="arr_green">
+    <string-array name="arr_green" translatable="false">
         <item>#E8F5E9</item>
         <item>#C8E6C9</item>
         <item>#A5D6A7</item>
@@ -252,7 +252,7 @@
         <item>#00C853</item>
     </string-array>
 
-    <string-array name="arr_light_green">
+    <string-array name="arr_light_green" translatable="false">
         <item>#F1F8E9</item>
         <item>#DCEDC8</item>
         <item>#C5E1A5</item>
@@ -269,7 +269,7 @@
         <item>#64DD17</item>
     </string-array>
 
-    <string-array name="arr_lime">
+    <string-array name="arr_lime" translatable="false">
         <item>#F9FBE7</item>
         <item>#F0F4C3</item>
         <item>#E6EE9C</item>
@@ -286,7 +286,7 @@
         <item>#AEEA00</item>
     </string-array>
 
-    <string-array name="arr_yellow">
+    <string-array name="arr_yellow" translatable="false">
         <item>#FFFDE7</item>
         <item>#FFF9C4</item>
         <item>#FFF59D</item>
@@ -303,7 +303,7 @@
         <item>#FFD600</item>
     </string-array>
 
-    <string-array name="arr_amber">
+    <string-array name="arr_amber" translatable="false">
         <item>#FFF8E1</item>
         <item>#FFECB3</item>
         <item>#FFE082</item>
@@ -320,7 +320,7 @@
         <item>#FFAB00</item>
     </string-array>
 
-    <string-array name="arr_orange">
+    <string-array name="arr_orange" translatable="false">
         <item>#FFF3E0</item>
         <item>#FFE0B2</item>
         <item>#FFCC80</item>
@@ -337,7 +337,7 @@
         <item>#FF6D00</item>
     </string-array>
 
-    <string-array name="arr_deep_orange">
+    <string-array name="arr_deep_orange" translatable="false">
         <item>#FBE9E7</item>
         <item>#FFCCBC</item>
         <item>#FFAB91</item>
@@ -354,7 +354,7 @@
         <item>#DD2C00</item>
     </string-array>
 
-    <string-array name="arr_brown">
+    <string-array name="arr_brown" translatable="false">
         <item>#EFEBE9</item>
         <item>#D7CCC8</item>
         <item>#BCAAA4</item>
@@ -371,7 +371,7 @@
         <item>#5D4037</item>
     </string-array>
 
-    <string-array name="arr_grey">
+    <string-array name="arr_grey" translatable="false">
         <item>#FAFAFA</item>
         <item>#F5F5F5</item>
         <item>#EEEEEE</item>
@@ -388,7 +388,7 @@
         <item>#616161</item>
     </string-array>
 
-    <string-array name="arr_blue_grey">
+    <string-array name="arr_blue_grey" translatable="false">
         <item>#ECEFF1</item>
         <item>#CFD8DC</item>
         <item>#B0BEC5</item>
