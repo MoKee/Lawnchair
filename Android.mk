@@ -14,4 +14,8 @@
 # limitations under the License.
 #
 
+ifneq ($(PLATFORM_SDK_VERSION), 25)
+
 include $(call all-subdir-makefiles)
+
+endif
