@@ -256,6 +256,7 @@
   <string name="dynamic_ui_pref_title">主色调从壁纸取色</string>
   <string name="dark_theme_pref_title">使用暗色主题</string>
   <string name="blur_pref_title">开启模糊</string>
+  <string name="blur_pref_summary">为界面应用模糊效果\n不兼容动态壁纸</string>
   <string name="blur_radius_pref_title">模糊度</string>
   <string name="white_google_icon_pref_title">使用白色 Google 图标</string>
   <string name="hide_icon_labels_pref_title">在主屏幕上隐藏图标标签</string>
@@ -356,24 +357,29 @@
   <string name="default_text">默认</string>
   <string name="edit_icon_reset">重置</string>
   <string name="icon_pack_unsupported">不受支持的图标包</string>
+  <string name="icon_pack_permission_denied">访问图标需要获取存储权限</string>
+  <string name="show_top_shadow_title">显示顶部阴影</string>
   <string name="pref_cat_homescreen">主屏幕</string>
   <string name="pref_cat_miscellaneous">其他</string>
   <string name="pref_cat_hotseat">Dock</string>
   <string name="pref_cat_theme">主题</string>
   <string name="theme_pref_title">主题</string>
+  <string name="theme_light">明亮</string>
   <string name="theme_dark">黑暗</string>
   <string name="theme_black">黑色</string>
   <string name="hide_hotseat_pref_title">隐藏Dock</string>
   <string name="all_icons">所有图标</string>
   <string name="pull_down_action_pref_title">拉下行为</string>
   <string name="pull_down_do_nothing">无操作</string>
-  <string name="pull_down_notis">显示通知</string>
+  <string name="pull_down_notis">展开通知栏</string>
   <string name="pull_down_search">打开搜索</string>
   <string name="pull_down_apps_search">查找应用</string>
   <!-- Import/Export Strings -->
   <string name="imexport_success">成功 ！</string>
   <string name="imexport_error">错误： 无法复制文件</string>
   <string name="imexport_no_backup_found">未找到备份</string>
+  <string name="imexport_external_storage_unreadable">外部存储不可读取（在设置授予权限）</string>
+  <string name="imexport_external_storage_unwritable">外部存储不可写入（在设置授予权限）</string>
   <string name="units_metric">公制</string>
   <string name="units_imperial">英制</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
