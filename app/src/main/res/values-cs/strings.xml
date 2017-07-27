@@ -155,7 +155,7 @@
   <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
   <string name="action_move">Přesunout položku</string>
   <!-- Accessibility description to move item to empty cell. -->
-  <string name="move_to_empty_cell">Přesunout na řádek <xliff:g id="NUMBER_0">%1$s</xliff:g> do sloupce <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
+  <string name="move_to_empty_cell">Přesunout na řádek <xliff:g example="1" id="number">%1$s</xliff:g> do sloupce <xliff:g example="1" id="number">%2$s</xliff:g></string>
   <!-- Accessibility description to move item inside a folder. -->
   <string name="move_to_position">Přesunout na pozici <xliff:g id="NUMBER">%1$s</xliff:g></string>
   <!-- Accessibility description to move item to the hotseat. -->
