@@ -47,6 +47,6 @@
         android:title="@string/about_title"
         android:icon="@drawable/ic_information"
         android:key="about"
-        android:summary="@string/about_text" />
+        android:summary="@string/about_text_mk" />
 
 </PreferenceScreen>
