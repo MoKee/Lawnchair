@@ -1,3 +1,5 @@
+import java.text.SimpleDateFormat
+
 apply plugin: 'com.android.application'
 
 
@@ -46,8 +48,11 @@ android {
             versionCode = Integer.valueOf(System.getenv("TRAVIS_BUILD_NUMBER"))
             versionName = "Travis-" + System.getenv("TRAVIS_BUILD_NUMBER")
         } else {
-            versionCode 1
-            versionName "prerelease"
+            long timestamp = System.currentTimeMillis() / 1000
+            versionCode Integer.valueOf(timestamp.toString())
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm")
+            Date date = new Date(System.currentTimeMillis());
+            versionName simpleDateFormat.format(date)
         }
         signingConfig signingConfigs.mokee
     }
