@@ -30,10 +30,11 @@
             android:includeFontPadding="false"
             android:paddingBottom="2.0dip"
             android:textColor="@color/weather_widget_text_color"
-            android:textSize="36.0dip" />
+            android:textSize="36.0dip"
+            style="@style/WeatherWidget.Text" />
     </LinearLayout>
 
-    <ch.deletescape.lawnchair.pixelify.DoubleShadowTextClock
+    <TextClock
         android:id="@+id/weather_widget_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,9 +46,5 @@
         android:textAllCaps="true"
         android:textColor="@color/weather_widget_text_color"
         android:textSize="12.0sp"
-        launcher:ambientShadowBlur="2.0dip"
-        launcher:ambientShadowColor="#66000000"
-        launcher:keyShadowBlur="1.0dip"
-        launcher:keyShadowColor="#33000000"
-        launcher:keyShadowOffset="0.5dip" />
+        style="@style/WeatherWidget.Text" />
 </LinearLayout>
