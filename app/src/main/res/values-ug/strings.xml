@@ -177,4 +177,5 @@
   <string name="theme_dark">قاراڭغۇ</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">يوق</string>
 </resources>

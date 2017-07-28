@@ -262,4 +262,5 @@
   <string name="theme_dark">Escuro</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">Ningún</string>
 </resources>

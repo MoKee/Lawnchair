@@ -262,4 +262,5 @@
   <string name="edit_icon_reset">पुनःसेट गर्नुहोस्</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">कुनै पनि होइन</string>
 </resources>

@@ -264,4 +264,5 @@
   <string name="edit_icon_reset">Sıfırla</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">Heç biri</string>
 </resources>

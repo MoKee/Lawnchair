@@ -251,7 +251,6 @@
   <string name="hotseat_uses_extracted_colors_pref_off">O dock será de cor cinza, mas ajustada pelo brilho do papel de parede</string>
   <string name="transparent_hotseat_pref_title">Dock transparente</string>
   <string name="dynamic_ui_pref_title">Extraia cor do papel de parede</string>
-  <string name="dark_theme_pref_title">Usar tema escuro</string>
   <string name="blur_pref_title">Ativar desfoque</string>
   <string name="blur_radius_pref_title">Raio de desfoque</string>
   <string name="white_google_icon_pref_title">Usar ícone do google branco</string>
@@ -284,11 +283,7 @@
   <string name="rebuild_icondb_pref_title">Reconstruir o banco de dados dos ícones</string>
   <string name="pinch_to_overview_pref_title">Pince para visão geral</string>
   <string name="pinch_to_overview_pref_summary">Pince na tela inicial para abrir a visão geral</string>
-  <string name="pull_down_notis_pref_title">Movimento de puxar para baixo para abrir notificações</string>
-  <string name="pull_down_notis_pref_on">Puxando para baixo na tela inicial irá expandir a barra de status</string>
-  <string name="pull_down_notis_pref_off">Quando ativado puxando para baixo na tela inicial expanda a barra de status</string>
   <string name="light_statusbar_pref_title">Ícones da barra de status brancos</string>
-  <string name="light_statusbar_pref_on">A barra de status pode mostrar ícones escuros quando usando um papel de parede de claro</string>
   <string name="light_statusbar_pref_off">A barra de status sempre mostrará ícones claros</string>
   <string name="haptic_feedback_pref_title">Habilitar vibração tátil</string>
   <string name="keep_scroll_state_pref_title">Salvar a posição da rolagem</string>
@@ -360,4 +355,6 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Previsão do tempo</string>
+  <string name="none">Nenhum</string>
+  <string name="folder">Pasta</string>
 </resources>

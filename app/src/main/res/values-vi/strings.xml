@@ -271,4 +271,6 @@
   <string name="theme_dark">Tối</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">Không có</string>
+  <string name="folder">Thư mục</string>
 </resources>

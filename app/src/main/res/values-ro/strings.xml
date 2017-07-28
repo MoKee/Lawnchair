@@ -279,4 +279,6 @@
   <string name="theme_black">Negru</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">Niciunul</string>
+  <string name="folder">Dosar</string>
 </resources>

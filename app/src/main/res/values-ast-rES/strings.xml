@@ -182,4 +182,5 @@
   <string name="theme_black">Prietu</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="folder">Carpeta</string>
 </resources>

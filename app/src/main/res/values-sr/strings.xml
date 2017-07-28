@@ -277,4 +277,6 @@
   <string name="theme_black">Црна</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">Ниједно</string>
+  <string name="folder">Фасцикла</string>
 </resources>

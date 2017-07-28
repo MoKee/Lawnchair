@@ -250,7 +250,6 @@
   <string name="hotseat_uses_extracted_colors_pref_off">منصة التطبيقات ستكون بلون رمادي, لكن معدلة بدرجة سطوع صورة الخلفية</string>
   <string name="transparent_hotseat_pref_title">منصة شفافة</string>
   <string name="dynamic_ui_pref_title">استخراج اللون من صورة الخلفية</string>
-  <string name="dark_theme_pref_title">تفعيل السمة الداكنة</string>
   <string name="blur_pref_title">تفعيل التمويه</string>
   <string name="blur_radius_pref_title">نسبة التمويه</string>
   <string name="white_google_icon_pref_title">استخدم رمز جوجل باللون الأبيض</string>
@@ -283,11 +282,7 @@
   <string name="rebuild_icondb_pref_title">إعادة إنشاء قاعدة بيانات الأيقونة</string>
   <string name="pinch_to_overview_pref_title">اقبض بإصبعين لنظرة عامة</string>
   <string name="pinch_to_overview_pref_summary">اقبض باصعين على الشاشة الرئيسية لفتح النظرة العامة</string>
-  <string name="pull_down_notis_pref_title">سحب لأسفل لإظهار الإشعارات</string>
-  <string name="pull_down_notis_pref_on">السحب لأسفل على الشاشة الرئيسية سوف بظهر جميع عناصر شريط الإشعارات.</string>
-  <string name="pull_down_notis_pref_off">عند التفعيل السحب لأسفل على الشاشة الرئيسية يظهر جميع عناصر شريط الإشعارات.</string>
   <string name="light_statusbar_pref_title">شريط حالة باهت</string>
-  <string name="light_statusbar_pref_on">قد يظهر شريط الاشعارات مظلم عند استخدام خلفية شاشة باهتة اللون.</string>
   <string name="light_statusbar_pref_off">شريط المعلومات سيظهر دائما رموز بلون باهت.</string>
   <string name="haptic_feedback_pref_title">تفعيل الإهتزاز</string>
   <string name="keep_scroll_state_pref_title">حفظ موضع التمرير</string>
@@ -354,4 +349,6 @@
   <string name="theme_black">أسود</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">لا شيء</string>
+  <string name="folder">مجلد</string>
 </resources>

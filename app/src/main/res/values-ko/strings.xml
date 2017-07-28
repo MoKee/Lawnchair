@@ -287,4 +287,6 @@
   <string name="pull_down_do_nothing">아무것도 하지않음</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">선택 안함</string>
+  <string name="folder">폴더</string>
 </resources>

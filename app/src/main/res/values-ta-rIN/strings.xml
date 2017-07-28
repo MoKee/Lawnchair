@@ -153,9 +153,6 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
-  <string name="pull_down_notis_pref_on">Pulling down on the Homescreen will expand the statusbar.</string>
-  <string name="pull_down_notis_pref_off">When enabled pulling down on the Homescreen expand the statusbar.</string>
-  <string name="light_statusbar_pref_on">The status bar may show dark icons when using a light wallpaper.</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
   <!-- Customization Color -->
   <!-- Customization Color -->
@@ -188,4 +185,5 @@
   <string name="theme_dark">அடர்</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">ஏதுமில்லை</string>
 </resources>

@@ -262,4 +262,5 @@
   <string name="edit_icon_reset">Rivendos</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">Asnjë</string>
 </resources>

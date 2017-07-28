@@ -279,4 +279,6 @@
   <string name="theme_black">سیاه</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">هیچ‌کدام</string>
+  <string name="folder">پوشه</string>
 </resources>

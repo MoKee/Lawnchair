@@ -256,4 +256,5 @@
   <string name="edit_icon_reset">Lähtesta</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">Mitte ühtegi</string>
 </resources>

@@ -291,4 +291,6 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Погода</string>
+  <string name="none">Нічого</string>
+  <string name="folder">Тека</string>
 </resources>

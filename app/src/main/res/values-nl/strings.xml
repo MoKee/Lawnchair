@@ -286,4 +286,6 @@
   <string name="theme_black">Zwart</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">Geen</string>
+  <string name="folder">Map</string>
 </resources>
