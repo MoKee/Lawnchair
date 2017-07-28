@@ -31,7 +31,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
-    <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="ch.deletescape.lawnchair.permission.READ_SETTINGS" />
     <uses-permission android:name="ch.deletescape.lawnchair.permission.WRITE_SETTINGS" />
@@ -125,13 +124,6 @@
         <receiver android:name=".AppWidgetsRestoredReceiver">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_HOST_RESTORED" />
-            </intent-filter>
-        </receiver>
-        <receiver
-            android:name=".pixelify.WeatherUpdateReciever"
-            android:permission="android.permission.CAPTURE_AUDIO_HOTWORD">
-            <intent-filter>
-                <action android:name="com.google.android.apps.nexuslauncher.updateweather" />
             </intent-filter>
         </receiver>
 

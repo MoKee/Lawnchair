@@ -2,30 +2,21 @@ package ch.deletescape.lawnchair;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
-import android.content.ComponentName;
 import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.net.Uri;
 import android.util.AttributeSet;
 import android.util.Property;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.kwabenaberko.openweathermaplib.implementation.OpenWeatherMapHelper;
-import com.kwabenaberko.openweathermaplib.models.CurrentWeather;
-
 import ch.deletescape.lawnchair.config.FeatureFlags;
-import ch.deletescape.lawnchair.pixelify.OnWeatherInfoListener;
-import ch.deletescape.lawnchair.pixelify.ShadowHostView;
-import ch.deletescape.lawnchair.pixelify.WeatherInfo;
-import ch.deletescape.lawnchair.pixelify.WeatherThing;
+import ch.deletescape.lawnchair.weather.WeatherHelper;
 
-public class QsbBlockerView extends FrameLayout implements Workspace.OnStateChangeListener, OnWeatherInfoListener {
+public class QsbBlockerView extends FrameLayout implements Workspace.OnStateChangeListener {
     public static final Property<QsbBlockerView, Integer> QSB_BLOCKER_VIEW_ALPHA = new QsbBlockerViewAlpha(Integer.TYPE, "bgAlpha");
     private final Paint mBgPaint = new Paint(1);
     private int mState = 0;
@@ -53,10 +44,7 @@ public class QsbBlockerView extends FrameLayout implements Workspace.OnStateChan
             Workspace workspace = Launcher.getLauncher(getContext()).getWorkspace();
             workspace.setOnStateChangeListener(this);
             prepareStateChange(workspace.getState(), null);
-            WeatherInfo gsa = WeatherThing.getInstance(getContext()).getWeatherInfoAndAddListener(this);
-            if (gsa != null) {
-                onWeatherInfo(gsa);
-            }
+            setupView();
         }
     }
 
@@ -74,9 +62,6 @@ public class QsbBlockerView extends FrameLayout implements Workspace.OnStateChan
 
     @Override
     protected void onDetachedFromWindow() {
-        if (!FeatureFlags.useFullWidthSearchbar(getContext())) {
-            WeatherThing.getInstance(getContext()).removeListener(this);
-        }
         super.onDetachedFromWindow();
     }
 
@@ -100,64 +85,32 @@ public class QsbBlockerView extends FrameLayout implements Workspace.OnStateChan
         canvas.drawPaint(mBgPaint);
     }
 
-    @Override
-    public void onWeatherInfo(WeatherInfo weatherInfo) {
+    public void setupView() {
         if (!FeatureFlags.showPixelBar(getContext())) {
             removeAllViews();
             return;
         }
         View view = mView;
         int i = mState;
-        mView = ShadowHostView.bG(weatherInfo, this, mView);
+        mView = null;
         mState = 2;
-        if (mView == null) {
-            View inflate;
-            mState = 1;
-            if (view == null || i != 1) {
-                if (FeatureFlags.planes(getContext())) {
-                    inflate = LayoutInflater.from(getContext()).inflate(R.layout.plane_widget, this, false);
-                } else if (FeatureFlags.weatherDebug(getContext())) {
-                    inflate = LayoutInflater.from(getContext()).inflate(R.layout.weather_widget, this, false);
-                    OpenWeatherMapHelper helper = new OpenWeatherMapHelper();
-                    helper.setAppId(BuildConfig.OPENWEATHERMAP_KEY);
-                    SharedPreferences prefs = Utilities.getPrefs(getContext());
-                    String units = prefs.getString("pref_weatherDebug_units", "metric");
-                    final boolean isImperial = units.equals("imperial");
-                    helper.setUnits(units);
-                    String city = prefs.getString("pref_weatherDebug_city", "Lucerne, CH");
-                    final TextView temperature = inflate.findViewById(R.id.weather_widget_temperature);
-                    temperature.setOnClickListener(new OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            Intent intent = new Intent(Intent.ACTION_VIEW);
-                            intent.setData(Uri.parse("dynact://velour/weather/ProxyActivity"));
-                            intent.setComponent(new ComponentName("com.google.android.googlequicksearchbox",
-                                    "com.google.android.apps.gsa.velour.DynamicActivityTrampoline"));
-                            getContext().startActivity(intent);
-                        }
-                    });
-                    OpenWeatherMapHelper.CurrentWeatherCallback callback = new OpenWeatherMapHelper.CurrentWeatherCallback() {
-                        @Override
-                        public void onSuccess(CurrentWeather currentWeather) {
-                            temperature.setText(currentWeather.getMain().getTemp() + (isImperial ? "°F" : "°C"));
-                        }
-
-                        @Override
-                        public void onFailure(Throwable throwable) {
-                            temperature.setText("ERROR°C");
-                        }
-                    };
-                    helper.getCurrentWeatherByCityName(city, callback);
-                } else {
-                    inflate = LayoutInflater.from(getContext()).inflate(R.layout.date_widget, this, false);
-                }
-                if (FeatureFlags.useFullWidthSearchbar(getContext())) {
-                    inflate.setVisibility(GONE);
-                }
+        mState = 1;
+        if (view == null || i != 1) {
+            if (FeatureFlags.planes(getContext())) {
+                mView = LayoutInflater.from(getContext()).inflate(R.layout.plane_widget, this, false);
+            } else if (FeatureFlags.weatherDebug(getContext())) {
+                mView = LayoutInflater.from(getContext()).inflate(R.layout.weather_widget, this, false);
+                TextView temperature = mView.findViewById(R.id.weather_widget_temperature);
+                ImageView iconView = mView.findViewById(R.id.weather_widget_icon);
+                new WeatherHelper(temperature, iconView, getContext());
             } else {
-                inflate = view;
+                mView = LayoutInflater.from(getContext()).inflate(R.layout.date_widget, this, false);
             }
-            mView = inflate;
+            if (FeatureFlags.useFullWidthSearchbar(getContext())) {
+                mView.setVisibility(GONE);
+            }
+        } else {
+            mView = view;
         }
         if (i != mState) {
             if (view != null) {
