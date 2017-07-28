@@ -19,8 +19,11 @@ import ch.deletescape.lawnchair.weather.WeatherHelper;
 public class QsbBlockerView extends FrameLayout implements Workspace.OnStateChangeListener, View.OnLongClickListener {
     public static final Property<QsbBlockerView, Integer> QSB_BLOCKER_VIEW_ALPHA = new QsbBlockerViewAlpha(Integer.TYPE, "bgAlpha");
     private final Paint mBgPaint = new Paint(1);
-    private int mState = 0;
     private View mView;
+    private WeatherHelper weatherHelper;
+    private boolean switchToDate = false;
+    private boolean switching = false;
+    private boolean weatherShowing = false;
 
     public QsbBlockerView(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
@@ -50,7 +53,7 @@ public class QsbBlockerView extends FrameLayout implements Workspace.OnStateChan
 
     @Override
     protected void onMeasure(int i, int i2) {
-        if (mView != null && mState == 2) {
+        if (mView != null && weatherShowing) {
             DeviceProfile deviceProfile = Launcher.getLauncher(getContext()).getDeviceProfile();
             LayoutParams layoutParams = (LayoutParams) mView.getLayoutParams();
             int size = ((MeasureSpec.getSize(i) / deviceProfile.inv.numColumns) - deviceProfile.iconSizePx) / 2;
@@ -85,32 +88,27 @@ public class QsbBlockerView extends FrameLayout implements Workspace.OnStateChan
         canvas.drawPaint(mBgPaint);
     }
 
-    private boolean switchToDate = false;
-    private boolean switching = false;
-
     public void setupView() {
         if (!FeatureFlags.showPixelBar(getContext())) {
             removeAllViews();
             return;
         }
         View view = mView;
-        int i = mState;
         mView = null;
-        mState = 2;
-        mState = 1;
-        if (view == null || i != 1 || switching) {
-            switching = false;
+        if (view == null || switching) {
             if (FeatureFlags.planes(getContext())) {
                 mView = LayoutInflater.from(getContext()).inflate(R.layout.plane_widget, this, false);
-            } else if (FeatureFlags.showWeather(getContext()) || (switching && !switchToDate)) {
+            } else if ((FeatureFlags.showWeather(getContext()) && !switchToDate) || (switching && !switchToDate)) {
+                weatherShowing = true;
                 mView = LayoutInflater.from(getContext()).inflate(R.layout.weather_widget, this, false);
                 TextView temperature = mView.findViewById(R.id.weather_widget_temperature);
                 ImageView iconView = mView.findViewById(R.id.weather_widget_icon);
-                new WeatherHelper(temperature, iconView, getContext());
+                weatherHelper = new WeatherHelper(temperature, iconView, getContext());
                 mView.findViewById(R.id.weather_widget_time).setOnLongClickListener(this);
                 temperature.setOnLongClickListener(this);
                 iconView.setOnLongClickListener(this);
             } else {
+                weatherShowing = false;
                 mView = LayoutInflater.from(getContext()).inflate(R.layout.date_widget, this, false);
                 mView.findViewById(R.id.date_text1).setOnLongClickListener(this);
                 mView.findViewById(R.id.date_text2).setOnLongClickListener(this);
@@ -121,13 +119,14 @@ public class QsbBlockerView extends FrameLayout implements Workspace.OnStateChan
         } else {
             mView = view;
         }
-        if (i != mState) {
+        if (switching) {
             if (view != null) {
                 view.animate().setDuration(200).alpha(0.0f).withEndAction(new QsbBlockerViewViewRemover(this, view));
             }
             addView(mView);
             mView.setAlpha(0.0f);
             mView.animate().setDuration(200).alpha(1.0f);
+            switching = false;
         } else if (view != mView) {
             if (view != null) {
                 removeView(view);
@@ -138,11 +137,11 @@ public class QsbBlockerView extends FrameLayout implements Workspace.OnStateChan
 
     @Override
     public boolean onLongClick(View view) {
-        if (!FeatureFlags.showWeather(getContext())) {
-            return false;
-        }
-        switchToDate = !switchToDate;
+        switchToDate = weatherShowing;
         switching = true;
+        if (weatherHelper != null) {
+            weatherHelper.stop();
+        }
         setupView();
         return true;
     }
