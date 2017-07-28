@@ -236,10 +236,52 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Zámek obrazovky</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="which_wallpaper_option_home_screen_and_lock_screen">Domovská a uzamykací obrazovka</string>
+  <string name="title_show_google_app">Zobrazit %1$s</string>
+  <string name="title_show_google_app_default">Zobrazit aplikaci Google</string>
   <string name="label_search">Hledat</string>
   <string name="label_voice_search">Hlasové vyhledávání</string>
+  <string name="shortcuts_menu_with_notifications_description">%1$d zástupci a %2$d oznámení pro %3$s</string>
+  <string name="notifications_header">Oznámení</string>
+  <string name="widgets_bottom_sheet_title">%1$s widgety</string>
   <!-- About Lawnchair -->
+  <string name="about_text">Lawnchair je aplikace spouštěče, kterou vytvořil Till Kottmann (aka deletescape). Je založena na spouštěči Launcher3 z AOSP.</string>
   <string name="about_title">O aplikaci</string>
+  <string name="changelog_title">Seznam změn pro sestavení #%d</string>
+  <string name="week_day_format">%1$s, %2$s</string>
+  <string name="icon_pack_preference_title">Balíček ikon</string>
+  <string name="icon_pack_preference_summary">Vyberte balíček ikon</string>
+  <string name="hotseat_uses_extracted_colors_pref_title">Dok používá barvy tapety</string>
+  <string name="hotseat_uses_extracted_colors_pref_on">Dok bude zbarvený barvou extrahovanou z tapety</string>
+  <string name="hotseat_uses_extracted_colors_pref_off">Dok bude zbarvený do šeda, ale jas bude nastaven podle tapety plochy</string>
+  <string name="transparent_hotseat_pref_title">Průhledný dok</string>
+  <string name="dynamic_ui_pref_title">Vybrat barevný odstín z tapety plochy</string>
+  <string name="dark_theme_pref_title">Povolit tmavý motiv</string>
+  <string name="blur_pref_title">Povolit rozostření</string>
+  <string name="blur_pref_summary">Použít efekt rozostření na části rozhraní\není kompatibilní s živými tapetami</string>
+  <string name="blur_radius_pref_title">Poloměr rozostření</string>
+  <string name="white_google_icon_pref_title">Použít bílou ikonu Google</string>
+  <string name="hide_icon_labels_pref_title">Skrýt popisky ikon na domovské obrazovce</string>
+  <string name="workspace_label_color_hue_pref_title">Barva popisků ikon na domovské obrazovce</string>
+  <string name="workspace_label_color_variation_pref_title">Barevné variace popisků ikon na domovské obrazovce</string>
+  <string name="all_apps_opacity_pref_title">Průhlednost menu aplikací</string>
+  <string name="num_cols_pref_title">Počet sloupců</string>
+  <string name="num_rows_pref_title">Počet řádků</string>
+  <string name="num_hotseat_icons_pref_title">Počet zástupců v doku</string>
+  <string name="icon_scale_pref_title">Velikost ikon</string>
+  <string name="icon_text_scale_pref_title">Velikost textu ikon</string>
+  <string name="full_width_width_widgets_pref_title">Widgety s plnou šířkou</string>
+  <string name="full_width_widgets_pref_summary">Povolte widgetům pokrývat celou šířku bez odsazení</string>
+  <string name="notification_access_pref_title">Zobrazení oznámení a náhledů</string>
+  <string name="notification_access_pref_summary">Pro zapnutí této funkce povolte spouštěči Lawnchair přístup k vašim upozorněním</string>
+  <string name="ui_pref_title">Uživatelské rozhraní</string>
+  <string name="pixel_style_pref_title">Styl Pixel</string>
+  <string name="behavior_pref_title">Chování</string>
+  <string name="debug_pref_title">Ladění</string>
+  <string name="import_export_pref_title">Import/Export</string>
+  <string name="show_pixel_bar_pref_title">Zobrazit Pixel horní panel</string>
+  <string name="use_wide_searchbar_pref_title">Použít široký vyhledávací panel</string>
+  <string name="show_mic_pref_title">Zobrazit tlačítko Google Assistent</string>
   <!-- Customization Color -->
   <!-- Customization Color -->
   <string name="black">Černá</string>
@@ -287,7 +329,19 @@
   <string name="theme_pref_title">Motiv vzhledu</string>
   <string name="theme_dark">Temný</string>
   <string name="theme_black">Černá</string>
+  <string name="all_icons">Všechny ikony</string>
   <string name="pull_down_do_nothing">Nedělat nic</string>
   <!-- Import/Export Strings -->
+  <string name="imexport_no_backup_found">Nebyla nalezena žádná záloha</string>
+  <string name="imexport_external_storage_unreadable">Externí úložiště není ke čtení (udělte oprávnění v nastavení)</string>
+  <string name="imexport_external_storage_unwritable">Externí úložiště není zapisovatelné (udělte oprávnění v nastavení)</string>
+  <string name="units_metric">Metrické</string>
+  <string name="units_imperial">Imperiální</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="default_units">metrické</string>
+  <string name="pref_cat_weather">Počasí</string>
+  <string name="pref_weather_title">Povolit počasí</string>
+  <string name="pref_weather_units">Jednotky počasí</string>
+  <string name="pref_weather_city_summary">Pro lepší výsledky zadejte kód země</string>
+  <string name="pref_weather_city_title">Město</string>
 </resources>

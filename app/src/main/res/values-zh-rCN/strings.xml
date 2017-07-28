@@ -385,4 +385,9 @@
   <string name="units_imperial">英制</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="default_units">公制</string>
+  <string name="pref_cat_weather">天气</string>
+  <string name="pref_weather_title">启用天气</string>
+  <string name="pref_weather_units">天气单位</string>
+  <string name="pref_weather_city_summary">为了获得最佳结果，请包含国家/地区代码</string>
+  <string name="pref_weather_city_title">城市</string>
 </resources>

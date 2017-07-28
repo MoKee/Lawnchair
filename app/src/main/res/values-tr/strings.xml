@@ -289,4 +289,5 @@
   <string name="pull_down_do_nothing">Hiçbir şey yapma</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="pref_cat_weather">Hava durumu</string>
 </resources>

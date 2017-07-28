@@ -19,4 +19,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
+  <string name="about_text_mk">Lawnchair - это лаунчер, созданный Тиллом Коттманным (под ником deletescape). Он основан на Launcher3 из AOSP.</string>
 </resources>
