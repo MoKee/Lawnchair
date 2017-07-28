@@ -262,4 +262,5 @@
   <string name="edit_icon_reset">Ресетирај</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">Нема</string>
 </resources>

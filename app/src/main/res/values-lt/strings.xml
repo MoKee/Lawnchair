@@ -274,4 +274,6 @@
   <string name="theme_black">Juodas</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">Nėra</string>
+  <string name="folder">Aplankalas</string>
 </resources>

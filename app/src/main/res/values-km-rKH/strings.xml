@@ -261,4 +261,5 @@
   <string name="edit_icon_reset">កំណត់​ឡើងវិញ</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">គ្មាន</string>
 </resources>

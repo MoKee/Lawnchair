@@ -260,4 +260,5 @@
   <string name="edit_icon_reset">ຄືນຄ່າ</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">ບໍ່ໃຊ້</string>
 </resources>

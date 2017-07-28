@@ -290,4 +290,6 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Hava durumu</string>
+  <string name="none">Hiçbiri</string>
+  <string name="folder">Klasör</string>
 </resources>

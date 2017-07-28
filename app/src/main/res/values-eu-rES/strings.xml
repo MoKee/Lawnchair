@@ -266,4 +266,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Eguraldia</string>
+  <string name="none">Bat ere ez</string>
 </resources>

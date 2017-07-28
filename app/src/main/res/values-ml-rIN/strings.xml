@@ -263,4 +263,5 @@
   <string name="theme_dark">ഇരുണ്ട</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">ഒന്നുമില്ല</string>
 </resources>

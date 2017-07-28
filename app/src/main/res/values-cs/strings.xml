@@ -256,7 +256,6 @@
   <string name="hotseat_uses_extracted_colors_pref_off">Dok bude zbarvený do šeda, ale jas bude nastaven podle tapety plochy</string>
   <string name="transparent_hotseat_pref_title">Průhledný dok</string>
   <string name="dynamic_ui_pref_title">Vybrat barevný odstín z tapety plochy</string>
-  <string name="dark_theme_pref_title">Povolit tmavý motiv</string>
   <string name="blur_pref_title">Povolit rozostření</string>
   <string name="blur_pref_summary">Použít efekt rozostření na části rozhraní\není kompatibilní s živými tapetami</string>
   <string name="blur_radius_pref_title">Poloměr rozostření</string>
@@ -282,7 +281,36 @@
   <string name="show_pixel_bar_pref_title">Zobrazit Pixel horní panel</string>
   <string name="use_wide_searchbar_pref_title">Použít široký vyhledávací panel</string>
   <string name="show_mic_pref_title">Zobrazit tlačítko Google Assistent</string>
+  <string name="use_round_searhbar">Použít zaoblenou vyhledávací lištu aplikací</string>
+  <string name="pixel_style_icons_pref_title">Použít ikony Pixel</string>
+  <string name="pixel_style_icons_pref_summary">Pokud budou povoleny kruhové ikony, budou použity všude, kde je to možné</string>
+  <string name="show_google_now_tab_pref_title">Zobrazit stránku Google Now</string>
+  <string name="restart_lawnchair_pref_title">Restartovat Lawnchair</string>
+  <string name="restart_lawnchair_pref_summary">Může být užitečné v případě, že některá nastavení nejsou použita správně</string>
+  <string name="rebuild_icondb_pref_title">Znovu vytvořit databázi ikon</string>
+  <string name="pinch_to_overview_pref_title">Přepnout na přehled</string>
+  <string name="pinch_to_overview_pref_summary">Pro otevření přehledu klepněte na domovskou obrazovku</string>
+  <string name="light_statusbar_pref_title">Světlá stavová lišta</string>
+  <string name="light_statusbar_pref_force">Ve stavové liště budou zobrazeny tmavé ikony</string>
+  <string name="light_statusbar_pref_off">Ve stavové liště budou zobrazeny světlé ikony</string>
+  <string name="haptic_feedback_pref_title">Povolit vibrace</string>
+  <string name="keep_scroll_state_pref_title">Zachovat pozici rolování</string>
+  <string name="keep_scroll_state_pref_summary">Uloží pozici rolování v menu aplikace</string>
+  <string name="home_opens_drawer_pref_title">Tlačítkem Domů se otevře nabídka aplikací</string>
+  <string name="home_opens_drawer_pref_summary">Stisknutím tlačítka Domů při zobrazení domovské obrazovky se otevře nabídka nastavení aplikace</string>
+  <string name="show_hidden_pref_title">Zobrazit skryté aplikace</string>
+  <string name="show_hidden_pref_on">Zobrazí se skryté aplikace, které změní nastavení viditelnosti</string>
+  <string name="show_hidden_pref_off">Skryté aplikace nebudou viditelné</string>
+  <string name="export_db_title">Export databáze</string>
+  <string name="import_db_title">Import databáze</string>
+  <string name="export_prefs_title">Export nastavení</string>
+  <string name="import_prefs_title">Import nastavení</string>
+  <string name="notification_listener_label">Lawnchair - indikátor oznámení</string>
+  <string name="color_extraction_label">Lawnchair - Extrakce barev</string>
+  <string name="test_title">Test</string>
+  <string name="visibility">Viditelnost</string>
   <!-- Customization Color -->
+  <string name="white">Bílá</string>
   <!-- Customization Color -->
   <string name="black">Černá</string>
   <!-- Customization Color -->
@@ -308,6 +336,7 @@
   <!-- Customization Color -->
   <string name="light_green">Světle zelená</string>
   <!-- Customization Color -->
+  <string name="lime">Lime</string>
   <!-- Customization Color -->
   <string name="yellow">Žlutá</string>
   <!-- Customization Color -->
@@ -319,29 +348,42 @@
   <!-- Customization Color -->
   <string name="brown">Hnědá</string>
   <!-- Customization Color -->
+  <string name="grey">Šedá</string>
   <!-- Customization Color -->
   <string name="blue_grey">Modro šedá</string>
   <string name="default_text">Výchozí</string>
   <string name="edit_icon_reset">Obnovit</string>
+  <string name="show_top_shadow_title">Zobrazit horní stíny</string>
   <string name="pref_cat_homescreen">Domovská obrazovka</string>
   <string name="pref_cat_miscellaneous">Různé</string>
+  <string name="pref_cat_hotseat">Dok</string>
   <string name="pref_cat_theme">Motiv vzhledu</string>
   <string name="theme_pref_title">Motiv vzhledu</string>
+  <string name="theme_light">Světlý</string>
   <string name="theme_dark">Temný</string>
   <string name="theme_black">Černá</string>
+  <string name="hide_hotseat_pref_title">Skrýt dok</string>
   <string name="all_icons">Všechny ikony</string>
+  <string name="pull_down_action_pref_title">Akce při rozbalení</string>
   <string name="pull_down_do_nothing">Nedělat nic</string>
+  <string name="pull_down_notis">Zobrazit oznámení</string>
+  <string name="pull_down_search">Otevřít vyhledávání</string>
+  <string name="pull_down_apps_search">Vyhledávání v aplikacích</string>
+  <string name="enable_screen_rotation">Povolit otáčení obrazovky</string>
   <!-- Import/Export Strings -->
+  <string name="imexport_success">Hotovo!</string>
+  <string name="imexport_error">Chyba: Nepodařilo se zkopírovat soubor</string>
   <string name="imexport_no_backup_found">Nebyla nalezena žádná záloha</string>
   <string name="imexport_external_storage_unreadable">Externí úložiště není ke čtení (udělte oprávnění v nastavení)</string>
   <string name="imexport_external_storage_unwritable">Externí úložiště není zapisovatelné (udělte oprávnění v nastavení)</string>
   <string name="units_metric">Metrické</string>
   <string name="units_imperial">Imperiální</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
-  <string name="default_units">metrické</string>
   <string name="pref_cat_weather">Počasí</string>
   <string name="pref_weather_title">Povolit počasí</string>
   <string name="pref_weather_units">Jednotky počasí</string>
   <string name="pref_weather_city_summary">Pro lepší výsledky zadejte kód země</string>
   <string name="pref_weather_city_title">Město</string>
+  <string name="none">Žádný</string>
+  <string name="folder">Složka</string>
 </resources>

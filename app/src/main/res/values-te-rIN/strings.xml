@@ -263,4 +263,5 @@
   <string name="theme_dark">ముదురు రంగు</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">ఏదీ వద్దు</string>
 </resources>

@@ -265,4 +265,5 @@
   <string name="theme_dark">חשכה</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">ללא</string>
 </resources>

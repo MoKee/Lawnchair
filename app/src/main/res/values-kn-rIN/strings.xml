@@ -263,4 +263,5 @@
   <string name="theme_dark">ಗಾಢ ಹಿನ್ನೆಲೆ</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">ಯಾವುದೂ ಇಲ್ಲ</string>
 </resources>

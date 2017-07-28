@@ -262,4 +262,5 @@
   <string name="edit_icon_reset">Վերակայել</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">Ոչ մեկը</string>
 </resources>

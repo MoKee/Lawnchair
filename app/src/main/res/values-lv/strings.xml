@@ -263,4 +263,5 @@
   <string name="edit_icon_reset">Atiestatīt</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">Nav</string>
 </resources>
