@@ -385,5 +385,11 @@
   <string name="pref_weather_city_summary">Pro lepší výsledky zadejte kód země</string>
   <string name="pref_weather_city_title">Město</string>
   <string name="none">Žádný</string>
+  <string name="pref_applyTheme">Použít motiv na</string>
+  <string name="pref_applyBlur">Použít rozostření na</string>
+  <string name="search_bar">Vyhledávací lišta</string>
   <string name="folder">Složka</string>
+  <string name="dock_allapps"><![CDATA[Dok & všechny aplikace]]></string>
+  <string name="app_shortcuts">Zástupce aplikací</string>
+  <string name="blur_effect">Efekt rozostření</string>
 </resources>

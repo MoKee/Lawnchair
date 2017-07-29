@@ -369,6 +369,7 @@
   <string name="pull_down_notis">Zobraziť upozornenia</string>
   <string name="pull_down_search">Otvoriť vyhľadávanie</string>
   <string name="pull_down_apps_search">Vyhľadávanie v aplikáciách</string>
+  <string name="enable_screen_rotation">Povoliť otáčanie obrazovky</string>
   <!-- Import/Export Strings -->
   <string name="imexport_success">Hotovo!</string>
   <string name="imexport_error">Chyba: Nepodarilo sa skopírovať súbor</string>
@@ -379,6 +380,16 @@
   <string name="units_imperial">Imperiálne</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Počasie</string>
+  <string name="pref_weather_title">Povoliť počasie</string>
+  <string name="pref_weather_units">Jednotky počasia</string>
+  <string name="pref_weather_city_summary">Pre lepšie výsledky zadajte kód krajiny</string>
+  <string name="pref_weather_city_title">Mesto</string>
   <string name="none">Žiadny</string>
+  <string name="pref_applyTheme">Aplikovať tému na</string>
+  <string name="pref_applyBlur">Použiť rozostrenia na</string>
+  <string name="search_bar">Vyhľadávací panel</string>
   <string name="folder">Priečinok</string>
+  <string name="dock_allapps"><![CDATA[Dock & všetky aplikácie]]></string>
+  <string name="app_shortcuts">Zástupca aplikácií</string>
+  <string name="blur_effect">Efekt rozostrenia</string>
 </resources>
