@@ -380,14 +380,14 @@
   <string name="pref_cat_weather">天气</string>
   <string name="pref_weather_title">启用天气</string>
   <string name="pref_weather_units">天气单位</string>
-  <string name="pref_weather_city_summary">为了获得最佳结果，请包含国家/地区代码</string>
+  <string name="pref_weather_city_summary">为了获得最佳结果，请设置国家/地区代码</string>
   <string name="pref_weather_city_title">城市</string>
   <string name="none">无</string>
   <string name="pref_applyTheme">将主题应用到</string>
-  <string name="pref_applyBlur">应用模糊</string>
+  <string name="pref_applyBlur">应用模糊效果</string>
   <string name="search_bar">搜索栏</string>
   <string name="folder">文件夹</string>
-  <string name="dock_allapps"><![CDATA[Dock与所有应用程序]]></string>
+  <string name="dock_allapps"><![CDATA[Dock 栏与所有应用]]></string>
   <string name="app_shortcuts">应用快捷方式</string>
   <string name="blur_effect">模糊效果</string>
 </resources>

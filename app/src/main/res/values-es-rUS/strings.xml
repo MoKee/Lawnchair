@@ -115,6 +115,7 @@
   <string name="folder_name_format">Carpeta: <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
+  <string name="widget_button_text">Widgets</string>
   <!-- Text for wallpaper change button -->
   <string name="wallpaper_button_text">Fondos de pantalla</string>
   <!-- Text for settings button -->
@@ -234,10 +235,23 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Bloqueo de pantalla</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="which_wallpaper_option_home_screen_and_lock_screen">Pantalla de inicio y de bloqueo</string>
+  <string name="title_show_google_app">Ver %1$s</string>
+  <string name="title_show_google_app_default">Mostrar Google App</string>
   <string name="label_search">Buscar</string>
   <string name="label_voice_search">Búsqueda por voz</string>
+  <string name="shortcuts_menu_with_notifications_description">%1$d accesos directos y %2$d notificaciones de %3$s</string>
+  <string name="notifications_header">Notificaciones</string>
+  <string name="widgets_bottom_sheet_title">%1$s widgets</string>
   <!-- About Lawnchair -->
+  <string name="about_text">Lawnchair es un Launcher creado por Till Kottmann (conocido como deletescape). Estabasado envío Launcher3 de AOSP.</string>
   <string name="about_title">Acerca de</string>
+  <string name="changelog_title">Registro de cambios de la build #%d</string>
+  <string name="week_day_format">%1$s, %2$s</string>
+  <string name="icon_pack_preference_title">Paquete de iconos</string>
+  <string name="icon_pack_preference_summary">Selecciona un paquete de íconos</string>
+  <string name="hotseat_uses_extracted_colors_pref_title">El Dock usa el color del fondo de pantalla</string>
+  <string name="hotseat_uses_extracted_colors_pref_on">El Dock será coloreado con un color extraído de la imagen de fondo</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
   <!-- Customization Color -->
@@ -287,6 +301,7 @@
   <string name="theme_pref_title">Tema</string>
   <string name="theme_dark">Oscuro</string>
   <string name="theme_black">Negro</string>
+  <string name="all_icons">Todos los iconos</string>
   <string name="pull_down_do_nothing">No hacer nada</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
