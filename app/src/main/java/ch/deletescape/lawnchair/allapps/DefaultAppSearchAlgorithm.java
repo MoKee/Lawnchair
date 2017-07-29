@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 The Android Open Source Project
+ * Copyright (C) 2017 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,12 +17,15 @@
 package ch.deletescape.lawnchair.allapps;
 
 import android.os.Handler;
+import android.util.Log;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import ch.deletescape.lawnchair.AppInfo;
 import ch.deletescape.lawnchair.util.ComponentKey;
+import ch.deletescape.lawnchair.util.Pinyin;
 
 /**
  * The default search implementation.
@@ -29,10 +33,12 @@ import ch.deletescape.lawnchair.util.ComponentKey;
 public class DefaultAppSearchAlgorithm {
 
     private final List<AppInfo> mApps;
+    private final HashMap<String, Pinyin> mAppsPinYinMap;
     protected final Handler mResultHandler;
 
-    public DefaultAppSearchAlgorithm(List<AppInfo> apps) {
+    public DefaultAppSearchAlgorithm(List<AppInfo> apps, HashMap<String, Pinyin> appsPinYinMap) {
         mApps = apps;
+        mAppsPinYinMap = appsPinYinMap;
         mResultHandler = new Handler();
     }
 
@@ -71,10 +77,17 @@ public class DefaultAppSearchAlgorithm {
         int queryLength = query.length();
 
         String title = info.title.toString();
+        Pinyin pinyin = mAppsPinYinMap.get(info.componentName.getPackageName());
+
         int titleLength = title.length();
 
-        if (titleLength < queryLength || queryLength <= 0) {
+        if (titleLength < queryLength && titleLength == pinyin.pinyinLong.length() || queryLength <= 0) {
             return false;
+        }
+
+        if (pinyin.pinyinShort.contains(Pinyin.normalize(query)) ||
+                pinyin.pinyinLong.contains(Pinyin.normalize(query))) {
+            return true;
         }
 
         int lastType;
