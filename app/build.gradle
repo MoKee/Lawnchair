@@ -69,8 +69,8 @@ android {
             }
         }
         release {
-//            minifyEnabled true
-//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.mokee
             android.applicationVariants.all { variant ->
                 variant.outputs.all {
