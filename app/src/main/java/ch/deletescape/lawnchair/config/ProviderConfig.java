@@ -18,5 +18,5 @@ package ch.deletescape.lawnchair.config;
 
 public class ProviderConfig {
 
-    public static final String AUTHORITY = "ch.deletescape.lawnchair.settings";
+    public static final String AUTHORITY = "org.mokee.lawnchair.settings";
 }

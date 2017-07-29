@@ -10,16 +10,16 @@
         android:label="@string/permlab_install_shortcut"
         android:protectionLevel="dangerous" />
     <permission
-        android:name="ch.deletescape.lawnchair.permission.QSB"
+        android:name="org.mokee.lawnchair.permission.QSB"
         android:label="QSB"
         android:protectionLevel="normal" />
     <permission
-        android:name="ch.deletescape.lawnchair.permission.READ_SETTINGS"
+        android:name="org.mokee.lawnchair.permission.READ_SETTINGS"
         android:description="@string/permdesc_read_settings"
         android:label="@string/permlab_read_settings"
         android:protectionLevel="normal" />
     <permission
-        android:name="ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+        android:name="org.mokee.lawnchair.permission.WRITE_SETTINGS"
         android:description="@string/permdesc_write_settings"
         android:label="@string/permlab_write_settings"
         android:protectionLevel="signatureOrSystem" />
@@ -32,9 +32,9 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="ch.deletescape.lawnchair.permission.READ_SETTINGS" />
-    <uses-permission android:name="ch.deletescape.lawnchair.permission.WRITE_SETTINGS" />
-    <uses-permission android:name="ch.deletescape.lawnchair.permission.QSB" />
+    <uses-permission android:name="org.mokee.lawnchair.permission.READ_SETTINGS" />
+    <uses-permission android:name="org.mokee.lawnchair.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="org.mokee.lawnchair.permission.QSB" />
 
     <application
         android:name=".App"
@@ -108,10 +108,10 @@
 
         <provider
             android:name=".LauncherProvider"
-            android:authorities="ch.deletescape.lawnchair.settings"
+            android:authorities="org.mokee.lawnchair.settings"
             android:exported="true"
-            android:readPermission="ch.deletescape.lawnchair.permission.READ_SETTINGS"
-            android:writePermission="ch.deletescape.lawnchair.permission.WRITE_SETTINGS" />
+            android:readPermission="org.mokee.lawnchair.permission.READ_SETTINGS"
+            android:writePermission="org.mokee.lawnchair.permission.WRITE_SETTINGS" />
 
         <receiver
             android:name=".InstallShortcutReceiver"
