@@ -75,6 +75,8 @@
   *;
 }
 
+-dontwarn *
+
 -keep class ch.deletescape.lawnchair.DeferredHandler {
  *;
 }

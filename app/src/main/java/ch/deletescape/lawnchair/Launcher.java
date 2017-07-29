@@ -36,7 +36,6 @@ import android.content.BroadcastReceiver;
 import android.content.ComponentCallbacks2;
 import android.content.ComponentName;
 import android.content.Context;
-import android.content.ContextWrapper;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -59,7 +58,6 @@ import android.os.StrictMode;
 import android.os.UserHandle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.v7.view.ContextThemeWrapper;
 import android.text.Selection;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
@@ -333,6 +331,8 @@ public class Launcher extends Activity
     private LauncherTab mLauncherTab;
 
     private PopupDataProvider mPopupDataProvider;
+
+    private boolean mDisableEditing;
 
     @Thunk
     Runnable mBuildLayersRunnable = new Runnable() {
@@ -934,6 +934,8 @@ public class Launcher extends Activity
             updateWallpaper = false;
             mBlurWallpaperProvider.updateAsync();
         }
+
+        mDisableEditing = !FeatureFlags.enableEditing(this);
     }
 
     @Override
@@ -1890,6 +1892,10 @@ public class Launcher extends Activity
 
     public boolean isWorkspaceLocked() {
         return mWorkspaceLoading || mPendingRequestArgs != null;
+    }
+
+    public boolean isEditingDisabled() {
+        return mDisableEditing;
     }
 
     public boolean isWorkspaceLoading() {
