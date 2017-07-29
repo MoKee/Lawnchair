@@ -378,6 +378,16 @@
   <string name="units_imperial">英制</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">天氣</string>
+  <string name="pref_weather_title">啟用天氣</string>
+  <string name="pref_weather_units">天氣單位</string>
+  <string name="pref_weather_city_summary">為了獲得最佳結果，請設定國家/地區</string>
+  <string name="pref_weather_city_title">城市</string>
   <string name="none">無</string>
+  <string name="pref_applyTheme">套用主題至</string>
+  <string name="pref_applyBlur">套用模糊效果</string>
+  <string name="search_bar">搜尋列</string>
   <string name="folder">資料夾</string>
+  <string name="dock_allapps"><![CDATA[座架列與所有應用程式]]></string>
+  <string name="app_shortcuts">應用程式捷徑</string>
+  <string name="blur_effect">模糊效果</string>
 </resources>
