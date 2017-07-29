@@ -29,10 +29,10 @@ android {
             keyPassword System.getenv("KEY_PASSWORD")
         }
         mokee {
-            storeFile file(System.getenv("STORE_PATH"))
-            storePassword System.getenv("STORE_PASSWORD")
+            storeFile file(CERT_STORE_PATH)
+            storePassword CERT_STORE_PASSWORD
             keyAlias "mokee.keystore"
-            keyPassword System.getenv("KEY_PASSWORD")
+            keyPassword CERT_KEY_PASSWORD
         }
     }
     defaultConfig {
@@ -44,7 +44,7 @@ android {
         buildConfigField "int", "TRAVIS_BUILD_NUMBER", System.getenv("TRAVIS_BUILD_NUMBER") ?: "0"
         buildConfigField "String", "CHANGELOG", "\"${getChangelog()}\""
         buildConfigField "String", "MOBILE_CENTER_KEY", "\"" + System.getenv("MOBILE_CENTER_KEY") + "\""
-        buildConfigField "String", "OPENWEATHERMAP_KEY", "\"" + System.getenv("OPENWEATHERMAP_KEY") + "\""
+        buildConfigField "String", "OPENWEATHERMAP_KEY", "\"" + OPENWEATHERMAP_KEY + "\""
         if (System.getenv("TRAVIS") == "true") {
             versionCode = Integer.valueOf(System.getenv("TRAVIS_BUILD_NUMBER"))
             versionName = "Travis-" + System.getenv("TRAVIS_BUILD_NUMBER")
