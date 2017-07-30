@@ -392,4 +392,6 @@
   <string name="dock_allapps"><![CDATA[Dok & všechny aplikace]]></string>
   <string name="app_shortcuts">Zástupce aplikací</string>
   <string name="blur_effect">Efekt rozostření</string>
+  <string name="enable_editing_pref_title">Povolit úpravu pracovního prostoru</string>
+  <string name="pref_weather_provider">Poskytovatel počasí</string>
 </resources>
