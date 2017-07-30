@@ -18,5 +18,5 @@ package ch.deletescape.lawnchair.config
 
 object ProviderConfig {
 
-    val AUTHORITY = "org.mokee.lawnchair.settings"
+    const val AUTHORITY = "org.mokee.lawnchair.settings"
 }
