@@ -288,8 +288,8 @@
   <string name="restart_lawnchair_pref_title">Перезапустить Lawnchair</string>
   <string name="restart_lawnchair_pref_summary">Может быть полезно, если некоторые параметры не применяются должным образом</string>
   <string name="rebuild_icondb_pref_title">Перестроение базы данных значков</string>
-  <string name="pinch_to_overview_pref_title">«Pinch to zoom»</string>
-  <string name="pinch_to_overview_pref_summary">Показывать все рабочие столы по этому жесту</string>
+  <string name="pinch_to_overview_pref_title">Щипок для обзора</string>
+  <string name="pinch_to_overview_pref_summary">Щипок на домашнем экране открывает обзор</string>
   <string name="light_statusbar_pref_title">Светлая строка состояния</string>
   <string name="light_statusbar_pref_force">В строке состояния будут отображаться темные значки</string>
   <string name="light_statusbar_pref_off">В строке состояния всегда будут отображаться светлые значки</string>
@@ -358,10 +358,10 @@
   <string name="pref_cat_miscellaneous">Прочее</string>
   <string name="pref_cat_hotseat">Док-бар</string>
   <string name="pref_cat_theme">Темы</string>
-  <string name="theme_pref_title">Темы</string>
+  <string name="theme_pref_title">Тема</string>
   <string name="theme_light">Светлая</string>
-  <string name="theme_dark">Темнота</string>
-  <string name="theme_black">Чёрный</string>
+  <string name="theme_dark">Тёмная</string>
+  <string name="theme_black">Чёрная</string>
   <string name="hide_hotseat_pref_title">Скрыть док-бар</string>
   <string name="all_icons">Все иконки</string>
   <string name="pull_down_action_pref_title">Потянуть вниз для действий</string>
@@ -393,4 +393,6 @@
   <string name="app_shortcuts">Шорткаты приложений</string>
   <string name="blur_effect">Эффект размытия</string>
   <string name="enable_editing_pref_title">Включить редактирование рабочего пространства</string>
+  <string name="pref_weather_provider">Поставщик данных</string>
+  <string name="loading">Загрузка...</string>
 </resources>

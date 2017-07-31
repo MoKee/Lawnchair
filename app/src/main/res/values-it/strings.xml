@@ -383,9 +383,11 @@
   <string name="pref_weather_city_summary">Per ottenere migliori risultati includi il codice paese</string>
   <string name="pref_weather_city_title">Città</string>
   <string name="none">Nessuno</string>
+  <string name="pref_applyTheme">Applica Tema</string>
   <string name="search_bar">Barra di ricerca</string>
   <string name="folder">Cartella</string>
   <string name="dock_allapps"><![CDATA[Dock & tutte le applicazioni]]></string>
   <string name="app_shortcuts">Scorciatoie applicazioni</string>
   <string name="blur_effect">Effetto sfocatura</string>
+  <string name="loading">Caricamento...</string>
 </resources>

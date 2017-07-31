@@ -361,7 +361,7 @@
   <string name="theme_dark">黑暗</string>
   <string name="theme_black">黑色</string>
   <string name="hide_hotseat_pref_title">隐藏Dock</string>
-  <string name="all_icons">所有图标</string>
+  <string name="all_icons">全部图标</string>
   <string name="pull_down_action_pref_title">下拉行为</string>
   <string name="pull_down_do_nothing">无操作</string>
   <string name="pull_down_notis">展开通知栏</string>
@@ -392,4 +392,5 @@
   <string name="blur_effect">模糊效果</string>
   <string name="enable_editing_pref_title">启用编辑工作区</string>
   <string name="pref_weather_provider">天气提供商</string>
+  <string name="loading">正在加载</string>
 </resources>

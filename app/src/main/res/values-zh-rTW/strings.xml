@@ -391,4 +391,6 @@
   <string name="app_shortcuts">應用程式捷徑</string>
   <string name="blur_effect">模糊效果</string>
   <string name="enable_editing_pref_title">啟用編輯工作區</string>
+  <string name="pref_weather_provider">天氣供應商</string>
+  <string name="loading">載入中...</string>
 </resources>
