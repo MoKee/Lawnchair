@@ -33,5 +33,5 @@
         android:duplicateParentState="true"
         android:focusable="false"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"/>
+        android:layout_marginEnd="24dp"/>
 </RelativeLayout>
