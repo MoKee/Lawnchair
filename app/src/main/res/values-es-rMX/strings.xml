@@ -234,6 +234,7 @@
   <string name="which_wallpaper_option_lock_screen">Bloqueo de pantalla</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <string name="label_search">Buscar</string>
+  <string name="label_voice_search">Búsqueda por voz</string>
   <!-- About Lawnchair -->
   <string name="about_title">Acerca de</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
@@ -285,8 +286,10 @@
   <string name="theme_pref_title">Tema</string>
   <string name="theme_dark">Oscuro</string>
   <string name="theme_black">Negro</string>
+  <string name="pull_down_do_nothing">Sin Acción</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="pref_cat_weather">El Tiempo</string>
   <string name="none">Ninguno</string>
   <string name="folder">Carpeta</string>
 </resources>
