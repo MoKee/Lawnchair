@@ -115,6 +115,7 @@
   <string name="folder_name_format">Carpeta: <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
+  <string name="widget_button_text">Widgets</string>
   <!-- Text for wallpaper change button -->
   <string name="wallpaper_button_text">Fondos de pantalla</string>
   <!-- Text for settings button -->
@@ -192,6 +193,7 @@
   <!-- Accessibility confirmation for widget resize. -->
   <string name="widget_resized">Se ha modificado el tamaño del widget a <xliff:g id="NUMBER_0">%1$s</xliff:g> de ancho y <xliff:g id="NUMBER_1">%2$s</xliff:g> de alto</string>
   <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
+  <string name="action_deep_shortcut">Accesos directos</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
   <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> accesos directos de <xliff:g id="APP_NAME">%2$s</xliff:g></string>
   <string name="edit_drop_target_label">Editar</string>
@@ -233,13 +235,81 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Bloqueo de pantalla</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="which_wallpaper_option_home_screen_and_lock_screen">Pantalla de inicio y pantalla de bloqueo</string>
+  <string name="title_show_google_app">Mostrar %1$s</string>
+  <string name="title_show_google_app_default">Mostrar aplicación de Google</string>
   <string name="label_search">Buscar</string>
   <string name="label_voice_search">Búsqueda por voz</string>
+  <string name="shortcuts_menu_with_notifications_description">%1$d atajos y %2$d notificaciones para %3$s</string>
+  <string name="notifications_header">Notificaciones</string>
+  <string name="widgets_bottom_sheet_title">%1$s widgets</string>
   <!-- About Lawnchair -->
+  <string name="about_text">Lawnchair es un Launcher creado por Till Kottmann (alias deletescape). Basado en Launcher3 de AOSP.</string>
   <string name="about_title">Acerca de</string>
+  <string name="changelog_title">Registro de cambios de la build #%d</string>
+  <string name="week_day_format">%1$s: %2$s</string>
+  <string name="icon_pack_preference_title">Paquete de iconos</string>
+  <string name="icon_pack_preference_summary">Selecciona un paquete de iconos</string>
+  <string name="hotseat_uses_extracted_colors_pref_title">Utilizar el color del fondo de pantalla para el Dock</string>
+  <string name="hotseat_uses_extracted_colors_pref_on">El dock se colorea con el color extraido del fondo de pantalla</string>
+  <string name="hotseat_uses_extracted_colors_pref_off">El dock será gris ajustado al brillo del fondo de pantalla</string>
+  <string name="transparent_hotseat_pref_title">Dock transparente</string>
+  <string name="dynamic_ui_pref_title">Extrae el color del fondo de pantalla</string>
+  <string name="blur_pref_title">Habilitar desenfoque</string>
+  <string name="blur_pref_summary">Aplicar efecto desenfoque a las partes de la interfaz que no son compatibles con los fondos de pantallas vivos</string>
+  <string name="blur_radius_pref_title">Radio de desenfoque</string>
+  <string name="white_google_icon_pref_title">Usa el icono blanco de Google</string>
+  <string name="hide_icon_labels_pref_title">Ocultar el nombre de la aplicaciones en la pantalla de inicio</string>
+  <string name="workspace_label_color_hue_pref_title">Color y etiquetas de aplicaciones de la pantalla de inicio</string>
+  <string name="workspace_label_color_variation_pref_title">Variante de color para las etiquetas de las aplicaciones en la pantalla de inicio</string>
+  <string name="all_apps_opacity_pref_title">Opacidad del cajón de aplicaciones</string>
+  <string name="num_cols_pref_title">Número de columnas</string>
+  <string name="num_rows_pref_title">Número de filas</string>
+  <string name="num_hotseat_icons_pref_title">Número de iconos en el dock</string>
+  <string name="icon_scale_pref_title">Tamaño de iconos</string>
+  <string name="icon_text_scale_pref_title">Tamaño del texto del icono</string>
+  <string name="full_width_width_widgets_pref_title">Widgets de ancho completo</string>
+  <string name="full_width_widgets_pref_summary">Permitir a los widgets mostrarse sobre todo el ancho sin relleno</string>
+  <string name="notification_access_pref_title">Insignias de notificación y vista previa</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
+  <string name="ui_pref_title">Interfaz de usuario</string>
+  <string name="pixel_style_pref_title">Estilo Pixel</string>
+  <string name="behavior_pref_title">Comportamiento</string>
+  <string name="debug_pref_title">Depurar</string>
+  <string name="import_export_pref_title">Importar/Exportar</string>
+  <string name="show_pixel_bar_pref_title">Mostrar barra superior al estilo Pixel</string>
+  <string name="use_wide_searchbar_pref_title">Usar barra de busqueda amplia</string>
+  <string name="show_mic_pref_title">Mostrar botón del asistente de Google</string>
+  <string name="use_round_searhbar">Utilizar barra de búsqueda redondeada</string>
+  <string name="pixel_style_icons_pref_title">Usar iconos estilo Pixel</string>
+  <string name="pixel_style_icons_pref_summary">Cuando la opción esté habilitada, se utilizarán iconos circulares si es posible</string>
+  <string name="show_google_now_tab_pref_title">Mostrar página de Google Now</string>
+  <string name="restart_lawnchair_pref_title">Reiniciar Lawnchair</string>
+  <string name="restart_lawnchair_pref_summary">Util para los cambios que no se aplican correctamente</string>
+  <string name="rebuild_icondb_pref_title">Reconstruir la base de datos de iconos</string>
+  <string name="pinch_to_overview_pref_title">Pellizcar para vista general</string>
+  <string name="pinch_to_overview_pref_summary">Pellizcar en el escritorio para abrir la vista general</string>
+  <string name="light_statusbar_pref_title">Barra de estado clara</string>
+  <string name="light_statusbar_pref_force">La barra de estado mostrará iconos oscuros</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
+  <string name="haptic_feedback_pref_title">Habilitar vibración</string>
+  <string name="keep_scroll_state_pref_title">Mantener posición de desplazamiento</string>
+  <string name="keep_scroll_state_pref_summary">Guarda los cambios de la posición de desplazamiento del cajón</string>
+  <string name="home_opens_drawer_pref_title">El botón de inicio abre el cajón de aplicaciones</string>
+  <string name="home_opens_drawer_pref_summary">Al presionar el botón de inicio en la pantalla de inicio, se abrirá el cajón de aplicaciones</string>
+  <string name="show_hidden_pref_title">Mostrar aplicaciones ocultas</string>
+  <string name="show_hidden_pref_on">Se mostrarán las aplicaciones ocultas para cambiar los ajustes de visibilidad</string>
+  <string name="show_hidden_pref_off">Las aplicaciones ocultas no serán visibles</string>
+  <string name="export_db_title">Exportar base de datos</string>
+  <string name="import_db_title">Importar base de datos</string>
+  <string name="export_prefs_title">Parámetros de exportación</string>
+  <string name="import_prefs_title">Importar ajustes</string>
+  <string name="notification_listener_label">Lawnchair - Insignia en notificaciones</string>
+  <string name="color_extraction_label">Lawnchair - Extracción de colores</string>
+  <string name="test_title">Prueba</string>
+  <string name="visibility">Visibilidad</string>
   <!-- Customization Color -->
+  <string name="white">Blanco</string>
   <!-- Customization Color -->
   <string name="black">Negro</string>
   <!-- Customization Color -->
@@ -265,6 +335,7 @@
   <!-- Customization Color -->
   <string name="light_green">Verde claro</string>
   <!-- Customization Color -->
+  <string name="lime">Lima</string>
   <!-- Customization Color -->
   <string name="yellow">Amarillo</string>
   <!-- Customization Color -->
@@ -276,20 +347,51 @@
   <!-- Customization Color -->
   <string name="brown">Marrón</string>
   <!-- Customization Color -->
+  <string name="grey">Gris</string>
   <!-- Customization Color -->
   <string name="blue_grey">Azul Gris</string>
   <string name="default_text">Predeterminado</string>
   <string name="edit_icon_reset">Restablecer</string>
+  <string name="show_top_shadow_title">Ver sombras superior de los objetos</string>
   <string name="pref_cat_homescreen">Pantalla de inicio</string>
   <string name="pref_cat_miscellaneous">Otros</string>
+  <string name="pref_cat_hotseat">Base</string>
   <string name="pref_cat_theme">Tema</string>
   <string name="theme_pref_title">Tema</string>
+  <string name="theme_light">Claro</string>
   <string name="theme_dark">Oscuro</string>
   <string name="theme_black">Negro</string>
+  <string name="hide_hotseat_pref_title">Ocultar dock</string>
+  <string name="all_icons">Todos los iconos</string>
+  <string name="pull_down_action_pref_title">Tirar para acción</string>
   <string name="pull_down_do_nothing">Sin Acción</string>
+  <string name="pull_down_notis">Mostrar notificaciones</string>
+  <string name="pull_down_search">Búsqueda abierta</string>
+  <string name="pull_down_apps_search">Buscar aplicación</string>
+  <string name="enable_screen_rotation">Habilitar la rotación de la pantalla</string>
   <!-- Import/Export Strings -->
+  <string name="imexport_success">¡Hecho!</string>
+  <string name="imexport_error">Error: Error al copiar el archivo</string>
+  <string name="imexport_no_backup_found">Ninguna copia de seguridad encontrada</string>
+  <string name="imexport_external_storage_unreadable">Almacenamiento externo no es legible (conceder permisos en ajustes)</string>
+  <string name="imexport_external_storage_unwritable">Almacenamiento externo no es legible (conceder permisos en ajustes)</string>
+  <string name="units_metric">Métrico</string>
+  <string name="units_imperial">Imperial</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">El Tiempo</string>
+  <string name="pref_weather_title">Activar el tiempo</string>
+  <string name="pref_weather_units">Unidades meteorológicas</string>
+  <string name="pref_weather_city_summary">Para obtener los mejores resultados incluyen código de país</string>
+  <string name="pref_weather_city_title">Ciudad</string>
   <string name="none">Ninguno</string>
+  <string name="pref_applyTheme">Aplicar tema en</string>
+  <string name="pref_applyBlur">Aplique desenfoque de</string>
+  <string name="search_bar">Barra de búsqueda</string>
   <string name="folder">Carpeta</string>
+  <string name="dock_allapps"><![CDATA[Dock todas las aplicaciones]]></string>
+  <string name="app_shortcuts">Accesos directos de aplicaciones</string>
+  <string name="blur_effect">Efecto de desenfoque</string>
+  <string name="enable_editing_pref_title">Habilitar la edición del espacio de trabajo</string>
+  <string name="pref_weather_provider">Proveedor del tiempo</string>
+  <string name="loading">Cargando...</string>
 </resources>
