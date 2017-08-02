@@ -52,7 +52,7 @@
   <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
   <string name="all_apps_search_market_message">थप अनुप्रयोगहरू खोज्नुहोस्</string>
   <!-- Drag and drop -->
-  <!-- Error message when user has filled a home screen -->
+  <!-- Error message when user has filled a page -->
   <string name="out_of_space">यो गृह स्क्रिनमा कुनै थप ठाउँ छैन।</string>
   <!-- Error message when user has filled the hotseat -->
   <string name="hotseat_out_of_space">मनपर्ने ट्रे अब कुनै ठाँउ छैन</string>

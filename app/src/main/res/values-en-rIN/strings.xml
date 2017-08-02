@@ -42,7 +42,7 @@
   <string name="all_apps_no_search_results">No Apps found matching \"<xliff:g id="QUERY">%1$s</xliff:g>\"</string>
   <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
   <!-- Drag and drop -->
-  <!-- Error message when user has filled a home screen -->
+  <!-- Error message when user has filled a page -->
   <!-- Error message when user has filled the hotseat -->
   <string name="hotseat_out_of_space">No more room in the Favourites tray</string>
   <!-- All applications label -->
