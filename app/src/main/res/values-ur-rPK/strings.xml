@@ -98,7 +98,7 @@
   <string name="default_scroll_format">‏صفحہ ‎%1$d از ‎%2$d</string>
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
   <string name="workspace_scroll_format">‏ہوم اسکرین ‎%1$d از ‎%2$d</string>
-  <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
+  <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
   <string name="workspace_new_page">نیا ہوم اسکرین صفحہ</string>
   <!-- Folder accessibility -->
   <!-- The format string for when a folder is opened, speaks the dimensions -->

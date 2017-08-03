@@ -64,7 +64,7 @@
   <!-- The format string for when an app is temporarily disabled. -->
   <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
-  <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
+  <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
   <!-- Folder accessibility -->
   <!-- The format string for when a folder is opened, speaks the dimensions -->
   <!-- Instruction that clicking outside will close folder -->

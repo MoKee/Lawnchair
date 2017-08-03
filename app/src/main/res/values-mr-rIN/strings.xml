@@ -98,7 +98,7 @@
   <string name="default_scroll_format">%2$d पैकी %1$d पृष्ठ</string>
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
   <string name="workspace_scroll_format">%2$d पैकी %1$d मुख्य स्क्रीन</string>
-  <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
+  <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
   <string name="workspace_new_page">नवीन मुख्य स्क्रीन पृष्ठ</string>
   <!-- Folder accessibility -->
   <!-- The format string for when a folder is opened, speaks the dimensions -->

@@ -98,7 +98,7 @@
   <string name="default_scroll_format">%2$dలో %1$dవ పేజీ</string>
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
   <string name="workspace_scroll_format">%2$dలో %1$dవ హోమ్ స్క్రీన్</string>
-  <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
+  <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
   <string name="workspace_new_page">కొత్త హోమ్ స్క్రీన్ పేజీ</string>
   <!-- Folder accessibility -->
   <!-- The format string for when a folder is opened, speaks the dimensions -->

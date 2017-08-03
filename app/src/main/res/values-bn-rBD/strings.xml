@@ -98,7 +98,7 @@
   <string name="default_scroll_format">%2$dটির মধ্যে %1$dটি পৃষ্ঠা</string>
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
   <string name="workspace_scroll_format">%2$dটির %1$d নম্বর হোম স্ক্রীন</string>
-  <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
+  <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
   <string name="workspace_new_page">নতুন হোম স্ক্রীনের পৃষ্ঠা</string>
   <!-- Folder accessibility -->
   <!-- The format string for when a folder is opened, speaks the dimensions -->

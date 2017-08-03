@@ -75,7 +75,7 @@
   <string name="disabled_app_label">Disabled <xliff:g id="APP_NAME">%1$s</xliff:g></string>
   <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
-  <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
+  <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
   <!-- Folder accessibility -->
   <!-- The format string for when a folder is opened, speaks the dimensions -->
   <string name="folder_opened">Folder opened, <xliff:g id="WIDTH">%1$d</xliff:g> by <xliff:g id="HEIGHT">%2$d</xliff:g></string>
