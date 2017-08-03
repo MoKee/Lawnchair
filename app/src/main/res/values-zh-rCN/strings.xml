@@ -75,11 +75,11 @@
   <!-- Permission short label -->
   <string name="permlab_read_settings">读取主屏幕设置和快捷方式</string>
   <!-- Permission description -->
-  <string name="permdesc_read_settings">允许应用读取主屏幕中的设置和快捷方式</string>
+  <string name="permdesc_read_settings">允许应用读取主屏幕设置和快捷方式</string>
   <!-- Permission short label -->
   <string name="permlab_write_settings">编辑主屏幕设置和快捷方式</string>
   <!-- Permission description -->
-  <string name="permdesc_write_settings">允许应用更改主屏幕中的设置和快捷方式</string>
+  <string name="permdesc_write_settings">允许应用编辑主屏幕设置和快捷方式</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
   <string name="msg_no_phone_permission">不允许使用“<xliff:g id="APP_NAME">%1$s</xliff:g>”拨打电话</string>
   <!-- Widgets: -->
@@ -372,8 +372,8 @@
   <string name="imexport_success">成功</string>
   <string name="imexport_error">错误： 无法复制文件</string>
   <string name="imexport_no_backup_found">未找到备份</string>
-  <string name="imexport_external_storage_unreadable">外部存储不可读取（在设置授予权限）</string>
-  <string name="imexport_external_storage_unwritable">外部存储不可写入（在设置授予权限）</string>
+  <string name="imexport_external_storage_unreadable">外部存储不可读取（在系统设置中授予权限）</string>
+  <string name="imexport_external_storage_unwritable">外部存储不可写入（在系统设置中授予权限）</string>
   <string name="units_metric">公制</string>
   <string name="units_imperial">英制</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
