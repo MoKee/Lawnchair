@@ -254,7 +254,6 @@
     <!-- About Lawnchair -->
     <string name="about_text">Lawnchair is a Launcher app created by Till Kottmann (aka deletescape). It\'s based on Launcher3 from AOSP.</string>
     <string name="about_title">About</string>
-    <string name="changelog_title">Changelog for build #%d</string>
     <string name="week_day_format">%1$s, %2$s</string>
     <string name="icon_pack_preference_title">Icon Pack</string>
     <string name="icon_pack_preference_summary">Select an icon Pack</string>
@@ -313,47 +312,4 @@
     <string name="color_extraction_label">Lawnchair - Color extraction</string>
     <string name="test_title">Test</string>
     <string name="visibility">Visibility</string>
-    <!-- Customization Color -->
-    <string name="white">White</string>
-    <!-- Customization Color -->
-    <string name="black">Black</string>
-    <!-- Customization Color -->
-    <string name="red">Red</string>
-    <!-- Customization Color -->
-    <string name="pink">Pink</string>
-    <!-- Customization Color -->
-    <string name="purple">Purple</string>
-    <!-- Customization Color -->
-    <string name="deep_purple">Deep Purple</string>
-    <!-- Customization Color -->
-    <string name="indigo">Indigo</string>
-    <!-- Customization Color -->
-    <string name="blue">Blue</string>
-    <!-- Customization Color -->
-    <string name="light_blue">Light Blue</string>
-    <!-- Customization Color -->
-    <string name="cyan">Cyan</string>
-    <!-- Customization Color -->
-    <string name="teal">Teal</string>
-    <!-- Customization Color -->
-    <string name="green">Green</string>
-    <!-- Customization Color -->
-    <string name="light_green">Light Green</string>
-    <!-- Customization Color -->
-    <string name="lime">Lime</string>
-    <!-- Customization Color -->
-    <string name="yellow">Yellow</string>
-    <!-- Customization Color -->
-    <string name="amber">Amber</string>
-    <!-- Customization Color -->
-    <string name="orange">Orange</string>
-    <!-- Customization Color -->
-    <string name="deep_orange">Deep Orange</string>
-    <!-- Customization Color -->
-    <string name="brown">Brown</string>
-    <!-- Customization Color -->
-    <string name="grey">Grey</string>
-    <!-- Customization Color -->
-    <string name="blue_grey">Blue Grey</string>
-    <string name="default_text">Default</string>
 </resources>
