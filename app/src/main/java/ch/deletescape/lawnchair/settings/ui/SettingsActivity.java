@@ -26,7 +26,9 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.ListPreference;
 import android.preference.Preference;
+import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
@@ -49,6 +51,7 @@ import ch.deletescape.lawnchair.R;
 import ch.deletescape.lawnchair.Utilities;
 import ch.deletescape.lawnchair.blur.BlurWallpaperProvider;
 import ch.deletescape.lawnchair.config.FeatureFlags;
+import ch.deletescape.lawnchair.graphics.IconShapeOverride;
 
 /**
  * Settings activity for Launcher. Currently implements the following setting: Allow rotation
@@ -182,6 +185,13 @@ public class SettingsActivity extends Activity implements PreferenceFragment.OnP
                 findPreference("pref_weatherProvider").setEnabled(BuildConfig.AWARENESS_API_ENABLED && hasPermission);
                 String city = sharedPrefs.getString("pref_weather_city", "Lucerne, CH");
                 findPreference("pref_weather_city").setSummary(city);
+                Preference overrideShapePreference = findPreference("pref_override_icon_shape");
+                if (IconShapeOverride.Companion.isSupported(getActivity())) {
+                    IconShapeOverride.Companion.handlePreferenceUi((ListPreference) overrideShapePreference);
+                } else {
+                    ((PreferenceCategory) findPreference("prefCat_homeScreen"))
+                            .removePreference(overrideShapePreference);
+                }
             }
         }
 
@@ -189,9 +199,6 @@ public class SettingsActivity extends Activity implements PreferenceFragment.OnP
         public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
             if (preference.getKey() != null) {
                 switch (preference.getKey()) {
-                    case "notification_access":
-                        startActivity(new Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS));
-                        break;
                     case "kill":
                         LauncherAppState.getInstance().getLauncher().scheduleKill();
                         break;
