@@ -47,11 +47,11 @@ android {
 
         ext.awarenessApiKey = AWARENESS_API_KEY
         buildConfigField "boolean", "AWARENESS_API_ENABLED", ext.awarenessApiKey ? "true" : "false"
-        manifestPlaceholders = [ awarenessApiKey: ext.awarenessApiKey ?: "null"]
+        manifestPlaceholders = [awarenessApiKey: ext.awarenessApiKey ?: "null"]
 
         if (System.getenv("TRAVIS") == "true") {
             versionCode = Integer.valueOf(System.getenv("TRAVIS_BUILD_NUMBER"))
-            versionName = "Travis-" + System.getenv("TRAVIS_BUILD_NUMBER")
+            versionName = System.getenv("MAJOR_MINOR") + "." + System.getenv("TRAVIS_BUILD_NUMBER")
         } else {
             long timestamp = System.currentTimeMillis() / 1000
             versionCode Integer.valueOf(timestamp.toString())
