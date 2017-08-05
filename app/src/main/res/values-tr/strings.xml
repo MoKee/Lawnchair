@@ -292,4 +292,5 @@
   <string name="pref_cat_weather">Hava durumu</string>
   <string name="none">Hiçbiri</string>
   <string name="folder">Klasör</string>
+  <string name="icon_shape_circle">Çember</string>
 </resources>

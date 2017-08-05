@@ -393,4 +393,5 @@
   <string name="enable_editing_pref_title">启用编辑工作区</string>
   <string name="pref_weather_provider">天气提供商</string>
   <string name="loading">正在加载</string>
+  <string name="icon_shape_circle">环形</string>
 </resources>

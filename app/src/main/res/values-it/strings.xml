@@ -390,4 +390,5 @@
   <string name="app_shortcuts">Scorciatoie applicazioni</string>
   <string name="blur_effect">Effetto sfocatura</string>
   <string name="loading">Caricamento...</string>
+  <string name="icon_shape_circle">Cerchio</string>
 </resources>

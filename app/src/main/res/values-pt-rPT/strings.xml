@@ -306,4 +306,5 @@
   <string name="pref_cat_weather">Meteorologia</string>
   <string name="none">Nenhum</string>
   <string name="folder">Pasta</string>
+  <string name="icon_shape_circle">Círculo</string>
 </resources>

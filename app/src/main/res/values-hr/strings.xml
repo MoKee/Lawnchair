@@ -262,4 +262,5 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Vrijeme</string>
   <string name="none">Ništa</string>
+  <string name="icon_shape_circle">Krug</string>
 </resources>

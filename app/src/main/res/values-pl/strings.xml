@@ -295,4 +295,5 @@
   <string name="pref_cat_weather">Pogoda</string>
   <string name="none">Brak</string>
   <string name="folder">Katalog</string>
+  <string name="icon_shape_circle">Okrąg</string>
 </resources>

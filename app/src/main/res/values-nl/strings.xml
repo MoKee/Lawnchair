@@ -288,4 +288,5 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Geen</string>
   <string name="folder">Map</string>
+  <string name="icon_shape_circle">Cirkel</string>
 </resources>
