@@ -22,7 +22,7 @@
   <!-- Application name -->
   <!-- Default folder name -->
   <!-- Work folder name -->
-  <string name="work_folder_name">Arbeit</string>
+  <string name="work_folder_name">Arbeitsordner</string>
   <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
   <string name="activity_not_found">App ist nicht installiert.</string>
   <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
@@ -394,5 +394,12 @@
   <string name="enable_editing_pref_title">Bearbeitungsbereich aktivieren</string>
   <string name="pref_weather_provider">Wetter-Anbieter</string>
   <string name="loading">Wird geladen...</string>
+  <string name="icon_shape_override_label">Symbol-Form ändern</string>
+  <string name="icon_shape_system_default">Nicht ändern</string>
+  <string name="icon_shape_square">Quadrat</string>
+  <string name="icon_shape_rounded_square">Abgerundete Quadrate</string>
+  <string name="icon_shape_squircle">Kreis</string>
   <string name="icon_shape_circle">Kreis</string>
+  <string name="icon_shape_teardrop">Träne</string>
+  <string name="animated_clock_icon_title">Animierte Uhr-Symbol</string>
 </resources>

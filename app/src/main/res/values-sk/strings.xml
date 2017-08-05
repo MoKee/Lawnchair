@@ -395,5 +395,11 @@
   <string name="enable_editing_pref_title">Povoliť úpravu pracovného priestoru</string>
   <string name="pref_weather_provider">Poskytovateľ počasia</string>
   <string name="loading">Načitávanie...</string>
+  <string name="icon_shape_override_label">Zmena tvaru ikony</string>
+  <string name="icon_shape_system_default">Nemeniť</string>
+  <string name="icon_shape_square">Štvorec</string>
+  <string name="icon_shape_rounded_square">Zaoblený štvorec</string>
+  <string name="icon_shape_squircle">Hranatý kruh</string>
   <string name="icon_shape_circle">Kruh</string>
+  <string name="icon_shape_teardrop">Slza</string>
 </resources>

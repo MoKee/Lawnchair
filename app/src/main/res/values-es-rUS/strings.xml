@@ -401,4 +401,5 @@
   <string name="icon_shape_squircle">Squircle</string>
   <string name="icon_shape_circle">Circular</string>
   <string name="icon_shape_teardrop">Lágrima</string>
+  <string name="animated_clock_icon_title">Icono de reloj animado</string>
 </resources>

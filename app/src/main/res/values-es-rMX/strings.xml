@@ -394,5 +394,12 @@
   <string name="enable_editing_pref_title">Habilitar la edición del espacio de trabajo</string>
   <string name="pref_weather_provider">Proveedor del tiempo</string>
   <string name="loading">Cargando...</string>
+  <string name="icon_shape_override_label">Cambiar pack de iconos</string>
+  <string name="icon_shape_system_default">No cambiar</string>
+  <string name="icon_shape_square">Cuadrado</string>
+  <string name="icon_shape_rounded_square">Cuadrado redondeado</string>
+  <string name="icon_shape_squircle">Squircle</string>
   <string name="icon_shape_circle">Círculo</string>
+  <string name="icon_shape_teardrop">Lágrima</string>
+  <string name="animated_clock_icon_title">Icono de reloj animado</string>
 </resources>
