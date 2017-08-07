@@ -47,6 +47,7 @@ import android.content.res.Configuration;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
@@ -436,13 +437,17 @@ public class Launcher extends Activity
             mSharedPrefs.edit().putBoolean("requiresIconCacheReload", false).apply();
             reloadIcons();
         }
+
+        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+        getWindow().setNavigationBarColor(Color.TRANSPARENT);
+
         Settings.init(this);
 
         Utilities.showChangelog(this);
     }
 
     private void setScreenOrientation() {
-        if(FeatureFlags.INSTANCE.enableScreenRotation(this)) {
+        if (FeatureFlags.INSTANCE.enableScreenRotation(this)) {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
         } else {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
