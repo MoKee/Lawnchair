@@ -398,7 +398,7 @@
   <string name="icon_shape_square">正方形</string>
   <string name="icon_shape_rounded_square">圓角方形</string>
   <string name="icon_shape_squircle">圓角正方形</string>
-  <string name="icon_shape_circle">環狀圖示</string>
+  <string name="icon_shape_circle">圓形</string>
   <string name="icon_shape_teardrop">水滴型</string>
   <string name="animated_clock_icon_title">動態時鐘圖示</string>
 </resources>
