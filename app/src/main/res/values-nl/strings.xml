@@ -234,6 +234,7 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Vergrendelingsscherm</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">Zoeken</string>
   <string name="label_voice_search">Spraakgestuurd zoeken</string>
   <!-- About Lawnchair -->
   <string name="about_title">Over</string>
