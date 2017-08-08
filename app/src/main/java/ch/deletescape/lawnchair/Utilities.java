@@ -980,7 +980,7 @@ public final class Utilities {
         String[] lines = BuildConfig.CHANGELOG.split("\n");
         for (String line : lines) {
             if (line.startsWith("Merge pull request")) continue;
-            if (line.startsWith("[no ci]")) {
+            if (line.contains("[no ci]")) {
                 line = line.replace("[no ci]", "");
             }
             builder
@@ -1005,7 +1005,11 @@ public final class Utilities {
         return context.getPackageManager().getApplicationIcon(context.getApplicationInfo());
     }
 
-    @SuppressWarnings("unchecked")
+    public static boolean isAwarenessApiEnabled(Context context) {
+        SharedPreferences prefs = getPrefs(context);
+        return "1".equals(prefs.getString("pref_weatherProvider", "0"));
+    }
+
     public static <T> List<T> emptyList() {
         return Collections.EMPTY_LIST;
     }
