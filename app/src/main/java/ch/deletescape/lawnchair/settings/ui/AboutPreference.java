@@ -20,7 +20,7 @@ public class AboutPreference extends Preference implements View.OnLongClickListe
 
     @Override
     protected void onClick() {
-        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/deletescape-media/lawnchair"));
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/MoKee/android_packages_apps_Lawnchair"));
         getContext().startActivity(i);
     }
 
