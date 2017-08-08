@@ -243,8 +243,7 @@
   <string name="notifications_header">通知</string>
   <string name="widgets_bottom_sheet_title">%1$s 小部件</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair 是 Till Kottmann （又名 deletescape）开发的一个启动器应用。它基于 AOSP 的 Launcher3。</string>
-  <string name="about_title">关于</string>
+    <string name="about_title">关于</string>
   <string name="changelog_title">#%d 版的更新日志</string>
   <string name="week_day_format">%1$s， %2$s</string>
   <string name="icon_pack_preference_title">图标包</string>

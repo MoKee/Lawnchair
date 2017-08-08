@@ -244,8 +244,7 @@
   <string name="notifications_header">Bildirimler</string>
   <string name="widgets_bottom_sheet_title">%1$s widget</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair, Till Kottmann (diğer adıyla deletescape) tarafından oluşturulan bir Başlatıcı uygulamasıdır. AOSP\'dan Launcher3\'e dayanıyor.</string>
-  <string name="about_title">Hakkında</string>
+    <string name="about_title">Hakkında</string>
   <string name="changelog_title">Bu yapıdaki değişiklikler #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Simge Paketi</string>

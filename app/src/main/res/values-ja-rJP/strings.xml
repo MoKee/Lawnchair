@@ -243,8 +243,7 @@
   <string name="notifications_header">通知</string>
   <string name="widgets_bottom_sheet_title">%1$s ウィジェット</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair はTill Kottmann（ deletescape としても知られています）によって作成されたランチャーアプリです。それは AOSP の Launcher3 に基づいて出来ています。</string>
-  <string name="changelog_title">ビルド #%d のための変更履歴</string>
+    <string name="changelog_title">ビルド #%d のための変更履歴</string>
   <string name="icon_pack_preference_title">アイコンパック</string>
   <string name="icon_pack_preference_summary">アイコンパックを選択</string>
   <string name="hotseat_uses_extracted_colors_pref_title">ドックは壁紙の色を使用します</string>

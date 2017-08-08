@@ -244,8 +244,7 @@
   <string name="notifications_header">Értesítések</string>
   <string name="widgets_bottom_sheet_title">%1$s modul</string>
   <!-- About Lawnchair -->
-  <string name="about_text">A Lawnchair egy kezdőképernyő-alkalmazás, melyet Till Kottmann (aka deletescape) készített. Az AOSP-ben található Launcher3 adja az alapját.</string>
-  <string name="about_title">Névjegy</string>
+    <string name="about_title">Névjegy</string>
   <string name="changelog_title">Változások a #%d verzióban</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Ikoncsomag</string>

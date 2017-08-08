@@ -176,8 +176,7 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair is a Launcher app created by Till Kottmann (aka deletescape). It\'s based on Launcher3 from AOSP.</string>
-  <string name="icon_pack_preference_summary">Select an icon Pack</string>
+    <string name="icon_pack_preference_summary">Select an icon Pack</string>
   <string name="workspace_label_color_hue_pref_title">Color of icon labels on homescreen</string>
   <string name="workspace_label_color_variation_pref_title">Color variation of icon labels on homescreen</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>

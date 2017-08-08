@@ -251,7 +251,6 @@
     <string name="notifications_header">Notifications</string>
     <string name="widgets_bottom_sheet_title">%1$s widgets</string>
     <!-- About Lawnchair -->
-    <string name="about_text">Lawnchair is a Launcher app created by Till Kottmann (aka deletescape). It\'s based on Launcher3 from AOSP.</string>
     <string name="about_title">About</string>
     <string name="week_day_format">%1$s, %2$s</string>
     <string name="icon_pack_preference_title">Icon Pack</string>

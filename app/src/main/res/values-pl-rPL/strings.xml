@@ -245,8 +245,7 @@
   <string name="notifications_header">Powiadomienia</string>
   <string name="widgets_bottom_sheet_title">%1$s widżetów</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair to launcher stworzony przez Till Kottmann\'a (aka deletescape). Oparty o Launcher3 z AOSP (Android Open Source Project).</string>
-  <string name="about_title">О aplikacji</string>
+    <string name="about_title">О aplikacji</string>
   <string name="changelog_title">Lista zmian dla wersji #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Paczka ikon</string>

@@ -309,7 +309,6 @@
     <string name="widgets_bottom_sheet_title">%1$s widgets</string>
 
     <!-- About Lawnchair -->
-    <string name="about_text">Lawnchair is a launcher app created by Till Kottmann (aka deletescape). It\'s based on Launcher3 from AOSP.</string>
     <string name="about_title">About</string>
     <string name="changelog_title">Changelog for build #%d</string>
     <string name="week_day_format">%1$s, %2$s</string>
@@ -480,7 +479,6 @@
     <string name="pref_cat_drawer">Drawer</string>
     <string name="shortcut_backport_warning">This could be slow, use at your own risk</string>
     <string name="pref_backport_shortcuts">Backport shortcuts</string>
-    <string name="weather_api_key_set">API key set</string>
     <string name="weather_api_key_not_set">API key not set</string>
     <string name="pref_weather_api_key_title">API key</string>
 </resources>

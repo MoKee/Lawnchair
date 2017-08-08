@@ -244,8 +244,7 @@
   <string name="notifications_header">Ειδοποιήσεις</string>
   <string name="widgets_bottom_sheet_title">Γραφικό στοιχείο %1$s.</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Ο Lawnchair είναι μια εφαρμογή εκκίνησης που δημιουργήθηκε από τον Till Kottmann (γνωστός και ως deletescape). Βασίζεται στον εκκινητή Launcher3 του ανοιχτού κώδικα λειτουργικού συστήματος Android (AOSP).</string>
-  <string name="about_title">Σχετικά με</string>
+    <string name="about_title">Σχετικά με</string>
   <string name="changelog_title">Αρχείο καταγραφής αλλαγών της κατασκευής #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Πακέτο εικονιδίων</string>

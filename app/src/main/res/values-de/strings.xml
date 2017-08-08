@@ -244,8 +244,7 @@
   <string name="notifications_header">Benachrichtigungen</string>
   <string name="widgets_bottom_sheet_title">%1$s Widgets</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair ist ein Launcher erstellt von Till Kottmann (aka deletescape). Er basiert auf Launcher3 von AOSP.</string>
-  <string name="about_title">Über</string>
+    <string name="about_title">Über</string>
   <string name="changelog_title">Changelog von Build #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Iconpack</string>

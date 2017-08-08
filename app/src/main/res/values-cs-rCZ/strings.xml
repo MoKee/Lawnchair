@@ -247,8 +247,7 @@
   <string name="notifications_header">Oznámení</string>
   <string name="widgets_bottom_sheet_title">%1$s widgety</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair je aplikace spouštěče, kterou vytvořil Till Kottmann (aka deletescape). Je založena na spouštěči Launcher3 z AOSP.</string>
-  <string name="about_title">O aplikaci</string>
+    <string name="about_title">O aplikaci</string>
   <string name="changelog_title">Seznam změn pro sestavení #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Balíček ikon</string>

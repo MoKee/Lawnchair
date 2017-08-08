@@ -242,8 +242,7 @@
   <string name="shortcuts_menu_with_notifications_description">%1$d genveje og %2$d notifikationer til %3$s</string>
   <string name="notifications_header">Underretninger</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair er en Launcher app skabt af Till Kottmann (aka deletescape). Det er baseret på Launcher3 fra AOSP.</string>
-  <string name="about_title">Om</string>
+    <string name="about_title">Om</string>
   <string name="icon_pack_preference_title">Ikon pakke</string>
   <string name="icon_pack_preference_summary">Vælg et ikon Pack</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Dock anvender tapetfarver</string>
