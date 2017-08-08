@@ -268,10 +268,10 @@
   <string name="num_rows_pref_title">Počet riadkov</string>
   <string name="num_hotseat_icons_pref_title">Počet ikon v doku</string>
   <string name="icon_scale_pref_title">Mierka ikon</string>
-  <string name="icon_text_scale_pref_title">Farba textu ikony</string>
+  <string name="icon_text_scale_pref_title">Veľkosť textu ikon</string>
   <string name="full_width_width_widgets_pref_title">Widgety s plnou šírkou</string>
   <string name="full_width_widgets_pref_summary">Povoliť, aby sa miniaplikácie rozprestierali po celej šírke bez výplne</string>
-  <string name="notification_access_pref_title">Prehľad ikon upozornení</string>
+  <string name="notification_access_pref_title">Zobrazenie upozornení a náhľadov</string>
   <string name="notification_access_pref_summary">Pre zapnutie tejto funkcie povoľte spúšťaču Lawnchair prístup k vašim upozorneniam</string>
   <string name="ui_pref_title">Používateľské rozhranie</string>
   <string name="pixel_style_pref_title">Zaokrúhlený štýl (Pixel)</string>
@@ -305,7 +305,7 @@
   <string name="import_db_title">Import databázy</string>
   <string name="export_prefs_title">Export nastavení</string>
   <string name="import_prefs_title">Import nastavení</string>
-  <string name="notification_listener_label">Lawnchair - ikony upozornení</string>
+  <string name="notification_listener_label">Lawnchair - indikátor upozornení</string>
   <string name="color_extraction_label">Lawnchair - extrakcia farby</string>
   <string name="test_title">Skúška</string>
   <string name="visibility">Viditeľnosť</string>
@@ -403,6 +403,13 @@
   <string name="icon_shape_circle">Kruh</string>
   <string name="icon_shape_teardrop">Slza</string>
   <string name="animated_clock_icon_title">Ikona animovaných hodín</string>
+  <string name="about_summary_title">Zhrnutie</string>
   <string name="about_version">Verzia</string>
+  <string name="about_icon_designer">Návrhár ikon aplikácií</string>
   <string name="about_contributors_title">Prispievatelia</string>
+  <string name="location_permission_warn">Pri prepnutí na iného poskytovateľa je potrebné udeliť povolenie na zisťovanie polohy!</string>
+  <string name="num_cols_drawer_pref_title">Počet stĺpcov v zobrazení ponuky</string>
+  <string name="pref_cat_drawer">Ponuka aplikácií</string>
+  <string name="shortcut_backport_warning">Mohlo by to byť pomalé, používajte na vlastné riziko</string>
+  <string name="pref_backport_shortcuts">Backport odkazy</string>
 </resources>

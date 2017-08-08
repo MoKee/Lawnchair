@@ -402,6 +402,12 @@
   <string name="icon_shape_circle">Kreis</string>
   <string name="icon_shape_teardrop">Träne</string>
   <string name="animated_clock_icon_title">Animierte Uhr-Symbol</string>
+  <string name="about_summary_title">Zusammenfassung</string>
   <string name="about_version">Version</string>
+  <string name="about_icon_designer">App-Icon Designer</string>
   <string name="about_contributors_title">Mitwirkende</string>
+  <string name="location_permission_warn">Standort-Berechtigung wird benötigt, um zu einem anderen Anbieter zu wechseln!</string>
+  <string name="num_cols_drawer_pref_title">Spalten-Anzahl in der Übersicht</string>
+  <string name="pref_cat_drawer">Übersicht</string>
+  <string name="pref_backport_shortcuts">Verknüpfungen zurücksetzen</string>
 </resources>
