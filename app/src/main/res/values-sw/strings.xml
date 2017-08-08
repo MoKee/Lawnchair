@@ -262,4 +262,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Umekamilisha</string>
+  <string name="about_version">Toleo</string>
 </resources>

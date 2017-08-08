@@ -295,4 +295,6 @@
   <string name="none">Ei mitään</string>
   <string name="folder">Kansio</string>
   <string name="icon_shape_circle">Ympyrä</string>
+  <string name="about_version">Versio</string>
+  <string name="about_contributors_title">Kehittäjät</string>
 </resources>

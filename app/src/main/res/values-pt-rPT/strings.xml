@@ -307,4 +307,6 @@
   <string name="none">Nenhum</string>
   <string name="folder">Pasta</string>
   <string name="icon_shape_circle">Círculo</string>
+  <string name="about_version">Versão</string>
+  <string name="about_contributors_title">Colaboradores</string>
 </resources>

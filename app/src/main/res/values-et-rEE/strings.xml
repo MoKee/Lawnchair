@@ -257,4 +257,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Mitte ühtegi</string>
+  <string name="about_version">Versioon</string>
 </resources>

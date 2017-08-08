@@ -265,4 +265,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Ingen</string>
+  <string name="about_version">Versjon</string>
 </resources>

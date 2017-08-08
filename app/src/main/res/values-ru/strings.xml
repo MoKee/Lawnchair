@@ -396,4 +396,6 @@
   <string name="pref_weather_provider">Поставщик данных</string>
   <string name="loading">Загрузка...</string>
   <string name="icon_shape_circle">Круг</string>
+  <string name="about_version">Добавить</string>
+  <string name="about_contributors_title">Авторы</string>
 </resources>

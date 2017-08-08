@@ -265,4 +265,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Heç biri</string>
+  <string name="about_version">Versiya</string>
 </resources>

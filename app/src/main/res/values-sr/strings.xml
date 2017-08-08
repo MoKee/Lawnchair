@@ -279,4 +279,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Ниједно</string>
   <string name="folder">Фасцикла</string>
+  <string name="about_version">Верзија</string>
+  <string name="about_contributors_title">Доприносиоци</string>
 </resources>

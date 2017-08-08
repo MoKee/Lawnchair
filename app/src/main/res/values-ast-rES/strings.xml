@@ -183,4 +183,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="folder">Carpeta</string>
+  <string name="about_contributors_title">Collaboradores</string>
 </resources>

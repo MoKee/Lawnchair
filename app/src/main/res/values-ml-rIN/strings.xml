@@ -264,4 +264,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ഒന്നുമില്ല</string>
+  <string name="about_version">പതിപ്പ്</string>
 </resources>

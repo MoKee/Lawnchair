@@ -269,4 +269,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">কোনো কিছুই নয়</string>
+  <string name="about_version">সংস্করণ</string>
 </resources>

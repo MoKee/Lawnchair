@@ -178,4 +178,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">يوق</string>
+  <string name="about_version">نەشرى</string>
 </resources>

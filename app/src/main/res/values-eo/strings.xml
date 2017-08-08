@@ -164,4 +164,5 @@
   <!-- Customization Color -->
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="about_version">Versio</string>
 </resources>

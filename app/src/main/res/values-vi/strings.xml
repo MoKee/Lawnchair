@@ -273,4 +273,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Không có</string>
   <string name="folder">Thư mục</string>
+  <string name="about_version">Phiên bản</string>
+  <string name="about_contributors_title">Người đóng góp</string>
 </resources>

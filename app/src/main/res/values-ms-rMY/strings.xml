@@ -255,4 +255,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Tiada</string>
+  <string name="about_version">Versi</string>
 </resources>

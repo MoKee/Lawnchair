@@ -351,4 +351,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">لا شيء</string>
   <string name="folder">مجلد</string>
+  <string name="about_version">الإصدار</string>
+  <string name="about_contributors_title">المساهمين</string>
 </resources>

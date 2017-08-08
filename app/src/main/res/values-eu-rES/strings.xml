@@ -268,4 +268,5 @@
   <string name="pref_cat_weather">Eguraldia</string>
   <string name="none">Bat ere ez</string>
   <string name="icon_shape_circle">Zirkularra</string>
+  <string name="about_version">Bertsioa</string>
 </resources>

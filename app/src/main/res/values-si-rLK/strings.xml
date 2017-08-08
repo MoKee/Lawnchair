@@ -262,4 +262,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">කිසිවක් නැත</string>
+  <string name="about_version">අනුවාදය</string>
 </resources>

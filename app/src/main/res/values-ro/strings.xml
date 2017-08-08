@@ -281,4 +281,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Niciunul</string>
   <string name="folder">Dosar</string>
+  <string name="about_version">Versiune</string>
+  <string name="about_contributors_title">Contribuitori</string>
 </resources>

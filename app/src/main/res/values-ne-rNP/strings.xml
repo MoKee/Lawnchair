@@ -263,4 +263,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">कुनै पनि होइन</string>
+  <string name="about_version">संस्करण</string>
 </resources>

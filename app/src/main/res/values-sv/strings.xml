@@ -303,4 +303,5 @@
   <string name="none">Inga</string>
   <string name="folder">Mapp</string>
   <string name="icon_shape_circle">Cirkel</string>
+  <string name="about_version">Version</string>
 </resources>

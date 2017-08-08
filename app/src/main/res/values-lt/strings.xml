@@ -276,4 +276,5 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Nėra</string>
   <string name="folder">Aplankalas</string>
+  <string name="about_version">Versija</string>
 </resources>

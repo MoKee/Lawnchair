@@ -391,4 +391,6 @@
   <string name="blur_effect">Effetto sfocatura</string>
   <string name="loading">Caricamento...</string>
   <string name="icon_shape_circle">Cerchio</string>
+  <string name="about_version">Versione</string>
+  <string name="about_contributors_title">Collaboratori</string>
 </resources>

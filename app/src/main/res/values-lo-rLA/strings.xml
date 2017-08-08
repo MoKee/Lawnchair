@@ -261,4 +261,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ບໍ່ໃຊ້</string>
+  <string name="about_version">ເວີຊັນ</string>
 </resources>

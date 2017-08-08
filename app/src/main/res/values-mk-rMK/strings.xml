@@ -263,4 +263,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Нема</string>
+  <string name="about_version">Верзија</string>
 </resources>

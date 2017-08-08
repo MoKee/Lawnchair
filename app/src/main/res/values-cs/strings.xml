@@ -403,4 +403,6 @@
   <string name="icon_shape_circle">Kruh</string>
   <string name="icon_shape_teardrop">Slza</string>
   <string name="animated_clock_icon_title">Ikona animovaných hodin</string>
+  <string name="about_version">Verze</string>
+  <string name="about_contributors_title">Přispěvatelé</string>
 </resources>

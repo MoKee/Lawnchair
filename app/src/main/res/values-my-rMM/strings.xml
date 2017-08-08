@@ -263,4 +263,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">တစ်ခုမှမဟုတ်ပါ</string>
+  <string name="about_version">ဗားရှင်း</string>
 </resources>

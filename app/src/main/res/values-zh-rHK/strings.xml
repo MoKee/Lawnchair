@@ -401,4 +401,6 @@
   <string name="icon_shape_circle">環狀圖示</string>
   <string name="icon_shape_teardrop">水滴型</string>
   <string name="animated_clock_icon_title">動態時鐘圖示</string>
+  <string name="about_version">版本</string>
+  <string name="about_contributors_title">貢獻者</string>
 </resources>

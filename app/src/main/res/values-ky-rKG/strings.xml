@@ -262,4 +262,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Эч нерсе жок</string>
+  <string name="about_version">Версиясы</string>
 </resources>

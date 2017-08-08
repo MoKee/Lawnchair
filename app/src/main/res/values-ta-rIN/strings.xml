@@ -186,4 +186,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ஏதுமில்லை</string>
+  <string name="about_version">பதிப்பு</string>
 </resources>

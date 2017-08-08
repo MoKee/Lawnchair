@@ -292,4 +292,6 @@
   <string name="none">Tidak ada</string>
   <string name="folder">Folder</string>
   <string name="icon_shape_circle">Lingkaran</string>
+  <string name="about_version">Versi</string>
+  <string name="about_contributors_title">Kontributor</string>
 </resources>

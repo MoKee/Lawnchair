@@ -263,4 +263,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">کوئی نہیں</string>
+  <string name="about_version">ورژن</string>
 </resources>

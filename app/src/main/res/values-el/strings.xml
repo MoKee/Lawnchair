@@ -310,4 +310,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Κανένα</string>
   <string name="folder">Φάκελος</string>
+  <string name="about_version">Έκδοση</string>
+  <string name="about_contributors_title">Συντελεστές</string>
 </resources>

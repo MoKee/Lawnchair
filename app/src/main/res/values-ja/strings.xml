@@ -293,4 +293,6 @@
   <string name="none">なし</string>
   <string name="folder">フォルダー</string>
   <string name="icon_shape_circle">サークル</string>
+  <string name="about_version">バージョン</string>
+  <string name="about_contributors_title">貢献者</string>
 </resources>

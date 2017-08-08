@@ -176,4 +176,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">هیچیان</string>
+  <string name="about_version">وه‌شان</string>
 </resources>

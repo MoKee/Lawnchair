@@ -266,4 +266,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ללא</string>
+  <string name="about_version">גרסה</string>
 </resources>

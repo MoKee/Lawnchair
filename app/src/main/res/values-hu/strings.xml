@@ -291,4 +291,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Nincs</string>
   <string name="folder">Mappa</string>
+  <string name="about_version">Verzió</string>
+  <string name="about_contributors_title">Közreműködők</string>
 </resources>

@@ -290,4 +290,6 @@
   <string name="none">선택 안함</string>
   <string name="folder">폴더</string>
   <string name="icon_shape_circle">원형</string>
+  <string name="about_version">버전</string>
+  <string name="about_contributors_title">기부해 주신 분들</string>
 </resources>

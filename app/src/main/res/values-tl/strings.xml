@@ -261,4 +261,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Wala</string>
+  <string name="about_version">Bersyon</string>
 </resources>

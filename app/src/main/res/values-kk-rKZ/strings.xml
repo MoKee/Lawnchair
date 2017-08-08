@@ -262,4 +262,5 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Ешқандай</string>
+  <string name="about_version">Нұсқа</string>
 </resources>
