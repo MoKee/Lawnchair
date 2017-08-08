@@ -30,6 +30,7 @@ public class WeatherHelper implements SharedPreferences.OnSharedPreferenceChange
     private ImageView mIconView;
     private WeatherIconProvider iconProvider;
     private boolean stopped = false;
+    private OnWeatherLoadListener mListener;
 
     public WeatherHelper(TextView temperatureView, ImageView iconView, Context context) {
         mTemperatureView = temperatureView;
@@ -38,6 +39,7 @@ public class WeatherHelper implements SharedPreferences.OnSharedPreferenceChange
         setupOnClickListener(context);
         mHandler = new Handler();
         SharedPreferences prefs = Utilities.getPrefs(context);
+        prefs.registerOnSharedPreferenceChangeListener(this);
         mApi = WeatherAPI.Companion.create(context,
                 Integer.parseInt(prefs.getString("pref_weatherProvider", "0")));
         mApi.setWeatherCallback(this);
@@ -58,6 +60,9 @@ public class WeatherHelper implements SharedPreferences.OnSharedPreferenceChange
         mWeatherData = data;
         updateTextView();
         updateIconView();
+        if (mListener != null) {
+            mListener.onLoad(data.getSuccess());
+        }
     }
 
     private void updateTextView() {
@@ -116,5 +121,13 @@ public class WeatherHelper implements SharedPreferences.OnSharedPreferenceChange
     public void stop() {
         stopped = true;
         mHandler.removeCallbacks(this);
+    }
+
+    public void setListener(OnWeatherLoadListener listener) {
+        mListener = listener;
+    }
+
+    public interface OnWeatherLoadListener {
+        void onLoad(boolean success);
     }
 }
