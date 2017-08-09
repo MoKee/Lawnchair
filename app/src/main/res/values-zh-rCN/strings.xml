@@ -386,7 +386,7 @@
   <string name="pref_applyBlur">应用模糊效果</string>
   <string name="search_bar">搜索栏</string>
   <string name="folder">文件夹</string>
-  <string name="dock_allapps"><![CDATA[Dock 栏与所有应用]]></string>
+  <string name="dock_allapps"><![CDATA[Dock 栏与抽屉]]></string>
   <string name="app_shortcuts">应用快捷方式</string>
   <string name="blur_effect">模糊效果</string>
   <string name="enable_editing_pref_title">启用编辑工作区</string>
@@ -413,4 +413,6 @@
   <string name="pref_weather_api_key_title">API 密钥</string>
   <string name="about_changelog">更改记录</string>
   <string name="pref_all_apps_custom_label_color">自定义标签颜色</string>
+  <string name="pref_all_apps_label_color_variation">抽屉图标标签颜色变化</string>
+  <string name="pref_all_apps_label_color">抽屉图标标签颜色</string>
 </resources>
