@@ -201,12 +201,15 @@
   <string name="wallpaper_instructions">Усталяваць шпалеры</string>
   <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
+  <string name="image_load_fail">Не атрымалася загрузіць выяву</string>
   <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper cropper cannot load it. The user will
          usually see this when using another app and trying to set
          an image as the wallpaper -->
+  <string name="wallpaper_load_fail">Не атрымалася загрузіць выяву</string>
   <!-- Error message when an image is selected as a wallpaper,
          but something goes wrong when the user clicks "Set wallpaper" -->
+  <string name="wallpaper_set_fail">Не атрымалася змяніць шпалеры</string>
   <!-- Shown when wallpapers are selected in Wallpaper picker -->
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
@@ -217,22 +220,94 @@
   </plurals>
   <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
+  <string name="wallpaper_accessibility_name">Выява %1$d з %2$d</string>
   <!-- Accessibility string used to announce that a wallpaper has been selected. -->
+  <string name="announce_selection">Абрана <xliff:g example="Wallpaper 3 of 10" id="label">%1$s</xliff:g></string>
   <!-- Label on button to delete wallpaper(s) -->
   <string name="wallpaper_delete">Выдаліць</string>
   <!-- Label on button in Wallpaper Picker to pick an image -->
+  <string name="pick_image">Мае фота</string>
   <!-- Option in "Select wallpaper from" dialog box -->
   <string name="pick_wallpaper">Шпалеры</string>
   <!-- Title of activity for cropping wallpapers -->
+  <string name="crop_wallpaper">Абрэзаць шпалеры</string>
   <!-- Option for setting the wallpaper only on the home screen. -->
   <string name="which_wallpaper_option_home_screen">Хатні экран</string>
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Экран блакіроўкі</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="which_wallpaper_option_home_screen_and_lock_screen">Галоўны экран і экран блакіроўкі</string>
+  <string name="title_show_google_app">Паказаць %1$s</string>
+  <string name="title_show_google_app_default">Паказаць прыкладанні Google</string>
   <string name="label_search">Пошук</string>
   <string name="label_voice_search">Галасавы пошук</string>
+  <string name="shortcuts_menu_with_notifications_description">%1$d шорткаты і %2$d апавяшчэнняў для %3$s</string>
+  <string name="notifications_header">Апавяшчэнні</string>
+  <string name="widgets_bottom_sheet_title">%1$s віджэтаў</string>
   <!-- About Lawnchair -->
   <string name="about_title">Аб праграме</string>
+  <string name="changelog_title">Змены ў зборцы #%d</string>
+  <string name="week_day_format">%1$s, %2$s</string>
+  <string name="icon_pack_preference_title">Набор значкоў</string>
+  <string name="icon_pack_preference_summary">Выберыце набор значкоў</string>
+  <string name="hotseat_uses_extracted_colors_pref_title">Докбар выкарыстоўвае колер шпалер</string>
+  <string name="hotseat_uses_extracted_colors_pref_on">Докбар будзе афарбаваны ў колер, выняты з шпалер</string>
+  <string name="hotseat_uses_extracted_colors_pref_off">Колер докбара будзе шэрым, але яркасць будзе наладжана яркасцю шпалер</string>
+  <string name="transparent_hotseat_pref_title">Празрысты докбар</string>
+  <string name="dynamic_ui_pref_title">Выняць колер акцэнту з шпалер</string>
+  <string name="blur_pref_title">Уключыць блюр эфект</string>
+  <string name="blur_pref_summary">Прымяненне эфекту размыцця да частак інтэрфейсу\nНе сумяшчальны з жывымі шпалерамі</string>
+  <string name="blur_radius_pref_title">Узровень размыцця</string>
+  <string name="white_google_icon_pref_title">Выкарыстоўваць белыя значкі ў віджэце пошуку</string>
+  <string name="hide_icon_labels_pref_title">Схаваць подпісы значкоў на працоўным стале</string>
+  <string name="workspace_label_color_hue_pref_title">Колер подпіса значкоў</string>
+  <string name="workspace_label_color_variation_pref_title">Варыяцыя колеру подпісаў</string>
+  <string name="all_apps_opacity_pref_title">Празрыстасць меню праграм</string>
+  <string name="num_cols_pref_title">Колькасць слупкоў</string>
+  <string name="num_rows_pref_title">Колькасць радкоў</string>
+  <string name="num_hotseat_icons_pref_title">Колькасць значкоў ў док-бары</string>
+  <string name="icon_scale_pref_title">Маштаб значкоў</string>
+  <string name="icon_text_scale_pref_title">Маштаб подпісу значкоў</string>
+  <string name="full_width_width_widgets_pref_title">Поўная шырыня віджэтаў</string>
+  <string name="full_width_widgets_pref_summary">Дазволіць віджэтам займаць месца без водступаў</string>
+  <string name="notification_access_pref_title">Значкі апавяшчэнняў і папярэдні прагляд</string>
+  <string name="notification_access_pref_summary">Дазволіць Lawnchair доступ да вашых апавяшчэнняў для ўключэння гэтай функцыі</string>
+  <string name="ui_pref_title">Інтэрфэйс</string>
+  <string name="pixel_style_pref_title">Стыль Pixel</string>
+  <string name="behavior_pref_title">Паводзіны</string>
+  <string name="debug_pref_title">Адладка</string>
+  <string name="import_export_pref_title">Імпарт / Экспарт</string>
+  <string name="show_pixel_bar_pref_title">Паказаць радок пошуку</string>
+  <string name="use_wide_searchbar_pref_title">Радок пошуку як у Android O</string>
+  <string name="show_mic_pref_title">Паказваць кнопку Google асістэнта</string>
+  <string name="use_round_searhbar">Выкарыстоўваць круглы радок пошуку</string>
+  <string name="pixel_style_icons_pref_title">Выкарыстоўваць круглыя значкі</string>
+  <string name="pixel_style_icons_pref_summary">Калі ўключана, праграма выкарыстоўвае круглыя значкі, дзе гэта магчыма</string>
+  <string name="show_google_now_tab_pref_title">Паказваць старонку Google Now</string>
+  <string name="restart_lawnchair_pref_title">Перазапусціць Lawnchair</string>
+  <string name="restart_lawnchair_pref_summary">Можа быць карысна, калі некаторыя параметры не прымяняюцца належным чынам</string>
+  <string name="rebuild_icondb_pref_title">Перастраенне базы дадзеных значкоў</string>
+  <string name="pinch_to_overview_pref_title">Шчыпок для агляду</string>
+  <string name="pinch_to_overview_pref_summary">Шчыпок на хатнім экране адкрывае агляд</string>
+  <string name="light_statusbar_pref_title">Светлы радок стану</string>
+  <string name="light_statusbar_pref_force">У радку стану будуць адлюстроўвацца цёмныя значкі</string>
+  <string name="light_statusbar_pref_off">У радку стану будуць адлюстроўвацца светлыя значкі</string>
+  <string name="haptic_feedback_pref_title">Вібрацыя</string>
+  <string name="keep_scroll_state_pref_title">Захоўваць пазіцыю пракруткі</string>
+  <string name="keep_scroll_state_pref_summary">Захоўвае становішча пракруткі ў меню праграм</string>
+  <string name="home_opens_drawer_pref_title">Кнопка «Хатоўка» адкрывае меню праграм</string>
+  <string name="home_opens_drawer_pref_summary">Націск кнопкі «Хатоўка» на галоўным экране адкрые меню праграм</string>
+  <string name="show_hidden_pref_title">Паказваць схаваныя праграмы</string>
+  <string name="show_hidden_pref_on">Адлюстровываюцца схаваныя праграмы для змены налад бачнасці</string>
+  <string name="show_hidden_pref_off">Схаваныя праграмы не будуць адлюстроўвацца</string>
+  <string name="export_db_title">Экспарт базы дадзеных</string>
+  <string name="import_db_title">Імпарт базы дадзеных</string>
+  <string name="export_prefs_title">Экспарт налад</string>
+  <string name="import_prefs_title">Імпарт налад</string>
+  <string name="notification_listener_label">Lawnchair - значкі апавяшчэнняў</string>
+  <string name="color_extraction_label">Lawnchair - выманне колеру</string>
+  <string name="test_title">Тэст</string>
+  <string name="visibility">Бачнасць</string>
   <!-- Customization Color -->
   <!-- Customization Color -->
   <string name="black">Чорны</string>
@@ -289,4 +364,5 @@
   <string name="icon_shape_circle">Круг</string>
   <string name="about_version">Версія</string>
   <string name="about_contributors_title">Аўтары</string>
+  <string name="about_changelog">Спic змен</string>
 </resources>

@@ -283,4 +283,5 @@
   <string name="folder">Dosar</string>
   <string name="about_version">Versiune</string>
   <string name="about_contributors_title">Contribuitori</string>
+  <string name="about_changelog">Istoria schimbărilor</string>
 </resources>

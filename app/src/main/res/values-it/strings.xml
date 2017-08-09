@@ -244,7 +244,7 @@
   <string name="notifications_header">Notifiche</string>
   <string name="widgets_bottom_sheet_title">%1$s widget</string>
   <!-- About Lawnchair -->
-    <string name="about_title">Info</string>
+  <string name="about_title">Info</string>
   <string name="changelog_title">Changelog della versione #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Pacchetto Icone</string>
@@ -392,4 +392,5 @@
   <string name="icon_shape_circle">Cerchio</string>
   <string name="about_version">Versione</string>
   <string name="about_contributors_title">Collaboratori</string>
+  <string name="about_changelog">Modifiche di Versione</string>
 </resources>

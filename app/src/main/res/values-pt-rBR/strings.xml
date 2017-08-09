@@ -242,7 +242,7 @@
   <string name="shortcuts_menu_with_notifications_description">%1$d atalhos e notificações de %2$d para %3$s</string>
   <string name="notifications_header">Notificações</string>
   <!-- About Lawnchair -->
-    <string name="about_title">Sobre</string>
+  <string name="about_title">Sobre</string>
   <string name="icon_pack_preference_title">Pacote de Ícones</string>
   <string name="icon_pack_preference_summary">Selecione um pacote de ícone</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Usar cores do papel de parede no dock</string>
@@ -359,4 +359,5 @@
   <string name="icon_shape_circle">Círculo</string>
   <string name="about_version">Versão</string>
   <string name="about_contributors_title">Colaboradores</string>
+  <string name="about_changelog">Registro de alterações</string>
 </resources>

@@ -297,4 +297,5 @@
   <string name="icon_shape_circle">Krog</string>
   <string name="about_version">Različica</string>
   <string name="about_contributors_title">Sodelavci</string>
+  <string name="about_changelog">Zadnje spremembe</string>
 </resources>

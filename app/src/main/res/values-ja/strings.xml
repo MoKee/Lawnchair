@@ -295,4 +295,5 @@
   <string name="icon_shape_circle">サークル</string>
   <string name="about_version">バージョン</string>
   <string name="about_contributors_title">貢献者</string>
+  <string name="about_changelog">変更履歴</string>
 </resources>

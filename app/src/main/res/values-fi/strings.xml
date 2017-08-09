@@ -297,4 +297,5 @@
   <string name="icon_shape_circle">Ympyrä</string>
   <string name="about_version">Versio</string>
   <string name="about_contributors_title">Kehittäjät</string>
+  <string name="about_changelog">Muutoslogi</string>
 </resources>

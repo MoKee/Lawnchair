@@ -244,7 +244,7 @@
   <string name="notifications_header">Notificaciones</string>
   <string name="widgets_bottom_sheet_title">%1$s widgets</string>
   <!-- About Lawnchair -->
-    <string name="about_title">Acerca de</string>
+  <string name="about_title">Acerca de</string>
   <string name="changelog_title">Registro de cambios de la build #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Paquete de iconos</string>
@@ -401,6 +401,16 @@
   <string name="icon_shape_circle">Circular</string>
   <string name="icon_shape_teardrop">Lágrima</string>
   <string name="animated_clock_icon_title">Icono de reloj animado</string>
+  <string name="about_summary_title">Resumen</string>
   <string name="about_version">Versión</string>
+  <string name="about_icon_designer">Diseño del icono de la aplicación</string>
   <string name="about_contributors_title">Colaboradores</string>
+  <string name="location_permission_warn">¡Los permisos de ubicación son necesarios para cambiar a otro proveedor!</string>
+  <string name="num_cols_drawer_pref_title">Número de columnas en la vista de cuadrícula</string>
+  <string name="pref_cat_drawer">Cajón de aplicaciones</string>
+  <string name="shortcut_backport_warning">Esto podría ser lento, usar bajo su propio riesgo</string>
+  <string name="pref_backport_shortcuts">Métodos abreviados de backport</string>
+  <string name="weather_api_key_not_set">Clave de API no configurada</string>
+  <string name="pref_weather_api_key_title">Clave API</string>
+  <string name="about_changelog">Registro de cambios</string>
 </resources>

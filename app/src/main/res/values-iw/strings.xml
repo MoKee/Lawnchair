@@ -267,4 +267,5 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ללא</string>
   <string name="about_version">גרסה</string>
+  <string name="about_changelog">יומן שינויים</string>
 </resources>

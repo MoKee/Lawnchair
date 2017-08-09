@@ -283,4 +283,5 @@
   <string name="folder">پوشه</string>
   <string name="about_version">نسخه</string>
   <string name="about_contributors_title">شرکاء</string>
+  <string name="about_changelog">تغییرات ایجاد شده</string>
 </resources>

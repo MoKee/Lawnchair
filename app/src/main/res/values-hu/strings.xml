@@ -293,4 +293,5 @@
   <string name="folder">Mappa</string>
   <string name="about_version">Verzió</string>
   <string name="about_contributors_title">Közreműködők</string>
+  <string name="about_changelog">Változások naplója</string>
 </resources>

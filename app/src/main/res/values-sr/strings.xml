@@ -281,4 +281,5 @@
   <string name="folder">Фасцикла</string>
   <string name="about_version">Верзија</string>
   <string name="about_contributors_title">Доприносиоци</string>
+  <string name="about_changelog">Евиденција измена</string>
 </resources>

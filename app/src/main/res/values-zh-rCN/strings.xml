@@ -243,7 +243,7 @@
   <string name="notifications_header">通知</string>
   <string name="widgets_bottom_sheet_title">%1$s 小部件</string>
   <!-- About Lawnchair -->
-    <string name="about_title">关于</string>
+  <string name="about_title">关于</string>
   <string name="changelog_title">#%d 版的更新日志</string>
   <string name="week_day_format">%1$s， %2$s</string>
   <string name="icon_pack_preference_title">图标包</string>
@@ -400,13 +400,17 @@
   <string name="icon_shape_circle">环形</string>
   <string name="icon_shape_teardrop">泪珠形</string>
   <string name="animated_clock_icon_title">动态时钟图标</string>
-  <string name="about_summary_title">概要</string>
+  <string name="about_summary_title">摘要</string>
   <string name="about_version">版本</string>
   <string name="about_icon_designer">图标设计者</string>
   <string name="about_contributors_title">贡献者</string>
-  <string name="location_permission_warn">切换到另一个提供商需要获得位置权限 ！</string>
+  <string name="location_permission_warn">切换到另一个提供商需要获得位置权限</string>
   <string name="num_cols_drawer_pref_title">网格列数</string>
   <string name="pref_cat_drawer">抽屉</string>
-  <string name="shortcut_backport_warning">该功能可能引起桌面性能下降，请自行承担后果。</string>
+  <string name="shortcut_backport_warning">此功能可能引起桌面性能下降，请自行承担后果。</string>
   <string name="pref_backport_shortcuts">导入快捷方式</string>
+  <string name="weather_api_key_not_set">API 密钥未设置</string>
+  <string name="pref_weather_api_key_title">API 密钥</string>
+  <string name="about_changelog">更改记录</string>
+  <string name="pref_all_apps_custom_label_color">自定义标签颜色</string>
 </resources>

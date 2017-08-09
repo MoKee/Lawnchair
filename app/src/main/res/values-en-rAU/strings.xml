@@ -193,4 +193,5 @@
   <string name="default_text">Default</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="about_changelog">Changelog</string>
 </resources>

@@ -244,7 +244,7 @@
   <string name="notifications_header">Notifikationer</string>
   <string name="widgets_bottom_sheet_title">%1$s widgetar</string>
   <!-- About Lawnchair -->
-    <string name="about_title">Mer om</string>
+  <string name="about_title">Mer om</string>
   <string name="icon_pack_preference_title">Ikonpaket</string>
   <string name="icon_pack_preference_summary">Välj ett ikonpaket</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Dockan använder färger från bakgrundsbilden</string>
@@ -303,4 +303,5 @@
   <string name="folder">Mapp</string>
   <string name="icon_shape_circle">Cirkel</string>
   <string name="about_version">Version</string>
+  <string name="about_changelog">Ändringslog</string>
 </resources>

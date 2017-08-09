@@ -245,7 +245,7 @@
   <string name="notifications_header">Уведомления</string>
   <string name="widgets_bottom_sheet_title">%1$s виджетов</string>
   <!-- About Lawnchair -->
-    <string name="about_title">О программе</string>
+  <string name="about_title">О программе</string>
   <string name="changelog_title">Изменения в сборке #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Набор значков</string>
@@ -397,4 +397,5 @@
   <string name="icon_shape_circle">Круг</string>
   <string name="about_version">Добавить</string>
   <string name="about_contributors_title">Авторы</string>
+  <string name="about_changelog">Список изменений</string>
 </resources>

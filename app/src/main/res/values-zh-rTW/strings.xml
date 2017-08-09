@@ -243,7 +243,7 @@
   <string name="notifications_header">通知</string>
   <string name="widgets_bottom_sheet_title">%1$s 小工具</string>
   <!-- About Lawnchair -->
-    <string name="about_title">關於</string>
+  <string name="about_title">關於</string>
   <string name="changelog_title">更新日誌 #%d</string>
   <string name="week_day_format">%1$s：%2$s</string>
   <string name="icon_pack_preference_title">圖示包</string>
@@ -400,6 +400,16 @@
   <string name="icon_shape_circle">圓形</string>
   <string name="icon_shape_teardrop">水滴型</string>
   <string name="animated_clock_icon_title">動態時鐘圖示</string>
+  <string name="about_summary_title">摘要</string>
   <string name="about_version">版本</string>
+  <string name="about_icon_designer">應用程式圖示設計者</string>
   <string name="about_contributors_title">貢獻者</string>
+  <string name="location_permission_warn">需要位置權限才能切換到其他氣象資料提供</string>
+  <string name="num_cols_drawer_pref_title">應用程式清單的列數</string>
+  <string name="pref_cat_drawer">清單</string>
+  <string name="shortcut_backport_warning">該功能有可能會導致桌面效能下降，後果請自行承擔</string>
+  <string name="pref_backport_shortcuts">反向移植捷徑</string>
+  <string name="weather_api_key_not_set">API Key 尚未設定</string>
+  <string name="pref_weather_api_key_title">API Key</string>
+  <string name="about_changelog">更新日誌</string>
 </resources>

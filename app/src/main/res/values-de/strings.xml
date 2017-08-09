@@ -244,7 +244,7 @@
   <string name="notifications_header">Benachrichtigungen</string>
   <string name="widgets_bottom_sheet_title">%1$s Widgets</string>
   <!-- About Lawnchair -->
-    <string name="about_title">Über</string>
+  <string name="about_title">Über</string>
   <string name="changelog_title">Changelog von Build #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Iconpack</string>
@@ -409,4 +409,5 @@
   <string name="num_cols_drawer_pref_title">Spalten-Anzahl in der Übersicht</string>
   <string name="pref_cat_drawer">Übersicht</string>
   <string name="pref_backport_shortcuts">Verknüpfungen zurücksetzen</string>
+  <string name="about_changelog">Changelog</string>
 </resources>

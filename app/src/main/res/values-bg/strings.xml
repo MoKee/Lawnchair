@@ -294,4 +294,5 @@
   <string name="icon_shape_circle">Кръг</string>
   <string name="about_version">Версия</string>
   <string name="about_contributors_title">Сътрудници</string>
+  <string name="about_changelog">История на промените</string>
 </resources>

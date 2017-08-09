@@ -242,7 +242,7 @@
   <string name="shortcuts_menu_with_notifications_description">%1$d atalhos e %2$d notificações para %3$s</string>
   <string name="notifications_header">Notificações</string>
   <!-- About Lawnchair -->
-    <string name="about_title">Sobre</string>
+  <string name="about_title">Sobre</string>
   <string name="dynamic_ui_pref_title">Extrair a cor através do wallpaper</string>
   <string name="blur_pref_title">Ativar o blur</string>
   <string name="white_google_icon_pref_title">Usar o ícone branco da Google</string>

@@ -296,4 +296,5 @@
   <string name="icon_shape_circle">Коло</string>
   <string name="about_version">Версія</string>
   <string name="about_contributors_title">Розробники</string>
+  <string name="about_changelog">Історія змін</string>
 </resources>

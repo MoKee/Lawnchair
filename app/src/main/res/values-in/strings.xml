@@ -294,4 +294,5 @@
   <string name="icon_shape_circle">Lingkaran</string>
   <string name="about_version">Versi</string>
   <string name="about_contributors_title">Kontributor</string>
+  <string name="about_changelog">Perubahan</string>
 </resources>

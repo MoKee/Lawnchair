@@ -312,4 +312,5 @@
   <string name="folder">Φάκελος</string>
   <string name="about_version">Έκδοση</string>
   <string name="about_contributors_title">Συντελεστές</string>
+  <string name="about_changelog">Αρχείο καταγραφής αλλαγών</string>
 </resources>
