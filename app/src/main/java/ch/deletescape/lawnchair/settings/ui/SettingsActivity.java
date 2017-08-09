@@ -201,6 +201,8 @@ public class SettingsActivity extends Activity implements PreferenceFragment.OnP
                 findPreference("about_version").setSummary(BuildConfig.VERSION_NAME);
                 if(BuildConfig.TRAVIS && !BuildConfig.TAGGED_BUILD){
                     findPreference("about_changelog").setSummary(Utilities.getChangelog());
+                } else {
+                    getPreferenceScreen().removePreference(findPreference("about_changelog"));
                 }
             } else if (getContent() == R.xml.launcher_behavior_preferences) {
                 if (Utilities.isNycMR1OrAbove()) {
