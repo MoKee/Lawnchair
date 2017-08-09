@@ -53,6 +53,7 @@ import ch.deletescape.lawnchair.Utilities;
 import ch.deletescape.lawnchair.blur.BlurWallpaperProvider;
 import ch.deletescape.lawnchair.config.FeatureFlags;
 import ch.deletescape.lawnchair.graphics.IconShapeOverride;
+import ch.deletescape.lawnchair.misc.LicenseUtils;
 
 /**
  * Settings activity for Launcher. Currently implements the following setting: Allow rotation
@@ -197,6 +198,10 @@ public class SettingsActivity extends Activity implements PreferenceFragment.OnP
                     ((PreferenceCategory) findPreference("prefCat_homeScreen"))
                             .removePreference(overrideShapePreference);
                 }
+                if (LicenseUtils.INSTANCE.getMkVerified()) {
+                    ((PreferenceCategory)findPreference("prefCat_weather"))
+                            .removePreference(findPreference("pref_weatherApiKey"));
+                }
             } else if (getContent() == R.xml.launcher_about_preferences) {
                 findPreference("about_version").setSummary(BuildConfig.VERSION_NAME);
                 if(BuildConfig.TRAVIS && !BuildConfig.TAGGED_BUILD){
@@ -219,9 +224,12 @@ public class SettingsActivity extends Activity implements PreferenceFragment.OnP
         private void updateEnabledState(String weatherProvider) {
             boolean awarenessApiEnabled = weatherProvider.equals("1");
             Preference prefWeatherCity = findPreference("pref_weather_city");
-            Preference prefWeatherApiKey = findPreference("pref_weatherApiKey");
             prefWeatherCity.setEnabled(!awarenessApiEnabled);
-            prefWeatherApiKey.setEnabled(!awarenessApiEnabled);
+
+            if (!LicenseUtils.INSTANCE.getMkVerified()) {
+                Preference prefWeatherApiKey = findPreference("pref_weatherApiKey");
+                prefWeatherApiKey.setEnabled(!awarenessApiEnabled);
+            }
         }
 
         @Override
