@@ -25,10 +25,14 @@ public class Settings implements SharedPreferences.OnSharedPreferenceChangeListe
     private static final String KEY_PREF_NUM_ROWS = "pref_numRows";
     private static final String KEY_PREF_NUM_HOTSEAT_ICONS = "pref_numHotseatIcons";
     private static final String KEY_PREF_ICON_SCALE = "pref_iconScaleSB";
+    private static final String KEY_PREF_HOTSEAT_ICON_SCALE = "pref_hotseatIconScale";
+    private static final String KEY_PREF_ALL_APPS_ICON_SCALE = "pref_allAppsIconScale";
     private static final String KEY_PREF_ICON_TEXT_SCALE = "pref_iconTextScaleSB";
+    private static final String KEY_PREF_ALL_APPS_ICON_TEXT_SCALE = "pref_allAppsIconTextScale";
     private static final String KEY_PREF_ICON_PACK_PACKAGE = "pref_iconPackPackage";
     private static final String KEY_PREF_PIXEL_STYLE_ICONS = "pref_pixelStyleIcons";
     private static final String KEY_PREF_HIDE_APP_LABELS = "pref_hideAppLabels";
+    private static final String KEY_PREF_HIDE_ALL_APPS_APP_LABELS = "pref_hideAllAppsAppLabels";
     private static final String KEY_PREF_ENABLE_SCREEN_ROTATION = "pref_enableScreenRotation";
     private static final String KEY_PREF_FULL_WIDTH_WIDGETS = "pref_fullWidthWidgets";
     private static final String KEY_PREF_SHOW_NOW_TAB = "pref_showGoogleNowTab";
@@ -100,6 +104,7 @@ public class Settings implements SharedPreferences.OnSharedPreferenceChangeListe
                     applyAllAppsOpacity(prefs);
                     break;
                 case KEY_PREF_SHOW_HIDDEN_APPS:
+                case KEY_PREF_HIDE_ALL_APPS_APP_LABELS:
                     las.reloadAllApps();
                     break;
 
@@ -145,7 +150,10 @@ public class Settings implements SharedPreferences.OnSharedPreferenceChangeListe
                     mLauncher.scheduleRecreate();
                     break;
                 case KEY_PREF_ICON_SCALE:
+                case KEY_PREF_HOTSEAT_ICON_SCALE:
+                case KEY_PREF_ALL_APPS_ICON_SCALE:
                 case KEY_PREF_ICON_TEXT_SCALE:
+                case KEY_PREF_ALL_APPS_ICON_TEXT_SCALE:
                 case KEY_PREF_ENABLE_BACKPORT_SHORTCUTS:
                 case KEY_PREF_PLANE:
                 case KEY_PREF_WEATHER:
