@@ -257,7 +257,7 @@ public class DeviceProfile {
         }
         float usedHotseatWidth = (hotseatCellWidthPx * inv.numHotseatIcons);
         if (usedAllAppsWidth > maxWorkspaceWidth) {
-            allAppsScale = maxWorkspaceWidth / usedHotseatWidth;
+            hotseatScale = maxWorkspaceWidth / usedHotseatWidth;
         }
         updateIconSize(workspaceScale, allAppsScale, hotseatScale, workspaceDrawablePadding, allAppsDrawablePadding, res, dm);
     }
@@ -275,11 +275,15 @@ public class DeviceProfile {
         allAppsIconTextSizePx = (int) (Utilities.pxFromSp(inv.allAppsIconTextSize, dm) * allAppsScale);
 
         cellWidthPx = iconSizePx;
-        cellHeightPx = iconSizePx + iconDrawablePaddingPx
-                + Utilities.calculateTextHeight(iconTextSizePx);
+        cellHeightPx = iconSizePx + iconDrawablePaddingPx;
+        if (!FeatureFlags.INSTANCE.hideAppLabels(mContext)) {
+            cellHeightPx += Utilities.calculateTextHeight(iconTextSizePx);
+        }
         allAppsCellWidthPx = allAppsIconSizePx;
-        allAppsCellWidthPx = allAppsIconSizePx + allAppsIconDrawablePaddingPx
-                + Utilities.calculateTextHeight(allAppsIconTextSizePx);
+        allAppsCellHeightPx = allAppsIconSizePx + allAppsIconDrawablePaddingPx;
+        if (!FeatureFlags.INSTANCE.hideAllAppsAppLabels(mContext)) {
+            allAppsCellHeightPx += Utilities.calculateTextHeight(allAppsIconTextSizePx);
+        }
         dragViewScale = iconSizePx;
 
         // Hotseat
