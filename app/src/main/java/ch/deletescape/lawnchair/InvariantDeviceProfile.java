@@ -64,6 +64,7 @@ public class InvariantDeviceProfile {
     public int numColumnsOriginal;
 
     public int numColumnsDrawer;
+    public int numRowsDrawer;
 
     /**
      * Number of icons per row and column in the folder.
@@ -83,6 +84,7 @@ public class InvariantDeviceProfile {
      * Number of icons inside the hotseat area.
      */
     public int numHotseatIcons;
+    public int numHotseatIconsOriginal;
     float hotseatIconSize;
     float hotseatIconSizeOriginal;
     int defaultLayoutId;
@@ -144,8 +146,10 @@ public class InvariantDeviceProfile {
         numRowsOriginal = numRows;
         numColumns = closestProfile.numColumns;
         numColumnsOriginal = numColumns;
-        numColumnsDrawer = closestProfile.numColumns;
+        numColumnsDrawer = numColumns;
+        numRowsDrawer = numRows;
         numHotseatIcons = closestProfile.numHotseatIcons;
+        numHotseatIconsOriginal = numHotseatIcons;
         defaultLayoutId = closestProfile.defaultLayoutId;
         numFolderRows = closestProfile.numFolderRows;
         numFolderColumns = closestProfile.numFolderColumns;
@@ -201,15 +205,28 @@ public class InvariantDeviceProfile {
         String valueDefault = "default";
         if (!prefs.getString("pref_numRows", valueDefault).equals(valueDefault)) {
             numRows = Integer.valueOf(prefs.getString("pref_numRows", ""));
+        } else {
+            numRows = numRowsOriginal;
         }
         if (!prefs.getString("pref_numCols", valueDefault).equals(valueDefault)) {
             numColumns = Integer.valueOf(prefs.getString("pref_numCols", ""));
+        } else {
+            numColumns = numColumnsOriginal;
         }
         if (!prefs.getString("pref_numColsDrawer", valueDefault).equals(valueDefault)) {
             numColumnsDrawer = Integer.valueOf(prefs.getString("pref_numColsDrawer", ""));
+        } else {
+            numColumnsDrawer = numColumnsOriginal;
+        }
+        if (!prefs.getString("pref_numRowsDrawer", valueDefault).equals(valueDefault)) {
+            numRowsDrawer = Integer.valueOf(prefs.getString("pref_numRowsDrawer", ""));
+        } else {
+            numRowsDrawer = numRowsOriginal;
         }
         if (!prefs.getString("pref_numHotseatIcons", valueDefault).equals(valueDefault)) {
             numHotseatIcons = Integer.valueOf(prefs.getString("pref_numHotseatIcons", ""));
+        } else {
+            numHotseatIcons = numHotseatIconsOriginal;
         }
         if (prefs.getFloat("pref_iconScaleSB", 1f) != 1f) {
             float iconScale = prefs.getFloat("pref_iconScaleSB", 1f);
