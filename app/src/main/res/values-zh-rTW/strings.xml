@@ -258,6 +258,7 @@
   <string name="blur_radius_pref_title">模糊範圍</string>
   <string name="white_google_icon_pref_title">使用白色的 Google 圖示</string>
   <string name="hide_icon_labels_pref_title">在主畫面上隱藏圖示標籤</string>
+  <string name="hide_all_apps_icon_labels_pref_title">在應用程式清單裡隱藏圖示</string>
   <string name="workspace_label_color_hue_pref_title">主畫面上的圖示標籤顏色</string>
   <string name="workspace_label_color_variation_pref_title">主畫面上的圖示標籤顏色變化</string>
   <string name="all_apps_opacity_pref_title">清單透明度</string>
