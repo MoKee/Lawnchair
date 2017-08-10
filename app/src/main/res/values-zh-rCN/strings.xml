@@ -258,6 +258,7 @@
   <string name="blur_radius_pref_title">模糊度</string>
   <string name="white_google_icon_pref_title">使用白色 Google 图标</string>
   <string name="hide_icon_labels_pref_title">在主屏幕上隐藏图标标签</string>
+  <string name="hide_all_apps_icon_labels_pref_title">在抽屉里隐藏图标标签</string>
   <string name="workspace_label_color_hue_pref_title">主屏幕图标标签颜色</string>
   <string name="workspace_label_color_variation_pref_title">主屏幕图标标签颜色变化</string>
   <string name="all_apps_opacity_pref_title">抽屉透明度</string>
@@ -411,7 +412,7 @@
   <string name="pref_backport_shortcuts">导入快捷方式</string>
   <string name="weather_api_key_not_set">API 密钥未设置</string>
   <string name="pref_weather_api_key_title">API 密钥</string>
-  <string name="about_changelog">更改记录</string>
+  <string name="about_changelog">更新日志</string>
   <string name="pref_all_apps_custom_label_color">自定义标签颜色</string>
   <string name="pref_all_apps_label_color_variation">抽屉图标标签颜色变化</string>
   <string name="pref_all_apps_label_color">抽屉图标标签颜色</string>
