@@ -386,10 +386,10 @@
   <string name="pref_applyBlur">套用模糊效果</string>
   <string name="search_bar">搜尋列</string>
   <string name="folder">資料夾</string>
-  <string name="dock_allapps"><![CDATA[Dock欄與所有應用程式]]></string>
+  <string name="dock_allapps"><![CDATA[座架列與應用程式清單]]></string>
   <string name="app_shortcuts">應用程式捷徑</string>
   <string name="blur_effect">模糊效果</string>
-  <string name="enable_editing_pref_title">啟用編輯工作區</string>
+  <string name="enable_editing_pref_title">啟用編輯主畫面</string>
   <string name="pref_weather_provider">天氣供應商</string>
   <string name="loading">載入中...</string>
   <string name="icon_shape_override_label">更換圖示造型</string>
@@ -412,4 +412,7 @@
   <string name="weather_api_key_not_set">API Key 尚未設定</string>
   <string name="pref_weather_api_key_title">API Key</string>
   <string name="about_changelog">更新日誌</string>
+  <string name="pref_all_apps_custom_label_color">使用自訂標籤顏色</string>
+  <string name="pref_all_apps_label_color_variation">應用程式清單圖示標籤顏色變化</string>
+  <string name="pref_all_apps_label_color">清單圖示標籤顏色</string>
 </resources>
