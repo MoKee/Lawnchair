@@ -406,7 +406,7 @@
   <string name="about_icon_designer">應用程式圖示設計者</string>
   <string name="about_contributors_title">貢獻者</string>
   <string name="location_permission_warn">需要位置權限才能切換到其他氣象資料提供</string>
-  <string name="num_cols_drawer_pref_title">應用程式清單的列數</string>
+  <string name="num_cols_drawer_pref_title">清單的列數</string>
   <string name="pref_cat_drawer">清單</string>
   <string name="shortcut_backport_warning">該功能有可能會導致桌面效能下降，後果請自行承擔</string>
   <string name="pref_backport_shortcuts">反向移植捷徑</string>
@@ -416,4 +416,5 @@
   <string name="pref_all_apps_custom_label_color">使用自訂標籤顏色</string>
   <string name="pref_all_apps_label_color_variation">應用程式清單圖示標籤顏色變化</string>
   <string name="pref_all_apps_label_color">清單圖示標籤顏色</string>
+  <string name="pref_num_rows_drawer">清單的行數</string>
 </resources>

@@ -260,6 +260,7 @@
   <string name="blur_radius_pref_title">Rozsah rozostrenia</string>
   <string name="white_google_icon_pref_title">Použiť biele ikony vo vyhľadávacej miniaplikácií</string>
   <string name="hide_icon_labels_pref_title">Skryť menovky ikon z domovskej obrazovky</string>
+  <string name="hide_all_apps_icon_labels_pref_title">Skryť menovky ikon v ponuke aplikácií</string>
   <string name="workspace_label_color_hue_pref_title">Farba menoviek ikon na domovskej obrazovke</string>
   <string name="workspace_label_color_variation_pref_title">Farebné variácie menoviek ikon na domovskej obrazovke</string>
   <string name="all_apps_opacity_pref_title">Priehľadnosť menu aplikácie</string>
@@ -417,4 +418,5 @@
   <string name="pref_all_apps_custom_label_color">Vybrať vlastné farby menoviek</string>
   <string name="pref_all_apps_label_color_variation">Farebné variácie menoviek ikon v ponuke aplikácií</string>
   <string name="pref_all_apps_label_color">Farba menoviek ikon v ponuke</string>
+  <string name="pref_num_rows_drawer">Počet riadkov v zobrazení ponuky</string>
 </resources>

@@ -416,4 +416,5 @@
   <string name="pref_all_apps_custom_label_color">使用自訂標籤顏色</string>
   <string name="pref_all_apps_label_color_variation">應用程式清單圖示標籤顏色變化</string>
   <string name="pref_all_apps_label_color">清單圖示標籤顏色</string>
+  <string name="pref_num_rows_drawer">清單的行數</string>
 </resources>

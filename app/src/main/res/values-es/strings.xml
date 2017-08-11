@@ -259,6 +259,7 @@
   <string name="blur_radius_pref_title">Radio de desenfoque</string>
   <string name="white_google_icon_pref_title">Usa el icono blanco de Google</string>
   <string name="hide_icon_labels_pref_title">Ocultar el nombre de la aplicaciones en la pantalla de inicio</string>
+  <string name="hide_all_apps_icon_labels_pref_title">Ocultar icono de las etiquetas en el cajón</string>
   <string name="workspace_label_color_hue_pref_title">Color y etiquetas de aplicaciones de la pantalla de inicio</string>
   <string name="workspace_label_color_variation_pref_title">Variante de color para las etiquetas de las aplicaciones en la pantalla de inicio</string>
   <string name="all_apps_opacity_pref_title">Opacidad del cajón de aplicaciones</string>
@@ -413,4 +414,8 @@
   <string name="weather_api_key_not_set">Clave de API no configurada</string>
   <string name="pref_weather_api_key_title">Clave API</string>
   <string name="about_changelog">Registro de cambios</string>
+  <string name="pref_all_apps_custom_label_color">Utilizar color personalizado</string>
+  <string name="pref_all_apps_label_color_variation">Variante de color para las etiquetas de las aplicaciones en la pantalla de inicio</string>
+  <string name="pref_all_apps_label_color">Color de las etiquetas de los iconos en el cajón</string>
+  <string name="pref_num_rows_drawer">Número de columnas en el cajón</string>
 </resources>
