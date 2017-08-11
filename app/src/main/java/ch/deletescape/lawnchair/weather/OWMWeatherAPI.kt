@@ -2,6 +2,7 @@ package ch.deletescape.lawnchair.weather
 
 import android.content.Context
 import ch.deletescape.lawnchair.Utilities
+import ch.deletescape.lawnchair.preferences.PreferenceFlags
 import ch.deletescape.lawnchair.misc.LicenseUtils
 import com.kwabenaberko.openweathermaplib.implementation.OpenWeatherMapHelper
 import com.kwabenaberko.openweathermaplib.models.CurrentWeather
@@ -9,7 +10,7 @@ import com.mokee.security.License
 
 class OWMWeatherAPI(context: Context) : WeatherAPI(), OpenWeatherMapHelper.CurrentWeatherCallback {
 
-    private val apiKey = if (LicenseUtils.mkVerified) License.getOpenWeatherMapAPIKey(context, context.packageName) else Utilities.getPrefs(context).getString("pref_weatherApiKey", "eaa824f860b4c670a78797be5ff99cd1")
+    private val apiKey = if (LicenseUtils.mkVerified) License.getOpenWeatherMapAPIKey(context, context.packageName) else Utilities.getPrefs(context).weatherApiKey()
     private val helper = OpenWeatherMapHelper().apply { setAppId(apiKey) }
 
     override var city: String = ""

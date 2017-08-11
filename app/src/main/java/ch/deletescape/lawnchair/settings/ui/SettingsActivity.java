@@ -54,13 +54,15 @@ import ch.deletescape.lawnchair.blur.BlurWallpaperProvider;
 import ch.deletescape.lawnchair.config.FeatureFlags;
 import ch.deletescape.lawnchair.graphics.IconShapeOverride;
 import ch.deletescape.lawnchair.misc.LicenseUtils;
+import ch.deletescape.lawnchair.preferences.IPreferenceProvider;
+import ch.deletescape.lawnchair.preferences.PreferenceFlags;
 
 /**
  * Settings activity for Launcher. Currently implements the following setting: Allow rotation
  */
 public class SettingsActivity extends Activity implements PreferenceFragment.OnPreferenceStartFragmentCallback, SharedPreferences.OnSharedPreferenceChangeListener {
 
-    private static SharedPreferences sharedPrefs;
+    private static IPreferenceProvider sharedPrefs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -185,13 +187,13 @@ public class SettingsActivity extends Activity implements PreferenceFragment.OnP
             getPreferenceManager().setSharedPreferencesName(LauncherFiles.SHARED_PREFERENCES_KEY);
             addPreferencesFromResource(getContent());
             if (getContent() == R.xml.launcher_pixel_style_preferences) {
-                Preference prefWeatherEnabled = findPreference("pref_weather");
+                Preference prefWeatherEnabled = findPreference(FeatureFlags.KEY_PREF_WEATHER);
                 prefWeatherEnabled.setOnPreferenceChangeListener(this);
-                Preference prefWeatherProvider = findPreference("pref_weatherProvider");
+                Preference prefWeatherProvider = findPreference(PreferenceFlags.KEY_WEATHER_PROVIDER);
                 prefWeatherProvider.setEnabled(BuildConfig.AWARENESS_API_ENABLED);
                 prefWeatherProvider.setOnPreferenceChangeListener(this);
-                updateEnabledState(Utilities.getPrefs(getActivity()).getString("pref_weatherProvider", "1"));
-                Preference overrideShapePreference = findPreference("pref_override_icon_shape");
+                updateEnabledState(Utilities.getPrefs(getActivity()).weatherProvider());
+                Preference overrideShapePreference = findPreference(PreferenceFlags.KEY_OVERRIDE_ICON_SHAPE);
                 if (IconShapeOverride.Companion.isSupported(getActivity())) {
                     IconShapeOverride.Companion.handlePreferenceUi((ListPreference) overrideShapePreference);
                 } else {
@@ -211,7 +213,7 @@ public class SettingsActivity extends Activity implements PreferenceFragment.OnP
                 }
             } else if (getContent() == R.xml.launcher_behavior_preferences) {
                 if (Utilities.isNycMR1OrAbove()) {
-                    getPreferenceScreen().removePreference(findPreference("pref_enableBackportShortcuts"));
+                    getPreferenceScreen().removePreference(findPreference(FeatureFlags.KEY_PREF_ENABLE_BACKPORT_SHORTCUTS));
                 }
             } else if (getContent() == R.xml.launcher_hidden_preferences) {
                 Preference eminemPref = findPreference("random_eminem_quote");
@@ -222,12 +224,12 @@ public class SettingsActivity extends Activity implements PreferenceFragment.OnP
         }
 
         private void updateEnabledState(String weatherProvider) {
-            boolean awarenessApiEnabled = weatherProvider.equals("1");
-            Preference prefWeatherCity = findPreference("pref_weather_city");
+            boolean awarenessApiEnabled = weatherProvider.equals(PreferenceFlags.PREF_WEATHER_PROVIDER_AWARENESS);
+            Preference prefWeatherCity = findPreference(PreferenceFlags.KEY_WEATHER_CITY);
             prefWeatherCity.setEnabled(!awarenessApiEnabled);
 
             if (!LicenseUtils.INSTANCE.getMkVerified()) {
-                Preference prefWeatherApiKey = findPreference("pref_weatherApiKey");
+                Preference prefWeatherApiKey = findPreference(PreferenceFlags.KEY_WEATHER_API_KEY);
                 prefWeatherApiKey.setEnabled(!awarenessApiEnabled);
             }
         }
@@ -236,12 +238,12 @@ public class SettingsActivity extends Activity implements PreferenceFragment.OnP
         public boolean onPreferenceChange(Preference preference, Object newValue) {
             if (preference.getKey() != null) {
                 switch (preference.getKey()) {
-                    case "pref_weatherProvider":
+                    case PreferenceFlags.KEY_WEATHER_PROVIDER:
                         updateEnabledState((String) newValue);
                         break;
-                    case "pref_weather":
+                    case FeatureFlags.KEY_PREF_WEATHER:
                         Context context = getActivity();
-                        if (FeatureFlags.INSTANCE.showWeather(context) && Utilities.isAwarenessApiEnabled(context)) {
+                        if (Utilities.getPrefs(context).showWeather() && Utilities.isAwarenessApiEnabled(context)) {
                             checkPermission(Manifest.permission.ACCESS_FINE_LOCATION);
                         }
                         break;
@@ -281,7 +283,7 @@ public class SettingsActivity extends Activity implements PreferenceFragment.OnP
                             LauncherAppState.getInstance().getLauncher().scheduleKill();
                         }
                         break;
-                    case "pref_weatherProvider":
+                    case PreferenceFlags.KEY_WEATHER_PROVIDER:
                         if (!checkPermission(Manifest.permission.ACCESS_FINE_LOCATION)) {
                             Toast.makeText(getActivity(), R.string.location_permission_warn, Toast.LENGTH_SHORT).show();
                         }
