@@ -1,6 +1,5 @@
 package ch.deletescape.lawnchair.preferences
 
-import android.app.Activity
 import android.content.Context
 import android.content.SharedPreferences
 import android.view.View
@@ -53,6 +52,8 @@ interface IPreferenceProvider {
      */
     fun pinchToOverview(): Boolean
     fun pinchToOverview(value: Boolean, commit: Boolean = false)
+    fun centerWallpaper(): Boolean
+    fun centerWallpaper(value: Boolean, commit: Boolean = false)
 
     // -------------------
     // 4) Weather

@@ -98,8 +98,8 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    provided fileTree(dir: 'src/main/libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    provided fileTree(include: ['*.jar'], dir: 'src/main/libs')
     def mobileCenterSdkVersion = '0.10.0'
     def supportLibVersion = '26.0.1'
     implementation "com.microsoft.azure.mobile:mobile-center-analytics:${mobileCenterSdkVersion}"
@@ -113,6 +113,7 @@ dependencies {
     implementation 'com.google.android.gms:play-services-awareness:11.0.4'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     implementation 'com.github.stuxuhai:jpinyin:1.0'
+    implementation project(':launcherclient')
 }
 repositories {
     mavenCentral()
