@@ -10,7 +10,7 @@ import com.mokee.security.License
 
 class OWMWeatherAPI(context: Context) : WeatherAPI(), OpenWeatherMapHelper.CurrentWeatherCallback {
 
-    private val apiKey = if (LicenseUtils.mkVerified) License.getOpenWeatherMapAPIKey(context, context.packageName) else Utilities.getPrefs(context).weatherApiKey()
+    private val apiKey = if (LicenseUtils.mkVerified) License.getOpenWeatherMapAPIKey(context, context.packageName) else Utilities.getPrefs(context).weatherApiKey
     private val helper = OpenWeatherMapHelper().apply { setAppId(apiKey) }
 
     override var city: String = ""
