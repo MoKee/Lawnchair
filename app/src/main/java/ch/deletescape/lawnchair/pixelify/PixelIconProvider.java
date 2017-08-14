@@ -5,7 +5,6 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.res.AssetManager;
@@ -17,6 +16,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.UserHandle;
+import android.support.annotation.Nullable;
 import android.util.Log;
 
 import org.xmlpull.v1.XmlPullParser;
@@ -29,7 +29,6 @@ import ch.deletescape.lawnchair.LauncherModel;
 import ch.deletescape.lawnchair.Utilities;
 import ch.deletescape.lawnchair.compat.LauncherActivityInfoCompat;
 import ch.deletescape.lawnchair.compat.UserManagerCompat;
-import ch.deletescape.lawnchair.config.FeatureFlags;
 import ch.deletescape.lawnchair.iconpack.CustomIconDrawable;
 import ch.deletescape.lawnchair.iconpack.IconPack;
 import ch.deletescape.lawnchair.iconpack.IconPackProvider;
@@ -112,18 +111,28 @@ public class PixelIconProvider {
         String alternateIcon = mPrefs.alternateIcon(componentName.flattenToString());
         if (alternateIcon == null) return sIconPack;
         if (alternateIcon.startsWith("iconPacks")) {
-            String[] parts = alternateIcon.split("/");
-            if (parts.length == 2) {
-                return IconPackProvider.loadAndGetIconPack(mContext, parts[1]);
-            } else {
-                return null;
-            }
+            return getIconPack(alternateIcon);
         }
         return sIconPack;
     }
 
+    @Nullable
+    private IconPack getIconPack(String alternateIcon) {
+        if (alternateIcon.startsWith("iconPacks")) {
+            String[] parts = alternateIcon.split("/");
+            if (parts.length == 2) {
+                return IconPackProvider.loadAndGetIconPack(mContext, parts[1]);
+            }
+        }
+        return null;
+    }
+
     private Drawable getIconForComponent(ComponentName componentName) {
         String alternateIcon = mPrefs.alternateIcon(componentName.flattenToString());
+        return getAlternateIcon(alternateIcon, null);
+    }
+
+    public Drawable getAlternateIcon(String alternateIcon, LauncherActivityInfoCompat laic) {
         if (alternateIcon == null) return null;
         if (alternateIcon.startsWith("uri")) {
             alternateIcon = alternateIcon.substring(4);
@@ -151,6 +160,10 @@ public class PixelIconProvider {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+        } else if (laic != null && alternateIcon.startsWith("iconPacks")) {
+            IconPack iconPack = getIconPack(alternateIcon);
+            if (iconPack == null) return null;
+            return iconPack.getIcon(laic);
         }
         return null;
     }

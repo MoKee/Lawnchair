@@ -73,6 +73,10 @@ public class PopupPopulator {
 
         @Override
         public void run() {
+            for (int i3 = 0; i3 < val$systemShortcuts.size(); i3++) {
+                val$uiHandler.post(new UpdateSystemShortcutChild((View) val$systemShortcutViews.get(i3), (SystemShortcut) val$systemShortcuts.get(i3), val$launcher, val$originalInfo));
+            }
+            if (val$activity == null) return;
             List statusBarNotificationsForKeys;
             String str;
             if (val$notificationView != null) {
@@ -99,16 +103,10 @@ public class PopupPopulator {
                 val$uiHandler.post(new UpdateShortcutChild(val$container, (DeepShortcutView) val$shortcutViews.get(i2), shortcutInfo, shortcutInfoCompat));
                 i2++;
             }
-            for (int i3 = 0; i3 < val$systemShortcuts.size(); i3++) {
-                val$uiHandler.post(new UpdateSystemShortcutChild(val$container, (View) val$systemShortcutViews.get(i3), (SystemShortcut) val$systemShortcuts.get(i3), val$launcher, val$originalInfo));
-            }
-            Handler handler = val$uiHandler;
-            final Launcher launcher = val$launcher;
-            final ItemInfo itemInfo = val$originalInfo;
-            handler.post(new Runnable() {
+            val$uiHandler.post(new Runnable() {
                 @Override
                 public void run() {
-                    launcher.refreshAndBindWidgetsForPackageUser(PackageUserKey.fromItemInfo(itemInfo));
+                    val$launcher.refreshAndBindWidgetsForPackageUser(PackageUserKey.fromItemInfo(val$originalInfo));
                 }
             });
         }
@@ -164,14 +162,12 @@ public class PopupPopulator {
     }
 
     static class UpdateSystemShortcutChild implements Runnable {
-        private final PopupContainerWithArrow mContainer;
         private final ItemInfo mItemInfo;
         private final Launcher mLauncher;
         private final View mSystemShortcutChild;
         private final SystemShortcut mSystemShortcutInfo;
 
-        public UpdateSystemShortcutChild(PopupContainerWithArrow popupContainerWithArrow, View view, SystemShortcut systemShortcut, Launcher launcher, ItemInfo itemInfo) {
-            mContainer = popupContainerWithArrow;
+        public UpdateSystemShortcutChild(View view, SystemShortcut systemShortcut, Launcher launcher, ItemInfo itemInfo) {
             mSystemShortcutChild = view;
             mSystemShortcutInfo = systemShortcut;
             mLauncher = launcher;
@@ -240,10 +236,10 @@ public class PopupPopulator {
         if (list.size() <= 4) {
             return list;
         }
-        List arrayList = new ArrayList(4);
+        List<ShortcutInfoCompat> arrayList = new ArrayList<>(4);
         int size = list.size();
         for (int i2 = 0; i2 < size; i2++) {
-            ShortcutInfoCompat shortcutInfoCompat = (ShortcutInfoCompat) list.get(i2);
+            ShortcutInfoCompat shortcutInfoCompat = list.get(i2);
             int size2 = arrayList.size();
             if (size2 < 4) {
                 int i3;
@@ -254,7 +250,7 @@ public class PopupPopulator {
                     i3 = i;
                 }
                 i = i3;
-            } else if (shortcutInfoCompat.isDynamic() && i < 2) {
+            } else if (shortcutInfoCompat.isDynamic() && i < NUM_DYNAMIC) {
                 i++;
                 arrayList.remove(size2 - i);
                 arrayList.add(shortcutInfoCompat);

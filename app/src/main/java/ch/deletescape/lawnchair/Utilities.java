@@ -81,13 +81,13 @@ import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import ch.deletescape.lawnchair.config.PreferenceProvider;
+import ch.deletescape.lawnchair.config.IThemer;
 import ch.deletescape.lawnchair.config.ThemeProvider;
 import ch.deletescape.lawnchair.dynamicui.ExtractedColors;
 import ch.deletescape.lawnchair.graphics.ShadowGenerator;
 import ch.deletescape.lawnchair.preferences.IPreferenceProvider;
-import ch.deletescape.lawnchair.config.IThemer;
 import ch.deletescape.lawnchair.preferences.PreferenceFlags;
+import ch.deletescape.lawnchair.preferences.PreferenceProvider;
 import ch.deletescape.lawnchair.shortcuts.DeepShortcutManager;
 import ch.deletescape.lawnchair.shortcuts.ShortcutInfoCompat;
 import ch.deletescape.lawnchair.util.IconNormalizer;
@@ -795,6 +795,10 @@ public final class Utilities {
         return Build.VERSION.SDK_INT >= Build.VERSION_CODES.O;
     }
 
+    public static void stackTrace() {
+        (new Throwable()).printStackTrace();
+    }
+
     /**
      * An extension of {@link BitmapDrawable} which returns the bitmap pixel size as intrinsic size.
      * This allows the badging to be done based on the action bitmap size rather than
@@ -918,7 +922,7 @@ public final class Utilities {
         getPrefs(context).appVisibility(context, key, visible, false);
     }
 
-    public static boolean isAppHidden(Context context,String key) {
+    public static boolean isAppHidden(Context context, String key) {
         return !getPrefs(context).appVisibility(context, key);
     }
 
