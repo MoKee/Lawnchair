@@ -259,6 +259,7 @@
   <string name="blur_radius_pref_title">Stärke des Unschärfeeffekts</string>
   <string name="white_google_icon_pref_title">Weiße Google Icons verwenden</string>
   <string name="hide_icon_labels_pref_title">Icon Beschriftungen auf dem Startbildschirm verstecken</string>
+  <string name="hide_all_apps_icon_labels_pref_title">Symbolbeschriftungen in der App-Übersicht ausblenden</string>
   <string name="workspace_label_color_hue_pref_title">Farbe der Icon Beschriftungen auf dem Startbildschirm</string>
   <string name="workspace_label_color_variation_pref_title">Farbvariation der Icon Beschriftungen auf dem Startbildschirm</string>
   <string name="all_apps_opacity_pref_title">Transparenz der App-Liste</string>
@@ -408,6 +409,14 @@
   <string name="location_permission_warn">Standort-Berechtigung wird benötigt, um zu einem anderen Anbieter zu wechseln!</string>
   <string name="num_cols_drawer_pref_title">Spalten-Anzahl in der Übersicht</string>
   <string name="pref_cat_drawer">Übersicht</string>
+  <string name="shortcut_backport_warning">Dies könnte langsam sein, nutzen auf eigene Gefahr</string>
   <string name="pref_backport_shortcuts">Verknüpfungen zurücksetzen</string>
+  <string name="weather_api_key_not_set">Kein API-Schlüssel festgelegt</string>
+  <string name="pref_weather_api_key_title">API-Schlüssel</string>
   <string name="about_changelog">Changelog</string>
+  <string name="pref_all_apps_custom_label_color">Verwende benutzerdefinierte Schriftfarbe</string>
+  <string name="pref_all_apps_label_color_variation">Farbvariation der Symbolbeschriftung in der App-Übersicht</string>
+  <string name="pref_all_apps_label_color">Farbe der Symbolbeschriftung in der Übersicht</string>
+  <string name="pref_num_rows_drawer">Anzahl der Reihen in der Übersicht</string>
+  <string name="center_wallpaper_pref_title">Hintergrund zentrieren, wenn nur eine Seite vorhanden ist</string>
 </resources>
