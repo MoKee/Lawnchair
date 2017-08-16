@@ -418,6 +418,7 @@
   <string name="pref_all_apps_custom_label_color">Použít vlastní barvu</string>
   <string name="pref_all_apps_label_color_variation">Barevné variace popisků ikon v seznamu aplikací</string>
   <string name="pref_all_apps_label_color">Barva popisků ikon v seznamu aplikací</string>
-  <string name="pref_num_rows_drawer">Počet sloupců v seznamu aplikací</string>
+  <string name="pref_num_rows_drawer">Počet řádků v seznamu aplikací</string>
   <string name="center_wallpaper_pref_title">Tapeta na střed, je-li pouze jedna strana</string>
+  <string name="vertical_drawer_layout_pref_title">Zobrazit jako svislý seznam</string>
 </resources>
