@@ -23,8 +23,10 @@ import android.app.Dialog;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
@@ -289,11 +291,15 @@ public class SettingsActivity extends Activity implements PreferenceFragment.OnP
                             Toast.makeText(getActivity(), R.string.location_permission_warn, Toast.LENGTH_SHORT).show();
                         }
                         break;
-                    case "about_translators":
-                        Dialog dialog = new Dialog(getActivity());
-                        dialog.setTitle(R.string.about_translators);
-                        dialog.setContentView(R.layout.dialog_translators);
-                        dialog.show();
+//                    case "about_translators":
+//                        Dialog dialog = new Dialog(getActivity());
+//                        dialog.setTitle(R.string.about_translators);
+//                        dialog.setContentView(R.layout.dialog_translators);
+//                        dialog.show();
+//                        break;
+                    case "about_translate":
+                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://translate.mokeedev.com/"));
+                        startActivity(i);
                         break;
                     default:
                         return false;

@@ -18,9 +18,14 @@
         android:title="@string/about_contributors_title"
         android:summary="paphonb, fonix232, MoKee Team" />
 
+    <!--<Preference-->
+        <!--android:title="@string/about_translators"-->
+        <!--android:key="about_translators" />-->
+
     <Preference
-        android:title="@string/about_translators"
-        android:key="about_translators" />
+        android:key="about_translate"
+        android:title="@string/about_translate_title"
+        android:summary="@string/about_translate_summary" />
 
     <Preference
         android:title="@string/about_icon_designer"

@@ -21,4 +21,7 @@
     <!-- About Lawnchair -->
     <string name="about_text_mk">Lawnchair is a Launcher app created by Till Kottmann (aka deletescape), modified for MoKee ROM. It\'s based on Launcher3 from AOSP.</string>
 
+    <string name="about_translate_title">Translate</string>
+    <string name="about_translate_summary">Translate Lawnchair</string>
+
 </resources>
