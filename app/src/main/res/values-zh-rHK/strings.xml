@@ -419,4 +419,6 @@
   <string name="pref_num_rows_drawer">清單的行數</string>
   <string name="center_wallpaper_pref_title">當僅有一頁時，置中牆紙</string>
   <string name="vertical_drawer_layout_pref_title">顯示為縱向清單</string>
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="full_wday_month_day_no_year">M月d日EEEE</string>
 </resources>

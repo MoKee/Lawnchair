@@ -193,13 +193,13 @@
     <string name="action_move">Move item</string>
 
     <!-- Accessibility description to move item to empty cell. -->
-    <string name="move_to_empty_cell">Move to row <xliff:g example="1" id="number">%1$s</xliff:g> column <xliff:g example="1" id="number">%2$s</xliff:g></string>
+    <string name="move_to_empty_cell">Move to row <xliff:g example="1" id="number">%1$d</xliff:g> column <xliff:g example="1" id="number">%2$d</xliff:g></string>
 
     <!-- Accessibility description to move item inside a folder. -->
-    <string name="move_to_position">Move to position <xliff:g example="1" id="number">%1$s</xliff:g></string>
+    <string name="move_to_position">Move to position <xliff:g example="1" id="number">%1$d</xliff:g></string>
 
     <!-- Accessibility description to move item to the hotseat. -->
-    <string name="move_to_hotseat_position">Move to favorites position <xliff:g example="1" id="number">%1$s</xliff:g></string>
+    <string name="move_to_hotseat_position">Move to favorites position <xliff:g example="1" id="number">%1$d</xliff:g></string>
 
     <!-- Accessibility confirmation for item move. -->
     <string name="item_moved">Item moved</string>
@@ -247,7 +247,7 @@
     <string name="action_decrease_height">Decrease height</string>
 
     <!-- Accessibility confirmation for widget resize. -->
-    <string name="widget_resized">Widget resized to width <xliff:g example="2" id="number">%1$s</xliff:g> height <xliff:g example="1" id="number">%2$s</xliff:g></string>
+    <string name="widget_resized">Widget resized to width <xliff:g example="2" id="number">%1$d</xliff:g> height <xliff:g example="1" id="number">%2$d</xliff:g></string>
 
     <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
     <string name="action_deep_shortcut">Shortcuts</string>
@@ -462,7 +462,7 @@
     <string name="blur_effect">Blur effect</string>
     <string name="enable_editing_pref_title">Enable editing homescreen</string>
     <string name="pref_weather_provider">Weather provider</string>
-    <string name="loading">Loading...</string>
+    <string name="loading">Loading…</string>
     <string name="icon_shape_override_label">Change icon shape</string>
     <string name="icon_shape_system_default">Do not change</string>
     <string name="icon_shape_square">Square</string>
@@ -489,4 +489,9 @@
     <string name="pref_num_rows_drawer">Number of rows in drawer</string>
     <string name="center_wallpaper_pref_title">Center wallpaper when there is only one page</string>
     <string name="vertical_drawer_layout_pref_title">Display as vertical list</string>
+
+    <!-- Time format for Weather Widget -->
+    <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+    <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
+    <string name="about_translators">Translators</string>
 </resources>

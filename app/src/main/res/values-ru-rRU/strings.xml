@@ -406,4 +406,5 @@
   <string name="about_version">Версия</string>
   <string name="about_icon_designer">Дизайнер значка приложения</string>
   <string name="about_contributors_title">Участники</string>
+  <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
 </resources>
