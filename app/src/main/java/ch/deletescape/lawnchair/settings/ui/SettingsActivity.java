@@ -297,7 +297,7 @@ public class SettingsActivity extends Activity implements PreferenceFragment.OnP
 //                        dialog.setContentView(R.layout.dialog_translators);
 //                        dialog.show();
 //                        break;
-                    case "about_translate":
+                    case "about_localization":
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://translate.mokeedev.com/"));
                         startActivity(i);
                         break;

@@ -23,9 +23,9 @@
         <!--android:key="about_translators" />-->
 
     <Preference
-        android:key="about_translate"
-        android:title="@string/about_translate_title"
-        android:summary="@string/about_translate_summary" />
+        android:key="about_localization"
+        android:title="@string/about_localization_title"
+        android:summary="@string/about_localization_summary" />
 
     <Preference
         android:title="@string/about_icon_designer"
