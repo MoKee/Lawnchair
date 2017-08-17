@@ -405,5 +405,7 @@
   <string name="about_version">Добавить</string>
   <string name="about_contributors_title">Авторы</string>
   <string name="about_changelog">Список изменений</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
 </resources>

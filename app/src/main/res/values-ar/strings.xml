@@ -350,7 +350,10 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">لا شيء</string>
   <string name="folder">مجلد</string>
+  <string name="loading">جاري التحميل…</string>
   <string name="about_version">الإصدار</string>
   <string name="about_contributors_title">المساهمين</string>
   <string name="about_changelog">سجل التغييرات</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

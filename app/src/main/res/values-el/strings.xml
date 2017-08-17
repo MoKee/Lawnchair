@@ -310,7 +310,10 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Κανένα</string>
   <string name="folder">Φάκελος</string>
+  <string name="loading">Φόρτωση…</string>
   <string name="about_version">Έκδοση</string>
   <string name="about_contributors_title">Συντελεστές</string>
   <string name="about_changelog">Αρχείο καταγραφής αλλαγών</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

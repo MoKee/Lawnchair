@@ -361,8 +361,11 @@
   <string name="pref_cat_weather">Надвор\'е</string>
   <string name="none">Нічога</string>
   <string name="folder">Тэчка</string>
+  <string name="loading">Загрузка…</string>
   <string name="icon_shape_circle">Круг</string>
   <string name="about_version">Версія</string>
   <string name="about_contributors_title">Аўтары</string>
   <string name="about_changelog">Спic змен</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

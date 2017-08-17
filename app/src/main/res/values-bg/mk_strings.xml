@@ -19,4 +19,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
+  <string name="about_translate_title">Превод</string>
 </resources>

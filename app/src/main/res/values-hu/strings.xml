@@ -291,7 +291,10 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Nincs</string>
   <string name="folder">Mappa</string>
+  <string name="loading">Betöltés…</string>
   <string name="about_version">Verzió</string>
   <string name="about_contributors_title">Közreműködők</string>
   <string name="about_changelog">Változások naplója</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

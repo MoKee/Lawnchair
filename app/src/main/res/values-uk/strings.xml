@@ -293,8 +293,11 @@
   <string name="pref_cat_weather">Погода</string>
   <string name="none">Нічого</string>
   <string name="folder">Тека</string>
+  <string name="loading">Завантаження...</string>
   <string name="icon_shape_circle">Коло</string>
   <string name="about_version">Версія</string>
   <string name="about_contributors_title">Розробники</string>
   <string name="about_changelog">Історія змін</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

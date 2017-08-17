@@ -393,4 +393,6 @@
   <string name="about_version">Versione</string>
   <string name="about_contributors_title">Collaboratori</string>
   <string name="about_changelog">Modifiche di Versione</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

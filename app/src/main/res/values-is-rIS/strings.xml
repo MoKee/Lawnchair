@@ -264,4 +264,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Engin</string>
   <string name="about_version">Útgáfa</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

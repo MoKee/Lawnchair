@@ -256,4 +256,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Tiada</string>
   <string name="about_version">Versi</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

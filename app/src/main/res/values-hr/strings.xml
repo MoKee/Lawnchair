@@ -264,4 +264,6 @@
   <string name="none">Ništa</string>
   <string name="icon_shape_circle">Krug</string>
   <string name="about_version">Verzija</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

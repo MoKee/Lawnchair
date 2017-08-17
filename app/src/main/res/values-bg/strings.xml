@@ -291,8 +291,11 @@
   <string name="pref_cat_weather">Прогноза за времето</string>
   <string name="none">Без</string>
   <string name="folder">Папка</string>
+  <string name="loading">Зареждане…</string>
   <string name="icon_shape_circle">Кръг</string>
   <string name="about_version">Версия</string>
   <string name="about_contributors_title">Сътрудници</string>
   <string name="about_changelog">История на промените</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

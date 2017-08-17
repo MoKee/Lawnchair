@@ -155,11 +155,11 @@
   <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
   <string name="action_move">Presunúť položku</string>
   <!-- Accessibility description to move item to empty cell. -->
-  <string name="move_to_empty_cell">Presunúť na riadok <xliff:g example="1" id="number">%1$s</xliff:g> do stĺpca <xliff:g example="1" id="number">%2$s</xliff:g></string>
+  <string name="move_to_empty_cell">Presunúť na riadok <xliff:g example="1" id="number">%1$d</xliff:g> do stĺpca <xliff:g example="1" id="number">%2$d</xliff:g></string>
   <!-- Accessibility description to move item inside a folder. -->
-  <string name="move_to_position">Presunúť na pozíciu <xliff:g id="number">%1$s</xliff:g></string>
+  <string name="move_to_position">Presunúť na pozíciu <xliff:g example="1" id="number">%1$d</xliff:g></string>
   <!-- Accessibility description to move item to the hotseat. -->
-  <string name="move_to_hotseat_position">Presunúť do obľúbených položiek na pozíciu <xliff:g id="number">%1$s</xliff:g></string>
+  <string name="move_to_hotseat_position">Presunúť do obľúbených položiek na pozíciu <xliff:g example="1" id="number">%1$d</xliff:g></string>
   <!-- Accessibility confirmation for item move. -->
   <string name="item_moved">Položka bola presunutá</string>
   <!-- Accessibility description to move item into an existing folder. -->
@@ -191,7 +191,7 @@
   <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
   <string name="action_decrease_height">Zmenšiť výšku</string>
   <!-- Accessibility confirmation for widget resize. -->
-  <string name="widget_resized">Veľkosť miniaplikácie bola upravená na: šírka <xliff:g id="number">%1$s</xliff:g>, výška <xliff:g id="number">%2$s</xliff:g></string>
+  <string name="widget_resized">Veľkosť miniaplikácie bola upravená na: šírka <xliff:g example="2" id="number">%1$d</xliff:g>, výška <xliff:g example="1" id="number">%2$d</xliff:g></string>
   <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
   <string name="action_deep_shortcut">Odkazy</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
@@ -421,4 +421,7 @@
   <string name="pref_num_rows_drawer">Počet riadkov v zobrazení ponuky</string>
   <string name="center_wallpaper_pref_title">Tapeta na stred, ak je iba jedna strana</string>
   <string name="vertical_drawer_layout_pref_title">Zobraziť ako zvislý zoznam</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="full_wday_month_day_no_year">EEEE, d. MMMM</string>
 </resources>

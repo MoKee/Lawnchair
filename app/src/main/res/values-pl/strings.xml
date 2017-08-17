@@ -295,8 +295,11 @@
   <string name="pref_cat_weather">Pogoda</string>
   <string name="none">Brak</string>
   <string name="folder">Katalog</string>
+  <string name="loading">Wczytywanie…</string>
   <string name="icon_shape_circle">Okrąg</string>
   <string name="about_version">Wersja</string>
   <string name="about_contributors_title">Współtwórcy</string>
   <string name="about_changelog">Lista zmian</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

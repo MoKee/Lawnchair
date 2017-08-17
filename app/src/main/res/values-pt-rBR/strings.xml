@@ -356,8 +356,11 @@
   <string name="pref_cat_weather">Previsão do tempo</string>
   <string name="none">Nenhum</string>
   <string name="folder">Pasta</string>
+  <string name="loading">Carregando…</string>
   <string name="icon_shape_circle">Círculo</string>
   <string name="about_version">Versão</string>
   <string name="about_contributors_title">Colaboradores</string>
   <string name="about_changelog">Registro de alterações</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

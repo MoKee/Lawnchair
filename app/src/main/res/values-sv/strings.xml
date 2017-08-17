@@ -301,7 +301,10 @@
   <string name="pref_cat_weather">Väder</string>
   <string name="none">Inga</string>
   <string name="folder">Mapp</string>
+  <string name="loading">Laddar…</string>
   <string name="icon_shape_circle">Cirkel</string>
   <string name="about_version">Version</string>
   <string name="about_changelog">Ändringslog</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

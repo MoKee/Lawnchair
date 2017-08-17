@@ -281,7 +281,10 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Niciunul</string>
   <string name="folder">Dosar</string>
+  <string name="loading">Încărcare...</string>
   <string name="about_version">Versiune</string>
   <string name="about_contributors_title">Contribuitori</string>
   <string name="about_changelog">Istoria schimbărilor</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

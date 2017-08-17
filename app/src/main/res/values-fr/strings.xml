@@ -293,8 +293,11 @@
   <string name="pref_cat_weather">Météo</string>
   <string name="none">Aucun</string>
   <string name="folder">Dossier</string>
+  <string name="loading">Chargement en cours…</string>
   <string name="icon_shape_circle">Cercle</string>
   <string name="about_version">Version</string>
   <string name="about_contributors_title">Contributeurs</string>
   <string name="about_changelog">Historique des modifications</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

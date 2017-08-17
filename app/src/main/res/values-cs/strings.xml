@@ -421,4 +421,7 @@
   <string name="pref_num_rows_drawer">Počet řádků v seznamu aplikací</string>
   <string name="center_wallpaper_pref_title">Tapeta na střed, je-li pouze jedna strana</string>
   <string name="vertical_drawer_layout_pref_title">Zobrazit jako svislý seznam</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
 </resources>

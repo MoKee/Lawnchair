@@ -273,7 +273,10 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Không có</string>
   <string name="folder">Thư mục</string>
+  <string name="loading">Đang tải…</string>
   <string name="about_version">Phiên bản</string>
   <string name="about_contributors_title">Người đóng góp</string>
   <string name="about_changelog">Nhật ký thay đổi</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

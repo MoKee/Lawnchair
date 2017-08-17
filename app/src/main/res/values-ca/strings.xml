@@ -269,4 +269,6 @@
   <string name="icon_shape_circle">Cercle</string>
   <string name="about_version">Versió</string>
   <string name="about_changelog">Registre de canvis</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

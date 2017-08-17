@@ -268,4 +268,6 @@
   <string name="none">ללא</string>
   <string name="about_version">גרסה</string>
   <string name="about_changelog">יומן שינויים</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

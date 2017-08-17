@@ -235,10 +235,40 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Kilit ekranı</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="which_wallpaper_option_home_screen_and_lock_screen">Ana ekran ve kilit ekranı</string>
+  <string name="title_show_google_app">%1$s uygulamasını göster</string>
+  <string name="title_show_google_app_default">Google uygulamasını göster</string>
   <string name="label_search">Ara</string>
   <string name="label_voice_search">Sesli arama</string>
+  <string name="shortcuts_menu_with_notifications_description">%3$s için %1$d kısayol ve %2$d bildirim</string>
+  <string name="notifications_header">Bildirimler</string>
+  <string name="widgets_bottom_sheet_title">%1$s araç</string>
   <!-- About Lawnchair -->
   <string name="about_title">Hakkında</string>
+  <string name="changelog_title">#%d derlemesindeki değişiklikler</string>
+  <string name="week_day_format">%1$s, %2$s</string>
+  <string name="icon_pack_preference_title">Simge Paketi</string>
+  <string name="icon_pack_preference_summary">Bir simge paketi seçin</string>
+  <string name="hotseat_uses_extracted_colors_pref_title">Alt panel duvar kağıdı renklerini kullanır</string>
+  <string name="hotseat_uses_extracted_colors_pref_on">Alt panel duvar kağıdından alınan bir renkle renklendirilir</string>
+  <string name="hotseat_uses_extracted_colors_pref_off">Alt panel gri renkte olacak, ancak duvar kağıdı parlaklığıyla ayarlanacaktır</string>
+  <string name="transparent_hotseat_pref_title">Şeffaf Alt Panel</string>
+  <string name="dynamic_ui_pref_title">Vurgu rengini duvar kağıdından al</string>
+  <string name="blur_pref_title">Bulanıklığı etkinleştir</string>
+  <string name="blur_pref_summary">Arayüzün bazı kısımlarına bulanıklık efekti uygulayın\nCanlı duvar kağıtları ile uyumlu değil</string>
+  <string name="blur_radius_pref_title">Bulanıklık yarıçapı</string>
+  <string name="white_google_icon_pref_title">Beyaz Google simgesi kullan</string>
+  <string name="hide_icon_labels_pref_title">Ana ekrandaki simge etiketlerini gizle</string>
+  <string name="hide_all_apps_icon_labels_pref_title">Uygulama menüsündeki simge etiketlerini gizle</string>
+  <string name="workspace_label_color_hue_pref_title">Ana ekrandaki simge etiketlerinin rengi</string>
+  <string name="workspace_label_color_variation_pref_title">Ana ekrandaki simge etiketlerinin renk çeşitliliği</string>
+  <string name="all_apps_opacity_pref_title">Uygulama menüsü şeffaflığı</string>
+  <string name="num_cols_pref_title">Sütun sayısı</string>
+  <string name="num_rows_pref_title">Satır sayısı</string>
+  <string name="num_hotseat_icons_pref_title">Alt paneldeki simge sayısı</string>
+  <string name="icon_scale_pref_title">Simge boyutu</string>
+  <string name="icon_text_scale_pref_title">Simge yazı boyutu</string>
+  <string name="full_width_width_widgets_pref_title">Araçlara tam genişlik</string>
   <!-- Customization Color -->
   <!-- Customization Color -->
   <string name="black">Siyah</string>
@@ -292,8 +322,11 @@
   <string name="pref_cat_weather">Hava durumu</string>
   <string name="none">Hiçbiri</string>
   <string name="folder">Klasör</string>
+  <string name="loading">Yükleniyor…</string>
   <string name="icon_shape_circle">Çember</string>
   <string name="about_version">Sürüm</string>
   <string name="about_contributors_title">Katkıda bulunanlar</string>
   <string name="about_changelog">Değişiklik kaydı</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

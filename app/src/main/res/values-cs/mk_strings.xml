@@ -20,4 +20,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
   <string name="about_text_mk">Lawnchair je aplikace spouštěče, kterou vytvořil Till Kottmann (aka deletescape). Je upravena pro MoKee ROM a založena na spouštěči Launcher3 z AOSP.</string>
+  <string name="about_translate_title">Přeložit</string>
+  <string name="about_translate_summary">Překlady Lawnchair</string>
 </resources>

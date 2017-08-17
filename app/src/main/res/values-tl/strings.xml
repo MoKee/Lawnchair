@@ -262,4 +262,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Wala</string>
   <string name="about_version">Bersyon</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

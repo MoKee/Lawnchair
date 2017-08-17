@@ -179,4 +179,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">يوق</string>
   <string name="about_version">نەشرى</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

@@ -279,7 +279,10 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Ниједно</string>
   <string name="folder">Фасцикла</string>
+  <string name="loading">Учитавам…</string>
   <string name="about_version">Верзија</string>
   <string name="about_contributors_title">Доприносиоци</string>
   <string name="about_changelog">Евиденција измена</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

@@ -265,4 +265,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ಯಾವುದೂ ಇಲ್ಲ</string>
   <string name="about_version">ಆವೃತ್ತಿ</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

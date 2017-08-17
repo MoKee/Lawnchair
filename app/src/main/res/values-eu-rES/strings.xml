@@ -269,4 +269,6 @@
   <string name="none">Bat ere ez</string>
   <string name="icon_shape_circle">Zirkularra</string>
   <string name="about_version">Bertsioa</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

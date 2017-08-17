@@ -188,4 +188,6 @@
   <string name="none">ஏதுமில்லை</string>
   <string name="about_version">பதிப்பு</string>
   <string name="about_changelog">மாற்றம் பதிவு</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

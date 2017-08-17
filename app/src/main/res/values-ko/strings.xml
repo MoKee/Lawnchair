@@ -289,8 +289,11 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">선택 안함</string>
   <string name="folder">폴더</string>
+  <string name="loading">로딩 중…</string>
   <string name="icon_shape_circle">원형</string>
   <string name="about_version">버전</string>
   <string name="about_contributors_title">기부해 주신 분들</string>
   <string name="about_changelog">변경 사항</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

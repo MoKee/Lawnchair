@@ -294,8 +294,11 @@
   <string name="pref_cat_weather">Sää</string>
   <string name="none">Ei mitään</string>
   <string name="folder">Kansio</string>
+  <string name="loading">Ladataan..</string>
   <string name="icon_shape_circle">Ympyrä</string>
   <string name="about_version">Versio</string>
   <string name="about_contributors_title">Kehittäjät</string>
   <string name="about_changelog">Muutoslogi</string>
+  <!-- Time format for Weather Widget -->
+  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>
