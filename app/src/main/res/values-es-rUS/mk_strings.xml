@@ -20,4 +20,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
   <string name="about_text_mk">Lawnchair es un Launcher creado por Till Kottmann (conocido como deletescape), modificado para MoKee ROM. Se basa en Launcher3 de AOSP.</string>
+  <string name="about_localization_title">Idiomas</string>
+  <string name="about_localization_summary">Traducir Lawnchair Launcher</string>
 </resources>
