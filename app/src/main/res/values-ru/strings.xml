@@ -260,6 +260,7 @@
   <string name="blur_radius_pref_title">Уровень размытия</string>
   <string name="white_google_icon_pref_title">Использовать белые иконки в виджете поиска</string>
   <string name="hide_icon_labels_pref_title">Скрыть подписи иконок на рабочем столе</string>
+  <string name="hide_all_apps_icon_labels_pref_title">Скрыть подписи значков в меню приложений</string>
   <string name="workspace_label_color_hue_pref_title">Цвет подписи иконок</string>
   <string name="workspace_label_color_variation_pref_title">Вариация цвета подписей</string>
   <string name="all_apps_opacity_pref_title">Прозрачность меню приложений</string>
@@ -401,10 +402,25 @@
   <string name="icon_shape_squircle">Округлый квадрат</string>
   <string name="icon_shape_circle">Круг</string>
   <string name="icon_shape_teardrop">Капля</string>
+  <string name="animated_clock_icon_title">Анимированный значок часов</string>
   <string name="about_summary_title">Итог</string>
   <string name="about_version">Добавить</string>
+  <string name="about_icon_designer">Дизайнер значка приложения</string>
   <string name="about_contributors_title">Авторы</string>
+  <string name="location_permission_warn">Предоставьте доступ к местоположению, чтобы переключиться на другого поставщика!</string>
+  <string name="num_cols_drawer_pref_title">Количество столбцов в меню приложений</string>
+  <string name="pref_cat_drawer">Меню приложений</string>
+  <string name="shortcut_backport_warning">Это может привести к медленной работе приложения, используйте на свой страх и риск</string>
+  <string name="pref_backport_shortcuts">Адаптировать ярлыки</string>
+  <string name="weather_api_key_not_set">API ключ не установлен</string>
+  <string name="pref_weather_api_key_title">API-ключ</string>
   <string name="about_changelog">Список изменений</string>
+  <string name="pref_all_apps_custom_label_color">Использовать свой цвет подписи</string>
+  <string name="pref_all_apps_label_color_variation">Вариация цвета подписей значков в меню приложений</string>
+  <string name="pref_all_apps_label_color">Цвет подписи значков в меню приложений</string>
+  <string name="pref_num_rows_drawer">Количество строк в меню приложений</string>
+  <string name="center_wallpaper_pref_title">Центрировать обои, если имеется только один экран</string>
+  <string name="vertical_drawer_layout_pref_title">Отображать в виде вертикального списка</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
