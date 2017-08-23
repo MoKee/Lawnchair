@@ -115,6 +115,7 @@
   <string name="folder_name_format">Pasta: <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
+  <string name="widget_button_text">Widgets</string>
   <!-- Text for wallpaper change button -->
   <string name="wallpaper_button_text">Planos de fundo</string>
   <!-- Text for settings button -->
@@ -241,8 +242,11 @@
   <string name="label_voice_search">Pesquisa por voz</string>
   <string name="shortcuts_menu_with_notifications_description">%1$d atalhos e notificações de %2$d para %3$s</string>
   <string name="notifications_header">Notificações</string>
+  <string name="widgets_bottom_sheet_title">%1$s widgets</string>
   <!-- About Lawnchair -->
   <string name="about_title">Sobre</string>
+  <string name="changelog_title">Alterações para a versão #%d</string>
+  <string name="week_day_format">%1$s: %2$s</string>
   <string name="icon_pack_preference_title">Pacote de Ícones</string>
   <string name="icon_pack_preference_summary">Selecione um pacote de ícone</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Usar cores do papel de parede no dock</string>
@@ -251,9 +255,11 @@
   <string name="transparent_hotseat_pref_title">Dock transparente</string>
   <string name="dynamic_ui_pref_title">Extraia cor do papel de parede</string>
   <string name="blur_pref_title">Ativar desfoque</string>
+  <string name="blur_pref_summary">Aplicar o efeito de desfoque para partes da interface\nNão compatível com papéis de parede ao vivo</string>
   <string name="blur_radius_pref_title">Raio de desfoque</string>
   <string name="white_google_icon_pref_title">Usar ícone do google branco</string>
   <string name="hide_icon_labels_pref_title">Ocultar rótulos dos ícones na tela inicial</string>
+  <string name="hide_all_apps_icon_labels_pref_title">Ocultar as legendas dos ícones na gaveta</string>
   <string name="workspace_label_color_hue_pref_title">Cor dos rótulos dos ícones na tela inicial</string>
   <string name="workspace_label_color_variation_pref_title">Variação de cor dos rótulos dos ícones na tela inicial</string>
   <string name="all_apps_opacity_pref_title">Opacidade de gaveta</string>
@@ -274,6 +280,7 @@
   <string name="show_pixel_bar_pref_title">Mostrar a barra superior do Pixel</string>
   <string name="use_wide_searchbar_pref_title">Use uma barra de pesquisa circular</string>
   <string name="show_mic_pref_title">Mostrar botão de assistente de Google</string>
+  <string name="use_round_searhbar">Usar barra de pesquisa circular de apps</string>
   <string name="pixel_style_icons_pref_title">Usar ícones Pixel</string>
   <string name="pixel_style_icons_pref_summary">Quando habilitados, ícones circulares serão usados quando possível</string>
   <string name="show_google_now_tab_pref_title">Mostrar página do Google Now</string>
@@ -283,6 +290,7 @@
   <string name="pinch_to_overview_pref_title">Pince para visão geral</string>
   <string name="pinch_to_overview_pref_summary">Pince na tela inicial para abrir a visão geral</string>
   <string name="light_statusbar_pref_title">Ícones da barra de status brancos</string>
+  <string name="light_statusbar_pref_force">A barra de status mostrará ícones escuros</string>
   <string name="light_statusbar_pref_off">A barra de status sempre mostrará ícones claros</string>
   <string name="haptic_feedback_pref_title">Habilitar vibração tátil</string>
   <string name="keep_scroll_state_pref_title">Salvar a posição da rolagem</string>
@@ -344,23 +352,75 @@
   <string name="blue_grey">Cinza azulado</string>
   <string name="default_text">Padrão</string>
   <string name="edit_icon_reset">Redefinir</string>
+  <string name="show_top_shadow_title">Mostrar sombras de itens</string>
   <string name="pref_cat_homescreen">Tela Inicial</string>
   <string name="pref_cat_miscellaneous">Diversos</string>
+  <string name="pref_cat_hotseat">Dock</string>
   <string name="pref_cat_theme">Tema</string>
   <string name="theme_pref_title">Tema</string>
+  <string name="theme_light">Claro</string>
   <string name="theme_dark">Escuro</string>
   <string name="theme_black">Preto</string>
+  <string name="hide_hotseat_pref_title">Ocultar dock</string>
+  <string name="all_icons">Todos os Ícones</string>
+  <string name="pull_down_action_pref_title">Ação de puxar para baixo</string>
   <string name="pull_down_do_nothing">Não fazer nada</string>
+  <string name="pull_down_notis">Mostrar notificações</string>
+  <string name="pull_down_search">Abrir pesquisa</string>
+  <string name="pull_down_apps_search">Pesquisa de Apps</string>
+  <string name="enable_screen_rotation">Ativar a rotação de tela</string>
   <!-- Import/Export Strings -->
+  <string name="imexport_success">Sucesso!</string>
+  <string name="imexport_error">Erro: Falha ao copiar o arquivo</string>
+  <string name="imexport_no_backup_found">Nenhum backup encontrado</string>
+  <string name="imexport_external_storage_unreadable">Armazenamento externo não é legível (conceder permissão em configurações)</string>
+  <string name="imexport_external_storage_unwritable">Armazenamento externo não é gravável (conceder permissão em configurações)</string>
+  <string name="units_metric">Métrico</string>
+  <string name="units_imperial">Imperial</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Previsão do tempo</string>
+  <string name="pref_weather_title">Ativar previsão do tempo</string>
+  <string name="pref_weather_units">Unidades de temperatura</string>
+  <string name="pref_weather_city_summary">Para melhores resultados, incluir código de país</string>
+  <string name="pref_weather_city_title">Cidade</string>
   <string name="none">Nenhum</string>
+  <string name="pref_applyTheme">Aplicar tema</string>
+  <string name="pref_applyBlur">Aplicar desfoque</string>
+  <string name="search_bar">Barra de pesquisa</string>
   <string name="folder">Pasta</string>
+  <string name="dock_allapps"><![CDATA[Doca & gaveta]]></string>
+  <string name="app_shortcuts">Atalhos do App</string>
+  <string name="blur_effect">Efeito de desfoque</string>
+  <string name="enable_editing_pref_title">Habilitar edição de espaço de trabalho</string>
+  <string name="pref_weather_provider">Provedor de previsão do tempo</string>
   <string name="loading">Carregando…</string>
+  <string name="icon_shape_override_label">Alterar o formato dos Icones</string>
+  <string name="icon_shape_system_default">Não mudar</string>
+  <string name="icon_shape_square">Quadrado</string>
+  <string name="icon_shape_rounded_square">Cantos arredondados</string>
+  <string name="icon_shape_squircle">Quadrado redondo</string>
   <string name="icon_shape_circle">Círculo</string>
+  <string name="icon_shape_teardrop">Lágrima</string>
+  <string name="animated_clock_icon_title">Ícone do relógio animado</string>
+  <string name="about_summary_title">Resumo</string>
   <string name="about_version">Versão</string>
+  <string name="about_icon_designer">Criador de Ícones</string>
   <string name="about_contributors_title">Colaboradores</string>
+  <string name="location_permission_warn">Permissão de localização necessária para mudar de provedor!</string>
+  <string name="num_cols_drawer_pref_title">Número de colunas na gaveta</string>
+  <string name="pref_cat_drawer">Gaveta de apps</string>
+  <string name="shortcut_backport_warning">Isto pode ser lento, use a seu próprio risco</string>
+  <string name="pref_backport_shortcuts">Retro-compatibilidade de atalhos</string>
+  <string name="weather_api_key_not_set">Chave da API não definida</string>
+  <string name="pref_weather_api_key_title">Chave de API</string>
   <string name="about_changelog">Registro de alterações</string>
+  <string name="pref_all_apps_custom_label_color">Usar cor personalizada</string>
+  <string name="pref_all_apps_label_color_variation">Variação de cor do texto dos ícones na gaveta de apps</string>
+  <string name="pref_all_apps_label_color">Cor dos rótulos de ícones na gaveta</string>
+  <string name="pref_num_rows_drawer">Número de colunas na gaveta</string>
+  <string name="center_wallpaper_pref_title">Centralizar papel de parede quando houver apenas uma página</string>
+  <string name="vertical_drawer_layout_pref_title">Exibir como lista vertical</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
 </resources>

@@ -19,4 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
+  <string name="about_text_mk">Lawnchair é um Launcher criado por Till Kottmann (aka deletescape). Baseia-se no Launcher3 da AOSP.</string>
+  <string name="about_localization_title">Internacionalização</string>
+  <string name="about_localization_summary">Traduzir Lawnchair Launcher</string>
 </resources>

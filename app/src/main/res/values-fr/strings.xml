@@ -115,6 +115,7 @@
   <string name="folder_name_format">Dossier \"<xliff:g id="NAME">%1$s</xliff:g>\"</string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
+  <string name="widget_button_text">Widgets</string>
   <!-- Text for wallpaper change button -->
   <string name="wallpaper_button_text">Fonds d\'écran</string>
   <!-- Text for settings button -->
@@ -234,12 +235,17 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Écran de verrouillage</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="which_wallpaper_option_home_screen_and_lock_screen">Écran d\'accueil et de verrouillage</string>
+  <string name="title_show_google_app">Afficher %1$s</string>
   <string name="label_search">Chercher</string>
   <string name="label_voice_search">Recherche vocale</string>
   <!-- About Lawnchair -->
   <string name="about_title">À Propos</string>
+  <string name="num_cols_pref_title">Nombre de colonnes</string>
+  <string name="num_rows_pref_title">Nombre de lignes</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
+  <string name="visibility">Visibilité</string>
   <!-- Customization Color -->
   <!-- Customization Color -->
   <string name="black">Noir</string>
@@ -289,8 +295,11 @@
   <string name="theme_black">Noir</string>
   <string name="pull_down_do_nothing">Ne rien faire</string>
   <!-- Import/Export Strings -->
+  <string name="units_metric">Métrique</string>
+  <string name="units_imperial">Impérial</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Météo</string>
+  <string name="pref_weather_city_title">Ville</string>
   <string name="none">Aucun</string>
   <string name="folder">Dossier</string>
   <string name="loading">Chargement en cours…</string>
@@ -300,4 +309,5 @@
   <string name="about_changelog">Historique des modifications</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="full_wday_month_day_no_year">EEE d MMMM</string>
 </resources>

@@ -19,4 +19,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
+  <string name="about_localization_title">Localisation</string>
+  <string name="about_localization_summary">Traduire le launcher Lawnchair</string>
 </resources>
