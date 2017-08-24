@@ -17,6 +17,12 @@ def getChangelog = { ->
     }
 }
 
+Properties localProps = new Properties()
+File localPropsFile = project.rootProject.file('local.properties')
+if (localPropsFile.exists()) {
+    localProps.load(localPropsFile.newDataInputStream())
+}
+
 android {
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
@@ -44,7 +50,7 @@ android {
         buildConfigField "String", "CHANGELOG", "\"${getChangelog()}\""
         buildConfigField "String", "MOBILE_CENTER_KEY", "\"" + System.getenv("MOBILE_CENTER_KEY") + "\""
 
-        ext.awarenessApiKey = AWARENESS_API_KEY
+        ext.awarenessApiKey = localProps.getProperty('awarenessApiKey') ?: AWARENESS_API_KEY
         buildConfigField "boolean", "AWARENESS_API_ENABLED", ext.awarenessApiKey ? "true" : "false"
         manifestPlaceholders = [awarenessApiKey: ext.awarenessApiKey ?: "null"]
 
