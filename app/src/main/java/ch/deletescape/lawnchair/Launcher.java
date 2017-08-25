@@ -164,6 +164,11 @@ public class Launcher extends Activity
     private static final int REQUEST_EDIT_ICON = 14;
 
     private static final float BOUNCE_ANIMATION_TENSION = 1.3f;
+    
+    private static final int SOFT_INPUT_MODE_DEFAULT =
+            WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN;
+    private static final int SOFT_INPUT_MODE_ALL_APPS =
+            WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE;
 
     // The Intent extra that defines whether to ignore the launch animation
     static final String INTENT_EXTRA_IGNORE_LAUNCH_ANIMATION =
@@ -1858,6 +1863,38 @@ public class Launcher extends Activity
         showWorkspace(true);
     }
 
+    public void onPullDownAction(int pullDownAction) {
+        switch (pullDownAction) {
+            case FeatureFlags.PULLDOWN_NOTIFICATIONS:
+                openNotifications();
+                break;
+            case FeatureFlags.PULLDOWN_SEARCH:
+                startSearch("", false, null, false);
+                break;
+            case FeatureFlags.PULLDOWN_APPS_SEARCH:
+                onLongClickAllAppsHandle();
+                break;
+        }
+    }
+
+    @SuppressLint("PrivateApi")
+    private void openNotifications() {
+        try {
+            Class.forName("android.app.StatusBarManager").getMethod("expandNotificationsPanel").invoke(getSystemService("statusbar"));
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    @SuppressWarnings("ResourceType")
+    public void closeNotifications() {
+        try {
+            Class.forName("android.app.StatusBarManager").getMethod("collapsePanels").invoke(getSystemService("statusbar"));
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+
     /**
      * Starts the global search activity. This code is a copied from SearchManager
      */
@@ -2915,7 +2952,7 @@ public class Launcher extends Activity
         }
 
         // Change the state *after* we've called all the transition code
-        mState = State.WORKSPACE;
+        setState(State.WORKSPACE);
 
         // Resume the auto-advance of widgets
         mUserPresent = true;
@@ -2957,10 +2994,25 @@ public class Launcher extends Activity
         mWorkspace.setVisibility(View.VISIBLE);
         mStateTransitionAnimation.startAnimationToWorkspace(mState, mWorkspace.getState(),
                 Workspace.State.OVERVIEW, animated, postAnimRunnable);
-        mState = State.WORKSPACE;
+        setState(State.WORKSPACE);
         // If animated from long press, then don't allow any of the controller in the drag
         // layer to intercept any remaining touch.
         mWorkspace.requestDisallowInterceptTouchEvent(animated);
+    }
+
+    private void setState(State state) {
+        mState = state;
+        updateSoftInputMode();
+    }
+
+    private void updateSoftInputMode() {
+        final int mode;
+        if (isAppsViewVisible()) {
+            mode = SOFT_INPUT_MODE_ALL_APPS;
+        } else {
+            mode = SOFT_INPUT_MODE_DEFAULT;
+        }
+        getWindow().setSoftInputMode(mode);
     }
 
     /**
@@ -3020,7 +3072,7 @@ public class Launcher extends Activity
         }
 
         // Change the state *after* we've called all the transition code
-        mState = toState;
+        setState(toState);
 
         // Pause the auto-advance of widgets until we are out of AllApps
         mUserPresent = false;
@@ -3053,11 +3105,11 @@ public class Launcher extends Activity
                 null /* onCompleteRunnable */);
 
         if (isAppsViewVisible()) {
-            mState = State.APPS_SPRING_LOADED;
+            setState(State.APPS_SPRING_LOADED);
         } else if (isWidgetsViewVisible()) {
-            mState = State.WIDGETS_SPRING_LOADED;
+            setState(State.WIDGETS_SPRING_LOADED);
         } else {
-            mState = State.WORKSPACE_SPRING_LOADED;
+            setState(State.WORKSPACE_SPRING_LOADED);
         }
     }
 
