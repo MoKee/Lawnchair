@@ -307,48 +307,6 @@
   <string name="color_extraction_label">Lawnchair - Estrazione del colore</string>
   <string name="test_title">Prova</string>
   <string name="visibility">Visibilità</string>
-  <!-- Customization Color -->
-  <string name="white">Bianco</string>
-  <!-- Customization Color -->
-  <string name="black">Nero</string>
-  <!-- Customization Color -->
-  <string name="red">Rosso</string>
-  <!-- Customization Color -->
-  <string name="pink">Rosa</string>
-  <!-- Customization Color -->
-  <string name="purple">Viola</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Viola scuro</string>
-  <!-- Customization Color -->
-  <string name="indigo">Indaco</string>
-  <!-- Customization Color -->
-  <string name="blue">Blu</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Azzurro</string>
-  <!-- Customization Color -->
-  <string name="cyan">Ciano</string>
-  <!-- Customization Color -->
-  <string name="teal">Celeste</string>
-  <!-- Customization Color -->
-  <string name="green">Verde</string>
-  <!-- Customization Color -->
-  <string name="light_green">Verde chiaro</string>
-  <!-- Customization Color -->
-  <string name="lime">Lime</string>
-  <!-- Customization Color -->
-  <string name="yellow">Giallo</string>
-  <!-- Customization Color -->
-  <string name="amber">Ambra</string>
-  <!-- Customization Color -->
-  <string name="orange">Arancione</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Arancione scuro</string>
-  <!-- Customization Color -->
-  <string name="brown">Marrone</string>
-  <!-- Customization Color -->
-  <string name="grey">Grigio</string>
-  <!-- Customization Color -->
-  <string name="blue_grey">Blu grigio</string>
   <string name="default_text">Predefinito</string>
   <string name="edit_icon_reset">Reimposta</string>
   <string name="show_top_shadow_title">Mostra ombreggiatura superiore</string>

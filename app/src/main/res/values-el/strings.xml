@@ -259,45 +259,6 @@
   <string name="icon_text_scale_pref_title">Κλίμακα κειμένου εικονιδίου</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Μαύρο</string>
-  <!-- Customization Color -->
-  <string name="red">Κόκκινο</string>
-  <!-- Customization Color -->
-  <string name="pink">Ροζ</string>
-  <!-- Customization Color -->
-  <string name="purple">Μωβ</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Βαθύ μωβ</string>
-  <!-- Customization Color -->
-  <string name="indigo">Λουλακί</string>
-  <!-- Customization Color -->
-  <string name="blue">Μπλε</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Ανοικτό μπλε</string>
-  <!-- Customization Color -->
-  <string name="cyan">Κυανό</string>
-  <!-- Customization Color -->
-  <string name="teal">Πρασινομπλέ</string>
-  <!-- Customization Color -->
-  <string name="green">Πράσινο</string>
-  <!-- Customization Color -->
-  <string name="light_green">Ανοικτό πράσινο</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Κίτρινο</string>
-  <!-- Customization Color -->
-  <string name="amber">Ανοικτό πορτοκαλί</string>
-  <!-- Customization Color -->
-  <string name="orange">Πορτοκαλί</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Σκούρο πορτοκαλί</string>
-  <!-- Customization Color -->
-  <string name="brown">Καφέ</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Μπλεγκρί</string>
   <string name="default_text">Προεπιλογή</string>
   <string name="edit_icon_reset">Επαναφορά</string>
   <string name="pref_cat_homescreen">Αρχική οθόνη</string>

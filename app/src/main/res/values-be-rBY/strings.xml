@@ -308,45 +308,6 @@
   <string name="color_extraction_label">Lawnchair - выманне колеру</string>
   <string name="test_title">Тэст</string>
   <string name="visibility">Бачнасць</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Чорны</string>
-  <!-- Customization Color -->
-  <string name="red">Чырвоны</string>
-  <!-- Customization Color -->
-  <string name="pink">Ружовы</string>
-  <!-- Customization Color -->
-  <string name="purple">Фіялетавы</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Барвовы</string>
-  <!-- Customization Color -->
-  <string name="indigo">Індзіга</string>
-  <!-- Customization Color -->
-  <string name="blue">Сіні</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Светла-блакітны</string>
-  <!-- Customization Color -->
-  <string name="cyan">Блакітны</string>
-  <!-- Customization Color -->
-  <string name="teal">Смарагдавы</string>
-  <!-- Customization Color -->
-  <string name="green">Зялёны</string>
-  <!-- Customization Color -->
-  <string name="light_green">Светла-зялёны</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Жоўты</string>
-  <!-- Customization Color -->
-  <string name="amber">Бурштынавы</string>
-  <!-- Customization Color -->
-  <string name="orange">Аранжавы</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Цёмна-аранжавы</string>
-  <!-- Customization Color -->
-  <string name="brown">Карычневы</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Шэра-блакітны</string>
   <string name="default_text">Па змаўчанні</string>
   <string name="edit_icon_reset">Скінуць</string>
   <string name="pref_cat_homescreen">Хатні экран</string>

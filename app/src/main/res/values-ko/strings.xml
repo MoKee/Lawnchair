@@ -237,45 +237,6 @@
   <string name="label_search">검색</string>
   <!-- About Lawnchair -->
   <string name="about_title">소개</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">검정</string>
-  <!-- Customization Color -->
-  <string name="red">빨간색</string>
-  <!-- Customization Color -->
-  <string name="pink">분홍</string>
-  <!-- Customization Color -->
-  <string name="purple">보라</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">짙은 보라</string>
-  <!-- Customization Color -->
-  <string name="indigo">짙은 파랑</string>
-  <!-- Customization Color -->
-  <string name="blue">파란색</string>
-  <!-- Customization Color -->
-  <string name="light_blue">옅은 파랑</string>
-  <!-- Customization Color -->
-  <string name="cyan">청록색</string>
-  <!-- Customization Color -->
-  <string name="teal">짙은 초록</string>
-  <!-- Customization Color -->
-  <string name="green">녹색</string>
-  <!-- Customization Color -->
-  <string name="light_green">옅은 초록</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">노란색</string>
-  <!-- Customization Color -->
-  <string name="amber">노랑</string>
-  <!-- Customization Color -->
-  <string name="orange">주황</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">짙은 주황</string>
-  <!-- Customization Color -->
-  <string name="brown">고동</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">블루 그레이</string>
   <string name="default_text">기본</string>
   <string name="edit_icon_reset">초기화</string>
   <string name="pref_cat_homescreen">홈 화면</string>

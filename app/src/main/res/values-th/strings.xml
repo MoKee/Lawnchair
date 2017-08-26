@@ -232,32 +232,6 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="red">แดง</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">น้ำเงิน</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="cyan">ฟ้า</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">เขียว</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">เหลือง</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
   <string name="edit_icon_reset">รีเซ็ต</string>
   <string name="theme_dark">มืด</string>
   <!-- Import/Export Strings -->

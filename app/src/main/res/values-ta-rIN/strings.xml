@@ -154,32 +154,6 @@
   <!-- About Lawnchair -->
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="red">சிவப்பு</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">நீலம்</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="cyan">சியான்</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">பச்சை</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">மஞ்சள்</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
   <string name="default_text">இயல்புநிலை</string>
   <string name="edit_icon_reset">மீட்டமை</string>
   <string name="theme_dark">அடர்</string>

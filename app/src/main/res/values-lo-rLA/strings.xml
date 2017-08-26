@@ -231,32 +231,6 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="red">ແດງ</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">ຟ້າ</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="cyan">ຟ້າຂຽວ</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">ຂຽວ</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">ເຫຼືອງ</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
   <string name="edit_icon_reset">ຄືນຄ່າ</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->

@@ -233,32 +233,6 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="red">लाल</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">निळा</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="cyan">निळसर</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">हिरवा</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">पिवळा</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
   <string name="edit_icon_reset">रीसेट करा</string>
   <string name="theme_dark">गडद</string>
   <!-- Import/Export Strings -->

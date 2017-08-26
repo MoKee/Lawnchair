@@ -147,32 +147,6 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="red">قىزىل</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">كۆك</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="cyan">توق يېشىل</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">يېشىل</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">سېرىق</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
   <string name="edit_icon_reset">ئەسلىگە قايتۇر</string>
   <string name="theme_dark">قاراڭغۇ</string>
   <!-- Import/Export Strings -->

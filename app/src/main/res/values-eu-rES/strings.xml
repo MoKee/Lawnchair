@@ -234,32 +234,6 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <string name="label_voice_search">Ahots bidezko bilaketa</string>
   <!-- About Lawnchair -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="red">Gorria</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">Urdina</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="cyan">Ziana</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">Berdea</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Horia</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
   <string name="default_text">Lehenetsia</string>
   <string name="edit_icon_reset">Berrezarri</string>
   <string name="theme_dark">Iluna</string>

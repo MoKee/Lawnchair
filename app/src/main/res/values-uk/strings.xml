@@ -240,45 +240,6 @@
   <string name="label_voice_search">Голосовий пошук</string>
   <!-- About Lawnchair -->
   <string name="about_title">Про додаток</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Чорний</string>
-  <!-- Customization Color -->
-  <string name="red">Червоний</string>
-  <!-- Customization Color -->
-  <string name="pink">Рожевий</string>
-  <!-- Customization Color -->
-  <string name="purple">Фіолетовий</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Багряний</string>
-  <!-- Customization Color -->
-  <string name="indigo">Індиго</string>
-  <!-- Customization Color -->
-  <string name="blue">Синій</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Світло-блакитний</string>
-  <!-- Customization Color -->
-  <string name="cyan">Блакитний</string>
-  <!-- Customization Color -->
-  <string name="teal">Чирок</string>
-  <!-- Customization Color -->
-  <string name="green">Зелений</string>
-  <!-- Customization Color -->
-  <string name="light_green">Світло-зелений</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Жовтий</string>
-  <!-- Customization Color -->
-  <string name="amber">Бурштин</string>
-  <!-- Customization Color -->
-  <string name="orange">Помаранчевий</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Глибокий жовтогарячий</string>
-  <!-- Customization Color -->
-  <string name="brown">Коричневий</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Синій сірий</string>
   <string name="default_text">Стандартний</string>
   <string name="edit_icon_reset">Скинути</string>
   <string name="pref_cat_homescreen">Домашній екран</string>

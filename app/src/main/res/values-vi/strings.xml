@@ -236,32 +236,6 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="about_title">Thông tin</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="red">Đỏ</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">Lam</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="cyan">Lục lam</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">Lục</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Vàng</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
   <string name="default_text">Mặc định</string>
   <string name="edit_icon_reset">Đặt lại</string>
   <string name="pref_cat_homescreen">Màn hình chủ</string>

@@ -229,44 +229,6 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Juodas</string>
-  <!-- Customization Color -->
-  <string name="red">Raudona</string>
-  <!-- Customization Color -->
-  <string name="pink">Rožinis</string>
-  <!-- Customization Color -->
-  <string name="purple">Purpurinis</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Gilus purpurinis</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">Mėlyna</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Šviesiai mėlynas</string>
-  <!-- Customization Color -->
-  <string name="cyan">Žalsvai mėlyna</string>
-  <!-- Customization Color -->
-  <string name="teal">Šviesiai smaragdinis</string>
-  <!-- Customization Color -->
-  <string name="green">Žalia</string>
-  <!-- Customization Color -->
-  <string name="light_green">Šviesiai žalias</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Geltona</string>
-  <!-- Customization Color -->
-  <string name="amber">Gintarinis</string>
-  <!-- Customization Color -->
-  <string name="orange">Oranžinis</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Gilus oranžinis</string>
-  <!-- Customization Color -->
-  <string name="brown">Rudas</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Mėlynai pilkas</string>
   <string name="default_text">Numatytasis</string>
   <string name="edit_icon_reset">Nust. iš naujo</string>
   <string name="pref_cat_theme">Tema</string>

@@ -241,45 +241,6 @@
   <string name="about_title">Tietoja</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Musta</string>
-  <!-- Customization Color -->
-  <string name="red">Punainen</string>
-  <!-- Customization Color -->
-  <string name="pink">Vaaleanpunainen</string>
-  <!-- Customization Color -->
-  <string name="purple">Purppura</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Syvä purppura</string>
-  <!-- Customization Color -->
-  <string name="indigo">Indigo</string>
-  <!-- Customization Color -->
-  <string name="blue">Sininen</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Vaaleansininen</string>
-  <!-- Customization Color -->
-  <string name="cyan">Turkoosi</string>
-  <!-- Customization Color -->
-  <string name="teal">Sinivihreä</string>
-  <!-- Customization Color -->
-  <string name="green">Vihreä</string>
-  <!-- Customization Color -->
-  <string name="light_green">Vaaleanvihreä</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Keltainen</string>
-  <!-- Customization Color -->
-  <string name="amber">Meripihka</string>
-  <!-- Customization Color -->
-  <string name="orange">Oranssi</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Syvä oranssi</string>
-  <!-- Customization Color -->
-  <string name="brown">Ruskea</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Siniharmaa</string>
   <string name="default_text">Oletus</string>
   <string name="edit_icon_reset">Palauta</string>
   <string name="pref_cat_homescreen">Kotinäyttö</string>

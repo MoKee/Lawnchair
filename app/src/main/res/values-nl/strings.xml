@@ -238,45 +238,6 @@
   <string name="label_voice_search">Spraakgestuurd zoeken</string>
   <!-- About Lawnchair -->
   <string name="about_title">Over</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Zwart</string>
-  <!-- Customization Color -->
-  <string name="red">Rood</string>
-  <!-- Customization Color -->
-  <string name="pink">Roze</string>
-  <!-- Customization Color -->
-  <string name="purple">Paars</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Donkerpaars</string>
-  <!-- Customization Color -->
-  <string name="indigo">Indigo</string>
-  <!-- Customization Color -->
-  <string name="blue">Blauw</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Lichtblauw</string>
-  <!-- Customization Color -->
-  <string name="cyan">Cyaan</string>
-  <!-- Customization Color -->
-  <string name="teal">Groenblauw</string>
-  <!-- Customization Color -->
-  <string name="green">Groen</string>
-  <!-- Customization Color -->
-  <string name="light_green">Lichtgroen</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Geel</string>
-  <!-- Customization Color -->
-  <string name="amber">Amber</string>
-  <!-- Customization Color -->
-  <string name="orange">Oranje</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Donkeroranje</string>
-  <!-- Customization Color -->
-  <string name="brown">Bruin</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Blauwgrijs</string>
   <string name="default_text">Standaard</string>
   <string name="edit_icon_reset">Resetten</string>
   <string name="pref_cat_homescreen">Beginscherm</string>

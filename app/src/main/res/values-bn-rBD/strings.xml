@@ -237,32 +237,6 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="about_title">About</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="red">লাল</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">নীল</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="cyan">সবজে নীল</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">সবুজ</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">হলুদ</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
   <string name="default_text">Default</string>
   <string name="edit_icon_reset">পুনরায় সেট করুন</string>
   <string name="pref_cat_homescreen">Home screen</string>

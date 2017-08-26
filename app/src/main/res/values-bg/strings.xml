@@ -239,44 +239,6 @@
   <string name="label_voice_search">Гласово търсене</string>
   <!-- About Lawnchair -->
   <string name="about_title">Относно</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Черно</string>
-  <!-- Customization Color -->
-  <string name="red">Червено</string>
-  <!-- Customization Color -->
-  <string name="pink">Розов</string>
-  <!-- Customization Color -->
-  <string name="purple">Лилаво</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Тъмно лилаво</string>
-  <!-- Customization Color -->
-  <string name="indigo">Индиго</string>
-  <!-- Customization Color -->
-  <string name="blue">Синьо</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Светло синьо</string>
-  <!-- Customization Color -->
-  <string name="cyan">Синьозелено</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">Зелено</string>
-  <!-- Customization Color -->
-  <string name="light_green">Светло зелено</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Жълто</string>
-  <!-- Customization Color -->
-  <string name="amber">Амбър</string>
-  <!-- Customization Color -->
-  <string name="orange">Оранжево</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Тъмно оранжево</string>
-  <!-- Customization Color -->
-  <string name="brown">Кафяво</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Синьо сиво</string>
   <string name="default_text">Основен</string>
   <string name="edit_icon_reset">Нулиране</string>
   <string name="pref_cat_homescreen">Начален екран</string>

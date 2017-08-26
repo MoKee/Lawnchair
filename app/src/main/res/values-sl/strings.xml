@@ -241,45 +241,6 @@
   <string name="label_voice_search">Glasovno iskanje</string>
   <!-- About Lawnchair -->
   <string name="about_title">O nas</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Črna</string>
-  <!-- Customization Color -->
-  <string name="red">Rdeča</string>
-  <!-- Customization Color -->
-  <string name="pink">Roza</string>
-  <!-- Customization Color -->
-  <string name="purple">Vijolična</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Temno roza</string>
-  <!-- Customization Color -->
-  <string name="indigo">Indigo</string>
-  <!-- Customization Color -->
-  <string name="blue">Modra</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Svetlomodra</string>
-  <!-- Customization Color -->
-  <string name="cyan">Cijan</string>
-  <!-- Customization Color -->
-  <string name="teal">Turkizna</string>
-  <!-- Customization Color -->
-  <string name="green">Zelena</string>
-  <!-- Customization Color -->
-  <string name="light_green">Svetlo zelena</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Rumena</string>
-  <!-- Customization Color -->
-  <string name="amber">Jantar</string>
-  <!-- Customization Color -->
-  <string name="orange">Oranžna</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Temno oranžna</string>
-  <!-- Customization Color -->
-  <string name="brown">Rjava</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Modro siva</string>
   <string name="default_text">Privzeto</string>
   <string name="edit_icon_reset">Ponastavi</string>
   <string name="pref_cat_homescreen">Domači zaslon</string>

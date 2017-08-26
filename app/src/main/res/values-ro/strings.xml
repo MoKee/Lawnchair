@@ -233,42 +233,6 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="about_title">Despre</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Negru</string>
-  <!-- Customization Color -->
-  <string name="red">Roșu</string>
-  <!-- Customization Color -->
-  <string name="pink">Roz</string>
-  <!-- Customization Color -->
-  <string name="purple">Violet</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Mov închis</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">Albastru</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Albastru deschis</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">Verde</string>
-  <!-- Customization Color -->
-  <string name="light_green">Verde deschis</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Galben</string>
-  <!-- Customization Color -->
-  <string name="amber">Chihlimbar</string>
-  <!-- Customization Color -->
-  <string name="orange">Portocaliu</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Portocaliu închis</string>
-  <!-- Customization Color -->
-  <string name="brown">Maro</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Albastru gri</string>
   <string name="default_text">Implicit</string>
   <string name="edit_icon_reset">Resetaţi</string>
   <string name="pref_cat_homescreen">Ecran principal</string>

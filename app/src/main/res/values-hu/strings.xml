@@ -240,45 +240,6 @@
   <string name="about_title">Információk</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Fekete</string>
-  <!-- Customization Color -->
-  <string name="red">Piros</string>
-  <!-- Customization Color -->
-  <string name="pink">Rózsaszín</string>
-  <!-- Customization Color -->
-  <string name="purple">Lila</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Mélyvörös</string>
-  <!-- Customization Color -->
-  <string name="indigo">Indigókék</string>
-  <!-- Customization Color -->
-  <string name="blue">Kék</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Világoskék</string>
-  <!-- Customization Color -->
-  <string name="cyan">Zöldeskék</string>
-  <!-- Customization Color -->
-  <string name="teal">Pávakék</string>
-  <!-- Customization Color -->
-  <string name="green">Zöld</string>
-  <!-- Customization Color -->
-  <string name="light_green">Világoszöld</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Sárga</string>
-  <!-- Customization Color -->
-  <string name="amber">Borostyán</string>
-  <!-- Customization Color -->
-  <string name="orange">Narancs</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Mélynarancs</string>
-  <!-- Customization Color -->
-  <string name="brown">Barna</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Szürkéskék</string>
   <string name="default_text">Alapértelmezés</string>
   <string name="edit_icon_reset">Visszaállítás</string>
   <string name="pref_cat_homescreen">Főképernyő</string>

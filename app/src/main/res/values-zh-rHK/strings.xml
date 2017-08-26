@@ -307,48 +307,6 @@
   <string name="color_extraction_label">Lawnchair－顏色提取</string>
   <string name="test_title">測試</string>
   <string name="visibility">可見性</string>
-  <!-- Customization Color -->
-  <string name="white">白色</string>
-  <!-- Customization Color -->
-  <string name="black">黑色</string>
-  <!-- Customization Color -->
-  <string name="red">紅色</string>
-  <!-- Customization Color -->
-  <string name="pink">粉色</string>
-  <!-- Customization Color -->
-  <string name="purple">淡紫</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">深紫</string>
-  <!-- Customization Color -->
-  <string name="indigo">靛藍</string>
-  <!-- Customization Color -->
-  <string name="blue">藍色</string>
-  <!-- Customization Color -->
-  <string name="light_blue">亮藍</string>
-  <!-- Customization Color -->
-  <string name="cyan">洋青色</string>
-  <!-- Customization Color -->
-  <string name="teal">藍綠</string>
-  <!-- Customization Color -->
-  <string name="green">綠色</string>
-  <!-- Customization Color -->
-  <string name="light_green">草綠</string>
-  <!-- Customization Color -->
-  <string name="lime">黃綠色</string>
-  <!-- Customization Color -->
-  <string name="yellow">黃色</string>
-  <!-- Customization Color -->
-  <string name="amber">琥珀</string>
-  <!-- Customization Color -->
-  <string name="orange">橙色</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">暗橙</string>
-  <!-- Customization Color -->
-  <string name="brown">棕色</string>
-  <!-- Customization Color -->
-  <string name="grey">灰色</string>
-  <!-- Customization Color -->
-  <string name="blue_grey">藍灰</string>
   <string name="default_text">預設</string>
   <string name="edit_icon_reset">重設</string>
   <string name="show_top_shadow_title">顯示頂部陰影</string>

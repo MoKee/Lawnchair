@@ -309,48 +309,6 @@
   <string name="color_extraction_label">Lawnchair - extrakcia farby</string>
   <string name="test_title">Skúška</string>
   <string name="visibility">Viditeľnosť</string>
-  <!-- Customization Color -->
-  <string name="white">Biela</string>
-  <!-- Customization Color -->
-  <string name="black">Čierna</string>
-  <!-- Customization Color -->
-  <string name="red">Červená</string>
-  <!-- Customization Color -->
-  <string name="pink">Ružová</string>
-  <!-- Customization Color -->
-  <string name="purple">Fialová</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Tmavofialová</string>
-  <!-- Customization Color -->
-  <string name="indigo">Tmavomodrá</string>
-  <!-- Customization Color -->
-  <string name="blue">Modrá</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Svetlomodrá</string>
-  <!-- Customization Color -->
-  <string name="cyan">Azúrová</string>
-  <!-- Customization Color -->
-  <string name="teal">Zelenomodrá</string>
-  <!-- Customization Color -->
-  <string name="green">Zelená</string>
-  <!-- Customization Color -->
-  <string name="light_green">Svetlozelená</string>
-  <!-- Customization Color -->
-  <string name="lime">Vápno</string>
-  <!-- Customization Color -->
-  <string name="yellow">Žltá</string>
-  <!-- Customization Color -->
-  <string name="amber">Jantárová</string>
-  <!-- Customization Color -->
-  <string name="orange">Oranžová</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Tmavooranžová</string>
-  <!-- Customization Color -->
-  <string name="brown">Hnedá</string>
-  <!-- Customization Color -->
-  <string name="grey">Šedá</string>
-  <!-- Customization Color -->
-  <string name="blue_grey">Modrosivá</string>
   <string name="default_text">Predvolená</string>
   <string name="edit_icon_reset">Resetovať</string>
   <string name="show_top_shadow_title">Zobraziť horný tieň</string>
