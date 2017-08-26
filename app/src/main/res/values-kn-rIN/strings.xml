@@ -233,32 +233,6 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="red">ಕೆಂಪು</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">ನೀಲಿ</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="cyan">ಕ್ಯಾನ್</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">ಹಸಿರು</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">ಹಳದಿ</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
   <string name="edit_icon_reset">ಮರುಹೊಂದಿಸು</string>
   <string name="theme_dark">ಗಾಢ ಹಿನ್ನೆಲೆ</string>
   <!-- Import/Export Strings -->

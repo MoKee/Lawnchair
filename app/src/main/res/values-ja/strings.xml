@@ -240,45 +240,6 @@
   <string name="about_title">説明</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">黒</string>
-  <!-- Customization Color -->
-  <string name="red">赤</string>
-  <!-- Customization Color -->
-  <string name="pink">ピンク</string>
-  <!-- Customization Color -->
-  <string name="purple">パープル</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">ディープ パープル</string>
-  <!-- Customization Color -->
-  <string name="indigo">インディゴ</string>
-  <!-- Customization Color -->
-  <string name="blue">青</string>
-  <!-- Customization Color -->
-  <string name="light_blue">ライトブルー</string>
-  <!-- Customization Color -->
-  <string name="cyan">水色</string>
-  <!-- Customization Color -->
-  <string name="teal">青緑</string>
-  <!-- Customization Color -->
-  <string name="green">緑</string>
-  <!-- Customization Color -->
-  <string name="light_green">ライトグリーン</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">黄</string>
-  <!-- Customization Color -->
-  <string name="amber">アンバー</string>
-  <!-- Customization Color -->
-  <string name="orange">オレンジ</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">ディープオレンジ</string>
-  <!-- Customization Color -->
-  <string name="brown">茶</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">ブルーグレー</string>
   <string name="default_text">デフォルト</string>
   <string name="edit_icon_reset">リセット</string>
   <string name="pref_cat_homescreen">ホーム画面</string>

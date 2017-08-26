@@ -238,45 +238,6 @@
   <string name="label_voice_search">Pencarian suara</string>
   <!-- About Lawnchair -->
   <string name="about_title">Tentang</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Hitam</string>
-  <!-- Customization Color -->
-  <string name="red">Merah</string>
-  <!-- Customization Color -->
-  <string name="pink">Merah muda</string>
-  <!-- Customization Color -->
-  <string name="purple">Ungu</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Ungu gelap</string>
-  <!-- Customization Color -->
-  <string name="indigo">Biru tua</string>
-  <!-- Customization Color -->
-  <string name="blue">Biru</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Biru Muda</string>
-  <!-- Customization Color -->
-  <string name="cyan">Sian</string>
-  <!-- Customization Color -->
-  <string name="teal">Hijau tua kebiruan</string>
-  <!-- Customization Color -->
-  <string name="green">Hijau</string>
-  <!-- Customization Color -->
-  <string name="light_green">Hijau Muda</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Kuning</string>
-  <!-- Customization Color -->
-  <string name="amber">Sawo matang</string>
-  <!-- Customization Color -->
-  <string name="orange">Oranye</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Oranye gelap</string>
-  <!-- Customization Color -->
-  <string name="brown">Cokelat</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Biru Keabu-abuan</string>
   <string name="default_text">Bawaan</string>
   <string name="edit_icon_reset">Setel Ulang</string>
   <string name="pref_cat_homescreen">Layar utama</string>

@@ -233,32 +233,6 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="about_title">אודות</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="red">אדום</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">כחול</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="cyan">ציאן</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">ירוק</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">צהוב</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
   <string name="default_text">ברירת מחדל</string>
   <string name="edit_icon_reset">אפס</string>
   <string name="pref_cat_homescreen">מסך הבית</string>

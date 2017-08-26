@@ -233,45 +233,6 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">سیاه</string>
-  <!-- Customization Color -->
-  <string name="red">قرمز</string>
-  <!-- Customization Color -->
-  <string name="pink">صورتی</string>
-  <!-- Customization Color -->
-  <string name="purple">زرشکی</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">زرشکی پررنگ</string>
-  <!-- Customization Color -->
-  <string name="indigo">نیلی</string>
-  <!-- Customization Color -->
-  <string name="blue">آبی</string>
-  <!-- Customization Color -->
-  <string name="light_blue">آبی روشن</string>
-  <!-- Customization Color -->
-  <string name="cyan">سبز آبی</string>
-  <!-- Customization Color -->
-  <string name="teal">آبی ارغوانی</string>
-  <!-- Customization Color -->
-  <string name="green">سبز</string>
-  <!-- Customization Color -->
-  <string name="light_green">سبز روشن</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">زرد</string>
-  <!-- Customization Color -->
-  <string name="amber">نارنجی مایل به زرد</string>
-  <!-- Customization Color -->
-  <string name="orange">نارنجی</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">نارنجی پررنگ</string>
-  <!-- Customization Color -->
-  <string name="brown">قهوه ای</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">آبی خاکستری</string>
   <string name="edit_icon_reset">بازنشانی</string>
   <string name="pref_cat_miscellaneous">متفرقه</string>
   <string name="pref_cat_theme">تم</string>

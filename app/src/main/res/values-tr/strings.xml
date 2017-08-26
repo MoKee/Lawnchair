@@ -269,45 +269,6 @@
   <string name="icon_scale_pref_title">Simge boyutu</string>
   <string name="icon_text_scale_pref_title">Simge yazı boyutu</string>
   <string name="full_width_width_widgets_pref_title">Araçlara tam genişlik</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Siyah</string>
-  <!-- Customization Color -->
-  <string name="red">Kırmızı</string>
-  <!-- Customization Color -->
-  <string name="pink">Pembe</string>
-  <!-- Customization Color -->
-  <string name="purple">Mor</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Derin mor</string>
-  <!-- Customization Color -->
-  <string name="indigo">Lacivert</string>
-  <!-- Customization Color -->
-  <string name="blue">Mavi</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Açık mavi</string>
-  <!-- Customization Color -->
-  <string name="cyan">Camgöbeği</string>
-  <!-- Customization Color -->
-  <string name="teal">Turkuaz</string>
-  <!-- Customization Color -->
-  <string name="green">Yeşil</string>
-  <!-- Customization Color -->
-  <string name="light_green">Açık yeşil</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Sarı</string>
-  <!-- Customization Color -->
-  <string name="amber">Kehribar</string>
-  <!-- Customization Color -->
-  <string name="orange">Turuncu</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Derin turuncu</string>
-  <!-- Customization Color -->
-  <string name="brown">Kahverengi</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Mavi ile gri</string>
   <string name="default_text">Varsayılan</string>
   <string name="edit_icon_reset">Sıfırla</string>
   <string name="pref_cat_homescreen">Başlangıç ekranı</string>

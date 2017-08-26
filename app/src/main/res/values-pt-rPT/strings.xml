@@ -254,44 +254,6 @@
   <string name="icon_scale_pref_title">Escala dos ícones</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Preto</string>
-  <!-- Customization Color -->
-  <string name="red">Vermelho</string>
-  <!-- Customization Color -->
-  <string name="pink">Cor de rosa</string>
-  <!-- Customization Color -->
-  <string name="purple">Púrpura</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Púrpura escuro</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">Azul</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Azul claro</string>
-  <!-- Customization Color -->
-  <string name="cyan">Azul-turquesa</string>
-  <!-- Customization Color -->
-  <string name="teal">Verde azulado</string>
-  <!-- Customization Color -->
-  <string name="green">Verde</string>
-  <!-- Customization Color -->
-  <string name="light_green">Verde claro</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Amarelo</string>
-  <!-- Customization Color -->
-  <string name="amber">Âmbar</string>
-  <!-- Customization Color -->
-  <string name="orange">Cor de laranja</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Cor de laranja escuro</string>
-  <!-- Customization Color -->
-  <string name="brown">Castanho</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Azul acinzentado</string>
   <string name="default_text">Padrão</string>
   <string name="edit_icon_reset">Repor</string>
   <string name="pref_cat_homescreen">Ecrã Principal</string>

@@ -141,41 +141,6 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Prietu</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="pink">Rosa</string>
-  <!-- Customization Color -->
-  <string name="purple">Moráu</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Moráu escuru</string>
-  <!-- Customization Color -->
-  <string name="indigo">Añil</string>
-  <!-- Customization Color -->
-  <string name="blue">Azul</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Azul claro</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="teal">Cianu escuru</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="light_green">Verde claru</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="amber">Ámbar</string>
-  <!-- Customization Color -->
-  <string name="orange">Naranxa</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Naranxa escuru</string>
-  <!-- Customization Color -->
-  <string name="brown">Marrón</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Buxu azuláu</string>
   <string name="pref_cat_miscellaneous">Miscelaina</string>
   <string name="pref_cat_theme">Tema</string>
   <string name="theme_pref_title">Tema</string>

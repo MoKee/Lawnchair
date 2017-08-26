@@ -299,45 +299,6 @@
   <string name="color_extraction_label">لاونتشاير - استخراج اللون</string>
   <string name="test_title">اختبار</string>
   <string name="visibility">وضوح الرؤية</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">أسود</string>
-  <!-- Customization Color -->
-  <string name="red">أحمر</string>
-  <!-- Customization Color -->
-  <string name="pink">وردي</string>
-  <!-- Customization Color -->
-  <string name="purple">أرجواني</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">أرجواني مشبّع</string>
-  <!-- Customization Color -->
-  <string name="indigo">نيلي</string>
-  <!-- Customization Color -->
-  <string name="blue">أزرق</string>
-  <!-- Customization Color -->
-  <string name="light_blue">أزرق فاتح</string>
-  <!-- Customization Color -->
-  <string name="cyan">سماوي</string>
-  <!-- Customization Color -->
-  <string name="teal">أزرق مخضّر</string>
-  <!-- Customization Color -->
-  <string name="green">أخضر</string>
-  <!-- Customization Color -->
-  <string name="light_green">أخضر فاتح</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">أصفر</string>
-  <!-- Customization Color -->
-  <string name="amber">أصفر</string>
-  <!-- Customization Color -->
-  <string name="orange">برتقالي</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">برتقالي مشبّع</string>
-  <!-- Customization Color -->
-  <string name="brown">بني</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">رمادي</string>
   <string name="default_text">الإفتراضي</string>
   <string name="edit_icon_reset">إعادة تعيين</string>
   <string name="pref_cat_homescreen">الشاشة الرئيسية</string>

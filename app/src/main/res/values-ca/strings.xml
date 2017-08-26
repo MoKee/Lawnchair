@@ -233,32 +233,6 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <string name="label_voice_search">Cerca per veu</string>
   <!-- About Lawnchair -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="red">Vermell</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">Blau</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="cyan">Cian</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">Verd</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Groc</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
   <string name="default_text">Predeterminat</string>
   <string name="edit_icon_reset">Restableix</string>
   <string name="theme_dark">Fosca</string>

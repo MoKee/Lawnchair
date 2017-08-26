@@ -242,45 +242,6 @@
   <string name="about_title">O</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Czarny</string>
-  <!-- Customization Color -->
-  <string name="red">Czerwony</string>
-  <!-- Customization Color -->
-  <string name="pink">Różowy</string>
-  <!-- Customization Color -->
-  <string name="purple">Fioletowy</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Ciemnofioletowy</string>
-  <!-- Customization Color -->
-  <string name="indigo">Indygo</string>
-  <!-- Customization Color -->
-  <string name="blue">Niebieski</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Jasnoniebieski</string>
-  <!-- Customization Color -->
-  <string name="cyan">Niebiesko-zielony</string>
-  <!-- Customization Color -->
-  <string name="teal">Turkusowy</string>
-  <!-- Customization Color -->
-  <string name="green">Zielony</string>
-  <!-- Customization Color -->
-  <string name="light_green">Jasnozielony</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Żółty</string>
-  <!-- Customization Color -->
-  <string name="amber">Bursztynowy</string>
-  <!-- Customization Color -->
-  <string name="orange">Pomarańczowy</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Ciemnopomarańczowy</string>
-  <!-- Customization Color -->
-  <string name="brown">Brązowy</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Niebiesko-szary</string>
   <string name="default_text">Domyślne</string>
   <string name="edit_icon_reset">Resetuj</string>
   <string name="pref_cat_homescreen">Ekran główny</string>

@@ -229,45 +229,6 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Црна</string>
-  <!-- Customization Color -->
-  <string name="red">Црвена</string>
-  <!-- Customization Color -->
-  <string name="pink">Ружичаста</string>
-  <!-- Customization Color -->
-  <string name="purple">Љубичаста</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Тамноружичаста</string>
-  <!-- Customization Color -->
-  <string name="indigo">Индигоплава</string>
-  <!-- Customization Color -->
-  <string name="blue">Плава</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Светлоплава</string>
-  <!-- Customization Color -->
-  <string name="cyan">Цијан</string>
-  <!-- Customization Color -->
-  <string name="teal">Плавозелена</string>
-  <!-- Customization Color -->
-  <string name="green">Зелена</string>
-  <!-- Customization Color -->
-  <string name="light_green">Светлозелена</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Жута</string>
-  <!-- Customization Color -->
-  <string name="amber">Тамножута</string>
-  <!-- Customization Color -->
-  <string name="orange">Наранџаста</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Тамнонаранџаста</string>
-  <!-- Customization Color -->
-  <string name="brown">Смеђа</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue_grey">Плавосива</string>
   <string name="default_text">Подразумевано</string>
   <string name="edit_icon_reset">Поново постави</string>
   <string name="pref_cat_miscellaneous">Разно</string>

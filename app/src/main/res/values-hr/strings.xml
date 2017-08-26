@@ -230,32 +230,6 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <string name="label_voice_search">Glasovno pretraživanje</string>
   <!-- About Lawnchair -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="red">Crvena</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">Plava</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="cyan">Cijan</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">Zelena</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Žuta</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
   <string name="edit_icon_reset">Poništi</string>
   <string name="theme_dark">Tamno</string>
   <!-- Import/Export Strings -->

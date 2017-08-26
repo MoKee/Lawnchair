@@ -255,38 +255,6 @@
   <string name="blur_pref_title">Använd oskärpa</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="black">Svart</string>
-  <!-- Customization Color -->
-  <string name="red">Röd</string>
-  <!-- Customization Color -->
-  <string name="pink">Rosa</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">Blå</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Ljusblå</string>
-  <!-- Customization Color -->
-  <string name="cyan">Cyan</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="green">Grön</string>
-  <!-- Customization Color -->
-  <string name="light_green">Ljusgrön</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Gul</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="orange">Orange</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="brown">Brun</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
   <string name="default_text">Standard</string>
   <string name="edit_icon_reset">Återställ</string>
   <string name="pref_cat_homescreen">Hemskärm</string>
