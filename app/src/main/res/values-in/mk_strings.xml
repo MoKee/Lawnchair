@@ -19,4 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
+  <string name="about_text_mk">Lawnchair adalah sebuah peluncur aplikasi yang dibuat oleh Till Kottmann (aka deletescape), dimodifikasi untuk Rom MoKee. Hal ini didasarkan pada Launcher3 dari AOSP.</string>
+  <string name="about_localization_title">Lokalisasi</string>
+  <string name="about_localization_summary">Terjemahkan Lawnchair Launcher</string>
 </resources>

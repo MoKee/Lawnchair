@@ -234,10 +234,40 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Layar kunci</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="which_wallpaper_option_home_screen_and_lock_screen">Layar utama dan layar kunci</string>
+  <string name="title_show_google_app">Tampilkan %1$s</string>
+  <string name="title_show_google_app_default">Tampilkan Google app</string>
   <string name="label_search">Pencarian</string>
   <string name="label_voice_search">Pencarian suara</string>
+  <string name="shortcuts_menu_with_notifications_description">%1$d jalan pintas dan %2$d notifikasi untuk %3$s</string>
+  <string name="notifications_header">Notifikasi</string>
+  <string name="widgets_bottom_sheet_title">%1$s widget</string>
   <!-- About Lawnchair -->
   <string name="about_title">Tentang</string>
+  <string name="changelog_title">Changelog untuk membangun #%d</string>
+  <string name="week_day_format">%1$s, %2$s</string>
+  <string name="icon_pack_preference_title">Paket Ikon</string>
+  <string name="icon_pack_preference_summary">Pilih paket ikon</string>
+  <string name="hotseat_uses_extracted_colors_pref_title">Dock menggunakan warna wallpaper</string>
+  <string name="hotseat_uses_extracted_colors_pref_on">Dock akan diwarnai dengan warna yang diekstrak dari wallpaper</string>
+  <string name="hotseat_uses_extracted_colors_pref_off">Dock akan berwarna abu-abu, tetapi disesuaikan dengan kecerahan wallpaper</string>
+  <string name="transparent_hotseat_pref_title">Dock Transparan</string>
+  <string name="dynamic_ui_pref_title">Ekstrak aksen warna dari wallpaper</string>
+  <string name="blur_pref_title">Hidupkan kabur</string>
+  <string name="blur_pref_summary">Menerapkan efek blur ke bagian interface\nTidak kompatibel dengan Live Wallpaper</string>
+  <string name="blur_radius_pref_title">Area buram</string>
+  <string name="white_google_icon_pref_title">Gunakan Google icon putih</string>
+  <string name="hide_icon_labels_pref_title">Sembunyikan label ikon pada layar beranda</string>
+  <string name="hide_all_apps_icon_labels_pref_title">Sembunyikan label ikon di drawer</string>
+  <string name="workspace_label_color_hue_pref_title">Warna label ikon pada layar beranda</string>
+  <string name="workspace_label_color_variation_pref_title">Variasi warna label ikon pada layar beranda</string>
+  <string name="all_apps_opacity_pref_title">Kegelapan Drawer</string>
+  <string name="num_cols_pref_title">Jumlah kolom</string>
+  <string name="num_rows_pref_title">Jumlah baris</string>
+  <string name="num_hotseat_icons_pref_title">Jumlah ikon di dok</string>
+  <string name="icon_scale_pref_title">Skala ikon</string>
+  <string name="icon_text_scale_pref_title">Teks skala ikon</string>
+  <string name="full_width_width_widgets_pref_title">Widget lebar penuh</string>
   <string name="default_text">Bawaan</string>
   <string name="edit_icon_reset">Setel Ulang</string>
   <string name="pref_cat_homescreen">Layar utama</string>
