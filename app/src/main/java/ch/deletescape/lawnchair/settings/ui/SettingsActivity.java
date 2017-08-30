@@ -216,7 +216,7 @@ public class SettingsActivity extends AppCompatActivity implements PreferenceFra
                     getPreferenceScreen().removePreference(findPreference("about_changelog"));
                 }
             } else if (getContent() == R.xml.launcher_behavior_preferences) {
-                if (Utilities.ATLEAST_NOUGAT_MR1) {
+                if (Utilities.ATLEAST_NOUGAT_MR1 && BuildConfig.TRAVIS) {
                     getPreferenceScreen().removePreference(findPreference(FeatureFlags.KEY_PREF_ENABLE_BACKPORT_SHORTCUTS));
                 }
             } else if (getContent() == R.xml.launcher_hidden_preferences) {
