@@ -381,4 +381,6 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">M月d日EEEE</string>
   <string name="lock_desktop">鎖定桌面</string>
+  <string name="lawnfeed_not_found">Lawnfeed 未安裝</string>
+  <string name="google_app_not_found">未安裝 Google 應用程式</string>
 </resources>
