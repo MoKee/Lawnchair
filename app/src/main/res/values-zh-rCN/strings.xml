@@ -383,4 +383,5 @@
   <string name="lock_desktop">锁定桌面</string>
   <string name="lawnfeed_not_found">未安装 Lawnfeed</string>
   <string name="google_app_not_found">未安装 Google 应用</string>
+  <string name="popup_card_theme_title">平面样式弹出菜单</string>
 </resources>
