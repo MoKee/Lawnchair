@@ -238,6 +238,7 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ఏదీ వద్దు</string>
+  <string name="icon_shape_none">ఏదీ వద్దు</string>
   <string name="about_version">సంస్కరణ</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->

@@ -353,6 +353,7 @@
   <string name="loading">Memuat…</string>
   <string name="icon_shape_override_label">Ubah bentuk ikon</string>
   <string name="icon_shape_system_default">Jangan diubah</string>
+  <string name="icon_shape_none">Tidak ada</string>
   <string name="icon_shape_square">Kotak</string>
   <string name="icon_shape_rounded_square">Kotak bulat</string>
   <string name="icon_shape_squircle">Persegi bulat</string>

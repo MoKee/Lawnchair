@@ -355,6 +355,7 @@
   <string name="loading">Načitávanie...</string>
   <string name="icon_shape_override_label">Zmena tvaru ikony</string>
   <string name="icon_shape_system_default">Nemeniť</string>
+  <string name="icon_shape_none">Žiadny</string>
   <string name="icon_shape_square">Štvorec</string>
   <string name="icon_shape_rounded_square">Zaoblený štvorec</string>
   <string name="icon_shape_squircle">Štvorec a kruh</string>

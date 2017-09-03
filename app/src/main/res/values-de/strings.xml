@@ -354,6 +354,7 @@
   <string name="loading">Wird geladen...</string>
   <string name="icon_shape_override_label">Symbol-Form ändern</string>
   <string name="icon_shape_system_default">Nicht ändern</string>
+  <string name="icon_shape_none">Kein</string>
   <string name="icon_shape_square">Quadrat</string>
   <string name="icon_shape_rounded_square">Abgerundete Quadrate</string>
   <string name="icon_shape_squircle">Kreis</string>

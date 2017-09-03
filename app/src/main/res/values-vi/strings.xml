@@ -248,6 +248,7 @@
   <string name="none">Không có</string>
   <string name="folder">Thư mục</string>
   <string name="loading">Đang tải…</string>
+  <string name="icon_shape_none">Không có</string>
   <string name="about_version">Phiên bản</string>
   <string name="about_contributors_title">Người đóng góp</string>
   <string name="about_changelog">Nhật ký thay đổi</string>

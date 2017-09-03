@@ -247,6 +247,7 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Vejr</string>
   <string name="none">Ingen</string>
+  <string name="icon_shape_none">Ingen</string>
   <string name="icon_shape_circle">Cirkel</string>
   <string name="about_changelog">Ændringsoversigt</string>
   <!-- Time format for Weather Widget -->

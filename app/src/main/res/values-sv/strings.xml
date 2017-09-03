@@ -270,6 +270,7 @@
   <string name="none">Inga</string>
   <string name="folder">Mapp</string>
   <string name="loading">Laddar…</string>
+  <string name="icon_shape_none">Inga</string>
   <string name="icon_shape_circle">Cirkel</string>
   <string name="about_version">Version</string>
   <string name="about_changelog">Ändringslog</string>

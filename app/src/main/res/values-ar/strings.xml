@@ -312,6 +312,7 @@
   <string name="none">لا شيء</string>
   <string name="folder">مجلد</string>
   <string name="loading">جاري التحميل…</string>
+  <string name="icon_shape_none">لا شيء</string>
   <string name="about_version">الإصدار</string>
   <string name="about_contributors_title">المساهمين</string>
   <string name="about_changelog">سجل التغييرات</string>

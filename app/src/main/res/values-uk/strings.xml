@@ -255,6 +255,7 @@
   <string name="none">Нічого</string>
   <string name="folder">Тека</string>
   <string name="loading">Завантаження...</string>
+  <string name="icon_shape_none">Нічого</string>
   <string name="icon_shape_circle">Коло</string>
   <string name="about_version">Версія</string>
   <string name="about_contributors_title">Розробники</string>

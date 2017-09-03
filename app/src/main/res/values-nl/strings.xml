@@ -251,6 +251,7 @@
   <string name="none">Geen</string>
   <string name="folder">Map</string>
   <string name="loading">Laden…</string>
+  <string name="icon_shape_none">Geen</string>
   <string name="icon_shape_circle">Cirkel</string>
   <string name="about_version">Versie</string>
   <string name="about_contributors_title">Bijdragers</string>

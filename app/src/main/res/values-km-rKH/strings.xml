@@ -236,6 +236,7 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">គ្មាន</string>
+  <string name="icon_shape_none">គ្មាន</string>
   <string name="about_version">កំណែ</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->

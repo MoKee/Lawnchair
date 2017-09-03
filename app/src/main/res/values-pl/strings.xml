@@ -257,6 +257,7 @@
   <string name="none">Brak</string>
   <string name="folder">Katalog</string>
   <string name="loading">Wczytywanie…</string>
+  <string name="icon_shape_none">Brak</string>
   <string name="icon_shape_circle">Okrąg</string>
   <string name="about_version">Wersja</string>
   <string name="about_contributors_title">Współtwórcy</string>

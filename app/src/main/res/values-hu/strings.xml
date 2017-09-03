@@ -253,6 +253,7 @@
   <string name="none">Nincs</string>
   <string name="folder">Mappa</string>
   <string name="loading">Betöltés…</string>
+  <string name="icon_shape_none">Nincs</string>
   <string name="about_version">Verzió</string>
   <string name="about_contributors_title">Közreműködők</string>
   <string name="about_changelog">Változások naplója</string>

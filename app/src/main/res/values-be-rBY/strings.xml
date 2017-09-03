@@ -323,6 +323,7 @@
   <string name="none">Нічога</string>
   <string name="folder">Тэчка</string>
   <string name="loading">Загрузка…</string>
+  <string name="icon_shape_none">Нічога</string>
   <string name="icon_shape_circle">Круг</string>
   <string name="about_version">Версія</string>
   <string name="about_contributors_title">Аўтары</string>

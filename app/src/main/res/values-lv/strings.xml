@@ -238,6 +238,7 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Nav</string>
+  <string name="icon_shape_none">Nav</string>
   <string name="about_version">Versija</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->

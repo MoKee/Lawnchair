@@ -353,6 +353,7 @@
   <string name="loading">載入中...</string>
   <string name="icon_shape_override_label">更換圖示造型</string>
   <string name="icon_shape_system_default">不要變更</string>
+  <string name="icon_shape_none">無</string>
   <string name="icon_shape_square">正方形</string>
   <string name="icon_shape_rounded_square">圓角方形</string>
   <string name="icon_shape_squircle">圓角正方形</string>
@@ -383,4 +384,5 @@
   <string name="lock_desktop">鎖定桌面</string>
   <string name="lawnfeed_not_found">Lawnfeed 未安裝</string>
   <string name="google_app_not_found">未安裝 Google 應用程式</string>
+  <string name="popup_card_theme_title">平面樣式的彈出選單</string>
 </resources>

@@ -355,6 +355,7 @@
   <string name="loading">Загрузка...</string>
   <string name="icon_shape_override_label">Изменить форму значка</string>
   <string name="icon_shape_system_default">Не изменять</string>
+  <string name="icon_shape_none">Оригинал</string>
   <string name="icon_shape_square">Квадрат</string>
   <string name="icon_shape_rounded_square">Скругленный квадрат</string>
   <string name="icon_shape_squircle">Округлый квадрат</string>

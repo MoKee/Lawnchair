@@ -272,6 +272,7 @@
   <string name="none">Κανένα</string>
   <string name="folder">Φάκελος</string>
   <string name="loading">Φόρτωση…</string>
+  <string name="icon_shape_none">Κανένα</string>
   <string name="about_version">Έκδοση</string>
   <string name="about_contributors_title">Συντελεστές</string>
   <string name="about_changelog">Αρχείο καταγραφής αλλαγών</string>

@@ -246,6 +246,7 @@
   <string name="none">Niciunul</string>
   <string name="folder">Dosar</string>
   <string name="loading">Încărcare...</string>
+  <string name="icon_shape_none">Niciunul</string>
   <string name="about_version">Versiune</string>
   <string name="about_contributors_title">Contribuitori</string>
   <string name="about_changelog">Istoria schimbărilor</string>

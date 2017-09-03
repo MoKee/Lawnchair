@@ -264,6 +264,7 @@
   <string name="none">Aucun</string>
   <string name="folder">Dossier</string>
   <string name="loading">Chargement…</string>
+  <string name="icon_shape_none">Aucun</string>
   <string name="icon_shape_circle">Cercle</string>
   <string name="about_version">Version</string>
   <string name="about_contributors_title">Contributeurs</string>

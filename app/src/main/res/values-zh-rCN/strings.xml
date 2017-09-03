@@ -353,6 +353,7 @@
   <string name="loading">正在加载</string>
   <string name="icon_shape_override_label">更换图标样式</string>
   <string name="icon_shape_system_default">不更换</string>
+  <string name="icon_shape_none">无</string>
   <string name="icon_shape_square">正方形</string>
   <string name="icon_shape_rounded_square">圆角正方形</string>
   <string name="icon_shape_squircle">圆角矩形</string>
@@ -384,4 +385,5 @@
   <string name="lawnfeed_not_found">未安装 Lawnfeed</string>
   <string name="google_app_not_found">未安装 Google 应用</string>
   <string name="popup_card_theme_title">平面样式弹出菜单</string>
+  <string name="set_default_launcher">设置默认启动器</string>
 </resources>

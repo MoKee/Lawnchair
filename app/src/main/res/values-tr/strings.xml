@@ -284,6 +284,7 @@
   <string name="none">Hiçbiri</string>
   <string name="folder">Klasör</string>
   <string name="loading">Yükleniyor…</string>
+  <string name="icon_shape_none">Hiçbiri</string>
   <string name="icon_shape_circle">Çember</string>
   <string name="about_version">Sürüm</string>
   <string name="about_contributors_title">Katkıda bulunanlar</string>

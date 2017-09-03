@@ -241,6 +241,7 @@
   <string name="none">Ниједно</string>
   <string name="folder">Фасцикла</string>
   <string name="loading">Учитавам…</string>
+  <string name="icon_shape_none">Ниједно</string>
   <string name="about_version">Верзија</string>
   <string name="about_contributors_title">Доприносиоци</string>
   <string name="about_changelog">Евиденција измена</string>

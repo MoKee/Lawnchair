@@ -154,6 +154,7 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Keen</string>
+  <string name="icon_shape_none">Keen</string>
   <string name="about_version">Versioun</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->

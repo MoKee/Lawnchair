@@ -240,6 +240,7 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">El temps</string>
   <string name="none">Cap</string>
+  <string name="icon_shape_none">Cap</string>
   <string name="icon_shape_circle">Cercle</string>
   <string name="about_version">Versió</string>
   <string name="about_changelog">Registre de canvis</string>

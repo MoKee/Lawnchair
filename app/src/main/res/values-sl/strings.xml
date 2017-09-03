@@ -256,6 +256,7 @@
   <string name="none">Brez</string>
   <string name="folder">Mapa</string>
   <string name="loading">Nalaganje…</string>
+  <string name="icon_shape_none">Brez</string>
   <string name="icon_shape_circle">Krog</string>
   <string name="about_version">Različica</string>
   <string name="about_contributors_title">Sodelavci</string>

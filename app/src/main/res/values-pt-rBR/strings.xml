@@ -354,6 +354,7 @@
   <string name="loading">Carregando…</string>
   <string name="icon_shape_override_label">Alterar o formato dos Icones</string>
   <string name="icon_shape_system_default">Não mudar</string>
+  <string name="icon_shape_none">Nenhum</string>
   <string name="icon_shape_square">Quadrado</string>
   <string name="icon_shape_rounded_square">Cantos arredondados</string>
   <string name="icon_shape_squircle">Quadrado redondo</string>

@@ -240,6 +240,7 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Ingen</string>
+  <string name="icon_shape_none">Ingen</string>
   <string name="about_version">Versjon</string>
   <string name="about_changelog">Endringslogg</string>
   <!-- Time format for Weather Widget -->

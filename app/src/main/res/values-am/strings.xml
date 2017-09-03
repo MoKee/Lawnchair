@@ -237,6 +237,7 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ምንም</string>
+  <string name="icon_shape_none">ምንም</string>
   <string name="about_version">ስሪት</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
