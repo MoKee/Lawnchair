@@ -383,4 +383,9 @@
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
+  <string name="lock_desktop">Заблокировать рабочий стол</string>
+  <string name="lawnfeed_not_found">Lawnfeed не установлен</string>
+  <string name="google_app_not_found">Приложение Google не установлено</string>
+  <string name="popup_card_theme_title">Плоский стиль всплывающих окон</string>
+  <string name="set_default_launcher">Установить лаунчер по умолчанию</string>
 </resources>
