@@ -236,6 +236,7 @@
   <string name="edit_icon_reset">રીસેટ કરો</string>
   <string name="theme_dark">ઘાટું</string>
   <!-- Import/Export Strings -->
+  <string name="backup_export_title">નિકાસ કરો</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">કોઈ નહીં</string>
   <string name="icon_shape_none">કોઈ નહીં</string>

@@ -147,9 +147,13 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
+  <string name="export_prefs_title">تەڭشەش</string>
+  <string name="import_prefs_title">تەڭشەش</string>
   <string name="edit_icon_reset">ئەسلىگە قايتۇر</string>
   <string name="theme_dark">قاراڭغۇ</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">ئەكىر</string>
+  <string name="backup_export_title">چىقار</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">يوق</string>
   <string name="icon_shape_none">يوق</string>

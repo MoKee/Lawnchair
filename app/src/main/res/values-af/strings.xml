@@ -236,6 +236,8 @@
   <string name="edit_icon_reset">Stel terug</string>
   <string name="theme_dark">Donker</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Voer in</string>
+  <string name="backup_export_title">Voer uit</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Geen</string>
   <string name="icon_shape_none">Geen</string>

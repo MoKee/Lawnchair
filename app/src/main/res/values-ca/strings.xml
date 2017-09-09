@@ -237,6 +237,8 @@
   <string name="edit_icon_reset">Restableix</string>
   <string name="theme_dark">Fosca</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Importa</string>
+  <string name="backup_export_title">Exporta</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">El temps</string>
   <string name="none">Cap</string>

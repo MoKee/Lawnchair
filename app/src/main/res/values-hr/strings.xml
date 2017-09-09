@@ -233,6 +233,8 @@
   <string name="edit_icon_reset">Poništi</string>
   <string name="theme_dark">Tamno</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Uvezi</string>
+  <string name="backup_export_title">Izvezi</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Vrijeme</string>
   <string name="none">Ništa</string>

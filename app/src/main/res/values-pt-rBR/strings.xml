@@ -272,11 +272,11 @@
   <string name="full_width_widgets_pref_summary">Permitir que os widgets abranger a largura inteira sem preenchimento</string>
   <string name="notification_access_pref_title">Visualização e emblemas de notificação</string>
   <string name="notification_access_pref_summary">Permitir o Lawnchair acessar as suas notificações para mostra uma previa delas</string>
-  <string name="ui_pref_title">Personalizações</string>
-  <string name="pixel_style_pref_title">Estilo Pixel</string>
+  <string name="general_pref_title">Geral</string>
   <string name="behavior_pref_title">Comportamento</string>
   <string name="debug_pref_title">Depuração</string>
   <string name="import_export_pref_title">Importar/exportar</string>
+  <string name="backup_pref_title">Backup</string>
   <string name="show_pixel_bar_pref_title">Mostrar a barra superior do Pixel</string>
   <string name="use_wide_searchbar_pref_title">Use uma barra de pesquisa circular</string>
   <string name="show_mic_pref_title">Mostrar botão de assistente de Google</string>
@@ -300,10 +300,10 @@
   <string name="show_hidden_pref_title">Mostrar apps ocultos</string>
   <string name="show_hidden_pref_on">Apps ocultos serão mostrados para alterar as configurações de visibilidade</string>
   <string name="show_hidden_pref_off">Apps ocultos não serão mostrados</string>
-  <string name="export_db_title">Exportar banco de dados</string>
-  <string name="import_db_title">Importar banco de dados</string>
-  <string name="export_prefs_title">Exportar configurações</string>
-  <string name="import_prefs_title">Importar configurações</string>
+  <string name="export_db_title">Banco de dados</string>
+  <string name="import_db_title">Banco de dados</string>
+  <string name="export_prefs_title">Configurações</string>
+  <string name="import_prefs_title">Configurações</string>
   <string name="notification_listener_label">Lawnchair - Notificações dinâmicas</string>
   <string name="color_extraction_label">Lawnchair - Extração de cor</string>
   <string name="test_title">Teste</string>
@@ -328,6 +328,8 @@
   <string name="pull_down_apps_search">Pesquisa de Apps</string>
   <string name="enable_screen_rotation">Ativar a rotação de tela</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Importar</string>
+  <string name="backup_export_title">Exportar</string>
   <string name="imexport_success">Sucesso!</string>
   <string name="imexport_error">Erro: Falha ao copiar o arquivo</string>
   <string name="imexport_no_backup_found">Nenhum backup encontrado</string>

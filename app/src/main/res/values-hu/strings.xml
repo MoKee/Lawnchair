@@ -239,7 +239,13 @@
   <!-- About Lawnchair -->
   <string name="about_title">Információk</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
+  <string name="general_pref_title">Általános</string>
+  <string name="backup_pref_title">Biztonsági mentés</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
+  <string name="export_db_title">Adatbázis</string>
+  <string name="import_db_title">Adatbázis</string>
+  <string name="export_prefs_title">Beállítások</string>
+  <string name="import_prefs_title">Beállítások</string>
   <string name="default_text">Alapértelmezés</string>
   <string name="edit_icon_reset">Visszaállítás</string>
   <string name="pref_cat_homescreen">Főképernyő</string>
@@ -249,6 +255,8 @@
   <string name="theme_dark">Sötét</string>
   <string name="theme_black">Fekete</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Importálás</string>
+  <string name="backup_export_title">Exportálás</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Nincs</string>
   <string name="folder">Mappa</string>

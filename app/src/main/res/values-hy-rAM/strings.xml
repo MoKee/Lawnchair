@@ -235,6 +235,8 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">Վերակայել</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Ներմուծել</string>
+  <string name="backup_export_title">Արտահանել</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Ոչ մեկը</string>
   <string name="icon_shape_none">Ոչ մեկը</string>

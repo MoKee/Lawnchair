@@ -272,11 +272,11 @@
   <string name="full_width_widgets_pref_summary">Widgets erlauben auf die volle Breite vergrößert zu werden</string>
   <string name="notification_access_pref_title">Benachrichtigungsanzeige und -vorschau</string>
   <string name="notification_access_pref_summary">Für diese Funktion benötigt Lawnchair Zugriff auf Benachrichtigungen</string>
-  <string name="ui_pref_title">Benutzeroberfläche</string>
-  <string name="pixel_style_pref_title">Pixel Stil</string>
+  <string name="general_pref_title">Allgemein</string>
   <string name="behavior_pref_title">Verhalten</string>
   <string name="debug_pref_title">Entwickleroptionen</string>
   <string name="import_export_pref_title">Import/Export</string>
+  <string name="backup_pref_title">Sicherung</string>
   <string name="show_pixel_bar_pref_title">Pixel Top Bar anzeigen</string>
   <string name="use_wide_searchbar_pref_title">Breite Suchleiste verwenden</string>
   <string name="show_mic_pref_title">Google Assistant Button anzeigen</string>
@@ -300,10 +300,10 @@
   <string name="show_hidden_pref_title">Versteckte Apps anzeigen</string>
   <string name="show_hidden_pref_on">Versteckte Apps werden angezeigt um Sichtbarkeitseinstellungen zu ändern</string>
   <string name="show_hidden_pref_off">Versteckte Apps werden nicht angezeigt</string>
-  <string name="export_db_title">Datenbank Exportieren</string>
-  <string name="import_db_title">Datenbank importieren</string>
-  <string name="export_prefs_title">Einstellungen Exportieren</string>
-  <string name="import_prefs_title">Einstellungen Importieren</string>
+  <string name="export_db_title">Datenbank</string>
+  <string name="import_db_title">Datenbank</string>
+  <string name="export_prefs_title">Einstellungen</string>
+  <string name="import_prefs_title">Einstellungen</string>
   <string name="notification_listener_label">Lawnchair - Benachrichtigungsanzeige</string>
   <string name="color_extraction_label">Lawnchair - Farbextraktion</string>
   <string name="test_title">Test</string>
@@ -328,6 +328,8 @@
   <string name="pull_down_apps_search">App Suche</string>
   <string name="enable_screen_rotation">Bildschirmrotation aktivieren</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Importieren</string>
+  <string name="backup_export_title">Exportieren</string>
   <string name="imexport_success">Erfolgreich!</string>
   <string name="imexport_error">Fehler: Datei konnte nicht kopiert werden</string>
   <string name="imexport_no_backup_found">Keine Sicherungen gefunden</string>

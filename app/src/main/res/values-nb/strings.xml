@@ -238,6 +238,8 @@
   <string name="edit_icon_reset">Tilbakestill</string>
   <string name="theme_dark">Mørkt</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Importér</string>
+  <string name="backup_export_title">Eksporter</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Ingen</string>
   <string name="icon_shape_none">Ingen</string>

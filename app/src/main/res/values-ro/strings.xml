@@ -233,6 +233,10 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="about_title">Despre</string>
+  <string name="export_db_title">Bază de date</string>
+  <string name="import_db_title">Bază de date</string>
+  <string name="export_prefs_title">Setări</string>
+  <string name="import_prefs_title">Setări</string>
   <string name="default_text">Implicit</string>
   <string name="edit_icon_reset">Resetaţi</string>
   <string name="pref_cat_homescreen">Ecran principal</string>
@@ -242,6 +246,8 @@
   <string name="theme_dark">Întunecat</string>
   <string name="theme_black">Negru</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Importaţi</string>
+  <string name="backup_export_title">Exportați</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Niciunul</string>
   <string name="folder">Dosar</string>

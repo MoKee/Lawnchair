@@ -238,6 +238,12 @@
   <string name="label_voice_search">Spraakgestuurd zoeken</string>
   <!-- About Lawnchair -->
   <string name="about_title">Over</string>
+  <string name="general_pref_title">Algemeen</string>
+  <string name="backup_pref_title">Back-up maken</string>
+  <string name="export_db_title">Database</string>
+  <string name="import_db_title">Database</string>
+  <string name="export_prefs_title">Instellingen</string>
+  <string name="import_prefs_title">Instellingen</string>
   <string name="default_text">Standaard</string>
   <string name="edit_icon_reset">Resetten</string>
   <string name="pref_cat_homescreen">Beginscherm</string>
@@ -247,6 +253,8 @@
   <string name="theme_dark">Donker</string>
   <string name="theme_black">Zwart</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Importeren</string>
+  <string name="backup_export_title">Exporteren</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Geen</string>
   <string name="folder">Map</string>

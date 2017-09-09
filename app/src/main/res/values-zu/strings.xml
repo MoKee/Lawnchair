@@ -235,6 +235,8 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">Setha kabusha</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Ngenisa</string>
+  <string name="backup_export_title">Hambisa</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Akunalutho</string>
   <string name="icon_shape_none">Akunalutho</string>

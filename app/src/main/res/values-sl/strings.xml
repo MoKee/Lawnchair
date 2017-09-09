@@ -241,6 +241,12 @@
   <string name="label_voice_search">Glasovno iskanje</string>
   <!-- About Lawnchair -->
   <string name="about_title">O nas</string>
+  <string name="general_pref_title">Splošno</string>
+  <string name="backup_pref_title">Varnostna kopija</string>
+  <string name="export_db_title">Baza podatkov</string>
+  <string name="import_db_title">Baza podatkov</string>
+  <string name="export_prefs_title">Nastavitve</string>
+  <string name="import_prefs_title">Nastavitve</string>
   <string name="default_text">Privzeto</string>
   <string name="edit_icon_reset">Ponastavi</string>
   <string name="pref_cat_homescreen">Domači zaslon</string>
@@ -251,6 +257,8 @@
   <string name="theme_black">Črna</string>
   <string name="pull_down_do_nothing">Ne naredi ničesar</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Uvozi</string>
+  <string name="backup_export_title">Izvozi</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Vreme</string>
   <string name="none">Brez</string>

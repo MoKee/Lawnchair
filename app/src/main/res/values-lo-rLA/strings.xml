@@ -233,6 +233,8 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">ຄືນຄ່າ</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">ນຳເຂົ້າ</string>
+  <string name="backup_export_title">ສົ່ງອອກ</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ບໍ່ໃຊ້</string>
   <string name="icon_shape_none">ບໍ່ໃຊ້</string>

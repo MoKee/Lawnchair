@@ -235,6 +235,8 @@
   <string name="edit_icon_reset">รีเซ็ต</string>
   <string name="theme_dark">มืด</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">นำเข้า</string>
+  <string name="backup_export_title">ส่งออก</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ไม่มี</string>
   <string name="icon_shape_none">ไม่มี</string>

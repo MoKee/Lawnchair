@@ -272,11 +272,11 @@
   <string name="full_width_widgets_pref_summary">Дазволіць віджэтам займаць месца без водступаў</string>
   <string name="notification_access_pref_title">Значкі апавяшчэнняў і папярэдні прагляд</string>
   <string name="notification_access_pref_summary">Дазволіць Lawnchair доступ да вашых апавяшчэнняў для ўключэння гэтай функцыі</string>
-  <string name="ui_pref_title">Інтэрфэйс</string>
-  <string name="pixel_style_pref_title">Стыль Pixel</string>
+  <string name="general_pref_title">Агульныя</string>
   <string name="behavior_pref_title">Паводзіны</string>
   <string name="debug_pref_title">Адладка</string>
   <string name="import_export_pref_title">Імпарт / Экспарт</string>
+  <string name="backup_pref_title">Рэзервовая копія</string>
   <string name="show_pixel_bar_pref_title">Паказаць радок пошуку</string>
   <string name="use_wide_searchbar_pref_title">Радок пошуку як у Android O</string>
   <string name="show_mic_pref_title">Паказваць кнопку Google асістэнта</string>
@@ -300,10 +300,10 @@
   <string name="show_hidden_pref_title">Паказваць схаваныя праграмы</string>
   <string name="show_hidden_pref_on">Адлюстровываюцца схаваныя праграмы для змены налад бачнасці</string>
   <string name="show_hidden_pref_off">Схаваныя праграмы не будуць адлюстроўвацца</string>
-  <string name="export_db_title">Экспарт базы дадзеных</string>
-  <string name="import_db_title">Імпарт базы дадзеных</string>
-  <string name="export_prefs_title">Экспарт налад</string>
-  <string name="import_prefs_title">Імпарт налад</string>
+  <string name="export_db_title">База дадзеных</string>
+  <string name="import_db_title">База дадзеных</string>
+  <string name="export_prefs_title">Налады</string>
+  <string name="import_prefs_title">Налады</string>
   <string name="notification_listener_label">Lawnchair - значкі апавяшчэнняў</string>
   <string name="color_extraction_label">Lawnchair - выманне колеру</string>
   <string name="test_title">Тэст</string>
@@ -318,6 +318,8 @@
   <string name="theme_black">Чорны</string>
   <string name="pull_down_do_nothing">Нічога не рабіць</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Імпарт</string>
+  <string name="backup_export_title">Экспарт</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Надвор\'е</string>
   <string name="none">Нічога</string>

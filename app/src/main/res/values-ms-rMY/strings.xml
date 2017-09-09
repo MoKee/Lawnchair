@@ -227,6 +227,7 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">Tetapkan semula</string>
   <!-- Import/Export Strings -->
+  <string name="backup_export_title">Eksport</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Tiada</string>
   <string name="icon_shape_none">Tiada</string>

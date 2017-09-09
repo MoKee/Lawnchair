@@ -234,6 +234,8 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">I-reset</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">I-import</string>
+  <string name="backup_export_title">I-export</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Wala</string>
   <string name="icon_shape_none">Wala</string>

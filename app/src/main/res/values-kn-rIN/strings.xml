@@ -236,6 +236,7 @@
   <string name="edit_icon_reset">ಮರುಹೊಂದಿಸು</string>
   <string name="theme_dark">ಗಾಢ ಹಿನ್ನೆಲೆ</string>
   <!-- Import/Export Strings -->
+  <string name="backup_export_title">ರಫ್ತು</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ಯಾವುದೂ ಇಲ್ಲ</string>
   <string name="icon_shape_none">ಯಾವುದೂ ಇಲ್ಲ</string>

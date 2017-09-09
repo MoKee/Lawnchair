@@ -233,12 +233,20 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
+  <string name="general_pref_title">کلی</string>
+  <string name="backup_pref_title">پشتیبان</string>
+  <string name="export_db_title">پایگاه داده</string>
+  <string name="import_db_title">پایگاه داده</string>
+  <string name="export_prefs_title">تنظیمات</string>
+  <string name="import_prefs_title">تنظیمات</string>
   <string name="edit_icon_reset">بازنشانی</string>
   <string name="pref_cat_miscellaneous">متفرقه</string>
   <string name="pref_cat_theme">تم</string>
   <string name="theme_pref_title">تم</string>
   <string name="theme_black">سیاه</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">وارد کردن</string>
+  <string name="backup_export_title">صادر کردن</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">هیچ‌کدام</string>
   <string name="folder">پوشه</string>

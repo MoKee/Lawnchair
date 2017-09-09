@@ -237,6 +237,12 @@
   <string name="label_search">검색</string>
   <!-- About Lawnchair -->
   <string name="about_title">소개</string>
+  <string name="general_pref_title">기본</string>
+  <string name="backup_pref_title">백업</string>
+  <string name="export_db_title">데이터베이스</string>
+  <string name="import_db_title">데이터베이스</string>
+  <string name="export_prefs_title">설정</string>
+  <string name="import_prefs_title">설정</string>
   <string name="default_text">기본</string>
   <string name="edit_icon_reset">초기화</string>
   <string name="pref_cat_homescreen">홈 화면</string>
@@ -247,6 +253,8 @@
   <string name="theme_black">검정</string>
   <string name="pull_down_do_nothing">아무것도 하지않음</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">가져오기</string>
+  <string name="backup_export_title">내보내기</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">선택 안함</string>
   <string name="folder">폴더</string>

@@ -235,6 +235,7 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">Rivendos</string>
   <!-- Import/Export Strings -->
+  <string name="backup_export_title">Eksporto</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Asnjë</string>
   <string name="icon_shape_none">Asnjë</string>

@@ -271,11 +271,11 @@
   <string name="full_width_widgets_pref_summary">Izinkan widget untuk menjangkau seluruh lebar tanpa bantalan</string>
   <string name="notification_access_pref_title">Notifikasi badges dan pratinjau</string>
   <string name="notification_access_pref_summary">Memungkinkan Lawnchair untuk mengakses notifikasi anda untuk mengaktifkan fitur ini</string>
-  <string name="ui_pref_title">UI</string>
-  <string name="pixel_style_pref_title">Gaya pixel</string>
+  <string name="general_pref_title">Umum</string>
   <string name="behavior_pref_title">Perilaku</string>
   <string name="debug_pref_title">Debug</string>
   <string name="import_export_pref_title">Impor/Ekspor</string>
+  <string name="backup_pref_title">Cadangkan</string>
   <string name="show_pixel_bar_pref_title">Tampilkan bar atas Pixel</string>
   <string name="use_wide_searchbar_pref_title">Gunakan searchbar lebar</string>
   <string name="show_mic_pref_title">Tampilkan tombol Google asisten</string>
@@ -299,10 +299,10 @@
   <string name="show_hidden_pref_title">Tampilkan aplikasi tersembunyi</string>
   <string name="show_hidden_pref_on">Aplikasi tersembunyi akan ditampilkan untuk mengubah setelan keterlihatan</string>
   <string name="show_hidden_pref_off">Aplikasi tersembunyi tidak akan terlihat</string>
-  <string name="export_db_title">Ekspor database</string>
-  <string name="import_db_title">Impor database</string>
-  <string name="export_prefs_title">Ekspor setelan</string>
-  <string name="import_prefs_title">Impor setelan</string>
+  <string name="export_db_title">Basis Data</string>
+  <string name="import_db_title">Basis Data</string>
+  <string name="export_prefs_title">Setelan</string>
+  <string name="import_prefs_title">Setelan</string>
   <string name="notification_listener_label">Lawnchair - Notifikasi badge</string>
   <string name="color_extraction_label">Lawnchair - Warna ekstraksi</string>
   <string name="test_title">Tes</string>
@@ -327,6 +327,8 @@
   <string name="pull_down_apps_search">Cari aplikasi</string>
   <string name="enable_screen_rotation">Hidupkan rotasi layar</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Impor</string>
+  <string name="backup_export_title">Ekspor</string>
   <string name="imexport_success">Sukses!</string>
   <string name="imexport_error">Kesalahan: Gagal menyalin berkas</string>
   <string name="imexport_no_backup_found">Tidak ada cadangan ditemukan</string>

@@ -238,6 +238,7 @@
   <string name="edit_icon_reset">Berrezarri</string>
   <string name="theme_dark">Iluna</string>
   <!-- Import/Export Strings -->
+  <string name="backup_export_title">Esportatu</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Eguraldia</string>
   <string name="none">Bat ere ez</string>

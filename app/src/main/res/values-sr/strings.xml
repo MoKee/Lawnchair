@@ -229,6 +229,10 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
+  <string name="general_pref_title">Опште</string>
+  <string name="backup_pref_title">Направи резерву</string>
+  <string name="export_db_title">База података</string>
+  <string name="import_db_title">База података</string>
   <string name="default_text">Подразумевано</string>
   <string name="edit_icon_reset">Поново постави</string>
   <string name="pref_cat_miscellaneous">Разно</string>
@@ -237,6 +241,8 @@
   <string name="theme_dark">Мрак</string>
   <string name="theme_black">Црна</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Увези</string>
+  <string name="backup_export_title">Извези</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Ниједно</string>
   <string name="folder">Фасцикла</string>

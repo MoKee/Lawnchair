@@ -142,6 +142,8 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Enporti</string>
+  <string name="backup_export_title">Elporti</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="about_version">Versio</string>
   <!-- Time format for Weather Widget -->

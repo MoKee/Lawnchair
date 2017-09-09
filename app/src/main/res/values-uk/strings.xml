@@ -240,6 +240,12 @@
   <string name="label_voice_search">Голосовий пошук</string>
   <!-- About Lawnchair -->
   <string name="about_title">Про додаток</string>
+  <string name="general_pref_title">Загальні</string>
+  <string name="backup_pref_title">Резервна копія</string>
+  <string name="export_db_title">База даних</string>
+  <string name="import_db_title">База даних</string>
+  <string name="export_prefs_title">Налаштування</string>
+  <string name="import_prefs_title">Налаштування</string>
   <string name="default_text">Стандартний</string>
   <string name="edit_icon_reset">Скинути</string>
   <string name="pref_cat_homescreen">Домашній екран</string>
@@ -250,6 +256,8 @@
   <string name="theme_black">Чорний</string>
   <string name="pull_down_do_nothing">Нічого не робити</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Імпортувати</string>
+  <string name="backup_export_title">Експортувати</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Погода</string>
   <string name="none">Нічого</string>

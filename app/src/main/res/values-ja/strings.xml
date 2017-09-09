@@ -239,7 +239,13 @@
   <!-- About Lawnchair -->
   <string name="about_title">説明</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
+  <string name="general_pref_title">全般</string>
+  <string name="backup_pref_title">バックアップ</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
+  <string name="export_db_title">データベース</string>
+  <string name="import_db_title">データベース</string>
+  <string name="export_prefs_title">設定</string>
+  <string name="import_prefs_title">設定</string>
   <string name="default_text">デフォルト</string>
   <string name="edit_icon_reset">リセット</string>
   <string name="pref_cat_homescreen">ホーム画面</string>
@@ -249,6 +255,8 @@
   <string name="theme_dark">暗闇</string>
   <string name="theme_black">黒</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">インポート</string>
+  <string name="backup_export_title">エクスポート</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">天気</string>
   <string name="none">なし</string>

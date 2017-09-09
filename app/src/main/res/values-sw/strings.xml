@@ -234,6 +234,8 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">Weka upya</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Ingiza</string>
+  <string name="backup_export_title">Hamisha</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Umekamilisha</string>
   <string name="icon_shape_none">Umekamilisha</string>

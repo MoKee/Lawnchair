@@ -152,6 +152,8 @@
   <string name="edit_icon_reset">Zrécksetzen</string>
   <string name="theme_dark">Däischter</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Importéieren</string>
+  <string name="backup_export_title">Exportéieren</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Keen</string>
   <string name="icon_shape_none">Keen</string>

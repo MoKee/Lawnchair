@@ -258,7 +258,13 @@
   <string name="icon_scale_pref_title">Κλίμακα εικονιδίου</string>
   <string name="icon_text_scale_pref_title">Κλίμακα κειμένου εικονιδίου</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
+  <string name="general_pref_title">Γενικά</string>
+  <string name="backup_pref_title">Αντίγραφο ασφαλείας</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
+  <string name="export_db_title">Βάση δεδομένων</string>
+  <string name="import_db_title">Βάση δεδομένων</string>
+  <string name="export_prefs_title">Ρυθμίσεις</string>
+  <string name="import_prefs_title">Ρυθμίσεις</string>
   <string name="default_text">Προεπιλογή</string>
   <string name="edit_icon_reset">Επαναφορά</string>
   <string name="pref_cat_homescreen">Αρχική οθόνη</string>
@@ -268,6 +274,8 @@
   <string name="theme_dark">Σκοτάδι</string>
   <string name="theme_black">Μαύρο</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Εισαγωγή</string>
+  <string name="backup_export_title">Εξαγωγή</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Κανένα</string>
   <string name="folder">Φάκελος</string>

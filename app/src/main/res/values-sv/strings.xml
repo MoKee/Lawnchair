@@ -254,7 +254,12 @@
   <string name="dynamic_ui_pref_title">Använd accentfärg från bakgrundsbilden</string>
   <string name="blur_pref_title">Använd oskärpa</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
+  <string name="general_pref_title">Allmänt</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
+  <string name="export_db_title">Databas</string>
+  <string name="import_db_title">Databas</string>
+  <string name="export_prefs_title">Inställningar</string>
+  <string name="import_prefs_title">Inställningar</string>
   <string name="default_text">Standard</string>
   <string name="edit_icon_reset">Återställ</string>
   <string name="pref_cat_homescreen">Hemskärm</string>
@@ -265,6 +270,8 @@
   <string name="theme_black">Svart</string>
   <string name="pull_down_do_nothing">Gör ingenting</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Importera</string>
+  <string name="backup_export_title">Exportera</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Väder</string>
   <string name="none">Inga</string>

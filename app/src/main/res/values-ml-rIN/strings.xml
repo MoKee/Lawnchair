@@ -236,6 +236,7 @@
   <string name="edit_icon_reset">പുനഃസജ്ജമാക്കുക</string>
   <string name="theme_dark">ഇരുണ്ട</string>
   <!-- Import/Export Strings -->
+  <string name="backup_export_title">എക്‌സ്‌പോർട്ട് ചെയ്യുക</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ഒന്നുമില്ല</string>
   <string name="icon_shape_none">ഒന്നുമില്ല</string>

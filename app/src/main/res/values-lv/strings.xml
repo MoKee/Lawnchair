@@ -236,6 +236,8 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">Atiestatīt</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Importēt</string>
+  <string name="backup_export_title">Eksportēt</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Nav</string>
   <string name="icon_shape_none">Nav</string>

@@ -269,6 +269,12 @@
   <string name="icon_scale_pref_title">Simge boyutu</string>
   <string name="icon_text_scale_pref_title">Simge yazı boyutu</string>
   <string name="full_width_width_widgets_pref_title">Araçlara tam genişlik</string>
+  <string name="general_pref_title">Genel</string>
+  <string name="backup_pref_title">Yedek</string>
+  <string name="export_db_title">Veri tabanı</string>
+  <string name="import_db_title">Veri tabanı</string>
+  <string name="export_prefs_title">Ayarlar</string>
+  <string name="import_prefs_title">Ayarlar</string>
   <string name="default_text">Varsayılan</string>
   <string name="edit_icon_reset">Sıfırla</string>
   <string name="pref_cat_homescreen">Başlangıç ekranı</string>
@@ -279,6 +285,8 @@
   <string name="theme_black">Siyah</string>
   <string name="pull_down_do_nothing">Hiçbir şey yapma</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">İçe aktar</string>
+  <string name="backup_export_title">Dışa aktar</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Hava durumu</string>
   <string name="none">Hiçbiri</string>

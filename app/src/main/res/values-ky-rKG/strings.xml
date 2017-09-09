@@ -234,6 +234,7 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">Кайтаруу</string>
   <!-- Import/Export Strings -->
+  <string name="backup_export_title">Экспорт</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Эч нерсе жок</string>
   <string name="icon_shape_none">Эч нерсе жок</string>
