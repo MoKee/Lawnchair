@@ -274,10 +274,16 @@
   <string name="notification_access_pref_title">Zobrazenie upozornení a náhľadov</string>
   <string name="notification_access_pref_summary">Pre zapnutie tejto funkcie povoľte spúšťaču Lawnchair prístup k vašim upozorneniam</string>
   <string name="general_pref_title">Všeobecné</string>
+  <string name="pixel_ui_pref_title">Pixel UI</string>
   <string name="behavior_pref_title">Nastavenia správania</string>
   <string name="debug_pref_title">Ladenie</string>
   <string name="import_export_pref_title">Import/Export</string>
+  <string name="general_pref_summary">Domovská obrazovka, dok a ponuka aplikácií</string>
+  <string name="pixel_ui_pref_summary">Povoliť exkluzívne funkcie spúšťača Pixel</string>
   <string name="backup_pref_title">Zálohovať</string>
+  <string name="behavior_pref_summary">Zmeniť správanie Lawnchair</string>
+  <string name="backup_pref_summary">Zálohovať databázu a nastavenia</string>
+  <string name="debug_pref_summary">Reštartovať nebo znovu vytvoriť ikonu databázy</string>
   <string name="show_pixel_bar_pref_title">Zobraziť zaokrúhlený horný panel (Pixel)</string>
   <string name="use_wide_searchbar_pref_title">Použiť široký vyhľadávací panel</string>
   <string name="show_mic_pref_title">Zobraziť tlačidlo Google asistenta</string>
