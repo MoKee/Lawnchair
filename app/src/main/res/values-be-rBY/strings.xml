@@ -260,6 +260,7 @@
   <string name="blur_radius_pref_title">Узровень размыцця</string>
   <string name="white_google_icon_pref_title">Выкарыстоўваць белыя значкі ў віджэце пошуку</string>
   <string name="hide_icon_labels_pref_title">Схаваць подпісы значкоў на працоўным стале</string>
+  <string name="hide_all_apps_icon_labels_pref_title">Схаваць подпісы значкоў у меню праграм</string>
   <string name="workspace_label_color_hue_pref_title">Колер подпіса значкоў</string>
   <string name="workspace_label_color_variation_pref_title">Варыяцыя колеру подпісаў</string>
   <string name="all_apps_opacity_pref_title">Празрыстасць меню праграм</string>
@@ -273,6 +274,7 @@
   <string name="notification_access_pref_title">Значкі апавяшчэнняў і папярэдні прагляд</string>
   <string name="notification_access_pref_summary">Дазволіць Lawnchair доступ да вашых апавяшчэнняў для ўключэння гэтай функцыі</string>
   <string name="general_pref_title">Агульныя</string>
+  <string name="pixel_ui_pref_title">Pixel UI</string>
   <string name="behavior_pref_title">Паводзіны</string>
   <string name="debug_pref_title">Адладка</string>
   <string name="import_export_pref_title">Імпарт / Экспарт</string>
@@ -310,13 +312,20 @@
   <string name="visibility">Бачнасць</string>
   <string name="default_text">Па змаўчанні</string>
   <string name="edit_icon_reset">Скінуць</string>
+  <string name="show_top_shadow_title">Паказваць цень зверху</string>
   <string name="pref_cat_homescreen">Хатні экран</string>
   <string name="pref_cat_miscellaneous">Іншае</string>
   <string name="pref_cat_theme">Тэма</string>
   <string name="theme_pref_title">Тэма</string>
+  <string name="theme_light">Светлая</string>
   <string name="theme_dark">Цемра</string>
   <string name="theme_black">Чорны</string>
+  <string name="all_icons">Усе значкі</string>
+  <string name="pull_down_action_pref_title">Пацягнуць уніз для дзеянняў</string>
   <string name="pull_down_do_nothing">Нічога не рабіць</string>
+  <string name="pull_down_notis">Паказаць апавяшчэння</string>
+  <string name="pull_down_search">Адчыніць пошук</string>
+  <string name="pull_down_apps_search">Пошук праграм</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Імпарт</string>
   <string name="backup_export_title">Экспарт</string>
