@@ -273,10 +273,16 @@
   <string name="notification_access_pref_title">Visualização e emblemas de notificação</string>
   <string name="notification_access_pref_summary">Permitir o Lawnchair acessar as suas notificações para mostra uma previa delas</string>
   <string name="general_pref_title">Geral</string>
+  <string name="pixel_ui_pref_title">Pixel da interface do usuário</string>
   <string name="behavior_pref_title">Comportamento</string>
   <string name="debug_pref_title">Depuração</string>
   <string name="import_export_pref_title">Importar/exportar</string>
+  <string name="general_pref_summary">Tela inicial, dock e gaveta de aplicativos</string>
+  <string name="pixel_ui_pref_summary">Habilitar funções exclusivas do Pixel Launcher</string>
   <string name="backup_pref_title">Backup</string>
+  <string name="behavior_pref_summary">Mudar o comportamento do Lawnchair</string>
+  <string name="backup_pref_summary">Fazer backup dos seus dados e configurações</string>
+  <string name="debug_pref_summary">Reiniciar ou reconstruir o banco de dados dos ícones</string>
   <string name="show_pixel_bar_pref_title">Mostrar a barra superior do Pixel</string>
   <string name="use_wide_searchbar_pref_title">Use uma barra de pesquisa circular</string>
   <string name="show_mic_pref_title">Mostrar botão de assistente de Google</string>
@@ -385,4 +391,8 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
   <string name="lock_desktop">Área de trabalho de bloqueio</string>
+  <string name="lawnfeed_not_found">Lawnfeed não instalado</string>
+  <string name="google_app_not_found">Aplicativo Google não instalado</string>
+  <string name="popup_card_theme_title">Pop-up estilo fino</string>
+  <string name="set_default_launcher">Definir como Launcher padrão</string>
 </resources>
