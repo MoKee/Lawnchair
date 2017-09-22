@@ -17,4 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
+  <string name="about_text_mk">Lawnchair je zagonska palikacija, ki jo je ustvaril Till Kottmann (iz deletescape), prirejena za MoKee ROM. Temelji na Launcher3 iz AOSP.</string>
+  <string name="about_localization_title">Lokalizacija</string>
+  <string name="about_localization_summary">Prevod Lawnchair zaganjalnika</string>
 </resources>

@@ -278,8 +278,8 @@
   <string name="behavior_pref_title">Поведение</string>
   <string name="debug_pref_title">Отладка</string>
   <string name="import_export_pref_title">Импорт/Экспорт</string>
-  <string name="general_pref_summary">Ru</string>
-  <string name="pixel_ui_pref_summary">Ru</string>
+  <string name="general_pref_summary">Главный экран, док-бар и меню приложений</string>
+  <string name="pixel_ui_pref_summary">Включить функции, эксклюзивные для Pixel Launcher</string>
   <string name="backup_pref_title">Резервная копия</string>
   <string name="behavior_pref_summary">Изменить поведение Lawnchair</string>
   <string name="backup_pref_summary">Резервное копирование базы данных и настроек</string>

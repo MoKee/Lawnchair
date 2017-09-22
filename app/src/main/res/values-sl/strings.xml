@@ -237,12 +237,23 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Zaklenjen zaslon</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="which_wallpaper_option_home_screen_and_lock_screen">Domači in zaklenjen zaslon</string>
+  <string name="title_show_google_app">Pokaži %1$s</string>
+  <string name="title_show_google_app_default">Pokaži Google aplikacije</string>
   <string name="label_search">Iskanje</string>
   <string name="label_voice_search">Glasovno iskanje</string>
+  <string name="notifications_header">Obvestila</string>
+  <string name="widgets_bottom_sheet_title">%1$s pripomočki</string>
   <!-- About Lawnchair -->
   <string name="about_title">O nas</string>
+  <string name="week_day_format">%1$s, %2$s</string>
+  <string name="icon_pack_preference_title">Paket ikon</string>
+  <string name="icon_pack_preference_summary">Izberi nabor ikon</string>
   <string name="general_pref_title">Splošno</string>
+  <string name="debug_pref_title">Razhroščevanje</string>
+  <string name="import_export_pref_title">Uvoz/izvoz</string>
   <string name="backup_pref_title">Varnostna kopija</string>
+  <string name="restart_lawnchair_pref_title">Ponovni zagon Lawnchair-a</string>
   <string name="export_db_title">Baza podatkov</string>
   <string name="import_db_title">Baza podatkov</string>
   <string name="export_prefs_title">Nastavitve</string>
