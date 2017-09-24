@@ -240,6 +240,7 @@
   <string name="label_voice_search">Wyszukiwanie głosowe</string>
   <!-- About Lawnchair -->
   <string name="about_title">O</string>
+  <string name="white_google_icon_pref_title">Użyj białej ikony Google</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="general_pref_title">Ogólne</string>
   <string name="backup_pref_title">Utwórz kopię zapasową</string>

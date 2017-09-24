@@ -17,4 +17,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
+  <string name="about_text_mk">Lawnchair는 AOSP의 Launcher3를 기반으로 Till Kottman (deletescape) 가 개발한 런처 입니다.</string>
 </resources>
