@@ -249,11 +249,25 @@
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Paket ikon</string>
   <string name="icon_pack_preference_summary">Izberi nabor ikon</string>
+  <string name="white_google_icon_pref_title">Uporabi belo Google ikono</string>
+  <string name="hide_icon_labels_pref_title">Skrij oznake ikon na domačem zaslonu</string>
+  <string name="hide_all_apps_icon_labels_pref_title">Skrij oznake ikon v predalu</string>
+  <string name="workspace_label_color_hue_pref_title">Barva oznake ikon na domačem zaslonu</string>
+  <string name="num_cols_pref_title">Število stolpcev</string>
+  <string name="num_rows_pref_title">Število vrstic</string>
+  <string name="icon_scale_pref_title">Velikost ikon</string>
+  <string name="icon_text_scale_pref_title">Velikost besedila v ikonah</string>
+  <string name="full_width_width_widgets_pref_title">Pripomočki čez ekran</string>
+  <string name="full_width_widgets_pref_summary">Omogoči pripomočku raztezanje čez celotno širino brez robov</string>
+  <string name="notification_access_pref_title">Značke za obvestila in predogled</string>
+  <string name="notification_access_pref_summary">Za uporabo te funkcije, omogočite Lawnchair-u dostop do obvestil</string>
   <string name="general_pref_title">Splošno</string>
+  <string name="behavior_pref_title">Vedenje</string>
   <string name="debug_pref_title">Razhroščevanje</string>
   <string name="import_export_pref_title">Uvoz/izvoz</string>
   <string name="backup_pref_title">Varnostna kopija</string>
   <string name="restart_lawnchair_pref_title">Ponovni zagon Lawnchair-a</string>
+  <string name="haptic_feedback_pref_title">Omogoči vibriranje</string>
   <string name="export_db_title">Baza podatkov</string>
   <string name="import_db_title">Baza podatkov</string>
   <string name="export_prefs_title">Nastavitve</string>
@@ -270,15 +284,36 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Uvozi</string>
   <string name="backup_export_title">Izvozi</string>
+  <string name="imexport_success">Uspešno!</string>
+  <string name="units_metric">Metrične</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Vreme</string>
+  <string name="pref_weather_title">Omogoči vreme</string>
+  <string name="pref_weather_units">Enote za vreme</string>
+  <string name="pref_weather_city_summary">Za najboljše rezultate dodajte kodo države</string>
+  <string name="pref_weather_city_title">Mesto</string>
   <string name="none">Brez</string>
+  <string name="pref_applyTheme">Uporabi temo na</string>
+  <string name="pref_applyBlur">Uporabi meglenje na</string>
   <string name="folder">Mapa</string>
+  <string name="blur_effect">Učinek zameglitve</string>
+  <string name="pref_weather_provider">Ponudnik vremena</string>
   <string name="loading">Nalaganje…</string>
+  <string name="icon_shape_override_label">Spremeni obliko ikone</string>
+  <string name="icon_shape_system_default">Ne spreminjaj</string>
   <string name="icon_shape_none">Brez</string>
+  <string name="icon_shape_square">Kvadrat</string>
+  <string name="icon_shape_rounded_square">Zaokrožen kvadrat</string>
+  <string name="icon_shape_squircle">Krožni-kvadrat</string>
   <string name="icon_shape_circle">Krog</string>
+  <string name="icon_shape_teardrop">Solza</string>
+  <string name="animated_clock_icon_title">Ikona animirane ure</string>
+  <string name="about_summary_title">Povzetek</string>
   <string name="about_version">Različica</string>
   <string name="about_contributors_title">Sodelavci</string>
+  <string name="location_permission_warn">Zahtevano je dovoljenje za dostop do lokacije, za priklop na drugega ponudnika!</string>
+  <string name="num_cols_drawer_pref_title">Število stolpcev v predalu</string>
+  <string name="pref_cat_drawer">Predal</string>
   <string name="about_changelog">Zadnje spremembe</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->

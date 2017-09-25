@@ -256,6 +256,7 @@
   <string name="blur_pref_title">Hidupkan kabur</string>
   <string name="blur_pref_summary">Menerapkan efek blur ke bagian interface\nTidak kompatibel dengan Live Wallpaper</string>
   <string name="blur_radius_pref_title">Area buram</string>
+  <string name="pref_iconLabelsInTwoLines">Ikon label dalam dua baris</string>
   <string name="white_google_icon_pref_title">Gunakan Google icon putih</string>
   <string name="hide_icon_labels_pref_title">Sembunyikan label ikon pada layar beranda</string>
   <string name="hide_all_apps_icon_labels_pref_title">Sembunyikan label ikon di drawer</string>
@@ -276,7 +277,12 @@
   <string name="behavior_pref_title">Perilaku</string>
   <string name="debug_pref_title">Debug</string>
   <string name="import_export_pref_title">Impor/Ekspor</string>
+  <string name="general_pref_summary">Layar utama, dock dan laci aplikasi</string>
+  <string name="pixel_ui_pref_summary">Hidupkan fitur eksklusif Pixel Launcher</string>
   <string name="backup_pref_title">Cadangkan</string>
+  <string name="behavior_pref_summary">Mengubah perilaku Lawnchair</string>
+  <string name="backup_pref_summary">Cadangkan database dan setelan</string>
+  <string name="debug_pref_summary">Mulai ulang atau membangun kembali database ikon</string>
   <string name="show_pixel_bar_pref_title">Tampilkan bar atas Pixel</string>
   <string name="use_wide_searchbar_pref_title">Gunakan searchbar lebar</string>
   <string name="show_mic_pref_title">Tampilkan tombol Google asisten</string>
