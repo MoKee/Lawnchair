@@ -31,6 +31,7 @@ interface IPreferenceProvider {
     val showHidden: Boolean
     val allAppsIconScale: Float
     val allAppsIconTextScale: Float
+    val allAppsIconPaddingScale: Float
     val useCustomAllAppsTextColor: Boolean
     val verticalDrawerLayout: Boolean
 
@@ -91,7 +92,7 @@ interface IPreferenceProvider {
     val showWeather: Boolean
     val lockDesktop: Boolean
     val animatedClockIcon: Boolean
-    val animateClockIconAlternativeClockApps: Boolean
+    val animatedClockIconAlternativeClockApps: Boolean
     val iconLabelsInTwoLines: Boolean
 
     val pulldownAction: String
@@ -126,6 +127,7 @@ interface IPreferenceProvider {
     val iconTextScaleSB: Float
     val iconPackPackage: String
     val hotseatIconScale: Float
+    val hotseatHeightScale: Float
 
     // -----------------
     // GENERAL - BITS

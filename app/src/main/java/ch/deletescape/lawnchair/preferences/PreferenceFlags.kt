@@ -25,8 +25,10 @@ object PreferenceFlags {
     const val KEY_ICON_TEXT_SCALE_SB = "pref_iconTextScaleSB"
     const val KEY_BLUR_RADIUS = "pref_blurRadius"
     const val KEY_PREF_HOTSEAT_ICON_SCALE = "pref_hotseatIconScale"
+    const val KEY_PREF_HOTSEAT_HEIGHT_SCALE = "pref_hotseatHeightScale"
     const val KEY_PREF_ALL_APPS_ICON_SCALE = "pref_allAppsIconScale"
     const val KEY_PREF_ALL_APPS_ICON_TEXT_SCALE = "pref_allAppsIconTextScale"
+    const val KEY_PREF_ALL_APPS_ICON_PADDING_SCALE = "pref_allAppsIconPaddingScale"
 
     //Ints
     const val KEY_BLUR_MODE = "pref_blurMode"
@@ -39,6 +41,7 @@ object PreferenceFlags {
     const val KEY_CENTER_WALLPAPER = "pref_centerWallpaper"
     const val KEY_POPUP_CARD_THEME = "pref_popupCardTheme"
     const val KEY_ICON_LABELS_IN_TWO_LINES = "pref_iconLabelsInTwoLines"
+    const val KEY_ANIMATED_CLOCK_ICON_ALTERNATIVE_CLOCK_APPS = "pref_animatedClockIconAlternativeClockApps"
 
     // Various
     const val KEY_PREF_WS_LABEL_COLOR = "pref_workspaceLabelColor"

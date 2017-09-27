@@ -334,7 +334,9 @@
     <string name="num_rows_pref_title">Number of rows</string>
     <string name="num_hotseat_icons_pref_title">Number of icons in dock</string>
     <string name="icon_scale_pref_title">Icon scale</string>
+    <string name="hotseat_height_scale">Height scale</string>
     <string name="icon_text_scale_pref_title">Icon text scale</string>
+    <string name="icon_text_padding_scale_pref_title">Icon padding scale</string>
     <string name="full_width_width_widgets_pref_title">Full width widgets</string>
     <string name="full_width_widgets_pref_summary">Allow widgets to span over the whole width without padding</string>
     <string name="notification_access_pref_title">Notification badges and preview</string>
@@ -440,6 +442,8 @@
     <string name="icon_shape_circle">Circle</string>
     <string name="icon_shape_teardrop">Teardrop</string>
     <string name="animated_clock_icon_title">Animated clock icon</string>
+    <string name="animated_clock_icon_alternative_clock_apps_title">Animate alternative clock apps</string>
+    <string name="animated_clock_icon_alternative_clock_apps_summary">Enable this if you don\'t use Google Clock as your default clock app</string>
     <string name="about_summary_title">Summary</string>
     <string name="about_version">Version</string>
     <string name="about_icon_designer">App Icon Designer</string>
