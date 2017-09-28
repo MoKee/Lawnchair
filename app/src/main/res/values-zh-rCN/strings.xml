@@ -267,7 +267,9 @@
   <string name="num_rows_pref_title">行数</string>
   <string name="num_hotseat_icons_pref_title">Dock 栏图标数</string>
   <string name="icon_scale_pref_title">图标大小</string>
+  <string name="hotseat_height_scale">高度范围</string>
   <string name="icon_text_scale_pref_title">图标字体大小</string>
+  <string name="icon_text_padding_scale_pref_title">图标填充范围</string>
   <string name="full_width_width_widgets_pref_title">特宽小部件</string>
   <string name="full_width_widgets_pref_summary">允许小部件填充整个桌面宽度</string>
   <string name="notification_access_pref_title">通知小圆点和预览</string>
@@ -369,6 +371,8 @@
   <string name="icon_shape_circle">环形</string>
   <string name="icon_shape_teardrop">泪珠形</string>
   <string name="animated_clock_icon_title">动态时钟图标</string>
+  <string name="animated_clock_icon_alternative_clock_apps_title">动画替代时钟应用程序</string>
+  <string name="animated_clock_icon_alternative_clock_apps_summary">如果你不使用 Google 时钟作为您的默认时钟应用程序，启用它。</string>
   <string name="about_summary_title">摘要</string>
   <string name="about_version">版本</string>
   <string name="about_icon_designer">图标设计者</string>
