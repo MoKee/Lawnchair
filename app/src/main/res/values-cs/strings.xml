@@ -251,6 +251,8 @@
   <string name="icon_pack_preference_title">Balíček ikon</string>
   <string name="icon_pack_preference_summary">Vyberte balíček ikon</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Dok používá barvy tapety</string>
+  <string name="hotseat_show_arrow">Zobrazit šipku</string>
+  <string name="hotseat_show_page_indicator">Zobrazit indikátor stránky</string>
   <string name="hotseat_uses_extracted_colors_pref_on">Dok bude zbarvený barvou extrahovanou z tapety</string>
   <string name="hotseat_uses_extracted_colors_pref_off">Dok bude zbarvený do šeda, ale jas bude nastaven podle tapety plochy</string>
   <string name="transparent_hotseat_pref_title">Průhledný dok</string>
@@ -258,6 +260,7 @@
   <string name="blur_pref_title">Povolit rozostření</string>
   <string name="blur_pref_summary">Použít efekt rozostření na části rozhraní\není kompatibilní s živými tapetami</string>
   <string name="blur_radius_pref_title">Poloměr rozostření</string>
+  <string name="pref_iconLabelsInTwoLines">Popisky ikon ve dvou řadách</string>
   <string name="white_google_icon_pref_title">Použít bílou ikonu Google</string>
   <string name="hide_icon_labels_pref_title">Skrýt popisky ikon na domovské obrazovce</string>
   <string name="hide_all_apps_icon_labels_pref_title">Skrýt popisky ikon v seznamu aplikací</string>
@@ -268,7 +271,9 @@
   <string name="num_rows_pref_title">Počet řádků</string>
   <string name="num_hotseat_icons_pref_title">Počet zástupců v doku</string>
   <string name="icon_scale_pref_title">Velikost ikon</string>
+  <string name="hotseat_height_scale">Měřítko výšky</string>
   <string name="icon_text_scale_pref_title">Velikost textu ikon</string>
+  <string name="icon_text_padding_scale_pref_title">Ikona stupnice odsazení</string>
   <string name="full_width_width_widgets_pref_title">Widgety s plnou šířkou</string>
   <string name="full_width_widgets_pref_summary">Povolte widgetům pokrývat celou šířku bez odsazení</string>
   <string name="notification_access_pref_title">Zobrazení oznámení a náhledů</string>
@@ -370,6 +375,8 @@
   <string name="icon_shape_circle">Kruh</string>
   <string name="icon_shape_teardrop">Slza</string>
   <string name="animated_clock_icon_title">Ikona animovaných hodin</string>
+  <string name="animated_clock_icon_alternative_clock_apps_title">Animace aplikace alternativních hodin</string>
+  <string name="animated_clock_icon_alternative_clock_apps_summary">Povolte, pokud nepoužíváte hodiny Google jako výchozí aplikaci pro hodiny</string>
   <string name="about_summary_title">Shrnutí</string>
   <string name="about_version">Verze</string>
   <string name="about_icon_designer">Návrhář ikon aplikací</string>

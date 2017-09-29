@@ -249,6 +249,8 @@
   <string name="icon_pack_preference_title">图标包</string>
   <string name="icon_pack_preference_summary">选择一个图标包</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Dock 栏从壁纸取色</string>
+  <string name="hotseat_show_arrow">显示箭头</string>
+  <string name="hotseat_show_page_indicator">显示页面指示器</string>
   <string name="hotseat_uses_extracted_colors_pref_on">Dock 栏将使用壁纸中的某种颜色</string>
   <string name="hotseat_uses_extracted_colors_pref_off">Dock 栏将会变成灰色，但会根据壁纸亮度作适当调整</string>
   <string name="transparent_hotseat_pref_title">Dock 栏透明化</string>
