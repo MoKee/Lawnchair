@@ -17,4 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
+  <string name="about_text_mk">Lawnchair це лаунчер, створений Тілем Котманом (ака deletescape), модифікований для MoKee. Він заснований на Launcher3 з AOSP.</string>
+  <string name="about_localization_title">Локалізація</string>
+  <string name="about_localization_summary">Перекласти Lawnchair</string>
 </resources>

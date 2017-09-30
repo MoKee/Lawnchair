@@ -251,6 +251,8 @@
   <string name="icon_pack_preference_title">Набор значков</string>
   <string name="icon_pack_preference_summary">Выберите набор значков</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Докбар использует цвет обоев</string>
+  <string name="hotseat_show_arrow">Показать стрелку</string>
+  <string name="hotseat_show_page_indicator">Показать индикатор страницы</string>
   <string name="hotseat_uses_extracted_colors_pref_on">Докбар будет окрашен в цвет, извлеченный из обоев</string>
   <string name="hotseat_uses_extracted_colors_pref_off">Цвет докбара будет серым, но яркость будет настроена яркостью обоев</string>
   <string name="transparent_hotseat_pref_title">Прозрачный докбар</string>
@@ -269,7 +271,9 @@
   <string name="num_rows_pref_title">Количество строк</string>
   <string name="num_hotseat_icons_pref_title">Количество значков в док-баре</string>
   <string name="icon_scale_pref_title">Масштаб значков</string>
+  <string name="hotseat_height_scale">Масштаб высоты</string>
   <string name="icon_text_scale_pref_title">Масштаб подписи значков</string>
+  <string name="icon_text_padding_scale_pref_title">Масштаб ореола иконки</string>
   <string name="full_width_width_widgets_pref_title">Виджеты занимают весь размер</string>
   <string name="full_width_widgets_pref_summary">Разрешить виджетам занимать место без отступов</string>
   <string name="notification_access_pref_title">Значки уведомлений и предварительный просмотр</string>
@@ -371,6 +375,8 @@
   <string name="icon_shape_circle">Круг</string>
   <string name="icon_shape_teardrop">Капля</string>
   <string name="animated_clock_icon_title">Анимированный значок часов</string>
+  <string name="animated_clock_icon_alternative_clock_apps_title">Анимировать альтернативное приложение часов</string>
+  <string name="animated_clock_icon_alternative_clock_apps_summary">Включите если Вы не используете Google Часы как приложение часов по умолчанию</string>
   <string name="about_summary_title">Итог</string>
   <string name="about_version">Добавить</string>
   <string name="about_icon_designer">Дизайнер значка приложения</string>
