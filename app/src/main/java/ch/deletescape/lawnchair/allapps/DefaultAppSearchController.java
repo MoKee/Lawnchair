@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2015 The Android Open Source Project
- * Copyright (C) 2017 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,6 +21,6 @@ package ch.deletescape.lawnchair.allapps;
 public class DefaultAppSearchController extends AllAppsSearchBarController {
 
     public DefaultAppSearchAlgorithm onInitializeSearch() {
-        return new DefaultAppSearchAlgorithm(mApps.getApps(), mApps.getAppsPinYinMap());
+        return new DefaultAppSearchAlgorithm(mApps.getApps());
     }
 }

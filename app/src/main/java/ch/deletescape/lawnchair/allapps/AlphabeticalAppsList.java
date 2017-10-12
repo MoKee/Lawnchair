@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2015 The Android Open Source Project
- * Copyright (C) 2017 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,7 +30,6 @@ import ch.deletescape.lawnchair.Launcher;
 import ch.deletescape.lawnchair.compat.AlphabeticIndexCompat;
 import ch.deletescape.lawnchair.model.AppNameComparator;
 import ch.deletescape.lawnchair.util.ComponentKey;
-import ch.deletescape.lawnchair.util.Pinyin;
 
 /**
  * The alphabetically sorted list of applications.
@@ -154,7 +152,6 @@ public class AlphabeticalAppsList {
     // The set of apps from the system
     private final List<AppInfo> mApps = new ArrayList<>();
     private final HashMap<ComponentKey, AppInfo> mComponentToAppMap = new HashMap<>();
-    private final HashMap<String, Pinyin> mAppsPinYinMap = new HashMap<>();
 
     // The set of filtered apps with the current filter
     private List<AppInfo> mFilteredApps = new ArrayList<>();
@@ -202,13 +199,6 @@ public class AlphabeticalAppsList {
      */
     public List<AppInfo> getApps() {
         return mApps;
-    }
-
-    /**
-     * Returns all the app pinyin map.
-     */
-    public HashMap<String, Pinyin> getAppsPinYinMap() {
-        return mAppsPinYinMap;
     }
 
     /**
@@ -271,7 +261,6 @@ public class AlphabeticalAppsList {
      */
     public void setApps(List<AppInfo> apps) {
         mComponentToAppMap.clear();
-        mAppsPinYinMap.clear();
         addApps(apps);
     }
 
@@ -288,7 +277,6 @@ public class AlphabeticalAppsList {
     public void updateApps(List<AppInfo> apps) {
         for (AppInfo app : apps) {
             mComponentToAppMap.put(app.toComponentKey(), app);
-            mAppsPinYinMap.put(app.componentName.getPackageName(), Pinyin.from(app.title.toString()));
         }
         onAppsUpdated();
     }
@@ -299,7 +287,6 @@ public class AlphabeticalAppsList {
     public void removeApps(List<AppInfo> apps) {
         for (AppInfo app : apps) {
             mComponentToAppMap.remove(app.toComponentKey());
-            mAppsPinYinMap.remove(app.componentName.getPackageName());
         }
         onAppsUpdated();
     }
