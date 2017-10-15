@@ -251,8 +251,7 @@
   <string name="blur_radius_pref_title">Slør radius</string>
   <string name="white_google_icon_pref_title">Brug hvidt Google ikon</string>
   <string name="workspace_label_color_hue_pref_title">Color of icon labels on homescreen</string>
-  <string name="workspace_label_color_variation_pref_title">Farvevariation af ikonetiketter på startskærmen</string>
-  <string name="all_apps_opacity_pref_title">Skuffe gennemsigtighed</string>
+    <string name="all_apps_opacity_pref_title">Skuffe gennemsigtighed</string>
   <string name="icon_scale_pref_title">Ikon størrelse</string>
   <string name="icon_text_scale_pref_title">Ikon tekst størrelse</string>
   <string name="full_width_widgets_pref_summary">Tillad widgets at spænde over hele bredden uden polstring</string>
@@ -260,8 +259,7 @@
   <string name="notification_access_pref_summary">Tillad Lawnchair adgang til dine notifikationer for at aktivere denne egenskab</string>
   <string name="behavior_pref_title">Adfærd</string>
   <string name="debug_pref_title">Fejlfindnig</string>
-  <string name="import_export_pref_title">Importér/eksportér</string>
-  <string name="pixel_style_icons_pref_summary">Når aktiverede cirkulære ikoner anvendes, hvor det er muligt</string>
+    <string name="pixel_style_icons_pref_summary">Når aktiverede cirkulære ikoner anvendes, hvor det er muligt</string>
   <string name="restart_lawnchair_pref_summary">Kan være nyttigt, hvis nogle indstillinger ikke anvendes korrekt</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
   <!-- Customization Color -->

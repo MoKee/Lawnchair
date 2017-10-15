@@ -261,8 +261,7 @@
   <string name="white_google_icon_pref_title">Использовать белый значок Google</string>
   <string name="hide_icon_labels_pref_title">Скрыть подписи значков на главном экране</string>
   <string name="workspace_label_color_hue_pref_title">Цвет подписи значков</string>
-  <string name="workspace_label_color_variation_pref_title">Вариация цвета подписей</string>
-  <string name="all_apps_opacity_pref_title">Прозрачность меню приложений</string>
+    <string name="all_apps_opacity_pref_title">Прозрачность меню приложений</string>
   <string name="num_cols_pref_title">Количество столбцов</string>
   <string name="num_rows_pref_title">Количество строк</string>
   <string name="num_hotseat_icons_pref_title">Количество значков в док-баре</string>
@@ -272,12 +271,9 @@
   <string name="full_width_widgets_pref_summary">Разрешить виджетам занимать место без отступов</string>
   <string name="notification_access_pref_title">Значки уведомлений и предварительный просмотр</string>
   <string name="notification_access_pref_summary">Разрешить Lawnchair доступ к вашим уведомлениям для включения этой функции</string>
-  <string name="ui_pref_title">Интерфейс</string>
-  <string name="pixel_style_pref_title">Стиль Pixel</string>
-  <string name="behavior_pref_title">Поведение</string>
+    <string name="behavior_pref_title">Поведение</string>
   <string name="debug_pref_title">Отладка</string>
-  <string name="import_export_pref_title">Импорт/Экспорт</string>
-  <string name="show_pixel_bar_pref_title">Показать строку поиска Pixel</string>
+    <string name="show_pixel_bar_pref_title">Показать строку поиска Pixel</string>
   <string name="use_wide_searchbar_pref_title">Строка поиска как в Android O</string>
   <string name="show_mic_pref_title">Показать кнопку Google Ассистента</string>
   <string name="use_round_searhbar">Использовать круглую строку поиска</string>
@@ -309,48 +305,27 @@
   <string name="test_title">Тест</string>
   <string name="visibility">Видимость</string>
   <!-- Customization Color -->
-  <string name="white">Белый</string>
-  <!-- Customization Color -->
-  <string name="black">Черный</string>
-  <!-- Customization Color -->
-  <string name="red">Красный</string>
-  <!-- Customization Color -->
-  <string name="pink">Розовый</string>
-  <!-- Customization Color -->
-  <string name="purple">Фиолетовый</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Багровый</string>
-  <!-- Customization Color -->
-  <string name="indigo">Индиго</string>
-  <!-- Customization Color -->
-  <string name="blue">Синий</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Голубой</string>
-  <!-- Customization Color -->
-  <string name="cyan">Бирюзовый</string>
-  <!-- Customization Color -->
-  <string name="teal">Зеленовато-голубой</string>
-  <!-- Customization Color -->
-  <string name="green">Зеленый</string>
-  <!-- Customization Color -->
-  <string name="light_green">Светло-зеленый</string>
-  <!-- Customization Color -->
-  <string name="lime">Лаймовый</string>
-  <!-- Customization Color -->
-  <string name="yellow">Желтый</string>
-  <!-- Customization Color -->
-  <string name="amber">Янтарный</string>
-  <!-- Customization Color -->
-  <string name="orange">Оранжевый</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Темно-оранжевый</string>
-  <!-- Customization Color -->
-  <string name="brown">Коричневый</string>
-  <!-- Customization Color -->
-  <string name="grey">Серый</string>
-  <!-- Customization Color -->
-  <string name="blue_grey">Серо-голубой</string>
-  <string name="default_text">По умолчанию</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <string name="default_text">По умолчанию</string>
   <string name="edit_icon_reset">Сбросить</string>
   <string name="show_top_shadow_title">Показать тень сверху</string>
   <string name="pref_cat_homescreen">Главный экран</string>
@@ -391,8 +366,7 @@
   <string name="dock_allapps"><![CDATA[Док-бар и все приложения]]></string>
   <string name="app_shortcuts">Ярлыки приложений</string>
   <string name="blur_effect">Эффект размытия</string>
-  <string name="enable_editing_pref_title">Включить редактирование рабочего пространства</string>
-  <string name="pref_weather_provider">Поставщик погоды</string>
+    <string name="pref_weather_provider">Поставщик погоды</string>
   <string name="loading">Загрузка...</string>
   <string name="icon_shape_override_label">Изменить форму значка</string>
   <string name="icon_shape_system_default">Не изменять</string>

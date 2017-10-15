@@ -255,8 +255,7 @@
   <string name="blur_radius_pref_title">Raggio sfocatura</string>
   <string name="white_google_icon_pref_title">Utilizza l\'icona bianca per Google</string>
   <string name="workspace_label_color_hue_pref_title">Colore delle etichette delle icone nella schermata home</string>
-  <string name="workspace_label_color_variation_pref_title">Variazione di colore per le etichette nella schermata home</string>
-  <string name="all_apps_opacity_pref_title">Opacità menù delle applicazioni</string>
+    <string name="all_apps_opacity_pref_title">Opacità menù delle applicazioni</string>
   <string name="num_cols_pref_title">Numero di colonne</string>
   <string name="num_rows_pref_title">Numero di righe</string>
   <string name="num_hotseat_icons_pref_title">Numero di icone nella dock</string>
@@ -266,11 +265,8 @@
   <string name="full_width_widgets_pref_summary">Consente ai widget di estendersi lunga tutta la larghezza dello schermo</string>
   <string name="notification_access_pref_title">Badge di notifica e anteprima</string>
   <string name="notification_access_pref_summary">Permetti l\'accesso alle notifiche a Lawnchair per abilitare queste funzioni</string>
-  <string name="ui_pref_title">Interfaccia</string>
-  <string name="pixel_style_pref_title">Stile Pixel</string>
-  <string name="behavior_pref_title">Gesti e funzionalità</string>
-  <string name="import_export_pref_title">Importa/Esporta</string>
-  <string name="show_pixel_bar_pref_title">Mostra la barra Pixel in alto</string>
+    <string name="behavior_pref_title">Gesti e funzionalità</string>
+    <string name="show_pixel_bar_pref_title">Mostra la barra Pixel in alto</string>
   <string name="use_wide_searchbar_pref_title">Usa la barra di ricerca estesa</string>
   <string name="show_mic_pref_title">Mostra il pulsante di Google Assistant</string>
   <string name="use_round_searhbar">Utilizza la barra di ricerca delle app arrotondata</string>
@@ -298,47 +294,27 @@
   <string name="color_extraction_label">Lawnchair - Estrazione del colore</string>
   <string name="visibility">Visibilità</string>
   <!-- Customization Color -->
-  <string name="white">Bianco</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
   <!-- Customization Color -->
-  <string name="black">Nero</string>
-  <!-- Customization Color -->
-  <string name="red">Rosso</string>
-  <!-- Customization Color -->
-  <string name="pink">Rosa</string>
-  <!-- Customization Color -->
-  <string name="purple">Viola</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Viola scuro</string>
-  <!-- Customization Color -->
-  <string name="indigo">Indaco</string>
-  <!-- Customization Color -->
-  <string name="blue">Blu</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Azzurro</string>
-  <!-- Customization Color -->
-  <string name="cyan">Ciano</string>
-  <!-- Customization Color -->
-  <string name="teal">Verde acqua</string>
-  <!-- Customization Color -->
-  <string name="green">Verde</string>
-  <!-- Customization Color -->
-  <string name="light_green">Verde chiaro</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Giallo</string>
-  <!-- Customization Color -->
-  <string name="amber">Ambra</string>
-  <!-- Customization Color -->
-  <string name="orange">Arancione</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Arancione scuro</string>
-  <!-- Customization Color -->
-  <string name="brown">Marrone</string>
-  <!-- Customization Color -->
-  <string name="grey">Grigio</string>
-  <!-- Customization Color -->
-  <string name="blue_grey">Blu grigio</string>
-  <string name="default_text">Predefinito</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <string name="default_text">Predefinito</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
 </resources>

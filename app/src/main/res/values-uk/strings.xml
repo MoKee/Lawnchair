@@ -265,8 +265,7 @@
   <string name="hide_icon_labels_pref_title">Не відображати підписи ярликів на домашньому екрані</string>
   <string name="hide_all_apps_icon_labels_pref_title">Не відображати підписи ярликів в меню програм</string>
   <string name="workspace_label_color_hue_pref_title">Колір підписів ярликів на домашньому екрані</string>
-  <string name="workspace_label_color_variation_pref_title">Кольорова варіація підписів ярликів на домашньому екрані</string>
-  <string name="all_apps_opacity_pref_title">Прозорість меню додатків</string>
+    <string name="all_apps_opacity_pref_title">Прозорість меню додатків</string>
   <string name="num_cols_pref_title">Кількість стовпчиків</string>
   <string name="num_rows_pref_title">Кількість рядків</string>
   <string name="num_hotseat_icons_pref_title">Кількість іконок в нижній панелі</string>
@@ -282,8 +281,7 @@
   <string name="pixel_ui_pref_title">Піксель UI</string>
   <string name="behavior_pref_title">Поведінка</string>
   <string name="debug_pref_title">Налагодження</string>
-  <string name="import_export_pref_title">Імпорт/Експорт</string>
-  <string name="general_pref_summary">Домашній екран, нижня панель та список додатків</string>
+    <string name="general_pref_summary">Домашній екран, нижня панель та список додатків</string>
   <string name="pixel_ui_pref_summary">Увімкнути ексклюзивні функції піксель лаунчера</string>
   <string name="backup_pref_title">Резервна копія</string>
   <string name="behavior_pref_summary">Змінити поведінку Lawnchair</string>
@@ -363,8 +361,7 @@
   <string name="dock_allapps"><![CDATA[Док-панель та меню додатків]]></string>
   <string name="app_shortcuts">Ярлики додатків</string>
   <string name="blur_effect">Ефект розмиття</string>
-  <string name="enable_editing_pref_title">Дозволити редагування головного екрану</string>
-  <string name="pref_weather_provider">Постачальник погоди</string>
+    <string name="pref_weather_provider">Постачальник погоди</string>
   <string name="loading">Завантаження...</string>
   <string name="icon_shape_override_label">Змінити форму іконок</string>
   <string name="icon_shape_system_default">Не змінювати</string>
@@ -390,8 +387,7 @@
   <string name="pref_weather_api_key_title">API ключ</string>
   <string name="about_changelog">Історія змін</string>
   <string name="pref_all_apps_custom_label_color">Використовувати свій колір підписів</string>
-  <string name="pref_all_apps_label_color_variation">Кольорова варіація підписів ярликів у списку додатків</string>
-  <string name="pref_all_apps_label_color">Колір підписів іконок у меню додатків</string>
+    <string name="pref_all_apps_label_color">Колір підписів іконок у меню додатків</string>
   <string name="pref_num_rows_drawer">Кількість рядків у меню додатків</string>
   <string name="center_wallpaper_pref_title">Центрувати шпалери, коли є лише одна сторінка</string>
   <string name="vertical_drawer_layout_pref_title">Відображення у вигляді вертикального списку</string>

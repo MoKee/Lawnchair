@@ -260,8 +260,7 @@
   <string name="white_google_icon_pref_title">Beyaz Google simgesi kullanın</string>
   <string name="hide_icon_labels_pref_title">Ana ekrandaki simge etiketlerini gizle</string>
   <string name="workspace_label_color_hue_pref_title">Ana ekranda simge etiketlerinin rengi</string>
-  <string name="workspace_label_color_variation_pref_title">Ana ekranda simge etiketlerinin renk çeşitliliği</string>
-  <string name="all_apps_opacity_pref_title">Uygulama çekmecesi şeffaflığı</string>
+    <string name="all_apps_opacity_pref_title">Uygulama çekmecesi şeffaflığı</string>
   <string name="num_cols_pref_title">Sütun sayısı</string>
   <string name="num_rows_pref_title">Satır sayısı</string>
   <string name="num_hotseat_icons_pref_title">Alt paneldeki simge sayısı</string>
@@ -271,12 +270,9 @@
   <string name="full_width_widgets_pref_summary">Widget\'ların dolgu olmadan tüm genişliğe yayılmasına izin ver</string>
   <string name="notification_access_pref_title">Bildirim rozetleri ve önizleme</string>
   <string name="notification_access_pref_summary">Bu özellikleri etkinleştirmek için Lawnchair\'ın bildiriminize erişmesine izin verin</string>
-  <string name="ui_pref_title">Arayüz</string>
-  <string name="pixel_style_pref_title">Pixel tarzı</string>
-  <string name="behavior_pref_title">Davranış</string>
+    <string name="behavior_pref_title">Davranış</string>
   <string name="debug_pref_title">Hata ayıklama</string>
-  <string name="import_export_pref_title">İçe/Dışa aktar</string>
-  <string name="show_pixel_bar_pref_title">Pixel üst barını göster</string>
+    <string name="show_pixel_bar_pref_title">Pixel üst barını göster</string>
   <string name="use_wide_searchbar_pref_title">Geniş arama çubuğunu kullan</string>
   <string name="show_mic_pref_title">Google Asistan Simgesini Göster</string>
   <string name="use_round_searhbar">Yuvarlak uygulama arama çubuğunu kullan</string>
@@ -308,48 +304,27 @@
   <string name="test_title">Test</string>
   <string name="visibility">Görünürlük</string>
   <!-- Customization Color -->
-  <string name="white">Beyaz</string>
-  <!-- Customization Color -->
-  <string name="black">Siyah</string>
-  <!-- Customization Color -->
-  <string name="red">Kırmızı</string>
-  <!-- Customization Color -->
-  <string name="pink">Pembe</string>
-  <!-- Customization Color -->
-  <string name="purple">Mor</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Koyu Mor</string>
-  <!-- Customization Color -->
-  <string name="indigo">İndigo</string>
-  <!-- Customization Color -->
-  <string name="blue">Mavi</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Açık Mavi</string>
-  <!-- Customization Color -->
-  <string name="cyan">Camgöbeği</string>
-  <!-- Customization Color -->
-  <string name="teal">Turkuaz</string>
-  <!-- Customization Color -->
-  <string name="green">Yeşil</string>
-  <!-- Customization Color -->
-  <string name="light_green">Açık Yeşil</string>
-  <!-- Customization Color -->
-  <string name="lime">Limon Yeşili</string>
-  <!-- Customization Color -->
-  <string name="yellow">Sarı</string>
-  <!-- Customization Color -->
-  <string name="amber">Koyu Sarı</string>
-  <!-- Customization Color -->
-  <string name="orange">Turuncu</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Koyu Turuncu</string>
-  <!-- Customization Color -->
-  <string name="brown">Kahverengi</string>
-  <!-- Customization Color -->
-  <string name="grey">Gri</string>
-  <!-- Customization Color -->
-  <string name="blue_grey">Mavi Gri</string>
-  <string name="default_text">Varsayılan</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <string name="default_text">Varsayılan</string>
   <string name="edit_icon_reset">Sıfırla</string>
   <string name="show_top_shadow_title">Üst gölgeyi göster</string>
   <string name="pref_cat_homescreen">Ana ekran</string>
@@ -390,7 +365,6 @@
   <string name="dock_allapps"><![CDATA[Alt panel ve tüm uygulamalar]]></string>
   <string name="app_shortcuts">Uygulama kısayolları</string>
   <string name="blur_effect">Bulanıklık efekti</string>
-  <string name="enable_editing_pref_title">Düzenleme çalışma alanını etkinleştir</string>
-  <string name="pref_weather_provider">Hava durumu sağlayıcı</string>
+    <string name="pref_weather_provider">Hava durumu sağlayıcı</string>
   <string name="loading">Yükleniyor...</string>
 </resources>

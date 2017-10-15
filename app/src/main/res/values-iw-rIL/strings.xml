@@ -258,8 +258,7 @@
   <string name="hide_icon_labels_pref_title">הסתר תוויות על מסך הבית</string>
   <string name="hide_all_apps_icon_labels_pref_title">הסתר תוויות במגירת היישומים</string>
   <string name="workspace_label_color_hue_pref_title">צבע תוויות סמלים על מסך הבית</string>
-  <string name="workspace_label_color_variation_pref_title">צבע וריאציה של תוויות סמלים על מסך הבית</string>
-  <string name="all_apps_opacity_pref_title">שקיפות מגירת היישומים</string>
+    <string name="all_apps_opacity_pref_title">שקיפות מגירת היישומים</string>
   <string name="num_cols_pref_title">מספר עמודות</string>
   <string name="num_rows_pref_title">מספר שורות</string>
   <string name="num_hotseat_icons_pref_title">מספר האייקונים בשורת העגינה</string>
@@ -273,8 +272,7 @@
   <string name="pixel_ui_pref_title">ממשק Pixel</string>
   <string name="behavior_pref_title">התנהגות</string>
   <string name="debug_pref_title">תיקון שגיאות</string>
-  <string name="import_export_pref_title">ייבוא/ייצוא</string>
-  <string name="general_pref_summary">מסך בית, Dock, ומגירת יישומים</string>
+    <string name="general_pref_summary">מסך בית, Dock, ומגירת יישומים</string>
   <string name="pixel_ui_pref_summary">אפשר תכונות ייחודיות של מפעיל Pixel</string>
   <string name="backup_pref_title">גיבוי</string>
   <string name="behavior_pref_summary">שנה את ההתנהגות של Lawnchair</string>
@@ -354,8 +352,7 @@
   <string name="dock_allapps"><![CDATA[Dock & מגירת אפליקציות]]></string>
   <string name="app_shortcuts">קיצורי דרך באפליקציה</string>
   <string name="blur_effect">אפקט טשטוש</string>
-  <string name="enable_editing_pref_title">אפשר עריכת מסך בית</string>
-  <string name="pref_weather_provider">ספק מזג אוויר</string>
+    <string name="pref_weather_provider">ספק מזג אוויר</string>
   <string name="loading">טוען…</string>
   <string name="icon_shape_override_label">שנה צורת אייקון</string>
   <string name="icon_shape_system_default">ללא שינוי</string>
@@ -379,15 +376,13 @@
   <string name="pref_weather_api_key_title">מפתח API</string>
   <string name="about_changelog">יומן שינויים</string>
   <string name="pref_all_apps_custom_label_color">השתמש בצבע תווית מותאים אישית</string>
-  <string name="pref_all_apps_label_color_variation">גוון צבע תוויות הסמלים במגירת היישומים</string>
-  <string name="pref_all_apps_label_color">צבע תוויות הסמלים במגירת היישומים</string>
+    <string name="pref_all_apps_label_color">צבע תוויות הסמלים במגירת היישומים</string>
   <string name="pref_num_rows_drawer">מספר השורות במגירת היישומים</string>
   <string name="center_wallpaper_pref_title">מרכז את הטפט כאשר ישנו רק מסך אחד</string>
   <string name="vertical_drawer_layout_pref_title">הצג כרשימה אנכית</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="about_translators">מתרגמים</string>
-  <string name="lock_desktop">נעל את מסך הבית</string>
+    <string name="lock_desktop">נעל את מסך הבית</string>
   <string name="lawnfeed_not_found">Lawnfeed אינו מותקן</string>
   <string name="google_app_not_found">היישום של Google אינו מותקן</string>
   <string name="set_default_launcher">הגדר כברירת מחדל</string>

@@ -260,8 +260,7 @@
   <string name="white_google_icon_pref_title">Fehér Google ikon használata</string>
   <string name="hide_icon_labels_pref_title">A kezdőképernyő ikonok címkéinek elrejtése</string>
   <string name="workspace_label_color_hue_pref_title">A kezdőképernyő ikonok címkéinek színe</string>
-  <string name="workspace_label_color_variation_pref_title">A kezdőképernyő ikonok címkéinek színvariációja</string>
-  <string name="all_apps_opacity_pref_title">Alkalmazásfiók áttetszősége</string>
+    <string name="all_apps_opacity_pref_title">Alkalmazásfiók áttetszősége</string>
   <string name="num_cols_pref_title">Oszlopok száma</string>
   <string name="num_rows_pref_title">Sorok száma</string>
   <string name="num_hotseat_icons_pref_title">Dokk ikonok száma</string>
@@ -271,12 +270,9 @@
   <string name="full_width_widgets_pref_summary">Engedélyezi, hogy a modulok átíveljenek a teljes szélességben keret nélkül</string>
   <string name="notification_access_pref_title">Értesítés bogyók és előnézetek</string>
   <string name="notification_access_pref_summary">Engedélyezze a Lawnchairnek, hogy hozzáférjen az értesítésekhez a funkció használatához</string>
-  <string name="ui_pref_title">Felhasználói felület</string>
-  <string name="pixel_style_pref_title">Pixel stílus</string>
-  <string name="behavior_pref_title">Viselkedés</string>
+    <string name="behavior_pref_title">Viselkedés</string>
   <string name="debug_pref_title">Hibakeresés</string>
-  <string name="import_export_pref_title">Mentés/visszaállítás</string>
-  <string name="show_pixel_bar_pref_title">Pixel felső sáv</string>
+    <string name="show_pixel_bar_pref_title">Pixel felső sáv</string>
   <string name="use_wide_searchbar_pref_title">Széles keresősáv</string>
   <string name="show_mic_pref_title">Google Segéd gomb</string>
   <string name="use_round_searhbar">Kerek alkalmazáskereső sáv</string>
@@ -308,48 +304,27 @@
   <string name="test_title">Teszt</string>
   <string name="visibility">Láthatóság</string>
   <!-- Customization Color -->
-  <string name="white">Fehér</string>
-  <!-- Customization Color -->
-  <string name="black">Fekete</string>
-  <!-- Customization Color -->
-  <string name="red">Piros</string>
-  <!-- Customization Color -->
-  <string name="pink">Rózsaszín</string>
-  <!-- Customization Color -->
-  <string name="purple">Lila</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Mélylila</string>
-  <!-- Customization Color -->
-  <string name="indigo">Indigó</string>
-  <!-- Customization Color -->
-  <string name="blue">Kék</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Világoskék</string>
-  <!-- Customization Color -->
-  <string name="cyan">Zöldeskék</string>
-  <!-- Customization Color -->
-  <string name="teal">Pávakék</string>
-  <!-- Customization Color -->
-  <string name="green">Zöld</string>
-  <!-- Customization Color -->
-  <string name="light_green">Világoszöld</string>
-  <!-- Customization Color -->
-  <string name="lime">Lime</string>
-  <!-- Customization Color -->
-  <string name="yellow">Sárga</string>
-  <!-- Customization Color -->
-  <string name="amber">Borostyán</string>
-  <!-- Customization Color -->
-  <string name="orange">Narancs</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Mélynarancs</string>
-  <!-- Customization Color -->
-  <string name="brown">Barna</string>
-  <!-- Customization Color -->
-  <string name="grey">Szürke</string>
-  <!-- Customization Color -->
-  <string name="blue_grey">Szürkéskék</string>
-  <string name="default_text">Alapértelmezett</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <string name="default_text">Alapértelmezett</string>
   <string name="edit_icon_reset">Alaphelyzetbe állítás</string>
   <string name="show_top_shadow_title">Felső árnyék megjelenítése</string>
   <string name="pref_cat_homescreen">Kezdőképernyő</string>
@@ -390,8 +365,7 @@
   <string name="dock_allapps"><![CDATA[Dokk és alkalmazásfiók]]></string>
   <string name="app_shortcuts">Alkalmazás parancsikonok</string>
   <string name="blur_effect">Homályosítás effekt</string>
-  <string name="enable_editing_pref_title">Szerkesztési munkamenet engedélyezése</string>
-  <string name="pref_weather_provider">Időjárás szolgáltató</string>
+    <string name="pref_weather_provider">Időjárás szolgáltató</string>
   <string name="loading">Betöltés...</string>
   <string name="icon_shape_override_label">Ikon alakjának cseréje</string>
   <string name="icon_shape_system_default">Ne cserélje</string>

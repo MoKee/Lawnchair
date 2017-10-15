@@ -261,8 +261,7 @@
   <string name="white_google_icon_pref_title">Użyj białej ikony Google</string>
   <string name="hide_icon_labels_pref_title">Ukryj etykiety ikon na ekranie głównym</string>
   <string name="workspace_label_color_hue_pref_title">Kolor etykiet na pulpicie</string>
-  <string name="workspace_label_color_variation_pref_title">Odcień koloru etykiet na pulpicie</string>
-  <string name="all_apps_opacity_pref_title">Przezroczystość szuflady</string>
+    <string name="all_apps_opacity_pref_title">Przezroczystość szuflady</string>
   <string name="num_cols_pref_title">Liczba kolumn</string>
   <string name="num_rows_pref_title">Liczba wierszy</string>
   <string name="num_hotseat_icons_pref_title">Liczba ikon w docku</string>
@@ -272,12 +271,9 @@
   <string name="full_width_widgets_pref_summary">Zezwól widgetom na rozciągnięcie się na całej szerokości ekranu bez odstępów</string>
   <string name="notification_access_pref_title">Odznaki powiadomień i podgląd</string>
   <string name="notification_access_pref_summary">Zezwól Lawnchair na dostęp do twoich powiadomień żeby włączyć te funkcje</string>
-  <string name="ui_pref_title">Interfejs</string>
-  <string name="pixel_style_pref_title">Styl Pixel</string>
-  <string name="behavior_pref_title">Zachowanie</string>
+    <string name="behavior_pref_title">Zachowanie</string>
   <string name="debug_pref_title">Opcje debugujące</string>
-  <string name="import_export_pref_title">Importuj/Eksportuj</string>
-  <string name="show_pixel_bar_pref_title">Pokaż górny pasek Pixel</string>
+    <string name="show_pixel_bar_pref_title">Pokaż górny pasek Pixel</string>
   <string name="use_wide_searchbar_pref_title">Użyj szerokiego paska wyszukiwania</string>
   <string name="show_mic_pref_title">Pokaż przycisk Asystenta Google</string>
   <string name="use_round_searhbar">Użyj zaokrąglonego paska wyszukiwania aplikacji</string>
@@ -309,48 +305,27 @@
   <string name="test_title">Test</string>
   <string name="visibility">Widoczność</string>
   <!-- Customization Color -->
-  <string name="white">Biały</string>
-  <!-- Customization Color -->
-  <string name="black">Czarny</string>
-  <!-- Customization Color -->
-  <string name="red">Czerwony</string>
-  <!-- Customization Color -->
-  <string name="pink">Różowy</string>
-  <!-- Customization Color -->
-  <string name="purple">Fioletowy</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Ciemnofioletowy</string>
-  <!-- Customization Color -->
-  <string name="indigo">Indygo</string>
-  <!-- Customization Color -->
-  <string name="blue">Niebieski</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Jasnoniebieski</string>
-  <!-- Customization Color -->
-  <string name="cyan">Cyjan</string>
-  <!-- Customization Color -->
-  <string name="teal">Morski</string>
-  <!-- Customization Color -->
-  <string name="green">Zielony</string>
-  <!-- Customization Color -->
-  <string name="light_green">Jasnozielony</string>
-  <!-- Customization Color -->
-  <string name="lime">Limonkowy</string>
-  <!-- Customization Color -->
-  <string name="yellow">Żółty</string>
-  <!-- Customization Color -->
-  <string name="amber">Bursztynowy</string>
-  <!-- Customization Color -->
-  <string name="orange">Pomarańczowy</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Ciemnopomarańczowy</string>
-  <!-- Customization Color -->
-  <string name="brown">Brązowy</string>
-  <!-- Customization Color -->
-  <string name="grey">Szary</string>
-  <!-- Customization Color -->
-  <string name="blue_grey">Niebieskoszary</string>
-  <string name="default_text">Domyślny</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <string name="default_text">Domyślny</string>
   <string name="edit_icon_reset">Resetuj</string>
   <string name="show_top_shadow_title">Pokaż górny cień</string>
   <string name="pref_cat_homescreen">Ekran główny</string>
@@ -391,8 +366,7 @@
   <string name="dock_allapps"><![CDATA[Dock i wszystkie aplikacje]]></string>
   <string name="app_shortcuts">Skróty aplikacji</string>
   <string name="blur_effect">Efekt rozmycia</string>
-  <string name="enable_editing_pref_title">Włącz obszar roboczy edycji</string>
-  <string name="pref_weather_provider">Dostawca pogody</string>
+    <string name="pref_weather_provider">Dostawca pogody</string>
   <string name="loading">Ładowanie...</string>
   <string name="icon_shape_override_label">Zmień kształt ikony</string>
   <string name="icon_shape_system_default">Nie zmieniaj</string>

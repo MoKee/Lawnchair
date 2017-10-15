@@ -257,8 +257,7 @@
   <string name="full_width_width_widgets_pref_title">Широкоформатні віджети</string>
   <string name="behavior_pref_title">Поведінка</string>
   <string name="debug_pref_title">Відладка</string>
-  <string name="import_export_pref_title">Імпорт/Експорт</string>
-  <string name="show_mic_pref_title">Відображати кнопку Google Асистента</string>
+    <string name="show_mic_pref_title">Відображати кнопку Google Асистента</string>
   <string name="pixel_style_icons_pref_title">Використовивати значки Pixel</string>
   <string name="show_google_now_tab_pref_title">Показувати сторінку Google Now</string>
   <string name="restart_lawnchair_pref_title">Перезапустіть Lawnchair</string>
@@ -307,8 +306,7 @@
   <string name="dock_allapps"><![CDATA[Док-панель та меню додатків]]></string>
   <string name="app_shortcuts">Ярлики додатків</string>
   <string name="blur_effect">Ефект розмиття</string>
-  <string name="enable_editing_pref_title">Дозволити редагування головного екрану</string>
-  <string name="pref_weather_provider">Постачальник погоди</string>
+    <string name="pref_weather_provider">Постачальник погоди</string>
   <string name="icon_shape_override_label">Змінити форму значка</string>
   <string name="icon_shape_system_default">Не змінюйте</string>
   <string name="icon_shape_square">Квадратний</string>

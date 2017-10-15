@@ -257,8 +257,7 @@
   <string name="blur_radius_pref_title">Radius för suddighet</string>
   <string name="white_google_icon_pref_title">Använd vit Google ikon</string>
   <string name="workspace_label_color_hue_pref_title">Ikonetiketters färg på hemskärmen</string>
-  <string name="workspace_label_color_variation_pref_title">Färgvariation av ikonetiketter på hemskärmen</string>
-  <string name="all_apps_opacity_pref_title">Opacitet på applåda</string>
+    <string name="all_apps_opacity_pref_title">Opacitet på applåda</string>
   <string name="num_cols_pref_title">Antal kolumner</string>
   <string name="num_rows_pref_title">Antal rader</string>
   <string name="num_hotseat_icons_pref_title">Antalet ikoner i dockan</string>
@@ -268,12 +267,9 @@
   <string name="full_width_widgets_pref_summary">Tillåt widgetar att sträcka sig över hela bredden utan spaltfyllnad</string>
   <string name="notification_access_pref_title">Notifikationsmärken och förhandsgranskning</string>
   <string name="notification_access_pref_summary">Tillåt Lawnchair att komma åt dina notifikationer för att aktivera denna funktion</string>
-  <string name="ui_pref_title">Användargränssnitt</string>
-  <string name="pixel_style_pref_title">Pixel stil</string>
-  <string name="behavior_pref_title">Beteende</string>
+    <string name="behavior_pref_title">Beteende</string>
   <string name="debug_pref_title">Felsök</string>
-  <string name="import_export_pref_title">Importera/Exportera</string>
-  <string name="show_pixel_bar_pref_title">Visa övre Pixelrad</string>
+    <string name="show_pixel_bar_pref_title">Visa övre Pixelrad</string>
   <string name="use_wide_searchbar_pref_title">Använd brett sökfält</string>
   <string name="show_mic_pref_title">Visa Google Assistent knappen</string>
   <string name="use_round_searhbar">Använd runt sökfält för appar</string>
@@ -301,44 +297,27 @@
   <string name="color_extraction_label">Lawnchair - Färgutvinning</string>
   <string name="visibility">Synlighet</string>
   <!-- Customization Color -->
-  <string name="white">Vit</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
   <!-- Customization Color -->
-  <string name="black">Svart</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
   <!-- Customization Color -->
-  <string name="red">Röd</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
   <!-- Customization Color -->
-  <string name="pink">Rosa</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
   <!-- Customization Color -->
-  <string name="purple">Lila</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Mörklila</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="blue">Blå</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Ljusblå</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="teal">Blågrön</string>
-  <!-- Customization Color -->
-  <string name="green">Grön</string>
-  <!-- Customization Color -->
-  <string name="light_green">Ljusgrön</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="yellow">Gul</string>
-  <!-- Customization Color -->
-  <string name="amber">Bärnsten</string>
-  <!-- Customization Color -->
-  <!-- Customization Color -->
-  <string name="deep_orange">Mörkorange</string>
-  <!-- Customization Color -->
-  <string name="brown">Brun</string>
-  <!-- Customization Color -->
-  <string name="grey">Grå</string>
-  <!-- Customization Color -->
-  <string name="blue_grey">Blågrå</string>
-  <string name="default_text">Standard</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <string name="default_text">Standard</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
 </resources>

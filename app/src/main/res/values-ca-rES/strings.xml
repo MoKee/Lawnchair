@@ -245,7 +245,6 @@ Pots suprimir-la o cercar l\'aplicació i instal·lar-la manualment.    </string
   <string name="notifications_header">Notificacions</string>
   <string name="widgets_bottom_sheet_title">%1$s ginys</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair és un app launcher creada per fins a Kottmann (àlies deletescape). Es basa en Launcher3 de AOSP.</string>
   <string name="about_title">Quant a</string>
   <string name="changelog_title">Registre de canvis per al muntatge #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
@@ -263,7 +262,6 @@ Pots suprimir-la o cercar l\'aplicació i instal·lar-la manualment.    </string
   <string name="hide_icon_labels_pref_title">Amaga les etiquetes de les icones de la pantalla d\'inici</string>
   <string name="hide_all_apps_icon_labels_pref_title">Amaga les etiquetes de les icones al calaix</string>
   <string name="workspace_label_color_hue_pref_title">Color de les etiquetes de les icones a la pantalla d\'inici</string>
-  <string name="workspace_label_color_variation_pref_title">Color de les etiquetes de les icones a la pantalla d\'inici</string>
   <string name="all_apps_opacity_pref_title">Opacitat del calaix</string>
   <string name="num_cols_pref_title">Nombre de columnes</string>
   <string name="num_rows_pref_title">Nombre de files</string>
@@ -278,7 +276,6 @@ Pots suprimir-la o cercar l\'aplicació i instal·lar-la manualment.    </string
   <string name="pixel_ui_pref_title">Pixel UI</string>
   <string name="behavior_pref_title">Comportament</string>
   <string name="debug_pref_title">Depuració</string>
-  <string name="import_export_pref_title">Importació/Exportació</string>
   <string name="general_pref_summary">Pantalla d\'inici, dock i llistat d\'aplicacions</string>
   <string name="pixel_ui_pref_summary">Habilita característiques exclusives de Pixel Launcher</string>
   <string name="backup_pref_title">Còpia de seguretat</string>
@@ -359,7 +356,6 @@ Pots suprimir-la o cercar l\'aplicació i instal·lar-la manualment.    </string
   <string name="dock_allapps"><![CDATA[Barra d'aplicacions i calaix]]></string>
   <string name="app_shortcuts">Draceres d\'aplicació</string>
   <string name="blur_effect">Efecte difuminat</string>
-  <string name="enable_editing_pref_title">Habilita l\'edició de la pàgina d\'inici</string>
   <string name="pref_weather_provider">Proveïdor del temps</string>
   <string name="loading">S\'està carregant…</string>
   <string name="icon_shape_override_label">Canvia la forma de les icones</string>
@@ -384,7 +380,6 @@ Pots suprimir-la o cercar l\'aplicació i instal·lar-la manualment.    </string
   <string name="pref_weather_api_key_title">Clau d\'API</string>
   <string name="about_changelog">Registre de canvis</string>
   <string name="pref_all_apps_custom_label_color">Utilitza els colors personalitzats</string>
-  <string name="pref_all_apps_label_color_variation">Color de les etiquetes de les icones al llistat d\'aplicacions</string>
   <string name="pref_all_apps_label_color">Color de les etiquetes de les aplicacions al llistat</string>
   <string name="pref_num_rows_drawer">Nombre de files del llistat d\'aplicacions</string>
   <string name="center_wallpaper_pref_title">Centra el fons de pantalla quan només hi ha una pàgina</string>
@@ -392,7 +387,6 @@ Pots suprimir-la o cercar l\'aplicació i instal·lar-la manualment.    </string
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
-  <string name="about_translators">Traductors</string>
   <string name="lock_desktop">Bloqueja l\'escriptori</string>
   <string name="lawnfeed_not_found">No s\'han instal·lat els paquets</string>
   <string name="google_app_not_found">Aplicació de google no instal·lada</string>

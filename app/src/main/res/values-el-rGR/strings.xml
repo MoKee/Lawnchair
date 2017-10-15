@@ -260,8 +260,7 @@
   <string name="white_google_icon_pref_title">Χρήση λευκού εικονιδίου Google</string>
   <string name="hide_icon_labels_pref_title">Απόκρυψη ετικετών εικονιδίων στην αρχική οθόνη</string>
   <string name="workspace_label_color_hue_pref_title">Χρώμα ετικετών εικονιδίων στην αρχική οθόνη</string>
-  <string name="workspace_label_color_variation_pref_title">Παραλλαγή χρώματος των ετικετών εικονιδίων στην αρχική οθόνη</string>
-  <string name="all_apps_opacity_pref_title">Αδιαφάνεια συρταριού εφαρμογών</string>
+    <string name="all_apps_opacity_pref_title">Αδιαφάνεια συρταριού εφαρμογών</string>
   <string name="num_cols_pref_title">Αριθμός στηλών</string>
   <string name="num_rows_pref_title">Αριθμός γραμμών</string>
   <string name="num_hotseat_icons_pref_title">Αριθμός εικονιδίων στην μπάρα εφαρμογών</string>
@@ -271,12 +270,9 @@
   <string name="full_width_widgets_pref_summary">Να επιτραπεί στα γραφικά στοιχεία να εκτείνονται σε ολόκληρο το πλάτος χωρίς κενά περιθώρια</string>
   <string name="notification_access_pref_title">Εικονίδια ειδοποιήσεων και προεπισκόπηση</string>
   <string name="notification_access_pref_summary">Επιτρέψτε στο Lawnchair να αποκτήσει πρόσβαση στης ειδοποιήσεις σας για να ενεργοποιηθεί αυτό το χαρακτηριστικό</string>
-  <string name="ui_pref_title">Περιβάλλον Χρήσης</string>
-  <string name="pixel_style_pref_title">Χαρακτηριστικά Pixel</string>
-  <string name="behavior_pref_title">Συμπεριφορά</string>
+    <string name="behavior_pref_title">Συμπεριφορά</string>
   <string name="debug_pref_title">Αντιμετώπιση σφαλμάτων</string>
-  <string name="import_export_pref_title">Αντίγραφα ασφαλείας ρυθμίσεων</string>
-  <string name="show_pixel_bar_pref_title">Εμφάνιση επάνω μπάρας γραφικών Pixel</string>
+    <string name="show_pixel_bar_pref_title">Εμφάνιση επάνω μπάρας γραφικών Pixel</string>
   <string name="use_wide_searchbar_pref_title">Χρήση πλατιάς μπάρας αναζήτησης</string>
   <string name="show_mic_pref_title">Εμφάνιση του κουμπιού Βοηθός Google</string>
   <string name="use_round_searhbar">Χρήση στρογγυλής μπάρας αναζήτησης στο συρτάρι εφαρμογών</string>
@@ -308,48 +304,27 @@
   <string name="test_title">Δοκιμή</string>
   <string name="visibility">Ορατότητα</string>
   <!-- Customization Color -->
-  <string name="white">Λευκό</string>
-  <!-- Customization Color -->
-  <string name="black">Μαύρο</string>
-  <!-- Customization Color -->
-  <string name="red">Κόκκινο</string>
-  <!-- Customization Color -->
-  <string name="pink">Ροζ</string>
-  <!-- Customization Color -->
-  <string name="purple">Μωβ</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Βαθύ μωβ</string>
-  <!-- Customization Color -->
-  <string name="indigo">Λουλακί</string>
-  <!-- Customization Color -->
-  <string name="blue">Μπλέ</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Ανοιχτό Μπλέ</string>
-  <!-- Customization Color -->
-  <string name="cyan">Κυανό</string>
-  <!-- Customization Color -->
-  <string name="teal">Πρασινομπλέ</string>
-  <!-- Customization Color -->
-  <string name="green">Πράσινο</string>
-  <!-- Customization Color -->
-  <string name="light_green">Ανοιχτό Πράσινο</string>
-  <!-- Customization Color -->
-  <string name="lime">Κιτρινοπράσινο</string>
-  <!-- Customization Color -->
-  <string name="yellow">Κίτρινο</string>
-  <!-- Customization Color -->
-  <string name="amber">Κεχριμπάρι</string>
-  <!-- Customization Color -->
-  <string name="orange">Πορτοκαλί</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Σκούρο πορτοκαλί</string>
-  <!-- Customization Color -->
-  <string name="brown">Καφέ</string>
-  <!-- Customization Color -->
-  <string name="grey">Γκρι</string>
-  <!-- Customization Color -->
-  <string name="blue_grey">Μπλε Γκρι</string>
-  <string name="default_text">Προεπιλογή</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <string name="default_text">Προεπιλογή</string>
   <string name="edit_icon_reset">Επαναφορά</string>
   <string name="show_top_shadow_title">Εμφάνιση σκιάς στην κορυφή της αρχικής οθόνης</string>
   <string name="pref_cat_homescreen">Αρχική οθόνη</string>
@@ -390,7 +365,6 @@
   <string name="dock_allapps"><![CDATA[Μπάρα εφαρμογών & συρτάρι εφαρμογών]]></string>
   <string name="app_shortcuts">Συντομεύσεις εφαρμογών</string>
   <string name="blur_effect">Εφέ θολώματος</string>
-  <string name="enable_editing_pref_title">Ενεργοποίηση επεξεργασίας εικονιδίων</string>
-  <string name="pref_weather_provider">Πάροχος καιρού</string>
+    <string name="pref_weather_provider">Πάροχος καιρού</string>
   <string name="loading">Φόρτωση…</string>
 </resources>

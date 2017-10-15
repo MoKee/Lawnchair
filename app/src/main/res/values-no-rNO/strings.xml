@@ -260,8 +260,7 @@
   <string name="white_google_icon_pref_title">Bruk hvitt Google-ikon</string>
   <string name="hide_icon_labels_pref_title">Gjem ikon-etiketter på hjemskjerm</string>
   <string name="workspace_label_color_hue_pref_title">Farge på ikon-etiketter på hjemskjerm</string>
-  <string name="workspace_label_color_variation_pref_title">Fargevariasjon av ikon-etiketter på hjemskjerm</string>
-  <string name="all_apps_opacity_pref_title">Skuff-gjennomsiktighet</string>
+    <string name="all_apps_opacity_pref_title">Skuff-gjennomsiktighet</string>
   <string name="num_cols_pref_title">Antall kolonner</string>
   <string name="num_rows_pref_title">Antall rader</string>
   <string name="num_hotseat_icons_pref_title">Antall ikoner i dock</string>
@@ -271,12 +270,9 @@
   <string name="full_width_widgets_pref_summary">Tillat moduler å spenne hele bredden uten padding</string>
   <string name="notification_access_pref_title">Varsling-merker og forhåndsvisning</string>
   <string name="notification_access_pref_summary">Gi Lawnchair tilgang til varslingene dine for å aktivere denne funksjonen</string>
-  <string name="ui_pref_title">Brukergrensesnitt</string>
-  <string name="pixel_style_pref_title">Pixel-stil</string>
-  <string name="behavior_pref_title">Oppførsel</string>
+    <string name="behavior_pref_title">Oppførsel</string>
   <string name="debug_pref_title">Feilsøk</string>
-  <string name="import_export_pref_title">Importér/eksportér</string>
-  <string name="show_pixel_bar_pref_title">Vis Pixel-topplinje</string>
+    <string name="show_pixel_bar_pref_title">Vis Pixel-topplinje</string>
   <string name="use_wide_searchbar_pref_title">Bruk bred søkelinje</string>
   <string name="show_mic_pref_title">Vis Google Assistant-knapp</string>
   <string name="use_round_searhbar">Bruk rund søkelinje</string>
@@ -308,48 +304,27 @@
   <string name="test_title">Test</string>
   <string name="visibility">Synlighet</string>
   <!-- Customization Color -->
-  <string name="white">Hvit</string>
-  <!-- Customization Color -->
-  <string name="black">Svart</string>
-  <!-- Customization Color -->
-  <string name="red">Rød</string>
-  <!-- Customization Color -->
-  <string name="pink">Rosa</string>
-  <!-- Customization Color -->
-  <string name="purple">Lilla</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Mørkelilla</string>
-  <!-- Customization Color -->
-  <string name="indigo">Indigo</string>
-  <!-- Customization Color -->
-  <string name="blue">Blå</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Lyseblå</string>
-  <!-- Customization Color -->
-  <string name="cyan">Turkis</string>
-  <!-- Customization Color -->
-  <string name="teal">Blågrønn</string>
-  <!-- Customization Color -->
-  <string name="green">Grønn</string>
-  <!-- Customization Color -->
-  <string name="light_green">Lysegrønn</string>
-  <!-- Customization Color -->
-  <string name="lime">Lime</string>
-  <!-- Customization Color -->
-  <string name="yellow">Gul</string>
-  <!-- Customization Color -->
-  <string name="amber">Ravfarge</string>
-  <!-- Customization Color -->
-  <string name="orange">Oransje</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Mørkeoransje</string>
-  <!-- Customization Color -->
-  <string name="brown">Brun</string>
-  <!-- Customization Color -->
-  <string name="grey">Grå</string>
-  <!-- Customization Color -->
-  <string name="blue_grey">Blågrå</string>
-  <string name="default_text">Standard</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <string name="default_text">Standard</string>
   <string name="edit_icon_reset">Tilbakestill</string>
   <string name="show_top_shadow_title">Vis topp-skygge</string>
   <string name="pref_cat_homescreen">Hjemskjerm</string>
@@ -390,8 +365,7 @@
   <string name="dock_allapps"><![CDATA[Dock & alle apper]]></string>
   <string name="app_shortcuts">App-snarveier</string>
   <string name="blur_effect">Uskarphetseffekt</string>
-  <string name="enable_editing_pref_title">Aktiver redigering av arbeidsområde</string>
-  <string name="pref_weather_provider">Værleverandør</string>
+    <string name="pref_weather_provider">Værleverandør</string>
   <string name="loading">Laster inn ...</string>
   <string name="icon_shape_override_label">Endre ikon-form</string>
   <string name="icon_shape_system_default">Ikke endre</string>

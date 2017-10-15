@@ -260,8 +260,7 @@
   <string name="white_google_icon_pref_title">Gebruik wit Google icoon</string>
   <string name="hide_icon_labels_pref_title">Verberg icoon labels op startscherm</string>
   <string name="workspace_label_color_hue_pref_title">Kleur van de icoon labels op startscherm</string>
-  <string name="workspace_label_color_variation_pref_title">Kleurvariatie van de icoon labels op startscherm</string>
-  <string name="all_apps_opacity_pref_title">Ondoorzichtigheid applicatiescherm</string>
+    <string name="all_apps_opacity_pref_title">Ondoorzichtigheid applicatiescherm</string>
   <string name="num_cols_pref_title">Aantal kolommen</string>
   <string name="num_rows_pref_title">Aantal rijen</string>
   <string name="num_hotseat_icons_pref_title">Aantal iconen in favorietenbalk</string>
@@ -271,12 +270,9 @@
   <string name="full_width_widgets_pref_summary">Sta widgets toe de volledige breedte te omvatten</string>
   <string name="notification_access_pref_title">Notificatie icoon en voorvertoning</string>
   <string name="notification_access_pref_summary">Geef Lawnchair toestemming tot uw notificaties om deze functie in te schakelen</string>
-  <string name="ui_pref_title">Gebruikersinterface</string>
-  <string name="pixel_style_pref_title">Pixel stijl</string>
-  <string name="behavior_pref_title">Gedrag</string>
+    <string name="behavior_pref_title">Gedrag</string>
   <string name="debug_pref_title">Debuggen</string>
-  <string name="import_export_pref_title">Importeren/exporteren</string>
-  <string name="show_pixel_bar_pref_title">Bovenste Pixel balk tonen</string>
+    <string name="show_pixel_bar_pref_title">Bovenste Pixel balk tonen</string>
   <string name="use_wide_searchbar_pref_title">Gebruik brede zoekbalk</string>
   <string name="show_mic_pref_title">Google Assistant-knop weergeven</string>
   <string name="use_round_searhbar">Gebruik ronde app zoekbalk</string>
@@ -308,48 +304,27 @@
   <string name="test_title">Test</string>
   <string name="visibility">Zichtbaarheid</string>
   <!-- Customization Color -->
-  <string name="white">Wit</string>
-  <!-- Customization Color -->
-  <string name="black">Zwart</string>
-  <!-- Customization Color -->
-  <string name="red">Rood</string>
-  <!-- Customization Color -->
-  <string name="pink">Roze</string>
-  <!-- Customization Color -->
-  <string name="purple">Paars</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">Donkerpaars</string>
-  <!-- Customization Color -->
-  <string name="indigo">Indigo</string>
-  <!-- Customization Color -->
-  <string name="blue">Blauw</string>
-  <!-- Customization Color -->
-  <string name="light_blue">Lichtblauw</string>
-  <!-- Customization Color -->
-  <string name="cyan">Cyaan</string>
-  <!-- Customization Color -->
-  <string name="teal">Groenblauw</string>
-  <!-- Customization Color -->
-  <string name="green">Groen</string>
-  <!-- Customization Color -->
-  <string name="light_green">Lichtgroen</string>
-  <!-- Customization Color -->
-  <string name="lime">Lichtgroen</string>
-  <!-- Customization Color -->
-  <string name="yellow">Geel</string>
-  <!-- Customization Color -->
-  <string name="amber">Amber</string>
-  <!-- Customization Color -->
-  <string name="orange">Oranje</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">Donkeroranje</string>
-  <!-- Customization Color -->
-  <string name="brown">Bruin</string>
-  <!-- Customization Color -->
-  <string name="grey">Grijs</string>
-  <!-- Customization Color -->
-  <string name="blue_grey">Blauwgrijs</string>
-  <string name="default_text">Standaard</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <string name="default_text">Standaard</string>
   <string name="edit_icon_reset">Reset</string>
   <string name="show_top_shadow_title">Schaduw weergeven</string>
   <string name="pref_cat_homescreen">Startscherm</string>
@@ -390,7 +365,6 @@
   <string name="dock_allapps"><![CDATA[Dock & alle apps]]></string>
   <string name="app_shortcuts">App snelkoppelingen</string>
   <string name="blur_effect">Blur effect</string>
-  <string name="enable_editing_pref_title">Aanpassen van werkomgeving activeren</string>
-  <string name="pref_weather_provider">Weer aanbieder</string>
+    <string name="pref_weather_provider">Weer aanbieder</string>
   <string name="loading">Laden...</string>
 </resources>

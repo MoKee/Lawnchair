@@ -263,8 +263,7 @@
   <string name="hide_icon_labels_pref_title">在主屏幕上隐藏图标标签</string>
   <string name="hide_all_apps_icon_labels_pref_title">在抽屉里隐藏图标标签</string>
   <string name="workspace_label_color_hue_pref_title">主屏幕图标标签颜色</string>
-  <string name="workspace_label_color_variation_pref_title">主屏幕图标标签颜色变化</string>
-  <string name="all_apps_opacity_pref_title">抽屉透明度</string>
+    <string name="all_apps_opacity_pref_title">抽屉透明度</string>
   <string name="num_cols_pref_title">列数</string>
   <string name="num_rows_pref_title">行数</string>
   <string name="num_hotseat_icons_pref_title">Dock 栏图标数</string>
@@ -280,8 +279,7 @@
   <string name="pixel_ui_pref_title">Pixel UI</string>
   <string name="behavior_pref_title">行为</string>
   <string name="debug_pref_title">调试</string>
-  <string name="import_export_pref_title">导入/导出</string>
-  <string name="general_pref_summary">主屏幕，dock 栏和应用抽屉</string>
+    <string name="general_pref_summary">主屏幕，dock 栏和应用抽屉</string>
   <string name="pixel_ui_pref_summary">启用 Pixel Launcher 独家功能</string>
   <string name="backup_pref_title">备份</string>
   <string name="behavior_pref_summary">更改 Lawnchair 行为</string>
@@ -361,8 +359,7 @@
   <string name="dock_allapps"><![CDATA[Dock 栏与抽屉]]></string>
   <string name="app_shortcuts">应用快捷方式</string>
   <string name="blur_effect">模糊效果</string>
-  <string name="enable_editing_pref_title">启用编辑工作区</string>
-  <string name="pref_weather_provider">天气提供商</string>
+    <string name="pref_weather_provider">天气提供商</string>
   <string name="loading">正在加载</string>
   <string name="icon_shape_override_label">更换图标样式</string>
   <string name="icon_shape_system_default">不更换</string>
@@ -388,8 +385,7 @@
   <string name="pref_weather_api_key_title">API 密钥</string>
   <string name="about_changelog">更新日志</string>
   <string name="pref_all_apps_custom_label_color">自定义标签颜色</string>
-  <string name="pref_all_apps_label_color_variation">抽屉图标标签颜色变化</string>
-  <string name="pref_all_apps_label_color">抽屉图标标签颜色</string>
+    <string name="pref_all_apps_label_color">抽屉图标标签颜色</string>
   <string name="pref_num_rows_drawer">网格行数</string>
   <string name="center_wallpaper_pref_title">当桌面只有一页时，居中壁纸</string>
   <string name="vertical_drawer_layout_pref_title">垂直列表布局</string>

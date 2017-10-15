@@ -263,8 +263,7 @@
   <string name="hide_icon_labels_pref_title">Sembunyikan label ikon pada layar beranda</string>
   <string name="hide_all_apps_icon_labels_pref_title">Sembunyikan label ikon di drawer</string>
   <string name="workspace_label_color_hue_pref_title">Warna label ikon pada layar beranda</string>
-  <string name="workspace_label_color_variation_pref_title">Variasi warna label ikon pada layar beranda</string>
-  <string name="all_apps_opacity_pref_title">Kegelapan Drawer</string>
+    <string name="all_apps_opacity_pref_title">Kegelapan Drawer</string>
   <string name="num_cols_pref_title">Jumlah kolom</string>
   <string name="num_rows_pref_title">Jumlah baris</string>
   <string name="num_hotseat_icons_pref_title">Jumlah ikon di dok</string>
@@ -280,8 +279,7 @@
   <string name="pixel_ui_pref_title">Pixel UI</string>
   <string name="behavior_pref_title">Perilaku</string>
   <string name="debug_pref_title">Debug</string>
-  <string name="import_export_pref_title">Impor/Ekspor</string>
-  <string name="general_pref_summary">Layar utama, dock dan laci aplikasi</string>
+    <string name="general_pref_summary">Layar utama, dock dan laci aplikasi</string>
   <string name="pixel_ui_pref_summary">Hidupkan fitur eksklusif Pixel Launcher</string>
   <string name="backup_pref_title">Cadangkan</string>
   <string name="behavior_pref_summary">Mengubah perilaku Lawnchair</string>
@@ -361,8 +359,7 @@
   <string name="dock_allapps"><![CDATA[Dock & laci]]></string>
   <string name="app_shortcuts">Pintasan aplikasi</string>
   <string name="blur_effect">Efek blur</string>
-  <string name="enable_editing_pref_title">Hidupkan penyesuaian homescreen</string>
-  <string name="pref_weather_provider">Penyedia cuaca</string>
+    <string name="pref_weather_provider">Penyedia cuaca</string>
   <string name="loading">Memuat…</string>
   <string name="icon_shape_override_label">Ubah bentuk ikon</string>
   <string name="icon_shape_system_default">Jangan diubah</string>
@@ -388,8 +385,7 @@
   <string name="pref_weather_api_key_title">API key</string>
   <string name="about_changelog">Perubahan</string>
   <string name="pref_all_apps_custom_label_color">Gunakan warna label kustom</string>
-  <string name="pref_all_apps_label_color_variation">Variasi warna dari label ikon di laci app</string>
-  <string name="pref_all_apps_label_color">Warna dari ikon label di laci</string>
+    <string name="pref_all_apps_label_color">Warna dari ikon label di laci</string>
   <string name="pref_num_rows_drawer">Jumlah baris dalam laci</string>
   <string name="center_wallpaper_pref_title">Pusatkan wallpaper ketika ada hanya satu halaman</string>
   <string name="vertical_drawer_layout_pref_title">Tampilkan sebagai daftar vertikal</string>

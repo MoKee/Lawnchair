@@ -264,8 +264,7 @@
   <string name="hide_icon_labels_pref_title">Ocultar rótulos dos ícones na tela inicial</string>
   <string name="hide_all_apps_icon_labels_pref_title">Ocultar as legendas dos ícones na gaveta</string>
   <string name="workspace_label_color_hue_pref_title">Cor dos rótulos dos ícones na tela inicial</string>
-  <string name="workspace_label_color_variation_pref_title">Variação de cor dos rótulos dos ícones na tela inicial</string>
-  <string name="all_apps_opacity_pref_title">Opacidade de gaveta</string>
+    <string name="all_apps_opacity_pref_title">Opacidade de gaveta</string>
   <string name="num_cols_pref_title">Número de colunas</string>
   <string name="num_rows_pref_title">Número de linhas</string>
   <string name="num_hotseat_icons_pref_title">Número de ícones no dock</string>
@@ -281,8 +280,7 @@
   <string name="pixel_ui_pref_title">Pixel da interface do usuário</string>
   <string name="behavior_pref_title">Comportamento</string>
   <string name="debug_pref_title">Depuração</string>
-  <string name="import_export_pref_title">Importar/exportar</string>
-  <string name="general_pref_summary">Tela inicial, dock e gaveta de aplicativos</string>
+    <string name="general_pref_summary">Tela inicial, dock e gaveta de aplicativos</string>
   <string name="pixel_ui_pref_summary">Habilitar funções exclusivas do Pixel Launcher</string>
   <string name="backup_pref_title">Backup</string>
   <string name="behavior_pref_summary">Mudar o comportamento do Lawnchair</string>
@@ -362,8 +360,7 @@
   <string name="dock_allapps"><![CDATA[Doca & gaveta]]></string>
   <string name="app_shortcuts">Atalhos do App</string>
   <string name="blur_effect">Efeito de desfoque</string>
-  <string name="enable_editing_pref_title">Habilitar edição de espaço de trabalho</string>
-  <string name="pref_weather_provider">Provedor de previsão do tempo</string>
+    <string name="pref_weather_provider">Provedor de previsão do tempo</string>
   <string name="loading">Carregando…</string>
   <string name="icon_shape_override_label">Alterar o formato dos Icones</string>
   <string name="icon_shape_system_default">Não mudar</string>
@@ -389,8 +386,7 @@
   <string name="pref_weather_api_key_title">Chave de API</string>
   <string name="about_changelog">Registro de alterações</string>
   <string name="pref_all_apps_custom_label_color">Usar cor personalizada</string>
-  <string name="pref_all_apps_label_color_variation">Variação de cor do texto dos ícones na gaveta de apps</string>
-  <string name="pref_all_apps_label_color">Cor dos rótulos de ícones na gaveta</string>
+    <string name="pref_all_apps_label_color">Cor dos rótulos de ícones na gaveta</string>
   <string name="pref_num_rows_drawer">Número de colunas na gaveta</string>
   <string name="center_wallpaper_pref_title">Centralizar papel de parede quando houver apenas uma página</string>
   <string name="vertical_drawer_layout_pref_title">Exibir como lista vertical</string>

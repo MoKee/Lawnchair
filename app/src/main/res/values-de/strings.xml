@@ -261,8 +261,7 @@
   <string name="hide_icon_labels_pref_title">Icon Beschriftungen auf dem Startbildschirm verstecken</string>
   <string name="hide_all_apps_icon_labels_pref_title">Symbolbeschriftungen in der App-Übersicht ausblenden</string>
   <string name="workspace_label_color_hue_pref_title">Farbe der Icon Beschriftungen auf dem Startbildschirm</string>
-  <string name="workspace_label_color_variation_pref_title">Farbvariation der Icon Beschriftungen auf dem Startbildschirm</string>
-  <string name="all_apps_opacity_pref_title">Transparenz der App-Liste</string>
+    <string name="all_apps_opacity_pref_title">Transparenz der App-Liste</string>
   <string name="num_cols_pref_title">Anzahl der Spalten</string>
   <string name="num_rows_pref_title">Anzahl der Zeilen</string>
   <string name="num_hotseat_icons_pref_title">Anzahl der Icons in der Favoritenablage</string>
@@ -276,8 +275,7 @@
   <string name="pixel_ui_pref_title">Pixel-Benutzeroberfläche</string>
   <string name="behavior_pref_title">Verhalten</string>
   <string name="debug_pref_title">Entwickleroptionen</string>
-  <string name="import_export_pref_title">Import/Export</string>
-  <string name="general_pref_summary">Startbildschirm, Dock, und App-Übersicht</string>
+    <string name="general_pref_summary">Startbildschirm, Dock, und App-Übersicht</string>
   <string name="pixel_ui_pref_summary">Aktiviere die exklusiven Funktionen des Pixel Launcher\'s</string>
   <string name="backup_pref_title">Sicherung</string>
   <string name="behavior_pref_summary">Ändere das Verhalten von Lawnchair</string>
@@ -357,8 +355,7 @@
   <string name="dock_allapps"><![CDATA[Dock & alle Apps]]></string>
   <string name="app_shortcuts">App-Verknüpfungen</string>
   <string name="blur_effect">Unschärfe-Effekt</string>
-  <string name="enable_editing_pref_title">Bearbeitungsbereich aktivieren</string>
-  <string name="pref_weather_provider">Wetter-Anbieter</string>
+    <string name="pref_weather_provider">Wetter-Anbieter</string>
   <string name="loading">Wird geladen...</string>
   <string name="icon_shape_override_label">Symbol-Form ändern</string>
   <string name="icon_shape_system_default">Nicht ändern</string>
@@ -382,8 +379,7 @@
   <string name="pref_weather_api_key_title">API-Schlüssel</string>
   <string name="about_changelog">Changelog</string>
   <string name="pref_all_apps_custom_label_color">Verwende benutzerdefinierte Schriftfarbe</string>
-  <string name="pref_all_apps_label_color_variation">Farbvariation der Symbolbeschriftung in der App-Übersicht</string>
-  <string name="pref_all_apps_label_color">Farbe der Symbolbeschriftung in der Übersicht</string>
+    <string name="pref_all_apps_label_color">Farbe der Symbolbeschriftung in der Übersicht</string>
   <string name="pref_num_rows_drawer">Anzahl der Reihen in der Übersicht</string>
   <string name="center_wallpaper_pref_title">Hintergrund zentrieren, wenn nur eine Seite vorhanden ist</string>
   <string name="vertical_drawer_layout_pref_title">Als vertikale Liste darstellen</string>

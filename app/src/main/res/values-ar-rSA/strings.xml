@@ -263,8 +263,7 @@
   <string name="blur_radius_pref_title">نسبة التمويه</string>
   <string name="white_google_icon_pref_title">استخدم رمز جوجل باللون الأبيض</string>
   <string name="workspace_label_color_hue_pref_title">لون تسميات الرموز على الشاشة الرئيسية</string>
-  <string name="workspace_label_color_variation_pref_title">تباين الألوان لتسميات الرموز على الشاشة الرئيسية</string>
-  <string name="all_apps_opacity_pref_title">شفافية قائمة التطبيقات</string>
+    <string name="all_apps_opacity_pref_title">شفافية قائمة التطبيقات</string>
   <string name="num_cols_pref_title">عدد الأعمدة</string>
   <string name="num_rows_pref_title">عدد الصفوف</string>
   <string name="num_hotseat_icons_pref_title">عدد الرموز في منصة التطبيقات</string>
@@ -274,12 +273,9 @@
   <string name="full_width_widgets_pref_summary">السماح للأدوات بالتمدد على كامل عرض الشاشة من غير حشو</string>
   <string name="notification_access_pref_title">علامات الإشعارات و معاينتها</string>
   <string name="notification_access_pref_summary">السماح ل Lawnchair بالوصول إلى الإشعارات الخاصة بك لتفعيل هذه الميزات</string>
-  <string name="ui_pref_title">واجهة المستخدم</string>
-  <string name="pixel_style_pref_title">نمط بكسل</string>
-  <string name="behavior_pref_title">الشكل العام</string>
+    <string name="behavior_pref_title">الشكل العام</string>
   <string name="debug_pref_title">تنقيح</string>
-  <string name="import_export_pref_title">إستيراد/تصدير</string>
-  <string name="show_pixel_bar_pref_title">اظهار الشريط العلوي لبكسل</string>
+    <string name="show_pixel_bar_pref_title">اظهار الشريط العلوي لبكسل</string>
   <string name="use_wide_searchbar_pref_title">استخدام شريط بحث عريض</string>
   <string name="show_mic_pref_title">أظهار زر مساعد غوغل</string>
   <string name="use_round_searhbar">استخدم شريط بحث دائري الجوانب</string>
@@ -308,48 +304,27 @@
   <string name="test_title">اختبار</string>
   <string name="visibility">وضوح الرؤية</string>
   <!-- Customization Color -->
-  <string name="white">أبيض</string>
-  <!-- Customization Color -->
-  <string name="black">أسود</string>
-  <!-- Customization Color -->
-  <string name="red">أحمر</string>
-  <!-- Customization Color -->
-  <string name="pink">وردي</string>
-  <!-- Customization Color -->
-  <string name="purple">بنفسجي</string>
-  <!-- Customization Color -->
-  <string name="deep_purple">بنفسجي داكن</string>
-  <!-- Customization Color -->
-  <string name="indigo">نيلي</string>
-  <!-- Customization Color -->
-  <string name="blue">أزرق</string>
-  <!-- Customization Color -->
-  <string name="light_blue">أزرق فاتح</string>
-  <!-- Customization Color -->
-  <string name="cyan">أزرق سماوي</string>
-  <!-- Customization Color -->
-  <string name="teal">أزرق مخضر</string>
-  <!-- Customization Color -->
-  <string name="green">أخضر</string>
-  <!-- Customization Color -->
-  <string name="light_green">أخضر فاتح</string>
-  <!-- Customization Color -->
-  <string name="lime">ليموني</string>
-  <!-- Customization Color -->
-  <string name="yellow">أصفر</string>
-  <!-- Customization Color -->
-  <string name="amber">كهرمان</string>
-  <!-- Customization Color -->
-  <string name="orange">برتقالي</string>
-  <!-- Customization Color -->
-  <string name="deep_orange">برتقالي داكن</string>
-  <!-- Customization Color -->
-  <string name="brown">بني</string>
-  <!-- Customization Color -->
-  <string name="grey">رمادي</string>
-  <!-- Customization Color -->
-  <string name="blue_grey">أزرق رمادي</string>
-  <string name="default_text">الافتراضي</string>
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <!-- Customization Color -->
+    <string name="default_text">الافتراضي</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
 </resources>
