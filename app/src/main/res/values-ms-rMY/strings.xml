@@ -196,6 +196,7 @@
   <string name="action_deep_shortcut">Pintasan</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
   <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> pintasan untuk <xliff:g id="APP_NAME">%2$s</xliff:g></string>
+  <string name="edit_drop_target_label">Ubah</string>
   <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
   <string name="wallpaper_instructions">Tetapkan kertas dinding</string>
   <!-- Error message when an image is selected as a wallpaper,
@@ -222,10 +223,15 @@
   <string name="pick_wallpaper">Kertas dinding</string>
   <!-- Title of activity for cropping wallpapers -->
   <!-- Option for setting the wallpaper only on the home screen. -->
+  <string name="which_wallpaper_option_home_screen">Skrin utama</string>
   <!-- Option for setting the wallpaper only on the lock screen. -->
+  <string name="which_wallpaper_option_lock_screen">Kekunci Skrin</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
+  <string name="export_prefs_title">Tetapan</string>
+  <string name="import_prefs_title">Tetapan</string>
   <string name="edit_icon_reset">Tetapkan semula</string>
+  <string name="pref_cat_homescreen">Skrin utama</string>
   <!-- Import/Export Strings -->
   <string name="backup_export_title">Eksport</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
