@@ -3,6 +3,9 @@
 ![Lawnchair](banner.png)
 
 Lawnchair is a free, open source launcher aiming at bringing Pixel Launcher features to other devices. 
+Download now!
+
+<a href="https://play.google.com/store/apps/details?id=ch.deletescape.lawnchair.plah"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="60" alt="Play Store" /></a>
 
 ## Now what does this cost?
 
