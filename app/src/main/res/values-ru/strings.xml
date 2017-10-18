@@ -265,7 +265,7 @@
   <string name="hide_icon_labels_pref_title">Скрыть подписи иконок на рабочем столе</string>
   <string name="hide_all_apps_icon_labels_pref_title">Скрыть подписи значков в меню приложений</string>
   <string name="workspace_label_color_hue_pref_title">Цвет подписи иконок</string>
-    <string name="all_apps_opacity_pref_title">Прозрачность меню приложений</string>
+  <string name="all_apps_opacity_pref_title">Прозрачность меню приложений</string>
   <string name="num_cols_pref_title">Количество столбцов</string>
   <string name="num_rows_pref_title">Количество строк</string>
   <string name="num_hotseat_icons_pref_title">Количество значков в док-баре</string>
@@ -281,7 +281,7 @@
   <string name="pixel_ui_pref_title">Pixel UI</string>
   <string name="behavior_pref_title">Поведение</string>
   <string name="debug_pref_title">Отладка</string>
-    <string name="general_pref_summary">Главный экран, док-бар и меню приложений</string>
+  <string name="general_pref_summary">Главный экран, док-бар и меню приложений</string>
   <string name="pixel_ui_pref_summary">Включить функции, эксклюзивные для Pixel Launcher</string>
   <string name="backup_pref_title">Резервная копия</string>
   <string name="behavior_pref_summary">Изменить поведение Lawnchair</string>
@@ -361,7 +361,7 @@
   <string name="dock_allapps"><![CDATA[Док-бар и все приложения]]></string>
   <string name="app_shortcuts">Шорткаты приложений</string>
   <string name="blur_effect">Эффект размытия</string>
-    <string name="pref_weather_provider">Поставщик данных</string>
+  <string name="pref_weather_provider">Поставщик данных</string>
   <string name="loading">Загрузка...</string>
   <string name="icon_shape_override_label">Изменить форму значка</string>
   <string name="icon_shape_system_default">Не изменять</string>
@@ -387,7 +387,7 @@
   <string name="pref_weather_api_key_title">API-ключ</string>
   <string name="about_changelog">Список изменений</string>
   <string name="pref_all_apps_custom_label_color">Использовать свой цвет подписи</string>
-    <string name="pref_all_apps_label_color">Цвет подписи значков в меню приложений</string>
+  <string name="pref_all_apps_label_color">Цвет подписи значков в меню приложений</string>
   <string name="pref_num_rows_drawer">Количество строк в меню приложений</string>
   <string name="center_wallpaper_pref_title">Центрировать обои, если имеется только один экран</string>
   <string name="vertical_drawer_layout_pref_title">Отображать в виде вертикального списка</string>

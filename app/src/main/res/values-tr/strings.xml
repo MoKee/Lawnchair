@@ -261,7 +261,7 @@
   <string name="hide_icon_labels_pref_title">Ana ekrandaki simge etiketlerini gizle</string>
   <string name="hide_all_apps_icon_labels_pref_title">Uygulama menüsündeki simge etiketlerini gizle</string>
   <string name="workspace_label_color_hue_pref_title">Ana ekrandaki simge etiketlerinin rengi</string>
-    <string name="all_apps_opacity_pref_title">Uygulama menüsü şeffaflığı</string>
+  <string name="all_apps_opacity_pref_title">Uygulama menüsü şeffaflığı</string>
   <string name="num_cols_pref_title">Sütun sayısı</string>
   <string name="num_rows_pref_title">Satır sayısı</string>
   <string name="num_hotseat_icons_pref_title">Alt paneldeki simge sayısı</string>

@@ -230,6 +230,7 @@
   <!-- About Lawnchair -->
   <string name="export_prefs_title">Tetapan</string>
   <string name="import_prefs_title">Tetapan</string>
+  <string name="default_text">Asal</string>
   <string name="edit_icon_reset">Tetapkan semula</string>
   <string name="pref_cat_homescreen">Skrin utama</string>
   <!-- Import/Export Strings -->
@@ -238,6 +239,7 @@
   <string name="none">Tiada</string>
   <string name="icon_shape_none">Tiada</string>
   <string name="about_version">Versi</string>
+  <string name="about_changelog">Log perubahan</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

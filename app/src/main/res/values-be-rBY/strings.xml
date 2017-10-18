@@ -262,7 +262,7 @@
   <string name="hide_icon_labels_pref_title">Схаваць подпісы значкоў на працоўным стале</string>
   <string name="hide_all_apps_icon_labels_pref_title">Схаваць подпісы значкоў у меню праграм</string>
   <string name="workspace_label_color_hue_pref_title">Колер подпіса значкоў</string>
-    <string name="all_apps_opacity_pref_title">Празрыстасць меню праграм</string>
+  <string name="all_apps_opacity_pref_title">Празрыстасць меню праграм</string>
   <string name="num_cols_pref_title">Колькасць слупкоў</string>
   <string name="num_rows_pref_title">Колькасць радкоў</string>
   <string name="num_hotseat_icons_pref_title">Колькасць значкоў ў док-бары</string>
@@ -276,7 +276,7 @@
   <string name="pixel_ui_pref_title">Pixel UI</string>
   <string name="behavior_pref_title">Паводзіны</string>
   <string name="debug_pref_title">Адладка</string>
-    <string name="backup_pref_title">Рэзервовая копія</string>
+  <string name="backup_pref_title">Рэзервовая копія</string>
   <string name="show_pixel_bar_pref_title">Паказаць радок пошуку</string>
   <string name="use_wide_searchbar_pref_title">Радок пошуку як у Android O</string>
   <string name="show_mic_pref_title">Паказваць кнопку Google асістэнта</string>

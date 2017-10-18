@@ -261,7 +261,7 @@
   <string name="hide_icon_labels_pref_title">Skrij oznake ikon na domačem zaslonu</string>
   <string name="hide_all_apps_icon_labels_pref_title">Skrij oznake ikon v predalu</string>
   <string name="workspace_label_color_hue_pref_title">Barva oznake ikon na domačem zaslonu</string>
-    <string name="all_apps_opacity_pref_title">Prosojnost predala</string>
+  <string name="all_apps_opacity_pref_title">Prosojnost predala</string>
   <string name="num_cols_pref_title">Število stolpcev</string>
   <string name="num_rows_pref_title">Število vrstic</string>
   <string name="icon_scale_pref_title">Velikost ikon</string>
@@ -273,7 +273,7 @@
   <string name="general_pref_title">Splošno</string>
   <string name="behavior_pref_title">Vedenje</string>
   <string name="debug_pref_title">Razhroščevanje</string>
-    <string name="backup_pref_title">Varnostna kopija</string>
+  <string name="backup_pref_title">Varnostna kopija</string>
   <string name="show_google_now_tab_pref_title">Prikaži stran Google zdaj</string>
   <string name="restart_lawnchair_pref_title">Ponovni zagon Lawnchair-a</string>
   <string name="haptic_feedback_pref_title">Omogoči vibriranje</string>
