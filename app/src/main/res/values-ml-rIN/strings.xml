@@ -196,6 +196,7 @@
   <string name="action_deep_shortcut">കുറുക്കുവഴികൾ</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
   <string name="shortcuts_menu_description"><xliff:g id="APP_NAME">%2$s</xliff:g> ആപ്പിനുള്ള <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> കുറുക്കുവഴികൾ</string>
+  <string name="edit_drop_target_label">തിരുത്തുക</string>
   <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
   <string name="wallpaper_instructions">വാൾപേപ്പർ സജ്ജീകരിക്കുക</string>
   <!-- Error message when an image is selected as a wallpaper,
@@ -241,6 +242,7 @@
   <string name="none">ഒന്നുമില്ല</string>
   <string name="icon_shape_none">ഒന്നുമില്ല</string>
   <string name="about_version">പതിപ്പ്</string>
+  <string name="about_changelog">ചേഞ്ച് ലോഗ്</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>
