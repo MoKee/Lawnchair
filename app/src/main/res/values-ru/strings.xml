@@ -277,12 +277,10 @@
   <string name="full_width_widgets_pref_summary">Разрешить виджетам занимать место без отступов</string>
   <string name="notification_access_pref_title">Значки уведомлений и предварительный просмотр</string>
   <string name="notification_access_pref_summary">Разрешить Lawnchair доступ к вашим уведомлениям для включения этой функции</string>
-  <string name="general_pref_title">Общие</string>
-  <string name="pixel_ui_pref_title">Pixel UI</string>
+  <string name="dock_pref_title">Док-бар</string>
+  <string name="pixel_ui_pref_title">Темы</string>
   <string name="behavior_pref_title">Поведение</string>
   <string name="debug_pref_title">Отладка</string>
-  <string name="general_pref_summary">Главный экран, док-бар и меню приложений</string>
-  <string name="pixel_ui_pref_summary">Включить функции, эксклюзивные для Pixel Launcher</string>
   <string name="backup_pref_title">Резервная копия</string>
   <string name="behavior_pref_summary">Изменить поведение Lawnchair</string>
   <string name="backup_pref_summary">Резервное копирование базы данных и настроек</string>

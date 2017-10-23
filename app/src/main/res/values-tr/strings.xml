@@ -268,7 +268,7 @@
   <string name="icon_scale_pref_title">Simge boyutu</string>
   <string name="icon_text_scale_pref_title">Simge yazı boyutu</string>
   <string name="full_width_width_widgets_pref_title">Araçlara tam genişlik</string>
-  <string name="general_pref_title">Genel</string>
+  <string name="pixel_ui_pref_title">Tema</string>
   <string name="backup_pref_title">Yedek</string>
   <string name="export_db_title">Veri tabanı</string>
   <string name="import_db_title">Veri tabanı</string>

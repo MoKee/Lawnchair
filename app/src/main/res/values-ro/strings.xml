@@ -233,6 +233,7 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="about_title">Despre</string>
+  <string name="pixel_ui_pref_title">Temă</string>
   <string name="export_db_title">Bază de date</string>
   <string name="import_db_title">Bază de date</string>
   <string name="export_prefs_title">Setări</string>

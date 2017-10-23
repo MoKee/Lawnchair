@@ -277,12 +277,10 @@
   <string name="full_width_widgets_pref_summary">Дозволити віджетам розтягуватися по всій ширині без заповнення</string>
   <string name="notification_access_pref_title">Бейджі сповіщень і попередній їх перегляд</string>
   <string name="notification_access_pref_summary">Дозволити Lawnchair доступ до ваших сповіщень, щоб увімкнути цю функцію</string>
-  <string name="general_pref_title">Загальні</string>
-  <string name="pixel_ui_pref_title">Піксель UI</string>
+  <string name="dock_pref_title">Док-панель</string>
+  <string name="pixel_ui_pref_title">Теми</string>
   <string name="behavior_pref_title">Поведінка</string>
   <string name="debug_pref_title">Налагодження</string>
-  <string name="general_pref_summary">Домашній екран, нижня панель та список додатків</string>
-  <string name="pixel_ui_pref_summary">Увімкнути ексклюзивні функції піксель лаунчера</string>
   <string name="backup_pref_title">Резервна копія</string>
   <string name="behavior_pref_summary">Змінити поведінку Lawnchair</string>
   <string name="backup_pref_summary">Резервне копіювання бази даних і параметрів</string>

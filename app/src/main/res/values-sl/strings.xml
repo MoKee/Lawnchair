@@ -270,7 +270,7 @@
   <string name="full_width_widgets_pref_summary">Omogoči pripomočku raztezanje čez celotno širino brez robov</string>
   <string name="notification_access_pref_title">Značke za obvestila in predogled</string>
   <string name="notification_access_pref_summary">Za uporabo te funkcije, omogočite Lawnchair-u dostop do obvestil</string>
-  <string name="general_pref_title">Splošno</string>
+  <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Vedenje</string>
   <string name="debug_pref_title">Razhroščevanje</string>
   <string name="backup_pref_title">Varnostna kopija</string>

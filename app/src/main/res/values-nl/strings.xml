@@ -238,7 +238,7 @@
   <string name="label_voice_search">Spraakgestuurd zoeken</string>
   <!-- About Lawnchair -->
   <string name="about_title">Over</string>
-  <string name="general_pref_title">Algemeen</string>
+  <string name="pixel_ui_pref_title">Thema</string>
   <string name="backup_pref_title">Back-up maken</string>
   <string name="export_db_title">Database</string>
   <string name="import_db_title">Database</string>

@@ -229,6 +229,7 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
+  <string name="pixel_ui_pref_title">Tema</string>
   <string name="backup_pref_title">Atsarginė kopija</string>
   <string name="default_text">Numatytasis</string>
   <string name="edit_icon_reset">Nust. iš naujo</string>

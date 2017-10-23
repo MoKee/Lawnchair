@@ -239,7 +239,7 @@
   <string name="label_voice_search">Гласово търсене</string>
   <!-- About Lawnchair -->
   <string name="about_title">Относно</string>
-  <string name="general_pref_title">Общи</string>
+  <string name="pixel_ui_pref_title">Тема</string>
   <string name="backup_pref_title">Архивиране</string>
   <string name="export_db_title">База данни</string>
   <string name="import_db_title">База данни</string>

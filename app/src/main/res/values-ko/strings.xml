@@ -242,7 +242,7 @@
   <string name="about_title">소개</string>
   <string name="icon_pack_preference_title">아이콘 팩</string>
   <string name="icon_pack_preference_summary">아이콘 팩을 고르시오</string>
-  <string name="general_pref_title">기본</string>
+  <string name="pixel_ui_pref_title">테마</string>
   <string name="debug_pref_title">디버그</string>
   <string name="backup_pref_title">백업</string>
   <string name="export_db_title">데이터베이스</string>

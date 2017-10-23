@@ -236,7 +236,7 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="about_title">Thông tin</string>
-  <string name="general_pref_title">Thiết lập chung</string>
+  <string name="pixel_ui_pref_title">Chủ đề</string>
   <string name="backup_pref_title">Sao lưu</string>
   <string name="export_db_title">Dữ liệu</string>
   <string name="import_db_title">Dữ liệu</string>

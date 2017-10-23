@@ -244,7 +244,7 @@
   <string name="num_cols_pref_title">Nombre de colonnes</string>
   <string name="num_rows_pref_title">Nombre de lignes</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
-  <string name="general_pref_title">Général</string>
+  <string name="pixel_ui_pref_title">Thème</string>
   <string name="backup_pref_title">Sauvegarder</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
   <string name="export_db_title">Base de données</string>

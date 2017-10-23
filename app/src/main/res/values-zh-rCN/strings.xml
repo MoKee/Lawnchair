@@ -244,6 +244,7 @@
   <string name="widgets_bottom_sheet_title">%1$s 小部件</string>
   <!-- About Lawnchair -->
   <string name="about_title">关于</string>
+  <string name="about_pref_summary">了解 Lawnchair 团队</string>
   <string name="changelog_title">#%d 版的更新日志</string>
   <string name="week_day_format">%1$s， %2$s</string>
   <string name="icon_pack_preference_title">图标包</string>
@@ -263,6 +264,7 @@
   <string name="hide_icon_labels_pref_title">在主屏幕上隐藏图标标签</string>
   <string name="hide_all_apps_icon_labels_pref_title">在抽屉里隐藏图标标签</string>
   <string name="workspace_label_color_hue_pref_title">主屏幕图标标签颜色</string>
+  <string name="workspace_label_color_variation_pref_title">主屏幕图标标签颜色变化</string>
   <string name="all_apps_opacity_pref_title">抽屉透明度</string>
   <string name="num_cols_pref_title">列数</string>
   <string name="num_rows_pref_title">行数</string>
@@ -275,12 +277,17 @@
   <string name="full_width_widgets_pref_summary">允许小部件填充整个桌面宽度</string>
   <string name="notification_access_pref_title">通知小圆点和预览</string>
   <string name="notification_access_pref_summary">允许 Lawnchair 访问您的通知以启用此功能</string>
-  <string name="general_pref_title">通用</string>
-  <string name="pixel_ui_pref_title">Pixel UI</string>
+  <string name="general_pref_title">桌面</string>
+  <string name="dock_pref_title">Dock</string>
+  <string name="app_drawer_pref_title">应用抽屉</string>
+  <string name="pixel_ui_pref_title">主题</string>
   <string name="behavior_pref_title">行为</string>
   <string name="debug_pref_title">调试</string>
-  <string name="general_pref_summary">主屏幕，dock 栏和应用抽屉</string>
-  <string name="pixel_ui_pref_summary">启用 Pixel Launcher 独家功能</string>
+  <string name="import_export_pref_title">导入/导出</string>
+  <string name="general_pref_summary">定制您的桌面</string>
+  <string name="dock_pref_summary">定制您的停靠栏</string>
+  <string name="app_drawer_pref_summary">定制您的应用抽屉</string>
+  <string name="pixel_ui_pref_summary">不同的主题元素</string>
   <string name="backup_pref_title">备份</string>
   <string name="behavior_pref_summary">更改 Lawnchair 行为</string>
   <string name="backup_pref_summary">备份您的数据库和配置</string>
@@ -359,6 +366,7 @@
   <string name="dock_allapps"><![CDATA[Dock 栏与抽屉]]></string>
   <string name="app_shortcuts">应用快捷方式</string>
   <string name="blur_effect">模糊效果</string>
+  <string name="enable_editing_pref_title">启用编辑工作区</string>
   <string name="pref_weather_provider">天气提供商</string>
   <string name="loading">正在加载</string>
   <string name="icon_shape_override_label">更换图标样式</string>
@@ -385,6 +393,7 @@
   <string name="pref_weather_api_key_title">API 密钥</string>
   <string name="about_changelog">更新日志</string>
   <string name="pref_all_apps_custom_label_color">自定义标签颜色</string>
+  <string name="pref_all_apps_label_color_variation">抽屉图标标签颜色变化</string>
   <string name="pref_all_apps_label_color">抽屉图标标签颜色</string>
   <string name="pref_num_rows_drawer">网格行数</string>
   <string name="center_wallpaper_pref_title">当桌面只有一页时，居中壁纸</string>

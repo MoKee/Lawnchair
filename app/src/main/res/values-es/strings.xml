@@ -271,7 +271,8 @@
   <string name="full_width_widgets_pref_summary">Permitir a los widgets mostrarse sobre todo el ancho sin relleno</string>
   <string name="notification_access_pref_title">Insignias de notificación y vista previa</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
-  <string name="general_pref_title">General</string>
+  <string name="dock_pref_title">Base</string>
+  <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Comportamiento</string>
   <string name="debug_pref_title">Depurar</string>
   <string name="backup_pref_title">Copia de seguridad</string>

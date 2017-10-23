@@ -246,6 +246,7 @@
   <string name="widgets_bottom_sheet_title">%1$s widgety</string>
   <!-- About Lawnchair -->
   <string name="about_title">O aplikaci</string>
+  <string name="about_pref_summary">Seznamte se s týmem Lawnchair</string>
   <string name="changelog_title">Seznam změn pro sestavení #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Balíček ikon</string>
@@ -265,6 +266,7 @@
   <string name="hide_icon_labels_pref_title">Skrýt popisky ikon na domovské obrazovce</string>
   <string name="hide_all_apps_icon_labels_pref_title">Skrýt popisky ikon v seznamu aplikací</string>
   <string name="workspace_label_color_hue_pref_title">Barva popisků ikon na domovské obrazovce</string>
+  <string name="workspace_label_color_variation_pref_title">Barevné variace popisků ikon na domovské obrazovce</string>
   <string name="all_apps_opacity_pref_title">Průhlednost menu aplikací</string>
   <string name="num_cols_pref_title">Počet sloupců</string>
   <string name="num_rows_pref_title">Počet řádků</string>
@@ -277,11 +279,16 @@
   <string name="full_width_widgets_pref_summary">Povolte widgetům pokrývat celou šířku bez odsazení</string>
   <string name="notification_access_pref_title">Zobrazení oznámení a náhledů</string>
   <string name="notification_access_pref_summary">Pro zapnutí této funkce povolte spouštěči Lawnchair přístup k vašim upozorněním</string>
-  <string name="general_pref_title">Obecné</string>
-  <string name="pixel_ui_pref_title">Pixel UI</string>
+  <string name="general_pref_title">Plocha</string>
+  <string name="dock_pref_title">Dok</string>
+  <string name="app_drawer_pref_title">Seznam aplikací</string>
+  <string name="pixel_ui_pref_title">Motiv vzhledu</string>
   <string name="behavior_pref_title">Chování</string>
   <string name="debug_pref_title">Ladění</string>
-  <string name="general_pref_summary">Domovská obrazovka, dok a nabídka aplikací</string>
+  <string name="import_export_pref_title">Import/Export</string>
+  <string name="general_pref_summary">Přizpůsobit plochu</string>
+  <string name="dock_pref_summary">Přizpůsobit dok</string>
+  <string name="app_drawer_pref_summary">Přizpůsobit seznam aplikací</string>
   <string name="pixel_ui_pref_summary">Povolit exkluzivní funkce spouštěče Pixel</string>
   <string name="backup_pref_title">Záloha</string>
   <string name="behavior_pref_summary">Změnit chování Lawnchair</string>
@@ -361,6 +368,7 @@
   <string name="dock_allapps"><![CDATA[Dok & seznam aplikací]]></string>
   <string name="app_shortcuts">Zástupce aplikací</string>
   <string name="blur_effect">Efekt rozostření</string>
+  <string name="enable_editing_pref_title">Povolit úpravu domovské obrazovky</string>
   <string name="pref_weather_provider">Poskytovatel počasí</string>
   <string name="loading">Načítání...</string>
   <string name="icon_shape_override_label">Změna tvaru ikony</string>
@@ -387,6 +395,7 @@
   <string name="pref_weather_api_key_title">API klíč</string>
   <string name="about_changelog">Changelog</string>
   <string name="pref_all_apps_custom_label_color">Použít vlastní barvu</string>
+  <string name="pref_all_apps_label_color_variation">Barevné variace popisků ikon v seznamu aplikací</string>
   <string name="pref_all_apps_label_color">Barva popisků ikon v seznamu aplikací</string>
   <string name="pref_num_rows_drawer">Počet řádků v seznamu aplikací</string>
   <string name="center_wallpaper_pref_title">Tapeta na střed, je-li pouze jedna strana</string>

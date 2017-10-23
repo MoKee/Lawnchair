@@ -276,12 +276,10 @@
   <string name="full_width_widgets_pref_summary">Permitir que os widgets abranger a largura inteira sem preenchimento</string>
   <string name="notification_access_pref_title">Visualização e emblemas de notificação</string>
   <string name="notification_access_pref_summary">Permitir o Lawnchair acessar as suas notificações para mostra uma previa delas</string>
-  <string name="general_pref_title">Geral</string>
-  <string name="pixel_ui_pref_title">Pixel da interface do usuário</string>
+  <string name="dock_pref_title">Dock</string>
+  <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Comportamento</string>
   <string name="debug_pref_title">Depuração</string>
-  <string name="general_pref_summary">Tela inicial, dock e gaveta de aplicativos</string>
-  <string name="pixel_ui_pref_summary">Habilitar funções exclusivas do Pixel Launcher</string>
   <string name="backup_pref_title">Backup</string>
   <string name="behavior_pref_summary">Mudar o comportamento do Lawnchair</string>
   <string name="backup_pref_summary">Fazer backup dos seus dados e configurações</string>

@@ -246,6 +246,7 @@
   <string name="widgets_bottom_sheet_title">%1$s miniaplikácií</string>
   <!-- About Lawnchair -->
   <string name="about_title">O aplikaci</string>
+  <string name="about_pref_summary">Zoznámte sa s týmom Lawnchair</string>
   <string name="changelog_title">Zoznam zmien pre vydanie #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Balíček ikon</string>
@@ -265,6 +266,7 @@
   <string name="hide_icon_labels_pref_title">Skryť menovky ikon z domovskej obrazovky</string>
   <string name="hide_all_apps_icon_labels_pref_title">Skryť menovky ikon v ponuke aplikácií</string>
   <string name="workspace_label_color_hue_pref_title">Farba menoviek ikon na domovskej obrazovke</string>
+  <string name="workspace_label_color_variation_pref_title">Farebné variácie menoviek ikon na domovskej obrazovke</string>
   <string name="all_apps_opacity_pref_title">Priehľadnosť menu aplikácie</string>
   <string name="num_cols_pref_title">Počet stĺpcov</string>
   <string name="num_rows_pref_title">Počet riadkov</string>
@@ -277,11 +279,16 @@
   <string name="full_width_widgets_pref_summary">Povoliť, aby sa miniaplikácie rozprestierali po celej šírke bez výplne</string>
   <string name="notification_access_pref_title">Zobrazenie upozornení a náhľadov</string>
   <string name="notification_access_pref_summary">Pre zapnutie tejto funkcie povoľte spúšťaču Lawnchair prístup k vašim upozorneniam</string>
-  <string name="general_pref_title">Všeobecné</string>
-  <string name="pixel_ui_pref_title">Pixel UI</string>
+  <string name="general_pref_title">Plocha</string>
+  <string name="dock_pref_title">Dok</string>
+  <string name="app_drawer_pref_title">Ponuka aplikácií</string>
+  <string name="pixel_ui_pref_title">Téma vzhľadu</string>
   <string name="behavior_pref_title">Nastavenia správania</string>
   <string name="debug_pref_title">Ladenie</string>
-  <string name="general_pref_summary">Domovská obrazovka, dok a ponuka aplikácií</string>
+  <string name="import_export_pref_title">Import/Export</string>
+  <string name="general_pref_summary">Prispôsobiť plochu</string>
+  <string name="dock_pref_summary">Prispôsobiť dok</string>
+  <string name="app_drawer_pref_summary">Prispôsobiť ponuku aplikácií</string>
   <string name="pixel_ui_pref_summary">Povoliť exkluzívne funkcie spúšťača Pixel</string>
   <string name="backup_pref_title">Zálohovať</string>
   <string name="behavior_pref_summary">Zmeniť správanie Lawnchair</string>
@@ -361,6 +368,7 @@
   <string name="dock_allapps"><![CDATA[Dock & všetky aplikácie]]></string>
   <string name="app_shortcuts">Zástupca aplikácií</string>
   <string name="blur_effect">Efekt rozostrenia</string>
+  <string name="enable_editing_pref_title">Povoliť úpravu pracovného priestoru</string>
   <string name="pref_weather_provider">Poskytovateľ počasia</string>
   <string name="loading">Načitávanie...</string>
   <string name="icon_shape_override_label">Zmena tvaru ikony</string>
@@ -387,6 +395,7 @@
   <string name="pref_weather_api_key_title">API kľúč</string>
   <string name="about_changelog">Zoznam zmien</string>
   <string name="pref_all_apps_custom_label_color">Vybrať vlastné farby menoviek</string>
+  <string name="pref_all_apps_label_color_variation">Farebné variácie menoviek ikon v ponuke aplikácií</string>
   <string name="pref_all_apps_label_color">Farba menoviek ikon v ponuke</string>
   <string name="pref_num_rows_drawer">Počet riadkov v zobrazení ponuky</string>
   <string name="center_wallpaper_pref_title">Tapeta na stred, ak je iba jedna strana</string>

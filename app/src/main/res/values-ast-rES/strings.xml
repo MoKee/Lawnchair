@@ -141,7 +141,7 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-  <string name="general_pref_title">Xeneral</string>
+  <string name="pixel_ui_pref_title">Tema</string>
   <string name="backup_pref_title">Respaldar</string>
   <string name="export_db_title">Base de datos</string>
   <string name="import_db_title">Base de datos</string>

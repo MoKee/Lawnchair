@@ -239,7 +239,7 @@
   <!-- About Lawnchair -->
   <string name="about_title">Információk</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
-  <string name="general_pref_title">Általános</string>
+  <string name="pixel_ui_pref_title">Téma</string>
   <string name="backup_pref_title">Biztonsági mentés</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
   <string name="export_db_title">Adatbázis</string>

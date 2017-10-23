@@ -272,8 +272,7 @@
   <string name="full_width_widgets_pref_summary">Дазволіць віджэтам займаць месца без водступаў</string>
   <string name="notification_access_pref_title">Значкі апавяшчэнняў і папярэдні прагляд</string>
   <string name="notification_access_pref_summary">Дазволіць Lawnchair доступ да вашых апавяшчэнняў для ўключэння гэтай функцыі</string>
-  <string name="general_pref_title">Агульныя</string>
-  <string name="pixel_ui_pref_title">Pixel UI</string>
+  <string name="pixel_ui_pref_title">Тэма</string>
   <string name="behavior_pref_title">Паводзіны</string>
   <string name="debug_pref_title">Адладка</string>
   <string name="backup_pref_title">Рэзервовая копія</string>

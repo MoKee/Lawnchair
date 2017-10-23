@@ -275,12 +275,10 @@
   <string name="full_width_widgets_pref_summary">Izinkan widget untuk menjangkau seluruh lebar tanpa bantalan</string>
   <string name="notification_access_pref_title">Notifikasi badges dan pratinjau</string>
   <string name="notification_access_pref_summary">Memungkinkan Lawnchair untuk mengakses notifikasi anda untuk mengaktifkan fitur ini</string>
-  <string name="general_pref_title">Umum</string>
-  <string name="pixel_ui_pref_title">Pixel UI</string>
+  <string name="dock_pref_title">Dock</string>
+  <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Perilaku</string>
   <string name="debug_pref_title">Debug</string>
-  <string name="general_pref_summary">Layar utama, dock dan laci aplikasi</string>
-  <string name="pixel_ui_pref_summary">Hidupkan fitur eksklusif Pixel Launcher</string>
   <string name="backup_pref_title">Cadangkan</string>
   <string name="behavior_pref_summary">Mengubah perilaku Lawnchair</string>
   <string name="backup_pref_summary">Cadangkan database dan setelan</string>

@@ -254,7 +254,7 @@
   <string name="dynamic_ui_pref_title">Använd accentfärg från bakgrundsbilden</string>
   <string name="blur_pref_title">Använd oskärpa</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
-  <string name="general_pref_title">Allmänt</string>
+  <string name="pixel_ui_pref_title">Tema</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
   <string name="export_db_title">Databas</string>
   <string name="import_db_title">Databas</string>
