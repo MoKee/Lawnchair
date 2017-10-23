@@ -311,6 +311,7 @@
 
     <!-- About Lawnchair -->
     <string name="about_title">About</string>
+    <string name="about_pref_summary">Get to know about the Lawnchair team</string>
     <string name="changelog_title">Changelog for build #%d</string>
     <string name="week_day_format">%1$s, %2$s</string>
     <string name="icon_pack_preference_title">Icon Pack</string>
@@ -330,6 +331,7 @@
     <string name="hide_icon_labels_pref_title">Hide icon labels on home screen</string>
     <string name="hide_all_apps_icon_labels_pref_title">Hide icon labels in drawer</string>
     <string name="workspace_label_color_hue_pref_title">Color of icon labels on home screen</string>
+    <string name="workspace_label_color_variation_pref_title">Color variation of icon labels on home screen</string>
     <string name="all_apps_opacity_pref_title">Drawer opacity</string>
     <string name="num_cols_pref_title">Number of columns</string>
     <string name="num_rows_pref_title">Number of rows</string>
@@ -342,12 +344,17 @@
     <string name="full_width_widgets_pref_summary">Allow widgets to span over the whole width without padding</string>
     <string name="notification_access_pref_title">Notification badges and preview</string>
     <string name="notification_access_pref_summary">Allow Lawnchair to access your notifications to enable this feature</string>
-    <string name="general_pref_title">General</string>
-    <string name="pixel_ui_pref_title">Pixel UI</string>
+    <string name="general_pref_title">Desktop</string>
+    <string name="dock_pref_title">Dock</string>
+    <string name="app_drawer_pref_title">App Drawer</string>
+    <string name="pixel_ui_pref_title">Theme</string>
     <string name="behavior_pref_title">Behavior</string>
     <string name="debug_pref_title">Debug</string>
-    <string name="general_pref_summary">Homescreen, dock, and app drawer</string>
-    <string name="pixel_ui_pref_summary">Enable Pixel Launcher exclusive features</string>
+    <string name="import_export_pref_title">Import/Export</string>
+    <string name="general_pref_summary">Customize your desktop</string>
+    <string name="dock_pref_summary">Customize your dock</string>
+    <string name="app_drawer_pref_summary">Customize your app drawer</string>
+    <string name="pixel_ui_pref_summary">Theme different elements</string>
     <string name="backup_pref_title">Backup</string>
     <string name="behavior_pref_summary">Change the behavior of Lawnchair</string>
     <string name="backup_pref_summary">Backup your database and settings</string>
@@ -430,6 +437,7 @@
     <string name="dock_allapps"><![CDATA[Dock & drawer]]></string>
     <string name="app_shortcuts">App shortcuts</string>
     <string name="blur_effect">Blur effect</string>
+    <string name="enable_editing_pref_title">Enable editing homescreen</string>
     <string name="pref_weather_provider">Weather provider</string>
     <string name="loading">Loading…</string>
     <string name="icon_shape_override_label">Change icon shape</string>
@@ -456,6 +464,7 @@
     <string name="pref_weather_api_key_title">API key</string>
     <string name="about_changelog">Changelog</string>
     <string name="pref_all_apps_custom_label_color">Use custom label color</string>
+    <string name="pref_all_apps_label_color_variation">Color variation of icon labels in app drawer</string>
     <string name="pref_all_apps_label_color">Color of icon labels in drawer</string>
     <string name="pref_num_rows_drawer">Number of rows in drawer</string>
     <string name="center_wallpaper_pref_title">Center wallpaper when there is only one page</string>

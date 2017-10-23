@@ -212,7 +212,7 @@ public class SettingsActivity extends AppCompatActivity implements PreferenceFra
                 }
             } else if (getContent() == R.xml.launcher_about_preferences) {
                 findPreference("about_version").setSummary(BuildConfig.VERSION_NAME);
-                if (BuildConfig.TRAVIS && !BuildConfig.TAGGED_BUILD) {
+                if (BuildConfig.TRAVIS && !BuildConfig.BUILD_TYPE.equalsIgnoreCase("stable")) {
                     findPreference("about_changelog").setSummary(Utilities.getChangelog());
                 } else {
                     getPreferenceScreen().removePreference(findPreference("about_changelog"));
@@ -342,5 +342,9 @@ public class SettingsActivity extends AppCompatActivity implements PreferenceFra
             return fragment;
         }
 
+        @Override
+        public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+            return super.onCreateView(FeatureFlags.INSTANCE.getLayoutInflator(inflater), container, savedInstanceState);
+        }
     }
 }
