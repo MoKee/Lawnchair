@@ -244,7 +244,7 @@
   <string name="widgets_bottom_sheet_title">%1$s 小工具</string>
   <!-- About Lawnchair -->
   <string name="about_title">關於</string>
-  <string name="about_pref_summary">瞭解Lawnchair 團隊</string>
+  <string name="about_pref_summary">瞭解 Lawnchair 團隊</string>
   <string name="changelog_title">更新日誌 #%d</string>
   <string name="week_day_format">%1$s：%2$s</string>
   <string name="icon_pack_preference_title">圖示包</string>
@@ -285,9 +285,9 @@
   <string name="debug_pref_title">除錯模式</string>
   <string name="import_export_pref_title">匯入/匯出</string>
   <string name="general_pref_summary">自訂您的桌面</string>
-  <string name="dock_pref_summary">自訂您的Dock欄</string>
-  <string name="app_drawer_pref_summary">自訂您的應用程式抽屜</string>
-  <string name="pixel_ui_pref_summary">開啟Pixel 啟動器特殊功能</string>
+  <string name="dock_pref_summary">自訂您的座架列</string>
+  <string name="app_drawer_pref_summary">自訂您的應用程式清單</string>
+  <string name="pixel_ui_pref_summary">開啟 Pixel 啟動器特殊功能</string>
   <string name="backup_pref_title">備份</string>
   <string name="behavior_pref_summary">改變 Lawnchair 的特性</string>
   <string name="backup_pref_summary">備份您的資料庫和設定</string>
