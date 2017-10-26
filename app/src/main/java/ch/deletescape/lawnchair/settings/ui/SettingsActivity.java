@@ -19,27 +19,28 @@ package ch.deletescape.lawnchair.settings.ui;
 
 import android.Manifest;
 import android.app.Dialog;
-import android.app.Fragment;
-import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.preference.ListPreference;
-import android.preference.Preference;
-import android.preference.PreferenceCategory;
-import android.preference.PreferenceFragment;
-import android.preference.PreferenceScreen;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.preference.ListPreference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceCategory;
+import android.support.v7.preference.PreferenceFragmentCompat;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -57,26 +58,33 @@ import ch.deletescape.lawnchair.graphics.IconShapeOverride;
 import ch.deletescape.lawnchair.misc.LicenseUtils;
 import ch.deletescape.lawnchair.preferences.IPreferenceProvider;
 import ch.deletescape.lawnchair.preferences.PreferenceFlags;
+import ch.deletescape.lawnchair.util.SharedPreferenceDataStore;
 
 /**
  * Settings activity for Launcher. Currently implements the following setting: Allow rotation
  */
-public class SettingsActivity extends AppCompatActivity implements PreferenceFragment.OnPreferenceStartFragmentCallback, SharedPreferences.OnSharedPreferenceChangeListener {
+public class SettingsActivity extends AppCompatActivity implements
+        PreferenceFragmentCompat.OnPreferenceStartFragmentCallback, SharedPreferences.OnSharedPreferenceChangeListener {
 
     private static IPreferenceProvider sharedPrefs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         FeatureFlags.INSTANCE.applyDarkTheme(this);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.activity_settings);
+        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
 
         if (FeatureFlags.INSTANCE.getCurrentTheme() != 2)
             BlurWallpaperProvider.Companion.applyBlurBackground(this);
 
         if (savedInstanceState == null) {
             // Display the fragment as the main content.
-            getFragmentManager().beginTransaction()
-                    .replace(android.R.id.content, new LauncherSettingsFragment())
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.content, new LauncherSettingsFragment())
                     .commit();
         }
 
@@ -86,13 +94,13 @@ public class SettingsActivity extends AppCompatActivity implements PreferenceFra
     }
 
     @Override
-    public boolean onPreferenceStartFragment(PreferenceFragment caller, Preference pref) {
+    public boolean onPreferenceStartFragment(PreferenceFragmentCompat caller, Preference pref) {
         if (pref instanceof SubPreference) {
             Fragment fragment = SubSettingsFragment.newInstance(((SubPreference) pref));
-            FragmentTransaction transaction = getFragmentManager().beginTransaction();
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
             setTitle(pref.getTitle());
             transaction.setCustomAnimations(R.animator.fly_in, R.animator.fade_out, R.animator.fade_in, R.animator.fly_out);
-            transaction.replace(android.R.id.content, fragment);
+            transaction.replace(R.id.content, fragment);
             transaction.addToBackStack("PreferenceFragment");
             transaction.commit();
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -108,7 +116,7 @@ public class SettingsActivity extends AppCompatActivity implements PreferenceFra
     }
 
     private void updateUpButton() {
-        getSupportActionBar().setDisplayHomeAsUpEnabled(getFragmentManager().getBackStackEntryCount() != 0);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(getSupportFragmentManager().getBackStackEntryCount() != 0);
     }
 
     @Override
@@ -128,16 +136,7 @@ public class SettingsActivity extends AppCompatActivity implements PreferenceFra
         }
     }
 
-    private abstract static class BaseFragment extends PreferenceFragment implements AdapterView.OnItemLongClickListener {
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-            View view = super.onCreateView(inflater, container, savedInstanceState);
-            if (view == null) return null;
-            ListView listView = view.findViewById(android.R.id.list);
-            listView.setOnItemLongClickListener(this);
-            return view;
-        }
+    private abstract static class BaseFragment extends PreferenceFragmentCompat implements AdapterView.OnItemLongClickListener {
 
         @Override
         public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
@@ -167,6 +166,17 @@ public class SettingsActivity extends AppCompatActivity implements PreferenceFra
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             getPreferenceManager().setSharedPreferencesName(LauncherFiles.SHARED_PREFERENCES_KEY);
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            View view = super.onCreateView(inflater, container, savedInstanceState);
+            setDivider(null);
+            return view;
+        }
+
+        @Override
+        public void onCreatePreferences(Bundle bundle, String s) {
             addPreferencesFromResource(R.xml.launcher_preferences);
         }
 
@@ -185,8 +195,6 @@ public class SettingsActivity extends AppCompatActivity implements PreferenceFra
         @Override
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            getPreferenceManager().setSharedPreferencesName(LauncherFiles.SHARED_PREFERENCES_KEY);
-            addPreferencesFromResource(getContent());
             if (getContent() == R.xml.launcher_theme_preferences) {
                 Preference prefWeatherEnabled = findPreference(FeatureFlags.KEY_PREF_WEATHER);
                 prefWeatherEnabled.setOnPreferenceChangeListener(this);
@@ -223,6 +231,11 @@ public class SettingsActivity extends AppCompatActivity implements PreferenceFra
             }
         }
 
+        @Override
+        public void onCreatePreferences(Bundle bundle, String s) {
+            addPreferencesFromResource(getContent());
+        }
+
         private void updateEnabledState(String weatherProvider) {
             boolean awarenessApiEnabled = weatherProvider.equals(PreferenceFlags.PREF_WEATHER_PROVIDER_AWARENESS);
             Preference prefWeatherCity = findPreference(PreferenceFlags.KEY_WEATHER_CITY);
@@ -254,7 +267,7 @@ public class SettingsActivity extends AppCompatActivity implements PreferenceFra
         }
 
         @Override
-        public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+        public boolean onPreferenceTreeClick(Preference preference) {
             if (preference.getKey() != null) {
                 switch (preference.getKey()) {
                     case "kill":
