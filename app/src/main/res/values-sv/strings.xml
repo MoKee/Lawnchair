@@ -270,8 +270,7 @@
   <string name="theme_black">Svart</string>
   <string name="pull_down_do_nothing">Gör ingenting</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Importera</string>
-  <string name="backup_export_title">Exportera</string>
+  <string name="backup_import_title">Återställ</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Väder</string>
   <string name="none">Inga</string>

@@ -235,8 +235,6 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">Бүгдийг цэвэрлэх</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Импортлох</string>
-  <string name="backup_export_title">Экспортлох</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Байхгүй</string>
   <string name="icon_shape_none">Байхгүй</string>

@@ -275,7 +275,6 @@
   <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Comportamento</string>
   <string name="debug_pref_title">Debug</string>
-  <string name="backup_pref_title">Backup</string>
   <string name="show_pixel_bar_pref_title">Mostra la barra Pixel in alto</string>
   <string name="use_wide_searchbar_pref_title">Usa la barra di ricerca estesa</string>
   <string name="show_mic_pref_title">Mostra il pulsante di Google Assistant</string>
@@ -327,13 +326,10 @@
   <string name="pull_down_apps_search">Ricerca applicazioni</string>
   <string name="enable_screen_rotation">Abilita rotazione schermo</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Importa</string>
-  <string name="backup_export_title">Esporta</string>
+  <string name="backup_import_title">Ripristina</string>
+  <string name="backup_export_title">Backup</string>
   <string name="imexport_success">Completato!</string>
   <string name="imexport_error">Errore: Impossibile copiare il file</string>
-  <string name="imexport_no_backup_found">Nessun backup trovato</string>
-  <string name="imexport_external_storage_unreadable">La memoria esterna non è leggibile (concedi l\'autorizzazione nelle impostazioni)</string>
-  <string name="imexport_external_storage_unwritable">La memoria esterna non è scrivibile (concedi l\'autorizzazione nelle impostazioni)</string>
   <string name="units_metric">Metrica</string>
   <string name="units_imperial">Imperiale</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->

@@ -281,7 +281,6 @@
   <string name="notification_access_pref_summary">Pre zapnutie tejto funkcie povoľte spúšťaču Lawnchair prístup k vašim upozorneniam</string>
   <string name="general_pref_title">Plocha</string>
   <string name="dock_pref_title">Dok</string>
-  <string name="app_drawer_pref_title">Ponuka aplikácií</string>
   <string name="pixel_ui_pref_title">Téma vzhľadu</string>
   <string name="behavior_pref_title">Nastavenia správania</string>
   <string name="debug_pref_title">Ladenie</string>
@@ -290,9 +289,7 @@
   <string name="dock_pref_summary">Prispôsobiť dok</string>
   <string name="app_drawer_pref_summary">Prispôsobiť ponuku aplikácií</string>
   <string name="pixel_ui_pref_summary">Povoliť exkluzívne funkcie spúšťača Pixel</string>
-  <string name="backup_pref_title">Zálohovať</string>
   <string name="behavior_pref_summary">Zmeniť správanie Lawnchair</string>
-  <string name="backup_pref_summary">Zálohovať databázu a nastavenia</string>
   <string name="debug_pref_summary">Reštartovať nebo znovu vytvoriť ikonu databázy</string>
   <string name="show_pixel_bar_pref_title">Zobraziť zaokrúhlený horný panel (Pixel)</string>
   <string name="use_wide_searchbar_pref_title">Použiť široký vyhľadávací panel</string>
@@ -345,13 +342,10 @@
   <string name="pull_down_apps_search">Vyhľadávanie v aplikáciách</string>
   <string name="enable_screen_rotation">Povoliť otáčanie obrazovky</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Importovať</string>
-  <string name="backup_export_title">Exportovať</string>
+  <string name="backup_import_title">Obnovenie</string>
+  <string name="backup_export_title">Zálohovať</string>
   <string name="imexport_success">Hotovo!</string>
   <string name="imexport_error">Chyba: Nepodarilo sa skopírovať súbor</string>
-  <string name="imexport_no_backup_found">Nenašla sa záloha</string>
-  <string name="imexport_external_storage_unreadable">Z externého ukladacieho priestoru sa nedá čítať (udeľte povolenie v nastaveniach)</string>
-  <string name="imexport_external_storage_unwritable">Na externý ukladací priestor sa nedá zapisovať (udeľte povolenie v nastaveniach)</string>
   <string name="units_metric">Metrické</string>
   <string name="units_imperial">Imperiálne</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->

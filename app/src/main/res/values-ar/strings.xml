@@ -267,7 +267,6 @@
   <string name="pixel_ui_pref_title">السمة</string>
   <string name="behavior_pref_title">الشكل العام</string>
   <string name="debug_pref_title">تنقيح</string>
-  <string name="backup_pref_title">نسخ إحتياطي</string>
   <string name="show_pixel_bar_pref_title">اظهار الشريط العلوي لبكسل</string>
   <string name="use_wide_searchbar_pref_title">استخدام شريط بحث عريض</string>
   <string name="show_mic_pref_title">أظهار زر مساعد غوغل</string>
@@ -304,8 +303,8 @@
   <string name="theme_dark">داكن</string>
   <string name="theme_black">أسود</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">استيراد</string>
-  <string name="backup_export_title">تصدير</string>
+  <string name="backup_import_title">استعادة</string>
+  <string name="backup_export_title">نسخ إحتياطي</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">لا شيء</string>
   <string name="folder">مجلد</string>

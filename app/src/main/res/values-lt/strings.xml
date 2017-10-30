@@ -230,15 +230,13 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="pixel_ui_pref_title">Tema</string>
-  <string name="backup_pref_title">Atsarginė kopija</string>
   <string name="default_text">Numatytasis</string>
   <string name="edit_icon_reset">Nust. iš naujo</string>
   <string name="pref_cat_theme">Tema</string>
   <string name="theme_pref_title">Tema</string>
   <string name="theme_black">Juodas</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Importuoti</string>
-  <string name="backup_export_title">Eksportuoti</string>
+  <string name="backup_export_title">Atsarginė kopija</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Nėra</string>
   <string name="folder">Aplankalas</string>

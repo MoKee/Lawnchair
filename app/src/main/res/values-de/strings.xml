@@ -275,9 +275,7 @@
   <string name="pixel_ui_pref_title">Thema</string>
   <string name="behavior_pref_title">Verhalten</string>
   <string name="debug_pref_title">Entwickleroptionen</string>
-  <string name="backup_pref_title">Sicherung</string>
   <string name="behavior_pref_summary">Ändere das Verhalten von Lawnchair</string>
-  <string name="backup_pref_summary">Sichere Deine Datenbank und die Einstellungen</string>
   <string name="debug_pref_summary">Starte oder bilde die Symbol-Datenbank neu</string>
   <string name="show_pixel_bar_pref_title">Pixel Top Bar anzeigen</string>
   <string name="use_wide_searchbar_pref_title">Breite Suchleiste verwenden</string>
@@ -330,13 +328,10 @@
   <string name="pull_down_apps_search">App Suche</string>
   <string name="enable_screen_rotation">Bildschirmrotation aktivieren</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Importieren</string>
-  <string name="backup_export_title">Exportieren</string>
+  <string name="backup_import_title">Wiederherstellen</string>
+  <string name="backup_export_title">Sicherung</string>
   <string name="imexport_success">Erfolgreich!</string>
   <string name="imexport_error">Fehler: Datei konnte nicht kopiert werden</string>
-  <string name="imexport_no_backup_found">Keine Sicherungen gefunden</string>
-  <string name="imexport_external_storage_unreadable">Externer Speicher ist nicht lesbar (Berechtigung in den Einstellungen erforderlich)</string>
-  <string name="imexport_external_storage_unwritable">Externer Speicher ist nicht beschreibbar (Berechtigung in den Einstellungen erforderlich)</string>
   <string name="units_metric">Metrisch</string>
   <string name="units_imperial">Imperial</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->

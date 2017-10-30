@@ -235,8 +235,6 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">रीसेट करें</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">आयात करें</string>
-  <string name="backup_export_title">निर्यात करें</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">कुछ नहीं</string>
   <string name="icon_shape_none">कुछ नहीं</string>

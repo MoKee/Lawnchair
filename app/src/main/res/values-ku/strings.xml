@@ -148,8 +148,6 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">ڕێکخستنەوە</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">هێنان</string>
-  <string name="backup_export_title">ناردن</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">هیچیان</string>
   <string name="icon_shape_none">هیچیان</string>

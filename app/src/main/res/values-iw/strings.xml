@@ -240,8 +240,7 @@
   <string name="pref_cat_homescreen">מסך הבית</string>
   <string name="theme_dark">חשכה</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">ייבא</string>
-  <string name="backup_export_title">יצא</string>
+  <string name="backup_import_title">שחזר</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ללא</string>
   <string name="icon_shape_none">ללא</string>

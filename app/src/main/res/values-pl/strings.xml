@@ -243,7 +243,6 @@
   <string name="white_google_icon_pref_title">Użyj białej ikony Google</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="pixel_ui_pref_title">Motyw</string>
-  <string name="backup_pref_title">Utwórz kopię zapasową</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
   <string name="export_db_title">Baza danych</string>
   <string name="import_db_title">Baza danych</string>
@@ -259,8 +258,8 @@
   <string name="theme_black">Czarny</string>
   <string name="pull_down_do_nothing">Nic nie rób</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Importuj</string>
-  <string name="backup_export_title">Eksportuj</string>
+  <string name="backup_import_title">Przywróć</string>
+  <string name="backup_export_title">Utwórz kopię zapasową</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Pogoda</string>
   <string name="none">Brak</string>

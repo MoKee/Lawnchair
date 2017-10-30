@@ -235,7 +235,6 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">Ресетирај</string>
   <!-- Import/Export Strings -->
-  <string name="backup_export_title">Извези</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Нема</string>
   <string name="icon_shape_none">Нема</string>

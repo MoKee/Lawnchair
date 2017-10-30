@@ -279,7 +279,6 @@
   <string name="notification_access_pref_summary">允許 Lawnchair 存取您的通知權限以啟用此功能</string>
   <string name="general_pref_title">桌面</string>
   <string name="dock_pref_title">座架</string>
-  <string name="app_drawer_pref_title">應用程式清單</string>
   <string name="pixel_ui_pref_title">主題</string>
   <string name="behavior_pref_title">功能</string>
   <string name="debug_pref_title">除錯模式</string>
@@ -288,9 +287,7 @@
   <string name="dock_pref_summary">自訂您的座架列</string>
   <string name="app_drawer_pref_summary">自訂您的應用程式清單</string>
   <string name="pixel_ui_pref_summary">開啟 Pixel 啟動器特殊功能</string>
-  <string name="backup_pref_title">備份</string>
   <string name="behavior_pref_summary">改變 Lawnchair 的特性</string>
-  <string name="backup_pref_summary">備份您的資料庫和設定</string>
   <string name="debug_pref_summary">重新啟動或重建圖示資料庫</string>
   <string name="show_pixel_bar_pref_title">顯示 Pixel 頂列</string>
   <string name="use_wide_searchbar_pref_title">使用寬的搜尋列</string>
@@ -343,13 +340,10 @@
   <string name="pull_down_apps_search">應用程式搜尋</string>
   <string name="enable_screen_rotation">啟用螢幕旋轉</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">匯入</string>
-  <string name="backup_export_title">匯出</string>
+  <string name="backup_import_title">恢複</string>
+  <string name="backup_export_title">備份</string>
   <string name="imexport_success">成功！</string>
   <string name="imexport_error">錯誤：無法複製檔案</string>
-  <string name="imexport_no_backup_found">找不到備份</string>
-  <string name="imexport_external_storage_unreadable">外部儲存空間無法讀取 (授予權限設定)</string>
-  <string name="imexport_external_storage_unwritable">外部儲存空間無法寫入 (授予權限設定)</string>
   <string name="units_metric">公制</string>
   <string name="units_imperial">英制</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->

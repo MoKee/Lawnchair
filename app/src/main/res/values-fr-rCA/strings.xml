@@ -245,7 +245,6 @@
   <string name="num_rows_pref_title">Nombre de lignes</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="pixel_ui_pref_title">Thèmes</string>
-  <string name="backup_pref_title">Sauvegarder</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
   <string name="export_db_title">Base de données</string>
   <string name="import_db_title">Base de données</string>
@@ -262,8 +261,8 @@
   <string name="theme_black">Noir</string>
   <string name="pull_down_do_nothing">Ne rien faire</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Importer</string>
-  <string name="backup_export_title">Exporter</string>
+  <string name="backup_import_title">Restaurer</string>
+  <string name="backup_export_title">Sauvegarder</string>
   <string name="units_metric">Métrique</string>
   <string name="units_imperial">Impérial</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->

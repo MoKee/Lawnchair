@@ -234,8 +234,6 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">යළි පිහිටුවන්න</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">ආයාත කරන්න</string>
-  <string name="backup_export_title">නිර්යාත කරන්න</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">කිසිවක් නැත</string>
   <string name="icon_shape_none">කිසිවක් නැත</string>

@@ -229,8 +229,6 @@
   <string name="default_text">Vaikimisi</string>
   <string name="edit_icon_reset">Lähtesta</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Impordi</string>
-  <string name="backup_export_title">Ekspordi</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Mitte ühtegi</string>
   <string name="icon_shape_none">Mitte ühtegi</string>

@@ -234,7 +234,6 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">Қайта реттеу</string>
   <!-- Import/Export Strings -->
-  <string name="backup_export_title">Экспорттау</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Ешқандай</string>
   <string name="icon_shape_none">Ешқандай</string>

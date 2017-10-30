@@ -281,9 +281,7 @@
   <string name="pixel_ui_pref_title">Теми</string>
   <string name="behavior_pref_title">Поведінка</string>
   <string name="debug_pref_title">Налагодження</string>
-  <string name="backup_pref_title">Резервна копія</string>
   <string name="behavior_pref_summary">Змінити поведінку Lawnchair</string>
-  <string name="backup_pref_summary">Резервне копіювання бази даних і параметрів</string>
   <string name="debug_pref_summary">Перезавантаження або відновлення бази даних іконок</string>
   <string name="show_pixel_bar_pref_title">Показати верхню панель як у пікселів</string>
   <string name="use_wide_searchbar_pref_title">Використовувати широку пошукову панель</string>
@@ -336,13 +334,10 @@
   <string name="pull_down_apps_search">Пошук додатків</string>
   <string name="enable_screen_rotation">Увімкнути обертання екрана</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Імпортувати</string>
-  <string name="backup_export_title">Експортувати</string>
+  <string name="backup_import_title">Відновити</string>
+  <string name="backup_export_title">Резервна копія</string>
   <string name="imexport_success">Готово!</string>
   <string name="imexport_error">Помилка: Не вдалося скопіювати файл</string>
-  <string name="imexport_no_backup_found">Резервну копію не знайдено</string>
-  <string name="imexport_external_storage_unreadable">Зовнішне сховище недоступно для читання (надайте дозвіл в налаштуваннях)</string>
-  <string name="imexport_external_storage_unwritable">Зовнішне сховище недоступно для запису (надайте дозвіл в налаштуваннях)</string>
   <string name="units_metric">Метрична</string>
   <string name="units_imperial">Імперська</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->

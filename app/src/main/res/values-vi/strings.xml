@@ -237,7 +237,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Thông tin</string>
   <string name="pixel_ui_pref_title">Chủ đề</string>
-  <string name="backup_pref_title">Sao lưu</string>
   <string name="export_db_title">Dữ liệu</string>
   <string name="import_db_title">Dữ liệu</string>
   <string name="export_prefs_title">Cài đặt</string>
@@ -250,8 +249,8 @@
   <string name="theme_pref_title">Chủ đề</string>
   <string name="theme_dark">Tối</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Nhập</string>
-  <string name="backup_export_title">Xuất</string>
+  <string name="backup_import_title">Khôi phục</string>
+  <string name="backup_export_title">Sao lưu</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Không có</string>
   <string name="folder">Thư mục</string>

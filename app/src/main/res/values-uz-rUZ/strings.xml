@@ -235,7 +235,6 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">Tiklash</string>
   <!-- Import/Export Strings -->
-  <string name="backup_export_title">Export qilish</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Asl</string>
   <string name="icon_shape_none">Asl</string>

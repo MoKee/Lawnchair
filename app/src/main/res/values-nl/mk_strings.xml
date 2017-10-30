@@ -17,4 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
+  <string name="about_text_mk">Lawnchair is een Launcher-app gemaakt door Till Kottmann (bekend van deletescape). Het is gebaseerd op Launcher3 uit AOSP.</string>
+  <string name="about_localization_title">Lokalisatie</string>
+  <string name="about_localization_summary">Vertaal Lawnchair Launcher</string>
 </resources>

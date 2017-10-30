@@ -235,7 +235,6 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">ပြန်လည်စတင်စေရန်</string>
   <!-- Import/Export Strings -->
-  <string name="backup_export_title">ထုတ်ရန်</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">တစ်ခုမှမဟုတ်ပါ</string>
   <string name="icon_shape_none">တစ်ခုမှမဟုတ်ပါ</string>

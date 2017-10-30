@@ -246,8 +246,7 @@
   <string name="pref_cat_homescreen">Startskærm</string>
   <string name="theme_dark">Mørk</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Importer</string>
-  <string name="backup_export_title">Eksportér</string>
+  <string name="backup_import_title">Gendan</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Vejr</string>
   <string name="none">Ingen</string>

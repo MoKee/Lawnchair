@@ -179,6 +179,7 @@
   <string name="default_text">Default</string>
   <string name="pref_cat_homescreen">Home screen</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Restore</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="about_changelog">Changelog</string>
   <!-- Time format for Weather Widget -->

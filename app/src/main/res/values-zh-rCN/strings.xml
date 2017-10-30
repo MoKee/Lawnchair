@@ -288,9 +288,9 @@
   <string name="dock_pref_summary">定制您的停靠栏</string>
   <string name="app_drawer_pref_summary">定制您的应用抽屉</string>
   <string name="pixel_ui_pref_summary">不同的主题元素</string>
-  <string name="backup_pref_title">备份</string>
+  <string name="backup_pref_title">备份 &amp; 还原</string>
   <string name="behavior_pref_summary">更改 Lawnchair 行为</string>
-  <string name="backup_pref_summary">备份您的数据库和配置</string>
+  <string name="backup_pref_summary">备份 &amp; 还原您的设置和数据库</string>
   <string name="debug_pref_summary">重启或重建图标缓存</string>
   <string name="show_pixel_bar_pref_title">显示 Pixel 顶栏</string>
   <string name="use_wide_searchbar_pref_title">使用加宽搜索栏</string>
@@ -343,13 +343,18 @@
   <string name="pull_down_apps_search">查找应用</string>
   <string name="enable_screen_rotation">启用屏幕旋转</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">导入</string>
-  <string name="backup_export_title">导出</string>
+  <string name="backup_import_title">恢复授权</string>
+  <string name="backup_export_title">备份</string>
   <string name="imexport_success">成功</string>
+  <string name="settings_export_success">已成功备份设置</string>
+  <string name="settings_import_success">成功还原设置</string>
+  <string name="db_import_success">数据库恢复成功</string>
   <string name="imexport_error">错误： 无法复制文件</string>
+  <string name="export_error">无法备份</string>
+  <string name="import_error">无法恢复</string>
   <string name="imexport_no_backup_found">未找到备份</string>
-  <string name="imexport_external_storage_unreadable">外部存储不可读取（在系统设置中授予权限）</string>
-  <string name="imexport_external_storage_unwritable">外部存储不可写入（在系统设置中授予权限）</string>
+  <string name="imexport_external_storage_unreadable">使外部存储在设置中可读</string>
+  <string name="imexport_external_storage_unwritable">在设置中使外部存储可写</string>
   <string name="units_metric">公制</string>
   <string name="units_imperial">英制</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->

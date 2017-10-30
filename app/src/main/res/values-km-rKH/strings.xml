@@ -234,8 +234,6 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">កំណត់​ឡើងវិញ</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">នាំចូល</string>
-  <string name="backup_export_title">នាំ​ចេញ</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">គ្មាន</string>
   <string name="icon_shape_none">គ្មាន</string>

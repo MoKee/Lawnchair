@@ -236,7 +236,6 @@
   <string name="edit_icon_reset">रीसेट करा</string>
   <string name="theme_dark">गडद</string>
   <!-- Import/Export Strings -->
-  <string name="backup_export_title">निर्यात</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">काहीही नाही</string>
   <string name="icon_shape_none">काहीही नाही</string>

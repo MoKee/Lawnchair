@@ -142,7 +142,6 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="pixel_ui_pref_title">Tema</string>
-  <string name="backup_pref_title">Respaldar</string>
   <string name="export_db_title">Base de datos</string>
   <string name="import_db_title">Base de datos</string>
   <string name="pref_cat_miscellaneous">Miscelaina</string>
@@ -150,6 +149,7 @@
   <string name="theme_pref_title">Tema</string>
   <string name="theme_black">Prietu</string>
   <!-- Import/Export Strings -->
+  <string name="backup_export_title">Respaldar</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="folder">Carpeta</string>
   <string name="loading">Cargando…</string>

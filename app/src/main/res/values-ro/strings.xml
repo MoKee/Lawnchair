@@ -247,8 +247,7 @@
   <string name="theme_dark">Întunecat</string>
   <string name="theme_black">Negru</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Importaţi</string>
-  <string name="backup_export_title">Exportați</string>
+  <string name="backup_import_title">Restuarează</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Niciunul</string>
   <string name="folder">Dosar</string>

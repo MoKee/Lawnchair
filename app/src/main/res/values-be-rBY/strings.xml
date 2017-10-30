@@ -275,7 +275,6 @@
   <string name="pixel_ui_pref_title">Тэма</string>
   <string name="behavior_pref_title">Паводзіны</string>
   <string name="debug_pref_title">Адладка</string>
-  <string name="backup_pref_title">Рэзервовая копія</string>
   <string name="show_pixel_bar_pref_title">Паказаць радок пошуку</string>
   <string name="use_wide_searchbar_pref_title">Радок пошуку як у Android O</string>
   <string name="show_mic_pref_title">Паказваць кнопку Google асістэнта</string>
@@ -324,8 +323,8 @@
   <string name="pull_down_search">Адчыніць пошук</string>
   <string name="pull_down_apps_search">Пошук праграм</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Імпарт</string>
-  <string name="backup_export_title">Экспарт</string>
+  <string name="backup_import_title">Аднавіць з рэзервовай копіі</string>
+  <string name="backup_export_title">Рэзервовая копія</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Надвор\'е</string>
   <string name="none">Нічога</string>

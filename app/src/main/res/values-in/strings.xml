@@ -279,9 +279,7 @@
   <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Perilaku</string>
   <string name="debug_pref_title">Debug</string>
-  <string name="backup_pref_title">Cadangkan</string>
   <string name="behavior_pref_summary">Mengubah perilaku Lawnchair</string>
-  <string name="backup_pref_summary">Cadangkan database dan setelan</string>
   <string name="debug_pref_summary">Mulai ulang atau membangun kembali database ikon</string>
   <string name="show_pixel_bar_pref_title">Tampilkan bar atas Pixel</string>
   <string name="use_wide_searchbar_pref_title">Gunakan searchbar lebar</string>
@@ -334,13 +332,10 @@
   <string name="pull_down_apps_search">Cari aplikasi</string>
   <string name="enable_screen_rotation">Hidupkan rotasi layar</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Impor</string>
-  <string name="backup_export_title">Ekspor</string>
+  <string name="backup_import_title">Pulihkan</string>
+  <string name="backup_export_title">Cadangkan</string>
   <string name="imexport_success">Sukses!</string>
   <string name="imexport_error">Kesalahan: Gagal menyalin berkas</string>
-  <string name="imexport_no_backup_found">Tidak ada cadangan ditemukan</string>
-  <string name="imexport_external_storage_unreadable">Penyimpanan eksternal tidak dapat dibaca (berikan izin di setelan)</string>
-  <string name="imexport_external_storage_unwritable">Penyimpanan eksternal tidak dapat ditulisi (berikan izin di setelan)</string>
   <string name="units_metric">Metrik</string>
   <string name="units_imperial">Imperial</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->

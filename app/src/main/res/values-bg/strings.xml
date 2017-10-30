@@ -240,7 +240,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Относно</string>
   <string name="pixel_ui_pref_title">Тема</string>
-  <string name="backup_pref_title">Архивиране</string>
   <string name="export_db_title">База данни</string>
   <string name="import_db_title">База данни</string>
   <string name="export_prefs_title">Настройки</string>
@@ -255,8 +254,8 @@
   <string name="theme_black">Черно</string>
   <string name="pull_down_do_nothing">Не прави нищо</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Импортиране</string>
-  <string name="backup_export_title">Експортиране</string>
+  <string name="backup_import_title">Възстанови</string>
+  <string name="backup_export_title">Архивиране</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Прогноза за времето</string>
   <string name="none">Без</string>

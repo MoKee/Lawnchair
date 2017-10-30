@@ -243,7 +243,6 @@
   <string name="edit_icon_reset">পুনরায় সেট করুন</string>
   <string name="pref_cat_homescreen">Home screen</string>
   <!-- Import/Export Strings -->
-  <string name="backup_export_title">রপ্তানি</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">কোনো কিছুই নয়</string>
   <string name="icon_shape_none">কোনো কিছুই নয়</string>

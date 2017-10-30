@@ -158,7 +158,7 @@
   <string name="edit_icon_reset">மீட்டமை</string>
   <string name="theme_dark">அடர்</string>
   <!-- Import/Export Strings -->
-  <string name="backup_export_title">ஏற்றுமதி செய்</string>
+  <string name="backup_import_title">மீட்டெடுத்தல்</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ஏதுமில்லை</string>
   <string name="icon_shape_none">ஏதுமில்லை</string>

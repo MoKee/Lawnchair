@@ -268,8 +268,7 @@
   <string name="theme_dark">Escuro</string>
   <string name="theme_black">Preto</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Importar</string>
-  <string name="backup_export_title">Exportar</string>
+  <string name="backup_import_title">Restaurar</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Meteorologia</string>
   <string name="none">Nenhum</string>

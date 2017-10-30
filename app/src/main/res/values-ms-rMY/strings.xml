@@ -234,7 +234,7 @@
   <string name="edit_icon_reset">Tetapkan semula</string>
   <string name="pref_cat_homescreen">Skrin utama</string>
   <!-- Import/Export Strings -->
-  <string name="backup_export_title">Eksport</string>
+  <string name="backup_import_title">Pulihkan</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Tiada</string>
   <string name="icon_shape_none">Tiada</string>

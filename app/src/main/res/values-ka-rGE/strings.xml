@@ -235,8 +235,6 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">საწყის პრამეტრებზე დაბრუნება</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">იმპორტი</string>
-  <string name="backup_export_title">ექსპორტი</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">არც ერთი</string>
   <string name="icon_shape_none">არც ერთი</string>
