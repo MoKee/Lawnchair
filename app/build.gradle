@@ -29,8 +29,8 @@ if (localPropsFile.exists()) {
 }
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 27
+    buildToolsVersion '27.0.0'
 
     signingConfigs {
         travis {
@@ -48,7 +48,7 @@ android {
     }
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 26
+        targetSdkVersion 27
         applicationId "org.mokee.lawnchair"
         buildConfigField "boolean", "TRAVIS", System.getenv("TRAVIS") ?: "false"
         buildConfigField "boolean", "TAGGED_BUILD", System.getenv("TRAVIS_TAG") ? "true" : "false"
@@ -118,7 +118,7 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     provided fileTree(include: ['*.jar'], dir: 'src/main/libs')
-    def supportLibVersion = '26.1.0'
+    def supportLibVersion = '27.0.0'
     implementation "com.android.support:support-v4:${supportLibVersion}"
     implementation "com.android.support:recyclerview-v7:${supportLibVersion}"
     implementation "com.android.support:palette-v7:${supportLibVersion}"
