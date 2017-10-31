@@ -22,6 +22,7 @@
   <!-- Application name -->
   <!-- Default folder name -->
   <!-- Work folder name -->
+  <string name="work_folder_name">Gawain</string>
   <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
   <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
   <!-- SafeMode shortcut error string -->
@@ -44,6 +45,7 @@
   <!-- All applications label -->
   <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
+  <string name="all_apps_home_button_label">Tahanan</string>
   <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
   <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
   <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
@@ -76,6 +78,7 @@
   <!-- Text for widget add button -->
   <!-- Text for wallpaper change button -->
   <!-- Text for settings button -->
+  <string name="settings_button_text">Mga setting</string>
   <!-- Message shown when a feature is disabled by the administrator -->
   <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
   <!-- Strings for settings -->
@@ -83,6 +86,7 @@
   <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
   <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
   <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+  <string name="package_state_unknown">Hindi alam</string>
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
   <!-- Title for abandoned promise dialog. -->
@@ -117,6 +121,7 @@
   <!-- Accessibility confirmation for widget resize. -->
   <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
+  <string name="edit_drop_target_label">I-edit</string>
   <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
   <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
@@ -140,8 +145,13 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
+  <string name="export_prefs_title">Mga setting</string>
+  <string name="import_prefs_title">Mga setting</string>
+  <string name="edit_icon_reset">I-reset</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Pgsasabalik</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="about_version">Bersyon</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
 </resources>

@@ -245,11 +245,14 @@
   <string name="widgets_bottom_sheet_title">%1$s widgets</string>
   <!-- About Lawnchair -->
   <string name="about_title">Acerca de</string>
+  <string name="about_pref_summary">Conoce el equipo de Lawnchair</string>
   <string name="changelog_title">Registro de cambios de la build #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Paquete de iconos</string>
   <string name="icon_pack_preference_summary">Selecciona un paquete de íconos</string>
   <string name="hotseat_uses_extracted_colors_pref_title">El Dock usa el color del fondo de pantalla</string>
+  <string name="hotseat_show_arrow">Mostrar la flecha</string>
+  <string name="hotseat_show_page_indicator">Mostrar indicador de pagína</string>
   <string name="hotseat_uses_extracted_colors_pref_on">El Dock será coloreado con un color extraído de la imagen de fondo</string>
   <string name="hotseat_uses_extracted_colors_pref_off">El dock será gris ajustado al brillo del fondo de pantalla</string>
   <string name="transparent_hotseat_pref_title">Dock transparente</string>
@@ -257,24 +260,39 @@
   <string name="blur_pref_title">Habilitar desenfoque</string>
   <string name="blur_pref_summary">Aplicar efecto desenfoque a las partes de la interfaz que no son compatibles con los fondos de pantallas vivos</string>
   <string name="blur_radius_pref_title">Radio de desenfoque</string>
+  <string name="pref_iconLabelsInTwoLines">Etiqueta de los iconos en dos lineas</string>
   <string name="white_google_icon_pref_title">Usa el icono blanco de Google</string>
   <string name="hide_icon_labels_pref_title">Ocultar el nombre de la aplicaciones en la pantalla de inicio</string>
   <string name="hide_all_apps_icon_labels_pref_title">Ocultar icono de las etiquetas en el cajón</string>
   <string name="workspace_label_color_hue_pref_title">Color y etiquetas de aplicaciones de la pantalla de inicio</string>
+  <string name="workspace_label_color_variation_pref_title">Variante de color para las etiquetas de las aplicaciones en la pantalla de inicio</string>
   <string name="all_apps_opacity_pref_title">Opacidad del cajón de aplicaciones</string>
   <string name="num_cols_pref_title">Número de columnas</string>
   <string name="num_rows_pref_title">Número de filas</string>
   <string name="num_hotseat_icons_pref_title">Número de iconos en el dock</string>
   <string name="icon_scale_pref_title">Tamaño de iconos</string>
+  <string name="hotseat_height_scale">Escala de altura</string>
   <string name="icon_text_scale_pref_title">Tamaño del texto del icono</string>
+  <string name="icon_text_padding_scale_pref_title">Escala de relleno de icono</string>
   <string name="full_width_width_widgets_pref_title">Widgets de ancho completo</string>
   <string name="full_width_widgets_pref_summary">Permitir a los widgets mostrarse sobre todo el ancho sin relleno</string>
   <string name="notification_access_pref_title">Insignias de notificación y vista previa</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
+  <string name="general_pref_title">Escritorio</string>
   <string name="dock_pref_title">Base</string>
+  <string name="app_drawer_pref_title">Cajón de aplicaciones</string>
   <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Comportamiento</string>
   <string name="debug_pref_title">Depurar</string>
+  <string name="import_export_pref_title">Importar/Exportar</string>
+  <string name="general_pref_summary">Personaliza tú escritorio</string>
+  <string name="dock_pref_summary">Personaliza tú escritorio</string>
+  <string name="app_drawer_pref_summary">Personaliza tú cajón de aplicaciones</string>
+  <string name="pixel_ui_pref_summary">Diferentes elementos del tema</string>
+  <string name="backup_pref_title">Copia de seguridad &amp; restaurar</string>
+  <string name="behavior_pref_summary">Cambiar el comportamiento de Lawnchair</string>
+  <string name="backup_pref_summary">Backup\/restaurar su configuración y la base de datos</string>
+  <string name="debug_pref_summary">Reiniciar o reconstruir la base de datos de los iconos</string>
   <string name="show_pixel_bar_pref_title">Mostrar barra superior al estilo Pixel</string>
   <string name="use_wide_searchbar_pref_title">Usar barra de busqueda amplia</string>
   <string name="show_mic_pref_title">Mostrar botón del asistente de Google</string>
@@ -329,7 +347,16 @@
   <string name="backup_import_title">Restaurar</string>
   <string name="backup_export_title">Copia de seguridad</string>
   <string name="imexport_success">¡Hecho!</string>
+  <string name="settings_export_success">Configuración de copia de seguridad con éxito</string>
+  <string name="db_export_success">Configuración de copia de seguridad con éxito</string>
+  <string name="settings_import_success">Configuración de copia de seguridad con éxito</string>
+  <string name="db_import_success">Base de datos restaurada con éxito</string>
   <string name="imexport_error">Error: Error al copiar el archivo</string>
+  <string name="export_error">No copia de seguridad</string>
+  <string name="import_error">No se pudo restaurar</string>
+  <string name="imexport_no_backup_found">No encontró el archivo copia de seguridad</string>
+  <string name="imexport_external_storage_unreadable">Hacer legible en ajustes almacenamiento externo</string>
+  <string name="imexport_external_storage_unwritable">Hacer escribible en ajustes almacenamiento externo</string>
   <string name="units_metric">Métrico</string>
   <string name="units_imperial">Imperial</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
@@ -346,6 +373,7 @@
   <string name="dock_allapps"><![CDATA[Dock y Cajón]]></string>
   <string name="app_shortcuts">Accesos directos de aplicaciones</string>
   <string name="blur_effect">Efecto de desenfoque</string>
+  <string name="enable_editing_pref_title">Habilitar la edición de la pantalla de inicio</string>
   <string name="pref_weather_provider">Proveedor del tiempo</string>
   <string name="loading">Cargando...</string>
   <string name="icon_shape_override_label">Cambiar forma del icono</string>
@@ -357,6 +385,8 @@
   <string name="icon_shape_circle">Circular</string>
   <string name="icon_shape_teardrop">Lágrima</string>
   <string name="animated_clock_icon_title">Icono de reloj animado</string>
+  <string name="animated_clock_icon_alternative_clock_apps_title">Animar las aplicaciones de reloj alternativas</string>
+  <string name="animated_clock_icon_alternative_clock_apps_summary">Permitir esto si no usas reloj de Google como la aplicación de reloj por defecto</string>
   <string name="about_summary_title">Resumen</string>
   <string name="about_version">Versión</string>
   <string name="about_icon_designer">Diseño del icono de la aplicación</string>
@@ -370,6 +400,7 @@
   <string name="pref_weather_api_key_title">Clave API</string>
   <string name="about_changelog">Registro de cambios</string>
   <string name="pref_all_apps_custom_label_color">Utilizar color personalizado</string>
+  <string name="pref_all_apps_label_color_variation">Variante de color para las etiquetas de las aplicaciones en la pantalla de inicio</string>
   <string name="pref_all_apps_label_color">Color de las etiquetas de los iconos en el cajón</string>
   <string name="pref_num_rows_drawer">Número de columnas en el cajón</string>
   <string name="center_wallpaper_pref_title">Centrar el fondo de pantalla cuando sólo hay una página</string>
@@ -382,4 +413,5 @@
   <string name="google_app_not_found">Google app no instalada</string>
   <string name="popup_card_theme_title">Emergente de estilo plano</string>
   <string name="set_default_launcher">Establecer el Launcher predeterminado</string>
+  <string name="enable_spring_pref_title">Activar efecto muelle</string>
 </resources>

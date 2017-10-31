@@ -280,6 +280,7 @@
   <string name="notification_access_pref_summary">Geef Lawnchair toestemming tot uw notificaties om deze functie in te schakelen</string>
   <string name="general_pref_title">Bureaublad</string>
   <string name="dock_pref_title">Dock</string>
+  <string name="app_drawer_pref_title">App-overzicht</string>
   <string name="pixel_ui_pref_title">Thema</string>
   <string name="behavior_pref_title">Gedrag</string>
   <string name="debug_pref_title">Debug</string>
@@ -288,7 +289,9 @@
   <string name="dock_pref_summary">Pas je App-overzicht aan</string>
   <string name="app_drawer_pref_summary">App-overzicht aanpassen</string>
   <string name="pixel_ui_pref_summary">Verschillende thema-elementen</string>
+  <string name="backup_pref_title">Back-up &amp; Herstellen</string>
   <string name="behavior_pref_summary">Wijzig het gedrag van Lawnchair</string>
+  <string name="backup_pref_summary">Backup\/herstel uw instellingen en database</string>
   <string name="debug_pref_summary">Herstarten of opnieuw opbouwen van iconen database</string>
   <string name="show_pixel_bar_pref_title">Toon Pixel balk</string>
   <string name="use_wide_searchbar_pref_title">Gebruik brede zoekbalk</string>
@@ -344,7 +347,16 @@
   <string name="backup_import_title">Terugzetten</string>
   <string name="backup_export_title">Back-up maken</string>
   <string name="imexport_success">Success!</string>
+  <string name="settings_export_success">Back-up instellingen succesvol</string>
+  <string name="db_export_success">Back-up database succesvol</string>
+  <string name="settings_import_success">Instellingen zijn succesvol hersteld</string>
+  <string name="db_import_success">Instellingen zijn succesvol hersteld</string>
   <string name="imexport_error">Fout: Bestand kopiëren mislukt</string>
+  <string name="export_error">Back-up niet succesvol</string>
+  <string name="import_error">Herstellen niet gelukt</string>
+  <string name="imexport_no_backup_found">Geen back-up gevonden</string>
+  <string name="imexport_external_storage_unreadable">Maak externe opslag leesbaar in instellingen</string>
+  <string name="imexport_external_storage_unwritable">Maak externe opslag schrijfbaar in instellingen</string>
   <string name="units_metric">Metrisch</string>
   <string name="units_imperial">Imperiaal</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
