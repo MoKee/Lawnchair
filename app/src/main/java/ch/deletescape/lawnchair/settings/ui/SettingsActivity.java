@@ -18,7 +18,6 @@
 package ch.deletescape.lawnchair.settings.ui;
 
 import android.Manifest;
-import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -58,7 +57,6 @@ import ch.deletescape.lawnchair.graphics.IconShapeOverride;
 import ch.deletescape.lawnchair.misc.LicenseUtils;
 import ch.deletescape.lawnchair.preferences.IPreferenceProvider;
 import ch.deletescape.lawnchair.preferences.PreferenceFlags;
-import ch.deletescape.lawnchair.util.SharedPreferenceDataStore;
 
 /**
  * Settings activity for Launcher. Currently implements the following setting: Allow rotation
@@ -301,16 +299,9 @@ public class SettingsActivity extends AppCompatActivity implements
                             Toast.makeText(getActivity(), R.string.location_permission_warn, Toast.LENGTH_SHORT).show();
                         }
                         break;
-//                    case "about_translators":
-//                        Dialog dialog = new Dialog(getActivity());
-//                        dialog.setTitle(R.string.about_translators);
-//                        dialog.setContentView(R.layout.dialog_translators);
-//                        dialog.show();
-//                        break;
                     case "about_localization":
                         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://translate.mokeedev.com/"));
                         startActivity(i);
-                        break;
                     default:
                         return false;
                 }

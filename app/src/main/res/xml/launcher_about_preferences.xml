@@ -18,10 +18,6 @@
         android:title="@string/about_contributors_title"
         android:summary="paphonb, fonix232, divadsn, Rawi666, MoKee Team" />
 
-    <!--<Preference-->
-        <!--android:title="@string/about_translators"-->
-        <!--android:key="about_translators" />-->
-
     <Preference
         android:key="about_localization"
         android:title="@string/about_localization_title"
