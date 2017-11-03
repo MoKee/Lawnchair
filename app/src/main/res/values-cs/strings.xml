@@ -281,6 +281,7 @@
   <string name="notification_access_pref_summary">Pro zapnutí této funkce povolte spouštěči Lawnchair přístup k vašim upozorněním</string>
   <string name="general_pref_title">Plocha</string>
   <string name="dock_pref_title">Dok</string>
+  <string name="app_drawer_pref_title">Seznam aplikací</string>
   <string name="pixel_ui_pref_title">Motiv vzhledu</string>
   <string name="behavior_pref_title">Chování</string>
   <string name="debug_pref_title">Ladění</string>
@@ -289,7 +290,9 @@
   <string name="dock_pref_summary">Přizpůsobit dok</string>
   <string name="app_drawer_pref_summary">Přizpůsobit seznam aplikací</string>
   <string name="pixel_ui_pref_summary">Povolit exkluzivní funkce spouštěče Pixel</string>
+  <string name="backup_pref_title">Zálohování a obnovení</string>
   <string name="behavior_pref_summary">Změnit chování Lawnchair</string>
+  <string name="backup_pref_summary">Zálohovat\/obnovit vaše nastavení a databázi</string>
   <string name="debug_pref_summary">Restartovat nebo znovu vytvořit ikonu databáze</string>
   <string name="show_pixel_bar_pref_title">Zobrazit Pixel horní panel</string>
   <string name="use_wide_searchbar_pref_title">Použít široký vyhledávací panel</string>
@@ -345,7 +348,16 @@
   <string name="backup_import_title">Obnovení</string>
   <string name="backup_export_title">Záloha</string>
   <string name="imexport_success">Hotovo!</string>
+  <string name="settings_export_success">Nastavení bylo úspěšně zálohováno</string>
+  <string name="db_export_success">Databáze byla úspěšně zálohována</string>
+  <string name="settings_import_success">Nastavení bylo úspěšně obnoveno</string>
+  <string name="db_import_success">Databáze byla úspěšně obnovena</string>
   <string name="imexport_error">Chyba: Nepodařilo se zkopírovat soubor</string>
+  <string name="export_error">Nelze zálohovat</string>
+  <string name="import_error">Nelze obnovit</string>
+  <string name="imexport_no_backup_found">Nebyl nalezen žádný záložní soubor</string>
+  <string name="imexport_external_storage_unreadable">Ujistěte se, že externí úložiště je nastaveno pro čtení</string>
+  <string name="imexport_external_storage_unwritable">Ujistěte se, že externí úložiště je nastaveno pro zápis</string>
   <string name="units_metric">Metrické</string>
   <string name="units_imperial">Imperiální</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
