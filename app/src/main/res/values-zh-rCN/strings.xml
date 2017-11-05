@@ -347,6 +347,7 @@
   <string name="backup_export_title">备份</string>
   <string name="imexport_success">成功</string>
   <string name="settings_export_success">已成功备份设置</string>
+  <string name="db_export_success">数据库备份成功。</string>
   <string name="settings_import_success">成功还原设置</string>
   <string name="db_import_success">数据库恢复成功</string>
   <string name="imexport_error">错误： 无法复制文件</string>
