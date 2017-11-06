@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
-  <string name="about_text_mk">Lawnchair 是由 Till Kottmann(deletescape) 建立的啟動器應用程式，為魔趣 ROM 所用 ，基於 AOSP 的 Launcher3。</string>
+  <string name="about_text_mk">Lawnchair 是由 Till Kottmann(deletescape) 建立的啟動器應用程式，為MoKee ROM 所用 ，基於 AOSP 的 Launcher3。</string>
   <string name="about_localization_title">本土化</string>
   <string name="about_localization_summary">翻譯 Lawnchair 啟動器</string>
 </resources>

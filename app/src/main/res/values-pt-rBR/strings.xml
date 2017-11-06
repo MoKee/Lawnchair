@@ -245,6 +245,7 @@
   <string name="widgets_bottom_sheet_title">%1$s widgets</string>
   <!-- About Lawnchair -->
   <string name="about_title">Sobre</string>
+  <string name="about_pref_summary">Conheça sobre a equipe de Lawnchair</string>
   <string name="changelog_title">Alterações para a versão #%d</string>
   <string name="week_day_format">%1$s: %2$s</string>
   <string name="icon_pack_preference_title">Pacote de Ícones</string>
@@ -264,6 +265,7 @@
   <string name="hide_icon_labels_pref_title">Ocultar rótulos dos ícones na tela inicial</string>
   <string name="hide_all_apps_icon_labels_pref_title">Ocultar as legendas dos ícones na gaveta</string>
   <string name="workspace_label_color_hue_pref_title">Cor dos rótulos dos ícones na tela inicial</string>
+  <string name="workspace_label_color_variation_pref_title">Variação de cor dos rótulos dos ícones na tela inicial</string>
   <string name="all_apps_opacity_pref_title">Opacidade de gaveta</string>
   <string name="num_cols_pref_title">Número de colunas</string>
   <string name="num_rows_pref_title">Número de linhas</string>
@@ -276,11 +278,20 @@
   <string name="full_width_widgets_pref_summary">Permitir que os widgets abranger a largura inteira sem preenchimento</string>
   <string name="notification_access_pref_title">Visualização e emblemas de notificação</string>
   <string name="notification_access_pref_summary">Permitir o Lawnchair acessar as suas notificações para mostra uma previa delas</string>
+  <string name="general_pref_title">Área de Trabalho</string>
   <string name="dock_pref_title">Dock</string>
+  <string name="app_drawer_pref_title">Gaveta de aplicativos</string>
   <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Comportamento</string>
   <string name="debug_pref_title">Depuração</string>
+  <string name="import_export_pref_title">Importar/Exportar</string>
+  <string name="general_pref_summary">Personalize sua área de trabalho</string>
+  <string name="dock_pref_summary">Personalize seu Dock</string>
+  <string name="app_drawer_pref_summary">Personalizar sua gaveta de aplicativos</string>
+  <string name="pixel_ui_pref_summary">Diferentes elementos do tema</string>
+  <string name="backup_pref_title">Backup &amp; restauração</string>
   <string name="behavior_pref_summary">Mudar o comportamento do Lawnchair</string>
+  <string name="backup_pref_summary">Backup\/restaurar suas configurações e banco de dados</string>
   <string name="debug_pref_summary">Reiniciar ou reconstruir o banco de dados dos ícones</string>
   <string name="show_pixel_bar_pref_title">Mostrar a barra superior do Pixel</string>
   <string name="use_wide_searchbar_pref_title">Use uma barra de pesquisa circular</string>
@@ -336,7 +347,16 @@
   <string name="backup_import_title">Restaurar</string>
   <string name="backup_export_title">Backup</string>
   <string name="imexport_success">Sucesso!</string>
+  <string name="settings_export_success">Backup de configurações realizado com sucesso</string>
+  <string name="db_export_success">Backup de banco de dados realizado com sucesso</string>
+  <string name="settings_import_success">Restauração de configurações realizado com sucesso</string>
+  <string name="db_import_success">Restauração de banco de dados realizado com sucesso</string>
   <string name="imexport_error">Erro: Falha ao copiar o arquivo</string>
+  <string name="export_error">Não foi possível fazer o backup</string>
+  <string name="import_error">Não foi possível fazer a resutauração</string>
+  <string name="imexport_no_backup_found">Nenhum backup encontrado</string>
+  <string name="imexport_external_storage_unreadable">Tornar o armazenamento externo legível em configurações</string>
+  <string name="imexport_external_storage_unwritable">Tornar o armazenamento externo gravável em configurações</string>
   <string name="units_metric">Métrico</string>
   <string name="units_imperial">Imperial</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
@@ -353,6 +373,7 @@
   <string name="dock_allapps"><![CDATA[Doca & gaveta]]></string>
   <string name="app_shortcuts">Atalhos do App</string>
   <string name="blur_effect">Efeito de desfoque</string>
+  <string name="enable_editing_pref_title">Habilitar edição de espaço de trabalho</string>
   <string name="pref_weather_provider">Provedor de previsão do tempo</string>
   <string name="loading">Carregando…</string>
   <string name="icon_shape_override_label">Alterar o formato dos Icones</string>
@@ -379,6 +400,7 @@
   <string name="pref_weather_api_key_title">Chave de API</string>
   <string name="about_changelog">Registro de alterações</string>
   <string name="pref_all_apps_custom_label_color">Usar cor personalizada</string>
+  <string name="pref_all_apps_label_color_variation">Variação de cor dos rótulos dos ícones na tela inicial</string>
   <string name="pref_all_apps_label_color">Cor dos rótulos de ícones na gaveta</string>
   <string name="pref_num_rows_drawer">Número de colunas na gaveta</string>
   <string name="center_wallpaper_pref_title">Centralizar papel de parede quando houver apenas uma página</string>
@@ -391,4 +413,5 @@
   <string name="google_app_not_found">Aplicativo Google não instalado</string>
   <string name="popup_card_theme_title">Pop-up estilo fino</string>
   <string name="set_default_launcher">Definir como Launcher padrão</string>
+  <string name="enable_spring_pref_title">Habilitar o efeito mola</string>
 </resources>

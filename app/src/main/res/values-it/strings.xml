@@ -245,11 +245,14 @@
   <string name="widgets_bottom_sheet_title">%1$s widget</string>
   <!-- About Lawnchair -->
   <string name="about_title">Info</string>
+  <string name="about_pref_summary">Conosci il Team di Lawnchair</string>
   <string name="changelog_title">Changelog della versione #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Pacchetto Icone</string>
   <string name="icon_pack_preference_summary">Seleziona un pacchetto icone</string>
   <string name="hotseat_uses_extracted_colors_pref_title">La dock utilizza il colore dello sfondo</string>
+  <string name="hotseat_show_arrow">Mostra freccia</string>
+  <string name="hotseat_show_page_indicator">Mostra l\'indicatore di pagina</string>
   <string name="hotseat_uses_extracted_colors_pref_on">La dock verrà colorata con un colore estratto dallo sfondo</string>
   <string name="hotseat_uses_extracted_colors_pref_off">La dock sarà grigia ma adattata alla luminosità dello sfondo</string>
   <string name="transparent_hotseat_pref_title">Dock trasparente</string>
@@ -257,24 +260,39 @@
   <string name="blur_pref_title">Attiva effetto sfocato</string>
   <string name="blur_pref_summary">Applica un effetto di sfocatura a parti dell\'interfaccia\nNon compatibile con sfondi animati</string>
   <string name="blur_radius_pref_title">Raggio sfocatura</string>
+  <string name="pref_iconLabelsInTwoLines">Etichette delle icone su due righe</string>
   <string name="white_google_icon_pref_title">Utilizza l\'icona bianca per Google</string>
   <string name="hide_icon_labels_pref_title">Nascondi le etichette delle icone nella schermata home</string>
   <string name="hide_all_apps_icon_labels_pref_title">Nascondi le icone in modalità disegno</string>
   <string name="workspace_label_color_hue_pref_title">Colore delle etichette delle icone nella schermata home</string>
+  <string name="workspace_label_color_variation_pref_title">Variazione di colore per le etichette nella schermata home</string>
   <string name="all_apps_opacity_pref_title">Opacità menù delle applicazioni</string>
   <string name="num_cols_pref_title">Numero di colonne</string>
   <string name="num_rows_pref_title">Numero di righe</string>
   <string name="num_hotseat_icons_pref_title">Numero di icone nella dock</string>
   <string name="icon_scale_pref_title">Grandezza icone</string>
+  <string name="hotseat_height_scale">Scala di altezza</string>
   <string name="icon_text_scale_pref_title">Grandezza testo icone</string>
+  <string name="icon_text_padding_scale_pref_title">Scala per il padding delle icone</string>
   <string name="full_width_width_widgets_pref_title">Widget a piena larghezza</string>
   <string name="full_width_widgets_pref_summary">Consente ai widget di estendersi lungo tutta la larghezza dello schermo</string>
   <string name="notification_access_pref_title">Badge di notifica e anteprima</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
+  <string name="general_pref_title">Desktop</string>
   <string name="dock_pref_title">Dock</string>
+  <string name="app_drawer_pref_title">App Drawer</string>
   <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Comportamento</string>
   <string name="debug_pref_title">Debug</string>
+  <string name="import_export_pref_title">Importa/Esporta</string>
+  <string name="general_pref_summary">Personalizza la tua homescreen</string>
+  <string name="dock_pref_summary">Personalizza la tua dock</string>
+  <string name="app_drawer_pref_summary">Personalizza l\'app drawer</string>
+  <string name="pixel_ui_pref_summary">Imposta le caratteristiche del Pixel Laucher</string>
+  <string name="backup_pref_title">Backup &amp; ripristina</string>
+  <string name="behavior_pref_summary">Cambia le gesture di Lawnchair</string>
+  <string name="backup_pref_summary">Backup\/ripristina dati e impostazioni di Lawnchair</string>
+  <string name="debug_pref_summary">Resetta i cambiamenti delle icone</string>
   <string name="show_pixel_bar_pref_title">Mostra la barra Pixel in alto</string>
   <string name="use_wide_searchbar_pref_title">Usa la barra di ricerca estesa</string>
   <string name="show_mic_pref_title">Mostra il pulsante di Google Assistant</string>
@@ -329,7 +347,16 @@
   <string name="backup_import_title">Ripristina</string>
   <string name="backup_export_title">Backup</string>
   <string name="imexport_success">Completato!</string>
+  <string name="settings_export_success">Backup delle impostazioni completato</string>
+  <string name="db_export_success">Backup del database completato</string>
+  <string name="settings_import_success">Ripristino delle impostazioni completato</string>
+  <string name="db_import_success">Ripristino del database completato</string>
   <string name="imexport_error">Errore: Impossibile copiare il file</string>
+  <string name="export_error">Impossibile eseguire il backup</string>
+  <string name="import_error">Impossibile eseguire il ripristino</string>
+  <string name="imexport_no_backup_found">Nessun file di backup trovato</string>
+  <string name="imexport_external_storage_unreadable">Rendi la memoria esterna leggibile nelle impostazioni</string>
+  <string name="imexport_external_storage_unwritable">Rendi la memoria esterna scrivibile nelle impostazioni</string>
   <string name="units_metric">Metrica</string>
   <string name="units_imperial">Imperiale</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
@@ -346,6 +373,7 @@
   <string name="dock_allapps"><![CDATA[Dock & tutte le applicazioni]]></string>
   <string name="app_shortcuts">Scorciatoie applicazioni</string>
   <string name="blur_effect">Effetto sfocatura</string>
+  <string name="enable_editing_pref_title">Attiva la possibilità di modificare la schermata principale</string>
   <string name="pref_weather_provider">Previsioni meteo</string>
   <string name="loading">Caricamento...</string>
   <string name="icon_shape_override_label">Cambia la forma dell\'icona</string>
@@ -357,6 +385,8 @@
   <string name="icon_shape_circle">Cerchio</string>
   <string name="icon_shape_teardrop">Goccia</string>
   <string name="animated_clock_icon_title">Icona dell\'orologio animata</string>
+  <string name="animated_clock_icon_alternative_clock_apps_title">Icona animata per app alternative per l\'orologio</string>
+  <string name="animated_clock_icon_alternative_clock_apps_summary">Attiva quest\'opzione se non usi l\'orologio Google come app predefinita per l\'orologio</string>
   <string name="about_summary_title">Indice</string>
   <string name="about_version">Versione</string>
   <string name="about_icon_designer">Designer delle icone delle App</string>
@@ -365,10 +395,12 @@
   <string name="num_cols_drawer_pref_title">Numero di colonne nella modalità drawer</string>
   <string name="pref_cat_drawer">Modalità disegno</string>
   <string name="shortcut_backport_warning">Potrebbe essere lento, usa a tuo rischio e pericolo</string>
+  <string name="pref_backport_shortcuts">Backport shortcuts</string>
   <string name="weather_api_key_not_set">Chiave API non impostata</string>
   <string name="pref_weather_api_key_title">Chiave API</string>
   <string name="about_changelog">Modifiche di Versione</string>
   <string name="pref_all_apps_custom_label_color">Usa colore personalizzato</string>
+  <string name="pref_all_apps_label_color_variation">Variazione di colore per le etichette delle icone del menu delle applicazioni</string>
   <string name="pref_all_apps_label_color">Colore delle icone della modalità disegno</string>
   <string name="pref_num_rows_drawer">Numero di righe nella modalità disegno</string>
   <string name="center_wallpaper_pref_title">Centra lo sfondo quando c\'è una sola pagina</string>
@@ -381,4 +413,5 @@
   <string name="google_app_not_found">App di Google non installata</string>
   <string name="popup_card_theme_title">Stile predefinito del popup</string>
   <string name="set_default_launcher">Imposta come laumcher predefinito</string>
+  <string name="enable_spring_pref_title">Attiva effetto a molla</string>
 </resources>
