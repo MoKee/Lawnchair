@@ -414,4 +414,5 @@
   <string name="popup_card_theme_title">Stile predefinito del popup</string>
   <string name="set_default_launcher">Imposta come laumcher predefinito</string>
   <string name="enable_spring_pref_title">Attiva effetto a molla</string>
+  <string name="unauthorized_device">Questo dispositivo dispone di alcuni strumenti per la pirateria. Si prega di disinstallarli per continuare.</string>
 </resources>

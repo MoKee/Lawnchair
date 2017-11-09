@@ -288,7 +288,7 @@
   <string name="dock_pref_summary">自訂您的Dock欄</string>
   <string name="app_drawer_pref_summary">自訂您的應用程式清單</string>
   <string name="pixel_ui_pref_summary">開啟 Pixel 啟動器特殊功能</string>
-  <string name="backup_pref_title">備份&amp; 還原</string>
+  <string name="backup_pref_title">備份與還原</string>
   <string name="behavior_pref_summary">改變 Lawnchair 的特性</string>
   <string name="backup_pref_summary">備份 \/還原您的設定和資料庫</string>
   <string name="debug_pref_summary">重新啟動或重建圖示資料庫</string>
@@ -343,7 +343,7 @@
   <string name="pull_down_apps_search">應用程式搜尋</string>
   <string name="enable_screen_rotation">啟用螢幕旋轉</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">恢複</string>
+  <string name="backup_import_title">還原</string>
   <string name="backup_export_title">備份</string>
   <string name="imexport_success">成功！</string>
   <string name="settings_export_success">設定備份成功</string>
@@ -413,4 +413,5 @@
   <string name="popup_card_theme_title">平面樣式的彈出選單</string>
   <string name="set_default_launcher">設定預設啟動器</string>
   <string name="enable_spring_pref_title">啟用彈簧效果</string>
+  <string name="unauthorized_device">此裝置安裝了一些盜版工具，請解除安裝它們以便繼續。</string>
 </resources>
