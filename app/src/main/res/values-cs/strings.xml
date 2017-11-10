@@ -415,4 +415,5 @@
   <string name="popup_card_theme_title">Plochý styl vyskakujících oken</string>
   <string name="set_default_launcher">Nastavit výchozí spouštěč</string>
   <string name="enable_spring_pref_title">Povolit efekt pružiny</string>
+  <string name="unauthorized_device">Toto zařízení má nainstalovány nástroje pro pirátství. Odinstalujte je a pokračujte.</string>
 </resources>
