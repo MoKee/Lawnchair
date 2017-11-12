@@ -297,4 +297,6 @@
   <string name="about_changelog">Değişiklik kaydı</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="hide_app_apply">Uygula</string>
+  <string name="hide_app_reset">Sıfırla</string>
 </resources>

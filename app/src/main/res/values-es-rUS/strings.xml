@@ -376,7 +376,6 @@
   <string name="enable_editing_pref_title">Habilitar la edición de la pantalla de inicio</string>
   <string name="pref_weather_provider">Proveedor del tiempo</string>
   <string name="loading">Cargando...</string>
-  <string name="icon_shape_override_label">Cambiar forma del icono</string>
   <string name="icon_shape_system_default">No cambiar</string>
   <string name="icon_shape_none">Ninguno</string>
   <string name="icon_shape_square">Cuadrado</string>
@@ -414,4 +413,6 @@
   <string name="popup_card_theme_title">Emergente de estilo plano</string>
   <string name="set_default_launcher">Establecer el Launcher predeterminado</string>
   <string name="enable_spring_pref_title">Activar efecto muelle</string>
+  <string name="hide_app_apply">Aplicar</string>
+  <string name="hide_app_reset">Restablecer</string>
 </resources>

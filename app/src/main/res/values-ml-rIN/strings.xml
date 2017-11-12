@@ -245,4 +245,6 @@
   <string name="about_changelog">ചേഞ്ച് ലോഗ്</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="hide_app_apply">പ്രയോഗിക്കുക</string>
+  <string name="hide_app_reset">പുനഃസജ്ജമാക്കുക</string>
 </resources>

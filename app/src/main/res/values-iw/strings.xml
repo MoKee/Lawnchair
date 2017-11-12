@@ -248,4 +248,6 @@
   <string name="about_changelog">יומן שינויים</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="hide_app_apply">החל</string>
+  <string name="hide_app_reset">אפס</string>
 </resources>

@@ -277,4 +277,6 @@
   <string name="lawnfeed_not_found">Lawnfeed가 설치 되지 않았습니다.</string>
   <string name="google_app_not_found">Google 앱이 설치 되지 않았습니다</string>
   <string name="set_default_launcher">기본 런처 설정</string>
+  <string name="hide_app_apply">적용</string>
+  <string name="hide_app_reset">초기화</string>
 </resources>

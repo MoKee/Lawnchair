@@ -377,7 +377,6 @@
   <string name="enable_editing_pref_title">Уключыць рэдагаванне хатняга экрана</string>
   <string name="pref_weather_provider">Пастаўшчыкі надвор\'я</string>
   <string name="loading">Загрузка…</string>
-  <string name="icon_shape_override_label">Змяніць форму значкоў</string>
   <string name="icon_shape_system_default">Не змяняць</string>
   <string name="icon_shape_none">Нічога</string>
   <string name="icon_shape_square">Квадратны</string>
@@ -415,4 +414,6 @@
   <string name="popup_card_theme_title">Плоскі стыль усплываючых вокнаў</string>
   <string name="set_default_launcher">Усталяваць лаунчэр па змаўчанні</string>
   <string name="enable_spring_pref_title">Уключыць эфект спружыны</string>
+  <string name="hide_app_apply">Ужыць</string>
+  <string name="hide_app_reset">Скінуць</string>
 </resources>

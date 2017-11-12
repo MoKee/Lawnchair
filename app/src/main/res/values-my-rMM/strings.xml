@@ -241,4 +241,6 @@
   <string name="about_version">ဗားရှင်း</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="hide_app_apply">လုပ်ဆောင်ရန်</string>
+  <string name="hide_app_reset">ပြန်လည်စတင်စေရန်</string>
 </resources>

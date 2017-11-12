@@ -240,4 +240,6 @@
   <string name="about_version">Bersyon</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="hide_app_apply">Ilapat</string>
+  <string name="hide_app_reset">I-reset</string>
 </resources>

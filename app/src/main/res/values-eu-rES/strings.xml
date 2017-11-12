@@ -246,4 +246,6 @@
   <string name="about_version">Bertsioa</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="hide_app_apply">Aplikatu</string>
+  <string name="hide_app_reset">Berrezarri</string>
 </resources>

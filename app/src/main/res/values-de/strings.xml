@@ -350,7 +350,6 @@
   <string name="blur_effect">Unschärfe-Effekt</string>
   <string name="pref_weather_provider">Wetter-Anbieter</string>
   <string name="loading">Wird geladen...</string>
-  <string name="icon_shape_override_label">Symbol-Form ändern</string>
   <string name="icon_shape_system_default">Nicht ändern</string>
   <string name="icon_shape_none">Kein</string>
   <string name="icon_shape_square">Quadrat</string>
@@ -384,4 +383,6 @@
   <string name="google_app_not_found">Google-App nicht installiert</string>
   <string name="popup_card_theme_title">Flaches Popup-Design</string>
   <string name="set_default_launcher">Standard-Launcher</string>
+  <string name="hide_app_apply">Übernehmen</string>
+  <string name="hide_app_reset">Zurücksetzen</string>
 </resources>

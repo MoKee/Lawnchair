@@ -241,4 +241,6 @@
   <string name="about_version">Хувилбар</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="hide_app_apply">Ашиглах</string>
+  <string name="hide_app_reset">Бүгдийг цэвэрлэх</string>
 </resources>

@@ -243,4 +243,6 @@
   <string name="about_version">ಆವೃತ್ತಿ</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="hide_app_apply">ಅನ್ವಯಿಸು</string>
+  <string name="hide_app_reset">ಮರುಹೊಂದಿಸು</string>
 </resources>

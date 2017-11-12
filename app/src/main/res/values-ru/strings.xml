@@ -364,7 +364,6 @@
   <string name="enable_editing_pref_title">Включить редактирование главного экрана</string>
   <string name="pref_weather_provider">Поставщик данных</string>
   <string name="loading">Загрузка...</string>
-  <string name="icon_shape_override_label">Изменить форму значка</string>
   <string name="icon_shape_system_default">Не изменять</string>
   <string name="icon_shape_none">Оригинал</string>
   <string name="icon_shape_square">Квадрат</string>
@@ -400,4 +399,6 @@
   <string name="google_app_not_found">Приложение Google не установлено</string>
   <string name="popup_card_theme_title">Плоский стиль всплывающих окон</string>
   <string name="set_default_launcher">Установить лаунчер по умолчанию</string>
+  <string name="hide_app_apply">Применить</string>
+  <string name="hide_app_reset">Сброс</string>
 </resources>

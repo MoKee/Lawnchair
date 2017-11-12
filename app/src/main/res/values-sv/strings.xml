@@ -282,4 +282,6 @@
   <string name="about_changelog">Ändringslog</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="hide_app_apply">Använd</string>
+  <string name="hide_app_reset">Återställ</string>
 </resources>

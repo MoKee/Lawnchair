@@ -242,4 +242,6 @@
   <string name="about_version">Weergawe</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="hide_app_apply">Pas toe</string>
+  <string name="hide_app_reset">Stel terug</string>
 </resources>

@@ -327,7 +327,6 @@
   <string name="blur_effect">Učinek zameglitve</string>
   <string name="pref_weather_provider">Ponudnik vremena</string>
   <string name="loading">Nalaganje…</string>
-  <string name="icon_shape_override_label">Spremeni obliko ikone</string>
   <string name="icon_shape_system_default">Ne spreminjaj</string>
   <string name="icon_shape_none">Brez</string>
   <string name="icon_shape_square">Kvadrat</string>
@@ -348,4 +347,6 @@
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
+  <string name="hide_app_apply">Uporabi</string>
+  <string name="hide_app_reset">Ponastavi</string>
 </resources>

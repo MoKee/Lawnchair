@@ -261,4 +261,6 @@
   <string name="about_changelog">Nhật ký thay đổi</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="hide_app_apply">Áp dụng</string>
+  <string name="hide_app_reset">Đặt lại</string>
 </resources>

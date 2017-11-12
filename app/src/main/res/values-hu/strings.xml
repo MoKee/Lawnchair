@@ -266,4 +266,6 @@
   <string name="about_changelog">Változások naplója</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="hide_app_apply">Alkalmaz</string>
+  <string name="hide_app_reset">Visszaállítás</string>
 </resources>

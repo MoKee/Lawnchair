@@ -377,7 +377,6 @@
   <string name="enable_editing_pref_title">Aanpassen van Home scherm activeren</string>
   <string name="pref_weather_provider">Weeraanbieder</string>
   <string name="loading">Laden…</string>
-  <string name="icon_shape_override_label">Icoon vorm wijzigen</string>
   <string name="icon_shape_system_default">Niet wijzigen a.u.b.</string>
   <string name="icon_shape_none">Geen</string>
   <string name="icon_shape_square">Vierkant</string>
@@ -415,4 +414,6 @@
   <string name="popup_card_theme_title">Vlakke stijl popup</string>
   <string name="set_default_launcher">Standaard launcher instellen</string>
   <string name="enable_spring_pref_title">Veereffect inschakelen</string>
+  <string name="hide_app_apply">Toepassen</string>
+  <string name="hide_app_reset">Resetten</string>
 </resources>

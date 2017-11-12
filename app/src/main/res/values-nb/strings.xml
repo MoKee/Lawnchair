@@ -249,4 +249,6 @@
   <string name="about_changelog">Endringslogg</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="hide_app_apply">Bruk</string>
+  <string name="hide_app_reset">Tilbakestill</string>
 </resources>

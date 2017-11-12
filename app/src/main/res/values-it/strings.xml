@@ -376,7 +376,6 @@
   <string name="enable_editing_pref_title">Attiva la possibilità di modificare la schermata principale</string>
   <string name="pref_weather_provider">Previsioni meteo</string>
   <string name="loading">Caricamento...</string>
-  <string name="icon_shape_override_label">Cambia la forma dell\'icona</string>
   <string name="icon_shape_system_default">Non cambiare</string>
   <string name="icon_shape_none">Nessuno</string>
   <string name="icon_shape_square">Quadrato</string>
@@ -414,5 +413,7 @@
   <string name="popup_card_theme_title">Stile predefinito del popup</string>
   <string name="set_default_launcher">Imposta come laumcher predefinito</string>
   <string name="enable_spring_pref_title">Attiva effetto a molla</string>
+  <string name="hide_app_apply">Applica</string>
   <string name="unauthorized_device">Questo dispositivo dispone di alcuni strumenti per la pirateria. Si prega di disinstallarli per continuare.</string>
+  <string name="hide_app_reset">Reimposta</string>
 </resources>

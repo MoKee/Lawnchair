@@ -356,7 +356,6 @@
   <string name="blur_effect">Ефект розмиття</string>
   <string name="pref_weather_provider">Постачальник погоди</string>
   <string name="loading">Завантаження...</string>
-  <string name="icon_shape_override_label">Змінити форму іконок</string>
   <string name="icon_shape_system_default">Не змінювати</string>
   <string name="icon_shape_none">Нічого</string>
   <string name="icon_shape_square">Квадратні</string>
@@ -392,4 +391,6 @@
   <string name="google_app_not_found">Додаток Google не встановлено</string>
   <string name="popup_card_theme_title">Плоский стиль спливаючих меню</string>
   <string name="set_default_launcher">Встановлення лаунчера за замовчуванням</string>
+  <string name="hide_app_apply">Застосувати</string>
+  <string name="hide_app_reset">Скинути</string>
 </resources>

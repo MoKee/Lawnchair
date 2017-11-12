@@ -348,7 +348,6 @@
   <string name="blur_effect">Efecto de desenfoque</string>
   <string name="pref_weather_provider">Proveedor del tiempo</string>
   <string name="loading">Cargando...</string>
-  <string name="icon_shape_override_label">Cambiar pack de iconos</string>
   <string name="icon_shape_system_default">No cambiar</string>
   <string name="icon_shape_none">Ninguno</string>
   <string name="icon_shape_square">Cuadrado</string>
@@ -382,4 +381,6 @@
   <string name="google_app_not_found">La aplicación de Google no está instalada</string>
   <string name="popup_card_theme_title">Popup de estilo plano</string>
   <string name="set_default_launcher">Establecer el Launcher predeterminado</string>
+  <string name="hide_app_apply">Aplicar</string>
+  <string name="hide_app_reset">Restablecer</string>
 </resources>

@@ -375,7 +375,7 @@
   <string name="enable_editing_pref_title">啟用編輯主畫面</string>
   <string name="pref_weather_provider">天氣供應商</string>
   <string name="loading">載入中...</string>
-  <string name="icon_shape_override_label">更換圖示造型</string>
+  <string name="icon_shape_override_label">圖示形狀</string>
   <string name="icon_shape_system_default">不要變更</string>
   <string name="icon_shape_none">無</string>
   <string name="icon_shape_square">正方形</string>
@@ -413,5 +413,7 @@
   <string name="popup_card_theme_title">平面樣式的彈出選單</string>
   <string name="set_default_launcher">設定預設啟動器</string>
   <string name="enable_spring_pref_title">啟用彈簧效果</string>
+  <string name="hide_app_apply">套用</string>
   <string name="unauthorized_device">此裝置安裝了一些盜版工具，請解除安裝它們以便繼續。</string>
+  <string name="hide_app_reset">重設</string>
 </resources>
