@@ -6,6 +6,6 @@ package ch.deletescape.lawnchair.allapps;
 public class UnicodeStrippedAppSearchController extends AllAppsSearchBarController {
 
     public DefaultAppSearchAlgorithm onInitializeSearch() {
-        return new UnicodeStrippedAppSearchAlgorithm(mApps.getApps(), mApps.getAppsPinYinMap());
+        return new UnicodeStrippedAppSearchAlgorithm(mApps.getUnfilteredApps(), mApps.getAppsPinYinMap());
     }
 }

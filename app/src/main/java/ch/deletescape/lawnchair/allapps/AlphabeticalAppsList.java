@@ -26,8 +26,10 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.TreeMap;
 
+import ch.deletescape.lawnchair.AppFilter;
 import ch.deletescape.lawnchair.AppInfo;
 import ch.deletescape.lawnchair.Launcher;
+import ch.deletescape.lawnchair.LauncherAppState;
 import ch.deletescape.lawnchair.compat.AlphabeticIndexCompat;
 import ch.deletescape.lawnchair.model.AppNameComparator;
 import ch.deletescape.lawnchair.util.ComponentKey;
@@ -153,6 +155,7 @@ public class AlphabeticalAppsList {
 
     // The set of apps from the system
     private final List<AppInfo> mApps = new ArrayList<>();
+    private final List<AppInfo> mUnfilteredApps = new ArrayList<>();
     private final HashMap<ComponentKey, AppInfo> mComponentToAppMap = new HashMap<>();
     private final HashMap<String, Pinyin> mAppsPinYinMap = new HashMap<>();
 
@@ -202,6 +205,10 @@ public class AlphabeticalAppsList {
      */
     public List<AppInfo> getApps() {
         return mApps;
+    }
+
+    public List<AppInfo> getUnfilteredApps() {
+        return mUnfilteredApps;
     }
 
     /**
@@ -351,8 +358,22 @@ public class AlphabeticalAppsList {
             }
         }
 
+        filterApps();
+
         // Recompose the set of adapter items from the current set of apps
         updateAdapterItems();
+    }
+
+    private void filterApps() {
+        mUnfilteredApps.clear();
+        mUnfilteredApps.addAll(mApps);
+        mApps.clear();
+        Context context = LauncherAppState.getInstance().getContext();
+        AppFilter appFilter = LauncherAppState.getInstance().getLauncher().getModel().getAllAppsList().getAppFilter();
+        for (AppInfo info : mUnfilteredApps) {
+            if (appFilter == null || appFilter.shouldShowApp(info.componentName, context))
+                mApps.add(info);
+        }
     }
 
     /**
