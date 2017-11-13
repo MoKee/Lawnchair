@@ -377,6 +377,7 @@
   <string name="enable_editing_pref_title">Povoliť úpravu pracovného priestoru</string>
   <string name="pref_weather_provider">Poskytovateľ počasia</string>
   <string name="loading">Načitávanie...</string>
+  <string name="icon_shape_override_label">Tvar ikony</string>
   <string name="icon_shape_system_default">Nemeniť</string>
   <string name="icon_shape_none">Žiadny</string>
   <string name="icon_shape_square">Štvorec</string>
@@ -414,6 +415,11 @@
   <string name="popup_card_theme_title">Plochý štýl vyskakujúceho okna</string>
   <string name="set_default_launcher">Nastavenie predvoleného spúšťača</string>
   <string name="enable_spring_pref_title">Povoliť efekt pružiny</string>
+  <string name="hide_app">Skryť aplikáciu</string>
+  <string name="hide_app_sum">Skryť aplikácie zo zoznamu aplikácií</string>
+  <string name="hide_app_selected">&#160;vybrané</string>
+  <string name="hidden_app">Skrytá aplikácia</string>
+  <string name="hide_selected">Skryť vybranú aplikáciu</string>
   <string name="hide_app_apply">Použiť</string>
   <string name="unauthorized_device">Toto zariadenie má nainštalované nástroje pre pirátstvo. Odinštalujte ich a pokračujte.</string>
   <string name="hide_app_reset">Resetovať</string>

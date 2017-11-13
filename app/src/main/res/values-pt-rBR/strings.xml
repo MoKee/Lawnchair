@@ -376,6 +376,7 @@
   <string name="enable_editing_pref_title">Habilitar edição de espaço de trabalho</string>
   <string name="pref_weather_provider">Provedor de previsão do tempo</string>
   <string name="loading">Carregando…</string>
+  <string name="icon_shape_override_label">Forma de ícone</string>
   <string name="icon_shape_system_default">Não mudar</string>
   <string name="icon_shape_none">Nenhum</string>
   <string name="icon_shape_square">Quadrado</string>
@@ -413,6 +414,11 @@
   <string name="popup_card_theme_title">Pop-up estilo fino</string>
   <string name="set_default_launcher">Definir como Launcher padrão</string>
   <string name="enable_spring_pref_title">Habilitar o efeito mola</string>
+  <string name="hide_app">Ocultar aplicativo</string>
+  <string name="hide_app_sum">Ocultar aplicativos da gaveta de aplicativos</string>
+  <string name="hide_app_selected">&#160;selecionado</string>
+  <string name="hidden_app">Aplicativos ocultos</string>
+  <string name="hide_selected">Ocultar o aplicativo selecionado</string>
   <string name="hide_app_apply">Aplicar</string>
   <string name="unauthorized_device">Este dispositivo possui algumas ferramentas de pirataria instaladas. Por favor, desinstale-as para continuar.</string>
   <string name="hide_app_reset">Redefinir</string>

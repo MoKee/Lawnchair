@@ -413,6 +413,11 @@
   <string name="popup_card_theme_title">平面樣式的彈出選單</string>
   <string name="set_default_launcher">設定預設啟動器</string>
   <string name="enable_spring_pref_title">啟用彈簧效果</string>
+  <string name="hide_app">隱藏應用程式</string>
+  <string name="hide_app_sum">從應用程式抽屜中隱藏應用程式</string>
+  <string name="hide_app_selected">&#160;已選</string>
+  <string name="hidden_app">隱藏的應用程式</string>
+  <string name="hide_selected">隱藏所選應用程式</string>
   <string name="hide_app_apply">應用</string>
   <string name="unauthorized_device">此裝置安裝了一些盜版工具，請解除安裝它們以便繼續。</string>
   <string name="hide_app_reset">重設</string>
