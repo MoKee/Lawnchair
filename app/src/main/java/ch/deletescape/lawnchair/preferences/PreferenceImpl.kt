@@ -74,7 +74,7 @@ open class PreferenceImpl(context: Context) : IPreferenceProvider {
         setString(PreferenceFlags.KEY_MIGRATION_SRC_WORKSPACE_SIZE, value, commit)
     }
 
-    override val allAppsOpacity by FloatPref(PreferenceFlags.KEY_PREF_ALL_APPS_OPACITY, 1f)
+    override val allAppsOpacity by FloatPref(PreferenceFlags.KEY_PREF_ALL_APPS_OPACITY, 0f)
 
     override fun registerOnSharedPreferenceChangeListener(listener: SharedPreferences.OnSharedPreferenceChangeListener) {
         sharedPrefs.registerOnSharedPreferenceChangeListener(listener)
@@ -179,7 +179,7 @@ open class PreferenceImpl(context: Context) : IPreferenceProvider {
         sharedPrefs.edit().remove(PreferenceFlags.KEY_ALTERNATE_ICON_PREFIX + key).apply()
     }
 
-    override val blurMode by IntPref(PreferenceFlags.KEY_BLUR_MODE, (1 shl 30) - 1)
+    override val blurMode by IntPref(PreferenceFlags.KEY_BLUR_MODE, 6)
     override val blurRadius by FloatPref(PreferenceFlags.KEY_BLUR_RADIUS, 75f)
 
     override var appsViewShown by MutableBooleanPref(PreferenceFlags.APPS_VIEW_SHOWN, false)
@@ -188,7 +188,7 @@ open class PreferenceImpl(context: Context) : IPreferenceProvider {
     override val pulldownAction by StringPref(FeatureFlags.KEY_PREF_PULLDOWN_ACTION, "1")
     val pulldownNotis by BooleanPref(FeatureFlags.KEY_PREF_PULLDOWN_NOTIS, true)
 
-    override val themeMode by IntPref(FeatureFlags.KEY_PREF_THEME_MODE, (1 shl 30) - 1)
+    override val themeMode by IntPref(FeatureFlags.KEY_PREF_THEME_MODE, 30)
     override val theme by StringPref(FeatureFlags.KEY_PREF_THEME, "0")
     override val enableVibrancy: Boolean
         get() = true
@@ -229,9 +229,9 @@ open class PreferenceImpl(context: Context) : IPreferenceProvider {
     override val hideAllAppsAppLabels by BooleanPref(PreferenceFlags.KEY_PREF_HIDE_ALL_APPS_APP_LABELS, false)
     override val allowFullWidthWidgets by BooleanPref(FeatureFlags.KEY_PREF_FULL_WIDTH_WIDGETS, false)
     override val showGoogleNowTab by BooleanPref(FeatureFlags.KEY_PREF_SHOW_NOW_TAB, true)
-    override val transparentHotseat by BooleanPref(FeatureFlags.KEY_PREF_TRANSPARENT_HOTSEAT, false)
-    override val enableDynamicUi by BooleanPref(FeatureFlags.KEY_PREF_ENABLE_DYNAMIC_UI, false)
-    override val enableBlur by BooleanPref(FeatureFlags.KEY_PREF_ENABLE_BLUR, false)
+    override val transparentHotseat by BooleanPref(FeatureFlags.KEY_PREF_TRANSPARENT_HOTSEAT, true)
+    override val enableDynamicUi by BooleanPref(FeatureFlags.KEY_PREF_ENABLE_DYNAMIC_UI, true)
+    override val enableBlur by BooleanPref(FeatureFlags.KEY_PREF_ENABLE_BLUR, true)
     override val useWhiteGoogleIcon by BooleanPref(FeatureFlags.KEY_PREF_WHITE_GOOGLE_ICON, false)
 
     override fun migrateThemePref(context: Context) {

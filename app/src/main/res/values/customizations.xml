@@ -114,6 +114,11 @@
         <item>4</item>
     </string-array>
 
+    <string-array name="blurModeDefaultValues">
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+
     <string-array name="themeModeTexts">
         <item>@string/search_bar</item>
         <item>@string/folder</item>
@@ -124,6 +129,13 @@
 
     <string-array name="themeModeValues">
         <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+    </string-array>
+
+    <string-array name="themeModeDefaultValues">
         <item>2</item>
         <item>4</item>
         <item>8</item>

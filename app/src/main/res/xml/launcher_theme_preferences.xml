@@ -42,7 +42,7 @@
             android:title="@string/animated_clock_icon_alternative_clock_apps_title" />
 
         <SwitchPreference
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:key="pref_enableDynamicUi"
             android:persistent="true"
             android:title="@string/dynamic_ui_pref_title" />
@@ -57,19 +57,21 @@
             android:title="@string/theme_pref_title" />
 
         <ch.deletescape.lawnchair.preferences.BitSetPreference
+            android:defaultValue="@array/themeModeDefaultValues"
             android:entries="@array/themeModeTexts"
             android:entryValues="@array/themeModeValues"
             android:key="pref_themeMode"
             android:title="@string/pref_applyTheme" />
 
         <SwitchPreference
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:key="pref_enableBlur"
             android:persistent="true"
             android:summary="@string/blur_pref_summary"
             android:title="@string/blur_pref_title" />
 
         <ch.deletescape.lawnchair.preferences.BitSetPreference
+            android:defaultValue="@array/blurModeDefaultValues"
             android:dependency="pref_enableBlur"
             android:entries="@array/blurModeTexts"
             android:entryValues="@array/blurModeValues"

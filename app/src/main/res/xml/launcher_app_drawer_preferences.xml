@@ -46,7 +46,7 @@
             android:title="@string/all_apps_opacity_pref_title"
             app:minValue="0"
             app:maxValue="1"
-            app:defaultSeekbarValue="1"
+            app:defaultSeekbarValue="0"
             app:summaryFormat="%.0f%%"
             app:summaryMultiplier="100"
             android:persistent="true" />
