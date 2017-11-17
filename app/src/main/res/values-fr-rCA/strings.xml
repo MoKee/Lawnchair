@@ -239,8 +239,13 @@
   <string name="title_show_google_app">Afficher %1$s</string>
   <string name="label_search">Chercher</string>
   <string name="label_voice_search">Recherche vocale</string>
+  <string name="notifications_header">Notifications</string>
+  <string name="widgets_bottom_sheet_title">%1$s widgets</string>
   <!-- About Lawnchair -->
   <string name="about_title">À Propos</string>
+  <string name="about_pref_summary">Apprenez à connaître l\'équipe de Lawnchair</string>
+  <string name="week_day_format">%1$s, %2$s</string>
+  <string name="icon_pack_preference_title">Pack d\'icônes</string>
   <string name="num_cols_pref_title">Nombre de colonnes</string>
   <string name="num_rows_pref_title">Nombre de lignes</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
