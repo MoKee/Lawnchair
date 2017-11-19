@@ -376,6 +376,7 @@
   <string name="enable_editing_pref_title">Habilitar la edición de la pantalla de inicio</string>
   <string name="pref_weather_provider">Proveedor del tiempo</string>
   <string name="loading">Cargando...</string>
+  <string name="icon_shape_override_label">Forma del icono</string>
   <string name="icon_shape_system_default">No cambiar</string>
   <string name="icon_shape_none">Ninguno</string>
   <string name="icon_shape_square">Cuadrado</string>
@@ -413,6 +414,18 @@
   <string name="popup_card_theme_title">Emergente de estilo plano</string>
   <string name="set_default_launcher">Establecer el Launcher predeterminado</string>
   <string name="enable_spring_pref_title">Activar efecto muelle</string>
+  <string name="hide_app">Ocultar aplicación</string>
+  <string name="hide_app_sum">Ocultar aplicación del menu</string>
+  <string name="hide_app_selected">&#160;seleccionado</string>
+  <string name="hidden_app">App oculta</string>
+  <string name="hide_selected">Ocultar la aplicación seleccionada</string>
   <string name="hide_app_apply">Aplicar</string>
+  <string name="unauthorized_device">Este dispositivo tiene algunas herramientas de piratería instaladas. Desinstálalas para continuar.</string>
   <string name="hide_app_reset">Restablecer</string>
+  <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_enabled_title">Lawnfeed no está activado</string>
+  <string name="lawnfeed_not_enabled">Parece que estás intentando abrir la página de Google Now, pero no has activado la opción en las configuraciones.\n\n Deseas activarlo ahora?</string>
+  <string name="lawnfeed_not_installed_title">Lawnfeed no instalado</string>
+  <string name="lawnfeed_not_installed">¿Parece que estás tratando de abrir la página de Google Now, pero no has instalado la aplicación Lawnfeed de nuestra página web.\n\n¿Quieres descargarla ahora?</string>
+  <string name="disable_popup">No volver a mostrar</string>
 </resources>

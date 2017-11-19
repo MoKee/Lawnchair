@@ -397,4 +397,6 @@
   <string name="set_default_launcher">Establecer el Launcher predeterminado</string>
   <string name="hide_app_apply">Aplicar</string>
   <string name="hide_app_reset">Restablecer</string>
+  <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_installed_title">Lawnfeed no está instalado</string>
 </resources>

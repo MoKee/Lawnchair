@@ -282,4 +282,5 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Aplicar</string>
   <string name="hide_app_reset">Repor</string>
+  <!-- Strings for Lawnfeed gesture popup -->
 </resources>

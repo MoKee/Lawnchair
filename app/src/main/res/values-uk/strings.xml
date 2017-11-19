@@ -393,4 +393,6 @@
   <string name="set_default_launcher">Встановлення лаунчера за замовчуванням</string>
   <string name="hide_app_apply">Застосувати</string>
   <string name="hide_app_reset">Скинути</string>
+  <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_installed_title">Lawnfeed не встановлено</string>
 </resources>

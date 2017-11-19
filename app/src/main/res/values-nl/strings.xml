@@ -416,4 +416,6 @@
   <string name="enable_spring_pref_title">Veereffect inschakelen</string>
   <string name="hide_app_apply">Toepassen</string>
   <string name="hide_app_reset">Resetten</string>
+  <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_installed_title">Lawnfeed niet geïnstalleerd</string>
 </resources>

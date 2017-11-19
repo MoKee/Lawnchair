@@ -244,6 +244,7 @@
   <string name="widgets_bottom_sheet_title">%1$s widget</string>
   <!-- About Lawnchair -->
   <string name="about_title">Tentang</string>
+  <string name="about_pref_summary">Mengenal tentang tim Lawnchair</string>
   <string name="changelog_title">Changelog untuk membangun #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Paket Ikon</string>
@@ -263,6 +264,7 @@
   <string name="hide_icon_labels_pref_title">Sembunyikan label ikon pada layar beranda</string>
   <string name="hide_all_apps_icon_labels_pref_title">Sembunyikan label ikon di drawer</string>
   <string name="workspace_label_color_hue_pref_title">Warna label ikon pada layar beranda</string>
+  <string name="workspace_label_color_variation_pref_title">Variasi warna pada label ikon layar depan</string>
   <string name="all_apps_opacity_pref_title">Kegelapan Drawer</string>
   <string name="num_cols_pref_title">Jumlah kolom</string>
   <string name="num_rows_pref_title">Jumlah baris</string>
@@ -275,10 +277,14 @@
   <string name="full_width_widgets_pref_summary">Izinkan widget untuk menjangkau seluruh lebar tanpa bantalan</string>
   <string name="notification_access_pref_title">Notifikasi badges dan pratinjau</string>
   <string name="notification_access_pref_summary">Memungkinkan Lawnchair untuk mengakses notifikasi anda untuk mengaktifkan fitur ini</string>
+  <string name="general_pref_title">Desktop</string>
   <string name="dock_pref_title">Dock</string>
+  <string name="app_drawer_pref_title">App drawer</string>
   <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Perilaku</string>
   <string name="debug_pref_title">Debug</string>
+  <string name="import_export_pref_title">Ekspor/impor</string>
+  <string name="general_pref_summary">Sesuaikan desktop anda</string>
   <string name="behavior_pref_summary">Mengubah perilaku Lawnchair</string>
   <string name="debug_pref_summary">Mulai ulang atau membangun kembali database ikon</string>
   <string name="show_pixel_bar_pref_title">Tampilkan bar atas Pixel</string>
@@ -391,4 +397,6 @@
   <string name="set_default_launcher">Tetapkan peluncur bawaan</string>
   <string name="hide_app_apply">Terapkan</string>
   <string name="hide_app_reset">Setel Ulang</string>
+  <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_installed_title">Lawnfeed tidak terpasang</string>
 </resources>

@@ -281,10 +281,12 @@
   <string name="notification_access_pref_summary">Разрешить Lawnchair доступ к вашим уведомлениям для включения этой функции</string>
   <string name="general_pref_title">Рабочий стол</string>
   <string name="dock_pref_title">Док-бар</string>
+  <string name="app_drawer_pref_title">Меню приложений</string>
   <string name="pixel_ui_pref_title">Темы</string>
   <string name="behavior_pref_title">Поведение</string>
   <string name="debug_pref_title">Отладка</string>
   <string name="import_export_pref_title">Импорт/Экспорт</string>
+  <string name="general_pref_summary">Настроить рабочий стол</string>
   <string name="behavior_pref_summary">Изменить поведение Lawnchair</string>
   <string name="debug_pref_summary">Перезапустить или создать заново базу данных иконок</string>
   <string name="show_pixel_bar_pref_title">Показать строку поиска</string>
@@ -401,4 +403,6 @@
   <string name="set_default_launcher">Установить лаунчер по умолчанию</string>
   <string name="hide_app_apply">Применить</string>
   <string name="hide_app_reset">Сброс</string>
+  <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_installed_title">Lawnfeed не установлен</string>
 </resources>

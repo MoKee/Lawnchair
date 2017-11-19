@@ -421,4 +421,6 @@
   <string name="hide_app_apply">应用</string>
   <string name="unauthorized_device">此设备安装了一些盗版工具，请卸载它们以便继续。</string>
   <string name="hide_app_reset">重置</string>
+  <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_installed_title">未安装 Lawnfeed</string>
 </resources>

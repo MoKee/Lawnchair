@@ -317,4 +317,5 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">تطبيق</string>
   <string name="hide_app_reset">إعادة تعيين</string>
+  <!-- Strings for Lawnfeed gesture popup -->
 </resources>

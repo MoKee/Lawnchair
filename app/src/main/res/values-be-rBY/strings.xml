@@ -423,4 +423,6 @@
   <string name="hide_app_apply">Ужыць</string>
   <string name="unauthorized_device">Гэта прылада мае некалькі ўсталяваных пірацкіх сродкаў. Калі ласка, выдаліце ​​іх, каб працягнуць.</string>
   <string name="hide_app_reset">Скінуць</string>
+  <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_installed_title">Lawnfeed не ўсталяваны</string>
 </resources>

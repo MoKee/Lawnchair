@@ -244,4 +244,5 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Lietot</string>
   <string name="hide_app_reset">Atiestatīt</string>
+  <!-- Strings for Lawnfeed gesture popup -->
 </resources>

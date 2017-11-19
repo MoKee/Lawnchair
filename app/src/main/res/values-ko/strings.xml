@@ -279,4 +279,6 @@
   <string name="set_default_launcher">기본 런처 설정</string>
   <string name="hide_app_apply">적용</string>
   <string name="hide_app_reset">초기화</string>
+  <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_installed_title">Lawnfeed가 설치 되지 않았습니다.</string>
 </resources>

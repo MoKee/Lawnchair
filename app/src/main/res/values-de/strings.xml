@@ -385,4 +385,6 @@
   <string name="set_default_launcher">Standard-Launcher</string>
   <string name="hide_app_apply">Übernehmen</string>
   <string name="hide_app_reset">Zurücksetzen</string>
+  <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_installed_title">LawnFeed nicht installiert</string>
 </resources>

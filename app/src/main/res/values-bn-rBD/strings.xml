@@ -252,4 +252,5 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">প্রয়োগ করুন</string>
   <string name="hide_app_reset">পুনরায় সেট করুন</string>
+  <!-- Strings for Lawnfeed gesture popup -->
 </resources>

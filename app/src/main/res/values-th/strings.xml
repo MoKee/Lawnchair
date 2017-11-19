@@ -243,4 +243,5 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">ใช้</string>
   <string name="hide_app_reset">รีเซ็ต</string>
+  <!-- Strings for Lawnfeed gesture popup -->
 </resources>

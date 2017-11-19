@@ -270,4 +270,5 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">適用</string>
   <string name="hide_app_reset">リセット</string>
+  <!-- Strings for Lawnfeed gesture popup -->
 </resources>

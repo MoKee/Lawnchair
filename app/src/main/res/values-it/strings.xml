@@ -422,4 +422,6 @@
   <string name="hide_app_apply">Applica</string>
   <string name="unauthorized_device">Questo dispositivo dispone di alcuni strumenti per la pirateria. Si prega di disinstallarli per continuare.</string>
   <string name="hide_app_reset">Reimposta</string>
+  <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_installed_title">Lawnfeed non installato</string>
 </resources>

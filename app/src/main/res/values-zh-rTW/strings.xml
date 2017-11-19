@@ -421,4 +421,10 @@
   <string name="hide_app_apply">套用</string>
   <string name="unauthorized_device">此裝置安裝了一些盜版工具，請解除安裝它們以便繼續。</string>
   <string name="hide_app_reset">重設</string>
+  <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_enabled_title">未啟用 Lawnfeed</string>
+  <string name="lawnfeed_not_enabled">您好像正在嘗試開啟 Google 即時頁面，但您尚未在功能設定中啟用該選項。\n\n您想現在開啟嗎？</string>
+  <string name="lawnfeed_not_installed_title">Lawnfeed 未安裝</string>
+  <string name="lawnfeed_not_installed">您好像正在嘗試開啟 Google 即時頁面，但您尚未從我們的網站安裝 Lawnfeed 應用程式。\n\n您想現在下載嗎？</string>
+  <string name="disable_popup">不再顯示</string>
 </resources>

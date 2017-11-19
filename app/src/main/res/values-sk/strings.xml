@@ -423,4 +423,6 @@
   <string name="hide_app_apply">Použiť</string>
   <string name="unauthorized_device">Toto zariadenie má nainštalované nástroje pre pirátstvo. Odinštalujte ich a pokračujte.</string>
   <string name="hide_app_reset">Resetovať</string>
+  <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_installed_title">Lawnfeed nie je nainštalovaný</string>
 </resources>

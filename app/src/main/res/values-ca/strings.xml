@@ -248,4 +248,5 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Aplica</string>
   <string name="hide_app_reset">Restableix</string>
+  <!-- Strings for Lawnfeed gesture popup -->
 </resources>
