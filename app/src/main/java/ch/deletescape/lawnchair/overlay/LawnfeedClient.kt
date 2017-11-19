@@ -6,6 +6,7 @@ import android.os.*
 import android.util.Log
 import android.view.Window
 import android.view.WindowManager
+import ch.deletescape.lawnchair.BuildConfig
 import ch.deletescape.lawnchair.Launcher
 import ch.deletescape.lawnchair.Utilities
 import ch.deletescape.lawnchair.launcherclient.ILauncherClientProxy
@@ -363,7 +364,7 @@ class LawnfeedClient(private val launcher: Launcher) : ILauncherClient {
     }
 
     companion object {
-        const val PROXY_PACKAGE = "ch.deletescape.lawnchair.lawnfeed"
+        const val PROXY_PACKAGE = BuildConfig.APPLICATION_ID + ".lawnfeed"
         const val PROXY_SERVICE = ".LauncherClientProxyService"
         const val TAG = "LawnfeedClient"
 
