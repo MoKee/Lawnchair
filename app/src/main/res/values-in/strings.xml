@@ -264,7 +264,6 @@
   <string name="hide_icon_labels_pref_title">Sembunyikan label ikon pada layar beranda</string>
   <string name="hide_all_apps_icon_labels_pref_title">Sembunyikan label ikon di drawer</string>
   <string name="workspace_label_color_hue_pref_title">Warna label ikon pada layar beranda</string>
-  <string name="workspace_label_color_variation_pref_title">Variasi warna pada label ikon layar depan</string>
   <string name="all_apps_opacity_pref_title">Kegelapan Drawer</string>
   <string name="num_cols_pref_title">Jumlah kolom</string>
   <string name="num_rows_pref_title">Jumlah baris</string>
@@ -283,7 +282,6 @@
   <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Perilaku</string>
   <string name="debug_pref_title">Debug</string>
-  <string name="import_export_pref_title">Ekspor/impor</string>
   <string name="general_pref_summary">Sesuaikan desktop anda</string>
   <string name="behavior_pref_summary">Mengubah perilaku Lawnchair</string>
   <string name="debug_pref_summary">Mulai ulang atau membangun kembali database ikon</string>
@@ -322,9 +320,6 @@
   <string name="edit_icon_reset">Setel Ulang</string>
   <string name="show_top_shadow_title">Tunjukkan bayangan atas</string>
   <string name="pref_cat_homescreen">Layar utama</string>
-  <string name="pref_cat_miscellaneous">Macam-macam</string>
-  <string name="pref_cat_hotseat">Dock</string>
-  <string name="pref_cat_theme">Tema</string>
   <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Terang</string>
   <string name="theme_dark">Suram</string>
@@ -340,8 +335,6 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Pulihkan</string>
   <string name="backup_export_title">Cadangkan</string>
-  <string name="imexport_success">Sukses!</string>
-  <string name="imexport_error">Kesalahan: Gagal menyalin berkas</string>
   <string name="units_metric">Metrik</string>
   <string name="units_imperial">Imperial</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
@@ -376,7 +369,6 @@
   <string name="about_contributors_title">Kontributor</string>
   <string name="location_permission_warn">Izin lokasi yang diperlukan untuk beralih ke layanan lain!</string>
   <string name="num_cols_drawer_pref_title">Jumlah kolom di laci app</string>
-  <string name="pref_cat_drawer">Laci</string>
   <string name="shortcut_backport_warning">Ini bisa menjadi lambat, gunakan dengan resiko anda sendiri</string>
   <string name="pref_backport_shortcuts">Pintasan backport</string>
   <string name="weather_api_key_not_set">API Key belum diatur</string>
@@ -393,7 +385,6 @@
   <string name="lock_desktop">Kunci desktop</string>
   <string name="lawnfeed_not_found">Lawnfeed tidak terpasang</string>
   <string name="google_app_not_found">Google app tidak terpasang</string>
-  <string name="popup_card_theme_title">Gaya datar popup</string>
   <string name="set_default_launcher">Tetapkan peluncur bawaan</string>
   <string name="hide_app_apply">Terapkan</string>
   <string name="hide_app_reset">Setel Ulang</string>

@@ -264,7 +264,6 @@
   <string name="hide_icon_labels_pref_title">在主畫面上隱藏圖示標籤</string>
   <string name="hide_all_apps_icon_labels_pref_title">在應用程式清單裡隱藏圖示</string>
   <string name="workspace_label_color_hue_pref_title">主畫面上的圖示標籤顏色</string>
-  <string name="workspace_label_color_variation_pref_title">主畫面上的圖示標籤顏色變化</string>
   <string name="all_apps_opacity_pref_title">清單透明度</string>
   <string name="num_cols_pref_title">列數</string>
   <string name="num_rows_pref_title">行數</string>
@@ -283,7 +282,6 @@
   <string name="pixel_ui_pref_title">主題</string>
   <string name="behavior_pref_title">功能</string>
   <string name="debug_pref_title">除錯模式</string>
-  <string name="import_export_pref_title">匯入/匯出</string>
   <string name="general_pref_summary">自訂您的桌面</string>
   <string name="dock_pref_summary">自訂您的Dock欄</string>
   <string name="app_drawer_pref_summary">自訂您的應用程式清單</string>
@@ -327,9 +325,6 @@
   <string name="edit_icon_reset">重設</string>
   <string name="show_top_shadow_title">顯示頂部陰影</string>
   <string name="pref_cat_homescreen">主畫面</string>
-  <string name="pref_cat_miscellaneous">更多其他</string>
-  <string name="pref_cat_hotseat">Dock欄</string>
-  <string name="pref_cat_theme">主題</string>
   <string name="theme_pref_title">主題</string>
   <string name="theme_light">亮色主題</string>
   <string name="theme_dark">暗色主題</string>
@@ -345,12 +340,10 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">還原</string>
   <string name="backup_export_title">備份</string>
-  <string name="imexport_success">成功！</string>
   <string name="settings_export_success">設定備份成功</string>
   <string name="db_export_success">資料庫備份成功</string>
   <string name="settings_import_success">設定還原成功</string>
   <string name="db_import_success">資料庫還原成功</string>
-  <string name="imexport_error">錯誤：無法複製檔案</string>
   <string name="export_error">無法備份</string>
   <string name="import_error">無法還原</string>
   <string name="imexport_no_backup_found">沒有找到備份檔案</string>
@@ -372,7 +365,6 @@
   <string name="dock_allapps"><![CDATA[Dock欄與所有應用程式]]></string>
   <string name="app_shortcuts">應用程式捷徑</string>
   <string name="blur_effect">模糊效果</string>
-  <string name="enable_editing_pref_title">啟用編輯主畫面</string>
   <string name="pref_weather_provider">天氣供應商</string>
   <string name="loading">載入中...</string>
   <string name="icon_shape_override_label">圖示形狀</string>
@@ -392,14 +384,12 @@
   <string name="about_contributors_title">貢獻者</string>
   <string name="location_permission_warn">需要位置權限才能切換到其他氣象資料提供</string>
   <string name="num_cols_drawer_pref_title">清單的列數</string>
-  <string name="pref_cat_drawer">清單</string>
   <string name="shortcut_backport_warning">該功能有可能會導致桌面效能下降，後果請自行承擔</string>
   <string name="pref_backport_shortcuts">反向移植捷徑</string>
   <string name="weather_api_key_not_set">API Key 尚未設定</string>
   <string name="pref_weather_api_key_title">API Key</string>
   <string name="about_changelog">更新日誌</string>
   <string name="pref_all_apps_custom_label_color">使用自訂標籤顏色</string>
-  <string name="pref_all_apps_label_color_variation">應用程式清單圖示標籤顏色變化</string>
   <string name="pref_all_apps_label_color">清單圖示標籤顏色</string>
   <string name="pref_num_rows_drawer">清單的行數</string>
   <string name="center_wallpaper_pref_title">當僅有一頁時，置中桌布</string>
@@ -410,14 +400,12 @@
   <string name="lock_desktop">鎖定桌面</string>
   <string name="lawnfeed_not_found">Lawnfeed 未安裝</string>
   <string name="google_app_not_found">未安裝 Google 應用程式</string>
-  <string name="popup_card_theme_title">平面樣式的彈出選單</string>
   <string name="set_default_launcher">設定預設啟動器</string>
   <string name="enable_spring_pref_title">啟用彈簧效果</string>
   <string name="hide_app">隱藏應用程式</string>
   <string name="hide_app_sum">從應用程式清單中隱藏應用程式</string>
   <string name="hide_app_selected">&#160;已選</string>
   <string name="hidden_app">隱藏的應用程式</string>
-  <string name="hide_selected">隱藏所選應用程式</string>
   <string name="hide_app_apply">套用</string>
   <string name="unauthorized_device">此裝置安裝了一些盜版工具，請解除安裝它們以便繼續。</string>
   <string name="hide_app_reset">重設</string>

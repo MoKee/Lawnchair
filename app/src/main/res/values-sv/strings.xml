@@ -263,8 +263,6 @@
   <string name="default_text">Standard</string>
   <string name="edit_icon_reset">Återställ</string>
   <string name="pref_cat_homescreen">Hemskärm</string>
-  <string name="pref_cat_miscellaneous">Diverse</string>
-  <string name="pref_cat_theme">Tema</string>
   <string name="theme_pref_title">Tema</string>
   <string name="theme_dark">Mörk</string>
   <string name="theme_black">Svart</string>

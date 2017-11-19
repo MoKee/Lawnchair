@@ -249,8 +249,6 @@
   <string name="default_text">Oletus</string>
   <string name="edit_icon_reset">Palauta</string>
   <string name="pref_cat_homescreen">Kotinäyttö</string>
-  <string name="pref_cat_miscellaneous">Sekalaiset</string>
-  <string name="pref_cat_theme">Teema</string>
   <string name="theme_pref_title">Teema</string>
   <string name="theme_dark">Tumma</string>
   <string name="theme_black">Musta</string>

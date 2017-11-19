@@ -262,7 +262,6 @@
   <string name="hide_icon_labels_pref_title">Skrij oznake ikon na domačem zaslonu</string>
   <string name="hide_all_apps_icon_labels_pref_title">Skrij oznake ikon v predalu</string>
   <string name="workspace_label_color_hue_pref_title">Barva oznake ikon na domačem zaslonu</string>
-  <string name="workspace_label_color_variation_pref_title">Barvna variacija oznak ikon na domačem zaslonu</string>
   <string name="all_apps_opacity_pref_title">Prosojnost predala</string>
   <string name="num_cols_pref_title">Število stolpcev</string>
   <string name="num_rows_pref_title">Število vrstic</string>
@@ -277,7 +276,6 @@
   <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Vedenje</string>
   <string name="debug_pref_title">Razhroščevanje</string>
-  <string name="import_export_pref_title">Uvoz/izvoz</string>
   <string name="general_pref_summary">Prilagodite namizje</string>
   <string name="behavior_pref_summary">Spremeni vedenje Lawnchair-a</string>
   <string name="debug_pref_summary">Zaženi ali obnovi ikono zbirke podatkov</string>
@@ -303,8 +301,6 @@
   <string name="edit_icon_reset">Ponastavi</string>
   <string name="show_top_shadow_title">Pokaži senco zgoraj</string>
   <string name="pref_cat_homescreen">Domači zaslon</string>
-  <string name="pref_cat_miscellaneous">Razno</string>
-  <string name="pref_cat_theme">Tema</string>
   <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Svetle</string>
   <string name="theme_dark">Temno</string>
@@ -319,7 +315,6 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Obnovi</string>
   <string name="backup_export_title">Varnostna kopija</string>
-  <string name="imexport_success">Uspešno!</string>
   <string name="units_metric">Metrične</string>
   <string name="units_imperial">Angleške</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
@@ -348,7 +343,6 @@
   <string name="about_contributors_title">Sodelavci</string>
   <string name="location_permission_warn">Zahtevano je dovoljenje za dostop do lokacije, za priklop na drugega ponudnika!</string>
   <string name="num_cols_drawer_pref_title">Število stolpcev v predalu</string>
-  <string name="pref_cat_drawer">Predal</string>
   <string name="weather_api_key_not_set">API ključ ni nastavljen</string>
   <string name="pref_weather_api_key_title">API ključ</string>
   <string name="about_changelog">Zadnje spremembe</string>

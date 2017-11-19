@@ -244,8 +244,6 @@
   <string name="default_text">Mặc định</string>
   <string name="edit_icon_reset">Đặt lại</string>
   <string name="pref_cat_homescreen">Màn hình chủ</string>
-  <string name="pref_cat_miscellaneous">Chuyên sâu</string>
-  <string name="pref_cat_theme">Chủ đề</string>
   <string name="theme_pref_title">Chủ đề</string>
   <string name="theme_dark">Tối</string>
   <!-- Import/Export Strings -->

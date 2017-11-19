@@ -266,7 +266,6 @@
   <string name="hide_icon_labels_pref_title">Схаваць подпісы значкоў на працоўным стале</string>
   <string name="hide_all_apps_icon_labels_pref_title">Схаваць подпісы значкоў у меню праграм</string>
   <string name="workspace_label_color_hue_pref_title">Колер подпіса значкоў</string>
-  <string name="workspace_label_color_variation_pref_title">Варыяцыя колеру значкоў на галоўным экране</string>
   <string name="all_apps_opacity_pref_title">Празрыстасць меню праграм</string>
   <string name="num_cols_pref_title">Колькасць слупкоў</string>
   <string name="num_rows_pref_title">Колькасць радкоў</string>
@@ -285,7 +284,6 @@
   <string name="pixel_ui_pref_title">Тэма</string>
   <string name="behavior_pref_title">Паводзіны</string>
   <string name="debug_pref_title">Адладка</string>
-  <string name="import_export_pref_title">Імпарт/Экспарт</string>
   <string name="general_pref_summary">Налада працоўнага стала</string>
   <string name="dock_pref_summary">Наладзіць док-панэль</string>
   <string name="app_drawer_pref_summary">Налада свайго спісу праграм</string>
@@ -329,9 +327,6 @@
   <string name="edit_icon_reset">Скінуць</string>
   <string name="show_top_shadow_title">Паказваць цень зверху</string>
   <string name="pref_cat_homescreen">Хатні экран</string>
-  <string name="pref_cat_miscellaneous">Іншае</string>
-  <string name="pref_cat_hotseat">Док-панэль</string>
-  <string name="pref_cat_theme">Тэма</string>
   <string name="theme_pref_title">Тэма</string>
   <string name="theme_light">Светлая</string>
   <string name="theme_dark">Цемра</string>
@@ -347,12 +342,10 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Аднавіць з рэзервовай копіі</string>
   <string name="backup_export_title">Рэзервовая копія</string>
-  <string name="imexport_success">Гатова!</string>
   <string name="settings_export_success">Налады рэзервовага капіявання створаны</string>
   <string name="db_export_success">Налады базы дадзеных створаны</string>
   <string name="settings_import_success">Налады паспяхова адноўлены</string>
   <string name="db_import_success">База дадзеных паспяхова адноўлена</string>
-  <string name="imexport_error">Памылка: не атрымалася скапіяваць файл</string>
   <string name="export_error">Немагчыма стварыць рэз. копію</string>
   <string name="import_error">Немагчыма аднавіць</string>
   <string name="imexport_no_backup_found">Не знойдзена файла рэзервовай копіі</string>
@@ -374,7 +367,6 @@
   <string name="dock_allapps"><![CDATA[Док-панэль і меню праграм]]></string>
   <string name="app_shortcuts">Цэтлікі праграм</string>
   <string name="blur_effect">Эфект размыцця</string>
-  <string name="enable_editing_pref_title">Уключыць рэдагаванне хатняга экрана</string>
   <string name="pref_weather_provider">Пастаўшчыкі надвор\'я</string>
   <string name="loading">Загрузка…</string>
   <string name="icon_shape_override_label">Форма значкоў</string>
@@ -394,14 +386,12 @@
   <string name="about_contributors_title">Аўтары</string>
   <string name="location_permission_warn">Дазвольце доступ да месцазнаходжання, каб пераключыцца на іншага пастаўшчыка!</string>
   <string name="num_cols_drawer_pref_title">Колькасць слупкоў у меню праграм</string>
-  <string name="pref_cat_drawer">Меню праграм</string>
   <string name="shortcut_backport_warning">Гэта можа прывесці да павольнай працы праграмы, выкарыстоўвайце на свой страх і рызыка</string>
   <string name="pref_backport_shortcuts">Перанесці значкі</string>
   <string name="weather_api_key_not_set">API ключ не усталяваны</string>
   <string name="pref_weather_api_key_title">API-ключ</string>
   <string name="about_changelog">Спic змен</string>
   <string name="pref_all_apps_custom_label_color">Выкарыстоўваць свой колер подпісу</string>
-  <string name="pref_all_apps_label_color_variation">Варыяцыя колеру значкоў у спісе праграм</string>
   <string name="pref_all_apps_label_color">Колер подпісу значкоў у меню праграм</string>
   <string name="pref_num_rows_drawer">Колькасць радкоў у меню праграм</string>
   <string name="center_wallpaper_pref_title">Цэнтраваць шпалеры, калі маецца толькі адзін экран</string>
@@ -412,14 +402,12 @@
   <string name="lock_desktop">Блакаванне працоўнага стала</string>
   <string name="lawnfeed_not_found">Lawnfeed не ўсталяваны</string>
   <string name="google_app_not_found">Праграма Google не ўсталявана</string>
-  <string name="popup_card_theme_title">Плоскі стыль усплываючых вокнаў</string>
   <string name="set_default_launcher">Усталяваць лаунчэр па змаўчанні</string>
   <string name="enable_spring_pref_title">Уключыць эфект спружыны</string>
   <string name="hide_app">Схаваць праграму</string>
   <string name="hide_app_sum">Схаваць праграму ў спісе праграм</string>
   <string name="hide_app_selected">&#160;абрана</string>
   <string name="hidden_app">Схаваныя праграма</string>
-  <string name="hide_selected">Схаваць абраную праграму</string>
   <string name="hide_app_apply">Ужыць</string>
   <string name="unauthorized_device">Гэта прылада мае некалькі ўсталяваных пірацкіх сродкаў. Калі ласка, выдаліце ​​іх, каб працягнуць.</string>
   <string name="hide_app_reset">Скінуць</string>

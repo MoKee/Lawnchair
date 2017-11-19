@@ -265,7 +265,6 @@
   <string name="hide_icon_labels_pref_title">Nascondi le etichette delle icone nella schermata home</string>
   <string name="hide_all_apps_icon_labels_pref_title">Nascondi le icone in modalità disegno</string>
   <string name="workspace_label_color_hue_pref_title">Colore delle etichette delle icone nella schermata home</string>
-  <string name="workspace_label_color_variation_pref_title">Variazione di colore per le etichette nella schermata home</string>
   <string name="all_apps_opacity_pref_title">Opacità menù delle applicazioni</string>
   <string name="num_cols_pref_title">Numero di colonne</string>
   <string name="num_rows_pref_title">Numero di righe</string>
@@ -284,7 +283,6 @@
   <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Comportamento</string>
   <string name="debug_pref_title">Debug</string>
-  <string name="import_export_pref_title">Importa/Esporta</string>
   <string name="general_pref_summary">Personalizza la tua homescreen</string>
   <string name="dock_pref_summary">Personalizza la tua dock</string>
   <string name="app_drawer_pref_summary">Personalizza l\'app drawer</string>
@@ -328,9 +326,6 @@
   <string name="edit_icon_reset">Reimposta</string>
   <string name="show_top_shadow_title">Mostra ombreggiatura superiore</string>
   <string name="pref_cat_homescreen">Schermata Home</string>
-  <string name="pref_cat_miscellaneous">Varie</string>
-  <string name="pref_cat_hotseat">Dock</string>
-  <string name="pref_cat_theme">Tema</string>
   <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Chiaro</string>
   <string name="theme_dark">Scuro</string>
@@ -346,12 +341,10 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Ripristina</string>
   <string name="backup_export_title">Backup</string>
-  <string name="imexport_success">Completato!</string>
   <string name="settings_export_success">Backup delle impostazioni completato</string>
   <string name="db_export_success">Backup del database completato</string>
   <string name="settings_import_success">Ripristino delle impostazioni completato</string>
   <string name="db_import_success">Ripristino del database completato</string>
-  <string name="imexport_error">Errore: Impossibile copiare il file</string>
   <string name="export_error">Impossibile eseguire il backup</string>
   <string name="import_error">Impossibile eseguire il ripristino</string>
   <string name="imexport_no_backup_found">Nessun file di backup trovato</string>
@@ -373,7 +366,6 @@
   <string name="dock_allapps"><![CDATA[Dock & tutte le applicazioni]]></string>
   <string name="app_shortcuts">Scorciatoie applicazioni</string>
   <string name="blur_effect">Effetto sfocatura</string>
-  <string name="enable_editing_pref_title">Attiva la possibilità di modificare la schermata principale</string>
   <string name="pref_weather_provider">Previsioni meteo</string>
   <string name="loading">Caricamento...</string>
   <string name="icon_shape_override_label">Cambia la forma delle icone</string>
@@ -393,14 +385,12 @@
   <string name="about_contributors_title">Collaboratori</string>
   <string name="location_permission_warn">Il permesso locale è necessario per cambiare provider!</string>
   <string name="num_cols_drawer_pref_title">Numero di colonne nella modalità drawer</string>
-  <string name="pref_cat_drawer">Modalità disegno</string>
   <string name="shortcut_backport_warning">Potrebbe essere lento, usa a tuo rischio e pericolo</string>
   <string name="pref_backport_shortcuts">Backport shortcuts</string>
   <string name="weather_api_key_not_set">Chiave API non impostata</string>
   <string name="pref_weather_api_key_title">Chiave API</string>
   <string name="about_changelog">Modifiche di Versione</string>
   <string name="pref_all_apps_custom_label_color">Usa colore personalizzato</string>
-  <string name="pref_all_apps_label_color_variation">Variazione di colore per le etichette delle icone del menu delle applicazioni</string>
   <string name="pref_all_apps_label_color">Colore delle icone della modalità disegno</string>
   <string name="pref_num_rows_drawer">Numero di righe nella modalità disegno</string>
   <string name="center_wallpaper_pref_title">Centra lo sfondo quando c\'è una sola pagina</string>
@@ -411,14 +401,12 @@
   <string name="lock_desktop">Blocca desktop</string>
   <string name="lawnfeed_not_found">Lawnfeed non installato</string>
   <string name="google_app_not_found">App di Google non installata</string>
-  <string name="popup_card_theme_title">Stile predefinito del popup</string>
   <string name="set_default_launcher">Imposta come laumcher predefinito</string>
   <string name="enable_spring_pref_title">Attiva effetto a molla</string>
   <string name="hide_app">Nascondi app</string>
   <string name="hide_app_sum">Nascondi app dal menù delle applicazioni</string>
   <string name="hide_app_selected">&#160;selezionato</string>
   <string name="hidden_app">App nascoste</string>
-  <string name="hide_selected">Nascondi le app selezionate</string>
   <string name="hide_app_apply">Applica</string>
   <string name="unauthorized_device">Questo dispositivo dispone di alcuni strumenti per la pirateria. Si prega di disinstallarli per continuare.</string>
   <string name="hide_app_reset">Reimposta</string>

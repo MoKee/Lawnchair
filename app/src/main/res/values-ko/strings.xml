@@ -251,8 +251,6 @@
   <string name="default_text">기본</string>
   <string name="edit_icon_reset">초기화</string>
   <string name="pref_cat_homescreen">홈 화면</string>
-  <string name="pref_cat_miscellaneous">기타</string>
-  <string name="pref_cat_theme">테마</string>
   <string name="theme_pref_title">테마</string>
   <string name="theme_dark">어두움</string>
   <string name="theme_black">검정</string>

@@ -248,8 +248,6 @@
   <string name="default_text">Alapértelmezés</string>
   <string name="edit_icon_reset">Visszaállítás</string>
   <string name="pref_cat_homescreen">Főképernyő</string>
-  <string name="pref_cat_miscellaneous">Egyéb</string>
-  <string name="pref_cat_theme">Téma</string>
   <string name="theme_pref_title">Téma</string>
   <string name="theme_dark">Sötét</string>
   <string name="theme_black">Fekete</string>

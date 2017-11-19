@@ -266,7 +266,6 @@
   <string name="hide_icon_labels_pref_title">Скрыть подписи иконок на рабочем столе</string>
   <string name="hide_all_apps_icon_labels_pref_title">Скрыть подписи значков в меню приложений</string>
   <string name="workspace_label_color_hue_pref_title">Цвет подписи иконок</string>
-  <string name="workspace_label_color_variation_pref_title">Вариация цвета подписей значков на домашнем экране</string>
   <string name="all_apps_opacity_pref_title">Прозрачность меню приложений</string>
   <string name="num_cols_pref_title">Количество столбцов</string>
   <string name="num_rows_pref_title">Количество строк</string>
@@ -285,7 +284,6 @@
   <string name="pixel_ui_pref_title">Темы</string>
   <string name="behavior_pref_title">Поведение</string>
   <string name="debug_pref_title">Отладка</string>
-  <string name="import_export_pref_title">Импорт/Экспорт</string>
   <string name="general_pref_summary">Настроить рабочий стол</string>
   <string name="behavior_pref_summary">Изменить поведение Lawnchair</string>
   <string name="debug_pref_summary">Перезапустить или создать заново базу данных иконок</string>
@@ -324,9 +322,6 @@
   <string name="edit_icon_reset">Сброс</string>
   <string name="show_top_shadow_title">Показывать тень сверху</string>
   <string name="pref_cat_homescreen">Домашний экран</string>
-  <string name="pref_cat_miscellaneous">Прочее</string>
-  <string name="pref_cat_hotseat">Док-бар</string>
-  <string name="pref_cat_theme">Темы</string>
   <string name="theme_pref_title">Тема</string>
   <string name="theme_light">Светлая</string>
   <string name="theme_dark">Тёмная</string>
@@ -342,10 +337,8 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Восстановить</string>
   <string name="backup_export_title">Резервная копия</string>
-  <string name="imexport_success">Готово!</string>
   <string name="settings_import_success">Настройки успешно восстановлены</string>
   <string name="db_import_success">База данных успешно восстановлена</string>
-  <string name="imexport_error">Ошибка: Не удалось скопировать файл</string>
   <string name="imexport_no_backup_found">Файл резервной копии не найден</string>
   <string name="units_metric">Метрическая</string>
   <string name="units_imperial">Британская</string>
@@ -363,7 +356,6 @@
   <string name="dock_allapps"><![CDATA[Док-бар и все приложения]]></string>
   <string name="app_shortcuts">Шорткаты приложений</string>
   <string name="blur_effect">Эффект размытия</string>
-  <string name="enable_editing_pref_title">Включить редактирование главного экрана</string>
   <string name="pref_weather_provider">Поставщик данных</string>
   <string name="loading">Загрузка...</string>
   <string name="icon_shape_system_default">Не изменять</string>
@@ -382,7 +374,6 @@
   <string name="about_contributors_title">Авторы</string>
   <string name="location_permission_warn">Предоставьте доступ к местоположению, чтобы переключиться на другого поставщика!</string>
   <string name="num_cols_drawer_pref_title">Количество столбцов в меню приложений</string>
-  <string name="pref_cat_drawer">Меню приложений</string>
   <string name="shortcut_backport_warning">Это может привести к медленной работе приложения, используйте на свой страх и риск</string>
   <string name="pref_backport_shortcuts">Адаптировать ярлыки</string>
   <string name="weather_api_key_not_set">API ключ не установлен</string>
@@ -399,7 +390,6 @@
   <string name="lock_desktop">Заблокировать рабочий стол</string>
   <string name="lawnfeed_not_found">Lawnfeed не установлен</string>
   <string name="google_app_not_found">Приложение Google не установлено</string>
-  <string name="popup_card_theme_title">Плоский стиль всплывающих окон</string>
   <string name="set_default_launcher">Установить лаунчер по умолчанию</string>
   <string name="hide_app_apply">Применить</string>
   <string name="hide_app_reset">Сброс</string>

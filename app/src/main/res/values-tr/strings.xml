@@ -276,8 +276,6 @@
   <string name="default_text">Varsayılan</string>
   <string name="edit_icon_reset">Sıfırla</string>
   <string name="pref_cat_homescreen">Başlangıç ekranı</string>
-  <string name="pref_cat_miscellaneous">Diğer</string>
-  <string name="pref_cat_theme">Tema</string>
   <string name="theme_pref_title">Tema</string>
   <string name="theme_dark">Koyu</string>
   <string name="theme_black">Siyah</string>

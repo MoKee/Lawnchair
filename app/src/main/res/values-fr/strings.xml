@@ -259,8 +259,6 @@
   <string name="default_text">Défaut</string>
   <string name="edit_icon_reset">Réinitialiser</string>
   <string name="pref_cat_homescreen">Écran d\'accueil</string>
-  <string name="pref_cat_miscellaneous">Divers</string>
-  <string name="pref_cat_theme">Thème</string>
   <string name="theme_pref_title">Thème</string>
   <string name="theme_dark">Sombre</string>
   <string name="theme_black">Noir</string>

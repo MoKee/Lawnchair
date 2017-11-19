@@ -318,9 +318,6 @@
   <string name="edit_icon_reset">Скинути</string>
   <string name="show_top_shadow_title">Показувати тінь зверху</string>
   <string name="pref_cat_homescreen">Домашній екран</string>
-  <string name="pref_cat_miscellaneous">Інше</string>
-  <string name="pref_cat_hotseat">Док-панель</string>
-  <string name="pref_cat_theme">Теми</string>
   <string name="theme_pref_title">Теми</string>
   <string name="theme_light">Світла</string>
   <string name="theme_dark">Темнота</string>
@@ -336,8 +333,6 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Відновити</string>
   <string name="backup_export_title">Резервна копія</string>
-  <string name="imexport_success">Готово!</string>
-  <string name="imexport_error">Помилка: Не вдалося скопіювати файл</string>
   <string name="units_metric">Метрична</string>
   <string name="units_imperial">Імперська</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
@@ -372,7 +367,6 @@
   <string name="about_contributors_title">Розробники</string>
   <string name="location_permission_warn">Потрібен дозвіл на розатшування, щоби переключитися на іншого постачальника!</string>
   <string name="num_cols_drawer_pref_title">Кількість стовпчиків у меню додатків</string>
-  <string name="pref_cat_drawer">Меню додатків</string>
   <string name="shortcut_backport_warning">Це може бути повільно, використовуйте на свій страх і ризик</string>
   <string name="pref_backport_shortcuts">Перенести ярлики</string>
   <string name="weather_api_key_not_set">API ключ не встановлено</string>
@@ -389,7 +383,6 @@
   <string name="lock_desktop">Блокування робочого стола</string>
   <string name="lawnfeed_not_found">Lawnfeed не встановлено</string>
   <string name="google_app_not_found">Додаток Google не встановлено</string>
-  <string name="popup_card_theme_title">Плоский стиль спливаючих меню</string>
   <string name="set_default_launcher">Встановлення лаунчера за замовчуванням</string>
   <string name="hide_app_apply">Застосувати</string>
   <string name="hide_app_reset">Скинути</string>

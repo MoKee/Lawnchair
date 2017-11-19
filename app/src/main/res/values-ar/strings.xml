@@ -297,8 +297,6 @@
   <string name="default_text">الإفتراضي</string>
   <string name="edit_icon_reset">إعادة تعيين</string>
   <string name="pref_cat_homescreen">الشاشة الرئيسية</string>
-  <string name="pref_cat_miscellaneous">خيارات متقدمة</string>
-  <string name="pref_cat_theme">السمة</string>
   <string name="theme_pref_title">السمة</string>
   <string name="theme_dark">داكن</string>
   <string name="theme_black">أسود</string>

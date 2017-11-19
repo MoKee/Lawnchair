@@ -248,8 +248,6 @@
   <string name="default_text">デフォルト</string>
   <string name="edit_icon_reset">リセット</string>
   <string name="pref_cat_homescreen">ホーム画面</string>
-  <string name="pref_cat_miscellaneous">その他</string>
-  <string name="pref_cat_theme">テーマ</string>
   <string name="theme_pref_title">テーマ</string>
   <string name="theme_dark">暗闇</string>
   <string name="theme_black">黒</string>

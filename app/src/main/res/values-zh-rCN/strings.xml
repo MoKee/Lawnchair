@@ -264,7 +264,6 @@
   <string name="hide_icon_labels_pref_title">在主屏幕上隐藏图标标签</string>
   <string name="hide_all_apps_icon_labels_pref_title">在抽屉里隐藏图标标签</string>
   <string name="workspace_label_color_hue_pref_title">主屏幕图标标签颜色</string>
-  <string name="workspace_label_color_variation_pref_title">主屏幕图标标签颜色变化</string>
   <string name="all_apps_opacity_pref_title">抽屉透明度</string>
   <string name="num_cols_pref_title">列数</string>
   <string name="num_rows_pref_title">行数</string>
@@ -283,7 +282,6 @@
   <string name="pixel_ui_pref_title">主题</string>
   <string name="behavior_pref_title">行为</string>
   <string name="debug_pref_title">调试</string>
-  <string name="import_export_pref_title">导入/导出</string>
   <string name="general_pref_summary">定制您的桌面</string>
   <string name="dock_pref_summary">定制您的停靠栏</string>
   <string name="app_drawer_pref_summary">定制您的应用抽屉</string>
@@ -327,9 +325,6 @@
   <string name="edit_icon_reset">重置</string>
   <string name="show_top_shadow_title">显示顶部阴影</string>
   <string name="pref_cat_homescreen">主屏幕</string>
-  <string name="pref_cat_miscellaneous">其他</string>
-  <string name="pref_cat_hotseat">Dock</string>
-  <string name="pref_cat_theme">主题</string>
   <string name="theme_pref_title">主题</string>
   <string name="theme_light">明亮</string>
   <string name="theme_dark">黑暗</string>
@@ -345,12 +340,10 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">恢复授权</string>
   <string name="backup_export_title">备份</string>
-  <string name="imexport_success">成功</string>
   <string name="settings_export_success">已成功备份设置</string>
   <string name="db_export_success">数据库备份成功。</string>
   <string name="settings_import_success">成功还原设置</string>
   <string name="db_import_success">数据库恢复成功</string>
-  <string name="imexport_error">错误： 无法复制文件</string>
   <string name="export_error">无法备份</string>
   <string name="import_error">无法恢复</string>
   <string name="imexport_no_backup_found">未找到备份</string>
@@ -372,7 +365,6 @@
   <string name="dock_allapps"><![CDATA[Dock 栏与抽屉]]></string>
   <string name="app_shortcuts">应用快捷方式</string>
   <string name="blur_effect">模糊效果</string>
-  <string name="enable_editing_pref_title">启用编辑工作区</string>
   <string name="pref_weather_provider">天气提供商</string>
   <string name="loading">正在加载</string>
   <string name="icon_shape_override_label">图标形状</string>
@@ -392,14 +384,12 @@
   <string name="about_contributors_title">贡献者</string>
   <string name="location_permission_warn">切换到另一个提供商需要获得位置权限</string>
   <string name="num_cols_drawer_pref_title">网格列数</string>
-  <string name="pref_cat_drawer">抽屉</string>
   <string name="shortcut_backport_warning">此功能可能引起桌面性能下降，请自行承担后果。</string>
   <string name="pref_backport_shortcuts">导入快捷方式</string>
   <string name="weather_api_key_not_set">API 密钥未设置</string>
   <string name="pref_weather_api_key_title">API 密钥</string>
   <string name="about_changelog">更新日志</string>
   <string name="pref_all_apps_custom_label_color">自定义标签颜色</string>
-  <string name="pref_all_apps_label_color_variation">抽屉图标标签颜色变化</string>
   <string name="pref_all_apps_label_color">抽屉图标标签颜色</string>
   <string name="pref_num_rows_drawer">网格行数</string>
   <string name="center_wallpaper_pref_title">当桌面只有一页时，居中壁纸</string>
@@ -410,17 +400,20 @@
   <string name="lock_desktop">锁定桌面</string>
   <string name="lawnfeed_not_found">未安装 Lawnfeed</string>
   <string name="google_app_not_found">未安装 Google 应用</string>
-  <string name="popup_card_theme_title">平面样式弹出菜单</string>
   <string name="set_default_launcher">设置默认启动器</string>
   <string name="enable_spring_pref_title">启用音效</string>
   <string name="hide_app">隐藏应用</string>
   <string name="hide_app_sum">从抽屉隐藏应用</string>
   <string name="hide_app_selected">&#160;已选择</string>
   <string name="hidden_app">隐藏的应用</string>
-  <string name="hide_selected">隐藏所选应用</string>
   <string name="hide_app_apply">应用</string>
   <string name="unauthorized_device">此设备安装了一些盗版工具，请卸载它们以便继续。</string>
   <string name="hide_app_reset">重置</string>
   <!-- Strings for Lawnfeed gesture popup -->
+  <string name="lawnfeed_not_enabled_title">Lawnfeed 未启用</string>
+  <string name="lawnfeed_not_enabled">看起来您正在尝试打开 Google Now 页面，但是您还没有在行为设置中打开这个选项。\n\n您想现在开启吗？</string>
   <string name="lawnfeed_not_installed_title">未安装 Lawnfeed</string>
+  <string name="lawnfeed_not_installed">看起来您正在尝试打开 Google Now 页面，但是您还没有从我们的网站安装 Lawnfeed 应用。\n\n您想现在下载吗？</string>
+  <string name="disable_popup">不再提示</string>
+  <string name="two_row_dock">两行停靠栏</string>
 </resources>

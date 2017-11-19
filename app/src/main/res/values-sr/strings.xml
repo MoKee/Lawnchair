@@ -234,8 +234,6 @@
   <string name="import_db_title">База података</string>
   <string name="default_text">Подразумевано</string>
   <string name="edit_icon_reset">Поново постави</string>
-  <string name="pref_cat_miscellaneous">Разно</string>
-  <string name="pref_cat_theme">Тема</string>
   <string name="theme_pref_title">Тема</string>
   <string name="theme_dark">Мрак</string>
   <string name="theme_black">Црна</string>

@@ -265,7 +265,6 @@
   <string name="hide_icon_labels_pref_title">Ocultar el nombre de la aplicaciones en la pantalla de inicio</string>
   <string name="hide_all_apps_icon_labels_pref_title">Ocultar icono de las etiquetas en el cajón</string>
   <string name="workspace_label_color_hue_pref_title">Color y etiquetas de aplicaciones de la pantalla de inicio</string>
-  <string name="workspace_label_color_variation_pref_title">Variante de color para las etiquetas de las aplicaciones en la pantalla de inicio</string>
   <string name="all_apps_opacity_pref_title">Opacidad del cajón de aplicaciones</string>
   <string name="num_cols_pref_title">Número de columnas</string>
   <string name="num_rows_pref_title">Número de filas</string>
@@ -284,7 +283,6 @@
   <string name="pixel_ui_pref_title">Tema</string>
   <string name="behavior_pref_title">Comportamiento</string>
   <string name="debug_pref_title">Depurar</string>
-  <string name="import_export_pref_title">Importar/Exportar</string>
   <string name="general_pref_summary">Personaliza tú escritorio</string>
   <string name="dock_pref_summary">Personaliza tú escritorio</string>
   <string name="app_drawer_pref_summary">Personaliza tú cajón de aplicaciones</string>
@@ -328,9 +326,6 @@
   <string name="edit_icon_reset">Restablecer</string>
   <string name="show_top_shadow_title">Ver sombras superior de los objetos</string>
   <string name="pref_cat_homescreen">Pantalla de inicio</string>
-  <string name="pref_cat_miscellaneous">Otros</string>
-  <string name="pref_cat_hotseat">Base</string>
-  <string name="pref_cat_theme">Tema</string>
   <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Claro</string>
   <string name="theme_dark">Oscuro</string>
@@ -346,12 +341,10 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Restaurar</string>
   <string name="backup_export_title">Copia de seguridad</string>
-  <string name="imexport_success">¡Hecho!</string>
   <string name="settings_export_success">Configuración de copia de seguridad con éxito</string>
   <string name="db_export_success">Configuración de copia de seguridad con éxito</string>
   <string name="settings_import_success">Configuración de copia de seguridad con éxito</string>
   <string name="db_import_success">Base de datos restaurada con éxito</string>
-  <string name="imexport_error">Error: Error al copiar el archivo</string>
   <string name="export_error">No copia de seguridad</string>
   <string name="import_error">No se pudo restaurar</string>
   <string name="imexport_no_backup_found">No encontró el archivo copia de seguridad</string>
@@ -373,7 +366,6 @@
   <string name="dock_allapps"><![CDATA[Dock y Cajón]]></string>
   <string name="app_shortcuts">Accesos directos de aplicaciones</string>
   <string name="blur_effect">Efecto de desenfoque</string>
-  <string name="enable_editing_pref_title">Habilitar la edición de la pantalla de inicio</string>
   <string name="pref_weather_provider">Proveedor del tiempo</string>
   <string name="loading">Cargando...</string>
   <string name="icon_shape_override_label">Forma del icono</string>
@@ -393,14 +385,12 @@
   <string name="about_contributors_title">Colaboradores</string>
   <string name="location_permission_warn">¡Los permisos de ubicación son necesarios para cambiar a otro proveedor!</string>
   <string name="num_cols_drawer_pref_title">Número de columnas en la vista de cuadrícula</string>
-  <string name="pref_cat_drawer">Cajón de aplicaciones</string>
   <string name="shortcut_backport_warning">Esto podría ser lento, usar bajo su propio riesgo</string>
   <string name="pref_backport_shortcuts">Métodos abreviados de backport</string>
   <string name="weather_api_key_not_set">Clave de API no configurada</string>
   <string name="pref_weather_api_key_title">Clave API</string>
   <string name="about_changelog">Registro de cambios</string>
   <string name="pref_all_apps_custom_label_color">Utilizar color personalizado</string>
-  <string name="pref_all_apps_label_color_variation">Variante de color para las etiquetas de las aplicaciones en la pantalla de inicio</string>
   <string name="pref_all_apps_label_color">Color de las etiquetas de los iconos en el cajón</string>
   <string name="pref_num_rows_drawer">Número de columnas en el cajón</string>
   <string name="center_wallpaper_pref_title">Centrar el fondo de pantalla cuando sólo hay una página</string>
@@ -411,14 +401,12 @@
   <string name="lock_desktop">Bloquear Escritorio</string>
   <string name="lawnfeed_not_found">Lawnfeed no instalado</string>
   <string name="google_app_not_found">Google app no instalada</string>
-  <string name="popup_card_theme_title">Emergente de estilo plano</string>
   <string name="set_default_launcher">Establecer el Launcher predeterminado</string>
   <string name="enable_spring_pref_title">Activar efecto muelle</string>
   <string name="hide_app">Ocultar aplicación</string>
   <string name="hide_app_sum">Ocultar aplicación del menu</string>
   <string name="hide_app_selected">&#160;seleccionado</string>
   <string name="hidden_app">App oculta</string>
-  <string name="hide_selected">Ocultar la aplicación seleccionada</string>
   <string name="hide_app_apply">Aplicar</string>
   <string name="unauthorized_device">Este dispositivo tiene algunas herramientas de piratería instaladas. Desinstálalas para continuar.</string>
   <string name="hide_app_reset">Restablecer</string>

@@ -144,8 +144,6 @@
   <string name="pixel_ui_pref_title">Tema</string>
   <string name="export_db_title">Base de datos</string>
   <string name="import_db_title">Base de datos</string>
-  <string name="pref_cat_miscellaneous">Miscelaina</string>
-  <string name="pref_cat_theme">Tema</string>
   <string name="theme_pref_title">Tema</string>
   <string name="theme_black">Prietu</string>
   <!-- Import/Export Strings -->

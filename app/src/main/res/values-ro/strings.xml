@@ -241,8 +241,6 @@
   <string name="default_text">Implicit</string>
   <string name="edit_icon_reset">Resetaţi</string>
   <string name="pref_cat_homescreen">Ecran principal</string>
-  <string name="pref_cat_miscellaneous">Diverse</string>
-  <string name="pref_cat_theme">Temă</string>
   <string name="theme_pref_title">Temă</string>
   <string name="theme_dark">Întunecat</string>
   <string name="theme_black">Negru</string>

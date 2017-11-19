@@ -232,7 +232,6 @@
   <string name="pixel_ui_pref_title">Tema</string>
   <string name="default_text">Numatytasis</string>
   <string name="edit_icon_reset">Nust. iš naujo</string>
-  <string name="pref_cat_theme">Tema</string>
   <string name="theme_pref_title">Tema</string>
   <string name="theme_black">Juodas</string>
   <!-- Import/Export Strings -->

@@ -267,8 +267,6 @@
   <string name="default_text">Προεπιλογή</string>
   <string name="edit_icon_reset">Επαναφορά</string>
   <string name="pref_cat_homescreen">Αρχική οθόνη</string>
-  <string name="pref_cat_miscellaneous">Διάφορα</string>
-  <string name="pref_cat_theme">Θέμα</string>
   <string name="theme_pref_title">Θέμα</string>
   <string name="theme_dark">Σκοτάδι</string>
   <string name="theme_black">Μαύρο</string>

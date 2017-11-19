@@ -251,8 +251,6 @@
   <string name="default_text">Domyślne</string>
   <string name="edit_icon_reset">Resetuj</string>
   <string name="pref_cat_homescreen">Ekran główny</string>
-  <string name="pref_cat_miscellaneous">Różne</string>
-  <string name="pref_cat_theme">Motyw</string>
   <string name="theme_pref_title">Motyw</string>
   <string name="theme_dark">Ciemność</string>
   <string name="theme_black">Czarny</string>
