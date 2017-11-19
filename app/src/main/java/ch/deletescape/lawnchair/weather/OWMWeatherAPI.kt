@@ -4,13 +4,13 @@ import android.content.Context
 import ch.deletescape.lawnchair.Utilities
 import ch.deletescape.lawnchair.misc.LicenseUtils
 import com.kwabenaberko.openweathermaplib.implementation.OpenWeatherMapHelper
-import com.kwabenaberko.openweathermaplib.models.CurrentWeather
+import com.kwabenaberko.openweathermaplib.models.currentweather.CurrentWeather
 import com.mokee.security.License
 
 class OWMWeatherAPI(context: Context) : WeatherAPI(), OpenWeatherMapHelper.CurrentWeatherCallback {
 
     private val apiKey = if (LicenseUtils.mkVerified) License.getOpenWeatherMapAPIKey(context, context.packageName) else Utilities.getPrefs(context).weatherApiKey
-    private val helper = OpenWeatherMapHelper().apply { setAppId(apiKey) }
+    private val helper = OpenWeatherMapHelper().apply { setApiKey(apiKey) }
 
     override var city: String = ""
     override var units: Units = Units.METRIC
