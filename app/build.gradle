@@ -96,7 +96,6 @@ android {
             }
         }
         release {
-            applicationIdSuffix ".plah"
             buildConfigField "boolean", "ENABLE_LAWNFEED", "true"
             minifyEnabled true
             shrinkResources true
