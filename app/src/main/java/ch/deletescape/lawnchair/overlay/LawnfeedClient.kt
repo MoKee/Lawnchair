@@ -365,7 +365,7 @@ class LawnfeedClient(private val launcher: Launcher) : ILauncherClient {
 
     companion object {
         const val PROXY_PACKAGE = BuildConfig.APPLICATION_ID + ".lawnfeed"
-        const val PROXY_SERVICE = ".LauncherClientProxyService"
+        const val PROXY_SERVICE = "ch.deletescape.lawnchair.lawnfeed.LauncherClientProxyService"
         const val TAG = "LawnfeedClient"
 
         private var sProxyConnection: ProxyServiceConnection? = null
@@ -373,7 +373,7 @@ class LawnfeedClient(private val launcher: Launcher) : ILauncherClient {
         private var version = -1
 
         fun getServiceIntent(): Intent = Intent().apply {
-            component = ComponentName(PROXY_PACKAGE, "$PROXY_PACKAGE$PROXY_SERVICE")
+            component = ComponentName(PROXY_PACKAGE, "$PROXY_SERVICE")
             `package` = PROXY_PACKAGE
         }
     }

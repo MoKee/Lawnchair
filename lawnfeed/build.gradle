@@ -1,3 +1,5 @@
+import java.text.SimpleDateFormat
+
 apply plugin: 'com.android.application'
 
 android {
@@ -11,9 +13,15 @@ android {
             keyAlias "Lawnchair"
             keyPassword System.getenv("KEY_PASSWORD")
         }
+        mokee {
+            storeFile file(CERT_STORE_PATH)
+            storePassword CERT_STORE_PASSWORD
+            keyAlias "mokee.keystore"
+            keyPassword CERT_KEY_PASSWORD
+        }
     }
     defaultConfig {
-        applicationId "ch.deletescape.lawnchair.lawnfeed"
+        applicationId "org.mokee.lawnchair.lawnfeed"
         minSdkVersion 21
         targetSdkVersion 27
 
@@ -21,8 +29,11 @@ android {
             versionCode = Integer.valueOf(System.getenv("TRAVIS_BUILD_NUMBER"))
             versionName = System.getenv("MAJOR_MINOR") + "." + System.getenv("TRAVIS_BUILD_NUMBER")
         } else {
-            versionCode 1
-            versionName "dev"
+            long timestamp = System.currentTimeMillis() / 1000
+            versionCode Integer.valueOf(timestamp.toString())
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm")
+            Date date = new Date(System.currentTimeMillis());
+            versionName simpleDateFormat.format(date)
         }
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -32,9 +43,13 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            if (System.getenv("TRAVIS_EVENT_TYPE") != "pull_request") {
-                signingConfig signingConfigs.travis
+            signingConfig signingConfigs.mokee
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "LawnFeed.apk"
+                }
             }
+            debuggable true
         }
     }
 }

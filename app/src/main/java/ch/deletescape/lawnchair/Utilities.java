@@ -1140,7 +1140,7 @@ public final class Utilities {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         // Open website with download link for Lawnfeed
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://lawnchair.info/getlawnfeed.html"));
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://bbs.mokeedev.com/t/topic/2224"));
                         context.startActivity(intent);
                     }
                 })
