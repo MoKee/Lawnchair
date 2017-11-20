@@ -263,7 +263,7 @@
   <string name="pref_iconLabelsInTwoLines">Etiquetas de ícones em duas linhas</string>
   <string name="white_google_icon_pref_title">Usar ícone do google branco</string>
   <string name="hide_icon_labels_pref_title">Ocultar rótulos dos ícones na tela inicial</string>
-  <string name="hide_all_apps_icon_labels_pref_title">Ocultar as legendas dos ícones na gaveta de aplicativos</string>
+  <string name="hide_all_apps_icon_labels_pref_title">Ocultar as legendas dos ícones na gaveta</string>
   <string name="workspace_label_color_hue_pref_title">Cor dos rótulos dos ícones na tela inicial</string>
   <string name="all_apps_opacity_pref_title">Opacidade da gaveta de aplicativos</string>
   <string name="num_cols_pref_title">Número de colunas</string>
@@ -311,7 +311,7 @@
   <string name="keep_scroll_state_pref_summary">Salvar a posição da rolagem da gaveta de aplicativos</string>
   <string name="home_opens_drawer_pref_title">Botão da tela inicial abre a Gaveta de aplicativos</string>
   <string name="home_opens_drawer_pref_summary">Pressionar o botão de início na tela inicial mostrará a Gaveta de aplicativos</string>
-  <string name="show_hidden_pref_title">Mostrar apps ocultos</string>
+  <string name="show_hidden_pref_title">Mostrar aplicativos ocultos</string>
   <string name="show_hidden_pref_on">Apps ocultos serão mostrados para alterar as configurações de visibilidade</string>
   <string name="show_hidden_pref_off">Apps ocultos não serão mostrados</string>
   <string name="export_db_title">Banco de dados</string>
@@ -416,4 +416,7 @@
   <string name="lawnfeed_not_installed_title">Lawnfeed não instalado</string>
   <string name="lawnfeed_not_installed">Parece que você está tentando abrir a página do Google Now, mas você não instalou o aplicativo Lawnfeed do nosso site\n\nVocê quer fazer o download agora?</string>
   <string name="disable_popup">Não exibir novamente</string>
+  <string name="two_row_dock">Barra de ícones com 2 linhas</string>
+  <string name="reset_alternative_icons_title">Redefinir os ícones do app alternativo?</string>
+  <string name="reset_alternative_icons">Você tem %1$d apps com ícones alternativos, quer restaurá-los?</string>
 </resources>

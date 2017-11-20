@@ -407,7 +407,7 @@
   <string name="hide_app_selected">&#160;已选择</string>
   <string name="hidden_app">隐藏的应用</string>
   <string name="hide_app_apply">应用</string>
-  <string name="unauthorized_device">此设备安装了一些盗版工具，请卸载它们以便继续。</string>
+  <string name="unauthorized_device">此设备安装了一些破解工具，这可能会损害图标包开发者，因此请卸载它们以便继续。</string>
   <string name="hide_app_reset">重置</string>
   <!-- Strings for Lawnfeed gesture popup -->
   <string name="lawnfeed_not_enabled_title">Lawnfeed 未启用</string>
