@@ -328,9 +328,6 @@
   <string name="edit_icon_reset">Zurücksetzen</string>
   <string name="show_top_shadow_title">Schatten oben anzeigen</string>
   <string name="pref_cat_homescreen">Startbildschirm</string>
-  <string name="pref_cat_miscellaneous">Verschiedenes</string>
-  <string name="pref_cat_hotseat">Dock</string>
-  <string name="pref_cat_theme">Design</string>
   <string name="theme_pref_title">Design</string>
   <string name="theme_light">Hell</string>
   <string name="theme_dark">Dunkel</string>
@@ -344,8 +341,6 @@
   <string name="pull_down_apps_search">App Suche</string>
   <string name="enable_screen_rotation">Bildschirmrotation aktivieren</string>
   <!-- Import/Export Strings -->
-  <string name="imexport_success">Erfolg!</string>
-  <string name="imexport_error">Fehler: Datei konnte nicht kopiert werden</string>
   <string name="imexport_no_backup_found">Kein Backup gefunden</string>
   <string name="imexport_external_storage_unreadable">Externer Speicher ist nicht lesbar (Berechtigung in den Einstellungen erforderlich)</string>
   <string name="imexport_external_storage_unwritable">Externer Speicher ist nicht beschreibbar (Berechtigung in den Einstellungen erforderlich)</string>

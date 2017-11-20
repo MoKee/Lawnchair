@@ -245,7 +245,6 @@
   <string name="notifications_header">Oznámení</string>
   <string name="widgets_bottom_sheet_title">%1$s widgety</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair je aplikace spouštěče, kterou vytvořil Till Kottmann (aka deletescape). Je založena na spouštěči Launcher3 z AOSP.</string>
   <string name="about_title">O aplikaci</string>
   <string name="about_pref_summary">Seznamte se s týmem Lawnchair</string>
   <string name="changelog_title">Seznam změn pro sestavení #%d</string>
@@ -400,7 +399,6 @@
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
-  <string name="about_translators">Překladatelé</string>
   <string name="lock_desktop">Uzamčení pracovní plochy</string>
   <string name="lawnfeed_not_found">Lawnfeed není nainstalován</string>
   <string name="google_app_not_found">Aplikace Google není nainstalována</string>
