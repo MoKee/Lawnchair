@@ -430,6 +430,7 @@ public class Launcher extends Activity
         registerReceiver(mUiBroadcastReceiver, filter);
 
         mLauncherTab = new LauncherTab(this);
+        Utilities.showOutdatedLawnfeedPopup(this);
 
         Window window = getWindow();
         WindowManager.LayoutParams attributes = window.getAttributes();
@@ -1192,6 +1193,7 @@ public class Launcher extends Activity
                 @Override
                 public void onClick(View view) {
                     if (!mWorkspace.isSwitchingState()) {
+                        showWorkspace(false);
                         onClickWallpaperPicker(view);
                     }
                 }
@@ -1209,6 +1211,7 @@ public class Launcher extends Activity
             @Override
             public void onClick(View view) {
                 if (!mWorkspace.isSwitchingState()) {
+                    showWorkspace(false);
                     onClickAddWidgetButton();
                 }
             }
@@ -1222,6 +1225,7 @@ public class Launcher extends Activity
             @Override
             public void onClick(View view) {
                 if (!mWorkspace.isSwitchingState()) {
+                    showWorkspace(false);
                     onClickSettingsButton(view);
                 }
             }

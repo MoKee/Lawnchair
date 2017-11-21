@@ -94,15 +94,17 @@ import ch.deletescape.lawnchair.config.ThemeProvider;
 import ch.deletescape.lawnchair.dynamicui.ExtractedColors;
 import ch.deletescape.lawnchair.graphics.ShadowGenerator;
 import ch.deletescape.lawnchair.overlay.ILauncherClient;
+import ch.deletescape.lawnchair.overlay.LawnfeedClient;
 import ch.deletescape.lawnchair.pixelify.AdaptiveIconDrawableCompat;
 import ch.deletescape.lawnchair.preferences.IPreferenceProvider;
 import ch.deletescape.lawnchair.preferences.PreferenceFlags;
-import ch.deletescape.lawnchair.preferences.PreferenceImpl;
 import ch.deletescape.lawnchair.preferences.PreferenceProvider;
 import ch.deletescape.lawnchair.shortcuts.DeepShortcutManager;
 import ch.deletescape.lawnchair.shortcuts.ShortcutInfoCompat;
 import ch.deletescape.lawnchair.util.IconNormalizer;
 import ch.deletescape.lawnchair.util.PackageManagerHelper;
+
+import static ch.deletescape.lawnchair.util.PackageManagerHelper.isAppEnabled;
 
 /**
  * Various utilities shared amongst the Launcher's classes.
@@ -162,14 +164,13 @@ public final class Utilities {
     private static final String[] BLACKLISTED_APPLICATIONS = {"com.android.vending.billing.InAppBillingService.LOCK",
             "com.android.vending.billing.InAppBillingService.LACK",
             "cc.madkite.freedom",
-            "p.jasi2169.al3",                                                        
+            "p.jasi2169.al3",
             "zone.jasi2169.uretpatcher",
             "uret.jasi2169.patcher",
             "com.dimonvideo.luckypatcher",
             "com.chelpus.lackypatch",
             "com.forpda.lp",
             "com.android.vending.billing.InAppBillingService.LUCK",
-            "com.android.protips",
             "com.android.vending.billing.InAppBillingService.CLON",
             "com.android.vendinc",
             "com.appcake",
@@ -1077,16 +1078,9 @@ public final class Utilities {
 
     public static boolean isBlacklistedAppInstalled(Context context) {
         PackageManager pm = context.getPackageManager();
-        List<ApplicationInfo> packages = pm.getInstalledApplications(PackageManager.GET_META_DATA);
-
-        for (ApplicationInfo packageInfo : packages) {
-            for (String blacklistedApp : BLACKLISTED_APPLICATIONS) {
-                if (packageInfo.packageName.startsWith(blacklistedApp)) {
-                    return true;
-                }
-            }
+        for (String packageName : BLACKLISTED_APPLICATIONS) {
+            if (isAppEnabled(pm, packageName, 0)) return true;
         }
-
         return false;
     }
 
@@ -1156,6 +1150,33 @@ public final class Utilities {
         }
     }
 
+    public static void showOutdatedLawnfeedPopup(final Context context) {
+        if (!BuildConfig.ENABLE_LAWNFEED || ILauncherClient.Companion.getEnabledState(context) != ILauncherClient.DISABLED_CLIENT_OUTDATED) return;
+        new AlertDialog.Builder(context)
+            .setTitle(R.string.lawnfeed_outdated_title)
+            .setMessage(R.string.lawnfeed_outdated)
+            .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    // Open website with download link for Lawnfeed
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://lawnchair.info/getlawnfeed.html"));
+                    context.startActivity(intent);
+                }
+            })
+            .setNegativeButton(android.R.string.no, null)
+            .show();
+    }
+
+    public static boolean checkOutdatedLawnfeed(Context context) {
+        try {
+            PackageInfo info = context.getPackageManager().getPackageInfo(LawnfeedClient.PROXY_PACKAGE, 0);
+            if (info != null && info.versionCode == 1 && !info.versionName.equals("dev")) {
+                return true;
+            }
+        } catch (PackageManager.NameNotFoundException e) {}
+
+        return false;
+    }
 
     public static void restartLauncher(Context context) {
         PackageManager pm = context.getPackageManager();
