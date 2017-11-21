@@ -329,10 +329,7 @@
   <string name="edit_icon_reset">Resetuj</string>
   <string name="show_top_shadow_title">Pokaż górny cień</string>
   <string name="pref_cat_homescreen">Ekran główny</string>
-  <string name="pref_cat_miscellaneous">Różne</string>
-  <string name="pref_cat_hotseat">Dock</string>
-  <string name="pref_cat_theme">Motyw</string>
-  <string name="theme_pref_title">Motyw</string>
+    <string name="theme_pref_title">Motyw</string>
   <string name="theme_light">Jasny</string>
   <string name="theme_dark">Ciemny</string>
   <string name="theme_black">Czarny</string>
@@ -345,9 +342,7 @@
   <string name="pull_down_apps_search">Wyszukiwanie aplikacji</string>
   <string name="enable_screen_rotation">Włącz obracanie ekranu</string>
   <!-- Import/Export Strings -->
-  <string name="imexport_success">Sukces!</string>
-  <string name="imexport_error">Błąd: Nie można skopiować plików</string>
-  <string name="imexport_no_backup_found">Nie znaleziono kopii zapasowej</string>
+    <string name="imexport_no_backup_found">Nie znaleziono kopii zapasowej</string>
   <string name="imexport_external_storage_unreadable">Pamięć zewnętrzna nie jest do odczytu (udziel uprawnień w ustawieniach)</string>
   <string name="imexport_external_storage_unwritable">Pamięć zewnętrzna nie jest zapisywalna (udziel uprawnień w ustawieniach)</string>
   <string name="units_metric">Metryczne</string>

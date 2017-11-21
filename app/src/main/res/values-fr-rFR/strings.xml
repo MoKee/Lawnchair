@@ -328,10 +328,7 @@
   <string name="edit_icon_reset">Réinitialiser</string>
   <string name="show_top_shadow_title">Afficher l\'ombre du haut</string>
   <string name="pref_cat_homescreen">Écran d\'accueil</string>
-  <string name="pref_cat_miscellaneous">Divers</string>
-  <string name="pref_cat_hotseat">Dock</string>
-  <string name="pref_cat_theme">Thème</string>
-  <string name="theme_pref_title">Thème</string>
+    <string name="theme_pref_title">Thème</string>
   <string name="theme_light">Clair</string>
   <string name="theme_dark">Sombre</string>
   <string name="theme_black">Noir</string>
@@ -344,9 +341,7 @@
   <string name="pull_down_apps_search">Recherche d\'applications</string>
   <string name="enable_screen_rotation">Activer la rotation de l\'écran</string>
   <!-- Import/Export Strings -->
-  <string name="imexport_success">Réussi !</string>
-  <string name="imexport_error">Erreur : Impossible de copier le fichier</string>
-  <string name="imexport_no_backup_found">Aucune sauvegarde trouvée</string>
+    <string name="imexport_no_backup_found">Aucune sauvegarde trouvée</string>
   <string name="imexport_external_storage_unreadable">Le stockage externe n\'est pas lisible (activer la permissions dans les paramètres)</string>
   <string name="imexport_external_storage_unwritable">Le stockage externe n\'est pas modifiable (activer la permissions dans les paramètres)</string>
   <string name="units_metric">Métrique</string>

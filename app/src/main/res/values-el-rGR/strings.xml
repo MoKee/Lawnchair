@@ -328,10 +328,7 @@
   <string name="edit_icon_reset">Επαναφορά</string>
   <string name="show_top_shadow_title">Εμφάνιση σκιάς στην κορυφή της αρχικής οθόνης</string>
   <string name="pref_cat_homescreen">Αρχική οθόνη</string>
-  <string name="pref_cat_miscellaneous">Διάφορα</string>
-  <string name="pref_cat_hotseat">Βάση σύνδεσης</string>
-  <string name="pref_cat_theme">Θέμα</string>
-  <string name="theme_pref_title">Θέμα</string>
+    <string name="theme_pref_title">Θέμα</string>
   <string name="theme_light">Φωτεινό</string>
   <string name="theme_dark">Σκοτεινό</string>
   <string name="theme_black">Μαύρο</string>
@@ -344,9 +341,7 @@
   <string name="pull_down_apps_search">Αναζήτηση εφαρμογών</string>
   <string name="enable_screen_rotation">Ενεργοποίηση περιστροφής οθόνης</string>
   <!-- Import/Export Strings -->
-  <string name="imexport_success">Επιτυχής!</string>
-  <string name="imexport_error">Σφάλμα: Απέτυχε η αντιγραφή αρχείου</string>
-  <string name="imexport_no_backup_found">Δεν βρέθηκε κανένα αντίγραφο ασφαλείας</string>
+    <string name="imexport_no_backup_found">Δεν βρέθηκε κανένα αντίγραφο ασφαλείας</string>
   <string name="imexport_external_storage_unreadable">Η εξωτερική μονάδα αποθήκευσης δεν είναι αναγνώσιμη (χορήγηση άδειας στις ρυθμίσεις)</string>
   <string name="imexport_external_storage_unwritable">Η εξωτερική μονάδα αποθήκευσης δεν είναι εγγράψιμη (χορήγηση άδειας στις ρυθμίσεις)</string>
   <string name="units_metric">Μετρικό (°C)</string>

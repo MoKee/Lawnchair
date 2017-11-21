@@ -246,8 +246,7 @@
   <string name="notifications_header">התראות</string>
   <string name="widgets_bottom_sheet_title">%1$s ווידג\'טים</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair הוא יישום משגר שנוצרו על-ידי עד Kottmann (ידוע כ- deletescape). מבוסס על Launcher3 מ- AOSP.</string>
-  <string name="about_title">אודות</string>
+    <string name="about_title">אודות</string>
   <string name="about_pref_summary">הכר את צוות Lawnchair</string>
   <string name="changelog_title">רשימת שינויים לגירסא #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
@@ -401,8 +400,7 @@
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
-  <string name="about_translators">מתרגמים</string>
-  <string name="lock_desktop">נעל את מסך הבית</string>
+    <string name="lock_desktop">נעל את מסך הבית</string>
   <string name="lawnfeed_not_found">Lawnfeed אינו מותקן</string>
   <string name="google_app_not_found">היישום של Google אינו מותקן</string>
     <string name="set_default_launcher">הגדר כמפעיל אפליקציות ברירת מחדל</string>

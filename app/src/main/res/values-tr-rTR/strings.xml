@@ -328,10 +328,7 @@
   <string name="edit_icon_reset">Sıfırla</string>
   <string name="show_top_shadow_title">Üst gölgeyi göster</string>
   <string name="pref_cat_homescreen">Ana ekran</string>
-  <string name="pref_cat_miscellaneous">Diğer</string>
-  <string name="pref_cat_hotseat">Alt Panel</string>
-  <string name="pref_cat_theme">Tema</string>
-  <string name="theme_pref_title">Tema</string>
+    <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Açık</string>
   <string name="theme_dark">Koyu</string>
   <string name="theme_black">Siyah</string>
@@ -344,9 +341,7 @@
   <string name="pull_down_apps_search">Uygulama arama</string>
   <string name="enable_screen_rotation">Ekran döndürmeyi etkinleştir</string>
   <!-- Import/Export Strings -->
-  <string name="imexport_success">Başarılı!</string>
-  <string name="imexport_error">Hata: Dosya kopyalanamadı</string>
-  <string name="imexport_no_backup_found">Yedek bulunamadı</string>
+    <string name="imexport_no_backup_found">Yedek bulunamadı</string>
   <string name="imexport_external_storage_unreadable">Harici depolama alanı okunamıyor (ayarlardan izin verin)</string>
   <string name="imexport_external_storage_unwritable">Harici depolama alanına yazılamıyor (ayarlardan izin verin)</string>
   <string name="units_metric">Metrik Ölçüm</string>

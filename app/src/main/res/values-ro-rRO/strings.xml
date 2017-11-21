@@ -245,8 +245,7 @@
   <string name="notifications_header">Notificări</string>
   <string name="widgets_bottom_sheet_title">Widget-uri %1$s</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair este un lansator creat de Till Kottmann (aka deletescape). E bazat pe Launcher3 din AOSP.</string>
-  <string name="about_title">Despre</string>
+    <string name="about_title">Despre</string>
   <string name="about_pref_summary">Aflați despre echipa Lawnchair</string>
   <string name="changelog_title">Jurnalul de modificări pentru a versiunea #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
@@ -400,8 +399,7 @@
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
-  <string name="about_translators">Traducători</string>
-  <string name="lock_desktop">Blocare desktop</string>
+    <string name="lock_desktop">Blocare desktop</string>
   <string name="lawnfeed_not_found">Lawnfeed neinstalat</string>
   <string name="google_app_not_found">Aplicația Google nu este instalată</string>
     <string name="set_default_launcher">Setaţi lansator implicit</string>

@@ -329,10 +329,7 @@
   <string name="edit_icon_reset">Сбросить</string>
   <string name="show_top_shadow_title">Показать тень сверху</string>
   <string name="pref_cat_homescreen">Главный экран</string>
-  <string name="pref_cat_miscellaneous">Прочие настройки</string>
-  <string name="pref_cat_hotseat">Док-бар</string>
-  <string name="pref_cat_theme">Оформление</string>
-  <string name="theme_pref_title">Тема</string>
+    <string name="theme_pref_title">Тема</string>
   <string name="theme_light">Светлая</string>
   <string name="theme_dark">Тёмная</string>
   <string name="theme_black">Чёрная</string>
@@ -345,9 +342,7 @@
   <string name="pull_down_apps_search">Поиск приложений</string>
   <string name="enable_screen_rotation">Включить авто-поворот экрана</string>
   <!-- Import/Export Strings -->
-  <string name="imexport_success">Готово!</string>
-  <string name="imexport_error">Ошибка: Не удалось скопировать файл</string>
-  <string name="imexport_no_backup_found">Файлы резервных копий не найдены</string>
+    <string name="imexport_no_backup_found">Файлы резервных копий не найдены</string>
   <string name="imexport_external_storage_unreadable">Внешнее хранилище недоступно для чтения (предоставить разрешения можно в настройках)</string>
   <string name="imexport_external_storage_unwritable">Внешнее хранилище недоступно для записи (предоставить разрешения можно в настройках)</string>
   <string name="units_metric">Метрическая</string>

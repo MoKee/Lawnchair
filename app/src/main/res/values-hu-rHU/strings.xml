@@ -328,10 +328,7 @@
   <string name="edit_icon_reset">Alaphelyzetbe állítás</string>
   <string name="show_top_shadow_title">Felső árnyék megjelenítése</string>
   <string name="pref_cat_homescreen">Kezdőképernyő</string>
-  <string name="pref_cat_miscellaneous">Egyéb</string>
-  <string name="pref_cat_hotseat">Dokk</string>
-  <string name="pref_cat_theme">Téma</string>
-  <string name="theme_pref_title">Téma</string>
+    <string name="theme_pref_title">Téma</string>
   <string name="theme_light">Világos</string>
   <string name="theme_dark">Sötét</string>
   <string name="theme_black">Fekete</string>
@@ -344,9 +341,7 @@
   <string name="pull_down_apps_search">Alkalmazások keresése</string>
   <string name="enable_screen_rotation">Képernyőforgatás engedélyezése</string>
   <!-- Import/Export Strings -->
-  <string name="imexport_success">Kész!</string>
-  <string name="imexport_error">Hiba: Nem sikerült a fájl másolása</string>
-  <string name="imexport_no_backup_found">Nem található biztonsági mentés</string>
+    <string name="imexport_no_backup_found">Nem található biztonsági mentés</string>
   <string name="imexport_external_storage_unreadable">A tárhely nem olvasható (engedélyezze a hozzáférést a beállításokban)</string>
   <string name="imexport_external_storage_unwritable">A tárhely nem írható (engedélyezze a hozzáférést a beállításokban)</string>
   <string name="units_metric">Metrikus</string>

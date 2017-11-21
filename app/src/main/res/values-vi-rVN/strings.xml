@@ -243,8 +243,7 @@
   <string name="notifications_header">Thông báo</string>
   <string name="widgets_bottom_sheet_title">%1$s tiện ích con</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair là một trình khởi chạy tạo bởi Till Kottmann (aka deletescape). Nó được dựa trên Launcher3 từ AOSP.</string>
-  <string name="about_title">Thông tin</string>
+    <string name="about_title">Thông tin</string>
   <string name="about_pref_summary">Tìm hiểu về đội ngũ Lawnchair</string>
   <string name="changelog_title">Những thay đổi của bản xây dựng #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
@@ -398,8 +397,7 @@
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
-  <string name="about_translators">Dịch giả</string>
-  <string name="lock_desktop">Khóa màn hình chính</string>
+    <string name="lock_desktop">Khóa màn hình chính</string>
   <string name="lawnfeed_not_found">Lawnfeed không được cài đặt (Tải về và cài đặt từ bit.ly/lawnfeed)</string>
   <string name="google_app_not_found">Ứng dụng Google không được cài đặt</string>
     <string name="set_default_launcher">Đặt làm trình khởi chạy mặc định</string>

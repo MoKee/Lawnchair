@@ -324,10 +324,7 @@
     <string name="default_text">デフォルト</string>
   <string name="edit_icon_reset">リセット</string>
   <string name="pref_cat_homescreen">ホーム画面</string>
-  <string name="pref_cat_miscellaneous">その他</string>
-  <string name="pref_cat_hotseat">ドック</string>
-  <string name="pref_cat_theme">テーマ</string>
-  <string name="theme_pref_title">テーマ</string>
+    <string name="theme_pref_title">テーマ</string>
   <string name="theme_light">明るい</string>
   <string name="theme_dark">暗い</string>
   <string name="theme_black">黒</string>
@@ -340,9 +337,7 @@
   <string name="pull_down_apps_search">アプリを検索</string>
   <string name="enable_screen_rotation">画面の回転を有効にする</string>
   <!-- Import/Export Strings -->
-  <string name="imexport_success">成功しました！</string>
-  <string name="imexport_error">エラー : ファイルをコピーできませんでした</string>
-  <string name="imexport_no_backup_found">バックアップが見つかりません</string>
+    <string name="imexport_no_backup_found">バックアップが見つかりません</string>
   <string name="imexport_external_storage_unreadable">外部ストレージを読み取ることができません (設定で権限を許可して下さい)</string>
   <string name="imexport_external_storage_unwritable">外部ストレージに書き込むことができません (設定で権限を許可して下さい)</string>
   <string name="units_metric">メトリック法（摂氏）</string>
