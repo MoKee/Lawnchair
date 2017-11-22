@@ -346,7 +346,6 @@
   <string name="settings_import_success">Ripristino delle impostazioni completato</string>
   <string name="db_import_success">Ripristino del database completato</string>
   <string name="export_error">Impossibile eseguire il backup</string>
-  <string name="import_error">Impossibile eseguire il ripristino</string>
   <string name="imexport_no_backup_found">Nessun file di backup trovato</string>
   <string name="imexport_external_storage_unreadable">Rendi la memoria esterna leggibile nelle impostazioni</string>
   <string name="imexport_external_storage_unwritable">Rendi la memoria esterna scrivibile nelle impostazioni</string>

@@ -346,7 +346,6 @@
   <string name="settings_import_success">Instellingen zijn succesvol hersteld</string>
   <string name="db_import_success">Instellingen zijn succesvol hersteld</string>
   <string name="export_error">Back-up niet succesvol</string>
-  <string name="import_error">Herstellen niet gelukt</string>
   <string name="imexport_no_backup_found">Geen back-up gevonden</string>
   <string name="imexport_external_storage_unreadable">Maak externe opslag leesbaar in instellingen</string>
   <string name="imexport_external_storage_unwritable">Maak externe opslag schrijfbaar in instellingen</string>

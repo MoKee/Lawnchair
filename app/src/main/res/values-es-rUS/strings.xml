@@ -346,7 +346,6 @@
   <string name="settings_import_success">Configuración de copia de seguridad con éxito</string>
   <string name="db_import_success">Base de datos restaurada con éxito</string>
   <string name="export_error">No copia de seguridad</string>
-  <string name="import_error">No se pudo restaurar</string>
   <string name="imexport_no_backup_found">No encontró el archivo copia de seguridad</string>
   <string name="imexport_external_storage_unreadable">Hacer legible en ajustes almacenamiento externo</string>
   <string name="imexport_external_storage_unwritable">Hacer escribible en ajustes almacenamiento externo</string>

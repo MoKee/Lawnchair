@@ -347,7 +347,6 @@
   <string name="settings_import_success">Налады паспяхова адноўлены</string>
   <string name="db_import_success">База дадзеных паспяхова адноўлена</string>
   <string name="export_error">Немагчыма стварыць рэз. копію</string>
-  <string name="import_error">Немагчыма аднавіць</string>
   <string name="imexport_no_backup_found">Не знойдзена файла рэзервовай копіі</string>
   <string name="imexport_external_storage_unreadable">Пераканайцеся, што знешні назапашвальнік усталяваны для чытання</string>
   <string name="imexport_external_storage_unwritable">Пераканайцеся, што знешні назапашвальнік усталяваны для запісу</string>
