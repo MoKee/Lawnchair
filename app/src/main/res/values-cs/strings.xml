@@ -347,7 +347,6 @@
   <string name="settings_import_success">Nastavení bylo úspěšně obnoveno</string>
   <string name="db_import_success">Databáze byla úspěšně obnovena</string>
   <string name="export_error">Nelze zálohovat</string>
-  <string name="import_error">Nelze obnovit</string>
   <string name="imexport_no_backup_found">Nebyl nalezen žádný záložní soubor</string>
   <string name="imexport_external_storage_unreadable">Ujistěte se, že externí úložiště je nastaveno pro čtení</string>
   <string name="imexport_external_storage_unwritable">Ujistěte se, že externí úložiště je nastaveno pro zápis</string>

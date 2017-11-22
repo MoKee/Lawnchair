@@ -347,7 +347,6 @@
   <string name="settings_import_success">Nastavenia boli úspešne obnovené</string>
   <string name="db_import_success">Databáza bola úspešne obnovená</string>
   <string name="export_error">Nie je možné zálohovať</string>
-  <string name="import_error">Nie je možné obnoviť</string>
   <string name="imexport_no_backup_found">Nebol nájdený žiadny záložný súbor</string>
   <string name="imexport_external_storage_unreadable">Uistite sa, že externé úložisko je nastavené pre čítanie</string>
   <string name="imexport_external_storage_unwritable">Uistite sa, že externé úložisko je nastavené pre zápis</string>

@@ -400,6 +400,7 @@
   <string name="lock_desktop">锁定桌面</string>
   <string name="lawnfeed_not_found">未安装 Lawnfeed</string>
   <string name="google_app_not_found">未安装 Google 应用</string>
+  <string name="lawnfeed_incompatible">安装了不兼容的 Lawnfeed 版本</string>
   <string name="set_default_launcher">设置默认启动器</string>
   <string name="enable_spring_pref_title">启用音效</string>
   <string name="hide_app">隐藏应用</string>
@@ -414,6 +415,11 @@
   <string name="lawnfeed_not_enabled">看起来您正在尝试打开 Google Now 页面，但是您还没有在行为设置中打开这个选项。\n\n您想现在开启吗？</string>
   <string name="lawnfeed_not_installed_title">未安装 Lawnfeed</string>
   <string name="lawnfeed_not_installed">看起来您正在尝试打开 Google Now 页面，但是您还没有从我们的网站安装 Lawnfeed 应用。\n\n您想现在下载吗？</string>
+  <string name="lawnfeed_outdated_title">Lawnfeed 需要更新</string>
+  <string name="lawnfeed_outdated">为了使用此版本的 Lawnchair, 需要更新版本的 Lawnfeed. \n 之前安装此升级程序可能需要卸载当前版本的 Lawnfeed. \n 是否要立即下载它吗？</string>
   <string name="disable_popup">不再提示</string>
   <string name="two_row_dock">两行停靠栏</string>
+  <string name="reset_alternative_icons_title">重置替代应用程序图标？</string>
+  <string name="reset_alternative_icons">您有 %1$d 的应用程序具有备用图标，您想重置它们吗？</string>
+  <string name="error_no_browser">没有找到处理 url 的活动</string>
 </resources>
