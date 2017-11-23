@@ -347,6 +347,7 @@
   <string name="settings_import_success">Nastavení bylo úspěšně obnoveno</string>
   <string name="db_import_success">Databáze byla úspěšně obnovena</string>
   <string name="export_error">Nelze zálohovat</string>
+  <string name="import_error">Nelze obnovit</string>
   <string name="imexport_no_backup_found">Nebyl nalezen žádný záložní soubor</string>
   <string name="imexport_external_storage_unreadable">Ujistěte se, že externí úložiště je nastaveno pro čtení</string>
   <string name="imexport_external_storage_unwritable">Ujistěte se, že externí úložiště je nastaveno pro zápis</string>
@@ -401,6 +402,7 @@
   <string name="lock_desktop">Uzamčení pracovní plochy</string>
   <string name="lawnfeed_not_found">Lawnfeed není nainstalován</string>
   <string name="google_app_not_found">Aplikace Google není nainstalována</string>
+  <string name="lawnfeed_incompatible">Nainstalována nekompatibilní verze Lawnfeed</string>
   <string name="set_default_launcher">Nastavit výchozí spouštěč</string>
   <string name="enable_spring_pref_title">Povolit efekt pružiny</string>
   <string name="hide_app">Skrýt aplikaci</string>
@@ -415,6 +417,7 @@
   <string name="lawnfeed_not_enabled">Zdá se, že se pokoušíte otevřít stránku Google Now, avšak v nastavení chování jste tuto možnost nepovolili.\n\nChcete tuto možnost povolit?</string>
   <string name="lawnfeed_not_installed_title">Lawnfeed není nainstalován</string>
   <string name="lawnfeed_not_installed">Zdá se, že se pokoušíte otevřít stránku Google Now, ale nenainstalovali jste Lawnfeed z našich webových stránek.\n\nChcete jej nyní stáhnout?</string>
+  <string name="lawnfeed_outdated_title">Vyžadována aktualizace Lawnfeed</string>
   <string name="disable_popup">Znovu nezobrazovat</string>
   <string name="two_row_dock">Dok ve dvou řadách</string>
   <string name="reset_alternative_icons_title">Resetovat alternativní ikony aplikací?</string>
