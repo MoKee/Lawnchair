@@ -250,7 +250,7 @@
   <string name="week_day_format">%1$s: %2$s</string>
   <string name="icon_pack_preference_title">Pacote de Ícones</string>
   <string name="icon_pack_preference_summary">Selecione um pacote de ícone</string>
-  <string name="hotseat_uses_extracted_colors_pref_title">Usar cores do papel de parede na barra de ícones</string>
+  <string name="hotseat_uses_extracted_colors_pref_title">Cor: papel de parede na barra de ícones</string>
   <string name="hotseat_show_arrow">Mostrar a seta</string>
   <string name="hotseat_show_page_indicator">Mostrar indicador de página</string>
   <string name="hotseat_uses_extracted_colors_pref_on">A barra de ícones será colorida com uma cor extraída do papel de parede</string>
@@ -309,7 +309,7 @@
   <string name="haptic_feedback_pref_title">Habilitar vibração tátil</string>
   <string name="keep_scroll_state_pref_title">Salvar a posição da rolagem</string>
   <string name="keep_scroll_state_pref_summary">Salvar a posição da rolagem da gaveta de aplicativos</string>
-  <string name="home_opens_drawer_pref_title">Botão da tela inicial abre a Gaveta de aplicativos</string>
+  <string name="home_opens_drawer_pref_title">Botão da tela inicial abre a gaveta de app</string>
   <string name="home_opens_drawer_pref_summary">Pressionar o botão de início na tela inicial mostrará a Gaveta de aplicativos</string>
   <string name="show_hidden_pref_title">Mostrar aplicativos ocultos</string>
   <string name="show_hidden_pref_on">Apps ocultos serão mostrados para alterar as configurações de visibilidade</string>
@@ -393,7 +393,7 @@
   <string name="pref_all_apps_custom_label_color">Usar cor personalizada</string>
   <string name="pref_all_apps_label_color">Cor dos rótulos dos ícones na gaveta de aplicativos</string>
   <string name="pref_num_rows_drawer">Número de colunas na gaveta</string>
-  <string name="center_wallpaper_pref_title">Centralizar papel de parede quando houver apenas uma página</string>
+  <string name="center_wallpaper_pref_title">Centralizar papel de parede (se 1 página)</string>
   <string name="vertical_drawer_layout_pref_title">Exibir como lista vertical</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
