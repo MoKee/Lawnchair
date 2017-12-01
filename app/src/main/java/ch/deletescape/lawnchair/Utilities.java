@@ -1154,28 +1154,28 @@ public final class Utilities {
         }
     }
 
-    public static void showOutdatedLawnfeedPopup(final Context context) {
-        if (!BuildConfig.ENABLE_LAWNFEED || ILauncherClient.Companion.getEnabledState(context) != ILauncherClient.DISABLED_CLIENT_OUTDATED) return;
-        new AlertDialog.Builder(context)
-            .setTitle(R.string.lawnfeed_outdated_title)
-            .setMessage(R.string.lawnfeed_outdated)
-            .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialogInterface, int i) {
-                    try {
-                        // Open website with download link for Lawnfeed
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://lawnchair.info/getlawnfeed.html"));
-                        context.startActivity(intent);
-                    } catch (ActivityNotFoundException exc) {
-                        // Believe me, this actually happens.
-                        Toast.makeText(context, R.string.error_no_browser, Toast.LENGTH_SHORT).show();
-                    }
-                }
-            })
-            .setNegativeButton(android.R.string.no, null)
-            .show();
-    }
-
+//    public static void showOutdatedLawnfeedPopup(final Context context) {
+//        if (!BuildConfig.ENABLE_LAWNFEED || ILauncherClient.Companion.getEnabledState(context) != ILauncherClient.DISABLED_CLIENT_OUTDATED) return;
+//        new AlertDialog.Builder(context)
+//            .setTitle(R.string.lawnfeed_outdated_title)
+//            .setMessage(R.string.lawnfeed_outdated)
+//            .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+//                @Override
+//                public void onClick(DialogInterface dialogInterface, int i) {
+//                    try {
+//                        // Open website with download link for Lawnfeed
+//                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://lawnchair.info/getlawnfeed.html"));
+//                        context.startActivity(intent);
+//                    } catch (ActivityNotFoundException exc) {
+//                        // Believe me, this actually happens.
+//                        Toast.makeText(context, R.string.error_no_browser, Toast.LENGTH_SHORT).show();
+//                    }
+//                }
+//            })
+//            .setNegativeButton(android.R.string.no, null)
+//            .show();
+//    }
+//
     public static boolean checkOutdatedLawnfeed(Context context) {
         try {
             PackageInfo info = context.getPackageManager().getPackageInfo(LawnfeedClient.PROXY_PACKAGE, 0);
