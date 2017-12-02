@@ -377,7 +377,7 @@
   <string name="icon_shape_teardrop">泪珠形</string>
   <string name="animated_clock_icon_title">动态时钟图标</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">动画替代时钟应用程序</string>
-  <string name="animated_clock_icon_alternative_clock_apps_summary">如果你不使用 Google 时钟作为您的默认时钟应用程序，启用它。</string>
+  <string name="animated_clock_icon_alternative_clock_apps_summary">如果您不使用 Google 时钟作为默认时钟应用程序，请启用此选项</string>
   <string name="about_summary_title">摘要</string>
   <string name="about_version">版本</string>
   <string name="about_icon_designer">图标设计者</string>
