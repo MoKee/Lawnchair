@@ -409,10 +409,4 @@
   <string name="hide_app_apply">Aplicar</string>
   <string name="unauthorized_device">Este dispositivo tiene algunas herramientas de piratería instaladas. Desinstálalas para continuar.</string>
   <string name="hide_app_reset">Restablecer</string>
-  <!-- Strings for Lawnfeed gesture popup -->
-  <string name="lawnfeed_not_enabled_title">Lawnfeed no está activado</string>
-  <string name="lawnfeed_not_enabled">Parece que estás intentando abrir la página de Google Now, pero no has activado la opción en las configuraciones.\n\n Deseas activarlo ahora?</string>
-  <string name="lawnfeed_not_installed_title">Lawnfeed no instalado</string>
-  <string name="lawnfeed_not_installed">¿Parece que estás tratando de abrir la página de Google Now, pero no has instalado la aplicación Lawnfeed de nuestra página web.\n\n¿Quieres descargarla ahora?</string>
-  <string name="disable_popup">No volver a mostrar</string>
 </resources>

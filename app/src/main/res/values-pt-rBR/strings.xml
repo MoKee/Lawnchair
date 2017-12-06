@@ -22,42 +22,42 @@
   <!-- Application name -->
   <!-- Default folder name -->
   <!-- Work folder name -->
-  <string name="work_folder_name">Trabalhando</string>
+  <string name="work_folder_name">Nome da pasta de trabalho</string>
   <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
-  <string name="activity_not_found">O app não está instalado.</string>
+  <string name="activity_not_found">O aplicativo não está instalado.</string>
   <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
-  <string name="activity_not_available">O app não está disponível</string>
+  <string name="activity_not_available">O aplicativo não está disponível</string>
   <!-- SafeMode shortcut error string -->
-  <string name="safemode_shortcut_error">App transferido por download desativado no modo de segurança</string>
+  <string name="safemode_shortcut_error">Aplicativos baixados ficarão desativados no modo de segurança</string>
   <!-- SafeMode widget error string -->
-  <string name="safemode_widget_error">Widgets desativados no modo de segurança</string>
+  <string name="safemode_widget_error">Widgets ficarão desativados no modo de segurança</string>
   <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
   <string name="shortcut_not_available">O atalho não está disponível</string>
   <!-- Widgets -->
   <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
-  <string name="long_press_widget_to_add">Toque e pressione para selecionar um widget.</string>
+  <string name="long_press_widget_to_add">Toque &amp; e pressione para selecionar um widget.</string>
   <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
-  <string name="long_accessible_way_to_add">Toque duas vezes e segure para selecionar um widget ou usar ações personalizadas.</string>
+  <string name="long_accessible_way_to_add">Toque duas vezes &amp; e segure para selecionar um widget ou usar ações personalizadas.</string>
   <!-- The format string for the dimensions of a widget in the drawer -->
   <!-- There is a special version of this format string for Farsi -->
   <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
   <string name="widget_accessible_dims_format">%1$d de largura por %2$d de altura</string>
   <!-- All Apps -->
   <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_bar_hint">Pesquisar apps</string>
+  <string name="all_apps_search_bar_hint">Procurar aplicativos</string>
   <!-- Loading apps text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_loading_message">Carregando apps…</string>
+  <string name="all_apps_loading_message">Carregando aplicativos&#8230;</string>
   <!-- No-search-results text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_no_search_results">Nenhum app encontrado que corresponda a \"<xliff:g id="QUERY">%1$s</xliff:g>\"</string>
+  <string name="all_apps_no_search_results">Nenhum aplicativo encontrado que corresponda a \"<xliff:g example="Android" id="query">%1$s</xliff:g>\"</string>
   <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_market_message">Pesquisar mais apps</string>
+  <string name="all_apps_search_market_message">Pesquisar por mais aplicativos</string>
   <!-- Drag and drop -->
   <!-- Error message when user has filled a page -->
-  <string name="out_of_space">Não há mais espaço na tela inicial.</string>
+  <string name="out_of_space">Não há mais espaço nesta página.</string>
   <!-- Error message when user has filled the hotseat -->
   <string name="hotseat_out_of_space">Sem espaço na barra de favoritos</string>
   <!-- All applications label -->
-  <string name="all_apps_button_label">Lista de apps</string>
+  <string name="all_apps_button_label">Lista de aplicativos</string>
   <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
   <string name="all_apps_home_button_label">Início</string>
@@ -66,43 +66,46 @@
   <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
   <string name="uninstall_drop_target_label">Desinstalar</string>
   <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
-  <string name="app_info_drop_target_label">Informações do app</string>
+  <string name="app_info_drop_target_label">Informações do aplicativo</string>
   <!-- Permissions: -->
   <!-- Permission short label -->
   <string name="permlab_install_shortcut">instalar atalhos</string>
   <!-- Permission description -->
-  <string name="permdesc_install_shortcut">Permite que um app adicione atalhos sem intervenção do usuário.</string>
+  <string name="permdesc_install_shortcut">Permite um aplicativo adicionar
+        atalhos sem intervenção do usuário.</string>
   <!-- Permission short label -->
   <string name="permlab_read_settings">ler configurações e atalhos da tela inicial</string>
   <!-- Permission description -->
-  <string name="permdesc_read_settings">Permite que o app leia as configurações e os atalhos na tela inicial.</string>
+  <string name="permdesc_read_settings">Permite que o aplicativo leia as configurações e
+        os atalhos na tela inicial.</string>
   <!-- Permission short label -->
   <string name="permlab_write_settings">gravar configurações e atalhos da tela inicial</string>
   <!-- Permission description -->
-  <string name="permdesc_write_settings">Permite que o app altere as configurações e os atalhos na tela inicial.</string>
+  <string name="permdesc_write_settings">Permite que o aplicativo altere as configurações
+        e os atalhos na tela inicial.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
-  <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> não tem permissão para fazer chamadas</string>
+  <string name="msg_no_phone_permission"><xliff:g example="Launcher3" id="app_name">%1$s</xliff:g> não tem permissão para fazer chamadas</string>
   <!-- Widgets: -->
   <!-- Text to show user in place of a gadget when we can't display it properly -->
   <string name="gadget_error_text">Problema ao carregar o widget</string>
   <!-- Text to show user in place of a gadget when it is not yet initialized. -->
-  <string name="gadget_setup_text">Configuração</string>
+  <string name="gadget_setup_text">Configurar</string>
   <!-- Text to inform the user that they can't uninstall a system application -->
-  <string name="uninstall_system_app_text">Este é um app do sistema e não pode ser desinstalado.</string>
+  <string name="uninstall_system_app_text">Este é um aplicativo do sistema e não pode ser desinstalado.</string>
   <!-- Default folder title -->
   <string name="folder_hint_text">Pasta sem nome</string>
   <!-- Accessibility -->
   <!-- The format string for when an app is temporarily disabled. -->
-  <string name="disabled_app_label"><xliff:g id="APP_NAME">%1$s</xliff:g> desativado</string>
+  <string name="disabled_app_label"><xliff:g example="Messenger" id="app_name">%1$s</xliff:g> desativado</string>
   <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
   <string name="default_scroll_format">Página %1$d de %2$d</string>
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
   <string name="workspace_scroll_format">Tela inicial %1$d de %2$d</string>
   <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
-  <string name="workspace_new_page">Nova página na tela inicial</string>
+  <string name="workspace_new_page">Nova página de tela inicial</string>
   <!-- Folder accessibility -->
   <!-- The format string for when a folder is opened, speaks the dimensions -->
-  <string name="folder_opened">Pasta aberta, <xliff:g id="WIDTH">%1$d</xliff:g> por <xliff:g id="HEIGHT">%2$d</xliff:g></string>
+  <string name="folder_opened">Pasta aberta, <xliff:g example="5" id="width">%1$d</xliff:g> por <xliff:g example="3" id="height">%2$d</xliff:g></string>
   <!-- Instruction that clicking outside will close folder -->
   <string name="folder_tap_to_close">Toque para fechar a pasta</string>
   <!-- Instruction that clicking outside will commit folder rename -->
@@ -110,14 +113,14 @@
   <!-- Indication that folder closed -->
   <string name="folder_closed">Pasta fechada</string>
   <!-- Folder renamed format -->
-  <string name="folder_renamed">Pasta renomeada para <xliff:g id="Name">%1$s</xliff:g></string>
+  <string name="folder_renamed">Pasta renomeada para <xliff:g example="Games" id="name">%1$s</xliff:g></string>
   <!-- Folder name format -->
-  <string name="folder_name_format">Pasta: <xliff:g id="NAME">%1$s</xliff:g></string>
+  <string name="folder_name_format">Pasta: <xliff:g example="Games" id="name">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
   <string name="widget_button_text">Widgets</string>
   <!-- Text for wallpaper change button -->
-  <string name="wallpaper_button_text">Planos de fundo</string>
+  <string name="wallpaper_button_text">Papéis de Parede</string>
   <!-- Text for settings button -->
   <string name="settings_button_text">Configurações</string>
   <!-- Message shown when a feature is disabled by the administrator -->
@@ -237,7 +240,7 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <string name="which_wallpaper_option_home_screen_and_lock_screen">Tela inicial e de bloqueio</string>
   <string name="title_show_google_app">Mostrar %1$s</string>
-  <string name="title_show_google_app_default">Mostrar app do Google</string>
+  <string name="title_show_google_app_default">Mostrar aplicativo do Google</string>
   <string name="label_search">Pesquisar</string>
   <string name="label_voice_search">Pesquisa por voz</string>
   <string name="shortcuts_menu_with_notifications_description">%1$d atalhos e notificações de %2$d para %3$s</string>
@@ -245,9 +248,9 @@
   <string name="widgets_bottom_sheet_title">%1$s widgets</string>
   <!-- About Lawnchair -->
   <string name="about_title">Sobre</string>
-  <string name="about_pref_summary">Conheça sobre a equipe de Lawnchair</string>
+  <string name="about_pref_summary">Conheça a equipe da Lawnchair</string>
   <string name="changelog_title">Alterações para a versão #%d</string>
-  <string name="week_day_format">%1$s: %2$s</string>
+  <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Pacote de Ícones</string>
   <string name="icon_pack_preference_summary">Selecione um pacote de ícone</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Cor: papel de parede na barra de ícones</string>
@@ -411,14 +414,6 @@
   <string name="hide_app_apply">Aplicar</string>
   <string name="unauthorized_device">Este dispositivo possui algumas ferramentas de pirataria instaladas. Por favor, desinstale-as para continuar.</string>
   <string name="hide_app_reset">Redefinir</string>
-  <!-- Strings for Lawnfeed gesture popup -->
-  <string name="lawnfeed_not_enabled_title">Lawnfeed não habilitado</string>
-  <string name="lawnfeed_not_enabled">Parece que você está tentando abrir a página do Google Now, mas você não ativou a opção nas configurações de comportamento.\n\nVocê quer habilitá-la agora?</string>
-  <string name="lawnfeed_not_installed_title">Lawnfeed não instalado</string>
-  <string name="lawnfeed_not_installed">Parece que você está tentando abrir a página do Google Now, mas você não instalou o aplicativo Lawnfeed do nosso site\n\nVocê quer fazer o download agora?</string>
-  <string name="lawnfeed_outdated_title">Atualização do Lawnfeed necessária</string>
-  <string name="lawnfeed_outdated">Uma nova versão do Lawnfeed é necessária nesta versão do Lawnchair.\n\nAntes de instalar a atualização, você provavelmente precisará desinstalar a versão atual do Lawnfeed.\n\nVocê deseja baixá-la agora?</string>
-  <string name="disable_popup">Não exibir novamente</string>
   <string name="two_row_dock">Barra de ícones com 2 linhas</string>
   <string name="reset_alternative_icons_title">Redefinir os ícones do app alternativo?</string>
   <string name="reset_alternative_icons">Você tem %1$d apps com ícones alternativos, quer restaurá-los?</string>

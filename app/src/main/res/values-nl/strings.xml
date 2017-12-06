@@ -410,12 +410,6 @@
   <string name="hide_app_apply">Toepassen</string>
   <string name="unauthorized_device">Dit apparaat heeft een paar piraterij tools geïnstalleerd. Verwijder ze om voort te zetten.</string>
   <string name="hide_app_reset">Resetten</string>
-  <!-- Strings for Lawnfeed gesture popup -->
-  <string name="lawnfeed_not_enabled_title">Lawnfeed niet is ingeschakeld</string>
-  <string name="lawnfeed_not_enabled">Het lijkt erop dat u probeert te openen van de pagina Google nu, maar nog niet hebt u de optie in het gedrag settings.\n\nWilt u deze nu inschakelen?</string>
-  <string name="lawnfeed_not_installed_title">Lawnfeed niet geïnstalleerd</string>
-  <string name="lawnfeed_not_installed">Het lijkt erop dat u probeert te openen van de pagina Google nu, maar nog niet hebt u de optie in het gedrag settings.\n\nWilt u deze nu inschakelen?</string>
-  <string name="disable_popup">Niet meer weergeven</string>
   <string name="two_row_dock">Twee rijen dok</string>
   <string name="reset_alternative_icons_title">Reset alternatieve app iconen?</string>
   <string name="reset_alternative_icons">Je hebt %1$d apps met alternatieve iconen, wilt u ze opnieuw instellen?</string>

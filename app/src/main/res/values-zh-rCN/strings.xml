@@ -282,9 +282,9 @@
   <string name="pixel_ui_pref_title">主题</string>
   <string name="behavior_pref_title">行为</string>
   <string name="debug_pref_title">调试</string>
-  <string name="general_pref_summary">定制您的桌面</string>
-  <string name="dock_pref_summary">定制您的停靠栏</string>
-  <string name="app_drawer_pref_summary">定制您的应用抽屉</string>
+  <string name="general_pref_summary">自定义桌面</string>
+  <string name="dock_pref_summary">自定义 Dock 栏</string>
+  <string name="app_drawer_pref_summary">自定义应用抽屉</string>
   <string name="pixel_ui_pref_summary">不同的主题元素</string>
   <string name="backup_pref_title">备份 &amp; 还原</string>
   <string name="behavior_pref_summary">更改 Lawnchair 行为</string>
@@ -340,15 +340,15 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">恢复授权</string>
   <string name="backup_export_title">备份</string>
-  <string name="settings_export_success">已成功备份设置</string>
-  <string name="db_export_success">数据库备份成功。</string>
-  <string name="settings_import_success">成功还原设置</string>
+  <string name="settings_export_success">设置备份成功</string>
+  <string name="db_export_success">数据库备份成功</string>
+  <string name="settings_import_success">设置还原成功</string>
   <string name="db_import_success">数据库恢复成功</string>
   <string name="export_error">无法备份</string>
   <string name="import_error">无法恢复</string>
   <string name="imexport_no_backup_found">未找到备份</string>
-  <string name="imexport_external_storage_unreadable">使外部存储在设置中可读</string>
-  <string name="imexport_external_storage_unwritable">在设置中使外部存储可写</string>
+  <string name="imexport_external_storage_unreadable">在系统设置中授予外部存储读取权限</string>
+  <string name="imexport_external_storage_unwritable">在系统设置中授予外部存储写入权限</string>
   <string name="units_metric">公制</string>
   <string name="units_imperial">英制</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
@@ -376,7 +376,7 @@
   <string name="icon_shape_circle">环形</string>
   <string name="icon_shape_teardrop">泪珠形</string>
   <string name="animated_clock_icon_title">动态时钟图标</string>
-  <string name="animated_clock_icon_alternative_clock_apps_title">动画替代时钟应用程序</string>
+  <string name="animated_clock_icon_alternative_clock_apps_title">为其他时钟应用显示动态图标</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">如果您不使用 Google 时钟作为默认时钟应用程序，请启用此选项</string>
   <string name="about_summary_title">摘要</string>
   <string name="about_version">版本</string>
@@ -400,26 +400,18 @@
   <string name="lock_desktop">锁定桌面</string>
   <string name="lawnfeed_not_found">未安装 Lawnfeed</string>
   <string name="google_app_not_found">未安装 Google 应用</string>
-  <string name="lawnfeed_incompatible">安装了不兼容的 Lawnfeed 版本</string>
+  <string name="lawnfeed_incompatible">已安装的 Lawnfeed 版本不兼容</string>
   <string name="set_default_launcher">设置默认启动器</string>
-  <string name="enable_spring_pref_title">启用音效</string>
+  <string name="enable_spring_pref_title">启用回弹特效</string>
   <string name="hide_app">隐藏应用</string>
   <string name="hide_app_sum">从抽屉隐藏应用</string>
   <string name="hide_app_selected">&#160;已选择</string>
-  <string name="hidden_app">隐藏的应用</string>
+  <string name="hidden_app">被隐藏的应用</string>
   <string name="hide_app_apply">应用</string>
   <string name="unauthorized_device">此设备安装了一些破解工具，这可能会损害图标包开发者，因此请卸载它们以便继续。</string>
   <string name="hide_app_reset">重置</string>
-  <!-- Strings for Lawnfeed gesture popup -->
-  <string name="lawnfeed_not_enabled_title">Lawnfeed 未启用</string>
-  <string name="lawnfeed_not_enabled">看起来您正在尝试打开 Google Now 页面，但是您还没有在行为设置中打开这个选项。\n\n您想现在开启吗？</string>
-  <string name="lawnfeed_not_installed_title">未安装 Lawnfeed</string>
-  <string name="lawnfeed_not_installed">看起来您正在尝试打开 Google Now 页面，但是您还没有从我们的网站安装 Lawnfeed 应用。\n\n您想现在下载吗？</string>
-  <string name="lawnfeed_outdated_title">Lawnfeed 需要更新</string>
-  <string name="lawnfeed_outdated">为了使用此版本的 Lawnchair, 需要更新版本的 Lawnfeed. \n 之前安装此升级程序可能需要卸载当前版本的 Lawnfeed. \n 是否要立即下载它吗？</string>
-  <string name="disable_popup">不再提示</string>
-  <string name="two_row_dock">两行停靠栏</string>
-  <string name="reset_alternative_icons_title">重置替代应用程序图标？</string>
-  <string name="reset_alternative_icons">您有 %1$d 的应用程序具有备用图标，您想重置它们吗？</string>
+  <string name="two_row_dock">双行 Dock 栏</string>
+  <string name="reset_alternative_icons_title">重置备选应用图标？</string>
+  <string name="reset_alternative_icons">您有 %1$d 的应用程序具有备选图标，您想重置它们吗？</string>
   <string name="error_no_browser">没有找到处理 url 的活动</string>
 </resources>
