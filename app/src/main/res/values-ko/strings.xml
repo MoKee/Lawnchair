@@ -138,7 +138,7 @@
   <string name="abandoned_promises_title">이 앱이 설치되어 있지 않음</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
-  <string name="abandoned_promise_explanation">이 아이콘의 앱이 설치되어 있지 않습니다. 아이콘을 삭제하거나 앱을 검색하여 수동으로 설치하세요.    </string>
+  <string name="abandoned_promise_explanation">이 아이콘의 앱이 설치되어 있지 않습니다. 아이콘을 삭제하거나 앱을 검색하여 수동으로 설치하세요.</string>
   <!-- Title for an app which is being downloaded. -->
   <string name="app_downloading_title"><xliff:g id="Name">%1$s</xliff:g> 다운로드 중, <xliff:g id="Progress">%2$s</xliff:g> 완료</string>
   <!-- Title for an app whose download has been started. -->
@@ -243,11 +243,9 @@
   <string name="notifications_header">알림창</string>
   <string name="widgets_bottom_sheet_title">%1$s개</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair는 Till Kottmann (@deletescape)이 제작한 AOSP의 Launcher3를 기반으로 하는 런처 앱입니다.</string>
   <string name="about_title">Lawnchair 정보</string>
   <string name="about_pref_summary">Lawnchair 팀 관련 정보</string>
   <string name="changelog_title">%d 빌드의 변경사항</string>
-  <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">아이콘 팩</string>
   <string name="icon_pack_preference_summary">아이콘 팩 선택</string>
   <string name="hotseat_uses_extracted_colors_pref_title">독에 배경화면 색을 적용합니다.</string>
@@ -398,7 +396,6 @@
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">MMMM d EEEE</string>
-  <string name="about_translators">번역자</string>
   <string name="lock_desktop">바탕화면 잠금</string>
   <string name="lawnfeed_not_found">Lawnfeed가 설치 되지 않았습니다.</string>
   <string name="google_app_not_found">Google 앱이 설치 되지 않았습니다.</string>

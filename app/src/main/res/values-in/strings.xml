@@ -200,7 +200,7 @@
   <string name="action_deep_shortcut">Pintasan</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
   <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> pintasan untuk <xliff:g id="APP_NAME">%2$s</xliff:g></string>
-  <string name="edit_drop_target_label">Edit</string>
+  <string name="edit_drop_target_label">Ubah</string>
   <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
   <string name="wallpaper_instructions">Setel wallpaper</string>
   <!-- Error message when an image is selected as a wallpaper,
@@ -247,7 +247,6 @@
   <string name="notifications_header">Pemberitahuan</string>
   <string name="widgets_bottom_sheet_title">%1$s widget</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair adalah aplikasi peluncur yang dibuat oleh Till Kottmann (alias deletescape). Ini berdasarkan Launcher3 dari AOSP.</string>
   <string name="about_title">Tentang</string>
   <string name="about_pref_summary">Mengenal tim Lawnchair</string>
   <string name="changelog_title">Daftar perubahan pada bentukan #%d</string>
@@ -318,8 +317,8 @@
   <string name="show_hidden_pref_title">Tampilkan aplikasi tersembunyi</string>
   <string name="show_hidden_pref_on">Aplikasi tersembunyi akan ditampilkan untuk mengubah setelan keterlihatan</string>
   <string name="show_hidden_pref_off">Aplikasi tersembunyi tidak akan terlihat</string>
-  <string name="export_db_title">Database</string>
-  <string name="import_db_title">Database</string>
+  <string name="export_db_title">Basis Data</string>
+  <string name="import_db_title">Basis Data</string>
   <string name="export_prefs_title">Setelan</string>
   <string name="import_prefs_title">Setelan</string>
   <string name="notification_listener_label">Lencana pemberitahuan - Lawnchair</string>
@@ -402,7 +401,6 @@
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
-  <string name="about_translators">Penerjemah</string>
   <string name="lock_desktop">Kunci desktop</string>
   <string name="lawnfeed_not_found">Lawnfeed tidak terpasang</string>
   <string name="google_app_not_found">Aplikasi Google tidak terpasang</string>

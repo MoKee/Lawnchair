@@ -243,11 +243,9 @@
   <string name="notifications_header">Thông báo</string>
   <string name="widgets_bottom_sheet_title">%1$s tiện ích con</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair là một trình khởi chạy tạo bởi Till Kottmann (aka deletescape). Nó được dựa trên Launcher3 từ AOSP.</string>
   <string name="about_title">Thông tin</string>
   <string name="about_pref_summary">Tìm hiểu về đội ngũ Lawnchair</string>
   <string name="changelog_title">Những thay đổi của bản xây dựng #%d</string>
-  <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Gói Biểu Tượng</string>
   <string name="icon_pack_preference_summary">Chọn Gói Biểu tượng</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Sử dụng màu sắc hình nền cho thanh dock</string>
@@ -265,7 +263,6 @@
   <string name="hide_icon_labels_pref_title">Ẩn nhãn biểu tượng trên màn hình chính</string>
   <string name="hide_all_apps_icon_labels_pref_title">Ẩn biểu tượng nhãn trong ngăn chứa ứng dụng</string>
   <string name="workspace_label_color_hue_pref_title">Màu sắc của nhãn biểu tượng trên màn hình chính</string>
-  <string name="all_apps_opacity_pref_title">Drawer opacity</string>
   <string name="num_cols_pref_title">Số cột</string>
   <string name="num_rows_pref_title">Số hàng</string>
   <string name="num_hotseat_icons_pref_title">Số lượng các biểu tượng trong thanh dock</string>
@@ -397,8 +394,6 @@
   <string name="vertical_drawer_layout_pref_title">Hiển thị dạng danh sách dọc</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
-  <string name="about_translators">Dịch giả</string>
   <string name="lock_desktop">Khóa màn hình chính</string>
   <string name="lawnfeed_not_found">Chưa cài đặt Lawnfeed</string>
   <string name="google_app_not_found">Ứng dụng Google không được cài đặt</string>

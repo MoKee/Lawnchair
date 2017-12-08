@@ -248,7 +248,6 @@
   <string name="notifications_header">الإشعارات</string>
   <string name="widgets_bottom_sheet_title">الأدوات %1$s</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair هو تطبيق واجهة مستخدم تم إنشاؤه بواسطة Till Kottmann الملقب ب deletescape. هذا التطبيق يستند على Launcher3 من AOSP.</string>
   <string name="about_title">حول</string>
   <string name="changelog_title">تغييرات البنية #%d</string>
   <string name="week_day_format">%1$s، %2$s</string>
@@ -391,10 +390,10 @@
   <string name="vertical_drawer_layout_pref_title">عرض كقائمة عمودية</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
-  <string name="about_translators">المترجمون</string>
   <string name="lock_desktop">قفل سطح المكتب</string>
   <string name="lawnfeed_not_found">لاونفيد غير مثبت</string>
   <string name="google_app_not_found">تطبيق غوغل غير مثبت</string>
   <string name="set_default_launcher">تعيين كمتصفح البرامج الإفتراضي</string>
+  <string name="hide_app_apply">تطبيق</string>
+  <string name="hide_app_reset">إعادة تعيين</string>
 </resources>

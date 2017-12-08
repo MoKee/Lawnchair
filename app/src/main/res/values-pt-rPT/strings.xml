@@ -115,7 +115,6 @@
   <string name="folder_name_format">Pasta: <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
-  <string name="widget_button_text">Widgets</string>
   <!-- Text for wallpaper change button -->
   <string name="wallpaper_button_text">Imagens de fundo</string>
   <!-- Text for settings button -->
@@ -242,9 +241,7 @@
   <string name="label_voice_search">Pesquisar por voz</string>
   <string name="shortcuts_menu_with_notifications_description">%1$d atalhos e %2$d notificações para %3$s</string>
   <string name="notifications_header">Notificações</string>
-  <string name="widgets_bottom_sheet_title">%1$s widgets</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair é uma aplicação da tela inicial criada por Till Kottmann (aka deletescape). É baseado no Launcher3 da AOSP.</string>
   <string name="about_title">Sobre</string>
   <string name="changelog_title">Changelog da build #%d</string>
   <string name="week_day_format">%1$s,%2$s</string>
@@ -341,7 +338,6 @@
   <string name="imexport_external_storage_unreadable">Armazenamento Interno não pode ser lido (conceder permissões nas definições)</string>
   <string name="imexport_external_storage_unwritable">Armazenamento Interno não pode ser escrito (conceder permissões nas definições)</string>
   <string name="units_metric">Métrico</string>
-  <string name="units_imperial">Imperial</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Tempo</string>
   <string name="pref_weather_title">Ativar Tempo</string>
@@ -387,10 +383,10 @@
   <string name="vertical_drawer_layout_pref_title">Exibir como lista vertical</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
-  <string name="about_translators">Tradutores</string>
   <string name="lock_desktop">Bloquear ambiente de trabalho</string>
   <string name="lawnfeed_not_found">Lawnfeed não instalado</string>
   <string name="google_app_not_found">Aplicação \"Google\" não instalada</string>
   <string name="set_default_launcher">Predefinir launcher</string>
+  <string name="hide_app_apply">Aplicar</string>
+  <string name="hide_app_reset">Repor</string>
 </resources>

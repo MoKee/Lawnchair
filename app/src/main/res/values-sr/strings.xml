@@ -138,7 +138,7 @@
   <string name="abandoned_promises_title">Ова апликација није инсталирана</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
-  <string name="abandoned_promise_explanation">Апликација за ову икону није инсталирана. Можете да је уклоните или да потражите апликацију и инсталирате је ручно.    </string>
+  <string name="abandoned_promise_explanation">Апликација за ову икону није инсталирана. Можете да је уклоните или да потражите апликацију и инсталирате је ручно.</string>
   <!-- Title for an app which is being downloaded. -->
   <string name="app_downloading_title"><xliff:g id="NAME">%1$s</xliff:g> се преузима, завршено је <xliff:g id="PROGRESS">%2$s</xliff:g></string>
   <!-- Title for an app whose download has been started. -->
@@ -245,11 +245,9 @@
   <string name="notifications_header">Обавештења</string>
   <string name="widgets_bottom_sheet_title">%1$s виџета</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair је покретач ког је креирао Till Kottmann (deletescape). Заснован је на апликацији Launcher3 из AOSP-а.</string>
   <string name="about_title">О програму</string>
   <string name="about_pref_summary">Упознајте Lawnchair тим</string>
   <string name="changelog_title">Промене за изградњу #%d</string>
-  <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Пакет икона</string>
   <string name="icon_pack_preference_summary">Изабери пакет икона</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Док користи боју позадине</string>
@@ -400,7 +398,6 @@
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, d. MMMM</string>
-  <string name="about_translators">Преводиоци</string>
   <string name="lock_desktop">Закључај радну површину</string>
   <string name="lawnfeed_not_found">Lawnfeed није инсталиран</string>
   <string name="google_app_not_found">Апликација Google није инсталирана</string>

@@ -244,11 +244,9 @@
   <string name="notifications_header">Notificacions</string>
   <string name="widgets_bottom_sheet_title">%1$s ginys</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair és una aplicació llançador creada per Kottmann (àlies deletescape). Es basa en Launcher3 d\'AOSP.</string>
   <string name="about_title">Quant a</string>
   <string name="about_pref_summary">Coneixeu l\'equip de Lawnchair</string>
   <string name="changelog_title">Registre de canvis per a la compilació #%d</string>
-  <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Paquet d\'icones</string>
   <string name="icon_pack_preference_summary">Seleccioneu un paquet d\'icones</string>
   <string name="hotseat_uses_extracted_colors_pref_title">La barra d\'aplicacions utilitza els colors del fons de pantalla</string>
@@ -352,7 +350,6 @@
   <string name="imexport_external_storage_unreadable">Feu que l\'emmagatzematge extern es pugui llegir a la Configuració</string>
   <string name="imexport_external_storage_unwritable">Feu que l\'emmagatzematge extern es pugui escriure a la Configuració</string>
   <string name="units_metric">Mètric</string>
-  <string name="units_imperial">Imperial</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">El temps</string>
   <string name="pref_weather_title">Activa el temps</string>
@@ -399,7 +396,6 @@
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
-  <string name="about_translators">Traductors</string>
   <string name="lock_desktop">Bloqueja l\'escriptori</string>
   <string name="lawnfeed_not_found">No s\'han instal·lat els paquets</string>
   <string name="google_app_not_found">Aplicació de Google no instal·lada</string>

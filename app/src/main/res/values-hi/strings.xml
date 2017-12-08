@@ -138,7 +138,7 @@
   <string name="abandoned_promises_title">यह ऐप स्थापित नहीं है</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
-  <string name="abandoned_promise_explanation">इस आइकन का ऐप्स इंस्टॉल नहीं है. आप उसे निकाल सकते हैं या ऐप्स की खोज करके उसे मैन्युअल रूप से इंस्टॉल कर सकते हैं.    </string>
+  <string name="abandoned_promise_explanation">इस आइकन का ऐप्स इंस्टॉल नहीं है. आप उसे निकाल सकते हैं या ऐप्स की खोज करके उसे मैन्युअल रूप से इंस्टॉल कर सकते हैं.</string>
   <!-- Title for an app which is being downloaded. -->
   <string name="app_downloading_title"><xliff:g id="NAME">%1$s</xliff:g> डाउनलोड हो रहा है, <xliff:g id="PROGRESS">%2$s</xliff:g> पूर्ण</string>
   <!-- Title for an app whose download has been started. -->
@@ -244,11 +244,9 @@
   <string name="notifications_header">सूचनाएँ</string>
   <string name="widgets_bottom_sheet_title">%1$s विजेट</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair एक लांचर ऐप है, जिसे Till Kottmann (उर्फ deletescape) द्वारा बनाया गया था। यह AOSP से लॉन्चर3 पर आधारित है।</string>
   <string name="about_title">हमारे बारे में</string>
   <string name="about_pref_summary">लॉनचेयर टीम के बारे में जानिए</string>
   <string name="changelog_title">#%d इस बिल्डमें किये गए बदलाव</string>
-  <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">आइकन पैक</string>
   <string name="icon_pack_preference_summary">एक आइकन पैक चुनें</string>
   <string name="hotseat_uses_extracted_colors_pref_title">डॉक वॉलपेपर के रंग का उपयोग करेगा</string>
@@ -398,8 +396,6 @@
   <string name="vertical_drawer_layout_pref_title">अनुलंब सूची के रूप में प्रदर्शित करें</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
-  <string name="about_translators">अनुवादक</string>
   <string name="lock_desktop">डेस्कटॉप बंद करे</string>
   <string name="lawnfeed_not_found">Lawnfeed स्थापित नहीं</string>
   <string name="google_app_not_found">Google app स्थापित नहीं</string>
