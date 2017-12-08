@@ -415,5 +415,4 @@
   <string name="two_row_dock">Двухстрочный док-бар</string>
   <string name="reset_alternative_icons_title">Сбросить альтернативные значки приложения?</string>
   <string name="reset_alternative_icons">У вас %1$d приложений с альтернативными значками, хотите сбросить их?</string>
-  <string name="error_no_browser">Не найдено приложение для обработки URL-адресов</string>
 </resources>

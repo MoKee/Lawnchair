@@ -413,5 +413,4 @@
   <string name="two_row_dock">שורת עגינה כפולה</string>
   <string name="reset_alternative_icons_title">האם לאפס את סמלי האפליקציות החלופיים?</string>
   <string name="reset_alternative_icons">קיימים %1$d אפליקציות עם סמלים חלופיים, האם ברצונך לאפס אותם?</string>
-  <string name="error_no_browser">לא נמצאה פעילות שבה ניתן לפתוח כתובות URL</string>
 </resources>

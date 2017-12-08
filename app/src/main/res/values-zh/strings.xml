@@ -243,8 +243,7 @@
   <string name="notifications_header">通知</string>
   <string name="widgets_bottom_sheet_title">%1$s 微件</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair 是 Till Kottmann（又名deletescape）基于 AOSP 的 Launcher3 所开发的启动器应用程序。</string>
-  <string name="about_title">关于</string>
+    <string name="about_title">关于</string>
   <string name="about_pref_summary">了解 Lawnchair 团队</string>
   <string name="changelog_title">#%d 版的更新日志</string>
   <string name="week_day_format">%1$s， %2$s</string>
@@ -398,8 +397,7 @@
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">M月dd日EEEE</string>
-  <string name="about_translators">翻译人员</string>
-  <string name="lock_desktop">锁定桌面</string>
+    <string name="lock_desktop">锁定桌面</string>
   <string name="lawnfeed_not_found">未安装 Lawnfeed</string>
   <string name="google_app_not_found">未安装 Google 应用</string>
   <string name="lawnfeed_incompatible">已安装的 Lawnfeed 版本不兼容</string>
@@ -415,5 +413,4 @@
   <string name="two_row_dock">双行 Dock 栏</string>
   <string name="reset_alternative_icons_title">重置备选应用图标</string>
   <string name="reset_alternative_icons">您有 %1$d 个应用具有备用图标，您想重置它们吗？</string>
-  <string name="error_no_browser">没有找到处理此 URL 的 Activity</string>
 </resources>

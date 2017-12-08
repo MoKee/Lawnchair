@@ -411,5 +411,4 @@
   <string name="two_row_dock">Dock à deux rangées</string>
   <string name="reset_alternative_icons_title">Réinitialiser les icônes alternatives d\'applications ?</string>
   <string name="reset_alternative_icons">Vous avez %1$d applications avec des icônes alternatives, souhaitez-vous les réinitialiser ?</string>
-  <string name="error_no_browser">Aucune application trouvée pour gérer les URLs</string>
 </resources>

@@ -412,5 +412,4 @@
   <string name="two_row_dock">İki satır alt panel</string>
   <string name="reset_alternative_icons_title">Alternatif ikonlar sıfırlansın mı?</string>
   <string name="reset_alternative_icons">Alternatif ikona sahip %1$d uygulamanız var, onları sıfırlamak ister misiniz?</string>
-  <string name="error_no_browser">URL\'leri işleyecek etkinlik bulunamadı</string>
 </resources>

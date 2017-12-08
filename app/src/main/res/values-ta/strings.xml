@@ -247,8 +247,7 @@
   <string name="notifications_header">தகவல்கள்</string>
   <string name="widgets_bottom_sheet_title">%1$s நிரல் பலகை</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair is a Launcher app created by Till Kottmann (aka deletescape). It\'s based on Launcher3 from AOSP.</string>
-  <string name="about_title">இதைப்பற்றி</string>
+    <string name="about_title">இதைப்பற்றி</string>
   <string name="about_pref_summary">லான்சேர் குழு பற்றி அறிந்து கொள்ள</string>
   <string name="changelog_title">இந்த கட்டமைப்பில் உள்ள மாற்றங்கள் #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
@@ -396,8 +395,7 @@
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">எதைப்போல ஈ EEEE</string>
-  <string name="about_translators">மொழிபெயர்ப்பாளர்</string>
-  <string name="lock_desktop">பூட்டு டெஸ்க்டாப்</string>
+    <string name="lock_desktop">பூட்டு டெஸ்க்டாப்</string>
   <string name="lawnfeed_not_found">Lawnfeed நிறுவப்படவில்லை</string>
   <string name="google_app_not_found">கூகுள் பயன்பாடு நிறுவப்படவில்லை</string>
   <string name="set_default_launcher">முன்னிருந்த ஏவி</string>

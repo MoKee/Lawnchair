@@ -414,5 +414,4 @@
   <string name="two_row_dock">Dock su due righe</string>
   <string name="reset_alternative_icons_title">Ripristinare le app con icone alternative?</string>
   <string name="reset_alternative_icons">Hai %1$d app con icone alternative, vuoi ripristinarle?</string>
-  <string name="error_no_browser">Nessuna attività trovata per gestire gli URL</string>
 </resources>

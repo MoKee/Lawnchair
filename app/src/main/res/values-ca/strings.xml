@@ -412,5 +412,4 @@
   <string name="two_row_dock">Barra d\'aplicacions de dues files</string>
   <string name="reset_alternative_icons_title">Voleu restablir les icones d\'aplicacions alternatives?</string>
   <string name="reset_alternative_icons">Teniu %1$d aplicacions amb icones alternatives, voleu reiniciar-les?</string>
-  <string name="error_no_browser">No s\'ha trobat cap activitat per manegar l\'URL</string>
 </resources>

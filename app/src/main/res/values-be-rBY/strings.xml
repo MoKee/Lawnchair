@@ -415,5 +415,4 @@
   <string name="two_row_dock">Дзьвухрадковы док-бар</string>
   <string name="reset_alternative_icons_title">Скінуць альтэрнатыўныя значкі праграм?</string>
   <string name="reset_alternative_icons">У вас %1$d праграм з альтэрнатыўнымі значкамі, хочаце скінуць іх?</string>
-  <string name="error_no_browser">Ніякай дзейнасці не знойдзена для апрацоўкі URL-адрасоў</string>
 </resources>

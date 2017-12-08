@@ -413,5 +413,4 @@
   <string name="two_row_dock">双行 Dock 栏</string>
   <string name="reset_alternative_icons_title">重置备选应用图标？</string>
   <string name="reset_alternative_icons">您有 %1$d 的应用程序具有备选图标，您想重置它们吗？</string>
-  <string name="error_no_browser">没有找到处理 url 的活动</string>
 </resources>

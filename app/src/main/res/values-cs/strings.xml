@@ -415,5 +415,4 @@
   <string name="two_row_dock">Dok ve dvou řadách</string>
   <string name="reset_alternative_icons_title">Resetovat alternativní ikony aplikací?</string>
   <string name="reset_alternative_icons">Máte %1$d aplikací s alternativními ikonami, chcete je obnovit?</string>
-  <string name="error_no_browser">Nebyla nalezena žádná aktivita pro práci s adresami URL</string>
 </resources>

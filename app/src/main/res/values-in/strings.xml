@@ -417,5 +417,4 @@
   <string name="two_row_dock">Dock dua baris</string>
   <string name="reset_alternative_icons_title">Reset ikon aplikasi alternatif?</string>
   <string name="reset_alternative_icons">Anda memiliki aplikasi %1$d dengan ikon alternatif, apakah anda ingin meresetnya?</string>
-  <string name="error_no_browser">Tidak ada aktivitas yang ditemukan untuk menangani URL</string>
 </resources>

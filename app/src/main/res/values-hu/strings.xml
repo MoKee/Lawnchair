@@ -413,5 +413,4 @@
   <string name="two_row_dock">Két soros dokk</string>
   <string name="reset_alternative_icons_title">Alternatív ikonok visszaállítása?</string>
   <string name="reset_alternative_icons">%1$d alkalmazásnak van alternatív ikon beállítva. Visszaállítja az eredetit?</string>
-  <string name="error_no_browser">Nem található URL-eket kezelni képes alkalmazás</string>
 </resources>
