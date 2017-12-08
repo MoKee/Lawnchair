@@ -233,15 +233,8 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-  <string name="edit_icon_reset">Stel terug</string>
-  <string name="theme_dark">Donker</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
-  <string name="none">Geen</string>
-  <string name="icon_shape_none">Geen</string>
-  <string name="about_version">Weergawe</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">Pas toe</string>
-  <string name="hide_app_reset">Stel terug</string>
 </resources>
