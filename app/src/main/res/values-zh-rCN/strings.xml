@@ -413,4 +413,10 @@
   <string name="two_row_dock">双行 Dock 栏</string>
   <string name="reset_alternative_icons_title">重置备选应用图标？</string>
   <string name="reset_alternative_icons">您有 %1$d 的应用程序具有备选图标，您想重置它们吗？</string>
+  <string name="snowfall_title">降雪</string>
+  <string name="enable_snowfall_title">在主屏幕开启雪花特效</string>
+  <string name="enable_snowfall_summary">这可能会引起性能问题。</string>
+  <string name="snowfall_enabled">“今天的风儿真喧嚣，不如来点儿雪花飘！”</string>
+  <string name="snowflake_size_scale">雪花大小</string>
+  <string name="snowflakes_num">最大雪花数</string>
 </resources>
