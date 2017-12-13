@@ -415,4 +415,10 @@
   <string name="two_row_dock">Dok v dvoch riadkoch</string>
   <string name="reset_alternative_icons_title">Obnoviť alternatívne ikony aplikácií?</string>
   <string name="reset_alternative_icons">Máte %1$d aplikácií s alternativnymi ikonami, chcete ich obnoviž?</string>
+  <string name="snowfall_title">Sneženie</string>
+  <string name="enable_snowfall_title">Povoliť sneženie na domácej obrazovke</string>
+  <string name="enable_snowfall_summary">Môže to spôsobiť problémy s výkonom.</string>
+  <string name="snowfall_enabled">\"Nech sneží, nech sneží, nech sneží!\"</string>
+  <string name="snowflake_size_scale">Veľkosť snehovej vločky</string>
+  <string name="snowflakes_num">Maximálny počet snehových vločiek</string>
 </resources>

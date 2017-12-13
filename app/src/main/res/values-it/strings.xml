@@ -414,4 +414,10 @@
   <string name="two_row_dock">Dock su due righe</string>
   <string name="reset_alternative_icons_title">Ripristinare le app con icone alternative?</string>
   <string name="reset_alternative_icons">Hai %1$d app con icone alternative, vuoi ripristinarle?</string>
+  <string name="snowfall_title">Nevicata</string>
+  <string name="enable_snowfall_title">Abilita Nevicata sulla schermata home</string>
+  <string name="enable_snowfall_summary">Potrebbe causare problemi di prestazioni.</string>
+  <string name="snowfall_enabled">\"Let it snow, let it snow, let it snow!\"</string>
+  <string name="snowflake_size_scale">Scala di dimensione del fiocco di neve</string>
+  <string name="snowflakes_num">Numero massimo di fiocchi di neve</string>
 </resources>

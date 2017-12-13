@@ -415,4 +415,10 @@
   <string name="two_row_dock">Dock w dwóch rzędach</string>
   <string name="reset_alternative_icons_title">Zresetować ikony alternatywnych aplikacji?</string>
   <string name="reset_alternative_icons">Masz %1$d aplikacji z alternatywnymi ikonami, czy chcesz je zresetować?</string>
+  <string name="snowfall_title">Opady śniegu</string>
+  <string name="enable_snowfall_title">Włącz padający śnieg na ekranie głównym</string>
+  <string name="enable_snowfall_summary">Może powodować problemy z wydajnością.</string>
+  <string name="snowfall_enabled">\"Pada śnieg, pada śnieg ! :)\"</string>
+  <string name="snowflake_size_scale">Rozmiar płatka śniegu</string>
+  <string name="snowflakes_num">Maks. ilość płatków śniegu</string>
 </resources>
