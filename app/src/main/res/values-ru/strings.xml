@@ -415,4 +415,10 @@
   <string name="two_row_dock">Двухстрочный док-бар</string>
   <string name="reset_alternative_icons_title">Сбросить альтернативные значки приложения?</string>
   <string name="reset_alternative_icons">У вас %1$d приложений с альтернативными значками, хотите сбросить их?</string>
+  <string name="snowfall_title">Снегопад</string>
+  <string name="enable_snowfall_title">Включить снегопад на главном экране</string>
+  <string name="enable_snowfall_summary">Может вызвать снижение производительности.</string>
+  <string name="snowfall_enabled">Снегопад</string>
+  <string name="snowflake_size_scale">Размер снежинок</string>
+  <string name="snowflakes_num">Максимальное количество снежинок</string>
 </resources>
