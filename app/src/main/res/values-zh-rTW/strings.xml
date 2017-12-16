@@ -416,7 +416,7 @@
   <string name="snowfall_title">降雪</string>
   <string name="enable_snowfall_title">在主畫面上顯示下雪</string>
   <string name="enable_snowfall_summary">可能會導致性能問題。</string>
-  <string name="snowfall_enabled">讓他下!! 讓他下!! 讓他下!!</string>
+  <string name="snowfall_enabled">\"讓它下雪，讓它下雪，讓它下雪吧！\"</string>
   <string name="snowflake_size_scale">雪花的大小</string>
   <string name="snowflakes_num">最大數量的雪花</string>
 </resources>
