@@ -307,8 +307,7 @@
   <string name="light_statusbar_pref_title">Jasny pasek stanu</string>
   <string name="light_statusbar_pref_force">Pasek stanu wyświetli ciemne ikony</string>
   <string name="light_statusbar_pref_off">Pasek stanu będzie zawsze pokazywać jasne ikony.</string>
-  <string name="haptic_feedback_pref_title">Włącz wibracje</string>
-  <string name="keep_scroll_state_pref_title">Zachowanie pozycji przewijania</string>
+    <string name="keep_scroll_state_pref_title">Zachowanie pozycji przewijania</string>
   <string name="keep_scroll_state_pref_summary">Zapisuje pozycję przewijania w szufladzie</string>
   <string name="home_opens_drawer_pref_title">Przycisk home otwiera szufladę aplikacji</string>
   <string name="home_opens_drawer_pref_summary">Naciśnięcie przycisku Home na ekranie głównym otworzy szufladę z aplikacjami</string>

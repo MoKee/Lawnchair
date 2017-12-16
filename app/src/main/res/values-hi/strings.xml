@@ -305,8 +305,7 @@
   <string name="light_statusbar_pref_title">स्टेटसबार को हलके रंग में बदले</string>
   <string name="light_statusbar_pref_force">स्टेटस बार गहरे रंग के आइकोन दिखायेगा</string>
   <string name="light_statusbar_pref_off">स्टेटस बार हल्की रंग के आइकोन दिखायेगा</string>
-  <string name="haptic_feedback_pref_title">कंपन को सक्षम करें</string>
-  <string name="keep_scroll_state_pref_title">स्क्रॉल स्थिति सहेजें</string>
+    <string name="keep_scroll_state_pref_title">स्क्रॉल स्थिति सहेजें</string>
   <string name="keep_scroll_state_pref_summary">ड्रोवर में स्क्रॉल स्थिति सहेजें</string>
   <string name="home_opens_drawer_pref_title">होम बटनसे ड्रोवर खोलना</string>
   <string name="home_opens_drawer_pref_summary">होम स्क्रीन के दोरान होम बटन दबानेसे ड्रोवर खोलना</string>

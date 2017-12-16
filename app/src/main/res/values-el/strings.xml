@@ -306,8 +306,7 @@
   <string name="light_statusbar_pref_title">Χρωματισμός εικονιδίων μπάρας ειδοποιήσεων</string>
   <string name="light_statusbar_pref_force">Η μπάρα ειδοποιήσεων θα εμφανίζει σκοτεινά εικονίδια</string>
   <string name="light_statusbar_pref_off">The status bar will always show light icons.</string>
-  <string name="haptic_feedback_pref_title">Ενεργοποίηση δόνησης</string>
-  <string name="keep_scroll_state_pref_title">Αποθήκευση θέσης κύλισης</string>
+    <string name="keep_scroll_state_pref_title">Αποθήκευση θέσης κύλισης</string>
   <string name="keep_scroll_state_pref_summary">Αποθήκευση της θέσης κύλισης στο συρτάρι εφαρμογών</string>
   <string name="home_opens_drawer_pref_title">Το κουμπί αρχικής οθόνης θα ανοίγει το συρτάρι εφαρμογών</string>
   <string name="home_opens_drawer_pref_summary">Pressing the home button while on the homescreen will open the app drawer</string>

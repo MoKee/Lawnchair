@@ -306,8 +306,7 @@
   <string name="light_statusbar_pref_title">Lichte statusbalk</string>
   <string name="light_statusbar_pref_force">De statusbalk altijd donkere pictogrammen laten tonen</string>
   <string name="light_statusbar_pref_off">De statusbalk weergeeft altijd lichte pictogrammen</string>
-  <string name="haptic_feedback_pref_title">Trillen activeren</string>
-  <string name="keep_scroll_state_pref_title">Scrollpositie onthouden</string>
+    <string name="keep_scroll_state_pref_title">Scrollpositie onthouden</string>
   <string name="keep_scroll_state_pref_summary">Scrollpositie onthouden in de applicatielade</string>
   <string name="home_opens_drawer_pref_title">Thuisknop opent applicatielade</string>
   <string name="home_opens_drawer_pref_summary">Thuisknop drukken op het startscherm opent de applicatielade</string>

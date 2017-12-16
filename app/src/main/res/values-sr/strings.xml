@@ -306,8 +306,7 @@
   <string name="light_statusbar_pref_title">Светла статусна трака</string>
   <string name="light_statusbar_pref_force">На статусној траци ће се приказати тамне иконе</string>
   <string name="light_statusbar_pref_off">На статусној траци ће се приказати светле иконе</string>
-  <string name="haptic_feedback_pref_title">Омогући вибрацију</string>
-  <string name="keep_scroll_state_pref_title">Сачувај позицију</string>
+    <string name="keep_scroll_state_pref_title">Сачувај позицију</string>
   <string name="keep_scroll_state_pref_summary">Сачувај позицију у drawer-у</string>
   <string name="home_opens_drawer_pref_title">Home дугме отвара drawer</string>
   <string name="home_opens_drawer_pref_summary">Притиском на home дугме док се налазите на почетном екрану отвара drawer</string>

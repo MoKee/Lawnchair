@@ -298,8 +298,7 @@
   <string name="light_statusbar_pref_title">Світлий рядок стану</string>
   <string name="light_statusbar_pref_force">Рядок стану показуватиме темні іконки</string>
   <string name="light_statusbar_pref_off">Рядок стану показуватиме світлі іконки</string>
-  <string name="haptic_feedback_pref_title">Увімкнути вібрацію</string>
-  <string name="keep_scroll_state_pref_title">Зберігати позицію смуги прокрутки</string>
+    <string name="keep_scroll_state_pref_title">Зберігати позицію смуги прокрутки</string>
   <string name="keep_scroll_state_pref_summary">Зберігає положення прокручування в списку додатків</string>
   <string name="home_opens_drawer_pref_title">Домашня кнопка відкриває список додатків</string>
   <string name="home_opens_drawer_pref_summary">Натиснувши кнопку \"Додому\" на головному екрані буде відкритий список додатків</string>
