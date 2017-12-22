@@ -306,7 +306,7 @@
   <string name="light_statusbar_pref_title">Aydınlık durum çubuğu</string>
   <string name="light_statusbar_pref_force">Durum çubuğu koyu renkli simgeler gösterecektir</string>
   <string name="light_statusbar_pref_off">Durum çubuğu açık renkli simgeler gösterecektir</string>
-    <string name="keep_scroll_state_pref_title">Kaydırma konumunu kaydet</string>
+  <string name="keep_scroll_state_pref_title">Kaydırma konumunu kaydet</string>
   <string name="keep_scroll_state_pref_summary">Kaydırma konumunu uygulama çekmecesine kaydeder</string>
   <string name="home_opens_drawer_pref_title">Ana ekran tuşu ile uygulama çekmecesini aç</string>
   <string name="home_opens_drawer_pref_summary">Ana ekrandayken ana ekran tuşuna basıldığında, uygulama çekmecesi açılır</string>
@@ -319,6 +319,7 @@
   <string name="import_prefs_title">Ayarları içe aktarın</string>
   <string name="notification_listener_label">Lawnchair - Bildirim rozetleri</string>
   <string name="color_extraction_label">Lawnchair - Renk çıkarma</string>
+  <string name="test_title">Test</string>
   <string name="visibility">Görünürlük</string>
   <string name="default_text">Varsayılan</string>
   <string name="edit_icon_reset">Sıfırla</string>
@@ -395,6 +396,7 @@
   <string name="vertical_drawer_layout_pref_title">Dikey liste olarak görüntüle</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
   <string name="lock_desktop">Ana ekranı kilitle</string>
   <string name="lawnfeed_not_found">Lawnfeed yüklü değil</string>
   <string name="google_app_not_found">Google uygulaması yüklü değil</string>
@@ -411,4 +413,10 @@
   <string name="two_row_dock">İki satır alt panel</string>
   <string name="reset_alternative_icons_title">Alternatif ikonlar sıfırlansın mı?</string>
   <string name="reset_alternative_icons">Alternatif ikona sahip %1$d uygulamanız var, onları sıfırlamak ister misiniz?</string>
+  <string name="snowfall_title">Kar yağışı</string>
+  <string name="enable_snowfall_title">Ana ekranda kar yağışını etkinleştir</string>
+  <string name="enable_snowfall_summary">Performans sorunlarına neden olabilir.</string>
+  <string name="snowfall_enabled">\"Kar yağsın, kar yağsın, kar yağsın!\"</string>
+  <string name="snowflake_size_scale">Kar tanesi boyut ölçeği</string>
+  <string name="snowflakes_num">Maksimum kar tanesi sayısı</string>
 </resources>

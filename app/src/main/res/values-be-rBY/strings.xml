@@ -307,7 +307,7 @@
   <string name="light_statusbar_pref_title">Светлы радок стану</string>
   <string name="light_statusbar_pref_force">У радку стану будуць адлюстроўвацца цёмныя значкі</string>
   <string name="light_statusbar_pref_off">У радку стану будуць адлюстроўвацца светлыя значкі</string>
-    <string name="keep_scroll_state_pref_title">Захоўваць пазіцыю пракруткі</string>
+  <string name="keep_scroll_state_pref_title">Захоўваць пазіцыю пракруткі</string>
   <string name="keep_scroll_state_pref_summary">Захоўвае становішча пракруткі ў меню праграм</string>
   <string name="home_opens_drawer_pref_title">Кнопка «Хатоўка» адкрывае меню праграм</string>
   <string name="home_opens_drawer_pref_summary">Націск кнопкі «Хатоўка» на галоўным экране адкрые меню праграм</string>

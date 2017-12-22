@@ -303,7 +303,7 @@
   <string name="light_statusbar_pref_title">Thanh trạng thái màu sáng</string>
   <string name="light_statusbar_pref_force">Hiển thị biểu tượng thanh trạng thái màu tối</string>
   <string name="light_statusbar_pref_off">Hiển thị biểu tượng thanh trạng thái màu sáng</string>
-    <string name="keep_scroll_state_pref_title">Lưu vị trí cuộn</string>
+  <string name="keep_scroll_state_pref_title">Lưu vị trí cuộn</string>
   <string name="keep_scroll_state_pref_summary">Lưu vị trí cuộn trong ngăn chứa ứng dụng</string>
   <string name="home_opens_drawer_pref_title">Bấm nút Home để mở ngăn chứa ứng dụng</string>
   <string name="home_opens_drawer_pref_summary">Bấm nút Home khi ở ngoài Trang chính để mở ngăn chứa ứng dụng</string>

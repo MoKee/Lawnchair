@@ -304,7 +304,7 @@
   <string name="light_statusbar_pref_title">明るいステータスバー</string>
   <string name="light_statusbar_pref_force">ステータスバーは常に暗いアイコンで表示されます</string>
   <string name="light_statusbar_pref_off">ステータスバーは常に明るいアイコンで表示されます</string>
-    <string name="keep_scroll_state_pref_title">スクロール位置を保存</string>
+  <string name="keep_scroll_state_pref_title">スクロール位置を保存</string>
   <string name="keep_scroll_state_pref_summary">アプリドロワーのスクロール位置を保存します</string>
   <string name="home_opens_drawer_pref_title">ホームボタンでアプリドロワーを開く</string>
   <string name="home_opens_drawer_pref_summary">ホーム画面でホームボタンを押すと、アプリドロワーが開きます</string>

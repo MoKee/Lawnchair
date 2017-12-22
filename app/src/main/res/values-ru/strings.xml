@@ -307,7 +307,7 @@
   <string name="light_statusbar_pref_title">Светлая строка состояния</string>
   <string name="light_statusbar_pref_force">В строке состояния будут отображаться темные значки</string>
   <string name="light_statusbar_pref_off">В строке состояния всегда будут отображаться светлые значки</string>
-    <string name="keep_scroll_state_pref_title">Сохранять позицию прокрутки</string>
+  <string name="keep_scroll_state_pref_title">Сохранять позицию прокрутки</string>
   <string name="keep_scroll_state_pref_summary">Сохраняет положение прокрутки в меню приложений</string>
   <string name="home_opens_drawer_pref_title">Кнопка «Домой» открывает меню приложений</string>
   <string name="home_opens_drawer_pref_summary">Нажатие кнопки «Домой» на главном экране откроет меню приложений</string>
