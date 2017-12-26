@@ -302,8 +302,8 @@
   <string name="restart_lawnchair_pref_title">Перезапустить Lawnchair</string>
   <string name="restart_lawnchair_pref_summary">Может быть полезно, если некоторые параметры не применяются должным образом</string>
   <string name="rebuild_icondb_pref_title">Перестроение базы данных значков</string>
-  <string name="pinch_to_overview_pref_title">Щипок для обзора</string>
-  <string name="pinch_to_overview_pref_summary">Щипок на главном экране для открытия обзора</string>
+  <string name="pinch_to_overview_pref_title">Сузить два пальца для обзора</string>
+  <string name="pinch_to_overview_pref_summary">Сузьте два пальца на главном экране для просмотра дополнительных опций</string>
   <string name="light_statusbar_pref_title">Светлая строка состояния</string>
   <string name="light_statusbar_pref_force">В строке состояния будут отображаться темные значки</string>
   <string name="light_statusbar_pref_off">В строке состояния всегда будут отображаться светлые значки</string>
@@ -339,14 +339,14 @@
   <string name="pull_down_apps_search">Поиск приложений</string>
   <string name="enable_screen_rotation">Включить авто-поворот экрана</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Импорт</string>
+  <string name="backup_import_title">Восстановить</string>
   <string name="backup_export_title">Экспорт</string>
   <string name="settings_export_success">Резервное копирование настроек выполнено успешно</string>
   <string name="db_export_success">Резервное копирование базы данных выполнено успешно</string>
   <string name="settings_import_success">Настройки успешно восстановлены</string>
   <string name="db_import_success">База данных успешно восстановлена</string>
   <string name="export_error">Не удалось создать резервную копию</string>
-  <string name="import_error">Не удалось восстановить резервную копию</string>
+  <string name="import_error">Не удалось восстановить</string>
   <string name="imexport_no_backup_found">Файлы резервных копий не найдены</string>
   <string name="imexport_external_storage_unreadable">Внешнее хранилище недоступно для чтения (предоставить разрешения можно в настройках)</string>
   <string name="imexport_external_storage_unwritable">Внешнее хранилище недоступно для записи (предоставить разрешения можно в настройках)</string>

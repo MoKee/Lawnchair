@@ -147,6 +147,7 @@
   <!-- About Lawnchair -->
   <string name="export_prefs_title">Mga setting</string>
   <string name="import_prefs_title">Mga setting</string>
+  <string name="default_text">Pangunahin</string>
   <string name="edit_icon_reset">I-reset</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Pgsasabalik</string>
