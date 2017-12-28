@@ -19,5 +19,5 @@
   <!-- About Lawnchair -->
   <string name="about_text_mk">Lawnchair - это лаунчер, созданный Тиллом Коттманным. Он основан на Launcher3 из AOSP.</string>
   <string name="about_localization_title">Локализация</string>
-  <string name="about_localization_summary">Перевести Lawnchair лаунчер</string>
+  <string name="about_localization_summary">Перевести лаунчер Lawnchair</string>
 </resources>

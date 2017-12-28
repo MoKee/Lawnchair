@@ -48,14 +48,14 @@
   <!-- Loading apps text. [CHAR_LIMIT=50] -->
   <string name="all_apps_loading_message">Загрузка приложений…</string>
   <!-- No-search-results text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_no_search_results">По запросу \"<xliff:g id="QUERY">%1$s</xliff:g>\" ничего не найдено</string>
+  <string name="all_apps_no_search_results">По запросу \"<xliff:g example="Android" id="query">%1$s</xliff:g>\" ничего не найдено</string>
   <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
   <string name="all_apps_search_market_message">Искать другие приложения</string>
   <!-- Drag and drop -->
   <!-- Error message when user has filled a page -->
-  <string name="out_of_space">На этом экране все занято</string>
+  <string name="out_of_space">На этом экране всё занято</string>
   <!-- Error message when user has filled the hotseat -->
-  <string name="hotseat_out_of_space">В разделе \"Избранное\" больше нет места</string>
+  <string name="hotseat_out_of_space">На нижней панели больше нет места</string>
   <!-- All applications label -->
   <string name="all_apps_button_label">Список приложений</string>
   <!-- Label for button in all applications label to go back home (to the workspace / desktop)
@@ -133,7 +133,7 @@
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
   <string name="abandoned_clean_this">Удалить</string>
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
-  <string name="abandoned_search">Найти</string>
+  <string name="abandoned_search">Поиск</string>
   <!-- Title for abandoned promise dialog. -->
   <string name="abandoned_promises_title">Приложение не установлено</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
@@ -198,7 +198,7 @@
   <string name="shortcuts_menu_description">Количество ярлыков для приложения \"<xliff:g id="APP_NAME">%2$s</xliff:g>": <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g></string>
   <string name="edit_drop_target_label">Изменить</string>
   <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
-  <string name="wallpaper_instructions">Установить как обои</string>
+  <string name="wallpaper_instructions">Установить обои</string>
   <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
   <string name="image_load_fail">Не удалось загрузить изображение</string>
@@ -206,7 +206,7 @@
          but the wallpaper cropper cannot load it. The user will
          usually see this when using another app and trying to set
          an image as the wallpaper -->
-  <string name="wallpaper_load_fail">Не удалось загрузить изображение</string>
+  <string name="wallpaper_load_fail">Не удалось установить изображение как обои</string>
   <!-- Error message when an image is selected as a wallpaper,
          but something goes wrong when the user clicks "Set wallpaper" -->
   <string name="wallpaper_set_fail">Не удалось сменить обои</string>
@@ -245,7 +245,7 @@
   <string name="notifications_header">Уведомления</string>
   <string name="widgets_bottom_sheet_title">%1$s виджетов</string>
   <!-- About Lawnchair -->
-  <string name="about_title">О программе</string>
+  <string name="about_title">О приложении</string>
   <string name="about_pref_summary">Узнайте о команде Lawnchair</string>
   <string name="changelog_title">Изменения в сборке #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
@@ -388,7 +388,7 @@
   <string name="shortcut_backport_warning">Это может привести к медленной работе приложения, используйте на свой страх и риск</string>
   <string name="pref_backport_shortcuts">Адаптировать ярлыки</string>
   <string name="weather_api_key_not_set">API ключ не установлен</string>
-  <string name="pref_weather_api_key_title">API ключ</string>
+  <string name="pref_weather_api_key_title">Ключ API</string>
   <string name="about_changelog">Список изменений</string>
   <string name="pref_all_apps_custom_label_color">Использовать свой цвет подписи</string>
   <string name="pref_all_apps_label_color">Цвет подписи значков в меню приложений</string>
@@ -401,7 +401,7 @@
   <string name="lock_desktop">Заблокировать рабочий стол</string>
   <string name="lawnfeed_not_found">Lawnfeed не установлен</string>
   <string name="google_app_not_found">Приложение Google не установлено</string>
-  <string name="lawnfeed_incompatible">Установленная версия Lawnfeed несовместима</string>
+  <string name="lawnfeed_incompatible">Установлена несовместимая версия Lawnfeed</string>
   <string name="set_default_launcher">Установить лаунчер по умолчанию</string>
   <string name="enable_spring_pref_title">Включить эффект пружины</string>
   <string name="hide_app">Скрыть приложение</string>
@@ -417,7 +417,8 @@
   <string name="snowfall_title">Снегопад</string>
   <string name="enable_snowfall_title">Включить снегопад на главном экране</string>
   <string name="enable_snowfall_summary">Может вызвать снижение производительности.</string>
-  <string name="snowfall_enabled">Снегопад</string>
+  <string name="snowfall_enabled">\"Let it snow, let it snow, let it snow!\"
+© Фрэнк Синатра</string>
   <string name="snowflake_size_scale">Размер снежинок</string>
   <string name="snowflakes_num">Максимальное количество снежинок</string>
 </resources>

@@ -413,4 +413,10 @@
   <string name="two_row_dock">Zwei-Reihen Dock</string>
   <string name="reset_alternative_icons_title">Alternative App-Icons zurücksetzen?</string>
   <string name="reset_alternative_icons">Du hast %1$d Apps mit alternativen Icons, möchtest du sie zurücksetzen?</string>
+  <string name="snowfall_title">Schnefall</string>
+  <string name="enable_snowfall_title">Schneefall auf Startbildschirm aktivieren</string>
+  <string name="enable_snowfall_summary">Kann Leistungsprobleme verursachen.</string>
+  <string name="snowfall_enabled">\"Lass es schneien, lass es schneien, lass es schneien!\"</string>
+  <string name="snowflake_size_scale">Schneeflocken Größe</string>
+  <string name="snowflakes_num">Maximale Anzahl an Schneeflocken</string>
 </resources>
