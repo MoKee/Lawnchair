@@ -222,7 +222,7 @@
          e.g. "Wallpaper 3 of 10" -->
   <string name="wallpaper_accessibility_name">Обои %1$d из %2$d</string>
   <!-- Accessibility string used to announce that a wallpaper has been selected. -->
-  <string name="announce_selection">Выбран элемент \"<xliff:g id="LABEL">%1$s</xliff:g>\"</string>
+  <string name="announce_selection">Выбраны <xliff:g example="Wallpaper 3 of 10" id="label">%1$s</xliff:g></string>
   <!-- Label on button to delete wallpaper(s) -->
   <string name="wallpaper_delete">Удалить</string>
   <!-- Label on button in Wallpaper Picker to pick an image -->
@@ -337,7 +337,7 @@
   <string name="pull_down_notis">Показать уведомления</string>
   <string name="pull_down_search">Открыть поиск</string>
   <string name="pull_down_apps_search">Поиск приложений</string>
-  <string name="enable_screen_rotation">Включить авто-поворот экрана</string>
+  <string name="enable_screen_rotation">Включить автоповорот экрана</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Восстановить</string>
   <string name="backup_export_title">Экспорт</string>
@@ -405,9 +405,9 @@
   <string name="set_default_launcher">Установить лаунчер по умолчанию</string>
   <string name="enable_spring_pref_title">Включить эффект пружины</string>
   <string name="hide_app">Скрыть приложение</string>
-  <string name="hide_app_sum">Скрыть приложение из меню</string>
+  <string name="hide_app_sum">Выбрать приложения, которые не будут отображаться в меню приложений</string>
   <string name="hide_app_selected">&#160;выбрано</string>
-  <string name="hidden_app">Скрытое приложение</string>
+  <string name="hidden_app">Скрыть приложение</string>
   <string name="hide_app_apply">Применить</string>
   <string name="unauthorized_device">На этом устройстве установлены пиратские утилиты. Пожалуйста, удалите их для продолжения.</string>
   <string name="hide_app_reset">Сброс</string>
