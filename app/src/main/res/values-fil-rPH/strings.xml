@@ -89,6 +89,7 @@
   <string name="package_state_unknown">Hindi alam</string>
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+  <string name="abandoned_search">Hanapin</string>
   <!-- Title for abandoned promise dialog. -->
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
@@ -146,6 +147,7 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Lock screen</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">Hanapin</string>
   <!-- About Lawnchair -->
   <string name="about_title">Tungkol</string>
   <string name="export_prefs_title">Mga setting</string>

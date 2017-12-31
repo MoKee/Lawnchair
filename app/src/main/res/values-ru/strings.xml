@@ -106,7 +106,7 @@
   <!-- Instruction that clicking outside will close folder -->
   <string name="folder_tap_to_close">Нажмите, чтобы закрыть папку</string>
   <!-- Instruction that clicking outside will commit folder rename -->
-  <string name="folder_tap_to_rename">Нажмите, чтобы подтвердить переименование</string>
+  <string name="folder_tap_to_rename">Нажмите, чтобы сохранить новое название</string>
   <!-- Indication that folder closed -->
   <string name="folder_closed">Папка закрыта</string>
   <!-- Folder renamed format -->
@@ -302,11 +302,11 @@
   <string name="restart_lawnchair_pref_title">Перезапустить Lawnchair</string>
   <string name="restart_lawnchair_pref_summary">Может быть полезно, если некоторые параметры не применяются должным образом</string>
   <string name="rebuild_icondb_pref_title">Перестроение базы данных значков</string>
-  <string name="pinch_to_overview_pref_title">Сузить два пальца для обзора</string>
-  <string name="pinch_to_overview_pref_summary">Сузьте два пальца на главном экране для просмотра дополнительных опций</string>
+  <string name="pinch_to_overview_pref_title">Сведите два пальца для обзора</string>
+  <string name="pinch_to_overview_pref_summary">Сведите два пальца на главном экране для просмотра дополнительных опций</string>
   <string name="light_statusbar_pref_title">Светлая строка состояния</string>
-  <string name="light_statusbar_pref_force">В строке состояния будут отображаться темные значки</string>
-  <string name="light_statusbar_pref_off">В строке состояния всегда будут отображаться светлые значки</string>
+  <string name="light_statusbar_pref_force">В строке состояния будут отображаться тёмные значки</string>
+  <string name="light_statusbar_pref_off">В строке состояния будут отображаться светлые значки</string>
   <string name="keep_scroll_state_pref_title">Сохранять позицию прокрутки</string>
   <string name="keep_scroll_state_pref_summary">Сохраняет положение прокрутки в меню приложений</string>
   <string name="home_opens_drawer_pref_title">Кнопка «Домой» открывает меню приложений</string>
