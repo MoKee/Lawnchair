@@ -277,6 +277,7 @@
   <string name="behavior_pref_title">Vedenje</string>
   <string name="debug_pref_title">Razhroščevanje</string>
   <string name="general_pref_summary">Prilagodite namizje</string>
+  <string name="pixel_ui_pref_summary">Različni elementi teme</string>
   <string name="behavior_pref_summary">Spremeni vedenje Lawnchair-a</string>
   <string name="debug_pref_summary">Zaženi ali obnovi ikono zbirke podatkov</string>
   <string name="show_mic_pref_title">Pokaži gumb Google pomočnik</string>
@@ -301,7 +302,7 @@
   <string name="show_top_shadow_title">Pokaži senco zgoraj</string>
   <string name="pref_cat_homescreen">Domači zaslon</string>
   <string name="theme_pref_title">Tema</string>
-  <string name="theme_light">Svetle</string>
+  <string name="theme_light">Svetla</string>
   <string name="theme_dark">Temno</string>
   <string name="theme_black">Črna</string>
   <string name="all_icons">Vse ikone</string>
@@ -329,11 +330,12 @@
   <string name="blur_effect">Učinek zameglitve</string>
   <string name="pref_weather_provider">Ponudnik vremena</string>
   <string name="loading">Nalaganje…</string>
+  <string name="icon_shape_override_label">Oblika ikone</string>
   <string name="icon_shape_system_default">Ne spreminjaj</string>
   <string name="icon_shape_none">Brez</string>
   <string name="icon_shape_square">Kvadrat</string>
   <string name="icon_shape_rounded_square">Zaokrožen kvadrat</string>
-  <string name="icon_shape_squircle">Krožni-kvadrat</string>
+  <string name="icon_shape_squircle">Zaobljen kvadrat</string>
   <string name="icon_shape_circle">Krog</string>
   <string name="icon_shape_teardrop">Solza</string>
   <string name="animated_clock_icon_title">Ikona animirane ure</string>
@@ -350,4 +352,10 @@
   <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
   <string name="hide_app_apply">Uporabi</string>
   <string name="hide_app_reset">Ponastavi</string>
+  <string name="snowfall_title">Sneženje</string>
+  <string name="enable_snowfall_title">Omogoči sneženje na začetnem zaslonu</string>
+  <string name="enable_snowfall_summary">Lahko povzroči težave z učinkovitostjo delovanja.</string>
+  <string name="snowfall_enabled">\"Naj bo sneg, sneg, naj sneži!\"</string>
+  <string name="snowflake_size_scale">Velikost snežinke</string>
+  <string name="snowflakes_num">Max število snežink</string>
 </resources>
