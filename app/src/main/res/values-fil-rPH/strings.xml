@@ -150,40 +150,67 @@ Maaari mong alisin ito, o maghanap para sa app at i-install ito nang mano-mano. 
   <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
   <string name="action_move_here">Ilipat ang item dito</string>
   <!-- Accessibility confirmation for item added to workspace. -->
+  <string name="item_added_to_workspace">Item na idinagdag sa home screen</string>
   <!-- Accessibility confirmation for item removed. -->
+  <string name="item_removed">Tinanggal na item</string>
   <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
+  <string name="action_move">Maglipat ng item</string>
   <!-- Accessibility description to move item to empty cell. -->
+  <string name="move_to_empty_cell">Ilipat sa hanay <xliff:g example="1" id="number">%1$d</xliff:g> column <xliff:g example="1" id="number">%2$d</xliff:g></string>
   <!-- Accessibility description to move item inside a folder. -->
+  <string name="move_to_position">Lumipat sa posisyon ang <xliff:g example="1" id="number">%1$d</xliff:g></string>
   <!-- Accessibility description to move item to the hotseat. -->
+  <string name="move_to_hotseat_position">Lumipat sa paboritong posisyon <xliff:g example="1" id="number">%1$d</xliff:g></string>
   <!-- Accessibility confirmation for item move. -->
+  <string name="item_moved">Inilipat ang item</string>
   <!-- Accessibility description to move item into an existing folder. -->
+  <string name="add_to_folder">Idagdag sa folder: <xliff:g example="Games" id="name">%1$s</xliff:g></string>
   <!-- Accessibility description to move item into an existing folder containing an app. -->
+  <string name="add_to_folder_with_app">Idagdag sa folder na may <xliff:g example="Messenger" id="name">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for item added to folder. -->
+  <string name="added_to_folder">Item ay idinagdag sa folder</string>
   <!-- Accessibility description to create folder with another item. -->
+  <string name="create_folder_with">Lumikha ng folder na may: <xliff:g example="Game" id="name">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for folder created. -->
+  <string name="folder_created">Folder ay nilikha</string>
   <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
+  <string name="action_move_to_workspace">Inilipat sa home screen</string>
   <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
+  <string name="action_move_screen_left">Ilipat ang screen sa kaliwa</string>
   <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
+  <string name="action_move_screen_right">Ilipat ang screen sa kanan</string>
   <!-- Accessibility confirmation when a screen was moved. -->
+  <string name="screen_moved">Inilipat ang screen</string>
   <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
+  <string name="action_resize">Resize</string>
   <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
+  <string name="action_increase_width">Dagdagan ang haba</string>
   <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
+  <string name="action_increase_height">Dagdagan ang taas</string>
   <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
+  <string name="action_decrease_width">Bawasan ang haba</string>
   <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
+  <string name="action_decrease_height">Bawasan ang taas</string>
   <!-- Accessibility confirmation for widget resize. -->
+  <string name="widget_resized">Widget ay ni-resize sa haba <xliff:g example="2" id="number">%1$d</xliff:g> height <xliff:g example="1" id="number">%2$d</xliff:g></string>
   <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
+  <string name="action_deep_shortcut">Mga shortcut</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
+  <string name="shortcuts_menu_description"><xliff:g example="3" id="number_of_shortcuts">%1$d</xliff:g> mga shortcut para <xliff:g example="Messenger" id="app_name">%2$s</xliff:g></string>
   <string name="edit_drop_target_label">I-edit</string>
   <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
   <string name="wallpaper_instructions">I-set ang wallpaper</string>
   <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
+  <string name="image_load_fail">Hindi mai-load ang imahe</string>
   <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper cropper cannot load it. The user will
          usually see this when using another app and trying to set
          an image as the wallpaper -->
+  <string name="wallpaper_load_fail">Hindi mai-load ang imahe ng wallpaper</string>
   <!-- Error message when an image is selected as a wallpaper,
          but something goes wrong when the user clicks "Set wallpaper" -->
+  <string name="wallpaper_set_fail">Hindi maitakda ang imahe sa wallpaper</string>
   <!-- Shown when wallpapers are selected in Wallpaper picker -->
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
@@ -193,21 +220,44 @@ Maaari mong alisin ito, o maghanap para sa app at i-install ito nang mano-mano. 
   </plurals>
   <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
+  <string name="wallpaper_accessibility_name">Wallpaper %1$d ng %2$d</string>
   <!-- Accessibility string used to announce that a wallpaper has been selected. -->
+  <string name="announce_selection">Napiling <xliff:g example="Wallpaper 3 of 10" id="label">%1$s</xliff:g></string>
   <!-- Label on button to delete wallpaper(s) -->
   <string name="wallpaper_delete">Burahin</string>
   <!-- Label on button in Wallpaper Picker to pick an image -->
+  <string name="pick_image">Aking mga larawan</string>
   <!-- Option in "Select wallpaper from" dialog box -->
   <string name="pick_wallpaper">Mga Wallpaper</string>
   <!-- Title of activity for cropping wallpapers -->
+  <string name="crop_wallpaper">I-crop ang wallpaper</string>
   <!-- Option for setting the wallpaper only on the home screen. -->
   <string name="which_wallpaper_option_home_screen">Home screen</string>
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Lock screen</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="which_wallpaper_option_home_screen_and_lock_screen">Home screen at lock screen</string>
+  <string name="title_show_google_app">Ipakita %1$s</string>
+  <string name="title_show_google_app_default">Ipakita ang Google app</string>
   <string name="label_search">Hanapin</string>
+  <string name="label_voice_search">Paghanap sa tinig</string>
+  <string name="shortcuts_menu_with_notifications_description">%1$d mga shortcut at %2$d mga notification para sa %3$s</string>
+  <string name="notifications_header">Mga notification</string>
+  <string name="widgets_bottom_sheet_title">%1$s mga widget</string>
   <!-- About Lawnchair -->
   <string name="about_title">Tungkol</string>
+  <string name="about_pref_summary">Alamin ang tungkol sa Lawnchair team</string>
+  <string name="changelog_title">Changelog oara sa build #%d</string>
+  <string name="week_day_format">%1$s, %2$s</string>
+  <string name="icon_pack_preference_title">Icon Pack</string>
+  <string name="icon_pack_preference_summary">Pumili ng icon pack</string>
+  <string name="hotseat_uses_extracted_colors_pref_title">Dock ay gumagamit ng wallpaper ng mga kulay</string>
+  <string name="hotseat_show_arrow">Ipakita ang arrow</string>
+  <string name="hotseat_show_page_indicator">Ipakita ang pahinang indicator</string>
+  <string name="hotseat_uses_extracted_colors_pref_on">Ang dock ay kukulayan kasama ang kulay na katas galing sa wallpaper</string>
+  <string name="hotseat_uses_extracted_colors_pref_off">Ang dock ang kukulayan ng gray, pero inaayos gamit ang wallaprt brightness</string>
+  <string name="transparent_hotseat_pref_title">Transparent Dock</string>
+  <string name="dynamic_ui_pref_title">I-extract ang accent kulay galing sa wallpaper</string>
   <string name="blur_pref_title">Paganahin ang kalabuan</string>
   <string name="blur_pref_summary">Ilapat ang mga epekto ng kalabuan sa mga bahagi ng interface\nHindi tugma sa mga wallpaper</string>
   <string name="blur_radius_pref_title">Paikot na sukat ng kalabuan</string>
@@ -258,6 +308,14 @@ Maaari mong alisin ito, o maghanap para sa app at i-install ito nang mano-mano. 
   <string name="light_statusbar_pref_force">Ang status bar ay magpapakita ng madilim na mga icon</string>
   <string name="light_statusbar_pref_off">Ang status bar ay magpapakita ng maliwanag na mga icon</string>
   <string name="keep_scroll_state_pref_title">I-save ang position ng scroll</string>
+  <string name="keep_scroll_state_pref_summary">Nagse-save ng scroll na posisyon sa drawer</string>
+  <string name="home_opens_drawer_pref_title">Home button ay nagbubukas sa app drawer</string>
+  <string name="home_opens_drawer_pref_summary">Pagpindot ng home button habang sa home screen ay buksan ang app drawer</string>
+  <string name="show_hidden_pref_title">Ipakita ang mga nakatagong mga app</string>
+  <string name="show_hidden_pref_on">Nakatagong mga app ay ipapakita upang baguhin ang mga pagpapakita ng setting</string>
+  <string name="show_hidden_pref_off">Nakatagong mga app ay hindi magiging bisibol</string>
+  <string name="export_db_title">Database</string>
+  <string name="import_db_title">Database</string>
   <string name="export_prefs_title">Mga setting</string>
   <string name="import_prefs_title">Mga setting</string>
   <string name="default_text">Pangunahin</string>
@@ -266,10 +324,48 @@ Maaari mong alisin ito, o maghanap para sa app at i-install ito nang mano-mano. 
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Pgsasabalik</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="none">Wala</string>
+  <string name="loading">Nagloload…</string>
+  <string name="icon_shape_override_label">Hugis ng icon</string>
+  <string name="icon_shape_system_default">Huwag baguhin</string>
+  <string name="icon_shape_none">Wala</string>
+  <string name="icon_shape_square">Kuwadrado</string>
+  <string name="icon_shape_rounded_square">Mabilog na kuwadrado</string>
+  <string name="icon_shape_squircle">Squircle</string>
+  <string name="icon_shape_circle">Bilog</string>
+  <string name="icon_shape_teardrop">Teardrop</string>
+  <string name="animated_clock_icon_title">Animated na icon na orasan</string>
+  <string name="animated_clock_icon_alternative_clock_apps_title">Animated na alternatibong orasan ng mga app</string>
+  <string name="animated_clock_icon_alternative_clock_apps_summary">Paganahin ito kung ikaw ay hindi gumamit ng Google Clock bilang iyong default na orasan na app</string>
+  <string name="about_summary_title">Buod</string>
   <string name="about_version">Bersyon</string>
+  <string name="about_icon_designer">App Icon Designer</string>
+  <string name="about_contributors_title">Mga kontribyutor</string>
+  <string name="location_permission_warn">Lokasyon ng pahintulot ay kinakailangan para maglipat sa kabilang nagkakaloob!</string>
+  <string name="num_cols_drawer_pref_title">Bilang ng mga colum sa drawer</string>
+  <string name="shortcut_backport_warning">Ito ay posibleng mabagal, gamitin sa iyong sariling panganib</string>
+  <string name="pref_backport_shortcuts">Backsport na mga shortcut</string>
+  <string name="weather_api_key_not_set">API key ay hindi tinakda</string>
+  <string name="pref_weather_api_key_title">API key</string>
   <string name="about_changelog">Changelog</string>
+  <string name="pref_all_apps_custom_label_color">Gamitin ang custom label na kulay</string>
+  <string name="pref_all_apps_label_color">Kulay ng icon sa mga label sa drawer</string>
+  <string name="pref_num_rows_drawer">Bilang ng mga hnay sa drawer</string>
+  <string name="center_wallpaper_pref_title">Gitnang wallpaper kapag meron lamang isang pahina</string>
+  <string name="vertical_drawer_layout_pref_title">I-display bilang vertical na listahan</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
+  <string name="lock_desktop">I-lock ang desktop</string>
+  <string name="lawnfeed_not_found">Lawnfeed ay hindi naka-install</string>
+  <string name="google_app_not_found">Google app ay hindi naka-install</string>
+  <string name="lawnfeed_incompatible">Hindi compatible na Lawnfeed bersyon ay hindi naka-install</string>
+  <string name="set_default_launcher">Itinakda ang default launcher</string>
+  <string name="enable_spring_pref_title">Paganahin ang spring effect</string>
+  <string name="hide_app">Itago ang app</string>
+  <string name="hide_app_sum">Itago ang app mula sa app drawer</string>
+  <string name="hide_app_selected">&#160;pinili</string>
+  <string name="hidden_app">Nakatago na app</string>
   <string name="hide_app_apply">Ilagay</string>
   <string name="hide_app_reset">I-reset</string>
 </resources>

@@ -195,6 +195,7 @@
   <string name="action_deep_shortcut">Mga Shortcut</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
   <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> (na) shortcut para sa <xliff:g id="APP_NAME">%2$s</xliff:g></string>
+  <string name="edit_drop_target_label">I-edit</string>
   <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
   <string name="wallpaper_instructions">Itakda ang wallpaper</string>
   <!-- Error message when an image is selected as a wallpaper,
@@ -232,12 +233,16 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
+  <string name="export_prefs_title">Mga setting</string>
+  <string name="import_prefs_title">Mga setting</string>
   <string name="edit_icon_reset">I-reset</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">Pagsasabalik</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Wala</string>
   <string name="icon_shape_none">Wala</string>
   <string name="about_version">Bersyon</string>
+  <string name="about_changelog">Changelog</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Ilapat</string>
