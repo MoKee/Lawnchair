@@ -228,6 +228,7 @@
   <string name="which_wallpaper_option_lock_screen">Kekunci Skrin</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
+  <string name="about_title">Tentang</string>
   <string name="export_prefs_title">Tetapan</string>
   <string name="import_prefs_title">Tetapan</string>
   <string name="default_text">Asal</string>
