@@ -410,4 +410,13 @@
   <string name="hide_app_apply">Aplicar</string>
   <string name="unauthorized_device">Este dispositivo tiene algunas herramientas de piratería instaladas. Desinstálalas para continuar.</string>
   <string name="hide_app_reset">Restablecer</string>
+  <string name="two_row_dock">Dos filas en el dock</string>
+  <string name="reset_alternative_icons_title">¿Restablecer los iconos alternativos de las apps?</string>
+  <string name="reset_alternative_icons">Tienes %1$d aplicaciones con iconos alternativos, ¿deseas restablecerlos?</string>
+  <string name="snowfall_title">Nevada</string>
+  <string name="enable_snowfall_title">Habilitar caída de nieve en la pantalla de inicio</string>
+  <string name="enable_snowfall_summary">Puede causar problemas de rendimiento.</string>
+  <string name="snowfall_enabled">\"Que nieve, que nieve, que nieve!\"</string>
+  <string name="snowflake_size_scale">Escala de tamaño del copo de nieve</string>
+  <string name="snowflakes_num">Número máximo de los copos de nieve</string>
 </resources>
