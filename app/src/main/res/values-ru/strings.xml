@@ -378,7 +378,7 @@
   <string name="icon_shape_teardrop">Каплевидная</string>
   <string name="animated_clock_icon_title">Анимированный значок часов</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Анимировать альтернативное приложение часов</string>
-  <string name="animated_clock_icon_alternative_clock_apps_summary">Включите если Вы не используете Google Часы как приложение часов по умолчанию</string>
+  <string name="animated_clock_icon_alternative_clock_apps_summary">Включите, если вы не используете Google Часы как приложение часов по умолчанию</string>
   <string name="about_summary_title">Описание</string>
   <string name="about_version">Версия</string>
   <string name="about_icon_designer">Дизайнер значка приложения</string>
