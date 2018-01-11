@@ -417,8 +417,7 @@
   <string name="snowfall_title">Снегопад</string>
   <string name="enable_snowfall_title">Включить снегопад на главном экране</string>
   <string name="enable_snowfall_summary">Может вызвать снижение производительности.</string>
-  <string name="snowfall_enabled">\"Let it snow, let it snow, let it snow!\"
-© Фрэнк Синатра</string>
+  <string name="snowfall_enabled">Да будет снег!</string>
   <string name="snowflake_size_scale">Размер снежинок</string>
   <string name="snowflakes_num">Максимальное количество снежинок</string>
 </resources>
