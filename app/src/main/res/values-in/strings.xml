@@ -416,4 +416,10 @@
   <string name="two_row_dock">Dock dua baris</string>
   <string name="reset_alternative_icons_title">Reset ikon aplikasi alternatif?</string>
   <string name="reset_alternative_icons">Anda memiliki aplikasi %1$d dengan ikon alternatif, apakah anda ingin meresetnya?</string>
+  <string name="snowfall_title">Hujan salju</string>
+  <string name="enable_snowfall_title">Hidupkankan animasi salju di layar awal</string>
+  <string name="enable_snowfall_summary">Dapat menyebabkan masalah kinerja.</string>
+  <string name="snowfall_enabled">\"Bersalju lah, bersalju lah, bersalju lah!\"</string>
+  <string name="snowflake_size_scale">Skala ukuran kepingan salju</string>
+  <string name="snowflakes_num">Jumlah maksimal kepingan salju</string>
 </resources>

@@ -278,9 +278,11 @@
   <string name="notification_access_pref_title">Badges de notification</string>
   <string name="notification_access_pref_summary">Permettre à Lawnchair d\'accéder à vos notifications pour activer cette fonctionnalité</string>
   <string name="general_pref_title">Écran d\'accueil</string>
+  <string name="dock_pref_title">Dock</string>
   <string name="app_drawer_pref_title">Tiroir des applications</string>
   <string name="pixel_ui_pref_title">Thème</string>
   <string name="behavior_pref_title">Comportement</string>
+  <string name="debug_pref_title">Débugger</string>
   <string name="general_pref_summary">Personnalisez votre écran d\'accueil</string>
   <string name="dock_pref_summary">Personnalisez votre dock</string>
   <string name="app_drawer_pref_summary">Personnaliser votre tiroir d\'applications</string>
@@ -317,6 +319,7 @@
   <string name="import_prefs_title">les paramètres</string>
   <string name="notification_listener_label">Lawnchair - Badges de notification</string>
   <string name="color_extraction_label">Lawnchair - Extraction de la couleur</string>
+  <string name="test_title">Test</string>
   <string name="visibility">Visibilité</string>
   <string name="default_text">Par défaut</string>
   <string name="edit_icon_reset">Réinitialiser</string>
@@ -410,4 +413,10 @@
   <string name="two_row_dock">Dock à deux rangées</string>
   <string name="reset_alternative_icons_title">Réinitialiser les icônes alternatives d\'applications ?</string>
   <string name="reset_alternative_icons">Vous avez %1$d applications avec des icônes alternatives, souhaitez-vous les réinitialiser ?</string>
+  <string name="snowfall_title">Chute de neige</string>
+  <string name="enable_snowfall_title">Activer les chutes de neige sur l\'écran d\'accueil</string>
+  <string name="enable_snowfall_summary">Peut causer des problèmes de fonctionnement.</string>
+  <string name="snowfall_enabled">\"Let it snow, let it snow, let it snow\"</string>
+  <string name="snowflake_size_scale">Taille des flocons</string>
+  <string name="snowflakes_num">Nombre de flocons maximum</string>
 </resources>

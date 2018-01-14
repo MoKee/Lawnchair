@@ -241,7 +241,7 @@
   <string name="title_show_google_app_default">Показать приложение Google</string>
   <string name="label_search">Поиск</string>
   <string name="label_voice_search">Голосовой поиск</string>
-  <string name="shortcuts_menu_with_notifications_description">%1$d ярлыки и %2$d уведомления для %3$s</string>
+  <string name="shortcuts_menu_with_notifications_description">%1$d ярлыков и %2$d уведомлений для %3$s</string>
   <string name="notifications_header">Уведомления</string>
   <string name="widgets_bottom_sheet_title">%1$s виджетов</string>
   <!-- About Lawnchair -->

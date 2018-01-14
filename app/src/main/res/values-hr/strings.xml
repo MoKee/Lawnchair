@@ -239,6 +239,7 @@
   <string name="icon_shape_none">Ništa</string>
   <string name="icon_shape_circle">Krug</string>
   <string name="about_version">Verzija</string>
+  <string name="about_contributors_title">Suradnici</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Primijeni</string>
