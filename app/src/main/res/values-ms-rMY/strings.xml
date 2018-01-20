@@ -227,6 +227,7 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Kekunci Skrin</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">Carikan</string>
   <!-- About Lawnchair -->
   <string name="about_title">Tentang</string>
   <string name="export_prefs_title">Tetapan</string>
