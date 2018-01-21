@@ -201,12 +201,15 @@
   <string name="wallpaper_instructions">Tetapkan kertas dinding</string>
   <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
+  <string name="image_load_fail">Tidak boleh memuatkan imej</string>
   <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper cropper cannot load it. The user will
          usually see this when using another app and trying to set
          an image as the wallpaper -->
+  <string name="wallpaper_load_fail">Tidak dapat memuatkan imej sebagai kertas dinding</string>
   <!-- Error message when an image is selected as a wallpaper,
          but something goes wrong when the user clicks "Set wallpaper" -->
+  <string name="wallpaper_set_fail">Imej tidak boleh ditetapkan sebagai kertas dinding</string>
   <!-- Shown when wallpapers are selected in Wallpaper picker -->
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
@@ -215,21 +218,72 @@
   </plurals>
   <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
+  <string name="wallpaper_accessibility_name">Kertas dinding %1$d daripada %2$d</string>
   <!-- Accessibility string used to announce that a wallpaper has been selected. -->
+  <string name="announce_selection">Dipilih <xliff:g example="Wallpaper 3 of 10" id="label">%1$s</xliff:g></string>
   <!-- Label on button to delete wallpaper(s) -->
   <string name="wallpaper_delete">Padam</string>
   <!-- Label on button in Wallpaper Picker to pick an image -->
+  <string name="pick_image">Foto saya</string>
   <!-- Option in "Select wallpaper from" dialog box -->
   <string name="pick_wallpaper">Kertas dinding</string>
   <!-- Title of activity for cropping wallpapers -->
+  <string name="crop_wallpaper">Potong kertas dinding</string>
   <!-- Option for setting the wallpaper only on the home screen. -->
   <string name="which_wallpaper_option_home_screen">Skrin utama</string>
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Kekunci Skrin</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="which_wallpaper_option_home_screen_and_lock_screen">Skrin utama dan skrin kunci</string>
+  <string name="title_show_google_app">Tunjukkan %1$s</string>
+  <string name="title_show_google_app_default">Tunjukkan aplikasi Google</string>
   <string name="label_search">Carikan</string>
+  <string name="label_voice_search">Carian suara</string>
+  <string name="shortcuts_menu_with_notifications_description">%1$d jalan pintas dan pemberitahuan %2$d untuk %3$s</string>
+  <string name="notifications_header">Pemberitahuan</string>
+  <string name="widgets_bottom_sheet_title">Widget %1$s</string>
   <!-- About Lawnchair -->
   <string name="about_title">Tentang</string>
+  <string name="about_pref_summary">Mendapat tahu tentang pasukan Lawnchair</string>
+  <string name="changelog_title">Pertukaran untuk membina #%d</string>
+  <string name="week_day_format">%1$s, %2$s</string>
+  <string name="icon_pack_preference_title">Pek ikon</string>
+  <string name="icon_pack_preference_summary">Pilih pek ikon</string>
+  <string name="hotseat_uses_extracted_colors_pref_title">Dok menggunakan warna dinding</string>
+  <string name="hotseat_show_arrow">Tunjukkan anak panah</string>
+  <string name="hotseat_show_page_indicator">Tunjukkan penunjuk halaman</string>
+  <string name="hotseat_uses_extracted_colors_pref_on">Dok ini akan berwarna dengan warna yang dieskstrak dari kertas dinding</string>
+  <string name="hotseat_uses_extracted_colors_pref_off">Dok ini akan diwarnakan warna kelabu, tetapi dilaraskan oleh kecerahan kertas dinding</string>
+  <string name="transparent_hotseat_pref_title">Dok telus</string>
+  <string name="dynamic_ui_pref_title">Esktrak warna aksen daripada kertas dinding</string>
+  <string name="blur_pref_title">Membolehkan kabur</string>
+  <string name="blur_pref_summary">Memohon kesan kabur kepada bahagian antara muka\nTidak serasi dengan kertas dinding secara langsung</string>
+  <string name="blur_radius_pref_title">Jejari kabur</string>
+  <string name="pref_iconLabelsInTwoLines">Label ikon dalam dua baris</string>
+  <string name="white_google_icon_pref_title">Gunakan ikon google warna putih</string>
+  <string name="hide_icon_labels_pref_title">Sembunyikan label ikon pada skrin utama</string>
+  <string name="hide_all_apps_icon_labels_pref_title">Sembunyikan label ikon dalam laci</string>
+  <string name="workspace_label_color_hue_pref_title">Warna label ikon pada skrin utama</string>
+  <string name="all_apps_opacity_pref_title">Lekapan laci</string>
+  <string name="num_cols_pref_title">Bilangan lajur</string>
+  <string name="num_rows_pref_title">Bilangan baris</string>
+  <string name="num_hotseat_icons_pref_title">Bilangan ikon dalam dok</string>
+  <string name="icon_scale_pref_title">Skala ikon</string>
+  <string name="hotseat_height_scale">Skala ketinggian</string>
+  <string name="icon_text_scale_pref_title">Skala teks ikon</string>
+  <string name="icon_text_padding_scale_pref_title">Skala ikon padding</string>
+  <string name="full_width_width_widgets_pref_title">Widget penuh lebar</string>
+  <string name="full_width_widgets_pref_summary">Benarkan widgets untuk span sepanjjang lebar tanpa padding</string>
+  <string name="notification_access_pref_title">Lencana pemberitahuan dan pratonton</string>
+  <string name="notification_access_pref_summary">Membolehkan Lawnchair untuk mengakseskan pemberitahuananda untuk mendayakan ciri ini</string>
+  <string name="general_pref_title">Desktop</string>
+  <string name="dock_pref_title">Dok</string>
+  <string name="app_drawer_pref_title">Laci aplikasi</string>
+  <string name="pixel_ui_pref_title">Tema</string>
+  <string name="behavior_pref_title">Tingkah laku</string>
+  <string name="debug_pref_title">Debug</string>
+  <string name="general_pref_summary">Sediakan desktop anda</string>
+  <string name="dock_pref_summary">Sediakan dok anda</string>
   <string name="export_prefs_title">Tetapan</string>
   <string name="import_prefs_title">Tetapan</string>
   <string name="default_text">Asal</string>
