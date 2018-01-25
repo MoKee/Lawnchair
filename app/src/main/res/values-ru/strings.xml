@@ -346,10 +346,10 @@
   <string name="settings_import_success">Настройки успешно восстановлены</string>
   <string name="db_import_success">База данных успешно восстановлена</string>
   <string name="export_error">Не удалось создать резервную копию</string>
-  <string name="import_error">Не удалось восстановить</string>
+  <string name="import_error">Не удалось восстановить резервную копию</string>
   <string name="imexport_no_backup_found">Файлы резервных копий не найдены</string>
-  <string name="imexport_external_storage_unreadable">Внешнее хранилище недоступно для чтения (предоставить разрешения можно в настройках)</string>
-  <string name="imexport_external_storage_unwritable">Внешнее хранилище недоступно для записи (предоставить разрешения можно в настройках)</string>
+  <string name="imexport_external_storage_unreadable">Внешнее хранилище недоступно для чтения (предоставьте разрешения можно в настройках)</string>
+  <string name="imexport_external_storage_unwritable">Внешнее хранилище недоступно для записи (предоставьте разрешения можно в настройках)</string>
   <string name="units_metric">Метрическая</string>
   <string name="units_imperial">Британская</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
@@ -387,7 +387,7 @@
   <string name="num_cols_drawer_pref_title">Количество столбцов в меню приложений</string>
   <string name="shortcut_backport_warning">Это может привести к медленной работе приложения, используйте на свой страх и риск</string>
   <string name="pref_backport_shortcuts">Адаптировать ярлыки</string>
-  <string name="weather_api_key_not_set">API ключ не установлен</string>
+  <string name="weather_api_key_not_set">Ключ API не установлен</string>
   <string name="pref_weather_api_key_title">Ключ API</string>
   <string name="about_changelog">Список изменений</string>
   <string name="pref_all_apps_custom_label_color">Использовать свой цвет подписи</string>
@@ -412,7 +412,7 @@
   <string name="unauthorized_device">На этом устройстве установлены пиратские утилиты. Пожалуйста, удалите их для продолжения.</string>
   <string name="hide_app_reset">Сброс</string>
   <string name="two_row_dock">Двухстрочный док-бар</string>
-  <string name="reset_alternative_icons_title">Сбросить альтернативные значки приложения?</string>
+  <string name="reset_alternative_icons_title">Сбросить альтернативные значки приложений?</string>
   <string name="reset_alternative_icons">У вас %1$d приложений с альтернативными значками, хотите сбросить их?</string>
   <string name="snowfall_title">Снегопад</string>
   <string name="enable_snowfall_title">Включить снегопад на главном экране</string>
