@@ -236,6 +236,7 @@
   <!-- About Lawnchair -->
   <string name="export_prefs_title">ಸಂಯೋಜನೆಗಳು</string>
   <string name="import_prefs_title">ಸಂಯೋಜನೆಗಳು</string>
+  <string name="default_text">ಪೂರ್ವನಿಯೋಜಿತ</string>
   <string name="edit_icon_reset">ಮರುಹೊಂದಿಸು</string>
   <string name="theme_dark">ಗಾಢ ಹಿನ್ನೆಲೆ</string>
   <!-- Import/Export Strings -->
