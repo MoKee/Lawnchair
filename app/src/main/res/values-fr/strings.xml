@@ -375,9 +375,9 @@
   <string name="icon_shape_squircle">Carrecle</string>
   <string name="icon_shape_circle">Cercle</string>
   <string name="icon_shape_teardrop">Larme</string>
-  <string name="animated_clock_icon_title">Icône de l\'horloge animée</string>
-  <string name="animated_clock_icon_alternative_clock_apps_title">Animer les applications d\'horloge alternatives</string>
-  <string name="animated_clock_icon_alternative_clock_apps_summary">Activer ceci si vous n\'utiliser pas l\'horloge Google comme application d\'horloge par défaut</string>
+  <string name="animated_clock_icon_title">Icône d’horloge animée</string>
+  <string name="animated_clock_icon_alternative_clock_apps_title">Animer les autres applis d’horloge</string>
+  <string name="animated_clock_icon_alternative_clock_apps_summary">Activer cette option si vous n’utilisez pas l’horloge Google comme appli d’horloge par défaut</string>
   <string name="about_summary_title">Résumé</string>
   <string name="about_version">Version</string>
   <string name="about_icon_designer">Designer des icônes de l\'application</string>
