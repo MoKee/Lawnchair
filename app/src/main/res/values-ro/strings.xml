@@ -248,6 +248,7 @@
   <string name="about_title">Despre</string>
   <string name="about_pref_summary">Aflați despre echipa Lawnchair</string>
   <string name="changelog_title">Jurnalul de modificări pentru a versiunea #%d</string>
+  <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Set de pictograme</string>
   <string name="icon_pack_preference_summary">Selectaţi un set de pictograme</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Doc foloseste culori de la fundal</string>
@@ -319,6 +320,7 @@
   <string name="import_prefs_title">Setări</string>
   <string name="notification_listener_label">Lawnchair - insigne notificări</string>
   <string name="color_extraction_label">Lawnchair - extragere de culoare</string>
+  <string name="test_title">Test</string>
   <string name="visibility">Vizibilitate</string>
   <string name="default_text">Implicit</string>
   <string name="edit_icon_reset">Resetare</string>
@@ -348,6 +350,8 @@
   <string name="imexport_no_backup_found">Nicio copie de rezervă găsită</string>
   <string name="imexport_external_storage_unreadable">Spațiul de stocare extern nu poate fi citit (acordă permisiunea în Setări)</string>
   <string name="imexport_external_storage_unwritable">Spațiul de stocare extern nu poate fi scris (acordă permisiunea în Setări)</string>
+  <string name="units_metric">Metric</string>
+  <string name="units_imperial">Imperial</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Vreme</string>
   <string name="pref_weather_title">Activează Vremea</string>
@@ -410,4 +414,10 @@
   <string name="two_row_dock">Doc în două rânduri</string>
   <string name="reset_alternative_icons_title">Resetați pictogramele alternative ale aplicațiilor?</string>
   <string name="reset_alternative_icons">Aveți %1$d aplicații cu pictograme alternative, doriți să le resetați?</string>
+  <string name="snowfall_title">Ninsoare</string>
+  <string name="enable_snowfall_title">Activare ninsoare pe ecranul de pornire</string>
+  <string name="enable_snowfall_summary">Poate provoca probleme de performanţă.</string>
+  <string name="snowfall_enabled">\"Să ningă, să ningă, să ningă!\"</string>
+  <string name="snowflake_size_scale">Dimensiunea fulgilor de zăpadă</string>
+  <string name="snowflakes_num">Numărul maxim al fulgilor de zăpadă</string>
 </resources>
