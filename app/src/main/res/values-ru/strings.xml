@@ -272,6 +272,8 @@
   <string name="num_hotseat_icons_pref_title">Количество значков в док-баре</string>
   <string name="icon_scale_pref_title">Масштаб значков</string>
   <string name="hotseat_height_scale">Размер высоты</string>
+  <string name="hotseat_custom_opacity">Прозрачность док-станции</string>
+  <string name="hotseat_uses_custom_opacity">Док-станция использует ручную прозрачность</string>
   <string name="icon_text_scale_pref_title">Масштаб подписи значков</string>
   <string name="icon_text_padding_scale_pref_title">Размер фона значка</string>
   <string name="full_width_width_widgets_pref_title">Виджеты занимают весь размер</string>

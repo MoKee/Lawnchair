@@ -22,7 +22,7 @@
   <!-- Application name -->
   <!-- Default folder name -->
   <!-- Work folder name -->
-  <string name="work_folder_name">Công việc</string>
+  <string name="work_folder_name">Cơ quan</string>
   <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
   <string name="activity_not_found">Ứng dụng chưa được cài đặt.</string>
   <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
@@ -259,7 +259,7 @@
   <string name="blur_pref_title">Bật hiệu ứng mờ phông</string>
   <string name="blur_pref_summary">Áp dụng hiệu ứng mờ đến các thành phần của giao diện\nKhông tương thích với hình nền động</string>
   <string name="blur_radius_pref_title">Tỉ lệ mờ</string>
-  <string name="pref_iconLabelsInTwoLines">Nhãn biểu tượng trong hai dòng</string>
+  <string name="pref_iconLabelsInTwoLines">Nhãn và biểu tượng hai dòng</string>
   <string name="white_google_icon_pref_title">Sử dụng biểu tượng Google màu trắng</string>
   <string name="hide_icon_labels_pref_title">Ẩn nhãn biểu tượng trên màn hình chính</string>
   <string name="hide_all_apps_icon_labels_pref_title">Ẩn biểu tượng nhãn trong ngăn chứa ứng dụng</string>
@@ -270,6 +270,8 @@
   <string name="num_hotseat_icons_pref_title">Số lượng các biểu tượng trong thanh dock</string>
   <string name="icon_scale_pref_title">Kích thước biểu tượng</string>
   <string name="hotseat_height_scale">Chiều cao</string>
+  <string name="hotseat_custom_opacity">Độ mờ Dock</string>
+  <string name="hotseat_uses_custom_opacity">Tùy chỉnh độ mờ dock</string>
   <string name="icon_text_scale_pref_title">Kích thước nhãn biểu tượng</string>
   <string name="icon_text_padding_scale_pref_title">Kích thước phần lề biểu tượng</string>
   <string name="full_width_width_widgets_pref_title">Lấp đầy chiều rộng tiện ích con</string>
@@ -412,10 +414,10 @@
   <string name="two_row_dock">Hai hàng dock</string>
   <string name="reset_alternative_icons_title">Đặt lại những biểu tượng ứng dụng bị thay đổi?</string>
   <string name="reset_alternative_icons">Bạn có %1$d biểu tượng ứng dụng bị thay đổi, bạn có muốn đặt lại chúng không?</string>
-  <string name="snowfall_title">Tuyết rơi</string>
-  <string name="enable_snowfall_title">Bật hiệu ứng tuyết rơi trên màn hình chính</string>
+  <string name="snowfall_title">Hiệu ứng tuyết rơi</string>
+  <string name="enable_snowfall_title">Bật hiệu ứng tuyết rơi</string>
   <string name="enable_snowfall_summary">Có thể ảnh hưởng đến hiệu năng máy.</string>
   <string name="snowfall_enabled">\'Hãy để tuyết rơi, hãy để tuyết rơi, tuyết ơi hãy rơi!\'</string>
   <string name="snowflake_size_scale">Kích cỡ bông tuyết</string>
-  <string name="snowflakes_num">Số lượng bông tuyết tối đa</string>
+  <string name="snowflakes_num">Số lượng bông tuyết</string>
 </resources>
