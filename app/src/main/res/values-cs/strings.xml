@@ -272,6 +272,8 @@
   <string name="num_hotseat_icons_pref_title">Počet zástupců v doku</string>
   <string name="icon_scale_pref_title">Velikost ikon</string>
   <string name="hotseat_height_scale">Měřítko výšky</string>
+  <string name="hotseat_custom_opacity">Průhlednost doku</string>
+  <string name="hotseat_uses_custom_opacity">Dok používá vlastní průhlednost</string>
   <string name="icon_text_scale_pref_title">Velikost textu ikon</string>
   <string name="icon_text_padding_scale_pref_title">Ikona stupnice odsazení</string>
   <string name="full_width_width_widgets_pref_title">Widgety s plnou šířkou</string>

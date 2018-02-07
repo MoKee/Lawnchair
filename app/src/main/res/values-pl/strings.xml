@@ -272,6 +272,8 @@
   <string name="num_hotseat_icons_pref_title">Liczba ikon w docku</string>
   <string name="icon_scale_pref_title">Skalowanie ikon</string>
   <string name="hotseat_height_scale">Skala wysokości</string>
+  <string name="hotseat_custom_opacity">Przezroczystość Dock\'u</string>
+  <string name="hotseat_uses_custom_opacity">Dock używa własnej przezroczystości</string>
   <string name="icon_text_scale_pref_title">Skalowanie tekstu pod ikonami</string>
   <string name="icon_text_padding_scale_pref_title">Skala odstępu ikon</string>
   <string name="full_width_width_widgets_pref_title">Widżety na całej szerokości</string>
