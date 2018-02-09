@@ -272,6 +272,7 @@
   <string name="num_hotseat_icons_pref_title">Колькасць значкоў ў док-бары</string>
   <string name="icon_scale_pref_title">Маштаб значкоў</string>
   <string name="hotseat_height_scale">Маштаб вышыні</string>
+  <string name="hotseat_custom_opacity">Празрыстасць док-станцыі</string>
   <string name="icon_text_scale_pref_title">Маштаб подпісу значкоў</string>
   <string name="icon_text_padding_scale_pref_title">Маштаб арэолу значкоў</string>
   <string name="full_width_width_widgets_pref_title">Поўная шырыня віджэтаў</string>
@@ -414,4 +415,10 @@
   <string name="two_row_dock">Дзьвухрадковы док-бар</string>
   <string name="reset_alternative_icons_title">Скінуць альтэрнатыўныя значкі праграм?</string>
   <string name="reset_alternative_icons">У вас %1$d праграм з альтэрнатыўнымі значкамі, хочаце скінуць іх?</string>
+  <string name="snowfall_title">Снегапад</string>
+  <string name="enable_snowfall_title">Уключыць Снегапад на галоўным экране</string>
+  <string name="enable_snowfall_summary">Можа выклікаць зніжэнне прадукцыйнасці.</string>
+  <string name="snowfall_enabled">\"Let it snow, let it snow, let it snow!\"</string>
+  <string name="snowflake_size_scale">Памер сняжынак</string>
+  <string name="snowflakes_num">Максімальную колькасць сняжынак</string>
 </resources>

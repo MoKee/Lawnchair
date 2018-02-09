@@ -272,6 +272,8 @@
   <string name="num_hotseat_icons_pref_title">Počet ikon v doku</string>
   <string name="icon_scale_pref_title">Mierka ikon</string>
   <string name="hotseat_height_scale">Mierka výšky</string>
+  <string name="hotseat_custom_opacity">Priehľadnosť doku</string>
+  <string name="hotseat_uses_custom_opacity">Povoliť vlastnú priehľednosť doku</string>
   <string name="icon_text_scale_pref_title">Veľkosť textu ikon</string>
   <string name="icon_text_padding_scale_pref_title">Ikona stupnice odsadenia</string>
   <string name="full_width_width_widgets_pref_title">Widgety s plnou šírkou</string>

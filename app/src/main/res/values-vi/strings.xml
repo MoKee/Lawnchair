@@ -259,11 +259,11 @@
   <string name="blur_pref_title">Bật hiệu ứng mờ phông</string>
   <string name="blur_pref_summary">Áp dụng hiệu ứng mờ đến các thành phần của giao diện\nKhông tương thích với hình nền động</string>
   <string name="blur_radius_pref_title">Tỉ lệ mờ</string>
-  <string name="pref_iconLabelsInTwoLines">Nhãn và biểu tượng hai dòng</string>
+  <string name="pref_iconLabelsInTwoLines">Chữ và biểu tượng hai dòng</string>
   <string name="white_google_icon_pref_title">Sử dụng biểu tượng Google màu trắng</string>
-  <string name="hide_icon_labels_pref_title">Ẩn nhãn biểu tượng trên màn hình chính</string>
-  <string name="hide_all_apps_icon_labels_pref_title">Ẩn biểu tượng nhãn trong ngăn chứa ứng dụng</string>
-  <string name="workspace_label_color_hue_pref_title">Màu sắc của nhãn biểu tượng trên màn hình chính</string>
+  <string name="hide_icon_labels_pref_title">Ẩn chữ biểu tượng trên màn hình chính</string>
+  <string name="hide_all_apps_icon_labels_pref_title">Ẩn biểu tượng chữ trong ngăn chứa ứng dụng</string>
+  <string name="workspace_label_color_hue_pref_title">Màu sắc của chữ biểu tượng trên màn hình chính</string>
   <string name="all_apps_opacity_pref_title">Độ trong suốt của ngăn chứa ứng dụng</string>
   <string name="num_cols_pref_title">Số cột</string>
   <string name="num_rows_pref_title">Số hàng</string>
@@ -282,7 +282,7 @@
   <string name="dock_pref_title">Thanh Dock</string>
   <string name="app_drawer_pref_title">Ngăn chứa ứng dụng</string>
   <string name="pixel_ui_pref_title">Giao diện</string>
-  <string name="behavior_pref_title">Hành vi</string>
+  <string name="behavior_pref_title">Cử chỉ</string>
   <string name="debug_pref_title">Gỡ lỗi</string>
   <string name="general_pref_summary">Tùy chỉnh màn hình chính của bạn</string>
   <string name="dock_pref_summary">Tùy chỉnh thanh dock của bạn</string>
@@ -309,8 +309,8 @@
   <string name="light_statusbar_pref_off">Hiển thị biểu tượng thanh trạng thái màu sáng</string>
   <string name="keep_scroll_state_pref_title">Lưu vị trí cuộn</string>
   <string name="keep_scroll_state_pref_summary">Lưu vị trí cuộn trong ngăn chứa ứng dụng</string>
-  <string name="home_opens_drawer_pref_title">Bấm nút Home để mở ngăn chứa ứng dụng</string>
-  <string name="home_opens_drawer_pref_summary">Bấm nút Home khi ở ngoài Trang chính để mở ngăn chứa ứng dụng</string>
+  <string name="home_opens_drawer_pref_title">Bấm nút Trang chủ hiển thị ngăn chứa ứng dụng</string>
+  <string name="home_opens_drawer_pref_summary">Bấm nút Trang chủ khi ở ngoài Trang chính để mở ngăn chứa ứng dụng</string>
   <string name="show_hidden_pref_title">Hiện ứng dụng ẩn</string>
   <string name="show_hidden_pref_on">Hiện các ứng dụng ẩn để thay đổi tùy chọn hiển thị</string>
   <string name="show_hidden_pref_off">Không hiện các ứng dụng ẩn</string>
