@@ -273,6 +273,7 @@
   <string name="icon_scale_pref_title">Маштаб значкоў</string>
   <string name="hotseat_height_scale">Маштаб вышыні</string>
   <string name="hotseat_custom_opacity">Празрыстасць док-станцыі</string>
+  <string name="hotseat_uses_custom_opacity">Док-станцыя выкарыстоўвае ручную празрыстасць</string>
   <string name="icon_text_scale_pref_title">Маштаб подпісу значкоў</string>
   <string name="icon_text_padding_scale_pref_title">Маштаб арэолу значкоў</string>
   <string name="full_width_width_widgets_pref_title">Поўная шырыня віджэтаў</string>

@@ -121,7 +121,7 @@
   <!-- Text for settings button -->
   <string name="settings_button_text">Cài đặt</string>
   <!-- Message shown when a feature is disabled by the administrator -->
-  <string name="msg_disabled_by_admin">Đã bị vô hiệu hoá bởi quản trị viên của bạn</string>
+  <string name="msg_disabled_by_admin">Đã bị vô hiệu hoá bởi quản trị viên</string>
   <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
   <string name="accessibility_action_overview">Xem trước</string>
   <!-- Strings for settings -->
@@ -247,7 +247,7 @@
   <string name="about_pref_summary">Tìm hiểu về đội ngũ Lawnchair</string>
   <string name="changelog_title">Những thay đổi của bản xây dựng #%d</string>
   <string name="week_day_format">%2$s %1$s</string>
-  <string name="icon_pack_preference_title">Gói Biểu Tượng</string>
+  <string name="icon_pack_preference_title">Gói biểu tượng</string>
   <string name="icon_pack_preference_summary">Chọn Gói Biểu tượng</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Sử dụng màu sắc hình nền cho thanh dock</string>
   <string name="hotseat_show_arrow">Hiển thị mũi tên</string>
@@ -257,7 +257,7 @@
   <string name="transparent_hotseat_pref_title">Thanh dock trong suốt</string>
   <string name="dynamic_ui_pref_title">Trích xuất màu sắc chủ đạo từ hình nền</string>
   <string name="blur_pref_title">Bật hiệu ứng mờ phông</string>
-  <string name="blur_pref_summary">Áp dụng hiệu ứng mờ đến các thành phần của giao diện\nKhông tương thích với hình nền động</string>
+  <string name="blur_pref_summary">Áp dụng hiệu ứng mờ đến các thành phần của giao diện\n(không tương thích với hình nền động)</string>
   <string name="blur_radius_pref_title">Tỉ lệ mờ</string>
   <string name="pref_iconLabelsInTwoLines">Chữ và biểu tượng hai dòng</string>
   <string name="white_google_icon_pref_title">Sử dụng biểu tượng Google màu trắng</string>
@@ -267,19 +267,19 @@
   <string name="all_apps_opacity_pref_title">Độ trong suốt của ngăn chứa ứng dụng</string>
   <string name="num_cols_pref_title">Số cột</string>
   <string name="num_rows_pref_title">Số hàng</string>
-  <string name="num_hotseat_icons_pref_title">Số lượng các biểu tượng trong thanh dock</string>
+  <string name="num_hotseat_icons_pref_title">Số lượng các biểu tượng thanh đế</string>
   <string name="icon_scale_pref_title">Kích thước biểu tượng</string>
   <string name="hotseat_height_scale">Chiều cao</string>
   <string name="hotseat_custom_opacity">Độ mờ Dock</string>
-  <string name="hotseat_uses_custom_opacity">Tùy chỉnh độ mờ dock</string>
+  <string name="hotseat_uses_custom_opacity">Tùy chỉnh độ mờ đế</string>
   <string name="icon_text_scale_pref_title">Kích thước nhãn biểu tượng</string>
-  <string name="icon_text_padding_scale_pref_title">Kích thước phần lề biểu tượng</string>
+  <string name="icon_text_padding_scale_pref_title">Kích thước lề biểu tượng</string>
   <string name="full_width_width_widgets_pref_title">Lấp đầy chiều rộng tiện ích con</string>
   <string name="full_width_widgets_pref_summary">Cho phép tiện ích con lấp đầy chiều rộng mà không có lề</string>
   <string name="notification_access_pref_title">Huy hiệu và xem trước thông báo</string>
   <string name="notification_access_pref_summary">Cho phép Lawnchair truy cập vào thông báo của bạn để kích hoạt tính năng này</string>
   <string name="general_pref_title">Màn hình chính</string>
-  <string name="dock_pref_title">Thanh Dock</string>
+  <string name="dock_pref_title">Thanh đế</string>
   <string name="app_drawer_pref_title">Ngăn chứa ứng dụng</string>
   <string name="pixel_ui_pref_title">Giao diện</string>
   <string name="behavior_pref_title">Cử chỉ</string>
@@ -294,7 +294,7 @@
   <string name="debug_pref_summary">Khởi động lại hoặc xây dựng lại dữ liệu biểu tượng</string>
   <string name="show_pixel_bar_pref_title">Hiển thị thanh tiện ích Pixel</string>
   <string name="use_wide_searchbar_pref_title">Sử dụng thanh tìm kiếm dài</string>
-  <string name="show_mic_pref_title">Hiển thị biểu tượng Google Assistant</string>
+  <string name="show_mic_pref_title">Biểu tượng Google Assistant</string>
   <string name="use_round_searhbar">Sử dụng thanh tìm kiếm ứng dụng bo tròn</string>
   <string name="pixel_style_icons_pref_title">Sử dụng các biểu tượng của Pixel</string>
   <string name="pixel_style_icons_pref_summary">Sử dụng các biểu tượng hình tròn nếu có thể</string>
@@ -305,7 +305,7 @@
   <string name="pinch_to_overview_pref_title">Cử chỉ thu nhỏ để xem tổng quan</string>
   <string name="pinch_to_overview_pref_summary">Cử chỉ thu nhỏ ngoài màn hình chính để xem tổng quan</string>
   <string name="light_statusbar_pref_title">Thanh trạng thái màu sáng</string>
-  <string name="light_statusbar_pref_force">Hiển thị biểu tượng thanh trạng thái màu tối</string>
+  <string name="light_statusbar_pref_force">Biểu tượng thanh trạng thái màu tối</string>
   <string name="light_statusbar_pref_off">Hiển thị biểu tượng thanh trạng thái màu sáng</string>
   <string name="keep_scroll_state_pref_title">Lưu vị trí cuộn</string>
   <string name="keep_scroll_state_pref_summary">Lưu vị trí cuộn trong ngăn chứa ứng dụng</string>
@@ -318,8 +318,8 @@
   <string name="import_db_title">Cơ sở dữ liệu</string>
   <string name="export_prefs_title">Cài đặt</string>
   <string name="import_prefs_title">Cài đặt</string>
-  <string name="notification_listener_label">Lawnchair - Huy hiệu thông báo</string>
-  <string name="color_extraction_label">Lawnchair - Chiết xuất màu sắc</string>
+  <string name="notification_listener_label">Lawnchair - Chấm tròn thông báo</string>
+  <string name="color_extraction_label">Lawnchair - màu sắc</string>
   <string name="test_title">Kiểm tra</string>
   <string name="visibility">Kiểu hiển thị</string>
   <string name="default_text">Mặc định</string>
@@ -397,7 +397,7 @@
   <string name="vertical_drawer_layout_pref_title">Hiển thị dạng danh sách dọc</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
+  <string name="full_wday_month_day_no_year">EEEE, MMMM dd</string>
   <string name="lock_desktop">Khóa màn hình chính</string>
   <string name="lawnfeed_not_found">Chưa cài đặt Lawnfeed</string>
   <string name="google_app_not_found">Ứng dụng Google không được cài đặt</string>
