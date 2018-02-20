@@ -235,10 +235,16 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Екран за заключване</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="which_wallpaper_option_home_screen_and_lock_screen">Начален и заключен екран</string>
+  <string name="title_show_google_app">Покажи %1$s</string>
   <string name="label_search">Търсене</string>
   <string name="label_voice_search">Гласово търсене</string>
+  <string name="notifications_header">Уведомления</string>
   <!-- About Lawnchair -->
   <string name="about_title">Относно</string>
+  <string name="icon_pack_preference_title">Пакет икони</string>
+  <string name="icon_pack_preference_summary">Изберете пакет икони</string>
+  <string name="hotseat_show_page_indicator">Покажи индикатор на страниците</string>
   <string name="pixel_ui_pref_title">Тема</string>
   <string name="export_db_title">База данни</string>
   <string name="import_db_title">База данни</string>
