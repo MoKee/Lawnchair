@@ -196,6 +196,7 @@
   <string name="action_deep_shortcut">Lasterbideak</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
   <string name="shortcuts_menu_description"><xliff:g id="APP_NAME">%2$s</xliff:g> aplikazioaren <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> lasterbide</string>
+  <string name="edit_drop_target_label">Editatu</string>
   <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
   <string name="wallpaper_instructions">Ezarri horma-papera</string>
   <!-- Error message when an image is selected as a wallpaper,
