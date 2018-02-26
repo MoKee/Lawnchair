@@ -9,7 +9,7 @@ def getChangelog = { ->
         def changelog = changelogFile.text
         return changelog.trim().replace("\n", "\\n").replace("\"", "\\\"")
     } else {
-        return null
+        return "No changelog found!"
     }
 }
 
@@ -54,7 +54,7 @@ android {
 
         if (System.getenv("TRAVIS") == "true") {
             versionCode = Integer.valueOf(System.getenv("TRAVIS_BUILD_NUMBER"))
-            versionName = System.getenv("MAJOR_MINOR") + System.getenv("SEPERATOR") + System.getenv("TRAVIS_BUILD_NUMBER")
+            versionName = System.getenv("MAJOR_MINOR") + (System.getenv("DRONE") ? "-" : ".") + System.getenv("TRAVIS_BUILD_NUMBER")
         } else {
             long timestamp = System.currentTimeMillis() / 1000
             versionCode Integer.valueOf(timestamp.toString())
