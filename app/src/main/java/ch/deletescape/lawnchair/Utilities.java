@@ -16,7 +16,6 @@
 
 package ch.deletescape.lawnchair;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.AlertDialog;
@@ -58,6 +57,8 @@ import android.os.PowerManager;
 import android.os.UserHandle;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextUtils;
@@ -107,14 +108,13 @@ import ch.deletescape.lawnchair.shortcuts.ShortcutInfoCompat;
 import ch.deletescape.lawnchair.util.IconNormalizer;
 import ch.deletescape.lawnchair.util.PackageManagerHelper;
 
-import static ch.deletescape.lawnchair.util.PackageManagerHelper.isAppEnabled;
-
 /**
  * Various utilities shared amongst the Launcher's classes.
  */
 public final class Utilities {
 
     private static final String TAG = "Launcher.Utilities";
+    private static final String LAUNCHER_RESTART_KEY = "launcher_restart_key";
 
     private static final Rect sOldBounds = new Rect();
     private static final Canvas sCanvas = new Canvas();
@@ -853,6 +853,14 @@ public final class Utilities {
         packageManager.setComponentEnabledSetting(launcher, PackageManager.COMPONENT_ENABLED_STATE_DEFAULT, PackageManager.DONT_KILL_APP);
     }
 
+    public static boolean hasStoragePermission(Context context) {
+        return PackageManager.PERMISSION_GRANTED == ContextCompat.checkSelfPermission(context, android.Manifest.permission.READ_EXTERNAL_STORAGE);
+    }
+
+    public static void requestStoragePermission(Activity activity) {
+        ActivityCompat.requestPermissions(activity, new String[]{android.Manifest.permission.READ_EXTERNAL_STORAGE}, Launcher.REQUEST_PERMISSION_STORAGE_ACCESS);
+    }
+
     /**
      * An extension of {@link BitmapDrawable} which returns the bitmap pixel size as intrinsic size.
      * This allows the badging to be done based on the action bitmap size rather than
@@ -969,15 +977,13 @@ public final class Utilities {
         StringBuilder builder = new StringBuilder();
         String[] lines = BuildConfig.CHANGELOG.split("\n");
         for (String line : lines) {
-            if (line.startsWith("Merge pull request")) continue;
             if (line.contains("[no ci]")) {
                 line = line.replace("[no ci]", "");
             }
-            builder
-                    .append("- ")
-                    .append(line.trim())
-                    .append('\n');
+
+            builder.append(line.trim()).append('\n');
         }
+
         builder.deleteCharAt(builder.lastIndexOf("\n"));
         return builder.toString();
     }
@@ -1072,7 +1078,7 @@ public final class Utilities {
             }
         }
 
-        return BLACKLISTED_APPLICATIONS.length == 0 || false;
+        return BLACKLISTED_APPLICATIONS.length == 0;
     }
 
 //    public static void showOutdatedLawnfeedPopup(final Context context) {

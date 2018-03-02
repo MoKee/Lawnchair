@@ -494,4 +494,6 @@
     <string name="snowflake_size_scale">Snowflake size scale</string>
     <string name="snowflakes_num">Max number of snowflakes</string>
 
+    <string name="title_storage_permission_required">Storage Permission Required</string>
+    <string name="content_storage_permission_required">On Android 8.1 and above the storage permission is required for apps to access the wallpaper. Without said permission Lawnchair might crash or show unexpected behaviours.</string>
 </resources>
