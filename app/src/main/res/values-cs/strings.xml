@@ -216,7 +216,8 @@
   <plurals name="number_of_items_selected">
     <item quantity="one">Vybráno: %1$d</item>
     <item quantity="few">Vybráno: %1$d</item>
-    <item quantity="other">%1$d vybrány</item>
+    <item quantity="many">Vybráno: %1$d</item>
+    <item quantity="other">Vybráno: %1$d</item>
   </plurals>
   <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
