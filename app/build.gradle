@@ -68,6 +68,10 @@ android {
             if (System.getenv("TRAVIS") == "true") {
                 minifyEnabled true
                 shrinkResources true
+                if (System.getenv("DRONE") == "true") {
+                    applicationIdSuffix ".ci"
+                }
+
                 proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
                 if (System.getenv("TRAVIS_EVENT_TYPE") != "pull_request") {
                     signingConfig signingConfigs.travis
@@ -84,16 +88,6 @@ android {
                 }
             } else {
                 minifyEnabled false
-            }
-        }
-        ci {
-            applicationIdSuffix ".ci"
-            versionNameSuffix "-ci"
-
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            if (System.getenv("TRAVIS_EVENT_TYPE") != "pull_request") {
-                signingConfig signingConfigs.travis
             }
         }
         release {
