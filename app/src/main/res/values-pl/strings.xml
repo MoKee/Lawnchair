@@ -216,6 +216,7 @@
   <plurals name="number_of_items_selected">
     <item quantity="one">Wybrana %1$d</item>
     <item quantity="few">Wybrane: %1$d</item>
+    <item quantity="many">Wybrana %1$d</item>
     <item quantity="other">Wybrana %1$d</item>
   </plurals>
   <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
@@ -422,4 +423,6 @@
   <string name="snowfall_enabled">\"Pada śnieg, pada śnieg ! :)\"</string>
   <string name="snowflake_size_scale">Rozmiar płatka śniegu</string>
   <string name="snowflakes_num">Maks. ilość płatków śniegu</string>
+  <string name="title_storage_permission_required">Wymagane uprawnienia dostępu do pamięci urządzenia</string>
+  <string name="content_storage_permission_required">W Androidzie 8.1 i wyższym uprawnienia do \"pamięci urządzenia\" są wymagane dla aplikacji z dostępem do tapet. Bez tego Lawnchair może ulec awarii lub zachowywać się niestabilnie.</string>
 </resources>

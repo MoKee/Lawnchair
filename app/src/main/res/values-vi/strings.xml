@@ -420,4 +420,6 @@
   <string name="snowfall_enabled">\'Hãy để tuyết rơi, hãy để tuyết rơi, tuyết ơi hãy rơi!\'</string>
   <string name="snowflake_size_scale">Kích cỡ bông tuyết</string>
   <string name="snowflakes_num">Số lượng bông tuyết</string>
+  <string name="title_storage_permission_required">Yêu cầu bộ nhớ</string>
+  <string name="content_storage_permission_required">Trên Android 8.1 trở lên, quyền lưu trữ là bắt buộc đối với các ứng dụng để truy cập vào hình nền. Nếu không có lời cho phép Lawnchair có thể sụp đổ hoặc hiển thị hành vi bất ngờ.</string>
 </resources>

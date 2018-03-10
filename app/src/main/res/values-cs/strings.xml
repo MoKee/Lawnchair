@@ -198,7 +198,7 @@
   <string name="shortcuts_menu_description">Počet zkratek pro aplikaci <xliff:g id="APP_NAME">%2$s</xliff:g>: <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g></string>
   <string name="edit_drop_target_label">Editace</string>
   <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
-  <string name="wallpaper_instructions">Nastavit jako tapetu</string>
+  <string name="wallpaper_instructions">Nastavit tapetu</string>
   <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
   <string name="image_load_fail">Obrázek nelze načíst.</string>
@@ -216,6 +216,7 @@
   <plurals name="number_of_items_selected">
     <item quantity="one">Vybráno: %1$d</item>
     <item quantity="few">Vybráno: %1$d</item>
+    <item quantity="many">Vybráno: %1$d</item>
     <item quantity="other">%1$d vybrány</item>
   </plurals>
   <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
@@ -234,9 +235,9 @@
   <!-- Option for setting the wallpaper only on the home screen. -->
   <string name="which_wallpaper_option_home_screen">Domovská obrazovka</string>
   <!-- Option for setting the wallpaper only on the lock screen. -->
-  <string name="which_wallpaper_option_lock_screen">Zámek obrazovky</string>
+  <string name="which_wallpaper_option_lock_screen">Zamykací obrazovka</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
-  <string name="which_wallpaper_option_home_screen_and_lock_screen">Domovská a uzamykací obrazovka</string>
+  <string name="which_wallpaper_option_home_screen_and_lock_screen">Domovská a zamykací obrazovka</string>
   <string name="title_show_google_app">Zobrazit %1$s</string>
   <string name="title_show_google_app_default">Zobrazit aplikaci Google</string>
   <string name="label_search">Hledat</string>
@@ -269,7 +270,7 @@
   <string name="all_apps_opacity_pref_title">Průhlednost menu aplikací</string>
   <string name="num_cols_pref_title">Počet sloupců</string>
   <string name="num_rows_pref_title">Počet řádků</string>
-  <string name="num_hotseat_icons_pref_title">Počet zástupců v doku</string>
+  <string name="num_hotseat_icons_pref_title">Počet ikon v doku</string>
   <string name="icon_scale_pref_title">Velikost ikon</string>
   <string name="hotseat_height_scale">Měřítko výšky</string>
   <string name="hotseat_custom_opacity">Průhlednost doku</string>
@@ -330,8 +331,8 @@
   <string name="pref_cat_homescreen">Domovská obrazovka</string>
   <string name="theme_pref_title">Motiv vzhledu</string>
   <string name="theme_light">Světlý</string>
-  <string name="theme_dark">Temný</string>
-  <string name="theme_black">Černá</string>
+  <string name="theme_dark">Tmavý</string>
+  <string name="theme_black">Černý</string>
   <string name="hide_hotseat_pref_title">Skrýt dok</string>
   <string name="all_icons">Všechny ikony</string>
   <string name="pull_down_action_pref_title">Akce při rozbalení</string>
@@ -360,7 +361,7 @@
   <string name="pref_weather_units">Jednotky počasí</string>
   <string name="pref_weather_city_summary">Pro lepší výsledky zadejte kód země</string>
   <string name="pref_weather_city_title">Město</string>
-  <string name="none">Žádný</string>
+  <string name="none">Žádné</string>
   <string name="pref_applyTheme">Použít motiv na</string>
   <string name="pref_applyBlur">Použít rozostření na</string>
   <string name="search_bar">Vyhledávací lišta</string>
@@ -422,4 +423,6 @@
   <string name="snowfall_enabled">\"Ať sněží, ať sněží, ať sněží!\"</string>
   <string name="snowflake_size_scale">Velikost sněhové vločky</string>
   <string name="snowflakes_num">Maximální počet sněhových vloček</string>
+  <string name="title_storage_permission_required">Vyžadováno oprávnění k úložišti</string>
+  <string name="content_storage_permission_required">V zařízeních s Android 8.1 a vyšším je pro přístup k tapetám vyžadováno oprávnění k úložišti. Bez zmíněného oprávnění se může stát, že aplikace Lawnchair selže nebo bude mít neočekávané chování.</string>
 </resources>

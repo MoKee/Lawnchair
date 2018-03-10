@@ -37,7 +37,7 @@
   <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
   <string name="long_press_widget_to_add">Miniaplikáciu pridáte stlačením a podržaním.</string>
   <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
-  <string name="long_accessible_way_to_add">Miniaplikáciu pridáte dvojitým kliknutí a pridržaním alebo pomocou vlastných akcií.</string>
+  <string name="long_accessible_way_to_add">Miniaplikáciu pridáte dvojitým kliknutím a pridržaním alebo pomocou vlastných akcií.</string>
   <!-- The format string for the dimensions of a widget in the drawer -->
   <!-- There is a special version of this format string for Farsi -->
   <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
@@ -183,7 +183,7 @@
   <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
   <string name="action_resize">Zmeniť veľkosť</string>
   <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_width">Zvýšiť šírku</string>
+  <string name="action_increase_width">Zväčšiť šírku</string>
   <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
   <string name="action_increase_height">Zväčšiť výšku</string>
   <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
@@ -216,13 +216,14 @@
   <plurals name="number_of_items_selected">
     <item quantity="one">%1$d vybraná</item>
     <item quantity="few">%1$d vybrané</item>
+    <item quantity="many">%1$d vybraných</item>
     <item quantity="other">%1$d vybraných</item>
   </plurals>
   <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
   <string name="wallpaper_accessibility_name">Tapeta %1$d z %2$d</string>
   <!-- Accessibility string used to announce that a wallpaper has been selected. -->
-  <string name="announce_selection">Vybratá položka <xliff:g example="Wallpaper 3 of 10" id="label">%1$s</xliff:g></string>
+  <string name="announce_selection">Vybraná položka <xliff:g example="Wallpaper 3 of 10" id="label">%1$s</xliff:g></string>
   <!-- Label on button to delete wallpaper(s) -->
   <string name="wallpaper_delete">Vymazať</string>
   <!-- Label on button in Wallpaper Picker to pick an image -->
@@ -305,26 +306,26 @@
   <string name="restart_lawnchair_pref_summary">Môže byť užitočné, ak niektoré nastavenia nie sú použité správne</string>
   <string name="rebuild_icondb_pref_title">Obnoviť databázu ikon</string>
   <string name="pinch_to_overview_pref_title">Prepnutie na prehľad</string>
-  <string name="pinch_to_overview_pref_summary">Gesto na zobrazenie všetkých domácich obrazoviek</string>
+  <string name="pinch_to_overview_pref_summary">Pre otvorenie prehľadu kliknite na domovskú obrazovku</string>
   <string name="light_statusbar_pref_title">Svetlý stavový riadok</string>
   <string name="light_statusbar_pref_force">V stavovom riadku budú zobrazené tmavé ikony</string>
   <string name="light_statusbar_pref_off">V stavovom riadku budú zobrazené svetlé ikony</string>
-  <string name="keep_scroll_state_pref_title">Zachovať pozíciu posunu</string>
+  <string name="keep_scroll_state_pref_title">Zachovať pozíciu rolovania</string>
   <string name="keep_scroll_state_pref_summary">Uloží pozíciu rolovania v menu aplikácie</string>
   <string name="home_opens_drawer_pref_title">Tlačidlom Domov sa otvorí ponuka aplikácií</string>
   <string name="home_opens_drawer_pref_summary">Stlačením tlačidla Domov, keď je zobrazená domovská obrazovka sa otvorí ponuka nastavení aplikácie</string>
   <string name="show_hidden_pref_title">Zobraziť skryté aplikácie</string>
   <string name="show_hidden_pref_on">Ukázať skryté aplikácie, pre zmenu nastavenia viditeľnosti</string>
-  <string name="show_hidden_pref_off">Nebude zobrazené skryté aplikácie</string>
+  <string name="show_hidden_pref_off">Skryté aplikácie nebudú zobrazené</string>
   <string name="export_db_title">Databáza</string>
   <string name="import_db_title">Databáza</string>
   <string name="export_prefs_title">Nastavenia</string>
   <string name="import_prefs_title">Nastavenia</string>
-  <string name="notification_listener_label">Lawnchair - indikátor upozornení</string>
-  <string name="color_extraction_label">Lawnchair - extrakcia farby</string>
-  <string name="test_title">Skúška</string>
+  <string name="notification_listener_label">Lawnchair - Indikátor upozornení</string>
+  <string name="color_extraction_label">Lawnchair - Extrakcia farieb</string>
+  <string name="test_title">Test</string>
   <string name="visibility">Viditeľnosť</string>
-  <string name="default_text">Predvolená</string>
+  <string name="default_text">Predvolené</string>
   <string name="edit_icon_reset">Resetovať</string>
   <string name="show_top_shadow_title">Zobraziť horný tieň</string>
   <string name="pref_cat_homescreen">Domovská obrazovka</string>
@@ -342,7 +343,7 @@
   <string name="enable_screen_rotation">Povoliť otáčanie obrazovky</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Obnovenie</string>
-  <string name="backup_export_title">Zálohovať</string>
+  <string name="backup_export_title">Záloha</string>
   <string name="settings_export_success">Nastavenia boli úspešne zálohované</string>
   <string name="db_export_success">Databáza bola úspešne zálohovaná</string>
   <string name="settings_import_success">Nastavenia boli úspešne obnovené</string>
@@ -422,4 +423,6 @@
   <string name="snowfall_enabled">\"Nech sneží, nech sneží, nech sneží!\"</string>
   <string name="snowflake_size_scale">Veľkosť snehovej vločky</string>
   <string name="snowflakes_num">Maximálny počet snehových vločiek</string>
+  <string name="title_storage_permission_required">Požadované povolenie na úložisko</string>
+  <string name="content_storage_permission_required">Na Androide 8.1 a vyššom sa pre aplikáciu pri prístupe k tapete vyžaduje povolenie k úložisku. Bez udelenia povolenia Lawnchair môže spadnúť alebo vykazovať neočakávané správanie.</string>
 </resources>

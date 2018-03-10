@@ -249,12 +249,12 @@
   <string name="week_day_format">%1$s：%2$s</string>
   <string name="icon_pack_preference_title">圖示包</string>
   <string name="icon_pack_preference_summary">選擇一個圖示包</string>
-  <string name="hotseat_uses_extracted_colors_pref_title">Dock欄使用桌布的顏色</string>
+  <string name="hotseat_uses_extracted_colors_pref_title">Dock 欄使用桌布的顏色</string>
   <string name="hotseat_show_arrow">顯示箭頭</string>
   <string name="hotseat_show_page_indicator">顯示頁面的指標</string>
-  <string name="hotseat_uses_extracted_colors_pref_on">Dock欄將從壁紙中提取的顏色著色</string>
-  <string name="hotseat_uses_extracted_colors_pref_off">Dock欄使用灰色，但會根據桌布亮度自動調整</string>
-  <string name="transparent_hotseat_pref_title">透明的Dock欄</string>
+  <string name="hotseat_uses_extracted_colors_pref_on">Dock 欄將從壁紙中提取的顏色著色</string>
+  <string name="hotseat_uses_extracted_colors_pref_off">Dock 欄使用灰色，但會根據桌布亮度自動調整</string>
+  <string name="transparent_hotseat_pref_title">透明的 Dock 欄</string>
   <string name="dynamic_ui_pref_title">從桌布提取強調色</string>
   <string name="blur_pref_title">開啟模糊</string>
   <string name="blur_pref_summary">對介面的部分套用模糊效果\n不相容動態桌布</string>
@@ -270,8 +270,8 @@
   <string name="num_hotseat_icons_pref_title">Dock欄上的圖示數量</string>
   <string name="icon_scale_pref_title">圖示大小</string>
   <string name="hotseat_height_scale">高度範圍</string>
-  <string name="hotseat_custom_opacity">Dock欄的不透明度</string>
-  <string name="hotseat_uses_custom_opacity">Dock欄使用自定義的不透明度</string>
+  <string name="hotseat_custom_opacity">Dock 欄的不透明度</string>
+  <string name="hotseat_uses_custom_opacity">Dock 欄使用自定義的不透明度</string>
   <string name="icon_text_scale_pref_title">圖示字型大小</string>
   <string name="icon_text_padding_scale_pref_title">圖示填滿範圍</string>
   <string name="full_width_width_widgets_pref_title">全寬小工具</string>
@@ -279,18 +279,18 @@
   <string name="notification_access_pref_title">未讀計數和預覽</string>
   <string name="notification_access_pref_summary">允許 Lawnchair 存取您的通知權限以啟用此功能</string>
   <string name="general_pref_title">桌面</string>
-  <string name="dock_pref_title">Dock欄</string>
+  <string name="dock_pref_title">Dock 欄</string>
   <string name="app_drawer_pref_title">應用程式清單</string>
   <string name="pixel_ui_pref_title">主題</string>
   <string name="behavior_pref_title">功能</string>
   <string name="debug_pref_title">除錯模式</string>
   <string name="general_pref_summary">自訂您的桌面</string>
-  <string name="dock_pref_summary">自訂您的Dock欄</string>
+  <string name="dock_pref_summary">自訂您的 Dock 欄</string>
   <string name="app_drawer_pref_summary">自訂您的應用程式清單</string>
   <string name="pixel_ui_pref_summary">開啟 Pixel 啟動器特殊功能</string>
   <string name="backup_pref_title">備份與還原</string>
   <string name="behavior_pref_summary">改變 Lawnchair 的特性</string>
-  <string name="backup_pref_summary">備份 \/還原您的設定和資料庫</string>
+  <string name="backup_pref_summary">備份 \/ 還原您的設定和資料庫</string>
   <string name="debug_pref_summary">重新啟動或重建圖示資料庫</string>
   <string name="show_pixel_bar_pref_title">顯示 Pixel 頂列</string>
   <string name="use_wide_searchbar_pref_title">使用寬的搜尋列</string>
@@ -330,7 +330,7 @@
   <string name="theme_light">亮色主題</string>
   <string name="theme_dark">暗色主題</string>
   <string name="theme_black">黑色主題</string>
-  <string name="hide_hotseat_pref_title">隱藏Dock欄</string>
+  <string name="hide_hotseat_pref_title">隱藏 Dock 欄</string>
   <string name="all_icons">所有的圖示</string>
   <string name="pull_down_action_pref_title">下拉的行為</string>
   <string name="pull_down_do_nothing">無動作</string>
@@ -420,4 +420,6 @@
   <string name="snowfall_enabled">\"讓它下雪，讓它下雪，讓它下雪吧！\"</string>
   <string name="snowflake_size_scale">雪花的大小</string>
   <string name="snowflakes_num">最大數量的雪花</string>
+  <string name="title_storage_permission_required">需要儲存權限</string>
+  <string name="content_storage_permission_required">在 Android 8.1 及以上版本中，應用程式存取桌布需要存儲權限。 沒有上述權限許可，Lawnchair 可能會發生錯誤或顯示意外的行為。</string>
 </resources>

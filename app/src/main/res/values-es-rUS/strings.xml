@@ -421,4 +421,6 @@
   <string name="snowfall_enabled">\"Que nieve, que nieve, que nieve!\"</string>
   <string name="snowflake_size_scale">Escala de tamaño del copo de nieve</string>
   <string name="snowflakes_num">Número máximo de los copos de nieve</string>
+  <string name="title_storage_permission_required">Permiso de Almacenamiento requerido</string>
+  <string name="content_storage_permission_required">En 8.1 Android y superior el Permiso de Almacenamiento se requiere para que las aplicaciones puedan acceder a los fondos. Sin dicho permiso Lawnchair podría dejar de funcionar o mostrar comportamientos inesperados.</string>
 </resources>

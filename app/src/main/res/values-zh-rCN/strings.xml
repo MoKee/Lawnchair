@@ -420,4 +420,6 @@
   <string name="snowfall_enabled">“今天的风儿真喧嚣，不如来点儿雪花飘！”</string>
   <string name="snowflake_size_scale">雪花大小</string>
   <string name="snowflakes_num">最大雪花数</string>
+  <string name="title_storage_permission_required">需要存储权限</string>
+  <string name="content_storage_permission_required">在Android 8.1及以上版本中，应用访问壁纸需要存储权限。 没有上述权限许可，Lawnchair可能会崩溃或显示意外的行为。</string>
 </resources>
