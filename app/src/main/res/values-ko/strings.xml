@@ -246,6 +246,7 @@
   <string name="about_title">Lawnchair 정보</string>
   <string name="about_pref_summary">Lawnchair 팀 관련 정보</string>
   <string name="changelog_title">%d 빌드의 변경사항</string>
+  <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">아이콘 팩</string>
   <string name="icon_pack_preference_summary">아이콘 팩 선택</string>
   <string name="hotseat_uses_extracted_colors_pref_title">독에 배경화면 색을 적용합니다.</string>
@@ -269,6 +270,8 @@
   <string name="num_hotseat_icons_pref_title">독 아이콘 개수</string>
   <string name="icon_scale_pref_title">아이콘 크기</string>
   <string name="hotseat_height_scale">독 높이</string>
+  <string name="hotseat_custom_opacity">독 불투명도</string>
+  <string name="hotseat_uses_custom_opacity">사용자 지정 독 불투명도 설정</string>
   <string name="icon_text_scale_pref_title">아이콘 글자 크기</string>
   <string name="icon_text_padding_scale_pref_title">아이콘 패딩 크기</string>
   <string name="full_width_width_widgets_pref_title">위젯 너비 화면 폭에 꽉차게 하기</string>
@@ -398,6 +401,7 @@
   <string name="lock_desktop">바탕화면 잠금</string>
   <string name="lawnfeed_not_found">Lawnfeed가 설치 되지 않았습니다.</string>
   <string name="google_app_not_found">Google 앱이 설치 되지 않았습니다.</string>
+  <string name="lawnfeed_incompatible">호환되지 않는 Lawnfeed 버전이 설치되어있습니다.</string>
   <string name="set_default_launcher">기본 런처 설정</string>
   <string name="enable_spring_pref_title">스프링 효과 사용</string>
   <string name="hide_app">앱 숨기기</string>
@@ -410,4 +414,10 @@
   <string name="two_row_dock">두행 독 사용</string>
   <string name="reset_alternative_icons_title">대체 아이콘을 재설정 하겠습니까?</string>
   <string name="reset_alternative_icons">대체 아이콘으로 설정 된 %1$d개의 앱을 재 설정 하 시겠습니까?</string>
+  <string name="snowfall_title">눈 내리기</string>
+  <string name="enable_snowfall_title">홈화면에서 눈 내리기 효과 활성화</string>
+  <string name="enable_snowfall_summary">성능이 저하되는 문제가 발생할 수 있습니다.</string>
+  <string name="snowfall_enabled">\"눈아 내려라, 눈아 내려, 눈아 내려!\"</string>
+  <string name="snowflake_size_scale">눈송이 크기</string>
+  <string name="snowflakes_num">최대 눈송이 수</string>
 </resources>

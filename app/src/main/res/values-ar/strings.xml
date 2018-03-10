@@ -249,6 +249,7 @@
   <string name="widgets_bottom_sheet_title">الأدوات %1$s</string>
   <!-- About Lawnchair -->
   <string name="about_title">حول</string>
+  <string name="about_pref_summary">تعرف عن فريق lawnchair</string>
   <string name="changelog_title">تغييرات البنية #%d</string>
   <string name="week_day_format">%1$s، %2$s</string>
   <string name="icon_pack_preference_title">حزم الإيقونات</string>
@@ -274,6 +275,8 @@
   <string name="num_hotseat_icons_pref_title">عدد الايقونات في منصة التطبيقات</string>
   <string name="icon_scale_pref_title">حجم الأيقونة</string>
   <string name="hotseat_height_scale">مقياس الارتفاع</string>
+  <string name="hotseat_custom_opacity">تعتيم الإرساء</string>
+  <string name="hotseat_uses_custom_opacity">تمكين تعتيم مخصص للإرساء</string>
   <string name="icon_text_scale_pref_title">حجم نص الأيقونة</string>
   <string name="icon_text_padding_scale_pref_title">رمز حجم الحشو</string>
   <string name="full_width_width_widgets_pref_title">أدوات بالعرض الكامل</string>
@@ -281,10 +284,14 @@
   <string name="notification_access_pref_title">علامات الإشعارات و معاينتها</string>
   <string name="notification_access_pref_summary">السماح ل Lawnchair بالوصول إلى الإشعارات الخاصة بك لتفعيل هذه الميزات</string>
   <string name="general_pref_title">عام</string>
+  <string name="dock_pref_title">الإرساء</string>
+  <string name="app_drawer_pref_title">درج التطبيقات</string>
   <string name="pixel_ui_pref_title">واجهة مستخدم بكسل</string>
   <string name="behavior_pref_title">الشكل العام</string>
   <string name="debug_pref_title">التصحيح</string>
   <string name="general_pref_summary">الشاشة الرئيسية، الشاشة السفلية، ودرج التطبيقات</string>
+  <string name="dock_pref_summary">تخصيص الإرساء الخاص بك</string>
+  <string name="app_drawer_pref_summary">تخصيص درج التطبيقات الخاص بك</string>
   <string name="pixel_ui_pref_summary">تفعيل ميزات واجهة بكسل الخاصة</string>
   <string name="backup_pref_title">نسخ احتياطي</string>
   <string name="behavior_pref_summary">تغيير سلوك Lawnchair</string>
@@ -339,6 +346,12 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">استيراد</string>
   <string name="backup_export_title">استخراج</string>
+  <string name="settings_export_success">تم النسخ الاحتياطي للإعدادات بنجاح</string>
+  <string name="db_export_success">تم النسخ الإحتياطي لقاعدة البيانات بنجاح</string>
+  <string name="settings_import_success">تمت استعادة الإعدادات بنجاح</string>
+  <string name="db_import_success">تمت استعادة قاعدة البيانات بنجاح</string>
+  <string name="export_error">لا يمكن النسخ الاحتياطي</string>
+  <string name="import_error">تعذر الإستعادة</string>
   <string name="imexport_no_backup_found">لم يتم العثور على نسخة احتياطية</string>
   <string name="imexport_external_storage_unreadable">التخزين الخارجي غير قابل للقراءة (امنح الإذن في الإعدادات)</string>
   <string name="imexport_external_storage_unwritable">التخزين الخارجي غير قابل للكتابة (امنح الإذن في الإعدادات)</string>
@@ -389,10 +402,27 @@
   <string name="vertical_drawer_layout_pref_title">عرض كقائمة عمودية</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
   <string name="lock_desktop">قفل سطح المكتب</string>
   <string name="lawnfeed_not_found">لاونفيد غير مثبت</string>
   <string name="google_app_not_found">تطبيق غوغل غير مثبت</string>
+  <string name="lawnfeed_incompatible">إصدار Lawnfeed المثبّت غير متوافق</string>
   <string name="set_default_launcher">تعيين كمتصفح البرامج الإفتراضي</string>
+  <string name="enable_spring_pref_title">تمكين تأثير الربيع</string>
+  <string name="hide_app">إخفاء التطبيق</string>
+  <string name="hide_app_sum">إخفاء التطبيق من درج التطبيق</string>
+  <string name="hide_app_selected">&#160;selected</string>
+  <string name="hidden_app">التطبيقات المخفية</string>
   <string name="hide_app_apply">تطبيق</string>
+  <string name="unauthorized_device">هذا الجهاز يحتوي على برامج للقرصنة. من فضلك قم بإزالتهم لتستطيع الإستمرار.</string>
   <string name="hide_app_reset">إعادة تعيين</string>
+  <string name="two_row_dock">إرساء ذو صفين</string>
+  <string name="reset_alternative_icons_title">إعادة تعيين أيقونات التطبيقات البديلة؟</string>
+  <string name="reset_alternative_icons">لديك %1$d برموز بديلة, هل تريد إعادة تعيينها؟</string>
+  <string name="snowfall_title">تساقط الثلوج</string>
+  <string name="enable_snowfall_title">تمكين تساقط الثلوج على الشاشة الرئيسية</string>
+  <string name="enable_snowfall_summary">قد يسبب مشاكل في الأداء.</string>
+  <string name="snowfall_enabled">\"; فليتساقط الثلج, فليتساقط الثلج, فليتساقط الثلج!\"</string>
+  <string name="snowflake_size_scale">مقياس حجم حبة الثلج</string>
+  <string name="snowflakes_num">أقصى عدد لحبيبات الثلج</string>
 </resources>
