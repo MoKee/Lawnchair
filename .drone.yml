@@ -1,7 +1,9 @@
 pipeline:
   changelog:
-    image: lawnchairlauncher/drone-changelog:latest
+    image: lawnchairlauncher/drone-changelog:dev
     output: changelog.txt
+    volumes:
+      - /opt/drone/cache:/cache
     when:
       event: push
   build:
@@ -15,7 +17,7 @@ pipeline:
     commands:
       - bash ./gradlew assembleDebug
   deploy:
-    image: lawnchairlauncher/drone-telegram:latest
+    image: lawnchairlauncher/drone-telegram:dev
     secrets: [ bot_token, channel_id ]
     apk_path: app/build/outputs/apk/debug/app-debug.apk
     mapping_path: app/build/outputs/mapping/debug/mapping.txt
