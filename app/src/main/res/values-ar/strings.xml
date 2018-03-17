@@ -399,6 +399,7 @@
   <string name="pref_all_apps_label_color">لون التسميات في قائمة التطبيقات</string>
   <string name="pref_num_rows_drawer">عدد صفوف قائمة التطبيقات</string>
   <string name="center_wallpaper_pref_title">محاذاة الخلفيات في المركز عندما تكون هناك صفحة واحدة فقط</string>
+  <string name="center_wallpaper_pref_summary">يعمل فقط إذا الشاشة الرئيسية تستخدم صفحة واحدة</string>
   <string name="vertical_drawer_layout_pref_title">عرض كقائمة عمودية</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->

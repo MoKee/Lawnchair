@@ -213,6 +213,12 @@
   <!-- Shown when wallpapers are selected in Wallpaper picker -->
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_items_selected">
+    <item quantity="one">Выбрана: %1$d</item>
+    <item quantity="few">Выбрана: %1$d</item>
+    <item quantity="many">Выбрана: %1$d</item>
+    <item quantity="other">Выбрана: %1$d</item>
+  </plurals>
   <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
   <string name="wallpaper_accessibility_name">Выява %1$d з %2$d</string>
@@ -391,6 +397,7 @@
   <string name="pref_all_apps_label_color">Колер подпісу значкоў у меню праграм</string>
   <string name="pref_num_rows_drawer">Колькасць радкоў у меню праграм</string>
   <string name="center_wallpaper_pref_title">Цэнтраваць шпалеры, калі маецца толькі адзін экран</string>
+  <string name="center_wallpaper_pref_summary">Працуе, калі на працоўным стале выкарыстоўваецца толькі адна старонка</string>
   <string name="vertical_drawer_layout_pref_title">Адлюстроўваць у выглядзе вертыкальнага спісу</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
@@ -417,4 +424,6 @@
   <string name="snowfall_enabled">\"Let it snow, let it snow, let it snow!\"</string>
   <string name="snowflake_size_scale">Памер сняжынак</string>
   <string name="snowflakes_num">Максімальную колькасць сняжынак</string>
+  <string name="title_storage_permission_required">Патрэбны дазвол на доступ да памяці прылады</string>
+  <string name="content_storage_permission_required">На Android 8.1 і вышэй для доступу да шпалер патрабуецца дазвол на захоўванне. Без гэтага дазволу Lawnchair можа зваліцца або паказаць нечаканае паводзіны.</string>
 </resources>

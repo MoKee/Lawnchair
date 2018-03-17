@@ -396,7 +396,8 @@
   <string name="pref_all_apps_custom_label_color">Použít vlastní barvu</string>
   <string name="pref_all_apps_label_color">Barva popisků ikon v seznamu aplikací</string>
   <string name="pref_num_rows_drawer">Počet řádků v seznamu aplikací</string>
-  <string name="center_wallpaper_pref_title">Tapeta na střed, je-li pouze jedna strana</string>
+  <string name="center_wallpaper_pref_title">Tapeta na střed</string>
+  <string name="center_wallpaper_pref_summary">Funguje pouze v případě, když domovská obrazovka používá jen jednu stránku</string>
   <string name="vertical_drawer_layout_pref_title">Zobrazit jako svislý seznam</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
@@ -407,7 +408,7 @@
   <string name="lawnfeed_incompatible">Nainstalována nekompatibilní verze Lawnfeed</string>
   <string name="set_default_launcher">Nastavit výchozí spouštěč</string>
   <string name="enable_spring_pref_title">Povolit efekt pružiny</string>
-  <string name="hide_app">Skrýt aplikaci</string>
+  <string name="hide_app">Skryté aplikace</string>
   <string name="hide_app_sum">Skrýt aplikaci v seznamu aplikací</string>
   <string name="hide_app_selected">&#160;vybráno</string>
   <string name="hidden_app">Skrytá aplikace</string>

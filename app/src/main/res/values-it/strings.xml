@@ -395,6 +395,7 @@
   <string name="pref_all_apps_label_color">Colore delle icone nel menù delle applicazioni</string>
   <string name="pref_num_rows_drawer">Numero di righe nel menù delle applicazioni</string>
   <string name="center_wallpaper_pref_title">Centra lo sfondo quando c\'è solo una pagina</string>
+  <string name="center_wallpaper_pref_summary">Funziona solo se la schermata principale usa una pagina</string>
   <string name="vertical_drawer_layout_pref_title">Visualizza come lista verticale</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->

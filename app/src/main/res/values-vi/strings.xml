@@ -394,6 +394,7 @@
   <string name="pref_all_apps_label_color">Màu của nhãn biểu tượng trong ngăn chứa ứng dụng</string>
   <string name="pref_num_rows_drawer">Số hàng trong ngăn chứa ứng dụng</string>
   <string name="center_wallpaper_pref_title">Căn chính giữa hình nền khi chỉ có một trang</string>
+  <string name="center_wallpaper_pref_summary">Chỉ hoạt động nếu màn hình chính sử dụng một trang</string>
   <string name="vertical_drawer_layout_pref_title">Hiển thị dạng danh sách dọc</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->

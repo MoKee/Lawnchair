@@ -397,6 +397,7 @@
   <string name="pref_all_apps_label_color">Цвет подписи значков в меню приложений</string>
   <string name="pref_num_rows_drawer">Количество строк в меню приложений</string>
   <string name="center_wallpaper_pref_title">Центрировать обои, если имеется только один экран</string>
+  <string name="center_wallpaper_pref_summary">Работает, если на рабочем столе используется только одна страница</string>
   <string name="vertical_drawer_layout_pref_title">Отображать в виде вертикального списка</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
@@ -407,7 +408,7 @@
   <string name="lawnfeed_incompatible">Установлена несовместимая версия Lawnfeed</string>
   <string name="set_default_launcher">Установить лаунчер по умолчанию</string>
   <string name="enable_spring_pref_title">Включить эффект пружины</string>
-  <string name="hide_app">Скрыть приложение</string>
+  <string name="hide_app">Скрытые приложения</string>
   <string name="hide_app_sum">Выбрать приложения, которые не будут отображаться в меню приложений</string>
   <string name="hide_app_selected">&#160;выбрано</string>
   <string name="hidden_app">Скрыть приложение</string>

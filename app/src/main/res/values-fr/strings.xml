@@ -395,6 +395,7 @@
   <string name="pref_all_apps_label_color">Couleur des libellés des icônes dans le tiroir des applications</string>
   <string name="pref_num_rows_drawer">Nombre de lignes dans le tiroir des applications</string>
   <string name="center_wallpaper_pref_title">Centrer le fond d\'écran quand il n\'y a qu\'une page</string>
+  <string name="center_wallpaper_pref_summary">Ne fonctionne que si l’écran d’accueil n\'utilise qu\'une seule page</string>
   <string name="vertical_drawer_layout_pref_title">Affichage en liste verticale</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
@@ -422,4 +423,5 @@
   <string name="snowflake_size_scale">Taille des flocons</string>
   <string name="snowflakes_num">Nombre de flocons maximum</string>
   <string name="title_storage_permission_required">Autorisation de stockage requise</string>
+  <string name="content_storage_permission_required">À partir d\'Android 8.1, l\'autorisation d’accéder au stockage est requise pour les applis voulant accéder aux fonds d\'écran. Sans cette autorisation, Lawnchair pourrait planter ou montrer des comportements inattendus.</string>
 </resources>

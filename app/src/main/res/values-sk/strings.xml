@@ -295,7 +295,7 @@
   <string name="behavior_pref_summary">Zmeniť správanie Lawnchair</string>
   <string name="backup_pref_summary">Zálohovať\/Obnoviť vaše nastavenia a databázu</string>
   <string name="debug_pref_summary">Reštartovať nebo znovu vytvoriť ikonu databázy</string>
-  <string name="show_pixel_bar_pref_title">Zobraziť zaokrúhlený horný panel (Pixel)</string>
+  <string name="show_pixel_bar_pref_title">Zobraziť zaokrúhlený vyhľadávací panel Pixel</string>
   <string name="use_wide_searchbar_pref_title">Použiť široký vyhľadávací panel</string>
   <string name="show_mic_pref_title">Zobraziť tlačidlo Google asistenta</string>
   <string name="use_round_searhbar">Použiť zaokrúhlenú vyhľadávaciu lištu aplikácií</string>
@@ -396,7 +396,8 @@
   <string name="pref_all_apps_custom_label_color">Vybrať vlastné farby menoviek</string>
   <string name="pref_all_apps_label_color">Farba menoviek ikon v ponuke</string>
   <string name="pref_num_rows_drawer">Počet riadkov v zobrazení ponuky</string>
-  <string name="center_wallpaper_pref_title">Tapeta na stred, ak je iba jedna strana</string>
+  <string name="center_wallpaper_pref_title">Tapeta na stred</string>
+  <string name="center_wallpaper_pref_summary">Funguje len vtedy, ak domovská obrazovka používa iba jednu stranu</string>
   <string name="vertical_drawer_layout_pref_title">Zobraziť ako zvislý zoznam</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
@@ -407,7 +408,7 @@
   <string name="lawnfeed_incompatible">Nainštalovaná nekompatibilná verzia Lawnfeed</string>
   <string name="set_default_launcher">Nastavenie predvoleného spúšťača</string>
   <string name="enable_spring_pref_title">Povoliť efekt pružiny</string>
-  <string name="hide_app">Skryť aplikáciu</string>
+  <string name="hide_app">Skryté aplikácie</string>
   <string name="hide_app_sum">Skryť aplikácie zo zoznamu aplikácií</string>
   <string name="hide_app_selected">&#160;vybrané</string>
   <string name="hidden_app">Skrytá aplikácia</string>
