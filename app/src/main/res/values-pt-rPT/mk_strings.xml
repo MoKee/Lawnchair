@@ -17,4 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
+  <string name="about_text_mk">Lawnchair é uma aplicação da tela inicial criada por Till Kottmann (aka deletescape), modificada por MoKee ROM. É baseado no Launcher3 da AOSP.</string>
+  <string name="about_localization_title">Localização</string>
+  <string name="about_localization_summary">Traduzir o Launcher Lawnchair</string>
 </resources>

@@ -423,4 +423,6 @@
   <string name="snowfall_enabled">\"Nech sneží, nech sneží, nech sneží!\"</string>
   <string name="snowflake_size_scale">Veľkosť snehovej vločky</string>
   <string name="snowflakes_num">Maximálny počet snehových vločiek</string>
+  <string name="title_storage_permission_required">Požadované povolenie na úložisko</string>
+  <string name="content_storage_permission_required">Na Androide 8.1 a vyššom sa pre aplikáciu pri prístupe k tapete vyžaduje povolenie k úložisku. Bez udelenia povolenia Lawnchair môže spadnúť alebo vykazovať neočakávané správanie.</string>
 </resources>

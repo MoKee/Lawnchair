@@ -423,4 +423,6 @@
   <string name="snowfall_enabled">\"Ať sněží, ať sněží, ať sněží!\"</string>
   <string name="snowflake_size_scale">Velikost sněhové vločky</string>
   <string name="snowflakes_num">Maximální počet sněhových vloček</string>
+  <string name="title_storage_permission_required">Vyžadováno oprávnění k úložišti</string>
+  <string name="content_storage_permission_required">V zařízeních s Android 8.1 a vyšším je pro přístup k tapetám vyžadováno oprávnění k úložišti. Bez zmíněného oprávnění se může stát, že aplikace Lawnchair selže nebo bude mít neočekávané chování.</string>
 </resources>

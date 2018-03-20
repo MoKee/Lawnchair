@@ -274,6 +274,8 @@
   <string name="num_hotseat_icons_pref_title">Nombre d\'icônes dans le dock</string>
   <string name="icon_scale_pref_title">Taille des icônes</string>
   <string name="hotseat_height_scale">Échelle de hauteur</string>
+  <string name="hotseat_custom_opacity">Opacité du dock</string>
+  <string name="hotseat_uses_custom_opacity">Personnaliser l\'opacité du dock</string>
   <string name="icon_text_scale_pref_title">Taille de la police des libellés des icônes</string>
   <string name="icon_text_padding_scale_pref_title">Échelle de remplissage des icônes</string>
   <string name="full_width_width_widgets_pref_title">Widgets de pleine largeur</string>
@@ -422,4 +424,6 @@
   <string name="snowfall_enabled">« C’est l’hiver, c’est l’hiver, c’est l’hiver! »</string>
   <string name="snowflake_size_scale">Échelle de taille des flocons</string>
   <string name="snowflakes_num">Nombre maximum de flocons</string>
+  <string name="title_storage_permission_required">Autorisation de stockage requise</string>
+  <string name="content_storage_permission_required">À partir d\'Android 8.1, l\'autorisation d’accéder au stockage est requise pour les applis voulant accéder aux fonds d\'écran. Sans cette autorisation, Lawnchair pourrait planter ou montrer des comportements inattendus.</string>
 </resources>

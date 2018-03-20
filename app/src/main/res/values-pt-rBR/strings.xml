@@ -426,4 +426,6 @@
   <string name="snowfall_enabled">\"Deixe nevar, deixe nevar, deixe nevar!\"</string>
   <string name="snowflake_size_scale">Escala de tamanho do floco de neve</string>
   <string name="snowflakes_num">Número máximo de flocos de neve</string>
+  <string name="title_storage_permission_required">Permissão de armazenamento recusada</string>
+  <string name="content_storage_permission_required">No Android 8.1 e acima, a permissão de armazenamento é necessária para que os aplicativos acessem o papel de parede. Sem a permissão indicada, a Lawchair pode falhar ou mostrar comportamentos inesperados.</string>
 </resources>

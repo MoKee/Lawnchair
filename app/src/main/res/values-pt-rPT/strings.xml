@@ -115,6 +115,7 @@
   <string name="folder_name_format">Pasta: <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
+  <string name="widget_button_text">Widgets</string>
   <!-- Text for wallpaper change button -->
   <string name="wallpaper_button_text">Imagens de fundo</string>
   <!-- Text for settings button -->
@@ -241,8 +242,10 @@
   <string name="label_voice_search">Pesquisar por voz</string>
   <string name="shortcuts_menu_with_notifications_description">%1$d atalhos e %2$d notificações para %3$s</string>
   <string name="notifications_header">Notificações</string>
+  <string name="widgets_bottom_sheet_title">%1$s widgets</string>
   <!-- About Lawnchair -->
   <string name="about_title">Sobre</string>
+  <string name="about_pref_summary">Conheça sobre a equipe de Lawnchair</string>
   <string name="changelog_title">Changelog da build #%d</string>
   <string name="week_day_format">%1$s,%2$s</string>
   <string name="icon_pack_preference_title">Pacote de ícones</string>
@@ -268,6 +271,8 @@
   <string name="num_hotseat_icons_pref_title">Número de ícones da dock</string>
   <string name="icon_scale_pref_title">Escala dos ícones</string>
   <string name="hotseat_height_scale">Escala de altura</string>
+  <string name="hotseat_custom_opacity">Opacidade da dock</string>
+  <string name="hotseat_uses_custom_opacity">Ativar a personalização da opacidade da dock</string>
   <string name="icon_text_scale_pref_title">Tamanho do rótulo do ícone</string>
   <string name="icon_text_padding_scale_pref_title">Escala de enchimento de ícone</string>
   <string name="full_width_width_widgets_pref_title">Widget grandes</string>
@@ -275,10 +280,14 @@
   <string name="notification_access_pref_title">Crachás de notificação e pré-visualização</string>
   <string name="notification_access_pref_summary">Allow Lawnchair to access your notification to enable this features</string>
   <string name="general_pref_title">Geral</string>
+  <string name="dock_pref_title">Ancorar</string>
+  <string name="app_drawer_pref_title">Gaveta de aplicações</string>
   <string name="pixel_ui_pref_title">Pixel UI</string>
   <string name="behavior_pref_title">Comportamento</string>
   <string name="debug_pref_title">Depuração</string>
   <string name="general_pref_summary">Ambiente de Trabalho, Doca &amp; Aplicações</string>
+  <string name="dock_pref_summary">Personalize sua doca</string>
+  <string name="app_drawer_pref_summary">Personalize a sua gaveta de aplicações</string>
   <string name="pixel_ui_pref_summary">Ativar recursos exclusivos do Pixel Launcher</string>
   <string name="backup_pref_title">Cópia de Segurança</string>
   <string name="behavior_pref_summary">Alterar comportamento do Lawnchair</string>
@@ -333,10 +342,17 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Importar</string>
   <string name="backup_export_title">Exportar</string>
+  <string name="settings_export_success">Backup de configurações com êxito</string>
+  <string name="db_export_success">Banco de dados de backup com êxito</string>
+  <string name="settings_import_success">Definições restauradas com sucesso</string>
+  <string name="db_import_success">Banco de dados restaurado com êxito</string>
+  <string name="export_error">Não foi possivel realizar o backup</string>
+  <string name="import_error">Não é possível restaurar</string>
   <string name="imexport_no_backup_found">Nenhum backup encontrado</string>
   <string name="imexport_external_storage_unreadable">Armazenamento Interno não pode ser lido (conceder permissões nas definições)</string>
   <string name="imexport_external_storage_unwritable">Armazenamento Interno não pode ser escrito (conceder permissões nas definições)</string>
   <string name="units_metric">Métrico</string>
+  <string name="units_imperial">Imperial</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Tempo</string>
   <string name="pref_weather_title">Ativar Tempo</string>
@@ -382,10 +398,29 @@
   <string name="vertical_drawer_layout_pref_title">Exibir como lista vertical</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
   <string name="lock_desktop">Bloquear ambiente de trabalho</string>
   <string name="lawnfeed_not_found">Lawnfeed não instalado</string>
   <string name="google_app_not_found">Aplicação \"Google\" não instalada</string>
+  <string name="lawnfeed_incompatible">Versão incompatível do Lawnfeed instalado</string>
   <string name="set_default_launcher">Predefinir launcher</string>
+  <string name="enable_spring_pref_title">Habilitar o efeito mola</string>
+  <string name="hide_app">Esconder aplicação</string>
+  <string name="hide_app_sum">Ocultar aplicações da gaveta de aplicações</string>
+  <string name="hide_app_selected">&#160;selecionada</string>
+  <string name="hidden_app">Aplicações ocultadas</string>
   <string name="hide_app_apply">Aplicar</string>
+  <string name="unauthorized_device">Este dispositivo possui algumas ferramentas de pirataria instaladas. Por favor, desinstale-os a continuar.</string>
   <string name="hide_app_reset">Repor</string>
+  <string name="two_row_dock">Doca com duas linhas</string>
+  <string name="reset_alternative_icons_title">Redefinir os ícones do app alternativo?</string>
+  <string name="reset_alternative_icons">Você tem %1$d apps com ícones alternativos, quer para repô-los?</string>
+  <string name="snowfall_title">Neve</string>
+  <string name="enable_snowfall_title">Permitir a queda de neve na tela inicial</string>
+  <string name="enable_snowfall_summary">Pode causar problemas de desempenho.</string>
+  <string name="snowfall_enabled">\"Deixe nevar, deixe nevar, deixe nevar!\"</string>
+  <string name="snowflake_size_scale">Escala de tamanho do floco de neve</string>
+  <string name="snowflakes_num">Número máximo de flocos de neve</string>
+  <string name="title_storage_permission_required">Autorização de armazenamento necessária</string>
+  <string name="content_storage_permission_required">No Android 8.1 e acima é necessário dar permissão às aplicações para acederem ao papel de parede. Sem essa permissão o Lawnchair pode fechar ou mostrar comportamentos inesperados.</string>
 </resources>

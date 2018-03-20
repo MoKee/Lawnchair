@@ -425,4 +425,6 @@
   <string name="snowfall_enabled">\"; فليتساقط الثلج, فليتساقط الثلج, فليتساقط الثلج!\"</string>
   <string name="snowflake_size_scale">مقياس حجم حبة الثلج</string>
   <string name="snowflakes_num">أقصى عدد لحبيبات الثلج</string>
+  <string name="title_storage_permission_required">الإذن مطلوب للتخزين</string>
+  <string name="content_storage_permission_required">على اندرويد 8.1 وما فوق إذن التخزين مطلوب للتطبيقات للوصول إلى ورق الجدران. دون إذن قد تظهر سلوكيات غير متوقعة.</string>
 </resources>

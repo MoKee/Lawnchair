@@ -417,4 +417,6 @@
   <string name="snowfall_enabled">\"Let it snow, let it snow, let it snow!\"</string>
   <string name="snowflake_size_scale">Памер сняжынак</string>
   <string name="snowflakes_num">Максімальную колькасць сняжынак</string>
+  <string name="title_storage_permission_required">Патрэбны дазвол на доступ да памяці прылады</string>
+  <string name="content_storage_permission_required">На Android 8.1 і вышэй для доступу да шпалер патрабуецца дазвол на захоўванне. Без гэтага дазволу Lawnchair можа зваліцца або паказаць нечаканае паводзіны.</string>
 </resources>

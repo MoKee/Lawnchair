@@ -420,4 +420,6 @@
   <string name="snowfall_enabled">\"讓它下雪，讓它下雪，讓它下雪吧！\"</string>
   <string name="snowflake_size_scale">雪花的大小</string>
   <string name="snowflakes_num">最大數量的雪花</string>
+  <string name="title_storage_permission_required">需要儲存權限</string>
+  <string name="content_storage_permission_required">在 Android 8.1 及以上版本中，應用程式存取桌布需要存儲權限。 沒有上述權限許可，Lawnchair 可能會發生錯誤或顯示意外的行為。</string>
 </resources>
