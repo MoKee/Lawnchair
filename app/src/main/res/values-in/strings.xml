@@ -398,6 +398,7 @@
   <string name="pref_all_apps_label_color">Warna label ikon di laci</string>
   <string name="pref_num_rows_drawer">Jumlah baris pada laci</string>
   <string name="center_wallpaper_pref_title">Pusatkan wallpaper ketika hanya ada satu halaman</string>
+  <string name="center_wallpaper_pref_summary">Hanya bekerja jika tampilan depan menggunakan satu halaman</string>
   <string name="vertical_drawer_layout_pref_title">Tampilkan sebagai daftar vertikal</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->

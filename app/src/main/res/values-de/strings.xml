@@ -271,6 +271,8 @@
   <string name="num_hotseat_icons_pref_title">Anzahl der Icons im Dock</string>
   <string name="icon_scale_pref_title">Icon-Größe</string>
   <string name="hotseat_height_scale">Höhen-Skalierung</string>
+  <string name="hotseat_custom_opacity">Dock Transparenz</string>
+  <string name="hotseat_uses_custom_opacity">Aktiviere Benutzerdefinierte Dock Transparenz</string>
   <string name="icon_text_scale_pref_title">Größe Icon-Text</string>
   <string name="icon_text_padding_scale_pref_title">Skalierung des Padding für Icons</string>
   <string name="full_width_width_widgets_pref_title">Widgets mit voller Breite</string>
@@ -393,6 +395,7 @@
   <string name="pref_all_apps_label_color">Farbe der Icon-Labels in der App-Liste</string>
   <string name="pref_num_rows_drawer">Anzahl der Reihen in der App-Übersicht</string>
   <string name="center_wallpaper_pref_title">Hintergrund zentrieren, wenn nur eine Seite vorhanden ist</string>
+  <string name="center_wallpaper_pref_summary">Funktioniert nur wenn der Startbildschirm eine Seite hat</string>
   <string name="vertical_drawer_layout_pref_title">Als vertikale Liste darstellen</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
@@ -419,4 +422,6 @@
   <string name="snowfall_enabled">\"Lass es schneien, lass es schneien, lass es schneien!\"</string>
   <string name="snowflake_size_scale">Schneeflocken Größe</string>
   <string name="snowflakes_num">Maximale Anzahl an Schneeflocken</string>
+  <string name="title_storage_permission_required">Speicherzugriff erforderlich</string>
+  <string name="content_storage_permission_required">Auf Android 8.1 und neuer ist Speicherzugriff benötigt für Apps um auf das Hintergrundbild zuzugreifen. Ohne diese Berechtigung kann es sein das Lawnchair abstürzt oder sich unerwartet verhaltet.</string>
 </resources>

@@ -397,6 +397,7 @@
   <string name="pref_all_apps_label_color">Kolor etykiet ikon w szufladzie</string>
   <string name="pref_num_rows_drawer">Liczba wierszy w szufladzie</string>
   <string name="center_wallpaper_pref_title">Wyśrodkowana tapeta gdy jest tylko jedna strona</string>
+  <string name="center_wallpaper_pref_summary">Działa tylko, jeśli ekran główny korzysta z jednej strony</string>
   <string name="vertical_drawer_layout_pref_title">Wyświetl jako pionową listę</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
