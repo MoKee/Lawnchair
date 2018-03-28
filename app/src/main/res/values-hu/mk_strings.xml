@@ -17,4 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About Lawnchair -->
+  <string name="about_text_mk">A Lawnchair egy indító-alkalmazás, melyet Till Kottmann (aka deletescape) készített. Az AOSP Launcher3 alkalmazás adja az alapját.</string>
+  <string name="about_localization_title">Helymeghatározás</string>
+  <string name="about_localization_summary">Lawnchair Launcher fordítása</string>
 </resources>

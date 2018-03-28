@@ -419,4 +419,6 @@
   <string name="snowfall_enabled">\"Het wordt een witte kerst!\"</string>
   <string name="snowflake_size_scale">Sneeuwvlokgrootte aanpassen</string>
   <string name="snowflakes_num">Hoogste aantal sneeuwvlokken</string>
+  <string name="title_storage_permission_required">Opslag Toestemming Vereist</string>
+  <string name="content_storage_permission_required">Op Android 8.1 en hoger is de opslag toestemming vereist voor apps om toegang te krijgen tot de achtergrond. Zonder de genoemde toestemming zou Lawnchair vast kunnen lopen of onverwachte gedragingen vertonen.</string>
 </resources>

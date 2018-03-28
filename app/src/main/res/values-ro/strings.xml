@@ -422,4 +422,6 @@
   <string name="snowfall_enabled">\"Să ningă, să ningă, să ningă!\"</string>
   <string name="snowflake_size_scale">Dimensiunea fulgilor de zăpadă</string>
   <string name="snowflakes_num">Numărul maxim al fulgilor de zăpadă</string>
+  <string name="title_storage_permission_required">Permisiune stocare necesară</string>
+  <string name="content_storage_permission_required">În Android 8.1 şi versiuni superioare este necesară permisiunea de stocare pentru aplicații pentru a accesa imaginea de fundal. Fără permisiunea menționată Lawnchair ar putea crăpa sau prezenta comportamente neaşteptate.</string>
 </resources>
