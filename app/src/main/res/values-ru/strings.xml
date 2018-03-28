@@ -69,15 +69,15 @@
   <string name="app_info_drop_target_label">О приложении</string>
   <!-- Permissions: -->
   <!-- Permission short label -->
-  <string name="permlab_install_shortcut">Создание ярлыков</string>
+  <string name="permlab_install_shortcut">создание ярлыков</string>
   <!-- Permission description -->
   <string name="permdesc_install_shortcut">Приложение сможет самостоятельно добавлять ярлыки.</string>
   <!-- Permission short label -->
-  <string name="permlab_read_settings">Доступ к настройкам и ярлыкам главного экрана</string>
+  <string name="permlab_read_settings">доступ к настройкам и ярлыкам главного экрана</string>
   <!-- Permission description -->
   <string name="permdesc_read_settings">Разрешить приложению читать настройки и ярлыки на главном экране.</string>
   <!-- Permission short label -->
-  <string name="permlab_write_settings">Изменение настроек и ярлыков главного экрана</string>
+  <string name="permlab_write_settings">изменение настроек и ярлыков главного экрана</string>
   <!-- Permission description -->
   <string name="permdesc_write_settings">Разрешить приложению изменять настройки и ярлыки на главном экране.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->

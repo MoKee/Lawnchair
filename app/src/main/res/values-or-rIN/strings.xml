@@ -117,6 +117,7 @@
   <!-- Accessibility confirmation for widget resize. -->
   <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
+  <string name="edit_drop_target_label">ସମ୍ପାଦନ</string>
   <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
   <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->

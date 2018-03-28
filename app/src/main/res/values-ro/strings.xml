@@ -396,6 +396,7 @@
   <string name="pref_all_apps_label_color">Culoarea etichetelor pictogramelor în sertarul de aplicații</string>
   <string name="pref_num_rows_drawer">Numărul de rânduri în sertarul de aplicații</string>
   <string name="center_wallpaper_pref_title">Centrează fundalul când este o singură pagină</string>
+  <string name="center_wallpaper_pref_summary">Funcţionează numai dacă homescreen utilizează o singură pagină</string>
   <string name="vertical_drawer_layout_pref_title">Afişare ca listă verticală</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
@@ -422,4 +423,6 @@
   <string name="snowfall_enabled">\"Să ningă, să ningă, să ningă!\"</string>
   <string name="snowflake_size_scale">Dimensiunea fulgilor de zăpadă</string>
   <string name="snowflakes_num">Numărul maxim al fulgilor de zăpadă</string>
+  <string name="title_storage_permission_required">Permisiune stocare necesară</string>
+  <string name="content_storage_permission_required">În Android 8.1 şi versiuni superioare este necesară permisiunea de stocare pentru aplicații pentru a accesa imaginea de fundal. Fără permisiunea menționată Lawnchair ar putea crăpa sau prezenta comportamente neaşteptate.</string>
 </resources>
