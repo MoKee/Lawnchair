@@ -246,7 +246,6 @@ Waitin\' t\' install</string>
   <string name="notifications_header">Ravens</string>
   <string name="widgets_bottom_sheet_title">%1$s flags</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair is madet by th\' captain deletescape. Stolen from AOSPirates.</string>
   <string name="about_title">\'Bout</string>
   <string name="about_pref_summary">Explore \'bout th\' crew</string>
   <string name="changelog_title">Log o\' changes for build #%d</string>
@@ -402,7 +401,6 @@ Waitin\' t\' install</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
-  <string name="about_translators">Th\' fellow mateys</string>
   <string name="lock_desktop">Drop the anchor</string>
   <string name="lawnfeed_not_found">Lawnfeed ain\'t here me hearty</string>
   <string name="google_app_not_found">Captain Google ain\'t not here matey</string>

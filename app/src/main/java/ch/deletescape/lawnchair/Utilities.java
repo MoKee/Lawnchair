@@ -1124,28 +1124,28 @@ public final class Utilities {
                 .show();
     }
 
-    public static void showOutdatedLawnfeedPopup(final Context context) {
-        if (!BuildConfig.ENABLE_LAWNFEED || ILauncherClient.Companion.getEnabledState(context) != ILauncherClient.DISABLED_CLIENT_OUTDATED) return;
-
-        // Disable Google Now page setting if the user have enabled Google Now page
-        if (Utilities.getPrefs(context).getShowGoogleNowTab()) {
-            SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(context);
-            settings.edit().putBoolean(PreferenceFlags.KEY_PREF_SHOW_NOW_TAB, false).commit();
-        }
-
-        new AlertDialog.Builder(context)
-                .setTitle(R.string.lawnfeed_outdated_title)
-                .setMessage(R.string.lawnfeed_outdated)
-                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        // Open website with download link for Lawnfeed
-                        openURLinBrowser(context, "https://lawnchair.info/getlawnfeed.html");
-                    }
-                })
-                .setNegativeButton(android.R.string.no, null)
-                .show();
-    }
+//    public static void showOutdatedLawnfeedPopup(final Context context) {
+//        if (!BuildConfig.ENABLE_LAWNFEED || ILauncherClient.Companion.getEnabledState(context) != ILauncherClient.DISABLED_CLIENT_OUTDATED) return;
+//
+//        // Disable Google Now page setting if the user have enabled Google Now page
+//        if (Utilities.getPrefs(context).getShowGoogleNowTab()) {
+//            SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(context);
+//            settings.edit().putBoolean(PreferenceFlags.KEY_PREF_SHOW_NOW_TAB, false).commit();
+//        }
+//
+//        new AlertDialog.Builder(context)
+//                .setTitle(R.string.lawnfeed_outdated_title)
+//                .setMessage(R.string.lawnfeed_outdated)
+//                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialogInterface, int i) {
+//                        // Open website with download link for Lawnfeed
+//                        openURLinBrowser(context, "https://lawnchair.info/getlawnfeed.html");
+//                    }
+//                })
+//                .setNegativeButton(android.R.string.no, null)
+//                .show();
+//    }
 
     public static void openURLinBrowser(Context context, String url) {
         openURLinBrowser(context, url, null, null);

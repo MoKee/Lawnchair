@@ -330,7 +330,6 @@
   <string name="default_text">الافتراضي</string>
   <string name="edit_icon_reset">إعادة ضبط</string>
   <string name="show_top_shadow_title">إظهار الظل العلوي</string>
-  <string name="pref_cat_homescreen">الشاشة الرئيسية</string>
   <string name="theme_pref_title">السمة</string>
   <string name="theme_light">فاتح</string>
   <string name="theme_dark">داكن</string>
