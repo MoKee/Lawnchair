@@ -70,10 +70,16 @@
         android:title="@string/lock_desktop"
         android:defaultValue="false"
         android:persistent="true" />
+
+    <SwitchPreference
+        android:key="pref_useSystemFonts"
+        android:title="@string/use_system_fonts_title"
+        android:defaultValue="false"
+        android:persistent="true" />
     
     <ch.deletescape.lawnchair.preferences.GoogleNowPreference
         android:key="pref_showGoogleNowTab"
         android:persistent="true"
         android:title="@string/show_google_now_tab_pref_title"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 </android.support.v7.preference.PreferenceScreen>

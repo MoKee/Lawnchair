@@ -239,12 +239,6 @@ public class SettingsActivity extends AppCompatActivity implements
                 if (BuildConfig.ENABLE_LAWNFEED && enabledState == ILauncherClient.Companion.DISABLED_NO_PROXY_APP) {
                     getPreferenceScreen().removePreference(findPreference(FeatureFlags.KEY_PREF_SHOW_NOW_TAB));
                 }
-            } else if (getContent() == R.xml.launcher_snowfall_preferences) {
-                Preference prefSnowfallEnabled = findPreference(FeatureFlags.KEY_PREF_SNOWFALL);
-                prefSnowfallEnabled.setOnPreferenceChangeListener(this);
-                if (Utilities.getPrefs(getActivity()).getEnableSnowfall()) {
-                    prefSnowfallEnabled.setSummary(R.string.snowfall_enabled);
-                }
             }
         }
 
@@ -264,11 +258,6 @@ public class SettingsActivity extends AppCompatActivity implements
             }
         }
 
-        private void updateSnowfallSummary(boolean enabled) {
-            Preference prefEnableSnowfall = findPreference(FeatureFlags.KEY_PREF_SNOWFALL);
-            prefEnableSnowfall.setSummary(enabled ? R.string.snowfall_enabled : R.string.enable_snowfall_summary);
-        }
-
         @Override
         public boolean onPreferenceChange(Preference preference, Object newValue) {
             if (preference.getKey() != null) {
@@ -281,9 +270,6 @@ public class SettingsActivity extends AppCompatActivity implements
                         if (Utilities.getPrefs(context).getShowWeather() && Utilities.isAwarenessApiEnabled(context)) {
                             checkPermission(Manifest.permission.ACCESS_FINE_LOCATION);
                         }
-                        break;
-                    case FeatureFlags.KEY_PREF_SNOWFALL:
-                        updateSnowfallSummary((boolean) newValue);
                         break;
                 }
                 return true;

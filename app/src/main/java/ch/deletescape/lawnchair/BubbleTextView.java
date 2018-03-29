@@ -29,6 +29,7 @@ import android.graphics.Paint;
 import android.graphics.Point;
 import android.graphics.Rect;
 import android.graphics.Region;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
@@ -133,6 +134,7 @@ public class BubbleTextView extends TextView
         mLauncher = Launcher.getLauncher(context);
         DeviceProfile grid = mLauncher.getDeviceProfile();
 
+
         TypedArray a = context.obtainStyledAttributes(attrs,
                 R.styleable.BubbleTextView, defStyle, 0);
         mCustomShadowsEnabled = a.getBoolean(R.styleable.BubbleTextView_customShadows, true);
@@ -158,8 +160,13 @@ public class BubbleTextView extends TextView
             setTextSize(TypedValue.COMPLEX_UNIT_PX, mHideText ? 0 : grid.iconTextSizePx);
             setCompoundDrawablePadding(grid.folderChildDrawablePaddingPx);
         }
-        mCenterVertically = a.getBoolean(R.styleable.BubbleTextView_centerVertically, false);
 
+        // Check if the user has system fonts disabled and the style is not applied to bubble view
+        if (!Utilities.getPrefs(context).getUseSystemFonts() && display >= 0 && display <= 2) {
+            setTypeface(Typeface.create("sans-serif-condensed", Typeface.NORMAL));
+        }
+
+        mCenterVertically = a.getBoolean(R.styleable.BubbleTextView_centerVertically, false);
         mIconSize = a.getDimensionPixelSize(R.styleable.BubbleTextView_iconSizeOverride,
                 defaultIconSize);
         a.recycle();

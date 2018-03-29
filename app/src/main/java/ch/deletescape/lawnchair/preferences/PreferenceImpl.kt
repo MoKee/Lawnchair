@@ -18,6 +18,8 @@ import kotlin.reflect.KProperty
 open class PreferenceImpl(context: Context) : IPreferenceProvider {
     val context = context.applicationContext!!
 
+    override var restoreSuccess by MutableBooleanPref("pref_restoreSuccess", false)
+
     override val workSpaceLabelColor by IntPref(PreferenceFlags.KEY_PREF_WS_LABEL_COLOR, Color.WHITE)
     override val allAppsLabelColor by IntPref(PreferenceFlags.KEY_PREF_ALL_APPS_LABEL_COLOR, Color.BLACK)
 
@@ -48,8 +50,6 @@ open class PreferenceImpl(context: Context) : IPreferenceProvider {
     override val iconLabelsInTwoLines by BooleanPref(PreferenceFlags.KEY_ICON_LABELS_IN_TWO_LINES, false)
     override val animatedClockIconAlternativeClockApps by BooleanPref(PreferenceFlags.KEY_ANIMATED_CLOCK_ICON_ALTERNATIVE_CLOCK_APPS, false)
     override val enablePhysics by BooleanPref(PreferenceFlags.KEY_ENABLE_PHYSICS, true)
-    override val snowflakeSizeScale by FloatPref(PreferenceFlags.KEY_PREF_SNOWFLAKE_SIZE_SCALE, 1f)
-    override val snowflakesNum by StringPref(PreferenceFlags.KEY_PREF_SNOWFLAKES_NUM, "200")
 
     override fun lightStatusBarKeyCache(default: Boolean): Boolean {
         return getBoolean(PreferenceFlags.KEY_LIGHT_STATUS_BAR, default)
@@ -161,6 +161,7 @@ open class PreferenceImpl(context: Context) : IPreferenceProvider {
     override val backportAdaptiveIcons = Utilities.ATLEAST_NOUGAT
     override val weatherProvider by StringPref(PreferenceFlags.KEY_WEATHER_PROVIDER, PreferenceFlags.PREF_WEATHER_PROVIDER_AWARENESS)
     override var previousBuildNumber by MutableIntPref(PreferenceFlags.KEY_PREVIOUS_BUILD_NUMBER, 0)
+    override var disableLawnfeedPopup by MutableBooleanPref(PreferenceFlags.KEY_DISABLE_LAWNFEED_POPUP, false)
 
     override var hiddenAppsSet: Set<String>
         get() {
@@ -200,7 +201,7 @@ open class PreferenceImpl(context: Context) : IPreferenceProvider {
     override val showWeather by BooleanPref(FeatureFlags.KEY_PREF_WEATHER, false)
     override val lockDesktop by BooleanPref(FeatureFlags.KEY_PREF_LOCK_DESKTOP, false)
     override val animatedClockIcon by BooleanPref(FeatureFlags.KEY_PREF_ANIMATED_CLOCK_ICON, false)
-    override val enableSnowfall by BooleanPref(FeatureFlags.KEY_PREF_SNOWFALL, false)
+    override val useSystemFonts by BooleanPref(FeatureFlags.KEY_PREF_USE_SYSTEM_FONTS, false)
 
     override val pinchToOverview by BooleanPref(FeatureFlags.KEY_PREF_PINCH_TO_OVERVIEW, true)
     override val centerWallpaper by BooleanPref(PreferenceFlags.KEY_CENTER_WALLPAPER, true)
@@ -223,6 +224,8 @@ open class PreferenceImpl(context: Context) : IPreferenceProvider {
     override val useFullWidthSearchBar by BooleanPref(FeatureFlags.KEY_FULL_WIDTH_SEARCHBAR, false)
     override val showVoiceSearchButton by BooleanPref(FeatureFlags.KEY_SHOW_VOICE_SEARCH_BUTTON, false)
     override val showPixelBar by BooleanPref(FeatureFlags.KEY_SHOW_PIXEL_BAR, true)
+    override val showSearchPill by BooleanPref(FeatureFlags.KEY_SHOW_SEARCH_PILL, true)
+    override val showDateOrWeather by BooleanPref(FeatureFlags.KEY_SHOW_DATE_OR_WEATHER, true)
     override val homeOpensDrawer by BooleanPref(FeatureFlags.KEY_HOME_OPENS_DRAWER, true)
     override val usePixelIcons by BooleanPref(FeatureFlags.KEY_PREF_PIXEL_STYLE_ICONS, true)
     override val enableScreenRotation by BooleanPref(FeatureFlags.KEY_PREF_ENABLE_SCREEN_ROTATION, false)

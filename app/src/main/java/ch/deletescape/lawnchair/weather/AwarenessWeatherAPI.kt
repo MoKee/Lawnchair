@@ -34,26 +34,38 @@ class AwarenessWeatherAPI(context: Context) : WeatherAPI(), ResultCallback<Weath
     }
 
     override fun onResult(weatherResult: WeatherResult) {
-        if (weatherResult.status.isSuccess) {
-            val temp = weatherResult.weather.getTemperature(
-                    when (units) {
-                        Units.METRIC -> Weather.CELSIUS
-                        Units.IMPERIAL -> Weather.FAHRENHEIT
-                    }
-            )
-            val icon = getWeatherIcon(weatherResult.weather.conditions)
-            onWeatherData(WeatherData(
-                    success = true,
-                    temp = temp.toInt(),
-                    icon = icon + iconSuffix,
-                    units = units
-            ))
-        } else {
+        try {
+            if (weatherResult.status.isSuccess) {
+                val temp = weatherResult.weather.getTemperature(
+                        when (units) {
+                            Units.METRIC -> Weather.CELSIUS
+                            Units.IMPERIAL -> Weather.FAHRENHEIT
+                        }
+                )
+                val icon = getWeatherIcon(weatherResult.weather.conditions)
+                onWeatherData(WeatherData(
+                        success = true,
+                        temp = temp.toInt(),
+                        icon = icon + iconSuffix,
+                        units = units
+                ))
+            } else {
+                onWeatherData(WeatherData(
+                        success = false,
+                        icon = WeatherIconProvider.CONDITION_UNKNOWN + iconSuffix,
+                        units = units
+                ))
+            }
+        } catch (npe: NullPointerException) {
             onWeatherData(WeatherData(
                     success = false,
-                    units = units
+                    units = Units.METRIC
             ))
         }
+    }
+
+    override fun getForecastURL(): String {
+        return "https://www.google.ch/search?q=weather"
     }
 
     private fun getWeatherIcon(condition: IntArray): String {

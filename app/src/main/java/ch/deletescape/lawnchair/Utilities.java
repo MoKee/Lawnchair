@@ -16,6 +16,7 @@
 
 package ch.deletescape.lawnchair;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.AlertDialog;
@@ -54,6 +55,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.PowerManager;
+import android.os.SystemClock;
 import android.os.UserHandle;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
@@ -93,6 +95,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import ch.deletescape.lawnchair.backup.RestoreBackupActivity;
 import ch.deletescape.lawnchair.config.IThemer;
 import ch.deletescape.lawnchair.config.ThemeProvider;
 import ch.deletescape.lawnchair.dynamicui.ExtractedColors;
@@ -106,6 +109,7 @@ import ch.deletescape.lawnchair.preferences.PreferenceProvider;
 import ch.deletescape.lawnchair.shortcuts.DeepShortcutManager;
 import ch.deletescape.lawnchair.shortcuts.ShortcutInfoCompat;
 import ch.deletescape.lawnchair.util.IconNormalizer;
+import ch.deletescape.lawnchair.util.LooperExecutor;
 import ch.deletescape.lawnchair.util.PackageManagerHelper;
 
 /**
@@ -115,6 +119,7 @@ public final class Utilities {
 
     private static final String TAG = "Launcher.Utilities";
     private static final String LAUNCHER_RESTART_KEY = "launcher_restart_key";
+    private static final int WAIT_BEFORE_RESTART = 250;
 
     private static final Rect sOldBounds = new Rect();
     private static final Canvas sCanvas = new Canvas();
@@ -144,6 +149,9 @@ public final class Utilities {
 
     public static final boolean ATLEAST_OREO =
             Build.VERSION.SDK_INT >= Build.VERSION_CODES.O;
+
+    public static final boolean ATLEAST_OREO_M1 =
+            Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1;
 
     // An intent extra to indicate the horizontal scroll of the wallpaper.
     public static final String EXTRA_WALLPAPER_OFFSET = "ch.deletescape.lawnchair.WALLPAPER_OFFSET";
@@ -1081,27 +1089,82 @@ public final class Utilities {
         return BLACKLISTED_APPLICATIONS.length == 0;
     }
 
-//    public static void showOutdatedLawnfeedPopup(final Context context) {
-//        if (!BuildConfig.ENABLE_LAWNFEED || ILauncherClient.Companion.getEnabledState(context) != ILauncherClient.DISABLED_CLIENT_OUTDATED) return;
-//        new AlertDialog.Builder(context)
-//            .setTitle(R.string.lawnfeed_outdated_title)
-//            .setMessage(R.string.lawnfeed_outdated)
-//            .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
-//                @Override
-//                public void onClick(DialogInterface dialogInterface, int i) {
-//                    try {
-//                        // Open website with download link for Lawnfeed
-//                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://lawnchair.info/getlawnfeed.html"));
-//                        context.startActivity(intent);
-//                    } catch (ActivityNotFoundException exc) {
-//                        // Believe me, this actually happens.
-//                        Toast.makeText(context, R.string.error_no_browser, Toast.LENGTH_SHORT).show();
-//                    }
-//                }
-//            })
-//            .setNegativeButton(android.R.string.no, null)
-//            .show();
-//    }
+    public static void showLawnfeedPopup(final Context context) {
+        if (!BuildConfig.ENABLE_LAWNFEED || ILauncherClient.Companion.getEnabledState(context) != ILauncherClient.ENABLED) return;
+        final IPreferenceProvider prefs = getPrefs(context);
+
+        // Don't show anything if the user have selected "Don't show again" or Google Now page is enabled
+        if (prefs.getDisableLawnfeedPopup() || prefs.getShowGoogleNowTab()) {
+            return;
+        }
+
+        // Show a popup about the disabled Google Now page option
+        new AlertDialog.Builder(context)
+                .setTitle(R.string.lawnfeed_not_enabled_title)
+                .setMessage(R.string.lawnfeed_not_enabled)
+                .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                    @SuppressLint("ApplySharedPref")
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        // Enable Google Now page setting
+                        SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(context);
+                        settings.edit().putBoolean(PreferenceFlags.KEY_PREF_SHOW_NOW_TAB, true).commit();
+
+                        // Restart Lawnchair to enable Lawnfeed
+                        LauncherAppState.getInstanceNoCreate().getLauncher().scheduleKill();
+                    }
+                })
+                .setNeutralButton(R.string.disable_popup, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        prefs.setDisableLawnfeedPopup(true);
+                    }
+                })
+                .setNegativeButton(android.R.string.cancel, null)
+                .show();
+    }
+
+    public static void showOutdatedLawnfeedPopup(final Context context) {
+        if (!BuildConfig.ENABLE_LAWNFEED || ILauncherClient.Companion.getEnabledState(context) != ILauncherClient.DISABLED_CLIENT_OUTDATED) return;
+
+        // Disable Google Now page setting if the user have enabled Google Now page
+        if (Utilities.getPrefs(context).getShowGoogleNowTab()) {
+            SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(context);
+            settings.edit().putBoolean(PreferenceFlags.KEY_PREF_SHOW_NOW_TAB, false).commit();
+        }
+
+        new AlertDialog.Builder(context)
+                .setTitle(R.string.lawnfeed_outdated_title)
+                .setMessage(R.string.lawnfeed_outdated)
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        // Open website with download link for Lawnfeed
+                        openURLinBrowser(context, "https://lawnchair.info/getlawnfeed.html");
+                    }
+                })
+                .setNegativeButton(android.R.string.no, null)
+                .show();
+    }
+
+    public static void openURLinBrowser(Context context, String url) {
+        openURLinBrowser(context, url, null, null);
+    }
+
+    public static void openURLinBrowser(Context context, String url, Rect sourceBounds, Bundle options) {
+        try {
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+            intent.setSourceBounds(sourceBounds);
+            if(options == null){
+                context.startActivity(intent);
+            } else {
+                context.startActivity(intent, options);
+            }
+        } catch (ActivityNotFoundException exc) {
+            // Believe me, this actually happens.
+            Toast.makeText(context, R.string.error_no_browser, Toast.LENGTH_SHORT).show();
+        }
+    }
 
     public static boolean checkOutdatedLawnfeed(Context context) {
         // Don't check Lawnfeed version on CI builds, should fix disabled setting option
@@ -1118,20 +1181,31 @@ public final class Utilities {
         return false;
     }
 
-    public static void restartLauncher(Context context) {
-        PackageManager pm = context.getPackageManager();
-        Intent startActivity = pm.getLaunchIntentForPackage(context.getPackageName());
+    public static void restartLauncher(final Context context) {
+        new LooperExecutor(LauncherModel.getWorkerLooper()).execute(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(WAIT_BEFORE_RESTART);
+                } catch (Exception e) {
+                    Log.e("SettingsActivity", "Error waiting", e);
+                }
 
-        startActivity.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                Intent intent = new Intent(Intent.ACTION_MAIN)
+                        .addCategory(Intent.CATEGORY_HOME)
+                        .setPackage(context.getPackageName())
+                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
-        // Create a pending intent so the application is restarted after System.exit(0) was called.
-        // We use an AlarmManager to call this intent in 100ms
-        PendingIntent mPendingIntent = PendingIntent.getActivity(context, 0, startActivity, PendingIntent.FLAG_CANCEL_CURRENT);
-        AlarmManager mgr = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
-        mgr.set(AlarmManager.RTC, System.currentTimeMillis() + 100, mPendingIntent);
+                // Create a pending intent so the application is restarted after Process.killProcess() was called.
+                // We use an AlarmManager to call this intent in 50ms
+                PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT | PendingIntent.FLAG_ONE_SHOT);
+                AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+                alarmManager.setExact(AlarmManager.ELAPSED_REALTIME, SystemClock.elapsedRealtime() + 50, pendingIntent);
 
-        // Kill the application
-        System.exit(0);
+                // Kill the application
+                android.os.Process.killProcess(android.os.Process.myPid());
+            }
+        });
     }
 
     public static int getNumberOfHotseatRows(Context context){
@@ -1179,6 +1253,10 @@ public final class Utilities {
         return apps;
     }
 
+    public static boolean hasAlternativeIcon(Context context, ComponentName componentName) {
+        return getAlternativeIconList(context).contains(componentName.flattenToString());
+    }
+
     public static void setupPirateLocale(Activity activity){
         if (!PreferenceProvider.INSTANCE.getPreferences(activity).getAyyMatey()) {
             return;
@@ -1190,5 +1268,38 @@ public final class Utilities {
         config.locale = locale;
         Resources baseResources = activity.getBaseContext().getResources();
         baseResources.updateConfiguration(config, baseResources.getDisplayMetrics());
+    }
+
+    public static void checkRestoreSuccess(Context context) {
+        IPreferenceProvider prefs = getPrefs(context);
+        if (prefs.getRestoreSuccess()) {
+            prefs.setRestoreSuccess(true);
+            context.startActivity(new Intent(context, RestoreBackupActivity.class)
+                .putExtra(RestoreBackupActivity.EXTRA_SUCCESS, true));
+        }
+    }
+
+    public static Bitmap drawableToBitmap(Drawable drawable) {
+        if (drawable instanceof BitmapDrawable) {
+            return ((BitmapDrawable) drawable).getBitmap();
+        }
+
+        if (drawable.getIntrinsicWidth() <= 0 || drawable.getIntrinsicHeight() <= 0) {
+            return null;
+        }
+
+        Bitmap bitmap = Bitmap.createBitmap(
+                drawable.getIntrinsicWidth(),
+                drawable.getIntrinsicHeight(),
+                Bitmap.Config.ARGB_8888);
+
+        Canvas canvas = new Canvas(bitmap);
+        drawable.setBounds(0, 0, canvas.getWidth(), canvas.getHeight());
+        drawable.draw(canvas);
+        return bitmap;
+    }
+
+    public static void killLauncher() {
+        System.exit(0);
     }
 }

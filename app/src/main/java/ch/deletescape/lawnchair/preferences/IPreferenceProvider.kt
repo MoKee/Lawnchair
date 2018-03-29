@@ -11,6 +11,8 @@ interface IPreferenceProvider {
     // SORTED by Feature
     // -------------------
 
+    var restoreSuccess: Boolean
+
     // -------------------
     // 1) App Theme
     // -------------------
@@ -73,6 +75,8 @@ interface IPreferenceProvider {
     val useFullWidthSearchBar: Boolean
     val showVoiceSearchButton: Boolean
     val showPixelBar: Boolean
+    val showSearchPill: Boolean
+    val showDateOrWeather: Boolean
     val homeOpensDrawer: Boolean
     val usePixelIcons: Boolean
     val enableScreenRotation: Boolean
@@ -95,10 +99,10 @@ interface IPreferenceProvider {
     val lockDesktop: Boolean
     val animatedClockIcon: Boolean
     val animatedClockIconAlternativeClockApps: Boolean
+    val useSystemFonts: Boolean
     val iconLabelsInTwoLines: Boolean
     val twoRowDock: Boolean
     val pulldownAction: String
-    val enableSnowfall: Boolean
 
     // -----------------
     // PREFERENCES
@@ -113,6 +117,7 @@ interface IPreferenceProvider {
     fun removeAlternateIcon(key: String)
     var hiddenAppsSet : Set<String>
     var previousBuildNumber : Int
+    var disableLawnfeedPopup: Boolean
     var overrideIconShape: String
     val backportAdaptiveIcons: Boolean
     fun removeOverrideIconShape()
@@ -133,8 +138,6 @@ interface IPreferenceProvider {
     val hotseatShouldUseCustomOpacity: Boolean
     val hotseatCustomOpacity: Float
     val enablePhysics: Boolean
-    val snowflakeSizeScale: Float
-    val snowflakesNum: String
     val ayyMatey: Boolean
 
     // -----------------

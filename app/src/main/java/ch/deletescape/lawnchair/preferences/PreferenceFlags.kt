@@ -10,7 +10,6 @@ object PreferenceFlags {
     const val KEY_NUM_COLS_DRAWER = "pref_numColsDrawer"
     const val KEY_HOTSEAT_ICONS = "pref_numHotseatIcons"
     const val KEY_PREF_NUM_ROWS_DRAWER = "pref_numRowsDrawer"
-    const val KEY_PREF_SNOWFLAKES_NUM = "pref_snowflakesNum"
 
     // Strings
     const val KEY_WEATHER_PROVIDER = "pref_weatherProvider"
@@ -31,7 +30,6 @@ object PreferenceFlags {
     const val KEY_PREF_ALL_APPS_ICON_SCALE = "pref_allAppsIconScale"
     const val KEY_PREF_ALL_APPS_ICON_TEXT_SCALE = "pref_allAppsIconTextScale"
     const val KEY_PREF_ALL_APPS_ICON_PADDING_SCALE = "pref_allAppsIconPaddingScale"
-    const val KEY_PREF_SNOWFLAKE_SIZE_SCALE = "pref_snowflakeSizeScale"
 
     //Ints
     const val KEY_BLUR_MODE = "pref_blurMode"
@@ -47,6 +45,7 @@ object PreferenceFlags {
     const val KEY_ICON_LABELS_IN_TWO_LINES = "pref_iconLabelsInTwoLines"
     const val KEY_ANIMATED_CLOCK_ICON_ALTERNATIVE_CLOCK_APPS = "pref_animatedClockIconAlternativeClockApps"
     const val KEY_ENABLE_PHYSICS = "pref_enablePhysics"
+    const val KEY_PREF_USE_SYSTEM_FONTS = "pref_useSystemFonts"
 
     // Various
     const val KEY_PREF_WS_LABEL_COLOR = "pref_workspaceLabelColor"
@@ -63,6 +62,8 @@ object PreferenceFlags {
     const val KEY_PREF_KEEP_SCROLL_STATE = "pref_keepScrollState"
     const val KEY_FULL_WIDTH_SEARCHBAR = "pref_fullWidthSearchbar"
     const val KEY_SHOW_PIXEL_BAR = "pref_showPixelBar"
+    const val KEY_SHOW_SEARCH_PILL = "pref_showSearchPill"
+    const val KEY_SHOW_DATE_OR_WEATHER = "pref_showDateOrWeather"
     const val KEY_SHOW_VOICE_SEARCH_BUTTON = "pref_showMic"
     const val KEY_PREF_ALL_APPS_OPACITY = "pref_allAppsOpacitySB"
     const val KEY_PREF_SHOW_HIDDEN_APPS = "pref_showHidden"
@@ -98,10 +99,10 @@ object PreferenceFlags {
     const val KEY_PREF_DRAWER_CUSTOM_LABEL_COLOR_HUE = "pref_allAppsCustomLabelColorHue"
     const val KEY_PREF_DRAWER_CUSTOM_LABEL_COLOR_VARITATION = "pref_allAppsCustomLabelColorVariation"
     const val KEY_PREF_DRAWER_VERTICAL_LAYOUT = "pref_verticalDrawerLayout"
-    const val KEY_PREF_SNOWFALL = "pref_snowfall"
 
     const val KEY_APP_VISIBILITY_PREFIX = "visibility_"
     const val KEY_PREVIOUS_BUILD_NUMBER = "previousBuildNumber"
+    const val KEY_DISABLE_LAWNFEED_POPUP = "disableLawnfeedPopup"
 
     const val KEY_ALTERNATE_ICON_PREFIX = "alternateIcon_"
     const val KEY_ITEM_ALIAS_PREFIX = "alias_"

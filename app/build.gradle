@@ -109,6 +109,12 @@ android {
     }
 }
 
+afterEvaluate {
+    android.applicationVariants.all { variant ->
+        variant.resValue "string", "application_id", variant.applicationId
+    }
+}
+
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     provided fileTree(include: ['*.jar'], dir: 'src/main/libs')
@@ -126,6 +132,9 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     implementation 'com.pavelsikun:vintage-chroma:1.5'
     implementation project(':launcherclient')
+
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.github.florent37:fiftyshadesof:1.0.0'
 }
 repositories {
     mavenCentral()

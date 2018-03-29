@@ -2,13 +2,12 @@ package ch.deletescape.lawnchair.weather
 
 import android.content.Context
 import ch.deletescape.lawnchair.Utilities
-import ch.deletescape.lawnchair.misc.LicenseUtils
 import com.kwabenaberko.openweathermaplib.implementation.OpenWeatherMapHelper
 import com.kwabenaberko.openweathermaplib.models.currentweather.CurrentWeather
+import java.net.URLEncoder
 import com.mokee.security.License
 
 class OWMWeatherAPI(context: Context) : WeatherAPI(), OpenWeatherMapHelper.CurrentWeatherCallback {
-
     private val apiKey = if (LicenseUtils.mkVerified) License.getOpenWeatherMapAPIKey(context, context.packageName) else Utilities.getPrefs(context).weatherApiKey
     private val helper = OpenWeatherMapHelper().apply { setApiKey(apiKey) }
 
@@ -22,6 +21,11 @@ class OWMWeatherAPI(context: Context) : WeatherAPI(), OpenWeatherMapHelper.Curre
 
     override fun getCurrentWeather() {
         helper.getCurrentWeatherByCityName(city, this)
+    }
+
+    override fun getForecastURL(): String {
+        val cityEncoded = URLEncoder.encode(city, "UTF-8")
+        return "https://openweathermap.org/?q=$cityEncoded"
     }
 
     override fun onSuccess(currentWeather: CurrentWeather) {
