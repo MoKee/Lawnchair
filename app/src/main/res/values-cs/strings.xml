@@ -291,8 +291,7 @@
   <string name="dock_pref_summary">Přizpůsobit dok</string>
   <string name="app_drawer_pref_summary">Přizpůsobit seznam aplikací</string>
   <string name="pixel_ui_pref_summary">Povolit exkluzivní funkce spouštěče Pixel</string>
-  <string name="backup_pref_title">Zálohování a obnovení</string>
-  <string name="behavior_pref_summary">Změnit chování Lawnchair</string>
+    <string name="behavior_pref_summary">Změnit chování Lawnchair</string>
   <string name="backup_pref_summary">Zálohovat\/obnovit vaše nastavení a databázi</string>
   <string name="debug_pref_summary">Restartovat nebo znovu vytvořit ikonu databáze</string>
   <string name="show_pixel_bar_pref_title">Zobrazit Pixel horní panel</string>
@@ -317,19 +316,14 @@
   <string name="show_hidden_pref_title">Zobrazit skryté aplikace</string>
   <string name="show_hidden_pref_on">Zobrazí se skryté aplikace, které změní nastavení viditelnosti</string>
   <string name="show_hidden_pref_off">Skryté aplikace nebudou viditelné</string>
-  <string name="export_db_title">Databáze</string>
-  <string name="import_db_title">Databáze</string>
-  <string name="export_prefs_title">Nastavení</string>
-  <string name="import_prefs_title">Nastavení</string>
-  <string name="notification_listener_label">Lawnchair - indikátor oznámení</string>
+    <string name="notification_listener_label">Lawnchair - indikátor oznámení</string>
   <string name="color_extraction_label">Lawnchair - Extrakce barev</string>
   <string name="test_title">Test</string>
   <string name="visibility">Viditelnost</string>
   <string name="default_text">Výchozí</string>
   <string name="edit_icon_reset">Obnovit</string>
   <string name="show_top_shadow_title">Zobrazit horní stíny</string>
-  <string name="pref_cat_homescreen">Domovská obrazovka</string>
-  <string name="theme_pref_title">Motiv vzhledu</string>
+    <string name="theme_pref_title">Motiv vzhledu</string>
   <string name="theme_light">Světlý</string>
   <string name="theme_dark">Tmavý</string>
   <string name="theme_black">Černý</string>
@@ -342,9 +336,7 @@
   <string name="pull_down_apps_search">Vyhledávání v aplikacích</string>
   <string name="enable_screen_rotation">Povolit otáčení obrazovky</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Obnovení</string>
-  <string name="backup_export_title">Záloha</string>
-  <string name="settings_export_success">Nastavení bylo úspěšně zálohováno</string>
+    <string name="settings_export_success">Nastavení bylo úspěšně zálohováno</string>
   <string name="db_export_success">Databáze byla úspěšně zálohována</string>
   <string name="settings_import_success">Nastavení bylo úspěšně obnoveno</string>
   <string name="db_import_success">Databáze byla úspěšně obnovena</string>
@@ -418,12 +410,6 @@
   <string name="two_row_dock">Dok ve dvou řadách</string>
   <string name="reset_alternative_icons_title">Resetovat alternativní ikony aplikací?</string>
   <string name="reset_alternative_icons">Máte %1$d aplikací s alternativními ikonami, chcete je obnovit?</string>
-  <string name="snowfall_title">Sněžení</string>
-  <string name="enable_snowfall_title">Povolit sněžení na domovské obrazovce</string>
-  <string name="enable_snowfall_summary">Může způsobit problémy s výkonem.</string>
-  <string name="snowfall_enabled">\"Ať sněží, ať sněží, ať sněží!\"</string>
-  <string name="snowflake_size_scale">Velikost sněhové vločky</string>
-  <string name="snowflakes_num">Maximální počet sněhových vloček</string>
-  <string name="title_storage_permission_required">Vyžadováno oprávnění k úložišti</string>
+    <string name="title_storage_permission_required">Vyžadováno oprávnění k úložišti</string>
   <string name="content_storage_permission_required">V zařízeních s Android 8.1 a vyšším je pro přístup k tapetám vyžadováno oprávnění k úložišti. Bez zmíněného oprávnění se může stát, že aplikace Lawnchair selže nebo bude mít neočekávané chování.</string>
 </resources>

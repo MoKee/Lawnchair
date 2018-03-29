@@ -237,8 +237,7 @@
   <string name="default_text">İlkin</string>
   <string name="edit_icon_reset">Sıfırla</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Bərpa et</string>
-  <!-- Default units to use, either 'metric' or 'imperial' -->
+    <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Heç biri</string>
   <string name="icon_shape_none">Heç biri</string>
   <string name="about_version">Versiya</string>

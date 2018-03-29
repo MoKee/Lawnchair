@@ -292,8 +292,7 @@
   <string name="dock_pref_summary">Sesuaikan dock anda</string>
   <string name="app_drawer_pref_summary">Sesuaikan laci aplikasi anda</string>
   <string name="pixel_ui_pref_summary">Elemen tema yang berbeda</string>
-  <string name="backup_pref_title">Cadangkan &amp; pulihkan</string>
-  <string name="behavior_pref_summary">Mengubah tindakan Lawnchair</string>
+    <string name="behavior_pref_summary">Mengubah tindakan Lawnchair</string>
   <string name="backup_pref_summary">Cadangkan\/pulihkan setelan dan database anda</string>
   <string name="debug_pref_summary">Mulai ulang atau membangun kembali database ikon</string>
   <string name="show_pixel_bar_pref_title">Tampilkan bilah atas Pixel</string>
@@ -318,19 +317,14 @@
   <string name="show_hidden_pref_title">Tampilkan aplikasi tersembunyi</string>
   <string name="show_hidden_pref_on">Aplikasi tersembunyi akan ditampilkan untuk mengubah setelan keterlihatan</string>
   <string name="show_hidden_pref_off">Aplikasi tersembunyi tidak akan terlihat</string>
-  <string name="export_db_title">Basis Data</string>
-  <string name="import_db_title">Basis Data</string>
-  <string name="export_prefs_title">Setelan</string>
-  <string name="import_prefs_title">Setelan</string>
-  <string name="notification_listener_label">Lencana pemberitahuan - Lawnchair</string>
+    <string name="notification_listener_label">Lencana pemberitahuan - Lawnchair</string>
   <string name="color_extraction_label">Lawnchair - Ekstraksi warna</string>
   <string name="test_title">Tes</string>
   <string name="visibility">Visibilitas</string>
   <string name="default_text">Bawaan</string>
   <string name="edit_icon_reset">Setel ulang</string>
   <string name="show_top_shadow_title">Tampilkan bayangan atas</string>
-  <string name="pref_cat_homescreen">Layar beranda</string>
-  <string name="theme_pref_title">Tema</string>
+    <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Terang</string>
   <string name="theme_dark">Gelap</string>
   <string name="theme_black">Hitam</string>
@@ -343,9 +337,7 @@
   <string name="pull_down_apps_search">Aplikasi penelusuran</string>
   <string name="enable_screen_rotation">Aktifkan rotasi layar</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Memulihkan</string>
-  <string name="backup_export_title">Mencadangkan</string>
-  <string name="settings_export_success">Setelan berhasil dicadangkan</string>
+    <string name="settings_export_success">Setelan berhasil dicadangkan</string>
   <string name="db_export_success">Database berhasil dicadangkan</string>
   <string name="settings_import_success">Setelan berhasil dipulihkan</string>
   <string name="db_import_success">Database berhasil dipulihkan</string>
@@ -419,12 +411,6 @@
   <string name="two_row_dock">Dock dua baris</string>
   <string name="reset_alternative_icons_title">Reset ikon aplikasi alternatif?</string>
   <string name="reset_alternative_icons">Anda memiliki aplikasi %1$d dengan ikon alternatif, apakah anda ingin meresetnya?</string>
-  <string name="snowfall_title">Hujan salju</string>
-  <string name="enable_snowfall_title">Hidupkankan animasi salju di layar awal</string>
-  <string name="enable_snowfall_summary">Dapat menyebabkan masalah kinerja.</string>
-  <string name="snowfall_enabled">\"Bersalju lah, bersalju lah, bersalju lah!\"</string>
-  <string name="snowflake_size_scale">Skala ukuran kepingan salju</string>
-  <string name="snowflakes_num">Jumlah maksimal kepingan salju</string>
-  <string name="title_storage_permission_required">Izin akses penyimpanan diperlukan</string>
+    <string name="title_storage_permission_required">Izin akses penyimpanan diperlukan</string>
   <string name="content_storage_permission_required">Di Android 8.1 keatas izin penyimpanan diperlukan aplikasi untuk mengakses wallpaper. Tanpa izin Lawnchair mungkin crash atau menunjukkan perilaku tak terduga.</string>
 </resources>

@@ -246,7 +246,6 @@ Waitin\' t\' install</string>
   <string name="notifications_header">Ravens</string>
   <string name="widgets_bottom_sheet_title">%1$s flags</string>
   <!-- About Lawnchair -->
-  <string name="about_text">Lawnchair is madet by th\' captain deletescape. Stolen from AOSPirates.</string>
   <string name="about_title">\'Bout</string>
   <string name="about_pref_summary">Explore \'bout th\' crew</string>
   <string name="changelog_title">Log o\' changes for build #%d</string>
@@ -292,7 +291,6 @@ Waitin\' t\' install</string>
   <string name="dock_pref_summary">Decorate th\' main deck</string>
   <string name="app_drawer_pref_summary">Change th\' treasure room</string>
   <string name="pixel_ui_pref_summary">Use different paint</string>
-  <string name="backup_pref_title">FALLBACK MATES</string>
   <string name="behavior_pref_summary">Chan\'e th\' beha\'ior of Chair o\' l\'old Lawn</string>
   <string name="backup_pref_summary">Backup\/restore you\'re settings \'nd database</string>
   <string name="debug_pref_summary">Restart \'r rebuild icon database</string>
@@ -319,10 +317,6 @@ Waitin\' t\' install</string>
   <string name="show_hidden_pref_title">Show ye cursed apps</string>
   <string name="show_hidden_pref_on">Shit, now everyone can see me yellow Smiley\'s to change visibility settings</string>
   <string name="show_hidden_pref_off">They won\'t see me yellow smiley\'s</string>
-  <string name="export_db_title">Base o\' th\' data</string>
-  <string name="import_db_title">Base o\' th\' data</string>
-  <string name="export_prefs_title">Changin\' stuff pannel</string>
-  <string name="import_prefs_title">Changin\' stuff pannel</string>
   <string name="notification_listener_label">Lawnchair - Black spot icons</string>
   <string name="color_extraction_label">Lawnchair - Color plundrin\'</string>
   <string name="test_title">Test</string>
@@ -343,8 +337,6 @@ Waitin\' t\' install</string>
   <string name="pull_down_apps_search">Find yee swords</string>
   <string name="enable_screen_rotation">Yo spin me right round baby right round</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Restor\'</string>
-  <string name="backup_export_title">Burry this chest</string>
   <string name="settings_export_success">Sett\'ngs buried successfully</string>
   <string name="db_export_success">Database buried successfully</string>
   <string name="settings_import_success">Sett\'ngs digged up successfully</string>
@@ -402,7 +394,6 @@ Waitin\' t\' install</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
-  <string name="about_translators">Th\' fellow mateys</string>
   <string name="lock_desktop">Drop the anchor</string>
   <string name="lawnfeed_not_found">Lawnfeed ain\'t here me hearty</string>
   <string name="google_app_not_found">Captain Google ain\'t not here matey</string>
@@ -421,8 +412,6 @@ Waitin\' t\' install</string>
   <string name="reset_alternative_icons">Ye have %1$d apps wit\' alternative treasures, d\' ye want t\' reset \'em?</string>
   <string name="error_no_browser">No activity found to handle URLs</string>
   <!-- Strings for popup dialogs -->
-  <string name="lawnfeed_outdated_title">Lawnfeed needs to be worked on</string>
-  <string name="lawnfeed_outdated">A newer version o\' Lawnfeed be required in order t\' duty wit\' this version o\' Lawnchair.\n\nBefore installing thar update ye will probably need t\' uninstall thar current version o\' Lawnfeed.\n\nDo ye want t\' download it now?</string>
   <string name="title_storage_permission_required">Let me plunder ye\' storage</string>
   <string name="content_storage_permission_required">On Android 8.1 and up th\' storage permis\'n be a must fer\' apps to touch ye, paint. Without said permis\'n ye may crash into isles.</string>
   <!-- Preference Category Pixel Searchbar Title -->

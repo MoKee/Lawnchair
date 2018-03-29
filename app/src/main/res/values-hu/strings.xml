@@ -289,8 +289,7 @@
   <string name="dock_pref_summary">Dokk testreszabása</string>
   <string name="app_drawer_pref_summary">Alkalmazásfiók testreszabása</string>
   <string name="pixel_ui_pref_summary">Témázza a különböző elemeket</string>
-  <string name="backup_pref_title">Biztonsági mentés és visszaállítás</string>
-  <string name="behavior_pref_summary">A Lawnchair viselkedésének módosítása</string>
+    <string name="behavior_pref_summary">A Lawnchair viselkedésének módosítása</string>
   <string name="backup_pref_summary">Adatok és beállítások mentése</string>
   <string name="debug_pref_summary">Újraindítás vagy ikon adatbázis újraépítése</string>
   <string name="show_pixel_bar_pref_title">Pixel felső sáv</string>
@@ -315,19 +314,14 @@
   <string name="show_hidden_pref_title">Rejtett alkalmazások megjelenítése</string>
   <string name="show_hidden_pref_on">A rejtett alkalmazások meg fognak jelenni, hogy módosíthassa a láthatósági beállításokat</string>
   <string name="show_hidden_pref_off">A rejtett alkalmazások nem lesznek láthatóak</string>
-  <string name="export_db_title">Adatbázis mentése</string>
-  <string name="import_db_title">Adatbázis visszaállítása</string>
-  <string name="export_prefs_title">Beállítások mentése</string>
-  <string name="import_prefs_title">Beállítások visszaállítása</string>
-  <string name="notification_listener_label">Lawnchair - Értesítési bogyók</string>
+    <string name="notification_listener_label">Lawnchair - Értesítési bogyók</string>
   <string name="color_extraction_label">Lawnchair - Szín kinyerés</string>
   <string name="test_title">Teszt</string>
   <string name="visibility">Láthatóság</string>
   <string name="default_text">Alapértelmezett</string>
   <string name="edit_icon_reset">Alaphelyzetbe állítás</string>
   <string name="show_top_shadow_title">Felső árnyék megjelenítése</string>
-  <string name="pref_cat_homescreen">Kezdőképernyő</string>
-  <string name="theme_pref_title">Téma</string>
+    <string name="theme_pref_title">Téma</string>
   <string name="theme_light">Világos</string>
   <string name="theme_dark">Sötét</string>
   <string name="theme_black">Fekete</string>
@@ -340,9 +334,7 @@
   <string name="pull_down_apps_search">Alkalmazások keresése</string>
   <string name="enable_screen_rotation">Képernyőforgatás engedélyezése</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Visszaállítás</string>
-  <string name="backup_export_title">Biztonsági mentés</string>
-  <string name="settings_export_success">Beállítások biztonsági mentése sikeres</string>
+    <string name="settings_export_success">Beállítások biztonsági mentése sikeres</string>
   <string name="db_export_success">Adatbázis biztonsági mentése sikeres</string>
   <string name="settings_import_success">Beállítások sikeresen visszaállítva</string>
   <string name="db_import_success">Adatbázis sikeresen visszaállítva</string>
@@ -416,12 +408,6 @@
   <string name="two_row_dock">Két soros dokk</string>
   <string name="reset_alternative_icons_title">Alternatív ikonok visszaállítása?</string>
   <string name="reset_alternative_icons">%1$d alkalmazásnak van alternatív ikon beállítva. Visszaállítja az eredetit?</string>
-  <string name="snowfall_title">Havazás</string>
-  <string name="enable_snowfall_title">Havazás engedélyezése a kezdőképernyőn</string>
-  <string name="enable_snowfall_summary">Teljesítménybeli problémákat okozhat.</string>
-  <string name="snowfall_enabled">\"Legyen hó, legyen hó, legyen hó!\"</string>
-  <string name="snowflake_size_scale">Hópehelyméret mértéke</string>
-  <string name="snowflakes_num">Hópelyhek maximális száma</string>
-  <string name="title_storage_permission_required">Tárhely-engedély szükséges</string>
+    <string name="title_storage_permission_required">Tárhely-engedély szükséges</string>
   <string name="content_storage_permission_required">Android 8.1-en (és felette) tárhelyhozzáférés szükséges az alkalmazásoknak, hogy elérhessék a háttérképeket. Az említett engedély nélkül a Lawnchair indító összeomolhat vagy váratlan hibákat produkálhat.</string>
 </resources>

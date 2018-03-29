@@ -291,8 +291,7 @@
   <string name="dock_pref_summary">Настроить док-бар</string>
   <string name="app_drawer_pref_summary">Настроить меню приложений</string>
   <string name="pixel_ui_pref_summary">Настройка элементов темы</string>
-  <string name="backup_pref_title">Резервное копирование</string>
-  <string name="behavior_pref_summary">Изменить поведение Lawnchair</string>
+    <string name="behavior_pref_summary">Изменить поведение Lawnchair</string>
   <string name="backup_pref_summary">Резервное копирование базы данных и настроек</string>
   <string name="debug_pref_summary">Перезапустить или создать заново базу данных иконок</string>
   <string name="show_pixel_bar_pref_title">Показать строку поиска Pixel</string>
@@ -317,19 +316,14 @@
   <string name="show_hidden_pref_title">Показывать скрытые приложения</string>
   <string name="show_hidden_pref_on">Отображаются скрытые приложения для изменения настроек видимости</string>
   <string name="show_hidden_pref_off">Скрытые приложения не будут отображаться</string>
-  <string name="export_db_title">База данных</string>
-  <string name="import_db_title">База данных</string>
-  <string name="export_prefs_title">Настройки</string>
-  <string name="import_prefs_title">Настройки</string>
-  <string name="notification_listener_label">Lawnchair - значки уведомлений</string>
+    <string name="notification_listener_label">Lawnchair - значки уведомлений</string>
   <string name="color_extraction_label">Lawnchair - извлечение цвета</string>
   <string name="test_title">Тест</string>
   <string name="visibility">Видимость</string>
   <string name="default_text">По умолчанию</string>
   <string name="edit_icon_reset">Сбросить</string>
   <string name="show_top_shadow_title">Показать тень сверху</string>
-  <string name="pref_cat_homescreen">Главный экран</string>
-  <string name="theme_pref_title">Тема</string>
+    <string name="theme_pref_title">Тема</string>
   <string name="theme_light">Светлая</string>
   <string name="theme_dark">Тёмная</string>
   <string name="theme_black">Чёрная</string>
@@ -342,9 +336,7 @@
   <string name="pull_down_apps_search">Поиск приложений</string>
   <string name="enable_screen_rotation">Включить автоповорот экрана</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Восстановить</string>
-  <string name="backup_export_title">Экспорт</string>
-  <string name="settings_export_success">Резервное копирование настроек выполнено успешно</string>
+    <string name="settings_export_success">Резервное копирование настроек выполнено успешно</string>
   <string name="db_export_success">Резервное копирование базы данных выполнено успешно</string>
   <string name="settings_import_success">Настройки успешно восстановлены</string>
   <string name="db_import_success">База данных успешно восстановлена</string>
@@ -418,12 +410,6 @@
   <string name="two_row_dock">Двухстрочный док-бар</string>
   <string name="reset_alternative_icons_title">Сбросить альтернативные значки приложений?</string>
   <string name="reset_alternative_icons">У вас %1$d приложений с альтернативными значками, хотите сбросить их?</string>
-  <string name="snowfall_title">Снегопад</string>
-  <string name="enable_snowfall_title">Включить снегопад на главном экране</string>
-  <string name="enable_snowfall_summary">Может вызвать снижение производительности.</string>
-  <string name="snowfall_enabled">Да будет снег!</string>
-  <string name="snowflake_size_scale">Размер снежинок</string>
-  <string name="snowflakes_num">Максимальное количество снежинок</string>
-  <string name="title_storage_permission_required">Нужно разрешение на доступ к памяти устройства</string>
+    <string name="title_storage_permission_required">Нужно разрешение на доступ к памяти устройства</string>
   <string name="content_storage_permission_required">На Android 8.1 и выше для доступа к обоям требуется разрешение на хранение. Без указанного разрешения лужайка может упасть или показать неожиданное поведение.</string>
 </resources>

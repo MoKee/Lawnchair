@@ -287,8 +287,7 @@
   <string name="dock_pref_summary">I-customize ang iyong dock</string>
   <string name="app_drawer_pref_summary">I-customize ang iyong app na drawer</string>
   <string name="pixel_ui_pref_summary">Tema ng iba\'t ibang elemento</string>
-  <string name="backup_pref_title">I-backup &amp; i-restore</string>
-  <string name="behavior_pref_summary">Baguhin ang kilos ng Lawnchair</string>
+    <string name="behavior_pref_summary">Baguhin ang kilos ng Lawnchair</string>
   <string name="backup_pref_summary">Backup\/restore ang iyong mga setting at database</string>
   <string name="debug_pref_summary">I-restart o gawing muli ang database ng icon</string>
   <string name="show_pixel_bar_pref_title">Ipakita ang itaas na bar ng Pixel</string>
@@ -313,19 +312,14 @@
   <string name="show_hidden_pref_title">Ipakita ang mga nakatagong mga app</string>
   <string name="show_hidden_pref_on">Nakatagong mga app ay makikita upang baguhin ang mga pagpapakita ng setting</string>
   <string name="show_hidden_pref_off">Nakatagong mga app ay hindi makikita</string>
-  <string name="export_db_title">Database</string>
-  <string name="import_db_title">Database</string>
-  <string name="export_prefs_title">Mga setting</string>
-  <string name="import_prefs_title">Mga setting</string>
-  <string name="notification_listener_label">Lawnchair - Mga badge ng notipikasyon</string>
+    <string name="notification_listener_label">Lawnchair - Mga badge ng notipikasyon</string>
   <string name="color_extraction_label">Lawnchair - Pagkuha ng kulay</string>
   <string name="test_title">Pagsubok</string>
   <string name="visibility">Nakikita</string>
   <string name="default_text">Pangunahin</string>
   <string name="edit_icon_reset">I-reset</string>
   <string name="show_top_shadow_title">Ipakita ang anino sa itaas</string>
-  <string name="pref_cat_homescreen">Home screen</string>
-  <string name="theme_pref_title">Tema</string>
+    <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Liwanag</string>
   <string name="theme_dark">Madilim</string>
   <string name="theme_black">Itim</string>
@@ -338,9 +332,7 @@
   <string name="pull_down_apps_search">Paghahanap ng mga app</string>
   <string name="enable_screen_rotation">Paganahin ang pag-ikot ng screen</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Pagsasabalik</string>
-  <string name="backup_export_title">Pgsasabalik</string>
-  <string name="settings_export_success">Mga setting ng backed up ng matagumpay</string>
+    <string name="settings_export_success">Mga setting ng backed up ng matagumpay</string>
   <string name="db_export_success">Database backed up successfully</string>
   <string name="settings_import_success">Mga setting ay matagumpay na nai-restore</string>
   <string name="db_import_success">Matagumpay na nai-restore ang database</string>
@@ -413,10 +405,4 @@
   <string name="two_row_dock">Dalawang hanay ng dock</string>
   <string name="reset_alternative_icons_title">I-reset ang alternatibong mga icon ng app?</string>
   <string name="reset_alternative_icons">Ikaw ay may %1$d na mga app na may alternatibong mga icon, gusto mo bang mag-reset ang mga ito?</string>
-  <string name="snowfall_title">Snowfall</string>
-  <string name="enable_snowfall_title">Paganahin ang Snowfall sa home screen</string>
-  <string name="enable_snowfall_summary">Maaring maging sanhi ng mga isyu sa pagganap.</string>
-  <string name="snowfall_enabled">\"Hayaang umulan ng nyebe, hayaang umulan ng nyebe, hayaang umulan ng nyebe!\"</string>
-  <string name="snowflake_size_scale">Laki ng snowflake</string>
-  <string name="snowflakes_num">Max na bilang ng mga snowflake</string>
 </resources>

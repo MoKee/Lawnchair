@@ -286,8 +286,7 @@
   <string name="dock_pref_summary">Personalitzeu la barra d\'aplicacions</string>
   <string name="app_drawer_pref_summary">Personalitzeu el calaix de d\'aplicacions</string>
   <string name="pixel_ui_pref_summary">Personalitza diferents elements</string>
-  <string name="backup_pref_title">Còpia de seguretat i restauració</string>
-  <string name="behavior_pref_summary">Canvia el comportament del Lawnchair</string>
+    <string name="behavior_pref_summary">Canvia el comportament del Lawnchair</string>
   <string name="backup_pref_summary">Còpia de seguretat/restauració de la configuració i la base de dades</string>
   <string name="debug_pref_summary">Reinicia o reconstrueix la base de dades d\'icones</string>
   <string name="show_pixel_bar_pref_title">Mostra la barra superior de Pixel</string>
@@ -312,19 +311,14 @@
   <string name="show_hidden_pref_title">Mostra aplicacions ocultes</string>
   <string name="show_hidden_pref_on">Les aplicacions amagades es mostraran per canviar la configuració de visibilitat</string>
   <string name="show_hidden_pref_off">Les aplicacions ocultes no seran visibles</string>
-  <string name="export_db_title">Base de dades</string>
-  <string name="import_db_title">Base de dades</string>
-  <string name="export_prefs_title">Configuració</string>
-  <string name="import_prefs_title">Configuració</string>
-  <string name="notification_listener_label">Lawnchair - Insígnies de notificació</string>
+    <string name="notification_listener_label">Lawnchair - Insígnies de notificació</string>
   <string name="color_extraction_label">Lawnchair - Extracció de color</string>
   <string name="test_title">Prova</string>
   <string name="visibility">Visibilitat</string>
   <string name="default_text">Per defecte</string>
   <string name="edit_icon_reset">Reinicia</string>
   <string name="show_top_shadow_title">Mostra les ombres superiors</string>
-  <string name="pref_cat_homescreen">Pantalla d\'inici</string>
-  <string name="theme_pref_title">Tema</string>
+    <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Clar</string>
   <string name="theme_dark">Fosc</string>
   <string name="theme_black">Negre</string>
@@ -337,9 +331,7 @@
   <string name="pull_down_apps_search">Cerca aplicacions</string>
   <string name="enable_screen_rotation">Activa la rotació de pantalla</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Restaura</string>
-  <string name="backup_export_title">Còpia de seguretat</string>
-  <string name="settings_export_success">La còpia de la configuració s\'ha realitzat amb èxit</string>
+    <string name="settings_export_success">La còpia de la configuració s\'ha realitzat amb èxit</string>
   <string name="db_export_success">La còpia de la base de dades s\'ha realitzat amb èxit</string>
   <string name="settings_import_success">La configuració s\'ha restaurat amb èxit</string>
   <string name="db_import_success">La base de dades s\'ha restaurat amb èxit</string>

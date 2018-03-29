@@ -292,8 +292,7 @@
   <string name="dock_pref_summary">Personnalisez votre dock</string>
   <string name="app_drawer_pref_summary">Personnaliser votre tiroir d\'applications</string>
   <string name="pixel_ui_pref_summary">Thématiser différents éléments</string>
-  <string name="backup_pref_title">Sauvegarde et restauration</string>
-  <string name="behavior_pref_summary">Modifier le comportement de Lawnchair</string>
+    <string name="behavior_pref_summary">Modifier le comportement de Lawnchair</string>
   <string name="backup_pref_summary">Sauvegarder/restaurer vos paramètres et base de données</string>
   <string name="debug_pref_summary">Redémarrer ou reconstruire la base de données des icônes</string>
   <string name="show_pixel_bar_pref_title">Afficher la barre supérieure Pixel</string>
@@ -318,19 +317,14 @@
   <string name="show_hidden_pref_title">Afficher les applications cachées</string>
   <string name="show_hidden_pref_on">Les applications cachées seront affichées pour modifier les paramètres de visibilité</string>
   <string name="show_hidden_pref_off">Les applications cachées ne seront pas visibles</string>
-  <string name="export_db_title">Base de données</string>
-  <string name="import_db_title">Base de données</string>
-  <string name="export_prefs_title">Préférences</string>
-  <string name="import_prefs_title">Préférences</string>
-  <string name="notification_listener_label">Lawnchair - Badges de notification</string>
+    <string name="notification_listener_label">Lawnchair - Badges de notification</string>
   <string name="color_extraction_label">Lawnchair - Extraction de la couleur</string>
   <string name="test_title">Test</string>
   <string name="visibility">Visibilité</string>
   <string name="default_text">Défaut</string>
   <string name="edit_icon_reset">Réinitialiser</string>
   <string name="show_top_shadow_title">Afficher l\'ombre du haut</string>
-  <string name="pref_cat_homescreen">Écran d\'accueil</string>
-  <string name="theme_pref_title">Thèmes</string>
+    <string name="theme_pref_title">Thèmes</string>
   <string name="theme_light">Clair</string>
   <string name="theme_dark">Sombre</string>
   <string name="theme_black">Noir</string>
@@ -343,9 +337,7 @@
   <string name="pull_down_apps_search">Recherche d\'applications</string>
   <string name="enable_screen_rotation">Activer la rotation de l\'écran</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Restaurer</string>
-  <string name="backup_export_title">Sauvegarder</string>
-  <string name="settings_export_success">Paramètres sauvegardés avec succès</string>
+    <string name="settings_export_success">Paramètres sauvegardés avec succès</string>
   <string name="db_export_success">Base de données sauvegardée avec succès</string>
   <string name="settings_import_success">Les paramètres ont été restaurés avec succès</string>
   <string name="db_import_success">La base de données a été restaurée avec succès</string>
@@ -419,12 +411,6 @@
   <string name="two_row_dock">Dock à deux rangées</string>
   <string name="reset_alternative_icons_title">Réinitialiser les icônes alternatives d\'applications ?</string>
   <string name="reset_alternative_icons">Vous avez %1$d applications avec des icônes alternatives, souhaitez-vous les réinitialiser ?</string>
-  <string name="snowfall_title">Chute de neige</string>
-  <string name="enable_snowfall_title">Activer la chute de neige sur l’écran d’accueil</string>
-  <string name="enable_snowfall_summary">Peut causer des problèmes de performances.</string>
-  <string name="snowfall_enabled">« C’est l’hiver, c’est l’hiver, c’est l’hiver! »</string>
-  <string name="snowflake_size_scale">Échelle de taille des flocons</string>
-  <string name="snowflakes_num">Nombre maximum de flocons</string>
-  <string name="title_storage_permission_required">Autorisation de stockage requise</string>
+    <string name="title_storage_permission_required">Autorisation de stockage requise</string>
   <string name="content_storage_permission_required">À partir d\'Android 8.1, l\'autorisation d’accéder au stockage est requise pour les applis voulant accéder aux fonds d\'écran. Sans cette autorisation, Lawnchair pourrait planter ou montrer des comportements inattendus.</string>
 </resources>

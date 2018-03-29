@@ -289,8 +289,7 @@
   <string name="dock_pref_summary">Alt panelinizi özelleştirin</string>
   <string name="app_drawer_pref_summary">Uygulama çekmecenizi özelleştirin</string>
   <string name="pixel_ui_pref_summary">Farklı parçaları temala</string>
-  <string name="backup_pref_title">Yedekle &amp; geri yükle</string>
-  <string name="behavior_pref_summary">Lawnchair davranışını değiştirme</string>
+    <string name="behavior_pref_summary">Lawnchair davranışını değiştirme</string>
   <string name="backup_pref_summary">Veritabanınızı ve ayarlarınızı yedekleyin\/geri yükleyin</string>
   <string name="debug_pref_summary">Simge veritabanını yeniden başlat veya yeniden oluştur</string>
   <string name="show_pixel_bar_pref_title">Pixel üst barını göster</string>
@@ -315,19 +314,14 @@
   <string name="show_hidden_pref_title">Gizli uygulamaları göster</string>
   <string name="show_hidden_pref_on">Gizli uygulamalar görünürlük ayarlarını değiştirmek için gösterilir</string>
   <string name="show_hidden_pref_off">Gizli uygulamalar görünmez</string>
-  <string name="export_db_title">Veritabanını dışa aktar</string>
-  <string name="import_db_title">Veritabanını içe aktar</string>
-  <string name="export_prefs_title">Ayarları dışa aktarın</string>
-  <string name="import_prefs_title">Ayarları içe aktarın</string>
-  <string name="notification_listener_label">Lawnchair - Bildirim rozetleri</string>
+    <string name="notification_listener_label">Lawnchair - Bildirim rozetleri</string>
   <string name="color_extraction_label">Lawnchair - Renk çıkarma</string>
   <string name="test_title">Test</string>
   <string name="visibility">Görünürlük</string>
   <string name="default_text">Varsayılan</string>
   <string name="edit_icon_reset">Sıfırla</string>
   <string name="show_top_shadow_title">Üst gölgeyi göster</string>
-  <string name="pref_cat_homescreen">Ana ekran</string>
-  <string name="theme_pref_title">Tema</string>
+    <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Açık</string>
   <string name="theme_dark">Koyu</string>
   <string name="theme_black">Siyah</string>
@@ -340,9 +334,7 @@
   <string name="pull_down_apps_search">Uygulama arama</string>
   <string name="enable_screen_rotation">Ekran döndürmeyi etkinleştir</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Geri yükle</string>
-  <string name="backup_export_title">Yedekle</string>
-  <string name="settings_export_success">Ayarlar başarıyla yedeklendi</string>
+    <string name="settings_export_success">Ayarlar başarıyla yedeklendi</string>
   <string name="db_export_success">Veritabanı başarıyla yedeklendi</string>
   <string name="settings_import_success">Ayarlar başarıyla geri yüklendi</string>
   <string name="db_import_success">Veritabanı başarıyla geri yüklendi</string>
@@ -415,12 +407,6 @@
   <string name="two_row_dock">İki satır alt panel</string>
   <string name="reset_alternative_icons_title">Alternatif ikonlar sıfırlansın mı?</string>
   <string name="reset_alternative_icons">Alternatif ikona sahip %1$d uygulamanız var, onları sıfırlamak ister misiniz?</string>
-  <string name="snowfall_title">Kar yağışı</string>
-  <string name="enable_snowfall_title">Ana ekranda kar yağışını etkinleştir</string>
-  <string name="enable_snowfall_summary">Performans sorunlarına neden olabilir.</string>
-  <string name="snowfall_enabled">\"Kar yağsın, kar yağsın, kar yağsın!\"</string>
-  <string name="snowflake_size_scale">Kar tanesi boyut ölçeği</string>
-  <string name="snowflakes_num">Maksimum kar tanesi sayısı</string>
-  <string name="title_storage_permission_required">Depolama İzni Gerekiyor</string>
+    <string name="title_storage_permission_required">Depolama İzni Gerekiyor</string>
   <string name="content_storage_permission_required">Android 8.1 ve üzeri sürümlerde, uygulamalar duvar kağıdına erişmek için depolama iznine ihtiyaç duyar. Söz konusu izin olmadan Lawnchair bozulmasına veya beklenmeyen davranışlar gösterebilir.</string>
 </resources>

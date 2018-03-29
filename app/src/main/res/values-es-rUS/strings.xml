@@ -289,8 +289,7 @@
   <string name="dock_pref_summary">Personaliza tú escritorio</string>
   <string name="app_drawer_pref_summary">Personaliza tú cajón de aplicaciones</string>
   <string name="pixel_ui_pref_summary">Diferentes elementos del tema</string>
-  <string name="backup_pref_title">Copia de seguridad &amp; restaurar</string>
-  <string name="behavior_pref_summary">Cambiar el comportamiento de Lawnchair</string>
+    <string name="behavior_pref_summary">Cambiar el comportamiento de Lawnchair</string>
   <string name="backup_pref_summary">Backup\/restaurar su configuración y la base de datos</string>
   <string name="debug_pref_summary">Reiniciar o reconstruir la base de datos de los iconos</string>
   <string name="show_pixel_bar_pref_title">Mostrar barra superior al estilo Pixel</string>
@@ -315,19 +314,14 @@
   <string name="show_hidden_pref_title">Mostrar aplicaciones ocultas</string>
   <string name="show_hidden_pref_on">Se mostrarán las aplicaciones ocultas para cambiar los ajustes de visibilidad</string>
   <string name="show_hidden_pref_off">Las aplicaciones ocultas no serán visibles</string>
-  <string name="export_db_title">Base de datos</string>
-  <string name="import_db_title">Base de datos</string>
-  <string name="export_prefs_title">Configuración</string>
-  <string name="import_prefs_title">Configuración</string>
-  <string name="notification_listener_label">Lawnchair - Insignia en notificaciones</string>
+    <string name="notification_listener_label">Lawnchair - Insignia en notificaciones</string>
   <string name="color_extraction_label">Lawnchair - Extracción de colores</string>
   <string name="test_title">Prueba</string>
   <string name="visibility">Visibilidad</string>
   <string name="default_text">Predeterminado</string>
   <string name="edit_icon_reset">Restablecer</string>
   <string name="show_top_shadow_title">Ver sombras superior de los objetos</string>
-  <string name="pref_cat_homescreen">Pantalla de inicio</string>
-  <string name="theme_pref_title">Tema</string>
+    <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Claro</string>
   <string name="theme_dark">Oscuro</string>
   <string name="theme_black">Negro</string>
@@ -340,9 +334,7 @@
   <string name="pull_down_apps_search">Buscar aplicación</string>
   <string name="enable_screen_rotation">Habilitar la rotación de la pantalla</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Restaurar</string>
-  <string name="backup_export_title">Copia de seguridad</string>
-  <string name="settings_export_success">Configuración de copia de seguridad con éxito</string>
+    <string name="settings_export_success">Configuración de copia de seguridad con éxito</string>
   <string name="db_export_success">Configuración de copia de seguridad con éxito</string>
   <string name="settings_import_success">Configuración de copia de seguridad con éxito</string>
   <string name="db_import_success">Base de datos restaurada con éxito</string>
@@ -416,12 +408,6 @@
   <string name="two_row_dock">Dos filas en el dock</string>
   <string name="reset_alternative_icons_title">¿Restablecer los iconos alternativos de las apps?</string>
   <string name="reset_alternative_icons">Tienes %1$d aplicaciones con iconos alternativos, ¿deseas restablecerlos?</string>
-  <string name="snowfall_title">Nevada</string>
-  <string name="enable_snowfall_title">Habilitar caída de nieve en la pantalla de inicio</string>
-  <string name="enable_snowfall_summary">Puede causar problemas de rendimiento.</string>
-  <string name="snowfall_enabled">\"Que nieve, que nieve, que nieve!\"</string>
-  <string name="snowflake_size_scale">Escala de tamaño del copo de nieve</string>
-  <string name="snowflakes_num">Número máximo de los copos de nieve</string>
-  <string name="title_storage_permission_required">Permiso de Almacenamiento requerido</string>
+    <string name="title_storage_permission_required">Permiso de Almacenamiento requerido</string>
   <string name="content_storage_permission_required">En 8.1 Android y superior el Permiso de Almacenamiento se requiere para que las aplicaciones puedan acceder a los fondos. Sin dicho permiso Lawnchair podría dejar de funcionar o mostrar comportamientos inesperados.</string>
 </resources>

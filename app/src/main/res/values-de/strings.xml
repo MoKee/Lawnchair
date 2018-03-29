@@ -289,8 +289,7 @@
   <string name="dock_pref_summary">Personalisiere dein Dock</string>
   <string name="app_drawer_pref_summary">Personalisiere deine App-Liste</string>
   <string name="pixel_ui_pref_summary">Passe das Design diverser Elemente an</string>
-  <string name="backup_pref_title">Sicherung &amp; Wiederherstellung</string>
-  <string name="behavior_pref_summary">Ändere das Verhalten von Lawnchair</string>
+    <string name="behavior_pref_summary">Ändere das Verhalten von Lawnchair</string>
   <string name="backup_pref_summary">Sichere deine Datenbank und die Einstellungen</string>
   <string name="debug_pref_summary">Starte oder bilde die Icon-Datenbank neu</string>
   <string name="show_pixel_bar_pref_title">Pixel-Leiste (oben) anzeigen</string>
@@ -315,19 +314,14 @@
   <string name="show_hidden_pref_title">Versteckte Apps anzeigen</string>
   <string name="show_hidden_pref_on">Versteckte Apps werden angezeigt, um Einstellungen für deren Sichtbarkeit zu ändern</string>
   <string name="show_hidden_pref_off">Versteckte Apps werden nicht angezeigt</string>
-  <string name="export_db_title">Datenbank</string>
-  <string name="import_db_title">Datenbank</string>
-  <string name="export_prefs_title">Einstellungen</string>
-  <string name="import_prefs_title">Einstellungen</string>
-  <string name="notification_listener_label">Lawnchair-Benachrichtigungsplaketten</string>
+    <string name="notification_listener_label">Lawnchair-Benachrichtigungsplaketten</string>
   <string name="color_extraction_label">Lawnchair-Farbextraktion</string>
   <string name="test_title">Test</string>
   <string name="visibility">Sichtbarkeit</string>
   <string name="default_text">Standard</string>
   <string name="edit_icon_reset">Zurücksetzen</string>
   <string name="show_top_shadow_title">Schatten oben anzeigen</string>
-  <string name="pref_cat_homescreen">Startbildschirm</string>
-  <string name="theme_pref_title">Design</string>
+    <string name="theme_pref_title">Design</string>
   <string name="theme_light">Hell</string>
   <string name="theme_dark">Dunkel</string>
   <string name="theme_black">Schwarz</string>
@@ -340,9 +334,7 @@
   <string name="pull_down_apps_search">App-Suche</string>
   <string name="enable_screen_rotation">Bildschirmrotation aktivieren</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">importieren</string>
-  <string name="backup_export_title">exportieren</string>
-  <string name="settings_export_success">Einstellungen erfolgreich gesichert</string>
+    <string name="settings_export_success">Einstellungen erfolgreich gesichert</string>
   <string name="db_export_success">Datenbank erfolgreich gesichert</string>
   <string name="settings_import_success">Einstellungen wurden erfolgreich wiederhergestellt</string>
   <string name="db_import_success">Datenbank erfolgreich wiederhergestellt</string>
@@ -416,12 +408,6 @@
   <string name="two_row_dock">Zwei-Reihen Dock</string>
   <string name="reset_alternative_icons_title">Alternative App-Icons zurücksetzen?</string>
   <string name="reset_alternative_icons">Du hast %1$d Apps mit alternativen Icons, möchtest du sie zurücksetzen?</string>
-  <string name="snowfall_title">Schnefall</string>
-  <string name="enable_snowfall_title">Schneefall auf Startbildschirm aktivieren</string>
-  <string name="enable_snowfall_summary">Kann Leistungsprobleme verursachen.</string>
-  <string name="snowfall_enabled">\"Lass es schneien, lass es schneien, lass es schneien!\"</string>
-  <string name="snowflake_size_scale">Schneeflocken Größe</string>
-  <string name="snowflakes_num">Maximale Anzahl an Schneeflocken</string>
-  <string name="title_storage_permission_required">Speicherzugriff erforderlich</string>
+    <string name="title_storage_permission_required">Speicherzugriff erforderlich</string>
   <string name="content_storage_permission_required">Auf Android 8.1 und neuer ist Speicherzugriff benötigt für Apps um auf das Hintergrundbild zuzugreifen. Ohne diese Berechtigung kann es sein das Lawnchair abstürzt oder sich unerwartet verhaltet.</string>
 </resources>

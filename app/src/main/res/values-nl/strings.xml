@@ -287,8 +287,7 @@
   <string name="dock_pref_summary">Pas je dock aan</string>
   <string name="app_drawer_pref_summary">Pas je app drawer aan</string>
   <string name="pixel_ui_pref_summary">Pixel Launcher exclusieve functies inschakelen</string>
-  <string name="backup_pref_title">Back-up</string>
-  <string name="behavior_pref_summary">Wijzig het gedrag van Lawnchair</string>
+    <string name="behavior_pref_summary">Wijzig het gedrag van Lawnchair</string>
   <string name="backup_pref_summary">Uw data en instellingen back-uppen</string>
   <string name="debug_pref_summary">Herstarten of pictogrammendata herbouwen</string>
   <string name="show_pixel_bar_pref_title">Bovenste Pixel balk tonen</string>
@@ -313,19 +312,14 @@
   <string name="show_hidden_pref_title">Toon verborgen apps</string>
   <string name="show_hidden_pref_on">Verborgen apps worden getoond om zichtbaarheidsinstellingen te wijzigen</string>
   <string name="show_hidden_pref_off">Verborgen apps worden niet getoond</string>
-  <string name="export_db_title">Exporteer database</string>
-  <string name="import_db_title">Importeer database</string>
-  <string name="export_prefs_title">Instellingen exporteren</string>
-  <string name="import_prefs_title">Instellingen importeren</string>
-  <string name="notification_listener_label">Lawnchair - Notificatiepictogrammen</string>
+    <string name="notification_listener_label">Lawnchair - Notificatiepictogrammen</string>
   <string name="color_extraction_label">Lawnchair - Kleurextractie</string>
   <string name="test_title">Test</string>
   <string name="visibility">Zichtbaar</string>
   <string name="default_text">Standaard</string>
   <string name="edit_icon_reset">Resetten</string>
   <string name="show_top_shadow_title">Schaduw weergeven</string>
-  <string name="pref_cat_homescreen">Startscherm</string>
-  <string name="theme_pref_title">Thema</string>
+    <string name="theme_pref_title">Thema</string>
   <string name="theme_light">Licht</string>
   <string name="theme_dark">Donker</string>
   <string name="theme_black">Zwart</string>
@@ -338,9 +332,7 @@
   <string name="pull_down_apps_search">Apps zoeken</string>
   <string name="enable_screen_rotation">Schermrotatie activeren</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Importeren</string>
-  <string name="backup_export_title">Exporteren</string>
-  <string name="settings_export_success">Backup van instellingen succesvol</string>
+    <string name="settings_export_success">Backup van instellingen succesvol</string>
   <string name="db_export_success">Back-up database succesvol</string>
   <string name="settings_import_success">Instellingen zijn succesvol hersteld</string>
   <string name="db_import_success">Instellingen zijn succesvol hersteld</string>
@@ -413,10 +405,4 @@
   <string name="two_row_dock">Twee rijen dok</string>
   <string name="reset_alternative_icons_title">Reset alternatieve app iconen?</string>
   <string name="reset_alternative_icons">Je hebt %1$d apps met alternatieve iconen, wilt u ze opnieuw instellen?</string>
-  <string name="snowfall_title">Sneeuwval</string>
-  <string name="enable_snowfall_title">Sneeuwval inschakelen op thuisscherm</string>
-  <string name="enable_snowfall_summary">Kan prestatieproblemen veroorzaken.</string>
-  <string name="snowfall_enabled">\"Het wordt een witte kerst!\"</string>
-  <string name="snowflake_size_scale">Sneeuwvlokgrootte aanpassen</string>
-  <string name="snowflakes_num">Hoogste aantal sneeuwvlokken</string>
 </resources>

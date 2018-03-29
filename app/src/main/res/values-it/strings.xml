@@ -289,8 +289,7 @@
   <string name="dock_pref_summary">Personalizza la tua dock</string>
   <string name="app_drawer_pref_summary">Personalizza il menù delle applicazioni</string>
   <string name="pixel_ui_pref_summary">Imposta le caratteristiche del Pixel Laucher</string>
-  <string name="backup_pref_title">Backup</string>
-  <string name="behavior_pref_summary">Cambia le gesture di Lawnchair</string>
+    <string name="behavior_pref_summary">Cambia le gesture di Lawnchair</string>
   <string name="backup_pref_summary">Backup dati e impostazioni di Lawnchair</string>
   <string name="debug_pref_summary">Resetta i cambiamenti delle icone</string>
   <string name="show_pixel_bar_pref_title">Mostra la barra Pixel in alto</string>
@@ -315,19 +314,14 @@
   <string name="show_hidden_pref_title">Mostra le app nascoste</string>
   <string name="show_hidden_pref_on">Le app nascoste verranno mostrate per cambiare le impostazioni di visibilità</string>
   <string name="show_hidden_pref_off">Le app nascoste non saranno visibili</string>
-  <string name="export_db_title">Export database</string>
-  <string name="import_db_title">Import database</string>
-  <string name="export_prefs_title">Export settings</string>
-  <string name="import_prefs_title">Import settings</string>
-  <string name="notification_listener_label">Lawnchair - Badge di notifica</string>
+    <string name="notification_listener_label">Lawnchair - Badge di notifica</string>
   <string name="color_extraction_label">Lawnchair - Estrazione del colore</string>
   <string name="test_title">Prova</string>
   <string name="visibility">Visibilità</string>
   <string name="default_text">Predefinito</string>
   <string name="edit_icon_reset">Ripristina</string>
   <string name="show_top_shadow_title">Mostra l\' ombra superiore</string>
-  <string name="pref_cat_homescreen">Schermata home</string>
-  <string name="theme_pref_title">Tema</string>
+    <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Chiaro</string>
   <string name="theme_dark">Scuro</string>
   <string name="theme_black">Nero</string>
@@ -340,9 +334,7 @@
   <string name="pull_down_apps_search">Ricerca app</string>
   <string name="enable_screen_rotation">Attiva rotazione schermo</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Importa</string>
-  <string name="backup_export_title">Esporta</string>
-  <string name="settings_export_success">Backup delle impostazioni completato</string>
+    <string name="settings_export_success">Backup delle impostazioni completato</string>
   <string name="db_export_success">Backup del database completato</string>
   <string name="settings_import_success">Ripristino delle impostazioni completato</string>
   <string name="db_import_success">Ripristino del database completato</string>
@@ -416,12 +408,6 @@
   <string name="two_row_dock">Dock su due righe</string>
   <string name="reset_alternative_icons_title">Ripristinare le app con icone alternative?</string>
   <string name="reset_alternative_icons">Hai %1$d app con icone alternative, vuoi ripristinarle?</string>
-  <string name="snowfall_title">Nevicata</string>
-  <string name="enable_snowfall_title">Abilita Nevicata sulla schermata home</string>
-  <string name="enable_snowfall_summary">Potrebbe causare problemi di prestazioni.</string>
-  <string name="snowfall_enabled">\"Let it snow, let it snow, let it snow!\"</string>
-  <string name="snowflake_size_scale">Scala di dimensione del fiocco di neve</string>
-  <string name="snowflakes_num">Numero massimo di fiocchi di neve</string>
-  <string name="title_storage_permission_required">Richiesta autorizzazione di archiviazione</string>
+    <string name="title_storage_permission_required">Richiesta autorizzazione di archiviazione</string>
   <string name="content_storage_permission_required">Su Android 8.1 e versioni successive viene richiesta l\'autorizzazione di archiviazione per consentire alle app di accedere allo sfondo. Senza il permesso, Lawnchair potrebbe bloccarsi o mostrare comportamenti imprevisti.</string>
 </resources>

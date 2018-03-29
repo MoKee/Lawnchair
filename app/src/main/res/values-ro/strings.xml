@@ -290,8 +290,7 @@
   <string name="dock_pref_summary">Personalizați docul</string>
   <string name="app_drawer_pref_summary">Personalizați lista aplicațiilor</string>
   <string name="pixel_ui_pref_summary">Activați caracteristicile exclusive ale lansatorului Pixel</string>
-  <string name="backup_pref_title">Copie de rezervă</string>
-  <string name="behavior_pref_summary">Modificați comportamentul Lawnchair</string>
+    <string name="behavior_pref_summary">Modificați comportamentul Lawnchair</string>
   <string name="backup_pref_summary">Faceţi o copie de rezervă pentru baza de date și setări</string>
   <string name="debug_pref_summary">Reporniți sau reconstruiți baza de date a pictogramelor</string>
   <string name="show_pixel_bar_pref_title">Arată bara de sus în stilul Pixel</string>
@@ -316,19 +315,14 @@
   <string name="show_hidden_pref_title">Arătați aplicațiile ascunse</string>
   <string name="show_hidden_pref_on">Aplicațiile ascunse vor fi vizibile pentru a schimba setările de vizibilitate</string>
   <string name="show_hidden_pref_off">Aplicațiile ascunse nu vor fi vizibile</string>
-  <string name="export_db_title">Bază de date</string>
-  <string name="import_db_title">Bază de date</string>
-  <string name="export_prefs_title">Setări</string>
-  <string name="import_prefs_title">Setări</string>
-  <string name="notification_listener_label">Lawnchair - insigne notificări</string>
+    <string name="notification_listener_label">Lawnchair - insigne notificări</string>
   <string name="color_extraction_label">Lawnchair - extragere de culoare</string>
   <string name="test_title">Test</string>
   <string name="visibility">Vizibilitate</string>
   <string name="default_text">Implicit</string>
   <string name="edit_icon_reset">Resetare</string>
   <string name="show_top_shadow_title">Afişare umbră de sus</string>
-  <string name="pref_cat_homescreen">Ecranul de pornire</string>
-  <string name="theme_pref_title">Temă</string>
+    <string name="theme_pref_title">Temă</string>
   <string name="theme_light">Luminoasă</string>
   <string name="theme_dark">Întunecată</string>
   <string name="theme_black">Neagră</string>
@@ -341,9 +335,7 @@
   <string name="pull_down_apps_search">Căutați aplicații</string>
   <string name="enable_screen_rotation">Activaţi rotirea ecranului</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Import</string>
-  <string name="backup_export_title">Export</string>
-  <string name="settings_export_success">Setările au fost salvate cu succes</string>
+    <string name="settings_export_success">Setările au fost salvate cu succes</string>
   <string name="db_export_success">Baza de date a fost salvată cu succes</string>
   <string name="settings_import_success">Setările au fost restabilite cu succes</string>
   <string name="db_import_success">Baza de date a fost restabilită cu succes</string>
@@ -417,12 +409,6 @@
   <string name="two_row_dock">Doc în două rânduri</string>
   <string name="reset_alternative_icons_title">Resetați pictogramele alternative ale aplicațiilor?</string>
   <string name="reset_alternative_icons">Aveți %1$d aplicații cu pictograme alternative, doriți să le resetați?</string>
-  <string name="snowfall_title">Ninsoare</string>
-  <string name="enable_snowfall_title">Activare ninsoare pe ecranul de pornire</string>
-  <string name="enable_snowfall_summary">Poate provoca probleme de performanţă.</string>
-  <string name="snowfall_enabled">\"Să ningă, să ningă, să ningă!\"</string>
-  <string name="snowflake_size_scale">Dimensiunea fulgilor de zăpadă</string>
-  <string name="snowflakes_num">Numărul maxim al fulgilor de zăpadă</string>
-  <string name="title_storage_permission_required">Permisiune stocare necesară</string>
+    <string name="title_storage_permission_required">Permisiune stocare necesară</string>
   <string name="content_storage_permission_required">În Android 8.1 şi versiuni superioare este necesară permisiunea de stocare pentru aplicații pentru a accesa imaginea de fundal. Fără permisiunea menționată Lawnchair ar putea crăpa sau prezenta comportamente neaşteptate.</string>
 </resources>

@@ -291,8 +291,7 @@
   <string name="dock_pref_summary">Spersonalizuj dock</string>
   <string name="app_drawer_pref_summary">Spersonalizuj szufladę aplikacji</string>
   <string name="pixel_ui_pref_summary">Włącz funkcje specjalne Pixel Launcher</string>
-  <string name="backup_pref_title">Kopia zapasowa</string>
-  <string name="behavior_pref_summary">Zmień zachowanie Lawnchair</string>
+    <string name="behavior_pref_summary">Zmień zachowanie Lawnchair</string>
   <string name="backup_pref_summary">Utwórz/Przywróć kopię zapasową ustawień i plików</string>
   <string name="debug_pref_summary">Zrestartuj lub przebuduj bazę ikon</string>
   <string name="show_pixel_bar_pref_title">Pokaż górny pasek Pixel</string>
@@ -317,19 +316,14 @@
   <string name="show_hidden_pref_title">Pokaż ukryte aplikacje</string>
   <string name="show_hidden_pref_on">Ukryte aplikacje będą pokazane by zmienić ustawienia widoczności</string>
   <string name="show_hidden_pref_off">Ukryte aplikacje nie będą widoczne</string>
-  <string name="export_db_title">Eksportuj bazę danych</string>
-  <string name="import_db_title">Importuj bazę danych</string>
-  <string name="export_prefs_title">Eksportuj ustawienia</string>
-  <string name="import_prefs_title">Importuj ustawienia</string>
-  <string name="notification_listener_label">Lawnchair - Odznaki powiadomień</string>
+    <string name="notification_listener_label">Lawnchair - Odznaki powiadomień</string>
   <string name="color_extraction_label">Lawnchair - Pobieranie koloru</string>
   <string name="test_title">Test</string>
   <string name="visibility">Widoczność</string>
   <string name="default_text">Domyślny</string>
   <string name="edit_icon_reset">Resetuj</string>
   <string name="show_top_shadow_title">Pokaż górny cień</string>
-  <string name="pref_cat_homescreen">Ekran główny</string>
-  <string name="theme_pref_title">Motyw</string>
+    <string name="theme_pref_title">Motyw</string>
   <string name="theme_light">Jasny</string>
   <string name="theme_dark">Ciemny</string>
   <string name="theme_black">Czarny</string>
@@ -342,9 +336,7 @@
   <string name="pull_down_apps_search">Wyszukiwanie aplikacji</string>
   <string name="enable_screen_rotation">Włącz obracanie ekranu</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Import</string>
-  <string name="backup_export_title">Export</string>
-  <string name="settings_export_success">Pomyślnie utworzono kopię zapasową ustawień</string>
+    <string name="settings_export_success">Pomyślnie utworzono kopię zapasową ustawień</string>
   <string name="db_export_success">Pomyślnie utworzono kopię zapasową bazy danych</string>
   <string name="settings_import_success">Ustawienia zostały przywrócone pomyślnie</string>
   <string name="db_import_success">Bazy danych została przywrócona pomyślnie</string>
@@ -418,12 +410,6 @@
   <string name="two_row_dock">Dock w dwóch rzędach</string>
   <string name="reset_alternative_icons_title">Zresetować ikony alternatywnych aplikacji?</string>
   <string name="reset_alternative_icons">Masz %1$d aplikacji z alternatywnymi ikonami, czy chcesz je zresetować?</string>
-  <string name="snowfall_title">Opady śniegu</string>
-  <string name="enable_snowfall_title">Włącz padający śnieg na ekranie głównym</string>
-  <string name="enable_snowfall_summary">Może powodować problemy z wydajnością.</string>
-  <string name="snowfall_enabled">\"Pada śnieg, pada śnieg ! :)\"</string>
-  <string name="snowflake_size_scale">Rozmiar płatka śniegu</string>
-  <string name="snowflakes_num">Maks. ilość płatków śniegu</string>
-  <string name="title_storage_permission_required">Wymagane uprawnienia dostępu do pamięci urządzenia</string>
+    <string name="title_storage_permission_required">Wymagane uprawnienia dostępu do pamięci urządzenia</string>
   <string name="content_storage_permission_required">W Androidzie 8.1 i wyższym uprawnienia do \"pamięci urządzenia\" są wymagane dla aplikacji z dostępem do tapet. Bez tego Lawnchair może ulec awarii lub zachowywać się niestabilnie.</string>
 </resources>

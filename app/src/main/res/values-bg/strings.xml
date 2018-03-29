@@ -246,21 +246,14 @@
   <string name="icon_pack_preference_summary">Изберете пакет икони</string>
   <string name="hotseat_show_page_indicator">Покажи индикатор на страниците</string>
   <string name="pixel_ui_pref_title">Тема</string>
-  <string name="export_db_title">База данни</string>
-  <string name="import_db_title">База данни</string>
-  <string name="export_prefs_title">Настройки</string>
-  <string name="import_prefs_title">Настройки</string>
-  <string name="default_text">Основен</string>
+    <string name="default_text">Основен</string>
   <string name="edit_icon_reset">Нулиране</string>
-  <string name="pref_cat_homescreen">Начален екран</string>
-  <string name="theme_pref_title">Тема</string>
+    <string name="theme_pref_title">Тема</string>
   <string name="theme_dark">Тъмен</string>
   <string name="theme_black">Черно</string>
   <string name="pull_down_do_nothing">Не прави нищо</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Възстанови</string>
-  <string name="backup_export_title">Архивиране</string>
-  <!-- Default units to use, either 'metric' or 'imperial' -->
+    <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Прогноза за времето</string>
   <string name="none">Без</string>
   <string name="folder">Папка</string>

@@ -235,8 +235,7 @@
   <string name="theme_pref_title">Tema</string>
   <string name="theme_black">Juodas</string>
   <!-- Import/Export Strings -->
-  <string name="backup_export_title">Atsarginė kopija</string>
-  <!-- Default units to use, either 'metric' or 'imperial' -->
+    <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Nėra</string>
   <string name="folder">Aplankalas</string>
   <string name="loading">Kraunama…</string>

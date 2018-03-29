@@ -278,8 +278,7 @@
   <string name="notification_access_pref_summary">Gi Lawnchair tilgang til varslingene dine for å aktivere denne funksjonen</string>
   <string name="behavior_pref_title">Oppførsel</string>
   <string name="debug_pref_title">Feilsøk</string>
-  <string name="backup_pref_title">Sikkerhetskopiering</string>
-  <string name="behavior_pref_summary">Endre Lawnchair</string>
+    <string name="behavior_pref_summary">Endre Lawnchair</string>
   <string name="backup_pref_summary">Sikkerhetskopiere databasen og innstillinger</string>
   <string name="debug_pref_summary">Hvile eller bygge ikonet database</string>
   <string name="show_pixel_bar_pref_title">Vis Pixel-topplinje</string>
@@ -304,19 +303,14 @@
   <string name="show_hidden_pref_title">Vis skjulte apper</string>
   <string name="show_hidden_pref_on">Skjulte apper vil bli synlige til synlighetsinnstillinger endres</string>
   <string name="show_hidden_pref_off">Skjulte apper vil ikke være synlige</string>
-  <string name="export_db_title">Export database</string>
-  <string name="import_db_title">Import database</string>
-  <string name="export_prefs_title">Export settings</string>
-  <string name="import_prefs_title">Import settings</string>
-  <string name="notification_listener_label">Lawnchair - varslingmerker</string>
+    <string name="notification_listener_label">Lawnchair - varslingmerker</string>
   <string name="color_extraction_label">Lawnchair - fargeuthenting</string>
   <string name="test_title">Test</string>
   <string name="visibility">Synlighet</string>
   <string name="default_text">Standard</string>
   <string name="edit_icon_reset">Tilbakestill</string>
   <string name="show_top_shadow_title">Vis topp-skygge</string>
-  <string name="pref_cat_homescreen">Hjemskjerm</string>
-  <string name="theme_pref_title">Tema</string>
+    <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Lyst</string>
   <string name="theme_dark">Mørkt</string>
   <string name="theme_black">Svart</string>
@@ -329,9 +323,7 @@
   <string name="pull_down_apps_search">App-søk</string>
   <string name="enable_screen_rotation">Aktiver skjermrotering</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Import</string>
-  <string name="backup_export_title">Eksporter</string>
-  <string name="imexport_no_backup_found">Ingen sikkerhetskopi funnet</string>
+    <string name="imexport_no_backup_found">Ingen sikkerhetskopi funnet</string>
   <string name="imexport_external_storage_unreadable">Ekstern lagring er ikke lesbar (gi tillatelse i innstillinger)</string>
   <string name="imexport_external_storage_unwritable">Ekstern lagring er ikke skrivbar (gi tillatelse i innstillinger)</string>
   <string name="units_metric">Metrisk</string>

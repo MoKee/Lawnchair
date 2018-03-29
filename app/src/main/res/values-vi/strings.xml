@@ -288,8 +288,7 @@
   <string name="dock_pref_summary">Tùy chỉnh thanh dock của bạn</string>
   <string name="app_drawer_pref_summary">Tùy chỉnh ngăn chứa ứng dụng của bạn</string>
   <string name="pixel_ui_pref_summary">Các yếu tố khác của chủ đề</string>
-  <string name="backup_pref_title">Sao lưu</string>
-  <string name="behavior_pref_summary">Thay đổi hành vi của Lawnchair</string>
+    <string name="behavior_pref_summary">Thay đổi hành vi của Lawnchair</string>
   <string name="backup_pref_summary">Sao lưu dữ liệu cài đặt</string>
   <string name="debug_pref_summary">Khởi động lại và khôi phục lại biểu tượng</string>
   <string name="show_pixel_bar_pref_title">Hiển thị thanh tiện ích Pixel</string>
@@ -314,19 +313,14 @@
   <string name="show_hidden_pref_title">Hiện ứng dụng ẩn</string>
   <string name="show_hidden_pref_on">Hiện các ứng dụng ẩn để thay đổi tùy chọn hiển thị</string>
   <string name="show_hidden_pref_off">Không hiện các ứng dụng ẩn</string>
-  <string name="export_db_title">Cơ sở dữ liệu</string>
-  <string name="import_db_title">Cơ sở dữ liệu</string>
-  <string name="export_prefs_title">Cài đặt</string>
-  <string name="import_prefs_title">Cài đặt</string>
-  <string name="notification_listener_label">Lawnchair - Chấm tròn thông báo</string>
+    <string name="notification_listener_label">Lawnchair - Chấm tròn thông báo</string>
   <string name="color_extraction_label">Lawnchair - màu sắc</string>
   <string name="test_title">Kiểm tra</string>
   <string name="visibility">Kiểu hiển thị</string>
   <string name="default_text">Mặc định</string>
   <string name="edit_icon_reset">Khôi phục</string>
   <string name="show_top_shadow_title">Hiển thị đổ bóng trên cùng</string>
-  <string name="pref_cat_homescreen">Màn hình chính</string>
-  <string name="theme_pref_title">Giao diện</string>
+    <string name="theme_pref_title">Giao diện</string>
   <string name="theme_light">Sáng</string>
   <string name="theme_dark">Tối</string>
   <string name="theme_black">Đen</string>
@@ -339,9 +333,7 @@
   <string name="pull_down_apps_search">Tìm kiếm ứng dụng</string>
   <string name="enable_screen_rotation">Cho phép xoay màn hình</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Nhập dữ liệu</string>
-  <string name="backup_export_title">Xuất dữ liệu</string>
-  <string name="settings_export_success">Hoàn tất thiết lập sao lưu</string>
+    <string name="settings_export_success">Hoàn tất thiết lập sao lưu</string>
   <string name="db_export_success">Hoàn tất sao lưu dữ liệu</string>
   <string name="settings_import_success">Khôi phục cài đặt hoàn tất</string>
   <string name="db_import_success">Khôi phục dữ liệu hoàn tất</string>
@@ -415,12 +407,6 @@
   <string name="two_row_dock">Thanh đế hai hàng</string>
   <string name="reset_alternative_icons_title">Đặt lại những biểu tượng ứng dụng bị thay đổi?</string>
   <string name="reset_alternative_icons">Bạn có %1$d biểu tượng ứng dụng bị thay đổi, bạn có muốn đặt lại chúng không?</string>
-  <string name="snowfall_title">Hiệu ứng tuyết rơi</string>
-  <string name="enable_snowfall_title">Bật hiệu ứng tuyết rơi</string>
-  <string name="enable_snowfall_summary">Có thể ảnh hưởng đến hiệu năng máy.</string>
-  <string name="snowfall_enabled">\'Hãy để tuyết rơi, hãy để tuyết rơi, tuyết ơi hãy rơi!\'</string>
-  <string name="snowflake_size_scale">Kích cỡ bông tuyết</string>
-  <string name="snowflakes_num">Số lượng bông tuyết</string>
-  <string name="title_storage_permission_required">Yêu cầu bộ nhớ</string>
+    <string name="title_storage_permission_required">Yêu cầu bộ nhớ</string>
   <string name="content_storage_permission_required">Trên Android 8.1 trở lên, quyền lưu trữ là bắt buộc đối với các ứng dụng để truy cập vào hình nền. Nếu không có lời cho phép Lawnchair có thể sụp đổ hoặc hiển thị hành vi bất ngờ.</string>
 </resources>

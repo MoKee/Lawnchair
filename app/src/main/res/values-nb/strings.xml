@@ -235,14 +235,11 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <string name="label_voice_search">Talesøk</string>
   <!-- About Lawnchair -->
-  <string name="export_prefs_title">Innstillinger</string>
-  <string name="import_prefs_title">Innstillinger</string>
-  <string name="default_text">Standard</string>
+    <string name="default_text">Standard</string>
   <string name="edit_icon_reset">Tilbakestill</string>
   <string name="theme_dark">Mørkt</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">Gjenopprett</string>
-  <!-- Default units to use, either 'metric' or 'imperial' -->
+    <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Ingen</string>
   <string name="icon_shape_none">Ingen</string>
   <string name="about_version">Versjon</string>

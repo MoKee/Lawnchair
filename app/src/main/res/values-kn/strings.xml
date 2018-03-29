@@ -225,14 +225,11 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-  <string name="export_prefs_title">ಸಂಯೋಜನೆಗಳು</string>
-  <string name="import_prefs_title">ಸಂಯೋಜನೆಗಳು</string>
-  <string name="default_text">ಪೂರ್ವನಿಯೋಜಿತ</string>
+    <string name="default_text">ಪೂರ್ವನಿಯೋಜಿತ</string>
   <string name="edit_icon_reset">ಮರುಹೊಂದಿಸು</string>
   <string name="theme_dark">ಗಾಢ ಹಿನ್ನೆಲೆ</string>
   <!-- Import/Export Strings -->
-  <string name="backup_import_title">ಮರುಸಂಗ್ರಹಿಸಿ</string>
-  <!-- Default units to use, either 'metric' or 'imperial' -->
+    <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ಯಾವುದೂ ಇಲ್ಲ</string>
   <string name="icon_shape_none">ಯಾವುದೂ ಇಲ್ಲ</string>
   <string name="about_version">ಆವೃತ್ತಿ</string>

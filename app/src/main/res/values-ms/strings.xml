@@ -282,14 +282,10 @@
   <string name="debug_pref_title">Debug</string>
   <string name="general_pref_summary">Sediakan desktop anda</string>
   <string name="dock_pref_summary">Sediakan dok anda</string>
-  <string name="export_prefs_title">Tetapan</string>
-  <string name="import_prefs_title">Tetapan</string>
-  <string name="default_text">Asal</string>
+    <string name="default_text">Asal</string>
   <string name="edit_icon_reset">Tetapkan semula</string>
-  <string name="pref_cat_homescreen">Skrin utama</string>
-  <!-- Import/Export Strings -->
-  <string name="backup_import_title">Pulihkan</string>
-  <!-- Default units to use, either 'metric' or 'imperial' -->
+    <!-- Import/Export Strings -->
+    <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Tiada</string>
   <string name="icon_shape_none">Tiada</string>
   <string name="about_version">Versi</string>
