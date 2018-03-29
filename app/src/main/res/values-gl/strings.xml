@@ -232,4 +232,8 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Aplicar</string>
   <string name="hide_app_reset">Restablecer</string>
+  <!-- Strings for popup dialogs -->
+  <string name="backup_location">Localización</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

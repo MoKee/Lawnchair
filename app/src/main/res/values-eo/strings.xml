@@ -146,4 +146,9 @@
   <string name="about_version">Versio</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <!-- Strings for popup dialogs -->
+  <string name="backup_location">Loko</string>
+  <string name="backup_share">Konigi</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

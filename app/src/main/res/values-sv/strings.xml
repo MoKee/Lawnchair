@@ -286,7 +286,8 @@
   <string name="dock_pref_summary">Anpassa dockan</string>
   <string name="app_drawer_pref_summary">Anpassa applistan</string>
   <string name="pixel_ui_pref_summary">Aktivera exklusiva funktioner från Översikt för Pixel</string>
-    <string name="behavior_pref_summary">Ändra beteendet för Lawnchair</string>
+  <string name="backup_pref_title">Säkerhetskopia</string>
+  <string name="behavior_pref_summary">Ändra beteendet för Lawnchair</string>
   <string name="backup_pref_summary">Säkerhetskopiera din databas och inställningar</string>
   <string name="debug_pref_summary">Starta om eller återskapa ikondatabasen</string>
   <string name="show_pixel_bar_pref_title">Visa övre Pixelrad</string>
@@ -311,13 +312,18 @@
   <string name="show_hidden_pref_title">Visa dolda appar</string>
   <string name="show_hidden_pref_on">Dolda appar kommer visas för att ändra synlighetsinställningar</string>
   <string name="show_hidden_pref_off">Dolda appar kommer inte att synas</string>
-    <string name="notification_listener_label">Lawnchair - aviseringsprickar</string>
+  <string name="export_db_title">Export database</string>
+  <string name="import_db_title">Import database</string>
+  <string name="export_prefs_title">Export settings</string>
+  <string name="import_prefs_title">Import settings</string>
+  <string name="notification_listener_label">Lawnchair - aviseringsprickar</string>
   <string name="color_extraction_label">Lawnchair - Färgutvinning</string>
   <string name="visibility">Synlighet</string>
   <string name="default_text">Standard</string>
   <string name="edit_icon_reset">Återställ</string>
   <string name="show_top_shadow_title">Visa övre skugga</string>
-    <string name="theme_pref_title">Tema</string>
+  <string name="pref_category_homescreen">Hemskärm</string>
+  <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Ljus</string>
   <string name="theme_dark">Mörk</string>
   <string name="theme_black">Svart</string>
@@ -330,7 +336,9 @@
   <string name="pull_down_apps_search">Sök appar</string>
   <string name="enable_screen_rotation">Aktivera skärmrotation</string>
   <!-- Import/Export Strings -->
-    <string name="settings_export_success">Inställningar säkerhetskopierade framgångsrikt</string>
+  <string name="backup_import_title">Importera</string>
+  <string name="backup_export_title">Exportera</string>
+  <string name="settings_export_success">Inställningar säkerhetskopierade framgångsrikt</string>
   <string name="db_export_success">Databas säkerhetskopierad framgångsrikt</string>
   <string name="settings_import_success">Inställningar återställd framgångsrikt</string>
   <string name="db_import_success">Databas återställd framgångsrikt</string>
@@ -400,4 +408,13 @@
   <string name="two_row_dock">Tvåradig docka</string>
   <string name="reset_alternative_icons_title">Återställ alternativa appikoner?</string>
   <string name="reset_alternative_icons">Du har %1$d appar med alternativa ikoner, vill du återställa dem?</string>
+  <!-- Strings for popup dialogs -->
+  <string name="restore_backup">Återställ</string>
+  <string name="backup_name">Namn</string>
+  <string name="backup_location">Plats</string>
+  <string name="backup_settings">Inställningar</string>
+  <string name="backup_wallpaper">Bakgrund</string>
+  <string name="backup_share">Dela</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

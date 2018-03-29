@@ -238,4 +238,9 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Ашиглах</string>
   <string name="hide_app_reset">Бүгдийг цэвэрлэх</string>
+  <!-- Strings for popup dialogs -->
+  <string name="backup_wallpaper">Ханын зураг</string>
+  <string name="backup_share">Хуваалцах</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

@@ -176,4 +176,7 @@
   <string name="about_changelog">Changelog</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+  <!-- Strings for popup dialogs -->
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

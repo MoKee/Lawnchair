@@ -149,7 +149,9 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
-    <string name="edit_icon_reset">ئەسلىگە قايتۇر</string>
+  <string name="export_prefs_title">تەڭشەش</string>
+  <string name="import_prefs_title">تەڭشەش</string>
+  <string name="edit_icon_reset">ئەسلىگە قايتۇر</string>
   <string name="theme_dark">قاراڭغۇ</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
@@ -160,4 +162,11 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">قوللان</string>
   <string name="hide_app_reset">ئەسلىگە قايتۇر</string>
+  <!-- Strings for popup dialogs -->
+  <string name="backup_location">ئورنى</string>
+  <string name="backup_settings">تەڭشەش</string>
+  <string name="backup_wallpaper">تام قەغىزى</string>
+  <string name="backup_share">ھەمبەھىر</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

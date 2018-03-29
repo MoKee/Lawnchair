@@ -241,4 +241,9 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Aplikatu</string>
   <string name="hide_app_reset">Berrezarri</string>
+  <!-- Strings for popup dialogs -->
+  <string name="backup_name">Izena</string>
+  <string name="backup_location">Kokalekua</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

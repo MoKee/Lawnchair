@@ -160,4 +160,10 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Applizéieren</string>
   <string name="hide_app_reset">Zrécksetzen</string>
+  <!-- Strings for popup dialogs -->
+  <string name="backup_location">Standuert</string>
+  <string name="backup_wallpaper">Hannergrondbild</string>
+  <string name="backup_share">Deelen</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

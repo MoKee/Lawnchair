@@ -282,10 +282,14 @@
   <string name="debug_pref_title">Debug</string>
   <string name="general_pref_summary">Sediakan desktop anda</string>
   <string name="dock_pref_summary">Sediakan dok anda</string>
-    <string name="default_text">Asal</string>
+  <string name="export_prefs_title">Tetapan</string>
+  <string name="import_prefs_title">Tetapan</string>
+  <string name="default_text">Asal</string>
   <string name="edit_icon_reset">Tetapkan semula</string>
-    <!-- Import/Export Strings -->
-    <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="pref_category_homescreen">Skrin utama</string>
+  <!-- Import/Export Strings -->
+  <string name="backup_import_title">Pulihkan</string>
+  <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Tiada</string>
   <string name="icon_shape_none">Tiada</string>
   <string name="about_version">Versi</string>
@@ -294,4 +298,12 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Gunakan</string>
   <string name="hide_app_reset">Tetapkan semula</string>
+  <!-- Strings for popup dialogs -->
+  <string name="restore_backup">Pulihkan</string>
+  <string name="backup_location">Lokasi</string>
+  <string name="backup_settings">Tetapan</string>
+  <string name="backup_wallpaper">Kertas dinding</string>
+  <string name="backup_share">Kongsi</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

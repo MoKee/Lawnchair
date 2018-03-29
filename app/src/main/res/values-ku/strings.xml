@@ -156,4 +156,10 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">جێبه‌جێکردن</string>
   <string name="hide_app_reset">ڕێکخستنەوە</string>
+  <!-- Strings for popup dialogs -->
+  <string name="backup_location">شوێن</string>
+  <string name="backup_wallpaper">دیوارپۆش</string>
+  <string name="backup_share">به‌شداری پێکردن</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

@@ -291,7 +291,8 @@
   <string name="dock_pref_summary">Наладзіць док-панэль</string>
   <string name="app_drawer_pref_summary">Налада свайго спісу праграм</string>
   <string name="pixel_ui_pref_summary">Розныя элементы тэм</string>
-    <string name="behavior_pref_summary">Змяніць паводзіны Lawnchair</string>
+  <string name="backup_pref_title">Рэзервовае капіяванне і аднаўленне</string>
+  <string name="behavior_pref_summary">Змяніць паводзіны Lawnchair</string>
   <string name="backup_pref_summary">Рэзервовыя копіі\/аднаўленне налад і базы дадзеных</string>
   <string name="debug_pref_summary">Перазагрузка або аднаўленне базы дадзеных значкоў</string>
   <string name="show_pixel_bar_pref_title">Паказаць радок пошуку</string>
@@ -316,14 +317,19 @@
   <string name="show_hidden_pref_title">Паказваць схаваныя праграмы</string>
   <string name="show_hidden_pref_on">Адлюстровываюцца схаваныя праграмы для змены налад бачнасці</string>
   <string name="show_hidden_pref_off">Схаваныя праграмы не будуць адлюстроўвацца</string>
-    <string name="notification_listener_label">Lawnchair - значкі апавяшчэнняў</string>
+  <string name="export_db_title">База дадзеных</string>
+  <string name="import_db_title">База дадзеных</string>
+  <string name="export_prefs_title">Налады</string>
+  <string name="import_prefs_title">Налады</string>
+  <string name="notification_listener_label">Lawnchair - значкі апавяшчэнняў</string>
   <string name="color_extraction_label">Lawnchair - выманне колеру</string>
   <string name="test_title">Тэст</string>
   <string name="visibility">Бачнасць</string>
   <string name="default_text">Па змаўчанні</string>
   <string name="edit_icon_reset">Скінуць</string>
   <string name="show_top_shadow_title">Паказваць цень зверху</string>
-    <string name="theme_pref_title">Тэма</string>
+  <string name="pref_category_homescreen">Хатні экран</string>
+  <string name="theme_pref_title">Тэма</string>
   <string name="theme_light">Светлая</string>
   <string name="theme_dark">Цемра</string>
   <string name="theme_black">Чорны</string>
@@ -336,7 +342,9 @@
   <string name="pull_down_apps_search">Пошук праграм</string>
   <string name="enable_screen_rotation">Уключыць кручэнне экрана</string>
   <!-- Import/Export Strings -->
-    <string name="settings_export_success">Налады рэзервовага капіявання створаны</string>
+  <string name="backup_import_title">Аднавіць з рэзервовай копіі</string>
+  <string name="backup_export_title">Рэзервовая копія</string>
+  <string name="settings_export_success">Налады рэзервовага капіявання створаны</string>
   <string name="db_export_success">Налады базы дадзеных створаны</string>
   <string name="settings_import_success">Налады паспяхова адноўлены</string>
   <string name="db_import_success">База дадзеных паспяхова адноўлена</string>
@@ -410,6 +418,15 @@
   <string name="two_row_dock">Дзьвухрадковы док-бар</string>
   <string name="reset_alternative_icons_title">Скінуць альтэрнатыўныя значкі праграм?</string>
   <string name="reset_alternative_icons">У вас %1$d праграм з альтэрнатыўнымі значкамі, хочаце скінуць іх?</string>
-    <string name="title_storage_permission_required">Патрэбны дазвол на доступ да памяці прылады</string>
+  <!-- Strings for popup dialogs -->
+  <string name="title_storage_permission_required">Патрэбны дазвол на доступ да памяці прылады</string>
   <string name="content_storage_permission_required">На Android 8.1 і вышэй для доступу да шпалер патрабуецца дазвол на захоўванне. Без гэтага дазволу Lawnchair можа зваліцца або паказаць нечаканае паводзіны.</string>
+  <string name="restore_backup">Аднавіць з рэзервовай копіі</string>
+  <string name="backup_name">Імя</string>
+  <string name="backup_location">Месцазнаходжанне</string>
+  <string name="backup_settings">Налады</string>
+  <string name="backup_wallpaper">Шпалеры</string>
+  <string name="backup_share">Падзяліцца</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

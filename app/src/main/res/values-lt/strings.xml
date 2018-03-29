@@ -235,7 +235,8 @@
   <string name="theme_pref_title">Tema</string>
   <string name="theme_black">Juodas</string>
   <!-- Import/Export Strings -->
-    <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="backup_export_title">Atsarginė kopija</string>
+  <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Nėra</string>
   <string name="folder">Aplankalas</string>
   <string name="loading">Kraunama…</string>
@@ -245,4 +246,11 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Taikyti</string>
   <string name="hide_app_reset">Nust. iš naujo</string>
+  <!-- Strings for popup dialogs -->
+  <string name="backup_name">Pavadinimas: </string>
+  <string name="backup_location">Vietovė</string>
+  <string name="backup_wallpaper">Darbalaukio fonas</string>
+  <string name="backup_share">Bendrinti</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

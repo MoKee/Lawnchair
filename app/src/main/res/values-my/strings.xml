@@ -228,7 +228,8 @@
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">ပြန်လည်စတင်စေရန်</string>
   <!-- Import/Export Strings -->
-    <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="backup_import_title">မူလအခြေအနေ</string>
+  <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">တစ်ခုမှမဟုတ်ပါ</string>
   <string name="icon_shape_none">တစ်ခုမှမဟုတ်ပါ</string>
   <string name="about_version">ဗားရှင်း</string>
@@ -236,4 +237,8 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">လုပ်ဆောင်ရန်</string>
   <string name="hide_app_reset">ပြန်လည်စတင်စေရန်</string>
+  <!-- Strings for popup dialogs -->
+  <string name="restore_backup">မူလအခြေအနေ</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

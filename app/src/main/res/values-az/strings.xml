@@ -235,7 +235,8 @@
   <string name="default_text">Susmaya görə</string>
   <string name="edit_icon_reset">Sıfırla</string>
   <!-- Import/Export Strings -->
-    <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="backup_import_title">Bərpa et</string>
+  <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Heç biri</string>
   <string name="icon_shape_none">Heç biri</string>
   <string name="about_version">Versiya</string>
@@ -244,4 +245,11 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Tətbiq et</string>
   <string name="hide_app_reset">Sıfırla</string>
+  <!-- Strings for popup dialogs -->
+  <string name="restore_backup">Bərpa et</string>
+  <string name="backup_location">Yer</string>
+  <string name="backup_wallpaper">Divar kağızı</string>
+  <string name="backup_share">Paylaşın</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

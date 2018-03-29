@@ -225,7 +225,8 @@
   <string name="edit_icon_reset">రీసెట్ చేయి</string>
   <string name="theme_dark">ముదురు రంగు</string>
   <!-- Import/Export Strings -->
-    <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="backup_import_title">పునరుద్ధరించు</string>
+  <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ఏదీ వద్దు</string>
   <string name="icon_shape_none">ఏదీ వద్దు</string>
   <string name="about_version">సంస్కరణ</string>
@@ -233,4 +234,9 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">వర్తింపజేయి</string>
   <string name="hide_app_reset">రీసెట్ చేయి</string>
+  <!-- Strings for popup dialogs -->
+  <string name="restore_backup">పునరుద్ధరించు</string>
+  <string name="backup_location">&quot;స్థానం&quot;</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

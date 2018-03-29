@@ -291,7 +291,8 @@
   <string name="dock_pref_summary">Prispôsobiť dok</string>
   <string name="app_drawer_pref_summary">Prispôsobiť ponuku aplikácií</string>
   <string name="pixel_ui_pref_summary">Povoliť exkluzívne funkcie spúšťača Pixel</string>
-    <string name="behavior_pref_summary">Zmeniť správanie Lawnchair</string>
+  <string name="backup_pref_title">Zálohovať a obnoviť</string>
+  <string name="behavior_pref_summary">Zmeniť správanie Lawnchair</string>
   <string name="backup_pref_summary">Zálohovať\/Obnoviť vaše nastavenia a databázu</string>
   <string name="debug_pref_summary">Reštartovať nebo znovu vytvoriť ikonu databázy</string>
   <string name="show_pixel_bar_pref_title">Zobraziť zaokrúhlený vyhľadávací panel Pixel</string>
@@ -316,14 +317,19 @@
   <string name="show_hidden_pref_title">Zobraziť skryté aplikácie</string>
   <string name="show_hidden_pref_on">Ukázať skryté aplikácie, pre zmenu nastavenia viditeľnosti</string>
   <string name="show_hidden_pref_off">Skryté aplikácie nebudú zobrazené</string>
-    <string name="notification_listener_label">Lawnchair - Indikátor upozornení</string>
+  <string name="export_db_title">Databáza</string>
+  <string name="import_db_title">Databáza</string>
+  <string name="export_prefs_title">Nastavenia</string>
+  <string name="import_prefs_title">Nastavenia</string>
+  <string name="notification_listener_label">Lawnchair - Indikátor upozornení</string>
   <string name="color_extraction_label">Lawnchair - Extrakcia farieb</string>
   <string name="test_title">Test</string>
   <string name="visibility">Viditeľnosť</string>
   <string name="default_text">Predvolené</string>
   <string name="edit_icon_reset">Resetovať</string>
   <string name="show_top_shadow_title">Zobraziť horný tieň</string>
-    <string name="theme_pref_title">Téma vzhľadu</string>
+  <string name="pref_category_homescreen">Domovská obrazovka</string>
+  <string name="theme_pref_title">Téma vzhľadu</string>
   <string name="theme_light">Svetlá</string>
   <string name="theme_dark">Tmavá</string>
   <string name="theme_black">Čierna</string>
@@ -336,7 +342,9 @@
   <string name="pull_down_apps_search">Vyhľadávanie v aplikáciách</string>
   <string name="enable_screen_rotation">Povoliť otáčanie obrazovky</string>
   <!-- Import/Export Strings -->
-    <string name="settings_export_success">Nastavenia boli úspešne zálohované</string>
+  <string name="backup_import_title">Obnovenie</string>
+  <string name="backup_export_title">Záloha</string>
+  <string name="settings_export_success">Nastavenia boli úspešne zálohované</string>
   <string name="db_export_success">Databáza bola úspešne zálohovaná</string>
   <string name="settings_import_success">Nastavenia boli úspešne obnovené</string>
   <string name="db_import_success">Databáza bola úspešne obnovená</string>
@@ -410,6 +418,15 @@
   <string name="two_row_dock">Dok v dvoch riadkoch</string>
   <string name="reset_alternative_icons_title">Obnoviť alternatívne ikony aplikácií?</string>
   <string name="reset_alternative_icons">Máte %1$d aplikácií s alternativnymi ikonami, chcete ich obnoviž?</string>
-    <string name="title_storage_permission_required">Požadované povolenie na úložisko</string>
+  <!-- Strings for popup dialogs -->
+  <string name="title_storage_permission_required">Požadované povolenie na úložisko</string>
   <string name="content_storage_permission_required">Na Androide 8.1 a vyššom sa pre aplikáciu pri prístupe k tapete vyžaduje povolenie k úložisku. Bez udelenia povolenia Lawnchair môže spadnúť alebo vykazovať neočakávané správanie.</string>
+  <string name="restore_backup">Obnoviť</string>
+  <string name="backup_name">Meno</string>
+  <string name="backup_location">Miesto</string>
+  <string name="backup_settings">Nastavenia</string>
+  <string name="backup_wallpaper">Tapeta</string>
+  <string name="backup_share">Zdieľať</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

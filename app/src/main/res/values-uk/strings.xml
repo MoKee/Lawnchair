@@ -306,14 +306,19 @@
   <string name="show_hidden_pref_title">Відобразити приховані додатки</string>
   <string name="show_hidden_pref_on">Приховані програми буде показано для зміни параметрів видимості</string>
   <string name="show_hidden_pref_off">Приховані програми не будуть показані</string>
-    <string name="notification_listener_label">Lawnchair - крапки сповіщень</string>
+  <string name="export_db_title">База даних</string>
+  <string name="import_db_title">База даних</string>
+  <string name="export_prefs_title">Налаштування</string>
+  <string name="import_prefs_title">Налаштування</string>
+  <string name="notification_listener_label">Lawnchair - крапки сповіщень</string>
   <string name="color_extraction_label">Lawnchair - вилучення кольору</string>
   <string name="test_title">Тест</string>
   <string name="visibility">Видимість</string>
   <string name="default_text">За замовчанням</string>
   <string name="edit_icon_reset">Скинути</string>
   <string name="show_top_shadow_title">Показувати тінь зверху</string>
-    <string name="theme_pref_title">Тема оформлення</string>
+  <string name="pref_category_homescreen">Домашній екран</string>
+  <string name="theme_pref_title">Тема оформлення</string>
   <string name="theme_light">Світла</string>
   <string name="theme_dark">Темна</string>
   <string name="theme_black">Чорна</string>
@@ -326,7 +331,9 @@
   <string name="pull_down_apps_search">Пошук додатків</string>
   <string name="enable_screen_rotation">Увімкнути обертання екрана</string>
   <!-- Import/Export Strings -->
-    <string name="imexport_no_backup_found">Резервну копію не знайдено</string>
+  <string name="backup_import_title">Відновити</string>
+  <string name="backup_export_title">Резервна копія</string>
+  <string name="imexport_no_backup_found">Резервну копію не знайдено</string>
   <string name="imexport_external_storage_unreadable">Зовнішне сховище недоступно до читання (надати дозвіл в налаштуваннях)</string>
   <string name="units_metric">Метрична</string>
   <string name="units_imperial">Англійська (Імперьска) система</string>
@@ -382,4 +389,13 @@
   <string name="set_default_launcher">Встановлення лаунчера за замовчуванням</string>
   <string name="hide_app_apply">Застосувати</string>
   <string name="hide_app_reset">Скинути</string>
+  <!-- Strings for popup dialogs -->
+  <string name="restore_backup">Відновити</string>
+  <string name="backup_name">Ім\'я: </string>
+  <string name="backup_location">Розташування</string>
+  <string name="backup_settings">Налаштування</string>
+  <string name="backup_wallpaper">Шпалери</string>
+  <string name="backup_share">Поділитися</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

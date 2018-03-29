@@ -228,9 +228,12 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="about_title">About</string>
-    <string name="default_text">Default</string>
+  <string name="export_prefs_title">Settings</string>
+  <string name="import_prefs_title">Settings</string>
+  <string name="default_text">Default</string>
   <string name="edit_icon_reset">পুনরায় সেট করুন</string>
-    <!-- Import/Export Strings -->
+  <string name="pref_category_homescreen">Home screen</string>
+  <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">কোনো কিছুই নয়</string>
   <string name="icon_shape_none">কোনো কিছুই নয়</string>
@@ -240,4 +243,8 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">প্রয়োগ করুন</string>
   <string name="hide_app_reset">পুনরায় সেট করুন</string>
+  <!-- Strings for popup dialogs -->
+  <string name="backup_settings">Settings</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

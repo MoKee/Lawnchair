@@ -244,4 +244,10 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Lietot</string>
   <string name="hide_app_reset">Atiestatīt</string>
+  <!-- Strings for popup dialogs -->
+  <string name="backup_location">Atrašanās vieta</string>
+  <string name="backup_wallpaper">Fona tapete</string>
+  <string name="backup_share">Dalies</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

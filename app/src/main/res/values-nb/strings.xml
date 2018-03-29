@@ -235,11 +235,14 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <string name="label_voice_search">Talesøk</string>
   <!-- About Lawnchair -->
-    <string name="default_text">Standard</string>
+  <string name="export_prefs_title">Innstillinger</string>
+  <string name="import_prefs_title">Innstillinger</string>
+  <string name="default_text">Standard</string>
   <string name="edit_icon_reset">Tilbakestill</string>
   <string name="theme_dark">Mørkt</string>
   <!-- Import/Export Strings -->
-    <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="backup_import_title">Gjenopprett</string>
+  <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Ingen</string>
   <string name="icon_shape_none">Ingen</string>
   <string name="about_version">Versjon</string>
@@ -248,4 +251,13 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Bruk</string>
   <string name="hide_app_reset">Tilbakestill</string>
+  <!-- Strings for popup dialogs -->
+  <string name="restore_backup">Gjenopprett</string>
+  <string name="backup_name">Navn</string>
+  <string name="backup_location">Posisjon</string>
+  <string name="backup_settings">Innstillinger</string>
+  <string name="backup_wallpaper">Bakgrunnsbilde</string>
+  <string name="backup_share">Del</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

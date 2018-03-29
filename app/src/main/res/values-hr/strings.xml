@@ -244,4 +244,11 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Primijeni</string>
   <string name="hide_app_reset">Poništi</string>
+  <!-- Strings for popup dialogs -->
+  <string name="backup_name">Naziv</string>
+  <string name="backup_location">Lokacija</string>
+  <string name="backup_wallpaper">Pozadinska slika</string>
+  <string name="backup_share">Podijeli</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

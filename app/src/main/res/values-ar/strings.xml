@@ -293,6 +293,7 @@
   <string name="dock_pref_summary">تخصيص الإرساء الخاص بك</string>
   <string name="app_drawer_pref_summary">تخصيص درج التطبيقات الخاص بك</string>
   <string name="pixel_ui_pref_summary">تفعيل ميزات واجهة بكسل الخاصة</string>
+  <string name="backup_pref_title">نسخ احتياطي</string>
   <string name="behavior_pref_summary">تغيير سلوك Lawnchair</string>
   <string name="backup_pref_summary">النسخ الاحتياطي قاعدة البيانات والإعدادات الخاصة بك</string>
   <string name="debug_pref_summary">إعادة تشغيل أو إعادة إنشاء رمز قاعدة البيانات</string>
@@ -318,6 +319,10 @@
   <string name="show_hidden_pref_title">أظهار التطبيقات المخفية</string>
   <string name="show_hidden_pref_on">التطبيقات المخفية سوف تظهر لتغيير إعدادات الوضوح</string>
   <string name="show_hidden_pref_off">التطبيقات المخفية لن تكون مرئية</string>
+  <string name="export_db_title">تصدير قاعدة البيانات</string>
+  <string name="import_db_title">إستيراد قاعدة البيانات</string>
+  <string name="export_prefs_title">تصدير الإعدادات</string>
+  <string name="import_prefs_title">إستيراد الإعدادات</string>
   <string name="notification_listener_label">Lawnchair - علامات الإشعارات</string>
   <string name="color_extraction_label">لاونتشير - استخراج اللون</string>
   <string name="test_title">اختبار</string>
@@ -325,6 +330,7 @@
   <string name="default_text">الافتراضي</string>
   <string name="edit_icon_reset">إعادة ضبط</string>
   <string name="show_top_shadow_title">إظهار الظل العلوي</string>
+  <string name="pref_category_homescreen">الشاشة الرئيسية</string>
   <string name="theme_pref_title">السمة</string>
   <string name="theme_light">فاتح</string>
   <string name="theme_dark">داكن</string>
@@ -338,6 +344,8 @@
   <string name="pull_down_apps_search">البحث عن تطبيقات</string>
   <string name="enable_screen_rotation">تمكين تدوير الشاشة</string>
   <!-- Import/Export Strings -->
+  <string name="backup_import_title">استيراد</string>
+  <string name="backup_export_title">استخراج</string>
   <string name="settings_export_success">تم النسخ الاحتياطي للإعدادات بنجاح</string>
   <string name="db_export_success">تم النسخ الإحتياطي لقاعدة البيانات بنجاح</string>
   <string name="settings_import_success">تمت استعادة الإعدادات بنجاح</string>
@@ -412,6 +420,15 @@
   <string name="two_row_dock">إرساء ذو صفين</string>
   <string name="reset_alternative_icons_title">إعادة تعيين أيقونات التطبيقات البديلة؟</string>
   <string name="reset_alternative_icons">لديك %1$d برموز بديلة, هل تريد إعادة تعيينها؟</string>
+  <!-- Strings for popup dialogs -->
   <string name="title_storage_permission_required">الإذن مطلوب للتخزين</string>
   <string name="content_storage_permission_required">على اندرويد 8.1 وما فوق إذن التخزين مطلوب للتطبيقات للوصول إلى ورق الجدران. دون إذن قد تظهر سلوكيات غير متوقعة.</string>
+  <string name="restore_backup">استعادة</string>
+  <string name="backup_name">الإسم:</string>
+  <string name="backup_location">الموقع</string>
+  <string name="backup_settings">الإعدادات</string>
+  <string name="backup_wallpaper">الخلفية</string>
+  <string name="backup_share">مشاركة</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

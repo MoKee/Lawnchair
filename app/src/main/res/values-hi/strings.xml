@@ -286,7 +286,8 @@
   <string name="dock_pref_summary">अपना डॉक कस्टमाइज़ करें</string>
   <string name="app_drawer_pref_summary">अपना एप्लिकेशन ड्रॉअर कस्टमाइज़ करें</string>
   <string name="pixel_ui_pref_summary">पिक्सेल लांचर विशेष सुविधाओं को प्रारंभ करें</string>
-    <string name="behavior_pref_summary">Lawnchair के व्यवहार में परिवर्तन</string>
+  <string name="backup_pref_title">बैकअप</string>
+  <string name="behavior_pref_summary">Lawnchair के व्यवहार में परिवर्तन</string>
   <string name="backup_pref_summary">बैकअप आपके डेटाबेस और सेटिंग्स</string>
   <string name="debug_pref_summary">पुनरारंभ करें या चिह्न डेटाबेस का पुन: निर्माण</string>
   <string name="show_pixel_bar_pref_title">पिक्सेल बार दिखाएँ</string>
@@ -311,14 +312,18 @@
   <string name="show_hidden_pref_title">छुपे हुए ऐप्स दिखाएँ</string>
   <string name="show_hidden_pref_on">दृश्यता सेटिंग्स परिवर्तित करने के लिए छुपे हुए ऐप्स दिखाएँ</string>
   <string name="show_hidden_pref_off">छुपे हुए ऐप्स न दिखाएँ</string>
-    <string name="notification_listener_label">लोवन्चैर - अधिसूचना बैज</string>
+  <string name="export_db_title">डेटाबेस</string>
+  <string name="import_db_title">डेटाबेस</string>
+  <string name="export_prefs_title">सेटिंग्स</string>
+  <string name="import_prefs_title">सेटिंग्स</string>
+  <string name="notification_listener_label">लोवन्चैर - अधिसूचना बैज</string>
   <string name="color_extraction_label">लोवन्चैर - रंग निष्कर्षण</string>
   <string name="test_title">परीक्षण</string>
   <string name="visibility">दृश्यता</string>
   <string name="default_text">पूर्व निर्धारित</string>
   <string name="edit_icon_reset">रीसेट करें</string>
   <string name="show_top_shadow_title">शीर्ष छाया दिखाएँ</string>
-    <string name="theme_pref_title">थीम</string>
+  <string name="theme_pref_title">थीम</string>
   <string name="theme_light">हल्का</string>
   <string name="theme_dark">डार्क</string>
   <string name="theme_black">काली</string>
@@ -331,7 +336,9 @@
   <string name="pull_down_apps_search">ऐप्स खोजें</string>
   <string name="enable_screen_rotation">स्क्रीन रोटेशन सक्षम करें</string>
   <!-- Import/Export Strings -->
-    <string name="settings_export_success">सेटिंग्स निर्यात सफलता</string>
+  <string name="backup_import_title">आयात</string>
+  <string name="backup_export_title">निर्यात</string>
+  <string name="settings_export_success">सेटिंग्स निर्यात सफलता</string>
   <string name="db_export_success">डेटाबेस सफलतापूर्वक बैकअप किया गया</string>
   <string name="settings_import_success">सेटिंग्स सफलतापूर्वक पुनर्स्थापित की गई</string>
   <string name="db_import_success">डेटाबेस सफलतापूर्वक पुनर्स्थापित किया गया</string>
@@ -403,4 +410,10 @@
   <string name="two_row_dock">दो पंक्ति डॉक</string>
   <string name="reset_alternative_icons_title">वैकल्पिक एप्लिकेशन आइकन रीसेट करें?</string>
   <string name="reset_alternative_icons">आपके पास वैकल्पिक आइकन के साथ%1$d ऐप्स हैं, क्या आप उन्हें रीसेट करना चाहते हैं?</string>
+  <!-- Strings for popup dialogs -->
+  <string name="backup_location">स्थान</string>
+  <string name="backup_wallpaper">वॉलपेपर</string>
+  <string name="backup_share">साझा करें</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

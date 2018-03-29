@@ -294,7 +294,8 @@
   <string name="dock_pref_summary">Personalize sua barra de ícones</string>
   <string name="app_drawer_pref_summary">Personalizar sua gaveta de aplicativos</string>
   <string name="pixel_ui_pref_summary">Habilitar funções exclusivas do Pixel Launcher</string>
-    <string name="behavior_pref_summary">Mudar o comportamento do Lawnchair</string>
+  <string name="backup_pref_title">Backup &amp; restauração</string>
+  <string name="behavior_pref_summary">Mudar o comportamento do Lawnchair</string>
   <string name="backup_pref_summary">Backup\/restaurar suas configurações e banco de dados</string>
   <string name="debug_pref_summary">Reiniciar ou reconstruir o banco de dados dos ícones</string>
   <string name="show_pixel_bar_pref_title">Mostrar a barra superior do Pixel</string>
@@ -319,14 +320,19 @@
   <string name="show_hidden_pref_title">Mostrar aplicativos ocultos</string>
   <string name="show_hidden_pref_on">Aplicativos ocultos serão mostrados para alterar as configurações de visibilidade</string>
   <string name="show_hidden_pref_off">Aplicativos ocultos não serão mostrados</string>
-    <string name="notification_listener_label">Lawnchair - Notificações dinâmicas</string>
+  <string name="export_db_title">Banco de dados</string>
+  <string name="import_db_title">Banco de dados</string>
+  <string name="export_prefs_title">Configurações</string>
+  <string name="import_prefs_title">Configurações</string>
+  <string name="notification_listener_label">Lawnchair - Notificações dinâmicas</string>
   <string name="color_extraction_label">Lawnchair - Extração de cor</string>
   <string name="test_title">Teste</string>
   <string name="visibility">Visibilidade</string>
   <string name="default_text">Padrão</string>
   <string name="edit_icon_reset">Restaurar</string>
   <string name="show_top_shadow_title">Mostrar sombras de itens</string>
-    <string name="theme_pref_title">Tema</string>
+  <string name="pref_category_homescreen">Tela Inicial</string>
+  <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Claro</string>
   <string name="theme_dark">Escuro</string>
   <string name="theme_black">Preto</string>
@@ -339,7 +345,9 @@
   <string name="pull_down_apps_search">Pesquisa de aplicativos</string>
   <string name="enable_screen_rotation">Ativar a rotação de tela</string>
   <!-- Import/Export Strings -->
-    <string name="settings_export_success">Backup de configurações realizado com sucesso</string>
+  <string name="backup_import_title">Restaurar</string>
+  <string name="backup_export_title">Cópia de segurança</string>
+  <string name="settings_export_success">Backup de configurações realizado com sucesso</string>
   <string name="db_export_success">Backup de banco de dados realizado com sucesso</string>
   <string name="settings_import_success">Restauração de configurações realizado com sucesso</string>
   <string name="db_import_success">Restauração de banco de dados realizado com sucesso</string>
@@ -412,6 +420,15 @@
   <string name="two_row_dock">Barra de ícones com 2 linhas</string>
   <string name="reset_alternative_icons_title">Restaurar os ícones do aplicativo?</string>
   <string name="reset_alternative_icons">Você tem %1$d aplicativos com ícones alternativos, quer restaurá-los?</string>
-    <string name="title_storage_permission_required">Permissão de armazenamento recusada</string>
+  <!-- Strings for popup dialogs -->
+  <string name="title_storage_permission_required">Permissão de armazenamento recusada</string>
   <string name="content_storage_permission_required">No Android 8.1 e acima, a permissão de armazenamento é necessária para que os aplicativos acessem o papel de parede. Sem a permissão indicada, a Lawchair pode falhar ou mostrar comportamentos inesperados.</string>
+  <string name="restore_backup">Restaurar</string>
+  <string name="backup_name">Nome</string>
+  <string name="backup_location">Localização</string>
+  <string name="backup_settings">Configurações</string>
+  <string name="backup_wallpaper">Papel de Parede</string>
+  <string name="backup_share">Compartilhar</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

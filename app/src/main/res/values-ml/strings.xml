@@ -227,7 +227,8 @@
   <string name="edit_icon_reset">പുനഃസജ്ജമാക്കുക</string>
   <string name="theme_dark">ഇരുണ്ട</string>
   <!-- Import/Export Strings -->
-    <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="backup_import_title">പുനസ്ഥാപിക്കുക</string>
+  <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ഒന്നുമില്ല</string>
   <string name="icon_shape_none">ഒന്നുമില്ല</string>
   <string name="about_version">പതിപ്പ്</string>
@@ -236,4 +237,9 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">പ്രയോഗിക്കുക</string>
   <string name="hide_app_reset">പുനഃസജ്ജമാക്കുക</string>
+  <!-- Strings for popup dialogs -->
+  <string name="restore_backup">പുനസ്ഥാപിക്കുക</string>
+  <string name="backup_location">&quot;ലൊക്കേഷൻ&quot;</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>

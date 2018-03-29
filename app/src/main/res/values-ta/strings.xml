@@ -158,7 +158,8 @@
   <string name="edit_icon_reset">மீட்டமை</string>
   <string name="theme_dark">அடர்</string>
   <!-- Import/Export Strings -->
-    <!-- Default units to use, either 'metric' or 'imperial' -->
+  <string name="backup_import_title">மீட்டெடுத்தல்</string>
+  <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ஏதுமில்லை</string>
   <string name="icon_shape_none">ஏதுமில்லை</string>
   <string name="about_version">பதிப்பு</string>
@@ -167,4 +168,9 @@
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">பயன்படுத்து</string>
   <string name="hide_app_reset">மீட்டமை</string>
+  <!-- Strings for popup dialogs -->
+  <string name="restore_backup">மீட்டெடுத்தல்</string>
+  <string name="backup_location">&quot;இருப்பிடம்&quot;</string>
+  <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Misc Title -->
 </resources>
