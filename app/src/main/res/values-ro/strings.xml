@@ -296,6 +296,8 @@
   <string name="debug_pref_summary">Reporniți sau reconstruiți baza de date a pictogramelor</string>
   <string name="show_pixel_bar_pref_title">Arată bara de sus în stilul Pixel</string>
   <string name="use_wide_searchbar_pref_title">Utilizează bara de căutare largă</string>
+  <string name="show_search_pill_title">Arată pastila Google Search</string>
+  <string name="show_date_or_weather_title">Arată data/vremea în partea dreaptă</string>
   <string name="show_mic_pref_title">Arată butonul pentru Asistentul Google</string>
   <string name="use_round_searhbar">Utilizează bara de căutare aplicații rotundă</string>
   <string name="pixel_style_icons_pref_title">Utilizează pictograme în stil Pixel</string>
@@ -340,6 +342,7 @@
   <string name="pull_down_search">Deschide căutare</string>
   <string name="pull_down_apps_search">Căutați aplicații</string>
   <string name="enable_screen_rotation">Activaţi rotirea ecranului</string>
+  <string name="use_system_fonts_title">Folosește fonturile de sistem pentru etichete</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Import</string>
   <string name="backup_export_title">Export</string>
@@ -417,15 +420,52 @@
   <string name="two_row_dock">Doc în două rânduri</string>
   <string name="reset_alternative_icons_title">Resetați pictogramele alternative ale aplicațiilor?</string>
   <string name="reset_alternative_icons">Aveți %1$d aplicații cu pictograme alternative, doriți să le resetați?</string>
+  <string name="error_no_browser">Nu s-a găsit nicio activitate pentru gestionarea adreselor URL</string>
   <!-- Strings for popup dialogs -->
+  <string name="lawnfeed_not_enabled_title">Lawnfeed nu este activat</string>
+  <string name="lawnfeed_not_enabled">Se pare că încercați să deschideți pagina Google Now, dar nu ați activat opțiunea din setările de comportament.\n\nDoriți să o activați acum?</string>
+  <string name="lawnfeed_outdated_title">Lawnfeed necesită actualizare</string>
+  <string name="lawnfeed_outdated">O versiune mai nouă a programului Lawnfeed este necesară pentru a funcţiona cu această versiune de Lawnchair.\n\nÎnainte de a instala actualizarea, probabil va trebui să dezinstalați versiunea curentă Lawnfeed.\n\nDoriți să o descărcați acum?</string>
   <string name="title_storage_permission_required">Permisiune stocare necesară</string>
   <string name="content_storage_permission_required">În Android 8.1 şi versiuni superioare este necesară permisiunea de stocare pentru aplicații pentru a accesa imaginea de fundal. Fără permisiunea menționată Lawnchair ar putea crăpa sau prezenta comportamente neaşteptate.</string>
+  <string name="disable_popup">Nu mai afișa</string>
+  <string name="backups">Copii de rezervă</string>
+  <string name="new_backup">Creare</string>
   <string name="restore_backup">Restuarează</string>
   <string name="backup_name">Nume: </string>
   <string name="backup_location">Locație</string>
+  <string name="choose_backup_path">Răsfoire</string>
+  <string name="backup_homescreen">Ecranul de start</string>
+  <string name="backup_contents">Conţinut copie rezervă</string>
   <string name="backup_settings">Setări</string>
   <string name="backup_wallpaper">Imagine de fundal</string>
+  <string name="backup_error_blank_name">Numele nu poate fi necompletat</string>
+  <string name="backup_error_blank_location">Locația nu poate fi necompletată</string>
+  <string name="backup_error_blank_contents">Conținutul nu poate fi necompletat</string>
+  <string name="backup_creating">Creare copie rezervă</string>
+  <string name="no_recent_backups">Nu există copii recente</string>
+  <string name="backup_loading">Încărcare...</string>
+  <string name="backup_invalid">Indisponibil</string>
+  <string name="backup_remove_from_recents">Șterge din listă</string>
   <string name="backup_share">Distribuiţi</string>
+  <string name="backup_timestamp">Creat la</string>
+  <string name="backup_restoring">Restabilire copie de rezervă</string>
+  <string name="backup_restarting">Repornire</string>
+  <string name="restore_contents">Restabilire conţinutul</string>
+  <string name="restore_success">Restaurare cu succes</string>
+  <string name="backup_failed">Copia de rezervă a eșuat</string>
+  <string name="restore_failed">Restaurare eșuată</string>
+  <string name="restore_read_meta_fail">Fișierul copie de rezervă invalid</string>
+  <string name="backup_share_title">Transmite copie rezervă</string>
+  <string name="backup_share_text">Fişier copie de rezervă Lawnchair</string>
+  <string name="read_external_storage_required">Permisiunea de stocare este necesară pentru a crea copia de rezervă</string>
+  <string name="local_backups">Copie de rezervă locală</string>
+  <string name="backup_location_device_storage">Stocare dispozitiv</string>
+  <string name="backup_location_documents_storage">Stocare documente</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <string name="pref_category_pixel_searchbar">Pixel Searchbar</string>
   <!-- Preference Category Misc Title -->
+  <string name="pref_category_misc">Diverse</string>
+  <string name="blur_oom">Lawnchair a rămas fără memorie încercând să blureze imaginea de fundal! Scăderea rezoluției imaginii de fundal ar putea remedia acest lucru.</string>
+  <string name="legacy_backup">Fișier vechi copie rezervă</string>
 </resources>

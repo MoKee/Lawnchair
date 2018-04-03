@@ -297,6 +297,8 @@
   <string name="debug_pref_summary">Reštartovať nebo znovu vytvoriť ikonu databázy</string>
   <string name="show_pixel_bar_pref_title">Zobraziť zaokrúhlený vyhľadávací panel Pixel</string>
   <string name="use_wide_searchbar_pref_title">Použiť široký vyhľadávací panel</string>
+  <string name="show_search_pill_title">Zobraziť kapsulu Google Search</string>
+  <string name="show_date_or_weather_title">Zobraziť dátum/počasie na pravej strane</string>
   <string name="show_mic_pref_title">Zobraziť tlačidlo Google asistenta</string>
   <string name="use_round_searhbar">Použiť zaokrúhlenú vyhľadávaciu lištu aplikácií</string>
   <string name="pixel_style_icons_pref_title">Použite okrúhle ikony (Pixel)</string>
@@ -341,6 +343,7 @@
   <string name="pull_down_search">Otvoriť vyhľadávanie</string>
   <string name="pull_down_apps_search">Vyhľadávanie v aplikáciách</string>
   <string name="enable_screen_rotation">Povoliť otáčanie obrazovky</string>
+  <string name="use_system_fonts_title">Použiť systémové písma pre menovky</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Obnovenie</string>
   <string name="backup_export_title">Záloha</string>
@@ -418,15 +421,52 @@
   <string name="two_row_dock">Dok v dvoch riadkoch</string>
   <string name="reset_alternative_icons_title">Obnoviť alternatívne ikony aplikácií?</string>
   <string name="reset_alternative_icons">Máte %1$d aplikácií s alternativnymi ikonami, chcete ich obnoviž?</string>
+  <string name="error_no_browser">Nepodarilo sa zistiť žiadnu aktivitu na spracovanie URL adries</string>
   <!-- Strings for popup dialogs -->
+  <string name="lawnfeed_not_enabled_title">Lawnfeed nie je povolený</string>
+  <string name="lawnfeed_not_enabled">Zdá sa, že sa pokúšate otvoriť stránku Google Now, avšak v nastaveniach správania ste túto možnosť nepovolili.\n\nChcete túto možnosť povoliť teraz?</string>
+  <string name="lawnfeed_outdated_title">Vyžaduje sa aktualizácia Lawnfeed</string>
+  <string name="lawnfeed_outdated">Pre prácu s touto verziou Lawnchair je potrebná novšia verzia programu Lawnfeed.\n\nPred nainštalovaním tejto aktualizácie pravdepodobne budete musieť odinštalovať aktuálnu verziu programu Lawnfeed.\n\nChcete ju teraz stiahnuť?</string>
   <string name="title_storage_permission_required">Požadované povolenie na úložisko</string>
   <string name="content_storage_permission_required">Na Androide 8.1 a vyššom sa pre aplikáciu pri prístupe k tapete vyžaduje povolenie k úložisku. Bez udelenia povolenia Lawnchair môže spadnúť alebo vykazovať neočakávané správanie.</string>
+  <string name="disable_popup">Už nezobrazovať</string>
+  <string name="backups">Zálohy</string>
+  <string name="new_backup">Vytvoriť</string>
   <string name="restore_backup">Obnoviť</string>
   <string name="backup_name">Meno</string>
   <string name="backup_location">Miesto</string>
+  <string name="choose_backup_path">Prehliadať</string>
+  <string name="backup_homescreen">Domovská obrazovka</string>
+  <string name="backup_contents">Obsah zálohy</string>
   <string name="backup_settings">Nastavenia</string>
   <string name="backup_wallpaper">Tapeta</string>
+  <string name="backup_error_blank_name">Názov nemôže byť prázdny</string>
+  <string name="backup_error_blank_location">Umiestnenie nesmie byť prázdne</string>
+  <string name="backup_error_blank_contents">Obsah nesmie byť prázdny</string>
+  <string name="backup_creating">Vytvára sa záloha</string>
+  <string name="no_recent_backups">Žiadne nedávne zálohy</string>
+  <string name="backup_loading">Načitávanie...</string>
+  <string name="backup_invalid">Nedostupný</string>
+  <string name="backup_remove_from_recents">Odstrániť zo zoznamu</string>
   <string name="backup_share">Zdieľať</string>
+  <string name="backup_timestamp">Vytvorené</string>
+  <string name="backup_restoring">Obnovenie zálohy</string>
+  <string name="backup_restarting">Prebieha reštartovanie</string>
+  <string name="restore_contents">Obnoviť obsahy</string>
+  <string name="restore_success">Obnovenie úspešné</string>
+  <string name="backup_failed">Zálohovanie zlyhalo</string>
+  <string name="restore_failed">Obnovenie zlyhalo</string>
+  <string name="restore_read_meta_fail">Neplatný záložný súbor</string>
+  <string name="backup_share_title">Zdieľať zálohu</string>
+  <string name="backup_share_text">Záložný súbor Lawnchair</string>
+  <string name="read_external_storage_required">Pre vytvorenie zálohy je vyžadované povolenie k úložisku</string>
+  <string name="local_backups">Miestna záloha</string>
+  <string name="backup_location_device_storage">Úložisko zariadenia</string>
+  <string name="backup_location_documents_storage">Úložisko dokumentov</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <string name="pref_category_pixel_searchbar">Vyhľadávací panel Pixel</string>
   <!-- Preference Category Misc Title -->
+  <string name="pref_category_misc">Rôzne</string>
+  <string name="blur_oom">Lawnchair vyčerpal pamäť pri tom, ako sa snažil sa rozmazať tapetu! Zníženie rozlíšenia tapety by to mohlo vyriešiť.</string>
+  <string name="legacy_backup">Starší súbor zálohy</string>
 </resources>

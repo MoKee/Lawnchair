@@ -467,4 +467,6 @@
   <string name="pref_category_pixel_searchbar">Vyhledávací panel Pixel</string>
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">Různé</string>
+  <string name="blur_oom">Lawnchair vyčerpal paměť při pokusu rozmazat tapetu! Snížení rozlišení tabety by tento problém mohlo vyřešit.</string>
+  <string name="legacy_backup">Starší soubor zálohy</string>
 </resources>
