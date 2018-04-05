@@ -235,6 +235,7 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Vrijeme</string>
+  <string name="pref_weather_title">Vrijeme</string>
   <string name="none">Ništa</string>
   <string name="icon_shape_none">Ništa</string>
   <string name="icon_shape_circle">Krug</string>
@@ -250,5 +251,7 @@
   <string name="backup_wallpaper">Pozadinska slika</string>
   <string name="backup_share">Podijeli</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

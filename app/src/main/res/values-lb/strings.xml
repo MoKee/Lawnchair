@@ -165,5 +165,7 @@
   <string name="backup_wallpaper">Hannergrondbild</string>
   <string name="backup_share">Deelen</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

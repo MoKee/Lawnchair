@@ -236,5 +236,7 @@
   <!-- Strings for popup dialogs -->
   <string name="backup_location">&quot;स्थान&quot;</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

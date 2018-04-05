@@ -297,6 +297,8 @@
   <string name="debug_pref_summary">Перазагрузка або аднаўленне базы дадзеных значкоў</string>
   <string name="show_pixel_bar_pref_title">Паказаць радок пошуку</string>
   <string name="use_wide_searchbar_pref_title">Радок пошуку як у Android O</string>
+  <string name="show_search_pill_title">Адлюстроўваць кнопку пошуку Google</string>
+  <string name="show_date_or_weather_title">Паказваць дату/надвор\'е з правага боку</string>
   <string name="show_mic_pref_title">Паказваць кнопку Google асістэнта</string>
   <string name="use_round_searhbar">Выкарыстоўваць круглы радок пошуку</string>
   <string name="pixel_style_icons_pref_title">Выкарыстоўваць круглыя значкі</string>
@@ -341,6 +343,7 @@
   <string name="pull_down_search">Адчыніць пошук</string>
   <string name="pull_down_apps_search">Пошук праграм</string>
   <string name="enable_screen_rotation">Уключыць кручэнне экрана</string>
+  <string name="use_system_fonts_title">Выкарыстоўваць сістэмныя шрыфты для цэтлікаў</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Аднавіць з рэзервовай копіі</string>
   <string name="backup_export_title">Рэзервовая копія</string>
@@ -418,15 +421,29 @@
   <string name="two_row_dock">Дзьвухрадковы док-бар</string>
   <string name="reset_alternative_icons_title">Скінуць альтэрнатыўныя значкі праграм?</string>
   <string name="reset_alternative_icons">У вас %1$d праграм з альтэрнатыўнымі значкамі, хочаце скінуць іх?</string>
+  <string name="error_no_browser">Ніякай дзейнасці не знойдзена для апрацоўкі URL-адрасоў</string>
   <!-- Strings for popup dialogs -->
+  <string name="lawnfeed_not_enabled_title">Lawnfeed не ўключаны</string>
+  <string name="lawnfeed_not_enabled">Падобна на тое, вы спрабуеце адкрыць старонку Google Now, але не ўключылі яе ў наладах.\n\nЖадаеце ўключыць яе зараз?</string>
+  <string name="lawnfeed_outdated_title">Патрабуецца абнаўленне Lawnfeed</string>
   <string name="title_storage_permission_required">Патрэбны дазвол на доступ да памяці прылады</string>
   <string name="content_storage_permission_required">На Android 8.1 і вышэй для доступу да шпалер патрабуецца дазвол на захоўванне. Без гэтага дазволу Lawnchair можа зваліцца або паказаць нечаканае паводзіны.</string>
+  <string name="disable_popup">Больш не паказваць</string>
+  <string name="backups">Рэзервовыя копіі</string>
+  <string name="new_backup">Стварыць</string>
   <string name="restore_backup">Аднавіць з рэзервовай копіі</string>
   <string name="backup_name">Імя</string>
   <string name="backup_location">Месцазнаходжанне</string>
+  <string name="choose_backup_path">Агляд</string>
+  <string name="backup_homescreen">Галоўны экран</string>
+  <string name="backup_contents">Рэзервовае капіяванне змесціва</string>
   <string name="backup_settings">Налады</string>
   <string name="backup_wallpaper">Шпалеры</string>
+  <string name="backup_error_blank_name">Назва не павінна быць пустой</string>
+  <string name="backup_error_blank_location">Месцазнаходжанне не павінна быць пустым</string>
   <string name="backup_share">Падзяліцца</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

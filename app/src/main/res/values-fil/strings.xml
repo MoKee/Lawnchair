@@ -422,5 +422,7 @@ Maaari mong alisin ito, o maghanap para sa app at i-install ito nang mano-mano. 
   <string name="backup_wallpaper">Wallpaper</string>
   <string name="backup_share">Ibahagi</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

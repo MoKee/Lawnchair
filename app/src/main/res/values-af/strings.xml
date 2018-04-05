@@ -249,5 +249,7 @@
   <string name="backup_wallpaper">Muurpapier</string>
   <string name="backup_share">Deling</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

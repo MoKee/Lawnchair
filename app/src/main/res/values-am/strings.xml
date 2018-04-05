@@ -247,5 +247,7 @@
   <string name="backup_wallpaper">ልጣፍ</string>
   <string name="backup_share">አጋራ</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

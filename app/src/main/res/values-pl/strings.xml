@@ -465,6 +465,8 @@
   <string name="backup_location_documents_storage">Pamięć dokumentów</string>
   <!-- Preference Category Pixel Searchbar Title -->
   <string name="pref_category_pixel_searchbar">Pasek wyszukiwania Pixel</string>
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">Różne</string>
   <string name="blur_oom">Lawnchair - zabrakło pamięci, próbując rozmazać tapetę! Obniżenie rozdzielczości tapety może to naprawić.</string>

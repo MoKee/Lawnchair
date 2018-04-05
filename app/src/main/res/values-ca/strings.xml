@@ -323,6 +323,7 @@
   <string name="default_text">Per defecte</string>
   <string name="edit_icon_reset">Reinicia</string>
   <string name="show_top_shadow_title">Mostra les ombres superiors</string>
+  <string name="pref_category_homescreen">General</string>
   <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Clar</string>
   <string name="theme_dark">Fosc</string>
@@ -416,5 +417,7 @@
   <string name="backup_wallpaper">Fons de pantalla</string>
   <string name="backup_share">Comparteix</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

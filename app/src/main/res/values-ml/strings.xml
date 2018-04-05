@@ -241,5 +241,7 @@
   <string name="restore_backup">പുനസ്ഥാപിക്കുക</string>
   <string name="backup_location">&quot;ലൊക്കേഷൻ&quot;</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

@@ -189,5 +189,7 @@
   <string name="restore_backup">Restore</string>
   <string name="backup_settings">Settings</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

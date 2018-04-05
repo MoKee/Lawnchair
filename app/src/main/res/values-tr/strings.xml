@@ -425,5 +425,7 @@
   <string name="backup_wallpaper">Duvar Kağıdı</string>
   <string name="backup_share">Paylaş</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

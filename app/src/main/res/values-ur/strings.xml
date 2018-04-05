@@ -234,5 +234,7 @@
   <string name="hide_app_reset">دوبارہ ترتیب دیں</string>
   <!-- Strings for popup dialogs -->
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

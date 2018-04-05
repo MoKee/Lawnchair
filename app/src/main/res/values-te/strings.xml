@@ -238,5 +238,7 @@
   <string name="restore_backup">పునరుద్ధరించు</string>
   <string name="backup_location">&quot;స్థానం&quot;</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

@@ -425,5 +425,7 @@
   <string name="backup_wallpaper">Hình nền</string>
   <string name="backup_share">Chia sẻ</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

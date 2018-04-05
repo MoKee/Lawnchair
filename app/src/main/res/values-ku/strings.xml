@@ -161,5 +161,7 @@
   <string name="backup_wallpaper">دیوارپۆش</string>
   <string name="backup_share">به‌شداری پێکردن</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

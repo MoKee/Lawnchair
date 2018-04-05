@@ -464,6 +464,8 @@
   <string name="backup_location_documents_storage">Stocare documente</string>
   <!-- Preference Category Pixel Searchbar Title -->
   <string name="pref_category_pixel_searchbar">Pixel Searchbar</string>
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">Diverse</string>
   <string name="blur_oom">Lawnchair a rămas fără memorie încercând să blureze imaginea de fundal! Scăderea rezoluției imaginii de fundal ar putea remedia acest lucru.</string>

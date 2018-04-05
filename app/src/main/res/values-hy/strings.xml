@@ -242,5 +242,7 @@
   <string name="backup_wallpaper">Պաստառ</string>
   <string name="backup_share">Կիսվել</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

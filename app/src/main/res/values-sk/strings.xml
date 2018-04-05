@@ -465,6 +465,8 @@
   <string name="backup_location_documents_storage">Úložisko dokumentov</string>
   <!-- Preference Category Pixel Searchbar Title -->
   <string name="pref_category_pixel_searchbar">Vyhľadávací panel Pixel</string>
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">Rôzne</string>
   <string name="blur_oom">Lawnchair vyčerpal pamäť pri tom, ako sa snažil sa rozmazať tapetu! Zníženie rozlíšenia tapety by to mohlo vyriešiť.</string>

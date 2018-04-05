@@ -466,6 +466,8 @@
   <string name="backup_location_documents_storage">Penyimpanan dokumen</string>
   <!-- Preference Category Pixel Searchbar Title -->
   <string name="pref_category_pixel_searchbar">Bar Pencarian Pixel</string>
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">Lain-lain</string>
   <string name="blur_oom">Lawnchair kehabisan memori saat berusaha memburamkan wallpaper anda! Menurunkan resolusi wallpaper mungkin bisa memperbaiki ini.</string>

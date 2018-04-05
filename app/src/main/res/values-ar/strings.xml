@@ -421,6 +421,8 @@
   <string name="reset_alternative_icons_title">إعادة تعيين أيقونات التطبيقات البديلة؟</string>
   <string name="reset_alternative_icons">لديك %1$d برموز بديلة, هل تريد إعادة تعيينها؟</string>
   <!-- Strings for popup dialogs -->
+  <string name="lawnfeed_outdated_title">تحديث لاونفيد المطلوبة</string>
+  <string name="lawnfeed_outdated">اصدار اعلي من Lawnfeed مطلوب للعمل مع هذه الاصدار.\n\n قبل تثبيت هذا التحديث عليك ازاله النسخه الحاليه من Lawnfeed. هل تريد الغاء تثبيته الأن؟</string>
   <string name="title_storage_permission_required">الإذن مطلوب للتخزين</string>
   <string name="content_storage_permission_required">على اندرويد 8.1 وما فوق إذن التخزين مطلوب للتطبيقات للوصول إلى ورق الجدران. دون إذن قد تظهر سلوكيات غير متوقعة.</string>
   <string name="restore_backup">استعادة</string>
@@ -430,5 +432,7 @@
   <string name="backup_wallpaper">الخلفية</string>
   <string name="backup_share">مشاركة</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

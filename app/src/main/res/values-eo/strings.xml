@@ -150,5 +150,7 @@
   <string name="backup_location">Loko</string>
   <string name="backup_share">Konigi</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

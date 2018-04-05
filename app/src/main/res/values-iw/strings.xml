@@ -419,5 +419,7 @@
   <string name="backup_wallpaper">טפט</string>
   <string name="backup_share">שיתוף</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

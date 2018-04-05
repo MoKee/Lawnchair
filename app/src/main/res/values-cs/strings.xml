@@ -432,9 +432,9 @@
   <string name="disable_popup">Znovu nezobrazovat</string>
   <string name="backups">Zálohy</string>
   <string name="new_backup">Vytvořit</string>
-  <string name="restore_backup">Obnovení</string>
-  <string name="backup_name">Jméno</string>
-  <string name="backup_location">Místo</string>
+  <string name="restore_backup">Obnovit</string>
+  <string name="backup_name">Název</string>
+  <string name="backup_location">Umístění</string>
   <string name="choose_backup_path">Procházet</string>
   <string name="backup_homescreen">Domovská obrazovka</string>
   <string name="backup_contents">Obsah zálohy</string>
@@ -465,6 +465,8 @@
   <string name="backup_location_documents_storage">Ukládání dokumentů</string>
   <!-- Preference Category Pixel Searchbar Title -->
   <string name="pref_category_pixel_searchbar">Vyhledávací panel Pixel</string>
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">Různé</string>
   <string name="blur_oom">Lawnchair vyčerpal paměť při pokusu rozmazat tapetu! Snížení rozlišení tabety by tento problém mohlo vyřešit.</string>

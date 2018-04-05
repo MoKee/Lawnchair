@@ -377,5 +377,7 @@
   <string name="backup_wallpaper">Baggrund</string>
   <string name="backup_share">Del</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

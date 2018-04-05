@@ -240,5 +240,7 @@
   <string name="backup_wallpaper">ຮູບພື້ນຫຼັງ</string>
   <string name="backup_share">ແບ່ງປັນ</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

@@ -416,5 +416,7 @@
   <string name="backup_wallpaper">Bakgrund</string>
   <string name="backup_share">Dela</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

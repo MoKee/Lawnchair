@@ -232,6 +232,7 @@
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Eguraldia</string>
+  <string name="pref_weather_title">Eguraldia</string>
   <string name="none">Bat ere ez</string>
   <string name="icon_shape_none">Bat ere ez</string>
   <string name="icon_shape_circle">Zirkularra</string>
@@ -245,5 +246,7 @@
   <string name="backup_name">Izena</string>
   <string name="backup_location">Kokalekua</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

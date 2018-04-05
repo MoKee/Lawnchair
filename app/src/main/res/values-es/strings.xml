@@ -418,5 +418,7 @@
   <string name="backup_wallpaper">Fondo de pantalla</string>
   <string name="backup_share">Compartir</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

@@ -433,8 +433,8 @@
   <string name="backups">Резервные копии</string>
   <string name="new_backup">Создать</string>
   <string name="restore_backup">Восстановление</string>
-  <string name="backup_name">Название</string>
-  <string name="backup_location">Местоположение</string>
+  <string name="backup_name">Имя</string>
+  <string name="backup_location">Расположение</string>
   <string name="choose_backup_path">Обзор</string>
   <string name="backup_homescreen">Главный экран</string>
   <string name="backup_contents">Резервное копирование содержимого</string>
@@ -465,6 +465,10 @@
   <string name="backup_location_documents_storage">Хранилище документов</string>
   <!-- Preference Category Pixel Searchbar Title -->
   <string name="pref_category_pixel_searchbar">Строка поиска Pixel</string>
+  <!-- Preference Category Icons Title -->
+  <string name="pref_category_icons">Значки</string>
+  <!-- Preference Category Drawer Title -->
+  <string name="pref_category_drawer">Меню приложений</string>
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">Другие настройки</string>
   <string name="blur_oom">Произошла ошибка при попытке Lawnchair размыть ваши обои! Уменьшение разрешения обоев могло бы исправить это.</string>

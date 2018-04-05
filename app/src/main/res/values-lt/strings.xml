@@ -252,5 +252,7 @@
   <string name="backup_wallpaper">Darbalaukio fonas</string>
   <string name="backup_share">Bendrinti</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

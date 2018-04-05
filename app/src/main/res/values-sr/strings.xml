@@ -324,6 +324,7 @@
   <string name="default_text">Подразумевано</string>
   <string name="edit_icon_reset">Поништи</string>
   <string name="show_top_shadow_title">Прикажи сенку на врху</string>
+  <string name="pref_category_homescreen">Главно</string>
   <string name="theme_pref_title">Тема</string>
   <string name="theme_light">Светло</string>
   <string name="theme_dark">Тамно</string>
@@ -418,5 +419,7 @@
   <string name="backup_wallpaper">Позадина</string>
   <string name="backup_share">Дели</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>

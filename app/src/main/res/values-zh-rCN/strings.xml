@@ -431,5 +431,7 @@
   <string name="backup_invalid">不可用</string>
   <string name="backup_share">分享</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <!-- Preference Category Icons Title -->
+  <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
 </resources>
