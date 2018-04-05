@@ -6,6 +6,6 @@
         path="launcher.db" />
     <include
         domain="sharedpref"
-        path="ch.deletescape.lawnchair.prefs.xml" />
+        path="org.mokee.lawnchair.prefs.xml" />
 
 </full-backup-content>
