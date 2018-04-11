@@ -271,7 +271,7 @@
   <string name="icon_scale_pref_title">圖示大小</string>
   <string name="hotseat_height_scale">高度範圍</string>
   <string name="hotseat_custom_opacity">Dock 欄的不透明度</string>
-  <string name="hotseat_uses_custom_opacity">Dock 欄使用自定義的不透明度</string>
+  <string name="hotseat_uses_custom_opacity">Dock 欄使用自訂的不透明度</string>
   <string name="icon_text_scale_pref_title">圖示字型大小</string>
   <string name="icon_text_padding_scale_pref_title">圖示填滿範圍</string>
   <string name="full_width_width_widgets_pref_title">全寬小工具</string>
@@ -463,7 +463,9 @@
   <!-- Preference Category Pixel Searchbar Title -->
   <string name="pref_category_pixel_searchbar">Pixel 搜尋列</string>
   <!-- Preference Category Icons Title -->
+  <string name="pref_category_icons">圖示</string>
   <!-- Preference Category Drawer Title -->
+  <string name="pref_category_drawer">清單</string>
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">更多其他</string>
   <string name="blur_oom">在記憶體用盡時，Lawnchair　將會試著模糊您的桌布！降低桌布的解析度有可能解決這個問題</string>

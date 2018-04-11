@@ -259,7 +259,7 @@
   <string name="hotseat_uses_extracted_colors_pref_off">Dok bude zbarvený do šeda, ale jas bude nastaven podle tapety plochy</string>
   <string name="transparent_hotseat_pref_title">Průhledný dok</string>
   <string name="dynamic_ui_pref_title">Vybrat barevný odstín z tapety plochy</string>
-  <string name="blur_pref_title">Povolit rozostření</string>
+  <string name="blur_pref_title">Rozostření</string>
   <string name="blur_pref_summary">Použít efekt rozostření na části rozhraní\není kompatibilní s živými tapetami</string>
   <string name="blur_radius_pref_title">Poloměr rozostření</string>
   <string name="pref_iconLabelsInTwoLines">Popisky ikon ve dvou řadách</string>
@@ -274,7 +274,7 @@
   <string name="icon_scale_pref_title">Velikost ikon</string>
   <string name="hotseat_height_scale">Měřítko výšky</string>
   <string name="hotseat_custom_opacity">Průhlednost doku</string>
-  <string name="hotseat_uses_custom_opacity">Povolit vlastní průhlednost doku</string>
+  <string name="hotseat_uses_custom_opacity">Vlastní průhlednost doku</string>
   <string name="icon_text_scale_pref_title">Velikost textu ikon</string>
   <string name="icon_text_padding_scale_pref_title">Ikona stupnice odsazení</string>
   <string name="full_width_width_widgets_pref_title">Widgety s plnou šířkou</string>
@@ -315,7 +315,7 @@
   <string name="keep_scroll_state_pref_title">Zachovat pozici rolování</string>
   <string name="keep_scroll_state_pref_summary">Uloží pozici rolování v menu aplikace</string>
   <string name="home_opens_drawer_pref_title">Tlačítkem Domů se otevře nabídka aplikací</string>
-  <string name="home_opens_drawer_pref_summary">Stisknutím tlačítka Domů při zobrazení domovské obrazovky se otevře nabídka nastavení aplikace</string>
+  <string name="home_opens_drawer_pref_summary">Stisknutím tlačítka Domů při zobrazení domovské obrazovky se otevře seznam aplikací</string>
   <string name="show_hidden_pref_title">Zobrazit skryté aplikace</string>
   <string name="show_hidden_pref_on">Zobrazí se skryté aplikace, které změní nastavení viditelnosti</string>
   <string name="show_hidden_pref_off">Skryté aplikace nebudou viditelné</string>
@@ -342,7 +342,7 @@
   <string name="pull_down_notis">Zobrazit oznámení</string>
   <string name="pull_down_search">Otevřít vyhledávání</string>
   <string name="pull_down_apps_search">Vyhledávání v aplikacích</string>
-  <string name="enable_screen_rotation">Povolit otáčení obrazovky</string>
+  <string name="enable_screen_rotation">Otáčení obrazovky</string>
   <string name="use_system_fonts_title">Použít systémová písma pro popisky</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Obnovení</string>
@@ -360,7 +360,7 @@
   <string name="units_imperial">Imperiální</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="pref_cat_weather">Počasí</string>
-  <string name="pref_weather_title">Povolit počasí</string>
+  <string name="pref_weather_title">Počasí</string>
   <string name="pref_weather_units">Jednotky počasí</string>
   <string name="pref_weather_city_summary">Pro lepší výsledky zadejte kód země</string>
   <string name="pref_weather_city_title">Město</string>
@@ -410,7 +410,7 @@
   <string name="google_app_not_found">Aplikace Google není nainstalována</string>
   <string name="lawnfeed_incompatible">Nainstalována nekompatibilní verze Lawnfeed</string>
   <string name="set_default_launcher">Nastavit výchozí spouštěč</string>
-  <string name="enable_spring_pref_title">Povolit efekt pružiny</string>
+  <string name="enable_spring_pref_title">Efekt pružiny</string>
   <string name="hide_app">Skryté aplikace</string>
   <string name="hide_app_sum">Skrýt aplikaci v seznamu aplikací</string>
   <string name="hide_app_selected">&#160;vybráno</string>
@@ -466,7 +466,9 @@
   <!-- Preference Category Pixel Searchbar Title -->
   <string name="pref_category_pixel_searchbar">Vyhledávací panel Pixel</string>
   <!-- Preference Category Icons Title -->
+  <string name="pref_category_icons">Ikony</string>
   <!-- Preference Category Drawer Title -->
+  <string name="pref_category_drawer">Seznam aplikací</string>
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">Různé</string>
   <string name="blur_oom">Lawnchair vyčerpal paměť při pokusu rozmazat tapetu! Snížení rozlišení tabety by tento problém mohlo vyřešit.</string>

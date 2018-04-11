@@ -459,11 +459,14 @@
   <string name="backup_share_text">File di backup Lawnchair</string>
   <string name="read_external_storage_required">L\'autorizzazione di archiviazione è richiesta per creare il backup</string>
   <string name="local_backups">Backup in locale</string>
+  <string name="backup_location_device_storage">Memoria dispositivo</string>
   <string name="backup_location_documents_storage">Archiviazione documenti</string>
   <!-- Preference Category Pixel Searchbar Title -->
   <string name="pref_category_pixel_searchbar">Barra di ricerca pixel</string>
   <!-- Preference Category Icons Title -->
+  <string name="pref_category_icons">Icone</string>
   <!-- Preference Category Drawer Title -->
+  <string name="pref_category_drawer">Drawer</string>
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">Varie</string>
   <string name="blur_oom">Lawnchair ha esaurito la memoria cercando di sfocare lo sfondo! Abbassare la risoluzione dello sfondo potrebbe eventualmente risolvere il problema.</string>

@@ -463,7 +463,9 @@
   <!-- Preference Category Pixel Searchbar Title -->
   <string name="pref_category_pixel_searchbar">Pixel 搜尋列</string>
   <!-- Preference Category Icons Title -->
+  <string name="pref_category_icons">圖示</string>
   <!-- Preference Category Drawer Title -->
+  <string name="pref_category_drawer">清單</string>
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">更多其他</string>
   <string name="blur_oom">在記憶體用盡時，Lawnchair　將會試著模糊您的桌布！降低桌布的解析度有可能解決這個問題</string>

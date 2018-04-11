@@ -294,6 +294,8 @@
   <string name="debug_pref_summary">Khởi động lại và khôi phục lại biểu tượng</string>
   <string name="show_pixel_bar_pref_title">Hiển thị thanh tiện ích Pixel</string>
   <string name="use_wide_searchbar_pref_title">Sử dụng thanh tìm kiếm dài</string>
+  <string name="show_search_pill_title">Hiển thị tìm kiếm của Google pill</string>
+  <string name="show_date_or_weather_title">Hiển thị ngày/thời tiết trên bên phải</string>
   <string name="show_mic_pref_title">Biểu tượng Google Assistant</string>
   <string name="use_round_searhbar">Thanh tìm kiếm bo tròn</string>
   <string name="pixel_style_icons_pref_title">Sử dụng các biểu tượng của Pixel</string>
@@ -338,6 +340,7 @@
   <string name="pull_down_search">Mở tìm kiếm</string>
   <string name="pull_down_apps_search">Tìm kiếm ứng dụng</string>
   <string name="enable_screen_rotation">Cho phép xoay màn hình</string>
+  <string name="use_system_fonts_title">Sử dụng hệ thống phông chữ cho các nhãn</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Nhập dữ liệu</string>
   <string name="backup_export_title">Xuất dữ liệu</string>
@@ -415,17 +418,56 @@
   <string name="two_row_dock">Thanh đế hai hàng</string>
   <string name="reset_alternative_icons_title">Đặt lại những biểu tượng ứng dụng bị thay đổi?</string>
   <string name="reset_alternative_icons">Bạn có %1$d biểu tượng ứng dụng bị thay đổi, bạn có muốn đặt lại chúng không?</string>
+  <string name="error_no_browser">Không có hành động nào phù hợp để xử lý URL</string>
   <!-- Strings for popup dialogs -->
+  <string name="lawnfeed_not_enabled_title">Chưa kích hoạt Lawnfeed</string>
+  <string name="lawnfeed_not_enabled">Dường như bạn đang cố mở Google Now, nhưng bạn chưa bật tùy chọn này trong cài đặt hành vi.\n\nBạn có muốn bật nó bây giờ không?</string>
+  <string name="lawnfeed_outdated_title">Cần cập nhật Lawnfeed</string>
+  <string name="lawnfeed_outdated">Bạn cần một phiên bản mới hơn của Lawnfeed để làm việc với phiên bản này của Lawnchair.\n\nTrước khi cài đặt bản cập nhật, bạn có thể cần phải gỡ bỏ cài đặt phiên bản Lawnfeed hiện tại.\n\nBạn có muốn tải xuống bây giờ không?</string>
   <string name="title_storage_permission_required">Yêu cầu bộ nhớ</string>
   <string name="content_storage_permission_required">Trên Android 8.1 trở lên, quyền lưu trữ là bắt buộc đối với các ứng dụng để truy cập vào hình nền. Nếu không có lời cho phép Lawnchair có thể sụp đổ hoặc hiển thị hành vi bất ngờ.</string>
+  <string name="disable_popup">Không hiển thị lại</string>
+  <string name="backups">Sao lưu</string>
+  <string name="new_backup">Tạo mới</string>
   <string name="restore_backup">Khôi phục</string>
   <string name="backup_name">Tên: </string>
   <string name="backup_location">Vị trí</string>
+  <string name="choose_backup_path">Duyệt</string>
+  <string name="backup_homescreen">Màn hình chính</string>
+  <string name="backup_contents">Sao lưu nội dung</string>
   <string name="backup_settings">Cài đặt</string>
   <string name="backup_wallpaper">Hình nền</string>
+  <string name="backup_error_blank_name">Tên không được trống</string>
+  <string name="backup_error_blank_location">Vị trí không được trống</string>
+  <string name="backup_error_blank_contents">Nội dung không được trống</string>
+  <string name="backup_creating">Tạo sao lưu</string>
+  <string name="no_recent_backups">Không có sao lưu tại</string>
+  <string name="backup_loading">Đang tải...</string>
+  <string name="backup_invalid">Không sẵn dùng</string>
+  <string name="backup_remove_from_recents">Xóa khỏi danh sách</string>
   <string name="backup_share">Chia sẻ</string>
+  <string name="backup_timestamp">Đã tạo lúc</string>
+  <string name="backup_restoring">Đang khôi phục bản sao lưu</string>
+  <string name="backup_restarting">Đang khởi động lại</string>
+  <string name="restore_contents">Khôi phục lại nội dung</string>
+  <string name="restore_success">Khôi phục thành công</string>
+  <string name="backup_failed">Sao lưu thất bại</string>
+  <string name="restore_failed">Khôi phục không thành công</string>
+  <string name="restore_read_meta_fail">Sao lưu tệp không hợp lệ</string>
+  <string name="backup_share_title">Chia sẻ bản sao lưu</string>
+  <string name="backup_share_text">Lawnchair tệp sao lưu</string>
+  <string name="read_external_storage_required">Cho phép lưu trữ là cần thiết để tạo sao lưu</string>
+  <string name="local_backups">Địa phương sao lưu</string>
+  <string name="backup_location_device_storage">Bộ nhớ của thiết bị</string>
+  <string name="backup_location_documents_storage">Tài liệu lưu trữ</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <string name="pref_category_pixel_searchbar">Thanh tìm kiếm Pixel</string>
   <!-- Preference Category Icons Title -->
+  <string name="pref_category_icons">Biểu tượng</string>
   <!-- Preference Category Drawer Title -->
+  <string name="pref_category_drawer">Ngăn chứa ứng dụng</string>
   <!-- Preference Category Misc Title -->
+  <string name="pref_category_misc">Khác</string>
+  <string name="blur_oom">Lawnchair chạy ra khỏi bộ nhớ cố gắng để mờ phông nền của bạn! Giảm nguồn hình nền có thể có thể sửa lỗi này.</string>
+  <string name="legacy_backup">Tệp sao lưu di sản</string>
 </resources>

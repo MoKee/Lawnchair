@@ -299,6 +299,8 @@
   <string name="debug_pref_summary">إعادة تشغيل أو إعادة إنشاء رمز قاعدة البيانات</string>
   <string name="show_pixel_bar_pref_title">اظهار الشريط العلوي لبكسل</string>
   <string name="use_wide_searchbar_pref_title">استخدام شريط بحث عريض</string>
+  <string name="show_search_pill_title">إظهار كبسولة بحث Google</string>
+  <string name="show_date_or_weather_title">إظهار التاريخ/الطقس على الجانب الأيمن</string>
   <string name="show_mic_pref_title">أظهار زر مساعد غوغل</string>
   <string name="use_round_searhbar">استخدم شريط بحث دائري الجوانب</string>
   <string name="pixel_style_icons_pref_title">استخدم أيقونات بكسل</string>
@@ -343,6 +345,7 @@
   <string name="pull_down_search">فتح البحث</string>
   <string name="pull_down_apps_search">البحث عن تطبيقات</string>
   <string name="enable_screen_rotation">تمكين تدوير الشاشة</string>
+  <string name="use_system_fonts_title">استخدام خطوط النظام للتسميات</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">استيراد</string>
   <string name="backup_export_title">استخراج</string>
@@ -420,19 +423,56 @@
   <string name="two_row_dock">إرساء ذو صفين</string>
   <string name="reset_alternative_icons_title">إعادة تعيين أيقونات التطبيقات البديلة؟</string>
   <string name="reset_alternative_icons">لديك %1$d برموز بديلة, هل تريد إعادة تعيينها؟</string>
+  <string name="error_no_browser">لم يتم العثور علي اي أنشطة للتعامل مع عناوين URL</string>
   <!-- Strings for popup dialogs -->
+  <string name="lawnfeed_not_enabled_title">تطبيق Lawnfeed غير مفعل</string>
+  <string name="lawnfeed_not_enabled">يبدو إنك تحاول فتح صفحة Google Now، ولكن لم يتم تمكين الخيار في إعدادات السلوك.\n\nهل تريد تمكينه من الآن ؟</string>
   <string name="lawnfeed_outdated_title">تحديث لاونفيد المطلوبة</string>
   <string name="lawnfeed_outdated">اصدار اعلي من Lawnfeed مطلوب للعمل مع هذه الاصدار.\n\n قبل تثبيت هذا التحديث عليك ازاله النسخه الحاليه من Lawnfeed. هل تريد الغاء تثبيته الأن؟</string>
   <string name="title_storage_permission_required">الإذن مطلوب للتخزين</string>
   <string name="content_storage_permission_required">على اندرويد 8.1 وما فوق إذن التخزين مطلوب للتطبيقات للوصول إلى ورق الجدران. دون إذن قد تظهر سلوكيات غير متوقعة.</string>
+  <string name="disable_popup">لا تُظهر مجدّداً</string>
+  <string name="backups">النسخ الاحتياطية</string>
+  <string name="new_backup">إنشاء</string>
   <string name="restore_backup">استعادة</string>
   <string name="backup_name">الإسم:</string>
   <string name="backup_location">الموقع</string>
+  <string name="choose_backup_path">تصفح</string>
+  <string name="backup_homescreen">الصفحة الرئيسية</string>
+  <string name="backup_contents">محتويات النسخة الاحتياطية</string>
   <string name="backup_settings">الإعدادات</string>
   <string name="backup_wallpaper">الخلفية</string>
+  <string name="backup_error_blank_name">يجب ان لا يكون الاسم فارغاً</string>
+  <string name="backup_error_blank_location">يجب أن لا يكون الموقع فارغ</string>
+  <string name="backup_error_blank_contents">يجب أن لا تكون المحتويات فارغة</string>
+  <string name="backup_creating">إنشاء نسخة احتياطية</string>
+  <string name="no_recent_backups">لا توجد نسخ احتياطية حديثة</string>
+  <string name="backup_loading">جاري التحميل...</string>
+  <string name="backup_invalid">غير متاح</string>
+  <string name="backup_remove_from_recents">إزالة من القائمة</string>
   <string name="backup_share">مشاركة</string>
+  <string name="backup_timestamp">تاريخ الانشاء</string>
+  <string name="backup_restoring">استعادة النسخة الاحتياطية</string>
+  <string name="backup_restarting">إعادة تشغيل</string>
+  <string name="restore_contents">استعادة المحتويات</string>
+  <string name="restore_success">تمت الاستعادة بنجاح</string>
+  <string name="backup_failed">فشل النسخ الاحتياطي</string>
+  <string name="restore_failed">فشل الاستعادة</string>
+  <string name="restore_read_meta_fail">ملف النسخة الاحتياطية غير صالح</string>
+  <string name="backup_share_title">مشاركة النسخة الاحتياطية</string>
+  <string name="backup_share_text">ملف النسخ الاحتياطي Lawnchair</string>
+  <string name="read_external_storage_required">مطلوب إذن التخزين لإنشاء نسخة احتياطية</string>
+  <string name="local_backups">النسخ الاحتياطية المحلية</string>
+  <string name="backup_location_device_storage">السعة التخزينية للجهاز</string>
+  <string name="backup_location_documents_storage">تخزين المستندات</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <string name="pref_category_pixel_searchbar">شريط بحث بكسل</string>
   <!-- Preference Category Icons Title -->
+  <string name="pref_category_icons">الأيقونات</string>
   <!-- Preference Category Drawer Title -->
+  <string name="pref_category_drawer">درج التطبيقات</string>
   <!-- Preference Category Misc Title -->
+  <string name="pref_category_misc">خيارات متنوعة</string>
+  <string name="blur_oom">Lawnchair يعمل خارج نطاق الذاكرة حاول تضبيب الخلفية! تقليل دقة الخلفية يمكن ان يصلح هذا.</string>
+  <string name="legacy_backup">ملف النسخة الاحتياطية القديمة</string>
 </resources>

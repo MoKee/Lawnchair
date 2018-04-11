@@ -433,7 +433,7 @@
   <string name="backups">Zálohy</string>
   <string name="new_backup">Vytvoriť</string>
   <string name="restore_backup">Obnoviť</string>
-  <string name="backup_name">Meno</string>
+  <string name="backup_name">Názov</string>
   <string name="backup_location">Miesto</string>
   <string name="choose_backup_path">Prehliadať</string>
   <string name="backup_homescreen">Domovská obrazovka</string>
@@ -466,7 +466,9 @@
   <!-- Preference Category Pixel Searchbar Title -->
   <string name="pref_category_pixel_searchbar">Vyhľadávací panel Pixel</string>
   <!-- Preference Category Icons Title -->
+  <string name="pref_category_icons">Ikony</string>
   <!-- Preference Category Drawer Title -->
+  <string name="pref_category_drawer">Ponuka aplikácií</string>
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">Rôzne</string>
   <string name="blur_oom">Lawnchair vyčerpal pamäť pri tom, ako sa snažil sa rozmazať tapetu! Zníženie rozlíšenia tapety by to mohlo vyriešiť.</string>
