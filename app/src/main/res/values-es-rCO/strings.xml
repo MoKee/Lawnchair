@@ -271,6 +271,8 @@
   <string name="num_hotseat_icons_pref_title">Número de iconos en el dock</string>
   <string name="icon_scale_pref_title">Tamaño de iconos</string>
   <string name="hotseat_height_scale">Escala de altura</string>
+  <string name="hotseat_custom_opacity">Opacidad de cajón de apps</string>
+  <string name="hotseat_uses_custom_opacity">Habilitar opacidad personalizada de cajón de apps</string>
   <string name="icon_text_scale_pref_title">Tamaño del texto del icono</string>
   <string name="icon_text_padding_scale_pref_title">Escala de relleno de icono</string>
   <string name="full_width_width_widgets_pref_title">Widgets de ancho completo</string>
@@ -410,4 +412,13 @@
   <string name="hide_app_apply">Aplicar</string>
   <string name="unauthorized_device">Este dispositivo tiene algunas herramientas de piratería instaladas. Por favor, desinstálalos para continuar.</string>
   <string name="hide_app_reset">Restablecer</string>
+  <string name="two_row_dock">Cajón de apps en dos filas</string>
+  <string name="reset_alternative_icons_title">¿Restablecer los iconos alternativos de apps?</string>
+  <string name="reset_alternative_icons">Tienes %1$d de apps con iconos alternativos, ¿quieres restablecerlos?</string>
+  <string name="snowfall_title">Nevada</string>
+  <string name="enable_snowfall_title">Habilitar Nevada en la pantalla de inicio</string>
+  <string name="enable_snowfall_summary">Puede provocar problemas de rendimiento.</string>
+  <string name="snowfall_enabled">\"¡Deja que nieve, deja que nieve, deja que nieve!\"</string>
+  <string name="snowflake_size_scale">Escala de copos de nieve</string>
+  <string name="snowflakes_num">Número máximo de copos de nieve</string>
 </resources>

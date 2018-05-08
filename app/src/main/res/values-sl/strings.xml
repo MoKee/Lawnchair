@@ -353,6 +353,7 @@
   <string name="pref_weather_api_key_title">API ključ</string>
   <string name="about_changelog">Zadnje spremembe</string>
   <string name="pref_all_apps_custom_label_color">Barva nalepke po meri</string>
+  <string name="pref_all_apps_label_color">Barva oznake ikon v predalu</string>
   <string name="pref_num_rows_drawer">Število vrstic v predalu</string>
   <string name="center_wallpaper_pref_title">Ozadje na srdino, ko obstaja samo ena stran</string>
   <string name="vertical_drawer_layout_pref_title">Prikaži kot navpični seznam</string>
@@ -364,6 +365,7 @@
   <string name="google_app_not_found">Nimate nameščenih Google aplikacij</string>
   <string name="lawnfeed_incompatible">Nameščena je nezdružljiva različica Lawnfeed</string>
   <string name="set_default_launcher">Nastavitev privzetega zaganjalnika</string>
+  <string name="enable_spring_pref_title">Omogoči učinek vzmeti</string>
   <string name="hide_app">Skrij aplikacije</string>
   <string name="hide_app_sum">Skrij aplikacije iz predala programov</string>
   <string name="hide_app_selected">&#160;izbrano</string>
