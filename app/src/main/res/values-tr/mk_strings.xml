@@ -19,5 +19,5 @@
   <!-- About Lawnchair -->
   <string name="about_text_mk">Lawnchair, Till Kottmann (namı diğer deletescape) tarafından oluşturulan ve MoKee ROM için değiştirilen bir Başlatıcı uygulamasıdır. AOSP\'dan Launcher3 temellidir.</string>
   <string name="about_localization_title">Yerelleştirme</string>
-  <string name="about_localization_summary">Lawnchair Başlatıcısını çevir</string>
+  <string name="about_localization_summary">Lawnchair Başlatıcısını Çevir</string>
 </resources>
