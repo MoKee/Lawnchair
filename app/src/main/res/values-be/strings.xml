@@ -426,6 +426,7 @@
   <string name="lawnfeed_not_enabled_title">Lawnfeed не ўключаны</string>
   <string name="lawnfeed_not_enabled">Падобна на тое, вы спрабуеце адкрыць старонку Google Now, але не ўключылі яе ў наладах.\n\nЖадаеце ўключыць яе зараз?</string>
   <string name="lawnfeed_outdated_title">Патрабуецца абнаўленне Lawnfeed</string>
+  <string name="lawnfeed_outdated">Новая версія Lawnfeed патрабуецца для таго, каб працаваць з гэтай версіяй Lawnchair.\n\nПерад усталёўкай абнаўлення, вам верагодна будзе трэба выдаліць актуальную версію Lawnfeed.\n\nВы хочаце спампаваць яе зараз?</string>
   <string name="title_storage_permission_required">Патрэбны дазвол на доступ да памяці прылады</string>
   <string name="content_storage_permission_required">На Android 8.1 і вышэй для доступу да шпалер патрабуецца дазвол на захоўванне. Без гэтага дазволу Lawnchair можа зваліцца або паказаць нечаканае паводзіны.</string>
   <string name="disable_popup">Больш не паказваць</string>
@@ -441,9 +442,35 @@
   <string name="backup_wallpaper">Шпалеры</string>
   <string name="backup_error_blank_name">Назва не павінна быць пустой</string>
   <string name="backup_error_blank_location">Месцазнаходжанне не павінна быць пустым</string>
+  <string name="backup_error_blank_contents">Змест не павінна быць пустым</string>
+  <string name="backup_creating">Стварэнне рэзервовага запісу</string>
+  <string name="no_recent_backups">Няма нядаўніх рэзервовых копій</string>
+  <string name="backup_loading">Загрузка...</string>
+  <string name="backup_invalid">Не даступны</string>
+  <string name="backup_remove_from_recents">Выдаліць са спісу</string>
   <string name="backup_share">Падзяліцца</string>
+  <string name="backup_timestamp">Створана</string>
+  <string name="backup_restoring">Аднаўленне рэзервовай копіі</string>
+  <string name="backup_restarting">Перазагрузка</string>
+  <string name="restore_contents">Аднаўленне змесціва</string>
+  <string name="restore_success">Паспяховае аднаўленне</string>
+  <string name="backup_failed">Збой рэзервовага капіявання</string>
+  <string name="restore_failed">Памылка пры аднаўленні</string>
+  <string name="restore_read_meta_fail">Недапушчальны файл рэзервовай копіі</string>
+  <string name="backup_share_title">Падзяліцца рэзервовай копіяй</string>
+  <string name="backup_share_text">Файл рэзервовай копіі Lawnchair</string>
+  <string name="read_external_storage_required">Для стварэння рэзервовай копіі патрабуецца дазвол на доступ да сховішча</string>
+  <string name="local_backups">Лакальныя рэзервовыя копіі</string>
+  <string name="backup_location_device_storage">Сховішча прылады</string>
+  <string name="backup_location_documents_storage">Сховішча дакументаў</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <string name="pref_category_pixel_searchbar">Радок пошуку Pixel</string>
   <!-- Preference Category Icons Title -->
+  <string name="pref_category_icons">Значкі</string>
   <!-- Preference Category Drawer Title -->
+  <string name="pref_category_drawer">Меню праграм</string>
   <!-- Preference Category Misc Title -->
+  <string name="pref_category_misc">Іншае</string>
+  <string name="blur_oom">Адбылася памылка пры спробе Lawnchair размыць вашы шпалеры! Памяншэнне разрозненні шпалер магло б выправіць гэта.</string>
+  <string name="legacy_backup">Састарэлы файл рэзервовай копіі</string>
 </resources>

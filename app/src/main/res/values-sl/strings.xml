@@ -353,6 +353,7 @@
   <string name="pref_weather_api_key_title">API ključ</string>
   <string name="about_changelog">Zadnje spremembe</string>
   <string name="pref_all_apps_custom_label_color">Barva nalepke po meri</string>
+  <string name="pref_all_apps_label_color">Barva oznake ikon v predalu</string>
   <string name="pref_num_rows_drawer">Število vrstic v predalu</string>
   <string name="center_wallpaper_pref_title">Ozadje na srdino, ko obstaja samo ena stran</string>
   <string name="vertical_drawer_layout_pref_title">Prikaži kot navpični seznam</string>
