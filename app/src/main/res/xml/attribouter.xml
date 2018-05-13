@@ -3,7 +3,7 @@
     <appInfo
         icon="@mipmap/ic_launcher"
         playStoreUrl="https://play.google.com/store/apps/details?id=ch.deletescape.lawnchair.plah"
-        repo="LawnchairLauncher/Lawnchair"
+        repo="MoKee/android_packages_apps_Lawnchair"
         websiteUrl="https://lawnchair.info">
         <link
             name="@string/about_twitter"
