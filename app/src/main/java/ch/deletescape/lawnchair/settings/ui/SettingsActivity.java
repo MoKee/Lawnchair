@@ -226,8 +226,6 @@ public class SettingsActivity extends AppCompatActivity implements
                 findPreference("about_version").setSummary(BuildConfig.VERSION_NAME);
                 if (BuildConfig.TRAVIS && !BuildConfig.BUILD_TYPE.equalsIgnoreCase("stable")) {
                     findPreference("about_changelog").setSummary(Utilities.getChangelog());
-                } else {
-                    getPreferenceScreen().removePreference(findPreference("about_changelog"));
                 }
             } else if (getContent() == R.xml.launcher_behavior_preferences) {
                 if (Utilities.ATLEAST_NOUGAT_MR1 && BuildConfig.TRAVIS) {
