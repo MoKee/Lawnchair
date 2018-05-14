@@ -281,8 +281,11 @@
   <string name="behavior_pref_summary">Spremeni vedenje Lawnchair-a</string>
   <string name="debug_pref_summary">Zaženi ali obnovi ikono zbirke podatkov</string>
   <string name="show_mic_pref_title">Pokaži gumb Google pomočnik</string>
+  <string name="pixel_style_icons_pref_title">Uporabi Pixel ikone</string>
+  <string name="pixel_style_icons_pref_summary">Omogočeno uporabi krožne ikone, kadar je to mogoče</string>
   <string name="show_google_now_tab_pref_title">Prikaži stran Google zdaj</string>
   <string name="restart_lawnchair_pref_title">Ponovni zagon Lawnchair-a</string>
+  <string name="restart_lawnchair_pref_summary">Koristno kadar se nekatere nastavitve ne odzivajo pravilno</string>
   <string name="keep_scroll_state_pref_title">Shrani trenutni položaj</string>
   <string name="keep_scroll_state_pref_summary">Shrani položaj drsnika v predal</string>
   <string name="home_opens_drawer_pref_title">Domov gumb odpre predal z aplikacijami</string>
@@ -315,6 +318,15 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Obnovi</string>
   <string name="backup_export_title">Varnostna kopija</string>
+  <string name="settings_export_success">Uspešno varnostno kopiranje nastavitev</string>
+  <string name="db_export_success">Uspešno varnostno kopiranje zbirke podatkov</string>
+  <string name="settings_import_success">Uspešna obnovitev nastavitev</string>
+  <string name="db_import_success">Uspešna obnovitev zbirke podatkov</string>
+  <string name="export_error">Ni mogoče varnostno kopirati</string>
+  <string name="import_error">Ni mogoče obnoviti</string>
+  <string name="imexport_no_backup_found">Ne najdem varnostne kopije</string>
+  <string name="imexport_external_storage_unreadable">V nastavitvah, dodajte zunanjo shrambo kot berljivo</string>
+  <string name="imexport_external_storage_unwritable">V nastavitvah, dodajte zunanjo shrambo kot zapisljivo</string>
   <string name="units_metric">Metrične</string>
   <string name="units_imperial">Angleške</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
@@ -381,4 +393,7 @@
   <string name="snowfall_enabled">\"Naj bo sneg, sneg, naj sneži!\"</string>
   <string name="snowflake_size_scale">Velikost snežinke</string>
   <string name="snowflakes_num">Max število snežink</string>
+  <string name="title_storage_permission_required">Potrebno je dovoljenje za shranjevanje</string>
+  <string name="content_storage_permission_required">Programi ki uporabljajo ozadij na Android 8.1 ali višjem, potrebujejo dovoljenje za dostop do shrambe. 
+Brez omenjenega dovoljenja se lahko Lawnchair sesuje ali pa se lahko nepričakovano vede.</string>
 </resources>
