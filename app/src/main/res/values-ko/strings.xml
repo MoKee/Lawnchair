@@ -379,10 +379,6 @@
   <string name="animated_clock_icon_title">동적 시계 아이콘</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">다른 시계 앱에 애니메이션 적용</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">구글 시계 앱을 기본앱으로 사용하지 않는 경우 사용 설정하세요.</string>
-  <string name="about_summary_title">요약</string>
-  <string name="about_version">버전</string>
-  <string name="about_icon_designer">앱 아이콘 디자이너</string>
-  <string name="about_contributors_title">기여자</string>
   <string name="location_permission_warn">다른 프로바이더로 전환하기 위해 위치 정보 접근 허가가 필요합니다!</string>
   <string name="num_cols_drawer_pref_title">앱 서랍 열 개수</string>
   <string name="shortcut_backport_warning">기기가 느려질 수 있습니다, 주의하세요.</string>
@@ -425,4 +421,7 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">이메일</string>
+  <string name="title_attribouter_license_permissions">권한</string>
 </resources>

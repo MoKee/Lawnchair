@@ -270,8 +270,6 @@
   <string name="loading">Зареждане…</string>
   <string name="icon_shape_none">Без</string>
   <string name="icon_shape_circle">Кръг</string>
-  <string name="about_version">Версия</string>
-  <string name="about_contributors_title">Сътрудници</string>
   <string name="about_changelog">История на промените</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
@@ -288,4 +286,7 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">Имейл</string>
+  <string name="title_attribouter_license_permissions">Права</string>
 </resources>

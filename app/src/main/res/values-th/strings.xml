@@ -238,7 +238,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ไม่มี</string>
   <string name="icon_shape_none">ไม่มี</string>
-  <string name="about_version">เวอร์ชัน</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">ใช้</string>
@@ -251,4 +250,5 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
 </resources>

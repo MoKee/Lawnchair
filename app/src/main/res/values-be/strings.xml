@@ -385,10 +385,6 @@
   <string name="animated_clock_icon_title">Аніміраваны значок гадзінніка</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Аніміраваць альтэрнатыўную праграму гадзін</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Уключыце калі Вы не карыстаецеся Google Гадзіннік як дадатак гадзін па змаўчанні</string>
-  <string name="about_summary_title">Вынік</string>
-  <string name="about_version">Версія</string>
-  <string name="about_icon_designer">Дызайн значкоў</string>
-  <string name="about_contributors_title">Аўтары</string>
   <string name="location_permission_warn">Дазвольце доступ да месцазнаходжання, каб пераключыцца на іншага пастаўшчыка!</string>
   <string name="num_cols_drawer_pref_title">Колькасць слупкоў у меню праграм</string>
   <string name="shortcut_backport_warning">Гэта можа прывесці да павольнай працы праграмы, выкарыстоўвайце на свой страх і рызыка</string>
@@ -473,4 +469,7 @@
   <string name="pref_category_misc">Іншае</string>
   <string name="blur_oom">Адбылася памылка пры спробе Lawnchair размыць вашы шпалеры! Памяншэнне разрозненні шпалер магло б выправіць гэта.</string>
   <string name="legacy_backup">Састарэлы файл рэзервовай копіі</string>
+  <!-- About screen -->
+  <string name="title_attribouter_email">Email</string>
+  <string name="title_attribouter_license_permissions">Правы</string>
 </resources>

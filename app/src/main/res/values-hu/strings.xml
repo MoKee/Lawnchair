@@ -383,10 +383,6 @@
   <string name="animated_clock_icon_title">Animált óra ikon</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Egyéb óra alkalmazások animálása</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Engedélyezze, ha nem a Google Órát használja alapértelmezett óra alkalmazásként</string>
-  <string name="about_summary_title">Összegzés</string>
-  <string name="about_version">Verzió</string>
-  <string name="about_icon_designer">Alkalmazásikon tervező</string>
-  <string name="about_contributors_title">Közreműködők</string>
   <string name="location_permission_warn">Tartózkodási hely hozzáférés szükséges másik kiszolgálóra váltáshoz!</string>
   <string name="num_cols_drawer_pref_title">Oszlopok száma az alkalmazásfiókban</string>
   <string name="shortcut_backport_warning">Ez lassú lehet, csak saját felelősségére használja</string>
@@ -471,4 +467,7 @@
   <string name="pref_category_misc">Vegyes</string>
   <string name="blur_oom">A Lawnchair memóriája elfogyott a háttérkép életlenítés közben! A háttérkép felbontásának csökkentése megoldhatja ezt a problémát.</string>
   <string name="legacy_backup">Örökölt mentési fájl</string>
+  <!-- About screen -->
+  <string name="title_attribouter_email">E-mail</string>
+  <string name="title_attribouter_license_permissions">Engedélyek</string>
 </resources>

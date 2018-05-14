@@ -378,10 +378,6 @@
   <string name="animated_clock_icon_title">אייקון שעון מונפש</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">הנפש אפליקציות שעון חלופיות</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">הפעל אפשרות זו אם אינך משתמש בשעון של Google בתור אפליקציית השעון המוגדרת כברירת מחדל</string>
-  <string name="about_summary_title">סיכום</string>
-  <string name="about_version">גרסה</string>
-  <string name="about_icon_designer">מעצב סמל האפליקציה</string>
-  <string name="about_contributors_title">תורמים</string>
   <string name="location_permission_warn">הרשאת המיקום נדרשת על מנת להחליף מקור נתונים!</string>
   <string name="num_cols_drawer_pref_title">מספר העמודות במגירת היישומים</string>
   <string name="shortcut_backport_warning">זו יכולה להיות פעולה איטית, השימוש על אחריותכם בלבד</string>
@@ -422,4 +418,6 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">דוא\"ל</string>
 </resources>

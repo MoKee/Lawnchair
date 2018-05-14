@@ -379,10 +379,6 @@
   <string name="animated_clock_icon_title">Icono de reloj animado</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Animar aplicaciones de reloj alternativas</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Activar esta opción si no se usa el Reloj de Google como aplicación de reloj predeterminada</string>
-  <string name="about_summary_title">Resumen</string>
-  <string name="about_version">Versión</string>
-  <string name="about_icon_designer">Diseñador del icono de la aplicación</string>
-  <string name="about_contributors_title">Colaboradores</string>
   <string name="location_permission_warn">¡Se necesitan permisos de ubicación para cambiar a otro proveedor!</string>
   <string name="num_cols_drawer_pref_title">Número de columnas en el cajón de aplicaciones</string>
   <string name="shortcut_backport_warning">Esto podría causar ralentización, usar bajo su propio riesgo</string>
@@ -425,4 +421,7 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">Correo electrónico</string>
+  <string name="title_attribouter_license_permissions">Permisos</string>
 </resources>

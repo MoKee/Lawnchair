@@ -236,8 +236,6 @@
   <string name="none">Bat ere ez</string>
   <string name="icon_shape_none">Bat ere ez</string>
   <string name="icon_shape_circle">Zirkularra</string>
-  <string name="about_version">Bertsioa</string>
-  <string name="about_contributors_title">Parte-hartzaileak</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Aplikatu</string>
@@ -249,4 +247,7 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">Eposta</string>
+  <string name="title_attribouter_license_permissions">Baimenak</string>
 </resources>

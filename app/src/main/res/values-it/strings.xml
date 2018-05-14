@@ -383,10 +383,6 @@
   <string name="animated_clock_icon_title">Icona dell\'orologio animata</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Icona animata per app alternative per l\'orologio</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Attiva quest\'opzione se non usi l\'orologio Google come app predefinita per l\'orologio</string>
-  <string name="about_summary_title">Sommario</string>
-  <string name="about_version">Versione</string>
-  <string name="about_icon_designer">Designer delle icone</string>
-  <string name="about_contributors_title">Collaboratori</string>
   <string name="location_permission_warn">È richiesta la posizione per passare ad un altro provider!</string>
   <string name="num_cols_drawer_pref_title">Numero di colonne nel menù delle applicazioni</string>
   <string name="shortcut_backport_warning">Potrebbe essere lento, utilizzalo a tuo rischio</string>
@@ -471,4 +467,7 @@
   <string name="pref_category_misc">Varie</string>
   <string name="blur_oom">Lawnchair ha esaurito la memoria cercando di sfocare lo sfondo! Abbassare la risoluzione dello sfondo potrebbe eventualmente risolvere il problema.</string>
   <string name="legacy_backup">File di backup legacy</string>
+  <!-- About screen -->
+  <string name="title_attribouter_email">Email</string>
+  <string name="title_attribouter_license_permissions">Permessi</string>
 </resources>

@@ -384,10 +384,6 @@
   <string name="animated_clock_icon_title">Pictogramă ceas animată</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Animare aplicații de ceas alternative</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Activați dacă nu utilizați Ceas Google ca aplicație implicită</string>
-  <string name="about_summary_title">Rezumat</string>
-  <string name="about_version">Versiune</string>
-  <string name="about_icon_designer">Designer pictogramă aplicaţie</string>
-  <string name="about_contributors_title">Contribuitori</string>
   <string name="location_permission_warn">Este necesară permisiunea de locație pentru a comuta la alt furnizor!</string>
   <string name="num_cols_drawer_pref_title">Numărul de coloane în lista aplicațiilor</string>
   <string name="shortcut_backport_warning">Acest lucru ar putea fi lent, utilizați pe propriul risc</string>
@@ -470,4 +466,7 @@
   <string name="pref_category_misc">Diverse</string>
   <string name="blur_oom">Lawnchair a rămas fără memorie încercând să blureze imaginea de fundal! Scăderea rezoluției imaginii de fundal ar putea remedia acest lucru.</string>
   <string name="legacy_backup">Fișier vechi copie rezervă</string>
+  <!-- About screen -->
+  <string name="title_attribouter_email">Email</string>
+  <string name="title_attribouter_license_permissions">Permisiuni</string>
 </resources>

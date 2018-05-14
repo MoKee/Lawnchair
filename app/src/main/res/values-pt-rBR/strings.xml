@@ -388,10 +388,6 @@
   <string name="animated_clock_icon_title">Ícone do relógio animado</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Animar aplicativos de relógio alternativos</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Ative isso se você não usa o relógio do Google como relógio padrão</string>
-  <string name="about_summary_title">Resumo</string>
-  <string name="about_version">Versão</string>
-  <string name="about_icon_designer">Criador de Ícones de aplicativos</string>
-  <string name="about_contributors_title">Colaboradores</string>
   <string name="location_permission_warn">Permissão de localização necessária para mudar de provedor!</string>
   <string name="num_cols_drawer_pref_title">Número de colunas na gaveta</string>
   <string name="shortcut_backport_warning">Isto pode ser lento, use a seu próprio risco</string>
@@ -468,4 +464,7 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">E-mail</string>
+  <string name="title_attribouter_license_permissions">Permissões</string>
 </resources>

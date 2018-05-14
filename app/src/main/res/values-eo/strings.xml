@@ -143,7 +143,6 @@
   <!-- About Lawnchair -->
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
-  <string name="about_version">Versio</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <!-- Strings for popup dialogs -->
@@ -153,4 +152,5 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
 </resources>

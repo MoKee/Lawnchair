@@ -385,10 +385,6 @@
   <string name="animated_clock_icon_title">Анимированный значок часов</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Анимировать альтернативное приложение часов</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Включите, если вы не используете Google Часы как приложение часов по умолчанию</string>
-  <string name="about_summary_title">Описание</string>
-  <string name="about_version">Версия</string>
-  <string name="about_icon_designer">Дизайнер значка приложения</string>
-  <string name="about_contributors_title">Участники</string>
   <string name="location_permission_warn">Предоставьте доступ к местоположению, чтобы переключиться на другого поставщика!</string>
   <string name="num_cols_drawer_pref_title">Количество столбцов в меню приложений</string>
   <string name="shortcut_backport_warning">Это может привести к медленной работе приложения, используйте на свой страх и риск</string>
@@ -473,4 +469,7 @@
   <string name="pref_category_misc">Другие настройки</string>
   <string name="blur_oom">Произошла ошибка при попытке Lawnchair размыть ваши обои! Уменьшение разрешения обоев могло бы исправить это.</string>
   <string name="legacy_backup">Устаревший файл резервной копии</string>
+  <!-- About screen -->
+  <string name="title_attribouter_email">Эл. почта</string>
+  <string name="title_attribouter_license_permissions">Разрешения</string>
 </resources>

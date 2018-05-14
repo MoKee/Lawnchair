@@ -374,10 +374,6 @@
   <string name="animated_clock_icon_title">Animerade klockikon</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Animera alternativa klockan appar</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Aktivera detta om du inte använder Google Klocka som standardapp för klocka</string>
-  <string name="about_summary_title">Sammanfattning</string>
-  <string name="about_version">Version</string>
-  <string name="about_icon_designer">App ikon designer</string>
-  <string name="about_contributors_title">Medverkande</string>
   <string name="location_permission_warn">Positionstillstånd krävs för att byta till en annan leverantör!</string>
   <string name="num_cols_drawer_pref_title">Antal kolumner i applistan</string>
   <string name="shortcut_backport_warning">Detta kan vara långsamt. Använd på egen risk</string>
@@ -419,4 +415,7 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">E-post</string>
+  <string name="title_attribouter_license_permissions">Behörigheter</string>
 </resources>

@@ -385,10 +385,6 @@
   <string name="animated_clock_icon_title">Ikona animovaných hodin</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Animace aplikace alternativních hodin</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Povolte, pokud nepoužíváte hodiny Google jako výchozí aplikaci pro hodiny</string>
-  <string name="about_summary_title">Shrnutí</string>
-  <string name="about_version">Verze</string>
-  <string name="about_icon_designer">Návrhář ikon aplikací</string>
-  <string name="about_contributors_title">Přispěvatelé</string>
   <string name="location_permission_warn">Při přepnutí na jiného poskytovatele je třeba udělit oprávnění k zjišťování polohy!</string>
   <string name="num_cols_drawer_pref_title">Počet sloupců v seznamu aplikací</string>
   <string name="shortcut_backport_warning">To by mohlo být pomalé, použijte na vlastní riziko</string>
@@ -473,4 +469,7 @@
   <string name="pref_category_misc">Různé</string>
   <string name="blur_oom">Lawnchair vyčerpal paměť při pokusu rozmazat tapetu! Snížení rozlišení tabety by tento problém mohlo vyřešit.</string>
   <string name="legacy_backup">Starší soubor zálohy</string>
+  <!-- About screen -->
+  <string name="title_attribouter_email">E-mail</string>
+  <string name="title_attribouter_license_permissions">Oprávnění</string>
 </resources>

@@ -292,7 +292,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Tiada</string>
   <string name="icon_shape_none">Tiada</string>
-  <string name="about_version">Versi</string>
   <string name="about_changelog">Log perubahan</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
@@ -308,4 +307,6 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">E-mel</string>
 </resources>

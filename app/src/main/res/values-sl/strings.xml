@@ -281,8 +281,11 @@
   <string name="behavior_pref_summary">Spremeni vedenje Lawnchair-a</string>
   <string name="debug_pref_summary">Zaženi ali obnovi ikono zbirke podatkov</string>
   <string name="show_mic_pref_title">Pokaži gumb Google pomočnik</string>
+  <string name="pixel_style_icons_pref_title">Uporabi Pixel ikone</string>
+  <string name="pixel_style_icons_pref_summary">Omogočeno uporabi krožne ikone, kadar je to mogoče</string>
   <string name="show_google_now_tab_pref_title">Prikaži stran Google zdaj</string>
   <string name="restart_lawnchair_pref_title">Ponovni zagon Lawnchair-a</string>
+  <string name="restart_lawnchair_pref_summary">Koristno kadar se nekatere nastavitve ne odzivajo pravilno</string>
   <string name="keep_scroll_state_pref_title">Shrani trenutni položaj</string>
   <string name="keep_scroll_state_pref_summary">Shrani položaj drsnika v predal</string>
   <string name="home_opens_drawer_pref_title">Domov gumb odpre predal z aplikacijami</string>
@@ -315,6 +318,15 @@
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Obnovi</string>
   <string name="backup_export_title">Varnostna kopija</string>
+  <string name="settings_export_success">Uspešno varnostno kopiranje nastavitev</string>
+  <string name="db_export_success">Uspešno varnostno kopiranje zbirke podatkov</string>
+  <string name="settings_import_success">Uspešna obnovitev nastavitev</string>
+  <string name="db_import_success">Uspešna obnovitev zbirke podatkov</string>
+  <string name="export_error">Ni mogoče varnostno kopirati</string>
+  <string name="import_error">Ni mogoče obnoviti</string>
+  <string name="imexport_no_backup_found">Ne najdem varnostne kopije</string>
+  <string name="imexport_external_storage_unreadable">V nastavitvah, dodajte zunanjo shrambo kot berljivo</string>
+  <string name="imexport_external_storage_unwritable">V nastavitvah, dodajte zunanjo shrambo kot zapisljivo</string>
   <string name="units_metric">Metrične</string>
   <string name="units_imperial">Angleške</string>
   <!-- Default units to use, either 'metric' or 'imperial' -->
@@ -343,9 +355,6 @@
   <string name="animated_clock_icon_title">Ikona animirane ure</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Animiraj ostale aplikacije za čas</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Če ne uporabljate Googlove ure kot privzeto uro, omogočite to</string>
-  <string name="about_summary_title">Povzetek</string>
-  <string name="about_version">Različica</string>
-  <string name="about_contributors_title">Sodelavci</string>
   <string name="location_permission_warn">Zahtevano je dovoljenje za dostop do lokacije, za priklop na drugega ponudnika!</string>
   <string name="num_cols_drawer_pref_title">Število stolpcev v predalu</string>
   <string name="shortcut_backport_warning">To je lahko počasno, odločitev je samo vaša</string>
@@ -385,4 +394,7 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">E-pošta</string>
+  <string name="title_attribouter_license_permissions">Dovoljenja</string>
 </resources>

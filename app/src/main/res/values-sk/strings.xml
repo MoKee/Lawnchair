@@ -385,10 +385,6 @@
   <string name="animated_clock_icon_title">Ikona animovaných hodín</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Animovať aplikáciu alternatívnych hodín</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Povoľte, ak nepoužívate hodiny Google ako predvolenú aplikáciu pre hodiny</string>
-  <string name="about_summary_title">Zhrnutie</string>
-  <string name="about_version">Verzia</string>
-  <string name="about_icon_designer">Návrhár ikon aplikácií</string>
-  <string name="about_contributors_title">Prispievatelia</string>
   <string name="location_permission_warn">Pri prepnutí na iného poskytovateľa je potrebné udeliť povolenie na zisťovanie polohy!</string>
   <string name="num_cols_drawer_pref_title">Počet stĺpcov v zobrazení ponuky</string>
   <string name="shortcut_backport_warning">Mohlo by to byť pomalé, používajte na vlastné riziko</string>
@@ -473,4 +469,7 @@
   <string name="pref_category_misc">Rôzne</string>
   <string name="blur_oom">Lawnchair vyčerpal pamäť pri tom, ako sa snažil sa rozmazať tapetu! Zníženie rozlíšenia tapety by to mohlo vyriešiť.</string>
   <string name="legacy_backup">Starší súbor zálohy</string>
+  <!-- About screen -->
+  <string name="title_attribouter_email">Email</string>
+  <string name="title_attribouter_license_permissions">Oprávnenia</string>
 </resources>

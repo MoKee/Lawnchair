@@ -227,7 +227,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Engin</string>
   <string name="icon_shape_none">Engin</string>
-  <string name="about_version">Útgáfa</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Nota</string>
@@ -237,4 +236,5 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
 </resources>

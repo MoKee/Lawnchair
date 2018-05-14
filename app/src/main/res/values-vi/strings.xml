@@ -382,10 +382,6 @@
   <string name="animated_clock_icon_title">Biểu tượng đồng hồ động</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Hiệu ứng cho ứng dụng đồng hồ khác</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Kích hoạt nếu bạn không sử dụng ứng dụng đồng hồ của Google làm ứng dụng đồng hồ mặc định</string>
-  <string name="about_summary_title">Sơ lược</string>
-  <string name="about_version">Phiên bản</string>
-  <string name="about_icon_designer">Người thiết kế biểu tượng</string>
-  <string name="about_contributors_title">Người đóng góp</string>
   <string name="location_permission_warn">Cần quyền truy cập vị trí để đổi nhà cung cấp</string>
   <string name="num_cols_drawer_pref_title">Số cột trong ngăn chứa</string>
   <string name="shortcut_backport_warning">Tính năng này có thể khiến máy bạn chậm lại, hãy cân nhắc trước khi kích hoạt</string>
@@ -470,4 +466,33 @@
   <string name="pref_category_misc">Khác</string>
   <string name="blur_oom">Lawnchair chạy ra khỏi bộ nhớ cố gắng để mờ phông nền của bạn! Giảm nguồn hình nền có thể có thể sửa lỗi này.</string>
   <string name="legacy_backup">Tệp sao lưu di sản</string>
+  <!-- About screen -->
+  <string name="title_attribouter_licenses">Giấy phép mã nguồn mở</string>
+  <string name="title_attribouter_email">Thư điện tử</string>
+  <string name="title_attribouter_website">Trang web</string>
+  <string name="title_attribouter_rate">Đánh giá</string>
+  <string name="title_attribouter_version">Phiên bản %1$s</string>
+  <string name="title_attribouter_license">Bản quyền</string>
+  <string name="title_attribouter_license_permissions">Cấp phép</string>
+  <string name="title_attribouter_license_conditions">Điều kiện</string>
+  <string name="title_attribouter_license_limitations">Hạn chế</string>
+  <string name="title_attribouter_more_info">Thông tin thêm</string>
+  <string name="title_attribouter_translators">Phiên dịch viên</string>
+  <string name="about_our_team">Nhóm của chúng tôi</string>
+  <string name="about_our_contributors">Những người đóng góp chính của chúng tôi</string>
+  <string name="about_our_family">Các thành viên gia đình của chúng tôi</string>
+  <string name="about_role_lead">Lãnh đạo phát triển</string>
+  <string name="about_role_devops">DevOps</string>
+  <string name="about_role_dev">Nhà phát triển</string>
+  <string name="about_role_dev_mod">Nhà phát triển / điều phối viên</string>
+  <string name="about_role_designer">Nhà thiết kế</string>
+  <string name="about_role_special_snowflake">PR Manager / điều phối viên</string>
+  <string name="about_role_mod_support">Người điều hành / hỗ trợ</string>
+  <string name="about_role_family_member">Thành viên gia đình</string>
+  <string name="about_bio_deletescape">Nhà phát triển Android &amp; đam mê, yêu memes (một chút quá nhiều thực sự). Người sáng lập của dự án Lawnchair.</string>
+  <string name="about_bio_divadsn">18 tuổi, biến cà phê và bánh pizza thành mã. Còn trước đó được gọi là Codebucket.</string>
+  <string name="about_bio_recoded">Thiết kế nhẹ coder và đồ họa.</string>
+  <string name="about_bio_josh">Freelance thiết kế đồ họa.</string>
+  <string name="about_bio_chris">Duy sáng tạo, Influencer &amp; người sáng tạo nội dung. Xã hội truyền thông và PR Manager.</string>
+  <string name="about_bio_msfjarvis">Lõi các phát triển tại halogenOS và ứng dụng phát triển tại substratum.</string>
 </resources>

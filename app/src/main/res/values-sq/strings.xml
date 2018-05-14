@@ -227,7 +227,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Asnjë</string>
   <string name="icon_shape_none">Asnjë</string>
-  <string name="about_version">Versioni</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Zbato</string>
@@ -238,4 +237,6 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_license_permissions">Lejet</string>
 </resources>

@@ -162,7 +162,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ஏதுமில்லை</string>
   <string name="icon_shape_none">ஏதுமில்லை</string>
-  <string name="about_version">பதிப்பு</string>
   <string name="about_changelog">மாற்றம் பதிவு</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
@@ -175,4 +174,6 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">மின்னஞ்சல்</string>
 </resources>

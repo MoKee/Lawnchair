@@ -151,7 +151,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="folder">Carpeta</string>
   <string name="loading">Cargando…</string>
-  <string name="about_contributors_title">Collaboradores</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <!-- Strings for popup dialogs -->
@@ -161,4 +160,6 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_license_permissions">Permisos</string>
 </resources>

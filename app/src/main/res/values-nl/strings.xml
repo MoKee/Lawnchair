@@ -378,10 +378,6 @@
   <string name="animated_clock_icon_title">Geanimeerd klok pictogram</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Alternatieve klok apps animeren</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Inschakelen als de Google Klok niet jouw standaard klok app is</string>
-  <string name="about_summary_title">Samenvatting</string>
-  <string name="about_version">Versie</string>
-  <string name="about_icon_designer">App Pictogram Designer</string>
-  <string name="about_contributors_title">Bijdragers</string>
   <string name="location_permission_warn">Locatietoestemming is vereist om te wijzigen van dienstverlener!</string>
   <string name="num_cols_drawer_pref_title">Aantal kolommen in de app-lade</string>
   <string name="shortcut_backport_warning">Dit kan traag zijn, gebruiken op eigen risico</string>
@@ -424,4 +420,7 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">E-mail</string>
+  <string name="title_attribouter_license_permissions">Machtigingen</string>
 </resources>

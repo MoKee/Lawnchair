@@ -237,7 +237,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Umekamilisha</string>
   <string name="icon_shape_none">Umekamilisha</string>
-  <string name="about_version">Toleo</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Tekeleza</string>
@@ -249,4 +248,5 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
 </resources>

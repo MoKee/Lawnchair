@@ -377,10 +377,6 @@
   <string name="animated_clock_icon_title">एनिमेटेड घड़ी आइकोन</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">वैकल्पिक घड़ी ऐप्स को सजीव करना</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">इसे सक्षम करें यदि आप Google घड़ी का उपयोग अपने डिफ़ॉल्ट घड़ी एप्लिकेशन के रूप में नहीं करते हैं</string>
-  <string name="about_summary_title">सारांश</string>
-  <string name="about_version">संस्करण</string>
-  <string name="about_icon_designer">एप्लिकेशन आइकन डिजाइनर</string>
-  <string name="about_contributors_title">योगदान कर्ता</string>
   <string name="location_permission_warn">दूसरे प्रदाता पर स्विच करने के लिए स्थान अनुमति आवश्यक है!</string>
   <string name="num_cols_drawer_pref_title">ड्रोवर में स्तंभों की संख्या</string>
   <string name="shortcut_backport_warning">यह धीमा हो सकता है, अपने जोखिम पर उपयोग करें</string>
@@ -419,4 +415,5 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
 </resources>

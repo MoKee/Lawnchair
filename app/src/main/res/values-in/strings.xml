@@ -386,10 +386,6 @@
   <string name="animated_clock_icon_title">Animasi ikon jam</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Animasikan aplikasi jam alternatif</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Aktifkan ini bila anda tidak menggunakan Google Clock sebagai aplikasi jam bawaan anda</string>
-  <string name="about_summary_title">Ringkasan</string>
-  <string name="about_version">Versi</string>
-  <string name="about_icon_designer">Perancang Ikon App</string>
-  <string name="about_contributors_title">Kontributor</string>
   <string name="location_permission_warn">Izin lokasi dibutuhkan untuk beralih ke penyedia lain!</string>
   <string name="num_cols_drawer_pref_title">Jumlah kolom pada laci</string>
   <string name="shortcut_backport_warning">Ini bisa membuat lambat, gunakan dengan resiko anda sendiri</string>
@@ -474,4 +470,7 @@
   <string name="pref_category_misc">Lain-lain</string>
   <string name="blur_oom">Lawnchair kehabisan memori saat berusaha memburamkan wallpaper anda! Menurunkan resolusi wallpaper mungkin bisa memperbaiki ini.</string>
   <string name="legacy_backup">Berkas cadangan lawas</string>
+  <!-- About screen -->
+  <string name="title_attribouter_email">E-mail</string>
+  <string name="title_attribouter_license_permissions">Perizinan</string>
 </resources>

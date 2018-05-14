@@ -378,10 +378,6 @@
   <string name="animated_clock_icon_title">Ζωντανό εικονίδιο ρολογιού</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Κινούμενα γραφικά για εναλλακτικές εφαρμογές ρολογιού</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Ενεργοποιήστε αυτό εάν δεν χρησιμοποιείται το ρολόι Google ως προεπιλεγμένη εφαρμογή ρολογιού</string>
-  <string name="about_summary_title">Σύνοψη</string>
-  <string name="about_version">Αριθμός έκδοσης</string>
-  <string name="about_icon_designer">Σχεδιαστής Εικονιδίου Lawnchair</string>
-  <string name="about_contributors_title">Συντελεστές</string>
   <string name="location_permission_warn">Απαιτείται η παραχώρηση άδειας ανάγνωσης τοποθεσίας για αλλαγή παρόχου καιρού!</string>
   <string name="num_cols_drawer_pref_title">Αριθμός στηλών στο συρτάρι εφαρμογών</string>
   <string name="shortcut_backport_warning">Αυτό μπορεί να είναι αργό, να χρησιμοποιηθεί με δική σας ευθύνη</string>
@@ -424,4 +420,7 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">Ηλεκτρονικό ταχυδρομείο</string>
+  <string name="title_attribouter_license_permissions">Άδειες</string>
 </resources>

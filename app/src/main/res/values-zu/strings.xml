@@ -238,7 +238,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Akunalutho</string>
   <string name="icon_shape_none">Akunalutho</string>
-  <string name="about_version">Inguqulo</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">Sebenzisa</string>
@@ -250,4 +249,5 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
 </resources>

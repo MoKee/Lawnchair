@@ -237,7 +237,6 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">কোনো কিছুই নয়</string>
   <string name="icon_shape_none">কোনো কিছুই নয়</string>
-  <string name="about_version">সংস্করণ</string>
   <string name="about_changelog">Changelog</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
@@ -249,4 +248,6 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">ই-মেইল</string>
 </resources>

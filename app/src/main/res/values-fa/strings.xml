@@ -253,8 +253,6 @@
   <string name="folder">پوشه</string>
   <string name="loading">در حال بارگذاری...</string>
   <string name="icon_shape_none">هیچ‌کدام</string>
-  <string name="about_version">نسخه</string>
-  <string name="about_contributors_title">شرکاء</string>
   <string name="about_changelog">تغییرات ایجاد شده</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
@@ -271,4 +269,6 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_license_permissions">مجوز ها</string>
 </resources>

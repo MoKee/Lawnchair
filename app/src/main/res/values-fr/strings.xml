@@ -383,10 +383,6 @@
   <string name="animated_clock_icon_title">Icône d’horloge animée</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Animer les autres applis d’horloge</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Activer cette option si vous n’utilisez pas l’horloge Google comme appli d’horloge par défaut</string>
-  <string name="about_summary_title">Résumé</string>
-  <string name="about_version">Version</string>
-  <string name="about_icon_designer">Designer des icônes de l\'application</string>
-  <string name="about_contributors_title">Donateurs</string>
   <string name="location_permission_warn">L\'autorisation d\'utiliser la localisation est requise pour passer à un autre fournisseur !</string>
   <string name="num_cols_drawer_pref_title">Nombre de colonnes dans le tiroir des applications</string>
   <string name="shortcut_backport_warning">Cela pourrait être lent, utilisez à vos risques et périls</string>
@@ -435,6 +431,8 @@
   <string name="backup_homescreen">Ecran d\'accueil</string>
   <string name="backup_settings">Préférences</string>
   <string name="backup_wallpaper">Fond d\'écran</string>
+  <string name="backup_error_blank_name">Le nom ne doit pas être vide</string>
+  <string name="backup_creating">Création d\'une sauvegarde</string>
   <string name="no_recent_backups">Aucune sauvegarde récente</string>
   <string name="backup_loading">Chargement en cours…</string>
   <string name="backup_invalid">Non disponible</string>
@@ -450,6 +448,7 @@
   <string name="restore_read_meta_fail">Fichier de sauvegarde invalide</string>
   <string name="backup_share_title">Partager la sauvegarde</string>
   <string name="backup_share_text">Fichier de sauvegarde Lawnchair</string>
+  <string name="read_external_storage_required">L\'autorisation d\'accès au stockage est nécessaire pour créer une sauvegarde</string>
   <string name="local_backups">Sauvegardes locales</string>
   <string name="backup_location_device_storage">Mémoire de l\'appareil</string>
   <!-- Preference Category Pixel Searchbar Title -->
@@ -460,4 +459,7 @@
   <string name="pref_category_drawer">Liste d\'applications</string>
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">Divers</string>
+  <!-- About screen -->
+  <string name="title_attribouter_email">Courriel</string>
+  <string name="title_attribouter_license_permissions">Permissions</string>
 </resources>

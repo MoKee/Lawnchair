@@ -376,10 +376,6 @@
   <string name="animated_clock_icon_title">時計アイコンのアニメーション</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">別の時計アプリをアニメーション化</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">既定の時計アプリとしてGoogle 時計を使用しない場合は有効にしてください</string>
-  <string name="about_summary_title">概要</string>
-  <string name="about_version">バージョン</string>
-  <string name="about_icon_designer">アイコンデザイナー</string>
-  <string name="about_contributors_title">貢献者</string>
   <string name="location_permission_warn">位置情報のアクセス許可は、別のプロバイダに切り替える為に必要です！</string>
   <string name="num_cols_drawer_pref_title">ドロワーの列数</string>
   <string name="shortcut_backport_warning">動作が遅くなる可能性があります。自己責任で使用してください。</string>
@@ -421,4 +417,7 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">メール</string>
+  <string name="title_attribouter_license_permissions">アクセス許可</string>
 </resources>

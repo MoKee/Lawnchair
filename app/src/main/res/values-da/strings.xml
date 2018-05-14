@@ -354,9 +354,6 @@
   <string name="icon_shape_teardrop">Dråbeform</string>
   <string name="animated_clock_icon_title">Animeret ur-ikon</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Animér alternative ur-apps</string>
-  <string name="about_summary_title">Oversigt</string>
-  <string name="about_version">Udgave</string>
-  <string name="about_contributors_title">Bidragsydere</string>
   <string name="weather_api_key_not_set">API-nøgle ikke defineret</string>
   <string name="pref_weather_api_key_title">API-nøgle</string>
   <string name="about_changelog">Ændringslog</string>
@@ -380,4 +377,6 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">E-mail</string>
 </resources>

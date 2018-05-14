@@ -380,10 +380,6 @@
   <string name="animated_clock_icon_title">Estilo do relógio animado</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Animar aplicações de relógio alternativas</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Habilitar isso, se você não usa relógio de Google como seu aplicativo de relógio padrão</string>
-  <string name="about_summary_title">Sumário</string>
-  <string name="about_version">Versão</string>
-  <string name="about_icon_designer">Designer do ícone da aplicação</string>
-  <string name="about_contributors_title">Contribuidores</string>
   <string name="location_permission_warn">Permissão de localização é necessária para mudar o provedor!</string>
   <string name="num_cols_drawer_pref_title">Número de colunas na gaveta</string>
   <string name="shortcut_backport_warning">Isto pode ser lento, usar por risco próprio</string>
@@ -424,4 +420,7 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">E-mail</string>
+  <string name="title_attribouter_license_permissions">Permissões</string>
 </resources>

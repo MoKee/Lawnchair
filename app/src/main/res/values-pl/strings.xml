@@ -385,10 +385,6 @@
   <string name="animated_clock_icon_title">Animowana ikona zegara</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Animuj alternatywne aplikacje zegara</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Włącz to, jeśli nie używasz Zegara Google jako domyślnej aplikacji zegara</string>
-  <string name="about_summary_title">Podsumowanie</string>
-  <string name="about_version">Wersja</string>
-  <string name="about_icon_designer">Projekt ikony aplikacji</string>
-  <string name="about_contributors_title">Współtwórcy</string>
   <string name="location_permission_warn">Aby zmienić dostawcę pogodowego wymagane jest uprawienie do lokalizacji!</string>
   <string name="num_cols_drawer_pref_title">Liczba kolumn w szufladzie</string>
   <string name="shortcut_backport_warning">To może spowolnić urządzenie, używaj na własne ryzyko</string>
@@ -473,4 +469,7 @@
   <string name="pref_category_misc">Różne</string>
   <string name="blur_oom">Lawnchair - zabrakło pamięci, próbując rozmazać tapetę! Obniżenie rozdzielczości tapety może to naprawić.</string>
   <string name="legacy_backup">Wcześniejszy plik kopii zapasowej</string>
+  <!-- About screen -->
+  <string name="title_attribouter_email">E-mail</string>
+  <string name="title_attribouter_license_permissions">Uprawnienia</string>
 </resources>

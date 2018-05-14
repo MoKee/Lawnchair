@@ -380,10 +380,6 @@
   <string name="animated_clock_icon_title">Animiertes Uhren-Icon</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Alternative Uhr-Apps animieren</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Aktiviere diese Option, wenn du nicht die Google-Uhr als Standard verwendest</string>
-  <string name="about_summary_title">Übersicht</string>
-  <string name="about_version">Version</string>
-  <string name="about_icon_designer">Designer App-Icon</string>
-  <string name="about_contributors_title">Mitwirkende</string>
   <string name="location_permission_warn">Standort-Berechtigung wird benötigt, um zu einem anderen Anbieter zu wechseln!</string>
   <string name="num_cols_drawer_pref_title">Spalten-Anzahl in der App-Übersicht</string>
   <string name="shortcut_backport_warning">Dies könnte langsam sein, daher vorsichtig damit</string>
@@ -429,4 +425,7 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">E-Mail</string>
+  <string name="title_attribouter_license_permissions">Berechtigungen</string>
 </resources>

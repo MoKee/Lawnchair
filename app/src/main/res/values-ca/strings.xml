@@ -376,10 +376,6 @@
   <string name="animated_clock_icon_title">Icona del rellotge animada</string>
   <string name="animated_clock_icon_alternative_clock_apps_title">Anima les aplicacions de rellotge alternatives</string>
   <string name="animated_clock_icon_alternative_clock_apps_summary">Activeu-ho si no feu servir Rellotge de Google com l\'aplicació de rellotge predeterminada</string>
-  <string name="about_summary_title">Resum</string>
-  <string name="about_version">Versió</string>
-  <string name="about_icon_designer">Dissenyador/a de la icona de l\'aplicació</string>
-  <string name="about_contributors_title">Col·laboradors</string>
   <string name="location_permission_warn">El permís d\'ubicació és obligatori per canviar a un altre proveïdor!</string>
   <string name="num_cols_drawer_pref_title">Número de columnes en el calaix</string>
   <string name="shortcut_backport_warning">Això podria ser lent, utilitzeu-ho sota el vostre propi risc</string>
@@ -420,4 +416,6 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <!-- About screen -->
+  <string name="title_attribouter_email">Correu electrònic</string>
 </resources>
