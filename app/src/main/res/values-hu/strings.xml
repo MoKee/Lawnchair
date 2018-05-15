@@ -468,6 +468,32 @@
   <string name="blur_oom">A Lawnchair memóriája elfogyott a háttérkép életlenítés közben! A háttérkép felbontásának csökkentése megoldhatja ezt a problémát.</string>
   <string name="legacy_backup">Örökölt mentési fájl</string>
   <!-- About screen -->
+  <string name="title_attribouter_licenses">Nyílt forráskódú licencek</string>
   <string name="title_attribouter_email">E-mail</string>
+  <string name="title_attribouter_website">Weboldal</string>
+  <string name="title_attribouter_rate">Értékelés</string>
+  <string name="title_attribouter_version">%1$s verzió</string>
+  <string name="title_attribouter_license">Licenc</string>
   <string name="title_attribouter_license_permissions">Engedélyek</string>
+  <string name="title_attribouter_license_conditions">Feltételek</string>
+  <string name="title_attribouter_license_limitations">Korlátozások</string>
+  <string name="title_attribouter_more_info">További Információ</string>
+  <string name="title_attribouter_translators">Fordítók</string>
+  <string name="about_our_team">Csapatunk</string>
+  <string name="about_our_contributors">Fő közreműködőink</string>
+  <string name="about_our_family">\"Családunk\" további tagjai</string>
+  <string name="about_role_lead">Vezető fejlesztő</string>
+  <string name="about_role_devops">Műveleti fejlesztők</string>
+  <string name="about_role_dev">Fejlesztő</string>
+  <string name="about_role_dev_mod">Fejlesztő / Moderátor</string>
+  <string name="about_role_designer">Dizájner</string>
+  <string name="about_role_special_snowflake">PR menedzser / Moderátor</string>
+  <string name="about_role_mod_support">Moderátor / Támogató</string>
+  <string name="about_role_family_member">\"Családtag\"</string>
+  <string name="about_bio_deletescape">Az Android fejlesztők &amp; rajongók, szeretik a mémeket (egy kicsit túlságosan is). A Lawnchair projekt alapítója.</string>
+  <string name="about_bio_divadsn">18 éves, még a koffeint és a pizzát is kódra fordítja. Korábban Codebucket néven volt ismert.</string>
+  <string name="about_bio_recoded">Könnyűprogramozó és grafikai dizájner.</string>
+  <string name="about_bio_josh">Független grafikai dizájner.</string>
+  <string name="about_bio_chris">Kreatív elme, Ötletadó &amp; Tartalomkészítő. Közösségi média és PR menedzser.</string>
+  <string name="about_bio_msfjarvis">A HalogenOS fő fejlesztője és a Substratum alkalmazásfejlesztője.</string>
 </resources>

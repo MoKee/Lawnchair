@@ -467,6 +467,25 @@
   <string name="blur_oom">在記憶體用盡時，Lawnchair　將會試著模糊您的桌布！降低桌布的解析度有可能解決這個問題</string>
   <string name="legacy_backup">遺留的備份檔案</string>
   <!-- About screen -->
+  <string name="title_attribouter_licenses">開放原始碼授權</string>
   <string name="title_attribouter_email">電郵</string>
+  <string name="title_attribouter_website">網站</string>
+  <string name="title_attribouter_rate">評價</string>
+  <string name="title_attribouter_version">版本 %1$s</string>
+  <string name="title_attribouter_license">授權</string>
   <string name="title_attribouter_license_permissions">許可權</string>
+  <string name="title_attribouter_license_conditions">條件</string>
+  <string name="title_attribouter_license_limitations">限制</string>
+  <string name="title_attribouter_more_info">更多的資訊</string>
+  <string name="title_attribouter_translators">翻譯人員</string>
+  <string name="about_our_team">我們的團隊</string>
+  <string name="about_our_contributors">我們的主要貢獻者</string>
+  <string name="about_our_family">我們的其他成員</string>
+  <string name="about_role_lead">主要開發者</string>
+  <string name="about_role_devops">DevOps</string>
+  <string name="about_role_dev">開發人員</string>
+  <string name="about_role_dev_mod">開發者/維護者</string>
+  <string name="about_role_designer">設計師</string>
+  <string name="about_role_special_snowflake">公關經理/維護者</string>
+  <string name="about_role_family_member">家庭成員</string>
 </resources>

@@ -471,6 +471,32 @@
   <string name="blur_oom">Lawnchair kehabisan memori saat berusaha memburamkan wallpaper anda! Menurunkan resolusi wallpaper mungkin bisa memperbaiki ini.</string>
   <string name="legacy_backup">Berkas cadangan lawas</string>
   <!-- About screen -->
+  <string name="title_attribouter_licenses">Lisensi Sumber Terbuka</string>
   <string name="title_attribouter_email">E-mail</string>
+  <string name="title_attribouter_website">Situs web</string>
+  <string name="title_attribouter_rate">Beri peringkat</string>
+  <string name="title_attribouter_version">Versi %1$s</string>
+  <string name="title_attribouter_license">Lisensi</string>
   <string name="title_attribouter_license_permissions">Perizinan</string>
+  <string name="title_attribouter_license_conditions">Kondisi</string>
+  <string name="title_attribouter_license_limitations">Pembatasan</string>
+  <string name="title_attribouter_more_info">Info Selengkapnya</string>
+  <string name="title_attribouter_translators">Penerjemah</string>
+  <string name="about_our_team">Tim kami</string>
+  <string name="about_our_contributors">Kontributor utama kami</string>
+  <string name="about_our_family">Anggota keluarga kami lainnya</string>
+  <string name="about_role_lead">Pengembang utama</string>
+  <string name="about_role_devops">DevOps</string>
+  <string name="about_role_dev">Pengembang</string>
+  <string name="about_role_dev_mod">Pengembang / Moderator</string>
+  <string name="about_role_designer">Desainer</string>
+  <string name="about_role_special_snowflake">PR Manager / Moderator</string>
+  <string name="about_role_mod_support">Moderator / Pendukung</string>
+  <string name="about_role_family_member">Anggota Keluarga</string>
+  <string name="about_bio_deletescape">Pengembang Android &amp; penggemar, mencintai meme (terlalu banyak sebenarnya). Pendiri proyek Lawnchair.</string>
+  <string name="about_bio_divadsn">18 tahun, mengubah kafein dan pizza menjadi kode. Juga sebelumnya dikenal sebagai Codebucket.</string>
+  <string name="about_bio_recoded">Desainer coder dan grafis ringan.</string>
+  <string name="about_bio_josh">Desainer grafis freelance.</string>
+  <string name="about_bio_chris">Pikiran kreatif, pencipta konten &amp; Influencer. Media sosial dan PR Manager.</string>
+  <string name="about_bio_msfjarvis">Pengembang inti di halogenOS dan pengembang aplikasi di substratum.</string>
 </resources>

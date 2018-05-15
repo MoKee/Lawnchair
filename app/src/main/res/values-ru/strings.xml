@@ -470,6 +470,30 @@
   <string name="blur_oom">Произошла ошибка при попытке Lawnchair размыть ваши обои! Уменьшение разрешения обоев могло бы исправить это.</string>
   <string name="legacy_backup">Устаревший файл резервной копии</string>
   <!-- About screen -->
+  <string name="title_attribouter_licenses">Лицензии открытого ПО</string>
   <string name="title_attribouter_email">Эл. почта</string>
+  <string name="title_attribouter_website">Веб-сайт</string>
+  <string name="title_attribouter_rate">Оценка</string>
+  <string name="title_attribouter_version">Версия %1$s</string>
+  <string name="title_attribouter_license">Лицензия</string>
   <string name="title_attribouter_license_permissions">Разрешения</string>
+  <string name="title_attribouter_license_conditions">Условия</string>
+  <string name="title_attribouter_license_limitations">Ограничения</string>
+  <string name="title_attribouter_more_info">Подробнее</string>
+  <string name="title_attribouter_translators">Переводчики</string>
+  <string name="about_our_team">Наша команда</string>
+  <string name="about_our_contributors">Наши главные помощники</string>
+  <string name="about_our_family">Другие члены нашей семьи</string>
+  <string name="about_role_lead">Ведущий разработчик</string>
+  <string name="about_role_devops">Операционные разработки</string>
+  <string name="about_role_dev">Разработчик</string>
+  <string name="about_role_dev_mod">Разработчик и модератор</string>
+  <string name="about_role_designer">Дизайнер</string>
+  <string name="about_role_special_snowflake">PR-менеджер и модератор</string>
+  <string name="about_role_mod_support">Модерация и поддержка</string>
+  <string name="about_role_family_member">Член семьи</string>
+  <string name="about_bio_deletescape">Разработчик Android и энтузиаст, любит мемы (даже очень). Основатель проекта Lawnchair.</string>
+  <string name="about_bio_divadsn">18 лет, превращает кофеин и пиццу в код. Ранее известный как Codebucket.</string>
+  <string name="about_bio_recoded">Кодер и графический дизайнер.</string>
+  <string name="about_bio_josh">Внештатный графический дизайнер.</string>
 </resources>

@@ -470,6 +470,28 @@
   <string name="blur_oom">Адбылася памылка пры спробе Lawnchair размыць вашы шпалеры! Памяншэнне разрозненні шпалер магло б выправіць гэта.</string>
   <string name="legacy_backup">Састарэлы файл рэзервовай копіі</string>
   <!-- About screen -->
+  <string name="title_attribouter_licenses">Ліцэнзіі Open Source</string>
   <string name="title_attribouter_email">Email</string>
+  <string name="title_attribouter_website">Сайт</string>
+  <string name="title_attribouter_rate">Адзнака</string>
+  <string name="title_attribouter_version">Версія %1$s</string>
+  <string name="title_attribouter_license">Ліцэнзія</string>
   <string name="title_attribouter_license_permissions">Правы</string>
+  <string name="title_attribouter_license_conditions">Умовы</string>
+  <string name="title_attribouter_license_limitations">Абмежаванні</string>
+  <string name="title_attribouter_more_info">Падрабязней</string>
+  <string name="title_attribouter_translators">Перакладчыкі</string>
+  <string name="about_our_team">Наша каманда</string>
+  <string name="about_our_contributors">Нашы галоўныя фундатары</string>
+  <string name="about_our_family">Іншыя члены нашай сям\'і</string>
+  <string name="about_role_lead">Вядучы распрацоўшчык</string>
+  <string name="about_role_dev">Распрацоўшчыкі</string>
+  <string name="about_role_dev_mod">Распрацоўшчык / Мадэратар</string>
+  <string name="about_role_designer">Дызайнер</string>
+  <string name="about_role_special_snowflake">PR-менеджэр / Мадэратар</string>
+  <string name="about_role_mod_support">Мадэратар / Падтрымка</string>
+  <string name="about_role_family_member">Член сям\'і</string>
+  <string name="about_bio_deletescape">Android распрацоўшчык; энтузіясты, любіць мемы (трохі занадта шмат на самай справе). Заснавальнік Lawnchair праекта.</string>
+  <string name="about_bio_divadsn">18 гадоў, пераўтварае кафеін і піцу ў код. Акрамя таго, раней вядомы як Codebucket.</string>
+  <string name="about_bio_josh">Пазаштатны графічны дызайнер.</string>
 </resources>
