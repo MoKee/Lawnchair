@@ -472,6 +472,29 @@
   <string name="blur_oom">Lawnchair يعمل خارج نطاق الذاكرة حاول تضبيب الخلفية! تقليل دقة الخلفية يمكن ان يصلح هذا.</string>
   <string name="legacy_backup">ملف النسخة الاحتياطية القديمة</string>
   <!-- About screen -->
+  <string name="title_attribouter_licenses">تراخيص المصادر المفتوحة</string>
   <string name="title_attribouter_email">البريد الإكتروني</string>
+  <string name="title_attribouter_website">الموقع الإلكتروني</string>
+  <string name="title_attribouter_rate">تقييم</string>
+  <string name="title_attribouter_version">‏الإصدار %1$s</string>
+  <string name="title_attribouter_license">الترخيص</string>
   <string name="title_attribouter_license_permissions">الأذونات</string>
+  <string name="title_attribouter_license_conditions">الشروط</string>
+  <string name="title_attribouter_license_limitations">المحددات</string>
+  <string name="title_attribouter_more_info">مزيد من المعلومات</string>
+  <string name="title_attribouter_translators">المترجمون</string>
+  <string name="about_our_team">فريقنا</string>
+  <string name="about_our_contributors">مساهمينا الرئيسيين</string>
+  <string name="about_our_family">فرد اخر من الاسرة</string>
+  <string name="about_role_lead">المطور الرئيسي</string>
+  <string name="about_role_devops">DevOps</string>
+  <string name="about_role_dev">المطور</string>
+  <string name="about_role_dev_mod">المطور/مشرف</string>
+  <string name="about_role_designer">مصمم</string>
+  <string name="about_role_special_snowflake">مدير العلاقات العامة/مشرف</string>
+  <string name="about_role_mod_support">وسيط/الدعم</string>
+  <string name="about_role_family_member">فرد من الاسرة</string>
+  <string name="about_bio_divadsn">18 عاماً، يحول الكافيين والبيتزا إلى التعليمات البرمجية. أيضا تعرف سابقا باسم كوديبوكيت.</string>
+  <string name="about_bio_recoded">مصمم البرامج والرسومات الخفيفة.</string>
+  <string name="about_bio_josh">مصمم جرافيك حر.</string>
 </resources>

@@ -465,4 +465,10 @@
   <!-- About screen -->
   <string name="title_attribouter_email">Courriel</string>
   <string name="title_attribouter_license_permissions">Permissions</string>
+  <string name="about_role_dev">Développeur</string>
+  <string name="about_role_dev_mod">Développeur / modérateur</string>
+  <string name="about_role_designer">Designer</string>
+  <string name="about_role_mod_support">Modérateur / Support</string>
+  <string name="about_role_family_member">Membre de la famille</string>
+  <string name="about_bio_divadsn">18 ans, transforme le café et la pizza en code. Aussi, anciennement connu comme Codebucket.</string>
 </resources>
