@@ -464,7 +464,15 @@
   <string name="pref_category_misc">Divers</string>
   <!-- About screen -->
   <string name="title_attribouter_email">Courriel</string>
+  <string name="title_attribouter_license">Licence</string>
   <string name="title_attribouter_license_permissions">Permissions</string>
+  <string name="title_attribouter_license_conditions">Conditions</string>
+  <string name="title_attribouter_license_limitations">Limitations</string>
+  <string name="title_attribouter_more_info">Plus d\'Info</string>
+  <string name="title_attribouter_translators">Traducteurs</string>
+  <string name="about_our_team">Notre équipe</string>
+  <string name="about_our_contributors">Nos principaux contributeurs</string>
+  <string name="about_our_family">Autre membre de la famille</string>
   <string name="about_role_dev">Développeur</string>
   <string name="about_role_dev_mod">Développeur / modérateur</string>
   <string name="about_role_designer">Designer</string>

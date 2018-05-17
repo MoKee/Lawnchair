@@ -470,6 +470,32 @@
   <string name="blur_oom">Lawnchair - zabrakło pamięci, próbując rozmazać tapetę! Obniżenie rozdzielczości tapety może to naprawić.</string>
   <string name="legacy_backup">Wcześniejszy plik kopii zapasowej</string>
   <!-- About screen -->
+  <string name="title_attribouter_licenses">Licencje Open Source</string>
   <string name="title_attribouter_email">E-mail</string>
+  <string name="title_attribouter_website">Strona WWW</string>
+  <string name="title_attribouter_rate">Oceń</string>
+  <string name="title_attribouter_version">Wersja %1$s</string>
+  <string name="title_attribouter_license">Licencja</string>
   <string name="title_attribouter_license_permissions">Uprawnienia</string>
+  <string name="title_attribouter_license_conditions">Warunki</string>
+  <string name="title_attribouter_license_limitations">Ograniczenia</string>
+  <string name="title_attribouter_more_info">Więcej informacji</string>
+  <string name="title_attribouter_translators">Tłumacze</string>
+  <string name="about_our_team">Nasz Zespół</string>
+  <string name="about_our_contributors">Nasi główni współpracownicy</string>
+  <string name="about_our_family">Pozostali członkowie rodziny</string>
+  <string name="about_role_lead">Główny programista</string>
+  <string name="about_role_devops">DevOps</string>
+  <string name="about_role_dev">Programista</string>
+  <string name="about_role_dev_mod">Programista / Moderator</string>
+  <string name="about_role_designer">Projektant</string>
+  <string name="about_role_special_snowflake">PR Manager / Moderator</string>
+  <string name="about_role_mod_support">Moderator / Wsparcie</string>
+  <string name="about_role_family_member">Członek rodziny</string>
+  <string name="about_bio_deletescape">Programista Androida &amp; entuzjasta, uwielbia memy (trochę za dużo). Założyciel projektu Lawnchair.</string>
+  <string name="about_bio_divadsn">18 lat, zamienia kofeinę i pizzę w kod. Również wcześniej znany jako Codebucket.</string>
+  <string name="about_bio_recoded">Programista i grafik.</string>
+  <string name="about_bio_josh">Niezależny grafik.</string>
+  <string name="about_bio_chris">Creative Mind, Influencer &amp; Twórca treści. Media społecznościowe i PR Manager.</string>
+  <string name="about_bio_msfjarvis">Programista rdzenia w halogenOS oraz programista aplikacji substratum.</string>
 </resources>
