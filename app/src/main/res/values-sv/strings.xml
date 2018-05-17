@@ -247,6 +247,7 @@
   <string name="about_title">Mer om</string>
   <string name="about_pref_summary">Lär känna Lawnchair-teamet</string>
   <string name="changelog_title">Ändringar för version #%d</string>
+  <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Ikonpaket</string>
   <string name="icon_pack_preference_summary">Välj ett ikonpaket</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Dockan använder färger från bakgrundsbilden</string>
@@ -318,6 +319,7 @@
   <string name="import_prefs_title">Import settings</string>
   <string name="notification_listener_label">Lawnchair - aviseringsprickar</string>
   <string name="color_extraction_label">Lawnchair - Färgutvinning</string>
+  <string name="test_title">Test</string>
   <string name="visibility">Synlighet</string>
   <string name="default_text">Standard</string>
   <string name="edit_icon_reset">Återställ</string>
