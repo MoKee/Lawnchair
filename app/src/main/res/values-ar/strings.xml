@@ -494,7 +494,10 @@
   <string name="about_role_special_snowflake">مدير العلاقات العامة/مشرف</string>
   <string name="about_role_mod_support">وسيط/الدعم</string>
   <string name="about_role_family_member">فرد من الاسرة</string>
+  <string name="about_bio_deletescape">مطور الاندرويد و الهواة ، يحب الميمات (قليلا جدا في الواقع). مؤسس مشروع Lawnchair.</string>
   <string name="about_bio_divadsn">18 عاماً، يحول الكافيين والبيتزا إلى التعليمات البرمجية. أيضا تعرف سابقا باسم كوديبوكيت.</string>
   <string name="about_bio_recoded">مصمم البرامج والرسومات الخفيفة.</string>
   <string name="about_bio_josh">مصمم جرافيك حر.</string>
+  <string name="about_bio_chris">المبدع، المؤثر منشئ المحتوى. مدير العلاقات العامة والإعلام الاجتماعي.</string>
+  <string name="about_bio_msfjarvis">المطور الأساسي في halogenOS و مطور التطبيق في substratum.</string>
 </resources>

@@ -468,6 +468,19 @@
   <string name="blur_oom">Lawnchair ha esaurito la memoria cercando di sfocare lo sfondo! Abbassare la risoluzione dello sfondo potrebbe eventualmente risolvere il problema.</string>
   <string name="legacy_backup">File di backup legacy</string>
   <!-- About screen -->
+  <string name="title_attribouter_licenses">Licenze open source</string>
   <string name="title_attribouter_email">Email</string>
+  <string name="title_attribouter_website">Sito Web</string>
+  <string name="title_attribouter_rate">Vota</string>
+  <string name="title_attribouter_version">Versione %1$s</string>
+  <string name="title_attribouter_license">Licenza</string>
   <string name="title_attribouter_license_permissions">Permessi</string>
+  <string name="title_attribouter_license_conditions">Condizioni</string>
+  <string name="title_attribouter_license_limitations">Limitazioni</string>
+  <string name="title_attribouter_more_info">Altre informazioni</string>
+  <string name="title_attribouter_translators">Traduttori</string>
+  <string name="about_our_team">Il nostro team</string>
+  <string name="about_role_dev">Sviluppatore</string>
+  <string name="about_role_dev_mod">Sviluppatore/Moderatore</string>
+  <string name="about_role_designer">Progettista</string>
 </resources>
