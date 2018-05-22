@@ -415,12 +415,33 @@
   <!-- Strings for popup dialogs -->
   <string name="title_storage_permission_required">Speicherzugriff erforderlich</string>
   <string name="content_storage_permission_required">Auf Android 8.1 und neuer ist Speicherzugriff benötigt für Apps um auf das Hintergrundbild zuzugreifen. Ohne diese Berechtigung kann es sein das Lawnchair abstürzt oder sich unerwartet verhaltet.</string>
+  <string name="new_backup">Erstellen</string>
   <string name="restore_backup">Wiederherstellen</string>
   <string name="backup_name">Name: </string>
   <string name="backup_location">Standort</string>
+  <string name="choose_backup_path">Durchsuchen</string>
+  <string name="backup_homescreen">Startbildschirm</string>
+  <string name="backup_contents">Backup-Inhalt</string>
   <string name="backup_settings">Einstellungen</string>
   <string name="backup_wallpaper">Hintergrund</string>
+  <string name="backup_error_blank_name">Das Namenfeld sollte nicht leer bleiben</string>
+  <string name="backup_error_blank_location">Standort darf nicht leer sein</string>
+  <string name="backup_error_blank_contents">Inhalt darf nicht leer sein</string>
+  <string name="backup_creating">Erstelle Backup</string>
+  <string name="no_recent_backups">Keine älteren Backups</string>
+  <string name="backup_loading">Lade...</string>
+  <string name="backup_invalid">Nicht verfügbar</string>
+  <string name="backup_remove_from_recents">Von Liste entfernen</string>
   <string name="backup_share">Teilen</string>
+  <string name="backup_timestamp">Erstellt am</string>
+  <string name="backup_restoring">Backup wird wiederhergestellt</string>
+  <string name="backup_restarting">Neustart</string>
+  <string name="restore_contents">Inhalt wiederherstellen</string>
+  <string name="restore_success">Wiederherstellung erfolgreich</string>
+  <string name="backup_failed">Backup fehlgeschlagen</string>
+  <string name="restore_failed">Wiederherstellen fehlgeschlagen</string>
+  <string name="restore_read_meta_fail">Ungültige backup-Datei</string>
+  <string name="backup_share_title">Sicherung teilen</string>
   <!-- Preference Category Pixel Searchbar Title -->
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->

@@ -470,6 +470,32 @@
   <string name="blur_oom">Lawnchair vyčerpal pamäť pri tom, ako sa snažil sa rozmazať tapetu! Zníženie rozlíšenia tapety by to mohlo vyriešiť.</string>
   <string name="legacy_backup">Starší súbor zálohy</string>
   <!-- About screen -->
+  <string name="title_attribouter_licenses">Open Source licencie</string>
   <string name="title_attribouter_email">Email</string>
+  <string name="title_attribouter_website">Webové stránky</string>
+  <string name="title_attribouter_rate">Ohodnotiť</string>
+  <string name="title_attribouter_version">Verzia %1$s</string>
+  <string name="title_attribouter_license">Licencia</string>
   <string name="title_attribouter_license_permissions">Oprávnenia</string>
+  <string name="title_attribouter_license_conditions">Podmienky</string>
+  <string name="title_attribouter_license_limitations">Obmedzenia</string>
+  <string name="title_attribouter_more_info">Viac informácií</string>
+  <string name="title_attribouter_translators">Prekladatelia</string>
+  <string name="about_our_team">Náš tím</string>
+  <string name="about_our_contributors">Naši hlavní prispievatelia</string>
+  <string name="about_our_family">Naši ďalší členovia rodiny</string>
+  <string name="about_role_lead">Hlavný vývojár</string>
+  <string name="about_role_devops">DevOps</string>
+  <string name="about_role_dev">Vývojár</string>
+  <string name="about_role_dev_mod">Vývojár / moderátor</string>
+  <string name="about_role_designer">Dizajnér</string>
+  <string name="about_role_special_snowflake">PR manažér / moderátor</string>
+  <string name="about_role_mod_support">Moderátor / podpora</string>
+  <string name="about_role_family_member">Člen rodiny</string>
+  <string name="about_bio_deletescape">Vývojár Androidu &amp; nadšenec, milujúci memy (príliš veľa). Zakladateľ projektu Lawnchair.</string>
+  <string name="about_bio_divadsn">18 rokov starý, mení kávu a pizzu na kód. Predtým známy tiež ako Codebucket.</string>
+  <string name="about_bio_recoded">Kóder a grafický dizajnér.</string>
+  <string name="about_bio_josh">Externý grafik.</string>
+  <string name="about_bio_chris">Tvorca myšlienky, vplyvná osoba &amp; tvorca obsahu. Vedúci sociálnych médií a PR manažér.</string>
+  <string name="about_bio_msfjarvis">Hlavný vývojár HalogenOS a vývojár aplikácie Substratum.</string>
 </resources>
