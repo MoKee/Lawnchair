@@ -37,6 +37,7 @@ android {
             keyPassword CERT_KEY_PASSWORD
         }
     }
+
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 27
@@ -63,6 +64,7 @@ android {
             versionName simpleDateFormat.format(date)
         }
     }
+
     buildTypes {
         debug {
             if (System.getenv("TRAVIS") == "true") {
@@ -90,6 +92,7 @@ android {
                 minifyEnabled false
             }
         }
+
         release {
             buildConfigField "boolean", "ENABLE_LAWNFEED", "true"
             minifyEnabled true
@@ -103,6 +106,7 @@ android {
             }
         }
     }
+
     lintOptions {
         abortOnError false
         disable 'MissingTranslation'
@@ -137,6 +141,7 @@ dependencies {
     implementation 'com.github.florent37:fiftyshadesof:1.0.0'
     implementation 'me.jfenn:attribouter:0.0.5'
 }
+
 repositories {
     mavenCentral()
 }

@@ -20,6 +20,7 @@ android {
             keyPassword CERT_KEY_PASSWORD
         }
     }
+
     defaultConfig {
         applicationId "org.mokee.lawnchair.lawnfeed"
         minSdkVersion 21
@@ -39,6 +40,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
+
     buildTypes {
         debug {
             minifyEnabled false
@@ -51,6 +53,7 @@ android {
             }
             debuggable true
         }
+
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
