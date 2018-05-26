@@ -482,10 +482,17 @@
   <string name="about_our_contributors">我們的主要貢獻者</string>
   <string name="about_our_family">我們的其他成員</string>
   <string name="about_role_lead">主要開發者</string>
-  <string name="about_role_devops">DevOps</string>
+  <string name="about_role_devops">開發選項</string>
   <string name="about_role_dev">開發人員</string>
   <string name="about_role_dev_mod">開發者/維護者</string>
   <string name="about_role_designer">設計師</string>
   <string name="about_role_special_snowflake">公關經理/維護者</string>
+  <string name="about_role_mod_support">維護者/支援</string>
   <string name="about_role_family_member">家庭成員</string>
+  <string name="about_bio_deletescape">Android 開發人員與愛好者, 喜歡迷因 (實際上有點太多)。Lawnchair 專案的創始人。</string>
+  <string name="about_bio_divadsn">18歲時，將咖啡因和比薩變成了原始碼。 此前也稱為 Codebucket。</string>
+  <string name="about_bio_recoded">溫和的編碼器和圖形設計師。</string>
+  <string name="about_bio_josh">自由的平面設計師。</string>
+  <string name="about_bio_chris">創造性思維、影響力與內容建立者。社交媒體和公關經理人。</string>
+  <string name="about_bio_msfjarvis">halogenOS 的核心開發人員和底層的應用程式開發人員。</string>
 </resources>

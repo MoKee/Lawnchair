@@ -463,8 +463,10 @@
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">Divers</string>
   <!-- About screen -->
+  <string name="title_attribouter_licenses">Licences Open Source</string>
   <string name="title_attribouter_email">Courriel</string>
   <string name="title_attribouter_website">Site Web</string>
+  <string name="title_attribouter_version">Version %1$s</string>
   <string name="title_attribouter_license">Licence</string>
   <string name="title_attribouter_license_permissions">Permissions</string>
   <string name="title_attribouter_license_conditions">Conditions</string>
