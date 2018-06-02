@@ -294,6 +294,7 @@
   <string name="debug_pref_summary">重启或重建图标缓存</string>
   <string name="show_pixel_bar_pref_title">显示 Pixel 顶栏</string>
   <string name="use_wide_searchbar_pref_title">使用加宽搜索栏</string>
+  <string name="show_search_pill_title">显示 Google 搜索囊</string>
   <string name="show_date_or_weather_title">在右侧显示日期/天气</string>
   <string name="show_mic_pref_title">显示 Google Assistant 按钮</string>
   <string name="use_round_searhbar">使用圆角应用搜索栏</string>
@@ -466,6 +467,32 @@
   <string name="blur_oom">Lawnchair 在尝试模糊壁纸时耗尽内存啦！降低壁纸分辨率可能会修复该问题。</string>
   <string name="legacy_backup">旧备份文件</string>
   <!-- About screen -->
+  <string name="title_attribouter_licenses">开源许可</string>
   <string name="title_attribouter_email">电子邮件</string>
+  <string name="title_attribouter_website">网站</string>
+  <string name="title_attribouter_rate">评分</string>
+  <string name="title_attribouter_version">版本 %1$s</string>
+  <string name="title_attribouter_license">授权许可</string>
   <string name="title_attribouter_license_permissions">权限</string>
+  <string name="title_attribouter_license_conditions">状况</string>
+  <string name="title_attribouter_license_limitations">限制</string>
+  <string name="title_attribouter_more_info">更多信息</string>
+  <string name="title_attribouter_translators">翻译者</string>
+  <string name="about_our_team">我们团队</string>
+  <string name="about_our_contributors">我们主要的贡献者</string>
+  <string name="about_our_family">我们其他的家庭成员</string>
+  <string name="about_role_lead">首席开发者</string>
+  <string name="about_role_devops">开发和操作</string>
+  <string name="about_role_dev">开发者</string>
+  <string name="about_role_dev_mod">开发者/主持人</string>
+  <string name="about_role_designer">设计师</string>
+  <string name="about_role_special_snowflake">公关经理/主持人</string>
+  <string name="about_role_mod_support">主持人/支持</string>
+  <string name="about_role_family_member">家庭成员</string>
+  <string name="about_bio_deletescape">安卓开发者 &amp; 爱好者, 喜欢迷因 (实际上有点太多)。Lawnchair 项目的创始人。</string>
+  <string name="about_bio_divadsn">18岁, 把咖啡因和披萨变成代码。以前也被称为 Codebucket。</string>
+  <string name="about_bio_recoded">温和的程序员和图形设计师。</string>
+  <string name="about_bio_josh">自由的图像设计师。</string>
+  <string name="about_bio_chris">创造性思维, 影响力 &amp; 内容创建者。社交媒体和公关经理。</string>
+  <string name="about_bio_msfjarvis">halogenOS的核心开发者和substratum的应用程序开发者。</string>
 </resources>
