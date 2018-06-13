@@ -183,9 +183,9 @@
   <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
   <string name="action_resize">Ubah ukuran</string>
   <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_width">Tingkatkan lebar</string>
+  <string name="action_increase_width">Tambahi lebar</string>
   <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_height">Tingkatkan tinggi</string>
+  <string name="action_increase_height">Tambahi tinggi</string>
   <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
   <string name="action_decrease_width">Kurangi lebar</string>
   <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
@@ -230,17 +230,17 @@
   <!-- Title of activity for cropping wallpapers -->
   <string name="crop_wallpaper">Pangkas wallpaper</string>
   <!-- Option for setting the wallpaper only on the home screen. -->
-  <string name="which_wallpaper_option_home_screen">Layar Utama</string>
+  <string name="which_wallpaper_option_home_screen">Layar utama</string>
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">Layar kunci</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <string name="which_wallpaper_option_home_screen_and_lock_screen">Layar utama dan layar kunci</string>
   <string name="title_show_google_app">Tampilkan %1$s</string>
-  <string name="title_show_google_app_default">Tampilkan aplikasi Google</string>
-  <string name="label_search">Penelusuran</string>
+  <string name="title_show_google_app_default">Tampilkan Google app</string>
+  <string name="label_search">Pencarian</string>
   <string name="label_voice_search">Penelusuran suara</string>
-  <string name="shortcuts_menu_with_notifications_description">%1$d pintasan dan %2$d pemberitahuan untuk %3$s</string>
-  <string name="notifications_header">Pemberitahuan</string>
+  <string name="shortcuts_menu_with_notifications_description">%1$d jalan pintas dan %2$d notifikasi untuk %3$s</string>
+  <string name="notifications_header">Notifikasi</string>
   <string name="widgets_bottom_sheet_title">%1$s widget</string>
   <!-- About Lawnchair -->
   <string name="about_title">Tentang</string>
@@ -309,7 +309,7 @@
   <string name="light_statusbar_pref_off">Status bar akan menampilkan ikon terang</string>
   <string name="keep_scroll_state_pref_title">Jaga posisi gulir</string>
   <string name="keep_scroll_state_pref_summary">Mengingat posisi gulir di laci</string>
-  <string name="home_opens_drawer_pref_title">Tombol beranda membuka laci aplikasi</string>
+  <string name="home_opens_drawer_pref_title">Tombol beranda membuka app laci</string>
   <string name="home_opens_drawer_pref_summary">Menekan tombol beranda saat berada di layar awal akan membuka laci aplikasi</string>
   <string name="show_hidden_pref_title">Tampilkan aplikasi tersembunyi</string>
   <string name="show_hidden_pref_on">Aplikasi tersembunyi akan ditampilkan untuk mengubah setelan keterlihatan</string>
@@ -318,8 +318,8 @@
   <string name="import_db_title">Basis Data</string>
   <string name="export_prefs_title">Setelan</string>
   <string name="import_prefs_title">Setelan</string>
-  <string name="notification_listener_label">Lencana pemberitahuan - Lawnchair</string>
-  <string name="color_extraction_label">Lawnchair - Ekstraksi warna</string>
+  <string name="notification_listener_label">Lawnchair - Notifikasi badge</string>
+  <string name="color_extraction_label">Lawnchair - Warna ekstraksi</string>
   <string name="test_title">Tes</string>
   <string name="visibility">Visibilitas</string>
   <string name="default_text">Bawaan</string>
