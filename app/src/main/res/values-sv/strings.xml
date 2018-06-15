@@ -407,10 +407,13 @@
   <string name="reset_alternative_icons_title">Återställ alternativa appikoner?</string>
   <string name="reset_alternative_icons">Du har %1$d appar med alternativa ikoner, vill du återställa dem?</string>
   <!-- Strings for popup dialogs -->
+  <string name="disable_popup">Visa inte igen</string>
   <string name="backups">Säkerhetskopior</string>
+  <string name="new_backup">Skapa</string>
   <string name="restore_backup">Återställ</string>
   <string name="backup_name">Namn</string>
   <string name="backup_location">Plats</string>
+  <string name="choose_backup_path">Bläddra</string>
   <string name="backup_settings">Inställningar</string>
   <string name="backup_wallpaper">Bakgrund</string>
   <string name="backup_invalid">Ej tillgänglig</string>
@@ -424,6 +427,13 @@
   <string name="title_attribouter_email">E-post</string>
   <string name="title_attribouter_website">Webbplats</string>
   <string name="title_attribouter_version">Version %1$s</string>
+  <string name="title_attribouter_license">Licens</string>
   <string name="title_attribouter_license_permissions">Behörigheter</string>
+  <string name="title_attribouter_license_limitations">Begränsningar</string>
+  <string name="title_attribouter_more_info">Mer information</string>
   <string name="title_attribouter_translators">Översättare</string>
+  <string name="about_role_devops">DevOps</string>
+  <string name="about_role_dev">Utvecklare</string>
+  <string name="about_role_designer">Designer</string>
+  <string name="about_role_family_member">Familjemedlem</string>
 </resources>
