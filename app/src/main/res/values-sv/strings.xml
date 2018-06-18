@@ -410,4 +410,5 @@
   <string name="two_row_dock">Tvåradig docka</string>
   <string name="reset_alternative_icons_title">Återställ alternativa appikoner?</string>
   <string name="reset_alternative_icons">Du har %1$d appar med alternativa ikoner, vill du återställa dem?</string>
+  <string name="snowfall_title">Snöfall</string>
 </resources>
