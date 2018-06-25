@@ -241,6 +241,7 @@
   <string name="widgets_bottom_sheet_title">%1$s віджетів</string>
   <!-- About Lawnchair -->
   <string name="about_title">Про додаток</string>
+  <string name="about_pref_summary">Дізнатися про команду Lawnchair</string>
   <string name="changelog_title">Зміни в додатку #%d</string>
   <string name="week_day_format">%1$s %2$s</string>
   <string name="icon_pack_preference_title">Набір значків</string>
@@ -266,16 +267,22 @@
   <string name="num_hotseat_icons_pref_title">Кількість іконок в нижній панелі</string>
   <string name="icon_scale_pref_title">Масштаб значков</string>
   <string name="hotseat_height_scale">Масштаб висоти</string>
+  <string name="hotseat_custom_opacity">Прозорість док-станції</string>
+  <string name="hotseat_uses_custom_opacity">Ввімкнути користувацьку прозорість док-станції</string>
   <string name="icon_text_scale_pref_title">Масштаб найменування значков</string>
   <string name="icon_text_padding_scale_pref_title">Масштаб ореолу іконок</string>
   <string name="full_width_width_widgets_pref_title">Широкоформатні віджети</string>
   <string name="full_width_widgets_pref_summary">Дозволити віджетам розтягуватися по всій ширині без заповнення</string>
   <string name="notification_access_pref_title">Бейджі сповіщень і попередній їх перегляд</string>
   <string name="notification_access_pref_summary">Дозволити Lawnchair доступ до ваших сповіщень, щоб увімкнути цю функцію</string>
+  <string name="general_pref_title">Робочий стіл</string>
   <string name="dock_pref_title">Док-панель</string>
+  <string name="app_drawer_pref_title">Список програм</string>
   <string name="pixel_ui_pref_title">Теми</string>
   <string name="behavior_pref_title">Поведінка</string>
   <string name="debug_pref_title">Відладка</string>
+  <string name="general_pref_summary">Налаштувати робочий стіл</string>
+  <string name="dock_pref_summary">Налаштувати робочий стіл</string>
   <string name="behavior_pref_summary">Змінити поведінку Lawnchair</string>
   <string name="debug_pref_summary">Перезавантаження або відновлення бази даних іконок</string>
   <string name="show_pixel_bar_pref_title">Показати верхню панель як у пікселів</string>
