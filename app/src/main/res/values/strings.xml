@@ -312,7 +312,6 @@
     <!-- About Lawnchair -->
     <string name="about_title">About</string>
     <string name="about_pref_summary">Get to know about the Lawnchair team</string>
-    <string name="changelog_title">Changelog for build #%d</string>
     <string name="week_day_format">%1$s, %2$s</string>
     <string name="icon_pack_preference_title">Icon pack</string>
     <string name="icon_pack_preference_summary">Select an icon pack</string>
@@ -459,7 +458,6 @@
     <string name="pref_backport_shortcuts">Backport shortcuts</string>
     <string name="weather_api_key_not_set">API key not set</string>
     <string name="pref_weather_api_key_title">API key</string>
-    <string name="about_changelog">Changelog</string>
     <string name="pref_all_apps_custom_label_color">Use custom label color</string>
     <string name="pref_all_apps_label_color">Color of icon labels in drawer</string>
     <string name="pref_num_rows_drawer">Number of rows in drawer</string>
@@ -487,6 +485,7 @@
     <string name="reset_alternative_icons_title">Reset alternative app icons?</string>
     <string name="reset_alternative_icons">You have %1$d apps with alternative icons, do you want to reset them?</string>
     <string name="error_no_browser">No activity found to handle URLs</string>
+    <string name="error_no_calendar">No calendar app installed</string>
 
     <!-- Strings for popup dialogs -->
     <string name="lawnfeed_not_enabled_title">Lawnfeed not enabled</string>
@@ -543,7 +542,6 @@
     <string name="legacy_backup">Legacy backup file</string>
 
     <!-- About screen -->
-
     <string name="about_twitter" translatable="false">Twitter</string>
     <string name="title_attribouter_licenses">Open Source Licenses</string>
     <string name="title_attribouter_email">Email</string>
