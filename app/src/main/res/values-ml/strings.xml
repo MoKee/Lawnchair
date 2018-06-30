@@ -231,11 +231,10 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ഒന്നുമില്ല</string>
   <string name="icon_shape_none">ഒന്നുമില്ല</string>
-  <string name="about_changelog">ചേഞ്ച് ലോഗ്</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">പ്രയോഗിക്കുക</string>
-  <string name="hide_app_reset">പുനഃസജ്ജമാക്കുക</string>
+  <string name="list_app_apply">പ്രയോഗിക്കുക</string>
+  <string name="list_app_reset">പുനഃസജ്ജമാക്കുക</string>
   <!-- Strings for popup dialogs -->
   <string name="restore_backup">പുനസ്ഥാപിക്കുക</string>
   <string name="backup_location">&quot;ലൊക്കേഷൻ&quot;</string>

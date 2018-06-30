@@ -249,7 +249,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Tentang</string>
   <string name="about_pref_summary">Mengenal tim Lawnchair</string>
-  <string name="changelog_title">Daftar perubahan pada bentukan #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Paket Ikon</string>
   <string name="icon_pack_preference_summary">Pilih paket ikon</string>
@@ -345,6 +344,7 @@
   <string name="pull_down_apps_search">Aplikasi penelusuran</string>
   <string name="enable_screen_rotation">Aktifkan rotasi layar</string>
   <string name="use_system_fonts_title">Gunakan font sistem untuk label</string>
+  <string name="blacklist_app_selected">&#160;dipilih</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Memulihkan</string>
   <string name="backup_export_title">Mencadangkan</string>
@@ -392,7 +392,6 @@
   <string name="pref_backport_shortcuts">Implementasi pintasan baru</string>
   <string name="weather_api_key_not_set">Kunci API belum disetel</string>
   <string name="pref_weather_api_key_title">Kunci API</string>
-  <string name="about_changelog">Daftar perubahan</string>
   <string name="pref_all_apps_custom_label_color">Gunakan warna label khusus</string>
   <string name="pref_all_apps_label_color">Warna label ikon di laci</string>
   <string name="pref_num_rows_drawer">Jumlah baris pada laci</string>
@@ -410,11 +409,11 @@
   <string name="enable_spring_pref_title">Aktifkan efek memantul</string>
   <string name="hide_app">Sembunyikan aplikasi</string>
   <string name="hide_app_sum">Menyembunyikan aplikasi dari laci</string>
-  <string name="hide_app_selected">&#160;dipilih</string>
   <string name="hidden_app">Aplikasi tersembunyi</string>
-  <string name="hide_app_apply">Terapkan</string>
+  <string name="hidden_app_selected">&#160;dipilih</string>
+  <string name="list_app_apply">Terapkan</string>
+  <string name="list_app_reset">Setel Ulang</string>
   <string name="unauthorized_device">Perangkat ini memiliki beberapa alat pembajakan yang diinstal. Silakan uninstall mereka untuk melanjutkan</string>
-  <string name="hide_app_reset">Setel ulang</string>
   <string name="two_row_dock">Dock dua baris</string>
   <string name="reset_alternative_icons_title">Reset ikon aplikasi alternatif?</string>
   <string name="reset_alternative_icons">Anda memiliki aplikasi %1$d dengan ikon alternatif, apakah anda ingin meresetnya?</string>

@@ -246,7 +246,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Quant a</string>
   <string name="about_pref_summary">Coneixeu l\'equip de Lawnchair</string>
-  <string name="changelog_title">Registre de canvis per a la compilació #%d</string>
   <string name="icon_pack_preference_title">Paquet d\'icones</string>
   <string name="icon_pack_preference_summary">Seleccioneu un paquet d\'icones</string>
   <string name="hotseat_uses_extracted_colors_pref_title">La barra d\'aplicacions utilitza els colors del fons de pantalla</string>
@@ -336,6 +335,7 @@
   <string name="pull_down_search">Obre la cerca</string>
   <string name="pull_down_apps_search">Cerca aplicacions</string>
   <string name="enable_screen_rotation">Activa la rotació de pantalla</string>
+  <string name="blacklist_app_selected">&#160;seleccionada</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Restaura</string>
   <string name="backup_export_title">Còpia de seguretat</string>
@@ -382,7 +382,6 @@
   <string name="pref_backport_shortcuts">Adaptació retroactiva de dreceres</string>
   <string name="weather_api_key_not_set">Clau d\'API no establerta</string>
   <string name="pref_weather_api_key_title">Clau d\'API</string>
-  <string name="about_changelog">Registre de canvis</string>
   <string name="pref_all_apps_custom_label_color">Utilitza els colors personalitzats</string>
   <string name="pref_all_apps_label_color">Color de les etiquetes de les aplicacions al llistat</string>
   <string name="pref_num_rows_drawer">Número de files del llistat d\'aplicacions</string>
@@ -399,11 +398,11 @@
   <string name="enable_spring_pref_title">Activa l\'efecte primavera</string>
   <string name="hide_app">Amaga l\'aplicació</string>
   <string name="hide_app_sum">Amaga l\'aplicació del calaix</string>
-  <string name="hide_app_selected">&#160;seleccionada</string>
   <string name="hidden_app">Aplicacions amagades</string>
-  <string name="hide_app_apply">Aplica</string>
+  <string name="hidden_app_selected">&#160;seleccionada</string>
+  <string name="list_app_apply">Aplica</string>
+  <string name="list_app_reset">Restableix</string>
   <string name="unauthorized_device">Aquest dispositiu té instal·lades algunes eines de pirateria. Desinstal·leu-les per continuar.</string>
-  <string name="hide_app_reset">Reinicia</string>
   <string name="two_row_dock">Barra d\'aplicacions de dues files</string>
   <string name="reset_alternative_icons_title">Voleu restablir les icones d\'aplicacions alternatives?</string>
   <string name="reset_alternative_icons">Teniu %1$d aplicacions amb icones alternatives, voleu reiniciar-les?</string>

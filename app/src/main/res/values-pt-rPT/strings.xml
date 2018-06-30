@@ -246,7 +246,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Sobre</string>
   <string name="about_pref_summary">Conheça sobre a equipe de Lawnchair</string>
-  <string name="changelog_title">Changelog da build #%d</string>
   <string name="week_day_format">%1$s,%2$s</string>
   <string name="icon_pack_preference_title">Pacote de ícones</string>
   <string name="icon_pack_preference_summary">Selecione um pacote de ícones</string>
@@ -339,6 +338,7 @@
   <string name="pull_down_search">Abrir pesquisa</string>
   <string name="pull_down_apps_search">Procurar aplicações</string>
   <string name="enable_screen_rotation">Ativar rotação automática</string>
+  <string name="blacklist_app_selected">&#160;selecionada</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Importar</string>
   <string name="backup_export_title">Exportar</string>
@@ -386,7 +386,6 @@
   <string name="pref_backport_shortcuts">Atalhos de Backport</string>
   <string name="weather_api_key_not_set">Chave de API não definida</string>
   <string name="pref_weather_api_key_title">Chave de API</string>
-  <string name="about_changelog">Lista de alterações</string>
   <string name="pref_all_apps_custom_label_color">Usar etiqueta de cor personalizada</string>
   <string name="pref_all_apps_label_color">Cor das etiquetas na gaveta</string>
   <string name="pref_num_rows_drawer">Número de filas na gaveta</string>
@@ -401,11 +400,11 @@
   <string name="lawnfeed_incompatible">Versão incompatível do Lawnfeed instalado</string>
   <string name="set_default_launcher">Predefinir launcher</string>
   <string name="enable_spring_pref_title">Habilitar o efeito mola</string>
-  <string name="hide_app_selected">&#160;selecionada</string>
   <string name="hidden_app">Aplicações ocultadas</string>
-  <string name="hide_app_apply">Aplicar</string>
+  <string name="hidden_app_selected">&#160;selecionada</string>
+  <string name="list_app_apply">Aplicar</string>
+  <string name="list_app_reset">Repor</string>
   <string name="unauthorized_device">Este dispositivo possui algumas ferramentas de pirataria instaladas. Por favor, desinstale-os a continuar.</string>
-  <string name="hide_app_reset">Repor</string>
   <string name="two_row_dock">Doca com duas linhas</string>
   <string name="reset_alternative_icons_title">Redefinir os ícones do app alternativo?</string>
   <string name="reset_alternative_icons">Você tem %1$d apps com ícones alternativos, quer para repô-los?</string>

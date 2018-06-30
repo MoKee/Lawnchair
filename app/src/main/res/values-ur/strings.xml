@@ -229,8 +229,8 @@
   <string name="icon_shape_none">کوئی نہیں</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">لاگو کریں</string>
-  <string name="hide_app_reset">دوبارہ ترتیب دیں</string>
+  <string name="list_app_apply">لاگو کریں</string>
+  <string name="list_app_reset">دوبارہ ترتیب دیں</string>
   <!-- Strings for popup dialogs -->
   <!-- Preference Category Pixel Searchbar Title -->
   <!-- Preference Category Icons Title -->

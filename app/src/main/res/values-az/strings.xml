@@ -239,11 +239,10 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Heç biri</string>
   <string name="icon_shape_none">Heç biri</string>
-  <string name="about_changelog">Dəyişiklik qeydi</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">Tətbiq et</string>
-  <string name="hide_app_reset">Sıfırla</string>
+  <string name="list_app_apply">Tətbiq et</string>
+  <string name="list_app_reset">Sıfırla</string>
   <!-- Strings for popup dialogs -->
   <string name="restore_backup">Bərpa et</string>
   <string name="backup_location">Yer</string>

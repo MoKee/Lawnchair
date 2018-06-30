@@ -247,7 +247,6 @@ Maaari mong alisin ito, o maghanap para sa app at i-install ito nang mano-mano. 
   <!-- About Lawnchair -->
   <string name="about_title">Tungkol</string>
   <string name="about_pref_summary">Alamin ang tungkol sa Lawnchair team</string>
-  <string name="changelog_title">Changelog oara sa build #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Icon Pack</string>
   <string name="icon_pack_preference_summary">Pumili ng icon pack</string>
@@ -338,6 +337,7 @@ Maaari mong alisin ito, o maghanap para sa app at i-install ito nang mano-mano. 
   <string name="pull_down_search">Buksan ang paghahanap</string>
   <string name="pull_down_apps_search">Paghahanap ng mga app</string>
   <string name="enable_screen_rotation">Paganahin ang pag-ikot ng screen</string>
+  <string name="blacklist_app_selected">&#160;pinili</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Pgsasabalik</string>
   <string name="backup_export_title">Backup</string>
@@ -385,7 +385,6 @@ Maaari mong alisin ito, o maghanap para sa app at i-install ito nang mano-mano. 
   <string name="pref_backport_shortcuts">Backsport na mga shortcut</string>
   <string name="weather_api_key_not_set">API key ay hindi tinakda</string>
   <string name="pref_weather_api_key_title">API key</string>
-  <string name="about_changelog">Changelog</string>
   <string name="pref_all_apps_custom_label_color">Gamitin ang custom label na kulay</string>
   <string name="pref_all_apps_label_color">Kulay ng icon sa mga label sa drawer</string>
   <string name="pref_num_rows_drawer">Bilang ng mga hnay sa drawer</string>
@@ -402,11 +401,11 @@ Maaari mong alisin ito, o maghanap para sa app at i-install ito nang mano-mano. 
   <string name="enable_spring_pref_title">Paganahin ang spring effect</string>
   <string name="hide_app">Itago ang app</string>
   <string name="hide_app_sum">Itago ang app mula sa app drawer</string>
-  <string name="hide_app_selected">&#160;pinili</string>
   <string name="hidden_app">Nakatago na app</string>
-  <string name="hide_app_apply">Ilagay</string>
+  <string name="hidden_app_selected">&#160;pinili</string>
+  <string name="list_app_apply">Ilagay</string>
+  <string name="list_app_reset">I-reset</string>
   <string name="unauthorized_device">Ang kagamitang ito ay ang ilang tool sa pirata na naka-install. Mangyaring tanggalin sa kanila na magpatuloy.</string>
-  <string name="hide_app_reset">I-reset</string>
   <string name="two_row_dock">Dalawang hanay ng dock</string>
   <string name="reset_alternative_icons_title">I-reset ang alternatibong mga icon ng app?</string>
   <string name="reset_alternative_icons">Ikaw ay may %1$d na mga app na may alternatibong mga icon, gusto mo bang mag-reset sa kanila?</string>

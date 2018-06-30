@@ -248,7 +248,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">O aplikaci</string>
   <string name="about_pref_summary">Seznamte se s týmem Lawnchair</string>
-  <string name="changelog_title">Seznam změn pro sestavení #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Balíček ikon</string>
   <string name="icon_pack_preference_summary">Vyberte balíček ikon</string>
@@ -344,6 +343,12 @@
   <string name="pull_down_apps_search">Vyhledávání v aplikacích</string>
   <string name="enable_screen_rotation">Otáčení obrazovky</string>
   <string name="use_system_fonts_title">Použít systémová písma pro popisky</string>
+  <string name="auto_add_shortcuts_label">Přidat ikonu na domovskou obrazovku</string>
+  <string name="auto_add_shortcuts_description">Pro nové aplikace</string>
+  <string name="shortcut_blacklist">Zástupce černé listiny</string>
+  <string name="shortcut_blacklist_sum">Zabránit aplikacím přidávat ikony na domovskou obrazovku</string>
+  <string name="blacklist_app">Blokované aplikace</string>
+  <string name="blacklist_app_selected">&#160;vybráno</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Obnovení</string>
   <string name="backup_export_title">Záloha</string>
@@ -391,7 +396,6 @@
   <string name="pref_backport_shortcuts">Zkratky zpětné kompatibility</string>
   <string name="weather_api_key_not_set">API klíč není nastaven</string>
   <string name="pref_weather_api_key_title">API klíč</string>
-  <string name="about_changelog">Seznam změn</string>
   <string name="pref_all_apps_custom_label_color">Použít vlastní barvu</string>
   <string name="pref_all_apps_label_color">Barva popisků ikon v seznamu aplikací</string>
   <string name="pref_num_rows_drawer">Počet řádků v seznamu aplikací</string>
@@ -409,15 +413,16 @@
   <string name="enable_spring_pref_title">Efekt pružiny</string>
   <string name="hide_app">Skryté aplikace</string>
   <string name="hide_app_sum">Skrýt aplikaci v seznamu aplikací</string>
-  <string name="hide_app_selected">&#160;vybráno</string>
   <string name="hidden_app">Skrytá aplikace</string>
-  <string name="hide_app_apply">Použít</string>
+  <string name="hidden_app_selected">&#160;vybráno</string>
+  <string name="list_app_apply">Použít</string>
+  <string name="list_app_reset">Obnovit</string>
   <string name="unauthorized_device">Toto zařízení má nainstalovány nástroje pro pirátství. Odinstalujte je a pokračujte.</string>
-  <string name="hide_app_reset">Obnovit</string>
   <string name="two_row_dock">Dok ve dvou řadách</string>
   <string name="reset_alternative_icons_title">Resetovat alternativní ikony aplikací?</string>
   <string name="reset_alternative_icons">Máte %1$d aplikací s alternativními ikonami, chcete je obnovit?</string>
   <string name="error_no_browser">Nebyla nalezena žádná aktivita pro práci s adresami URL</string>
+  <string name="error_no_calendar">Není nainstalována žádná aplikace Kalendář</string>
   <!-- Strings for popup dialogs -->
   <string name="lawnfeed_not_enabled_title">Lawnfeed není povolen</string>
   <string name="lawnfeed_not_enabled">Zdá se, že se pokoušíte otevřít stránku Google Now, avšak v nastavení chování jste tuto možnost nepovolili.\n\nChcete tuto možnost povolit?</string>

@@ -248,7 +248,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Аб праграме</string>
   <string name="about_pref_summary">Даведацца аб камандзе Lawnchair</string>
-  <string name="changelog_title">Змены ў зборцы #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Набор значкоў</string>
   <string name="icon_pack_preference_summary">Выберыце набор значкоў</string>
@@ -344,6 +343,7 @@
   <string name="pull_down_apps_search">Пошук праграм</string>
   <string name="enable_screen_rotation">Уключыць кручэнне экрана</string>
   <string name="use_system_fonts_title">Выкарыстоўваць сістэмныя шрыфты для цэтлікаў</string>
+  <string name="blacklist_app_selected">&#160;абрана</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Аднавіць з рэзервовай копіі</string>
   <string name="backup_export_title">Рэзервовая копія</string>
@@ -391,7 +391,6 @@
   <string name="pref_backport_shortcuts">Перанесці значкі</string>
   <string name="weather_api_key_not_set">API ключ не усталяваны</string>
   <string name="pref_weather_api_key_title">API-ключ</string>
-  <string name="about_changelog">Спic змен</string>
   <string name="pref_all_apps_custom_label_color">Выкарыстоўваць свой колер подпісу</string>
   <string name="pref_all_apps_label_color">Колер подпісу значкоў у меню праграм</string>
   <string name="pref_num_rows_drawer">Колькасць радкоў у меню праграм</string>
@@ -409,11 +408,11 @@
   <string name="enable_spring_pref_title">Уключыць эфект спружыны</string>
   <string name="hide_app">Схаваць праграму</string>
   <string name="hide_app_sum">Схаваць праграму ў спісе праграм</string>
-  <string name="hide_app_selected">&#160;абрана</string>
   <string name="hidden_app">Схаваныя праграма</string>
-  <string name="hide_app_apply">Ужыць</string>
+  <string name="hidden_app_selected">&#160;абрана</string>
+  <string name="list_app_apply">Ужыць</string>
+  <string name="list_app_reset">Скінуць</string>
   <string name="unauthorized_device">Гэта прылада мае некалькі ўсталяваных пірацкіх сродкаў. Калі ласка, выдаліце ​​іх, каб працягнуць.</string>
-  <string name="hide_app_reset">Скінуць</string>
   <string name="two_row_dock">Дзьвухрадковы док-бар</string>
   <string name="reset_alternative_icons_title">Скінуць альтэрнатыўныя значкі праграм?</string>
   <string name="reset_alternative_icons">У вас %1$d праграм з альтэрнатыўнымі значкамі, хочаце скінуць іх?</string>

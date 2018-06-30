@@ -251,7 +251,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Hakkında</string>
   <string name="about_pref_summary">Lawnchair ekibi hakkında bilgi sahibi olun</string>
-  <string name="changelog_title">Bu yapıdaki değişiklikler #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Simge paketi</string>
   <string name="icon_pack_preference_summary">Simge paketi seçin</string>
@@ -347,6 +346,7 @@
   <string name="pull_down_apps_search">Uygulama arama</string>
   <string name="enable_screen_rotation">Ekran döndürme</string>
   <string name="use_system_fonts_title">Etiketler için sistem yazı tiplerini kullan</string>
+  <string name="blacklist_app_selected">&#160;seçildi</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Geri yükle</string>
   <string name="backup_export_title">Yedekle</string>
@@ -394,7 +394,6 @@
   <string name="pref_backport_shortcuts">Kısayolları geri yükle</string>
   <string name="weather_api_key_not_set">API anahtarı ayarlanmadı</string>
   <string name="pref_weather_api_key_title">API anahtarı</string>
-  <string name="about_changelog">Değişiklik günlüğü</string>
   <string name="pref_all_apps_custom_label_color">Özel etiket rengi kullan</string>
   <string name="pref_all_apps_label_color">Uygulama çekmecesi simge etiketi rengi</string>
   <string name="pref_num_rows_drawer">Çekmecedeki satır sayısı</string>
@@ -412,11 +411,11 @@
   <string name="enable_spring_pref_title">Yay efektini etkinleştir</string>
   <string name="hide_app">Uygulama gizle</string>
   <string name="hide_app_sum">Uygulamayı uygulama çekmecesinden gizle</string>
-  <string name="hide_app_selected">&#160;seçildi</string>
   <string name="hidden_app">Gizli uygulama</string>
-  <string name="hide_app_apply">Uygula</string>
+  <string name="hidden_app_selected">&#160;seçildi</string>
+  <string name="list_app_apply">Uygula</string>
+  <string name="list_app_reset">Sıfırla</string>
   <string name="unauthorized_device">Bu cihazda birkaç korsan yazılım mevcut. Devam etmek için lütfen bunları kaldırın.</string>
-  <string name="hide_app_reset">Sıfırla</string>
   <string name="two_row_dock">İki satır alt panel</string>
   <string name="reset_alternative_icons_title">Alternatif ikonlar sıfırlansın mı?</string>
   <string name="reset_alternative_icons">Alternatif ikona sahip %1$d uygulamanız var, onları sıfırlamak ister misiniz?</string>

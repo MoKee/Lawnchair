@@ -270,11 +270,10 @@
   <string name="loading">Зареждане…</string>
   <string name="icon_shape_none">Без</string>
   <string name="icon_shape_circle">Кръг</string>
-  <string name="about_changelog">История на промените</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">Прилагане</string>
-  <string name="hide_app_reset">Нулиране</string>
+  <string name="list_app_apply">Прилагане</string>
+  <string name="list_app_reset">Нулиране</string>
   <!-- Strings for popup dialogs -->
   <string name="restore_backup">Възстанови</string>
   <string name="backup_name">Име</string>

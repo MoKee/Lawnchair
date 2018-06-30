@@ -235,8 +235,8 @@
   <string name="icon_shape_none">Ոչ մեկը</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">Կիրառել</string>
-  <string name="hide_app_reset">Վերակայել</string>
+  <string name="list_app_apply">Կիրառել</string>
+  <string name="list_app_reset">Վերակայել</string>
   <!-- Strings for popup dialogs -->
   <string name="backup_wallpaper">Պաստառ</string>
   <string name="backup_share">Կիսվել</string>

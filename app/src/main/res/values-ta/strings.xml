@@ -162,11 +162,10 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">ஏதுமில்லை</string>
   <string name="icon_shape_none">ஏதுமில்லை</string>
-  <string name="about_changelog">மாற்றம் பதிவு</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">பயன்படுத்து</string>
-  <string name="hide_app_reset">மீட்டமை</string>
+  <string name="list_app_apply">பயன்படுத்து</string>
+  <string name="list_app_reset">மீட்டமை</string>
   <!-- Strings for popup dialogs -->
   <string name="restore_backup">மீட்டெடுத்தல்</string>
   <string name="backup_location">&quot;இருப்பிடம்&quot;</string>

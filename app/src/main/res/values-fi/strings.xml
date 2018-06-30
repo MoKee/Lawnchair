@@ -246,7 +246,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Tietoja</string>
   <string name="about_pref_summary">Opi tuntemaan Lawnchair tiimi</string>
-  <string name="changelog_title">Muutosloki buildille #%d</string>
   <string name="icon_pack_preference_title">Kuvakepaketti</string>
   <string name="icon_pack_preference_summary">Select an icon Pack</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Telakka käyttää taustakuvan värejä</string>
@@ -335,6 +334,7 @@
   <string name="pull_down_search">Avaa haku</string>
   <string name="pull_down_apps_search">Sovellushaku</string>
   <string name="enable_screen_rotation">Salli näytön kiertäminen</string>
+  <string name="blacklist_app_selected">&#160;valittu</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Tuo</string>
   <string name="backup_export_title">Vie</string>
@@ -380,7 +380,6 @@
   <string name="pref_backport_shortcuts">Backporttaa pikakuvakkeet</string>
   <string name="weather_api_key_not_set">API avainta ei ole määritetty</string>
   <string name="pref_weather_api_key_title">API avain</string>
-  <string name="about_changelog">Muutosloki</string>
   <string name="pref_all_apps_custom_label_color">Käytä mukautettua kuvaketeksti väriä</string>
   <string name="pref_all_apps_label_color">Kuvaketekstien väri sovellusvalikossa</string>
   <string name="pref_num_rows_drawer">Rivien lukumäärä sovellusvalikossa</string>
@@ -396,10 +395,10 @@
   <string name="enable_spring_pref_title">Ota jousi efekti käyttöön</string>
   <string name="hide_app">Piilota sovellus</string>
   <string name="hide_app_sum">Piilota sovellus sovellusvalikosta</string>
-  <string name="hide_app_selected">&#160;valittu</string>
   <string name="hidden_app">Piilotettu sovellus</string>
-  <string name="hide_app_apply">Käytä</string>
-  <string name="hide_app_reset">Nollaa</string>
+  <string name="hidden_app_selected">&#160;valittu</string>
+  <string name="list_app_apply">Käytä</string>
+  <string name="list_app_reset">Palauta</string>
   <string name="two_row_dock">Kahden rivin telakka</string>
   <string name="reset_alternative_icons_title">Nollaa vaihtoehtoiset sovelluskuvakkeet?</string>
   <!-- Strings for popup dialogs -->

@@ -247,7 +247,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Despre</string>
   <string name="about_pref_summary">Aflați despre echipa Lawnchair</string>
-  <string name="changelog_title">Jurnalul de modificări pentru a versiunea #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Set de pictograme</string>
   <string name="icon_pack_preference_summary">Selectaţi un set de pictograme</string>
@@ -343,6 +342,7 @@
   <string name="pull_down_apps_search">Căutați aplicații</string>
   <string name="enable_screen_rotation">Activaţi rotirea ecranului</string>
   <string name="use_system_fonts_title">Folosește fonturile de sistem pentru etichete</string>
+  <string name="blacklist_app_selected">&#160;selectate</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Import</string>
   <string name="backup_export_title">Export</string>
@@ -390,7 +390,6 @@
   <string name="pref_backport_shortcuts">Adaptare comenzi rapide</string>
   <string name="weather_api_key_not_set">Cheia API nu este setată</string>
   <string name="pref_weather_api_key_title">Cheie API</string>
-  <string name="about_changelog">Istoric modificări</string>
   <string name="pref_all_apps_custom_label_color">Utilizați culoarea etichetei personalizate</string>
   <string name="pref_all_apps_label_color">Culoarea etichetelor pictogramelor în sertarul de aplicații</string>
   <string name="pref_num_rows_drawer">Numărul de rânduri în sertarul de aplicații</string>
@@ -408,11 +407,11 @@
   <string name="enable_spring_pref_title">Activați efectul elastic</string>
   <string name="hide_app">Ascundere aplicaţie</string>
   <string name="hide_app_sum">Ascunde aplicații în lista aplicaţiilor</string>
-  <string name="hide_app_selected">&#160;selectate</string>
   <string name="hidden_app">Aplicații ascunse</string>
-  <string name="hide_app_apply">Aplicare</string>
+  <string name="hidden_app_selected">&#160;selectate</string>
+  <string name="list_app_apply">Aplicaţi</string>
+  <string name="list_app_reset">Resetaţi</string>
   <string name="unauthorized_device">Acest dispozitiv are câteva instrumente de piraterie instalate. Vă rugăm să le dezinstalați pentru a continua.</string>
-  <string name="hide_app_reset">Resetare</string>
   <string name="two_row_dock">Doc în două rânduri</string>
   <string name="reset_alternative_icons_title">Resetați pictogramele alternative ale aplicațiilor?</string>
   <string name="reset_alternative_icons">Aveți %1$d aplicații cu pictograme alternative, doriți să le resetați?</string>

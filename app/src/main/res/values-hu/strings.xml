@@ -246,7 +246,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Névjegy</string>
   <string name="about_pref_summary">Ismerje meg a Lawnchair csapatát</string>
-  <string name="changelog_title">Változások a #%d verzióban</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Ikoncsomag</string>
   <string name="icon_pack_preference_summary">Ikoncsomag kiválasztása</string>
@@ -342,6 +341,12 @@
   <string name="pull_down_apps_search">Alkalmazások keresése</string>
   <string name="enable_screen_rotation">Képernyőforgatás engedélyezése</string>
   <string name="use_system_fonts_title">A rendszer betűtípusának használata a feliratokhoz</string>
+  <string name="auto_add_shortcuts_label">Ikon hozzáadása a kezdőképernyőhöz</string>
+  <string name="auto_add_shortcuts_description">Új alkalmazások esetében</string>
+  <string name="shortcut_blacklist">Parancsikon-feketelista</string>
+  <string name="shortcut_blacklist_sum">Megakadályozza, hogy az alkalmazások parancsikont adjanak a Kezdőképernyőhöz</string>
+  <string name="blacklist_app">Letiltott alkalmazások</string>
+  <string name="blacklist_app_selected">&#160; kiválasztva</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Visszaállítás</string>
   <string name="backup_export_title">Biztonsági mentés</string>
@@ -389,7 +394,6 @@
   <string name="pref_backport_shortcuts">Alkalmazás parancsikonok</string>
   <string name="weather_api_key_not_set">API kulcs nincs beállítva</string>
   <string name="pref_weather_api_key_title">API kulcs</string>
-  <string name="about_changelog">Változások</string>
   <string name="pref_all_apps_custom_label_color">Egyéni címkeszín</string>
   <string name="pref_all_apps_label_color">Ikoncímkék színe az alkalmazásfiókban</string>
   <string name="pref_num_rows_drawer">Sorok száma az alkalmazásfiókban</string>
@@ -407,15 +411,16 @@
   <string name="enable_spring_pref_title">Rugózás engedélyezése</string>
   <string name="hide_app">Alkalmazás elrejtése</string>
   <string name="hide_app_sum">Alkalmazás elrejtése az alkalmazásfiókból</string>
-  <string name="hide_app_selected">&#160; kiválasztva</string>
   <string name="hidden_app">Rejtett alkalmazás</string>
-  <string name="hide_app_apply">Alkalmazás</string>
+  <string name="hidden_app_selected">&#160; kiválasztva</string>
+  <string name="list_app_apply">Alkalmaz</string>
+  <string name="list_app_reset">Visszaállítás</string>
   <string name="unauthorized_device">Ez a készülék rendelkezik néhány kalózkodásra alkalmas eszközzel. Távolítsa el őket a folytatáshoz.</string>
-  <string name="hide_app_reset">Visszaállítás</string>
   <string name="two_row_dock">Két soros dokk</string>
   <string name="reset_alternative_icons_title">Alternatív ikonok visszaállítása?</string>
   <string name="reset_alternative_icons">%1$d alkalmazásnak van alternatív ikon beállítva. Visszaállítja az eredetit?</string>
   <string name="error_no_browser">A webcímek kezelésére nincs alkalmazás</string>
+  <string name="error_no_calendar">Nincs telepített naptáralkalmazás</string>
   <!-- Strings for popup dialogs -->
   <string name="lawnfeed_not_enabled_title">Lawnfeed nincs engedélyezve</string>
   <string name="lawnfeed_not_enabled">Úgy tűnik, Ön a Google Now oldalát próbálja megnyitni, de még nem engedélyezte ezt a lehetőséget a viselkedési beállításokban.\n\nSzeretné ezt most engedélyezni?</string>

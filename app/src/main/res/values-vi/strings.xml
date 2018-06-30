@@ -245,7 +245,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Thông tin</string>
   <string name="about_pref_summary">Tìm hiểu về đội ngũ Lawnchair</string>
-  <string name="changelog_title">Những thay đổi của bản xây dựng #%d</string>
   <string name="week_day_format">%2$s %1$s</string>
   <string name="icon_pack_preference_title">Gói biểu tượng</string>
   <string name="icon_pack_preference_summary">Chọn Gói Biểu tượng</string>
@@ -341,6 +340,7 @@
   <string name="pull_down_apps_search">Tìm kiếm ứng dụng</string>
   <string name="enable_screen_rotation">Cho phép xoay màn hình</string>
   <string name="use_system_fonts_title">Sử dụng hệ thống phông chữ cho các nhãn</string>
+  <string name="blacklist_app_selected">&#160;đã chọn</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Nhập dữ liệu</string>
   <string name="backup_export_title">Xuất dữ liệu</string>
@@ -388,7 +388,6 @@
   <string name="pref_backport_shortcuts">Lối tắt chồng lên nhau</string>
   <string name="weather_api_key_not_set">Khoá API chưa được thiết lập</string>
   <string name="pref_weather_api_key_title">Khoá API</string>
-  <string name="about_changelog">Thay đổi</string>
   <string name="pref_all_apps_custom_label_color">Sử dụng màu sắc tùy chỉnh</string>
   <string name="pref_all_apps_label_color">Màu của nhãn biểu tượng trong ngăn chứa ứng dụng</string>
   <string name="pref_num_rows_drawer">Số hàng trong ngăn chứa ứng dụng</string>
@@ -406,11 +405,11 @@
   <string name="enable_spring_pref_title">Bật hiệu ứng thạch</string>
   <string name="hide_app">Ẩn ứng dụng</string>
   <string name="hide_app_sum">Ẩn khỏi ngăn chứa ứng dụng</string>
-  <string name="hide_app_selected">&#160;đã chọn</string>
   <string name="hidden_app">Ứng dụng được ẩn</string>
-  <string name="hide_app_apply">Áp dụng</string>
+  <string name="hidden_app_selected">&#160;đã chọn</string>
+  <string name="list_app_apply">Áp dụng</string>
+  <string name="list_app_reset">Đặt lại</string>
   <string name="unauthorized_device">Có một vài công cụ sao chép trái phép được cài đặt trên thiết bị này. Vui lòng gỡ cài đặt chúng để tiếp tục.</string>
-  <string name="hide_app_reset">Khôi phục</string>
   <string name="two_row_dock">Thanh đế hai hàng</string>
   <string name="reset_alternative_icons_title">Đặt lại những biểu tượng ứng dụng bị thay đổi?</string>
   <string name="reset_alternative_icons">Bạn có %1$d biểu tượng ứng dụng bị thay đổi, bạn có muốn đặt lại chúng không?</string>

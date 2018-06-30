@@ -233,8 +233,8 @@
   <string name="icon_shape_none">ບໍ່ໃຊ້</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">ນຳໃຊ້</string>
-  <string name="hide_app_reset">ຄືນຄ່າ</string>
+  <string name="list_app_apply">ນຳໃຊ້</string>
+  <string name="list_app_reset">ຄືນຄ່າ</string>
   <!-- Strings for popup dialogs -->
   <string name="backup_wallpaper">ຮູບພື້ນຫຼັງ</string>
   <string name="backup_share">ແບ່ງປັນ</string>

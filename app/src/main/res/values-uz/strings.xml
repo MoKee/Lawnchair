@@ -230,8 +230,8 @@
   <string name="icon_shape_none">Asl</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">Qo‘llash</string>
-  <string name="hide_app_reset">Tiklash</string>
+  <string name="list_app_apply">Qo‘llash</string>
+  <string name="list_app_reset">Tiklash</string>
   <!-- Strings for popup dialogs -->
   <!-- Preference Category Pixel Searchbar Title -->
   <!-- Preference Category Icons Title -->

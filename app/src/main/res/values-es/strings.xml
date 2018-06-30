@@ -246,7 +246,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Acerca de</string>
   <string name="about_pref_summary">Conoce acerca del equipo de Lawnchair</string>
-  <string name="changelog_title">Registro de cambios de la build #%d</string>
   <string name="week_day_format">%1$s: %2$s</string>
   <string name="icon_pack_preference_title">Paquete de iconos</string>
   <string name="icon_pack_preference_summary">Selecciona un paquete de iconos</string>
@@ -338,6 +337,7 @@
   <string name="pull_down_search">Abrir búsqueda</string>
   <string name="pull_down_apps_search">Buscar aplicaciones</string>
   <string name="enable_screen_rotation">Habilitar la rotación de la pantalla</string>
+  <string name="blacklist_app_selected">&#160; seleccionado</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Importar</string>
   <string name="backup_export_title">Exportar</string>
@@ -385,7 +385,6 @@
   <string name="pref_backport_shortcuts">Adaptación retroactiva de accesos rápidos</string>
   <string name="weather_api_key_not_set">Clave API no configurada</string>
   <string name="pref_weather_api_key_title">Clave API</string>
-  <string name="about_changelog">Registro de cambios</string>
   <string name="pref_all_apps_custom_label_color">Usar color de etiqueta personalizado</string>
   <string name="pref_all_apps_label_color">Color de las etiquetas de los iconos en el cajón de aplicaciones</string>
   <string name="pref_num_rows_drawer">Número de filas en el cajón</string>
@@ -402,11 +401,11 @@
   <string name="enable_spring_pref_title">Habilitar efecto de rebote</string>
   <string name="hide_app">Ocultar aplicación</string>
   <string name="hide_app_sum">Ocultar aplicación del cajón de aplicaciones</string>
-  <string name="hide_app_selected">&#160; seleccionado</string>
   <string name="hidden_app">Aplicaciones ocultas</string>
-  <string name="hide_app_apply">Aplicar</string>
+  <string name="hidden_app_selected">&#160; seleccionado</string>
+  <string name="list_app_apply">Aplicar</string>
+  <string name="list_app_reset">Restablecer</string>
   <string name="unauthorized_device">Este dispositivo tiene algunas herramientas de piratería instaladas. Por favor, desinstálalos para continuar.</string>
-  <string name="hide_app_reset">Restablecer</string>
   <string name="two_row_dock">Cajón de apps en dos filas</string>
   <string name="reset_alternative_icons_title">¿Restablecer los iconos alternativos de apps?</string>
   <string name="reset_alternative_icons">Tienes %1$d de apps con iconos alternativos, ¿quieres restablecerlos?</string>

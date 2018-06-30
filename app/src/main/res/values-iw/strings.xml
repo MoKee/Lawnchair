@@ -248,7 +248,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">אודות</string>
   <string name="about_pref_summary">הכר את צוות Lawnchair</string>
-  <string name="changelog_title">רשימת שינויים לגירסא #%d</string>
   <string name="icon_pack_preference_title">ערכת סמלים</string>
   <string name="icon_pack_preference_summary">בחר ערכת סמלים</string>
   <string name="hotseat_uses_extracted_colors_pref_title">שורת העגינה תשתמש בצבעי הטפט</string>
@@ -337,6 +336,7 @@
   <string name="pull_down_search">פתח חיפוש</string>
   <string name="pull_down_apps_search">חיפוש יישומים</string>
   <string name="enable_screen_rotation">אפשר סיבוב מסך</string>
+  <string name="blacklist_app_selected">&#160;נבחר</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">ייבוא</string>
   <string name="backup_export_title">ייצוא</string>
@@ -384,7 +384,6 @@
   <string name="pref_backport_shortcuts">קיצורי דרך Backport</string>
   <string name="weather_api_key_not_set">מפתח API לא מוגדר</string>
   <string name="pref_weather_api_key_title">מפתח API</string>
-  <string name="about_changelog">יומן שינויים</string>
   <string name="pref_all_apps_custom_label_color">השתמש בצבע כיתוב מותאם אישית</string>
   <string name="pref_all_apps_label_color">צבע כיתוב הסמלים במגירת היישומים</string>
   <string name="pref_num_rows_drawer">מספר השורות במגירת היישומים</string>
@@ -400,11 +399,11 @@
   <string name="enable_spring_pref_title">אפשר אפקט קפיץ</string>
   <string name="hide_app">הסתר אפליקציה</string>
   <string name="hide_app_sum">הסתר אפליקציה ממגירת האפליקציות</string>
-  <string name="hide_app_selected">&#160;נבחר</string>
   <string name="hidden_app">אפליקציה מוסתרת</string>
-  <string name="hide_app_apply">החל</string>
+  <string name="hidden_app_selected">&#160;נבחר</string>
+  <string name="list_app_apply">החל</string>
+  <string name="list_app_reset">אפס</string>
   <string name="unauthorized_device">במכשיר זה מותקנים כלים פיראטיים. אנא הסר אותם כדי להמשיך.</string>
-  <string name="hide_app_reset">איפוס</string>
   <string name="two_row_dock">שורת עגינה כפולה</string>
   <string name="reset_alternative_icons_title">האם לאפס את סמלי האפליקציות החלופיים?</string>
   <string name="reset_alternative_icons">קיימים %1$d אפליקציות עם סמלים חלופיים, האם ברצונך לאפס אותם?</string>

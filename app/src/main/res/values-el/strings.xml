@@ -247,7 +247,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Σχετικά με</string>
   <string name="about_pref_summary">Ενημέρωση σχετικά με την ομάδα του Lawnchair</string>
-  <string name="changelog_title">Αρχείο καταγραφής αλλαγών της έκδοσης #%d</string>
   <string name="icon_pack_preference_title">Πακέτο εικονιδίων</string>
   <string name="icon_pack_preference_summary">Επιλογή πακέτου εικονιδίων</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Η μπάρα εφαρμογών χρησιμοποιεί χρώματα της ταπετσαρίας</string>
@@ -337,6 +336,7 @@
   <string name="pull_down_search">Άνοιγμα αναζήτησης Google</string>
   <string name="pull_down_apps_search">Αναζήτηση εφαρμογών</string>
   <string name="enable_screen_rotation">Ενεργοποίηση περιστροφής οθόνης</string>
+  <string name="blacklist_app_selected">&#160;επιλεγμένη/ες εφαρμογές</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Εισαγωγή</string>
   <string name="backup_export_title">Εξαγωγή</string>
@@ -384,7 +384,6 @@
   <string name="pref_backport_shortcuts">Ενεργοποίηση συντομεύσεων εφαρμογών</string>
   <string name="weather_api_key_not_set">Δεν έχει οριστεί κλειδί API</string>
   <string name="pref_weather_api_key_title">Κλειδί API</string>
-  <string name="about_changelog">Αρχείο καταγραφής αλλαγών</string>
   <string name="pref_all_apps_custom_label_color">Χρήση προσαρμοσμένου χρώματος ετικέτας εικονιδίων</string>
   <string name="pref_all_apps_label_color">Χρώμα των ετικετών εικονιδίων στο συρτάρι εφαρμογών</string>
   <string name="pref_num_rows_drawer">Αριθμός γραμμών στο συρτάρι εφαρμογών</string>
@@ -401,11 +400,11 @@
   <string name="enable_spring_pref_title">Ενεργοποίηση εφέ μεταπήδησης</string>
   <string name="hide_app">Κρυφές εφαρμογές</string>
   <string name="hide_app_sum">Απόκρυψη εφαρμογών από το συρτάρι εφαρμογών</string>
-  <string name="hide_app_selected">&#160;επιλεγμένη/ες εφαρμογές</string>
   <string name="hidden_app">Κρυφές εφαρμογές</string>
-  <string name="hide_app_apply">Εφαρμογή</string>
+  <string name="hidden_app_selected">&#160;επιλεγμένη/ες εφαρμογές</string>
+  <string name="list_app_apply">Εφαρμογή</string>
+  <string name="list_app_reset">Επαναφορά</string>
   <string name="unauthorized_device">Αυτή η συσκευή έχει εγκατεστημένα ορισμένα πειρατικά εργαλεία. Παρακαλώ απεγκαταστήστε τα για να συνεχίσετε.</string>
-  <string name="hide_app_reset">Επαναφορά</string>
   <string name="two_row_dock">Μπάρα εφαρμογών με δύο σειρές</string>
   <string name="reset_alternative_icons_title">Επαναφορά τροποποιημένων εικονιδίων εφαρμογών;</string>
   <string name="reset_alternative_icons">Έχετε %1$d εφαρμογή/ες με τροποποιημένα εικονίδια, είστε βέβαιοι ότι θέλετε να τα επαναφέρετε στην αρχική τους μορφή;</string>

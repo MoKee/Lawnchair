@@ -245,7 +245,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Lawnchair 정보</string>
   <string name="about_pref_summary">Lawnchair 팀 관련 정보</string>
-  <string name="changelog_title">%d 빌드의 변경사항</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">아이콘 팩</string>
   <string name="icon_pack_preference_summary">아이콘 팩 선택</string>
@@ -338,6 +337,7 @@
   <string name="pull_down_search">검색하기</string>
   <string name="pull_down_apps_search">앱 검색</string>
   <string name="enable_screen_rotation">화면 회전 허용</string>
+  <string name="blacklist_app_selected">&#160;선택됨</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">가져오기</string>
   <string name="backup_export_title">내보내기</string>
@@ -385,7 +385,6 @@
   <string name="pref_backport_shortcuts">바로가기 불러오기</string>
   <string name="weather_api_key_not_set">API key가 설정되지 않았습니다.</string>
   <string name="pref_weather_api_key_title">API 키</string>
-  <string name="about_changelog">변경 내역</string>
   <string name="pref_all_apps_custom_label_color">사용자 지정 이름 색상 사용</string>
   <string name="pref_all_apps_label_color">서랍 아이콘 이름 색상</string>
   <string name="pref_num_rows_drawer">앱 서랍 행 개수</string>
@@ -402,11 +401,11 @@
   <string name="enable_spring_pref_title">스프링 효과 사용</string>
   <string name="hide_app">앱 숨기기</string>
   <string name="hide_app_sum">앱 서랍에서 앱 숨기기</string>
-  <string name="hide_app_selected">&#160;선택됨</string>
   <string name="hidden_app">숨겨진 앱</string>
-  <string name="hide_app_apply">적용</string>
+  <string name="hidden_app_selected">&#160;선택됨</string>
+  <string name="list_app_apply">적용</string>
+  <string name="list_app_reset">초기화</string>
   <string name="unauthorized_device">이 기기에 불법 복제 도구가 설치되어 있습니다. 계속하려면 그것들을 제거해주세요.</string>
-  <string name="hide_app_reset">다시 설정</string>
   <string name="two_row_dock">두행 독 사용</string>
   <string name="reset_alternative_icons_title">대체 아이콘을 재설정 하겠습니까?</string>
   <string name="reset_alternative_icons">대체 아이콘으로 설정 된 %1$d개의 앱을 재 설정 하 시겠습니까?</string>

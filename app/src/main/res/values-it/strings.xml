@@ -246,7 +246,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Info</string>
   <string name="about_pref_summary">Conosci il Team di Lawnchair</string>
-  <string name="changelog_title">Cambiamenti nella versione #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Pacchetto icone</string>
   <string name="icon_pack_preference_summary">Select an icon Pack</string>
@@ -342,6 +341,7 @@
   <string name="pull_down_apps_search">Ricerca app</string>
   <string name="enable_screen_rotation">Attiva rotazione schermo</string>
   <string name="use_system_fonts_title">Utilizza i caratteri di sistema per le etichette</string>
+  <string name="blacklist_app_selected">&#160;selezionato</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Importa</string>
   <string name="backup_export_title">Esporta</string>
@@ -389,7 +389,6 @@
   <string name="pref_backport_shortcuts">Backport shortcuts</string>
   <string name="weather_api_key_not_set">Poi key non settata</string>
   <string name="pref_weather_api_key_title">Chiave API</string>
-  <string name="about_changelog">Modifiche di Versione</string>
   <string name="pref_all_apps_custom_label_color">Utilizzare un colore personalizzato</string>
   <string name="pref_all_apps_label_color">Colore delle icone nel menù delle applicazioni</string>
   <string name="pref_num_rows_drawer">Numero di righe nel menù delle applicazioni</string>
@@ -407,11 +406,11 @@
   <string name="enable_spring_pref_title">Abilita effetto a molla</string>
   <string name="hide_app">Nascondi app</string>
   <string name="hide_app_sum">Nascondi app dal menù delle applicazioni</string>
-  <string name="hide_app_selected">&#160;selezionato</string>
   <string name="hidden_app">App nascoste</string>
-  <string name="hide_app_apply">Applica</string>
+  <string name="hidden_app_selected">&#160;selezionato</string>
+  <string name="list_app_apply">Applica</string>
+  <string name="list_app_reset">Reimposta</string>
   <string name="unauthorized_device">Questo dispositivo dispone di alcuni strumenti per la pirateria. Si prega di disinstallarli per continuare.</string>
-  <string name="hide_app_reset">Ripristina</string>
   <string name="two_row_dock">Dock su due righe</string>
   <string name="reset_alternative_icons_title">Ripristinare le app con icone alternative?</string>
   <string name="reset_alternative_icons">Hai %1$d app con icone alternative, vuoi ripristinarle?</string>

@@ -240,8 +240,8 @@
   <string name="icon_shape_none">ไม่มี</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">ใช้</string>
-  <string name="hide_app_reset">รีเซ็ต</string>
+  <string name="list_app_apply">ใช้</string>
+  <string name="list_app_reset">รีเซ็ต</string>
   <!-- Strings for popup dialogs -->
   <string name="backup_location">ตำแหน่งที่ตั้ง</string>
   <string name="backup_wallpaper">วอลเปเปอร์</string>

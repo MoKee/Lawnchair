@@ -245,11 +245,10 @@
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Ingen</string>
   <string name="icon_shape_none">Ingen</string>
-  <string name="about_changelog">Endringslogg</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">Bruk</string>
-  <string name="hide_app_reset">Tilbakestill</string>
+  <string name="list_app_apply">Bruk</string>
+  <string name="list_app_reset">Tilbakestill</string>
   <!-- Strings for popup dialogs -->
   <string name="restore_backup">Gjenopprett</string>
   <string name="backup_name">Navn</string>

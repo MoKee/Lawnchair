@@ -237,8 +237,8 @@
   <string name="icon_shape_none">ಯಾವುದೂ ಇಲ್ಲ</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">ಅನ್ವಯಿಸು</string>
-  <string name="hide_app_reset">ಮರುಹೊಂದಿಸು</string>
+  <string name="list_app_apply">ಅನ್ವಯಿಸು</string>
+  <string name="list_app_reset">ಮರುಹೊಂದಿಸು</string>
   <!-- Strings for popup dialogs -->
   <string name="restore_backup">ಮರುಸಂಗ್ರಹಿಸಿ</string>
   <string name="backup_location">ಸ್ಥಳ</string>

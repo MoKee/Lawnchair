@@ -243,7 +243,6 @@
   <string name="notifications_header">Underretninger</string>
   <!-- About Lawnchair -->
   <string name="about_title">Om</string>
-  <string name="changelog_title">Ændringslog for version #%d</string>
   <string name="icon_pack_preference_title">Ikon pakke</string>
   <string name="icon_pack_preference_summary">Select an icon Pack</string>
   <string name="hotseat_uses_extracted_colors_pref_title">Dock anvender tapetfarver</string>
@@ -356,7 +355,6 @@
   <string name="animated_clock_icon_alternative_clock_apps_title">Animér alternative ur-apps</string>
   <string name="weather_api_key_not_set">API-nøgle ikke defineret</string>
   <string name="pref_weather_api_key_title">API-nøgle</string>
-  <string name="about_changelog">Ændringslog</string>
   <string name="pref_num_rows_drawer">Antal rækker i applikationsmenuen</string>
   <string name="vertical_drawer_layout_pref_title">Vertikal liste</string>
   <!-- Time format for Weather Widget -->
@@ -364,8 +362,8 @@
   <string name="lock_desktop">Lås hjemmeskærm</string>
   <string name="lawnfeed_not_found">Lawnfeed er ikke installeret</string>
   <string name="google_app_not_found">Google applikation er ikke installeret</string>
-  <string name="hide_app_apply">Anvend</string>
-  <string name="hide_app_reset">Nulstil</string>
+  <string name="list_app_apply">Anvend</string>
+  <string name="list_app_reset">Nulstil</string>
   <!-- Strings for popup dialogs -->
   <string name="restore_backup">Gendan</string>
   <string name="backup_name">Navn</string>

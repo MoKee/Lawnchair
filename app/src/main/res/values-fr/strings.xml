@@ -246,7 +246,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">A propos</string>
   <string name="about_pref_summary">Apprenez à connaître l’équipe de Lawnchair</string>
-  <string name="changelog_title">Journal des modifications pour la build n°%d</string>
   <string name="week_day_format">%1$s%2$s</string>
   <string name="icon_pack_preference_title">Pack d\'icônes</string>
   <string name="icon_pack_preference_summary">Choisissez un pack d\'icônes</string>
@@ -342,6 +341,7 @@
   <string name="pull_down_apps_search">Recherche d\'applications</string>
   <string name="enable_screen_rotation">Activer la rotation de l\'écran</string>
   <string name="use_system_fonts_title">Utiliser les polices de caractères du système pour les étiquettes</string>
+  <string name="blacklist_app_selected">&#160;sélectionné(es)</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Restauration</string>
   <string name="backup_export_title">Sauvegarde</string>
@@ -389,7 +389,6 @@
   <string name="pref_backport_shortcuts">Rétro-porter les raccourcis</string>
   <string name="weather_api_key_not_set">Clé API non définie</string>
   <string name="pref_weather_api_key_title">Clé API</string>
-  <string name="about_changelog">Journal des modifications</string>
   <string name="pref_all_apps_custom_label_color">Utiliser une couleur de libellé personnalisée</string>
   <string name="pref_all_apps_label_color">Couleur des libellés des icônes dans le tiroir des applications</string>
   <string name="pref_num_rows_drawer">Nombre de lignes dans le tiroir des applications</string>
@@ -407,11 +406,11 @@
   <string name="enable_spring_pref_title">Activer l\'effet ressort</string>
   <string name="hide_app">Masquer app</string>
   <string name="hide_app_sum">Masquer l\'application de la liste des applications</string>
-  <string name="hide_app_selected">&#160;sélectionné(es)</string>
   <string name="hidden_app">Application masquée</string>
-  <string name="hide_app_apply">Appliquer</string>
+  <string name="hidden_app_selected">&#160;sélectionné(es)</string>
+  <string name="list_app_apply">Appliquer</string>
+  <string name="list_app_reset">Réinitialiser</string>
   <string name="unauthorized_device">Cet appareil possède des outils de piratage installés. Veuillez les désinstaller pour continuer.</string>
-  <string name="hide_app_reset">Réinitialiser</string>
   <string name="two_row_dock">Dock à deux rangées</string>
   <string name="reset_alternative_icons_title">Réinitialiser les icônes alternatives d\'applications ?</string>
   <string name="reset_alternative_icons">Vous avez %1$d applications avec des icônes alternatives, souhaitez-vous les réinitialiser ?</string>

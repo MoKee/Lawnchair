@@ -248,7 +248,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Про додаток</string>
   <string name="about_pref_summary">Дізнатися про команду Lawnchair</string>
-  <string name="changelog_title">Зміни в додатку #%d</string>
   <string name="week_day_format">%1$s %2$s</string>
   <string name="icon_pack_preference_title">Набір значків</string>
   <string name="icon_pack_preference_summary">Вибрати комплект значков</string>
@@ -376,7 +375,6 @@
   <string name="pref_backport_shortcuts">Перенести ярлики</string>
   <string name="weather_api_key_not_set">API ключ не встановлено</string>
   <string name="pref_weather_api_key_title">API ключ</string>
-  <string name="about_changelog">Перелік змін</string>
   <string name="pref_all_apps_custom_label_color">Використовувати свій колір</string>
   <string name="pref_all_apps_label_color">Колір значків у меню додатків</string>
   <string name="pref_num_rows_drawer">Кількість рядків у меню додатків</string>
@@ -389,8 +387,8 @@
   <string name="lawnfeed_not_found">Lawnfeed не встановлено</string>
   <string name="google_app_not_found">Додаток Google не встановлено</string>
   <string name="set_default_launcher">Встановлення лаунчера за замовчуванням</string>
-  <string name="hide_app_apply">Застосувати</string>
-  <string name="hide_app_reset">Скинути</string>
+  <string name="list_app_apply">Застосувати</string>
+  <string name="list_app_reset">Скинути</string>
   <!-- Strings for popup dialogs -->
   <string name="restore_backup">Відновити</string>
   <string name="backup_name">Ім\'я: </string>

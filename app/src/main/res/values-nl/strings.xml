@@ -246,7 +246,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Over</string>
   <string name="about_pref_summary">Leer het Lawnchair-team kennen</string>
-  <string name="changelog_title">Changelog voor build #%d</string>
   <string name="week_day_format">%1$s: %2$s</string>
   <string name="icon_pack_preference_title">Pictogrammenpakket</string>
   <string name="icon_pack_preference_summary">Selecteer een pictogrammenpakket</string>
@@ -337,6 +336,7 @@
   <string name="pull_down_search">Zoeken openen</string>
   <string name="pull_down_apps_search">Apps zoeken</string>
   <string name="enable_screen_rotation">Schermrotatie activeren</string>
+  <string name="blacklist_app_selected">&#160;geselecteerd</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Importeren</string>
   <string name="backup_export_title">Exporteren</string>
@@ -384,7 +384,6 @@
   <string name="pref_backport_shortcuts">Backport snelkoppelingen</string>
   <string name="weather_api_key_not_set">API-sleutel niet ingesteld</string>
   <string name="pref_weather_api_key_title">API-sleutel</string>
-  <string name="about_changelog">Logboek</string>
   <string name="pref_all_apps_custom_label_color">Aangepaste labelkleur gebruiken</string>
   <string name="pref_all_apps_label_color">Kleur van pictogram labels in applicatiescherm</string>
   <string name="pref_num_rows_drawer">Aantal rijen in lade</string>
@@ -401,11 +400,11 @@
   <string name="enable_spring_pref_title">Veereffect inschakelen</string>
   <string name="hide_app">App verbergen</string>
   <string name="hide_app_sum">Apps verbergen in het app-overzicht</string>
-  <string name="hide_app_selected">&#160;geselecteerd</string>
   <string name="hidden_app">Verborgen app</string>
-  <string name="hide_app_apply">Toepassen</string>
+  <string name="hidden_app_selected">&#160;geselecteerd</string>
+  <string name="list_app_apply">Toepassen</string>
+  <string name="list_app_reset">Resetten</string>
   <string name="unauthorized_device">Op dit toestel zijn enkele piraat applicaties geinstalleerd. Gelieve deze te de-installeren om verder te gaan.</string>
-  <string name="hide_app_reset">Resetten</string>
   <string name="two_row_dock">Twee rijen dok</string>
   <string name="reset_alternative_icons_title">Reset alternatieve app iconen?</string>
   <string name="reset_alternative_icons">Je hebt %1$d apps met alternatieve iconen, wilt u ze opnieuw instellen?</string>

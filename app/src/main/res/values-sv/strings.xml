@@ -246,7 +246,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Mer om</string>
   <string name="about_pref_summary">Lär känna Lawnchair-teamet</string>
-  <string name="changelog_title">Ändringar för version #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Ikonpaket</string>
   <string name="icon_pack_preference_summary">Välj ett ikonpaket</string>
@@ -337,6 +336,7 @@
   <string name="pull_down_search">Öppna Sök</string>
   <string name="pull_down_apps_search">Sök appar</string>
   <string name="enable_screen_rotation">Aktivera skärmrotation</string>
+  <string name="blacklist_app_selected">&#160;vald</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Importera</string>
   <string name="backup_export_title">Exportera</string>
@@ -382,7 +382,6 @@
   <string name="pref_backport_shortcuts">Bakåtporta genvägar</string>
   <string name="weather_api_key_not_set">API nyckel inte angiven</string>
   <string name="pref_weather_api_key_title">API nyckel</string>
-  <string name="about_changelog">Ändringslogg</string>
   <string name="pref_all_apps_custom_label_color">Använd skräddarsydd etikettfärg</string>
   <string name="pref_all_apps_label_color">Färg på ikonetiketter i applistan</string>
   <string name="pref_num_rows_drawer">Antal rader i applistan</string>
@@ -398,11 +397,11 @@
   <string name="enable_spring_pref_title">Aktivera fjädereffekt</string>
   <string name="hide_app">Dölj app</string>
   <string name="hide_app_sum">Dölj app från app lådan</string>
-  <string name="hide_app_selected">&#160;vald</string>
   <string name="hidden_app">Dold app</string>
-  <string name="hide_app_apply">Verkställ</string>
+  <string name="hidden_app_selected">&#160;vald</string>
+  <string name="list_app_apply">Använd</string>
+  <string name="list_app_reset">Återställ</string>
   <string name="unauthorized_device">Enheten har piratkopieringsverktyg installerat. Vänligen avinstallera dem att fortsätta.</string>
-  <string name="hide_app_reset">Återställ</string>
   <string name="two_row_dock">Tvåradig docka</string>
   <string name="reset_alternative_icons_title">Återställ alternativa appikoner?</string>
   <string name="reset_alternative_icons">Du har %1$d appar med alternativa ikoner, vill du återställa dem?</string>

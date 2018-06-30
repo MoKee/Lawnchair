@@ -246,7 +246,6 @@
   <!-- About Lawnchair -->
   <string name="about_title">Über</string>
   <string name="about_pref_summary">Lerne das Lawnchair-Team kennen</string>
-  <string name="changelog_title">Changelog für Build #%d</string>
   <string name="week_day_format">%1$s, %2$s</string>
   <string name="icon_pack_preference_title">Iconpack</string>
   <string name="icon_pack_preference_summary">Iconpack auswählen</string>
@@ -339,6 +338,7 @@
   <string name="pull_down_search">Suche öffnen</string>
   <string name="pull_down_apps_search">App-Suche</string>
   <string name="enable_screen_rotation">Bildschirmrotation aktivieren</string>
+  <string name="blacklist_app_selected">&#160;ausgewählt</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">importieren</string>
   <string name="backup_export_title">exportieren</string>
@@ -386,7 +386,6 @@
   <string name="pref_backport_shortcuts">Backport App-Verknüpfungen</string>
   <string name="weather_api_key_not_set">API-Schlüssel nicht festgelegt</string>
   <string name="pref_weather_api_key_title">API-Schlüssel</string>
-  <string name="about_changelog">Änderungsprotokoll</string>
   <string name="pref_all_apps_custom_label_color">Verwende benutzerdefinierte Schriftfarbe</string>
   <string name="pref_all_apps_label_color">Farbe der Icon-Labels in der App-Liste</string>
   <string name="pref_num_rows_drawer">Anzahl der Reihen in der App-Übersicht</string>
@@ -404,11 +403,11 @@
   <string name="enable_spring_pref_title">Aktiviere den Spring-Effekt</string>
   <string name="hide_app">App ausblenden</string>
   <string name="hide_app_sum">App in der App-Übersicht ausblenden</string>
-  <string name="hide_app_selected">&#160;ausgewählt</string>
   <string name="hidden_app">Ausgeblendete App</string>
-  <string name="hide_app_apply">Anwenden</string>
+  <string name="hidden_app_selected">&#160;ausgewählt</string>
+  <string name="list_app_apply">Übernehmen</string>
+  <string name="list_app_reset">Zurücksetzen</string>
   <string name="unauthorized_device">Dieses Gerät hat ein paar Piraterie-Tools installiert. Um fortzufahren bitte deinstalliere diese.</string>
-  <string name="hide_app_reset">Zurücksetzen</string>
   <string name="two_row_dock">Zwei-Reihen Dock</string>
   <string name="reset_alternative_icons_title">Alternative App-Icons zurücksetzen?</string>
   <string name="reset_alternative_icons">Du hast %1$d Apps mit alternativen Icons, möchtest du sie zurücksetzen?</string>

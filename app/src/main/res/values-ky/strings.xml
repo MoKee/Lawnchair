@@ -229,8 +229,8 @@
   <string name="icon_shape_none">Эч нерсе жок</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">Колдонуу</string>
-  <string name="hide_app_reset">Кайтаруу</string>
+  <string name="list_app_apply">Колдонуу</string>
+  <string name="list_app_reset">Кайтаруу</string>
   <!-- Strings for popup dialogs -->
   <!-- Preference Category Pixel Searchbar Title -->
   <!-- Preference Category Icons Title -->

@@ -153,8 +153,8 @@
   <string name="icon_shape_none">هیچیان</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">جێبه‌جێکردن</string>
-  <string name="hide_app_reset">ڕێکخستنەوە</string>
+  <string name="list_app_apply">جێبه‌جێکردن</string>
+  <string name="list_app_reset">ڕێکخستنەوە</string>
   <!-- Strings for popup dialogs -->
   <string name="backup_location">شوێن</string>
   <string name="backup_wallpaper">دیوارپۆش</string>

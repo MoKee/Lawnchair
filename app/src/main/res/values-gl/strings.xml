@@ -229,8 +229,8 @@
   <string name="icon_shape_none">Ningún</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">Aplicar</string>
-  <string name="hide_app_reset">Restablecer</string>
+  <string name="list_app_apply">Aplicar</string>
+  <string name="list_app_reset">Restablecer</string>
   <!-- Strings for popup dialogs -->
   <string name="backup_location">Localización</string>
   <!-- Preference Category Pixel Searchbar Title -->
