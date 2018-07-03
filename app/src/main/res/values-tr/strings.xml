@@ -346,6 +346,11 @@
   <string name="pull_down_apps_search">Uygulama arama</string>
   <string name="enable_screen_rotation">Ekran döndürme</string>
   <string name="use_system_fonts_title">Etiketler için sistem yazı tiplerini kullan</string>
+  <string name="auto_add_shortcuts_label">Ana ekrana simge ekle</string>
+  <string name="auto_add_shortcuts_description">Yeni uygulamalar için</string>
+  <string name="shortcut_blacklist">Kısayol kara listesi</string>
+  <string name="shortcut_blacklist_sum">Uygulamaların simgelerini ana ekrana eklemesini engelle</string>
+  <string name="blacklist_app">Engellenen uygulamalar</string>
   <string name="blacklist_app_selected">&#160;seçildi</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Geri yükle</string>
@@ -420,6 +425,7 @@
   <string name="reset_alternative_icons_title">Alternatif ikonlar sıfırlansın mı?</string>
   <string name="reset_alternative_icons">Alternatif ikona sahip %1$d uygulamanız var, onları sıfırlamak ister misiniz?</string>
   <string name="error_no_browser">URL\'leri işleyecek etkinlik bulunamadı</string>
+  <string name="error_no_calendar">Takvim uygulaması yüklü değil</string>
   <!-- Strings for popup dialogs -->
   <string name="lawnfeed_not_enabled_title">Lawnfeed etkin değil</string>
   <string name="lawnfeed_not_enabled">Google Now sayfasını açmaya çalışıyorsunuz gibi gözüküyor, fakat davranış ayarlarındaki seçeneği etkinleştirmemişsiniz.\n\nEtkinleştirmek ister misiniz?</string>

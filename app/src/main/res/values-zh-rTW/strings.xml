@@ -340,6 +340,11 @@
   <string name="pull_down_apps_search">應用程式搜尋</string>
   <string name="enable_screen_rotation">啟用螢幕旋轉</string>
   <string name="use_system_fonts_title">標籤使用系統字體</string>
+  <string name="auto_add_shortcuts_label">將圖示新增至主畫面</string>
+  <string name="auto_add_shortcuts_description">適用於新安裝的應用程式</string>
+  <string name="shortcut_blacklist">捷徑黑名單</string>
+  <string name="shortcut_blacklist_sum">防止應用程式將圖示新增至主畫面中</string>
+  <string name="blacklist_app">已攔截的應用程式</string>
   <string name="blacklist_app_selected">&#160;已選</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">還原</string>
@@ -414,6 +419,7 @@
   <string name="reset_alternative_icons_title">重置替代應用程式的圖示？</string>
   <string name="reset_alternative_icons">您有 %1$d 個替代圖示的應用程式，您想重置它們？</string>
   <string name="error_no_browser">找不到處理網址的應用程式活動</string>
+  <string name="error_no_calendar">沒有安裝日曆應用程式</string>
   <!-- Strings for popup dialogs -->
   <string name="lawnfeed_not_enabled_title">未啟用 Lawnfeed</string>
   <string name="lawnfeed_not_enabled">您好像正在嘗試開啟 Google 即時頁面，但您尚未在功能設定中啟用該選項。\n\n您想現在開啟嗎？</string>

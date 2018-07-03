@@ -341,6 +341,11 @@
   <string name="pull_down_apps_search">Ricerca app</string>
   <string name="enable_screen_rotation">Attiva rotazione schermo</string>
   <string name="use_system_fonts_title">Utilizza i caratteri di sistema per le etichette</string>
+  <string name="auto_add_shortcuts_label">Aggiungi icone alla schermata Home</string>
+  <string name="auto_add_shortcuts_description">Per le nuove app</string>
+  <string name="shortcut_blacklist">Scorciatoia lista nera</string>
+  <string name="shortcut_blacklist_sum">Impedisci alle app di aggiungere icone alla schermata Home</string>
+  <string name="blacklist_app">Blocco app</string>
   <string name="blacklist_app_selected">&#160;selezionato</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Importa</string>
@@ -415,6 +420,7 @@
   <string name="reset_alternative_icons_title">Ripristinare le app con icone alternative?</string>
   <string name="reset_alternative_icons">Hai %1$d app con icone alternative, vuoi ripristinarle?</string>
   <string name="error_no_browser">Nessuna attività trovata per gestire gli URL</string>
+  <string name="error_no_calendar">Nessun calendario installato</string>
   <!-- Strings for popup dialogs -->
   <string name="lawnfeed_not_enabled_title">Lawnfeed non attivato</string>
   <string name="lawnfeed_not_enabled">Sembra che tu stia cercando di aprire la pagina di Google Now, ma non hai attivato l\'opzione dalle impostazioni.\n\nVuoi attivarla ora?</string>

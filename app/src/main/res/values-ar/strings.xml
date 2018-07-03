@@ -345,6 +345,11 @@
   <string name="pull_down_apps_search">البحث عن تطبيقات</string>
   <string name="enable_screen_rotation">تمكين تدوير الشاشة</string>
   <string name="use_system_fonts_title">استخدام خطوط النظام للتسميات</string>
+  <string name="auto_add_shortcuts_label">إضافة رمز إلى الشاشة الرئيسية</string>
+  <string name="auto_add_shortcuts_description">للتطبيقات جديدة</string>
+  <string name="shortcut_blacklist">القائمة السوداء للاختصار</string>
+  <string name="shortcut_blacklist_sum">منع التطبيقات من إضافة الرموز على الشاشة الرئيسية</string>
+  <string name="blacklist_app">التطبيقات المحظورة</string>
   <string name="blacklist_app_selected">&#160;selected</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">استيراد</string>
@@ -419,6 +424,7 @@
   <string name="reset_alternative_icons_title">إعادة تعيين أيقونات التطبيقات البديلة؟</string>
   <string name="reset_alternative_icons">لديك %1$d برموز بديلة, هل تريد إعادة تعيينها؟</string>
   <string name="error_no_browser">لم يتم العثور علي اي أنشطة للتعامل مع عناوين URL</string>
+  <string name="error_no_calendar">لم يتم العثور على تطبيق تقويم مثبت</string>
   <!-- Strings for popup dialogs -->
   <string name="lawnfeed_not_enabled_title">تطبيق Lawnfeed غير مفعل</string>
   <string name="lawnfeed_not_enabled">يبدو إنك تحاول فتح صفحة Google Now، ولكن لم يتم تمكين الخيار في إعدادات السلوك.\n\nهل تريد تمكينه من الآن ؟</string>
