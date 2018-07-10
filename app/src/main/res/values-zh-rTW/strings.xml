@@ -345,7 +345,7 @@
   <string name="shortcut_blacklist">捷徑黑名單</string>
   <string name="shortcut_blacklist_sum">防止應用程式將圖示新增至主畫面中</string>
   <string name="blacklist_app">已攔截的應用程式</string>
-  <string name="blacklist_app_selected">&#160;已選</string>
+  <string name="blacklist_app_selected">&#160; 已選取</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">還原</string>
   <string name="backup_export_title">備份</string>
@@ -411,7 +411,7 @@
   <string name="hide_app">隱藏應用程式</string>
   <string name="hide_app_sum">從應用程式清單中隱藏應用程式</string>
   <string name="hidden_app">隱藏的應用程式</string>
-  <string name="hidden_app_selected">&#160;已選</string>
+  <string name="hidden_app_selected">&#160; 已選取</string>
   <string name="list_app_apply">套用</string>
   <string name="list_app_reset">重設</string>
   <string name="unauthorized_device">此裝置安裝了一些盜版工具，請解除安裝它們以便繼續。</string>

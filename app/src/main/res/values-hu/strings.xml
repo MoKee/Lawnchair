@@ -413,7 +413,7 @@
   <string name="hide_app_sum">Alkalmazás elrejtése az alkalmazásfiókból</string>
   <string name="hidden_app">Rejtett alkalmazás</string>
   <string name="hidden_app_selected">&#160; kiválasztva</string>
-  <string name="list_app_apply">Alkalmaz</string>
+  <string name="list_app_apply">Alkalmazás</string>
   <string name="list_app_reset">Visszaállítás</string>
   <string name="unauthorized_device">Ez a készülék rendelkezik néhány kalózkodásra alkalmas eszközzel. Távolítsa el őket a folytatáshoz.</string>
   <string name="two_row_dock">Két soros dokk</string>

@@ -343,6 +343,11 @@
   <string name="pull_down_apps_search">Vyhľadávanie v aplikáciách</string>
   <string name="enable_screen_rotation">Povoliť otáčanie obrazovky</string>
   <string name="use_system_fonts_title">Použiť systémové písma pre menovky</string>
+  <string name="auto_add_shortcuts_label">Pridať ikonu na domovskú obrazovku</string>
+  <string name="auto_add_shortcuts_description">Pre nové aplikácie</string>
+  <string name="shortcut_blacklist">Zástupca čiernej listiny</string>
+  <string name="shortcut_blacklist_sum">Zabrániť aplikáciám pridávať ikony na domovskú obrazovku</string>
+  <string name="blacklist_app">Blokované aplikácie</string>
   <string name="blacklist_app_selected">&#160;vybrané</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Obnovenie</string>
@@ -417,6 +422,7 @@
   <string name="reset_alternative_icons_title">Obnoviť alternatívne ikony aplikácií?</string>
   <string name="reset_alternative_icons">Máte %1$d aplikácií s alternativnymi ikonami, chcete ich obnoviž?</string>
   <string name="error_no_browser">Nepodarilo sa zistiť žiadnu aktivitu na spracovanie URL adries</string>
+  <string name="error_no_calendar">Nie je nainštalovaná žiadna aplikácia Kalendár</string>
   <!-- Strings for popup dialogs -->
   <string name="lawnfeed_not_enabled_title">Lawnfeed nie je povolený</string>
   <string name="lawnfeed_not_enabled">Zdá sa, že sa pokúšate otvoriť stránku Google Now, avšak v nastaveniach správania ste túto možnosť nepovolili.\n\nChcete túto možnosť povoliť teraz?</string>
