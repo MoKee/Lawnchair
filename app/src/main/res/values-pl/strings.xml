@@ -343,6 +343,11 @@
   <string name="pull_down_apps_search">Wyszukiwanie aplikacji</string>
   <string name="enable_screen_rotation">Włącz obracanie ekranu</string>
   <string name="use_system_fonts_title">Użyj czcionki systemowej dla etykiet</string>
+  <string name="auto_add_shortcuts_label">Dodaj ikonę do ekranu głównego</string>
+  <string name="auto_add_shortcuts_description">W przypadku nowych aplikacji</string>
+  <string name="shortcut_blacklist">Skrót czarna lista</string>
+  <string name="shortcut_blacklist_sum">Uniemożliw aplikacjom na tworzenie ikon na ekranie głównym</string>
+  <string name="blacklist_app">Zablokowana aplikacja</string>
   <string name="blacklist_app_selected">&#160;wybrane</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Import</string>
@@ -417,6 +422,7 @@
   <string name="reset_alternative_icons_title">Zresetować ikony alternatywnych aplikacji?</string>
   <string name="reset_alternative_icons">Masz %1$d aplikacji z alternatywnymi ikonami, czy chcesz je zresetować?</string>
   <string name="error_no_browser">Nie znaleziono żadnej aktywności obsługującej adresy URL</string>
+  <string name="error_no_calendar">Brak aplikacji Kalendarza</string>
   <!-- Strings for popup dialogs -->
   <string name="lawnfeed_not_enabled_title">Nie aktywowano Lawnfeed</string>
   <string name="lawnfeed_not_enabled">Wygląda, że próbujesz otworzyć stronę Google Now, ale nie włączono opcji w ustawieniach zachowania.\n\nCzy włączyć teraz?</string>
