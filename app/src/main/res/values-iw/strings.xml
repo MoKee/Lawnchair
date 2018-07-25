@@ -309,9 +309,6 @@
   <string name="keep_scroll_state_pref_summary">שומר את מיקום הגלילה במגירת היישומים</string>
   <string name="home_opens_drawer_pref_title">כפתור הבית פותח את מגירת היישומים</string>
   <string name="home_opens_drawer_pref_summary">לחיצה על כפתור הבית כאשר נמצאים במסך הבית תפתח את מגירת היישומים</string>
-  <string name="show_hidden_pref_title">הצגת יישומים מוסתרים</string>
-  <string name="show_hidden_pref_on">יישומים מוסתרים יוצגו בכדי לשנות את הגדרות התצוגה</string>
-  <string name="show_hidden_pref_off">יישומים מוסתרים יהיו בלתי נראים</string>
   <string name="export_db_title">מסד נתונים</string>
   <string name="import_db_title">מסד נתונים</string>
   <string name="export_prefs_title">הגדרות</string>
@@ -419,4 +416,6 @@
   <!-- Preference Category Misc Title -->
   <!-- About screen -->
   <string name="title_attribouter_email">דוא\"ל</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">מבוטל</string>
 </resources>

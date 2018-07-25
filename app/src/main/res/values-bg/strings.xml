@@ -288,4 +288,6 @@
   <!-- About screen -->
   <string name="title_attribouter_email">Имейл</string>
   <string name="title_attribouter_license_permissions">Права</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Деактивирано</string>
 </resources>

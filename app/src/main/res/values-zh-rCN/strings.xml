@@ -312,9 +312,6 @@
   <string name="keep_scroll_state_pref_summary">记住抽屉中滚动到了哪个位置</string>
   <string name="home_opens_drawer_pref_title">使用 Home 键打开应用抽屉</string>
   <string name="home_opens_drawer_pref_summary">在主屏幕点击 Home 键将打开应用抽屉</string>
-  <string name="show_hidden_pref_title">显示隐藏的应用</string>
-  <string name="show_hidden_pref_on">更改可见性设置以显示隐藏应用</string>
-  <string name="show_hidden_pref_off">隐藏的应用将不可见</string>
   <string name="export_db_title">数据库</string>
   <string name="import_db_title">数据库</string>
   <string name="export_prefs_title">设置</string>
@@ -500,4 +497,12 @@
   <string name="about_bio_josh">自由的图像设计师。</string>
   <string name="about_bio_chris">创造性思维, 影响力 &amp; 内容创建者。社交媒体和公关经理。</string>
   <string name="about_bio_msfjarvis">halogenOS的核心开发者和substratum的应用程序开发者。</string>
+  <!-- DT2S -->
+  <string name="dt2s_title">双击锁定</string>
+  <string name="dt2s_disabled">禁用</string>
+  <string name="dt2s_deviceadmin">使用设备管理员权限</string>
+  <string name="dt2s_timeout">使用屏幕超时</string>
+  <string name="dt2s_root">使用root权限</string>
+  <string name="dt2s_admin_hint">为了能够使用双击锁定，您必须启用 Lawnchair 的设备管理员权限。这是安全锁屏方式，因此你必须在下一次解锁时输入你的密码（如果有的话）。</string>
+  <string name="dt2s_admin_warning">若禁用设备管理员，您将无法通过在主屏幕上双击来锁定。</string>
 </resources>

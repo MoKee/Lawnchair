@@ -312,9 +312,6 @@
   <string name="keep_scroll_state_pref_summary">Lưu vị trí cuộn trong ngăn chứa ứng dụng</string>
   <string name="home_opens_drawer_pref_title">Bấm nút Trang chủ hiển thị ngăn chứa ứng dụng</string>
   <string name="home_opens_drawer_pref_summary">Bấm nút Trang chủ khi ở ngoài Trang chính để mở ngăn chứa ứng dụng</string>
-  <string name="show_hidden_pref_title">Hiện ứng dụng ẩn</string>
-  <string name="show_hidden_pref_on">Hiện các ứng dụng ẩn để thay đổi tùy chọn hiển thị</string>
-  <string name="show_hidden_pref_off">Không hiện các ứng dụng ẩn</string>
   <string name="export_db_title">Cơ sở dữ liệu</string>
   <string name="import_db_title">Cơ sở dữ liệu</string>
   <string name="export_prefs_title">Cài đặt</string>
@@ -500,4 +497,6 @@
   <string name="about_bio_josh">Freelance thiết kế đồ họa.</string>
   <string name="about_bio_chris">Duy sáng tạo, Influencer &amp; người sáng tạo nội dung. Xã hội truyền thông và PR Manager.</string>
   <string name="about_bio_msfjarvis">Lõi các phát triển tại halogenOS và ứng dụng phát triển tại substratum.</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Đã tắt</string>
 </resources>

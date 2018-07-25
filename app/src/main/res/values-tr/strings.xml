@@ -318,9 +318,6 @@
   <string name="keep_scroll_state_pref_summary">Kaydırma konumunu uygulama çekmecesine kaydeder</string>
   <string name="home_opens_drawer_pref_title">Ana ekran tuşu ile uygulama çekmecesini aç</string>
   <string name="home_opens_drawer_pref_summary">Ana ekrandayken ana ekran tuşuna basıldığında, uygulama çekmecesi açılır</string>
-  <string name="show_hidden_pref_title">Gizli uygulamaları göster</string>
-  <string name="show_hidden_pref_on">Gizli uygulamalar görünürlük ayarlarını değiştirmek için gösterilir</string>
-  <string name="show_hidden_pref_off">Gizli uygulamalar görünmez</string>
   <string name="export_db_title">Veritabanını dışa aktar</string>
   <string name="import_db_title">Veritabanını içe aktar</string>
   <string name="export_prefs_title">Ayarları dışa aktar</string>
@@ -506,4 +503,6 @@
   <string name="about_bio_josh">Serbest grafik tasarımcısı.</string>
   <string name="about_bio_chris">Yaratıcı Akıl, Etkileyici &amp; İçerik yaratıcı. Sosyal Medya ve Halkla İlişkiler Müdürü.</string>
   <string name="about_bio_msfjarvis">Halojenlerde çekirdek geliştirici ve substratumda uygulama geliştiricisi.</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Devre dışı</string>
 </resources>

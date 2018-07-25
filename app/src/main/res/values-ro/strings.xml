@@ -314,9 +314,6 @@
   <string name="keep_scroll_state_pref_summary">Salvează poziţia de parcurgere în sertarul de aplicații</string>
   <string name="home_opens_drawer_pref_title">Butonul Acasă deschide sertarul de aplicații</string>
   <string name="home_opens_drawer_pref_summary">Apăsând butonul acasă pe ecranul de start veți deschide sertarul de aplicații</string>
-  <string name="show_hidden_pref_title">Arătați aplicațiile ascunse</string>
-  <string name="show_hidden_pref_on">Aplicațiile ascunse vor fi vizibile pentru a schimba setările de vizibilitate</string>
-  <string name="show_hidden_pref_off">Aplicațiile ascunse nu vor fi vizibile</string>
   <string name="export_db_title">Bază de date</string>
   <string name="import_db_title">Bază de date</string>
   <string name="export_prefs_title">Setări</string>
@@ -468,4 +465,6 @@
   <!-- About screen -->
   <string name="title_attribouter_email">Email</string>
   <string name="title_attribouter_license_permissions">Permisiuni</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Dezactivat</string>
 </resources>

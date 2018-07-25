@@ -307,4 +307,6 @@
   <!-- Preference Category Misc Title -->
   <!-- About screen -->
   <string name="title_attribouter_email">E-mel</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Tidak-aktif</string>
 </resources>

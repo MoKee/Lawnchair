@@ -310,9 +310,6 @@ Maaari mong alisin ito, o maghanap para sa app at i-install ito nang mano-mano. 
   <string name="keep_scroll_state_pref_summary">Nagse-save ng scroll na posisyon sa drawer</string>
   <string name="home_opens_drawer_pref_title">Home button ay nagbubukas sa app drawer</string>
   <string name="home_opens_drawer_pref_summary">Pagpindot ng home button habang sa home screen ay buksan ang app drawer</string>
-  <string name="show_hidden_pref_title">Ipakita ang mga nakatagong mga app</string>
-  <string name="show_hidden_pref_on">Nakatagong mga app ay ipapakita upang baguhin ang mga pagpapakita ng setting</string>
-  <string name="show_hidden_pref_off">Nakatagong mga app ay hindi magiging bisibol</string>
   <string name="export_db_title">Database</string>
   <string name="import_db_title">Database</string>
   <string name="export_prefs_title">Mga setting</string>
@@ -423,4 +420,6 @@ Maaari mong alisin ito, o maghanap para sa app at i-install ito nang mano-mano. 
   <!-- About screen -->
   <string name="title_attribouter_email">Email</string>
   <string name="title_attribouter_license_permissions">Mga pahintulot</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Huwag paganahin</string>
 </resources>

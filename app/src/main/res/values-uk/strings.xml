@@ -308,9 +308,6 @@
   <string name="keep_scroll_state_pref_summary">Зберігає положення прокручування в списку додатків</string>
   <string name="home_opens_drawer_pref_title">Домашня кнопка відкриває список додатків</string>
   <string name="home_opens_drawer_pref_summary">Натиснувши кнопку \"Додому\" на головному екрані буде відкритий список додатків</string>
-  <string name="show_hidden_pref_title">Відобразити приховані додатки</string>
-  <string name="show_hidden_pref_on">Приховані програми буде показано для зміни параметрів видимості</string>
-  <string name="show_hidden_pref_off">Приховані програми не будуть показані</string>
   <string name="export_db_title">База даних</string>
   <string name="import_db_title">База даних</string>
   <string name="export_prefs_title">Налаштування</string>
@@ -403,4 +400,6 @@
   <!-- About screen -->
   <string name="title_attribouter_email">Електронна пошта</string>
   <string name="title_attribouter_license_permissions">Права</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Вимкнено</string>
 </resources>

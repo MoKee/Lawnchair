@@ -307,9 +307,6 @@
   <string name="keep_scroll_state_pref_summary">Muistaa vierityskohdan sovellusvalikossa</string>
   <string name="home_opens_drawer_pref_title">Koti-painike avaa sovellusvalikon</string>
   <string name="home_opens_drawer_pref_summary">Pressing the home button while on the homescreen will open the app drawer</string>
-  <string name="show_hidden_pref_title">Näytä piilotetut sovellukset</string>
-  <string name="show_hidden_pref_on">Piilotetut sovellukset näytetään näkyvyysasetuksia muutettaessa</string>
-  <string name="show_hidden_pref_off">Piilotetut sovellukset eivät näy</string>
   <string name="export_db_title">Export database</string>
   <string name="import_db_title">Import database</string>
   <string name="export_prefs_title">Export settings</string>
@@ -415,4 +412,6 @@
   <!-- About screen -->
   <string name="title_attribouter_email">Sähköposti</string>
   <string name="title_attribouter_license_permissions">Käyttöoikeudet</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Poistettu käytöstä</string>
 </resources>

@@ -309,9 +309,6 @@
   <string name="keep_scroll_state_pref_summary">Nagse-save ng scroll na posisyon sa drawer</string>
   <string name="home_opens_drawer_pref_title">Home button ay nagbubukas ng app drawer</string>
   <string name="home_opens_drawer_pref_summary">Pagpindot ng home button habang nasa home screen ay magbubukas ng app drawer</string>
-  <string name="show_hidden_pref_title">Ipakita ang mga nakatagong mga app</string>
-  <string name="show_hidden_pref_on">Nakatagong mga app ay makikita upang baguhin ang mga pagpapakita ng setting</string>
-  <string name="show_hidden_pref_off">Nakatagong mga app ay hindi makikita</string>
   <string name="export_db_title">Database</string>
   <string name="import_db_title">Database</string>
   <string name="export_prefs_title">Mga setting</string>
@@ -422,4 +419,6 @@
   <!-- About screen -->
   <string name="title_attribouter_email">Email</string>
   <string name="title_attribouter_license_permissions">Mga pahintulot</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Naka-disable</string>
 </resources>

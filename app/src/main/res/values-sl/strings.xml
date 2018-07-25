@@ -315,9 +315,6 @@
   <string name="keep_scroll_state_pref_summary">Shrani položaj drsnika v predal</string>
   <string name="home_opens_drawer_pref_title">Domov gumb odpre predal z aplikacijami</string>
   <string name="home_opens_drawer_pref_summary">Pritisk gumba domov, medtem ko ste na domačem zaslonu odpre predal s programi</string>
-  <string name="show_hidden_pref_title">Prikaži skrite programe</string>
-  <string name="show_hidden_pref_on">Prikazani bodo skriti programi za spreminjanje nastavitev vidnosti</string>
-  <string name="show_hidden_pref_off">Skriti programi ne bodo vidni</string>
   <string name="export_db_title">Baza podatkov</string>
   <string name="import_db_title">Baza podatkov</string>
   <string name="export_prefs_title">Nastavitve</string>
@@ -504,4 +501,6 @@ Brez omenjenega dovoljenja se lahko Lawnchair sesuje ali pa se lahko nepričakov
   <string name="about_bio_josh">Samostojni grafični oblikovalec.</string>
   <string name="about_bio_chris">Ustvarjalni um, vpliv &amp; avtor vsebine. Socialni mediji in PR vodja.</string>
   <string name="about_bio_msfjarvis">Razvijalec jedra pri halogenOS in razvijalec programa pri substratum.</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Onemogočeno</string>
 </resources>

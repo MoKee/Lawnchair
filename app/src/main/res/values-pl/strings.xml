@@ -315,9 +315,6 @@
   <string name="keep_scroll_state_pref_summary">Zapisuje pozycję przewijania w szufladzie</string>
   <string name="home_opens_drawer_pref_title">Przycisk home otwiera szufladę aplikacji</string>
   <string name="home_opens_drawer_pref_summary">Naciśnięcie przycisku Home na ekranie głównym otworzy szufladę z aplikacjami</string>
-  <string name="show_hidden_pref_title">Pokaż ukryte aplikacje</string>
-  <string name="show_hidden_pref_on">Ukryte aplikacje będą pokazane by zmienić ustawienia widoczności</string>
-  <string name="show_hidden_pref_off">Ukryte aplikacje nie będą widoczne</string>
   <string name="export_db_title">Eksportuj bazę danych</string>
   <string name="import_db_title">Importuj bazę danych</string>
   <string name="export_prefs_title">Eksportuj ustawienia</string>
@@ -503,4 +500,6 @@
   <string name="about_bio_josh">Niezależny grafik.</string>
   <string name="about_bio_chris">Creative Mind, Influencer &amp; Twórca treści. Media społecznościowe i PR Manager.</string>
   <string name="about_bio_msfjarvis">Programista rdzenia w halogenOS oraz programista aplikacji substratum.</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Wyłączone</string>
 </resources>

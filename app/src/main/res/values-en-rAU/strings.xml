@@ -182,4 +182,6 @@
   <!-- Preference Category Misc Title -->
   <!-- About screen -->
   <string name="title_attribouter_email">Email</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Disabled</string>
 </resources>

@@ -318,9 +318,6 @@
   <string name="keep_scroll_state_pref_summary">Salvar a posição da rolagem da gaveta de aplicativos</string>
   <string name="home_opens_drawer_pref_title">Botão da tela inicial abre a gaveta de app</string>
   <string name="home_opens_drawer_pref_summary">Pressionar o botão de início na tela inicial mostrará a Gaveta</string>
-  <string name="show_hidden_pref_title">Mostrar aplicativos ocultos</string>
-  <string name="show_hidden_pref_on">Aplicativos ocultos serão mostrados para alterar as configurações de visibilidade</string>
-  <string name="show_hidden_pref_off">Aplicativos ocultos não serão mostrados</string>
   <string name="export_db_title">Banco de dados</string>
   <string name="import_db_title">Banco de dados</string>
   <string name="export_prefs_title">Configurações</string>
@@ -466,4 +463,6 @@
   <!-- About screen -->
   <string name="title_attribouter_email">E-mail</string>
   <string name="title_attribouter_license_permissions">Permissões</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Desativado</string>
 </resources>

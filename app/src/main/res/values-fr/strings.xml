@@ -313,9 +313,6 @@
   <string name="keep_scroll_state_pref_summary">Enregistre la position du défilement dans le tiroir des applications</string>
   <string name="home_opens_drawer_pref_title">Le bouton Home ouvre le tiroir des applications</string>
   <string name="home_opens_drawer_pref_summary">Appuyer sur le bouton d\'accueil en étant sur l\'écran d\'accueil ouvrira la tiroir des applications</string>
-  <string name="show_hidden_pref_title">Afficher les applications cachées</string>
-  <string name="show_hidden_pref_on">Les applications cachées seront affichées pour modifier les paramètres de visibilité</string>
-  <string name="show_hidden_pref_off">Les applications cachées ne seront pas visibles</string>
   <string name="export_db_title">la base de données</string>
   <string name="import_db_title">la base de données</string>
   <string name="export_prefs_title">les paramètres</string>
@@ -478,4 +475,6 @@
   <string name="about_role_mod_support">Modérateur / Support</string>
   <string name="about_role_family_member">Membre de la famille</string>
   <string name="about_bio_divadsn">18 ans, transforme le café et la pizza en code. Aussi, anciennement connu comme Codebucket.</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Désactivé</string>
 </resources>

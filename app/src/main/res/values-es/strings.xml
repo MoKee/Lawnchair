@@ -310,9 +310,6 @@
   <string name="keep_scroll_state_pref_summary">Recuerda la posición del cajón de aplicaciones</string>
   <string name="home_opens_drawer_pref_title">El botón de inicio abre el cajón de aplicaciones</string>
   <string name="home_opens_drawer_pref_summary">Al presionar el botón de inicio en la pantalla principal, se abrirá el cajón de aplicaciones</string>
-  <string name="show_hidden_pref_title">Mostrar aplicaciones ocultas</string>
-  <string name="show_hidden_pref_on">Se mostrarán las aplicaciones ocultas para ajustar la visibilidad de las mismas</string>
-  <string name="show_hidden_pref_off">Las aplicaciones ocultas no serán visibles</string>
   <string name="export_db_title">Exportar base de datos</string>
   <string name="import_db_title">Importar base de datos</string>
   <string name="export_prefs_title">Exportar configuración</string>
@@ -423,4 +420,6 @@
   <!-- About screen -->
   <string name="title_attribouter_email">Correo electrónico</string>
   <string name="title_attribouter_license_permissions">Permisos</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Deshabilitado</string>
 </resources>

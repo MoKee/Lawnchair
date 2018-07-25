@@ -313,9 +313,6 @@
   <string name="keep_scroll_state_pref_summary">Görgetési pozíció mentése az alkalmazásfiókban</string>
   <string name="home_opens_drawer_pref_title">Alkalmazásfiók megnyitása home gombbal</string>
   <string name="home_opens_drawer_pref_summary">A kezdőképernyőn nyomott home gomb megnyitja az alkalmazásfiókot</string>
-  <string name="show_hidden_pref_title">Rejtett alkalmazások megjelenítése</string>
-  <string name="show_hidden_pref_on">A rejtett alkalmazások meg fognak jelenni, hogy módosíthassa a láthatósági beállításokat</string>
-  <string name="show_hidden_pref_off">A rejtett alkalmazások nem lesznek láthatóak</string>
   <string name="export_db_title">Adatbázis mentése</string>
   <string name="import_db_title">Adatbázis visszaállítása</string>
   <string name="export_prefs_title">Beállítások mentése</string>
@@ -501,4 +498,12 @@
   <string name="about_bio_josh">Független grafikai dizájner.</string>
   <string name="about_bio_chris">Kreatív elme, Ötletadó &amp; Tartalomkészítő. Közösségi média és PR menedzser.</string>
   <string name="about_bio_msfjarvis">A HalogenOS fő fejlesztője és a Substratum alkalmazásfejlesztője.</string>
+  <!-- DT2S -->
+  <string name="dt2s_title">Dupla érintésre alvó mód</string>
+  <string name="dt2s_disabled">Kikapcsolva</string>
+  <string name="dt2s_deviceadmin">Rendszergazda-használat</string>
+  <string name="dt2s_timeout">Képernyő időtúllépés-használat</string>
+  <string name="dt2s_root">Root-használat</string>
+  <string name="dt2s_admin_hint">Hogy használni tudja a dupla érintésre lezárást, rendszergazda jogokat kell adnia a Lawnchair indítónak. Ez a funkció egy biztonsági zár, amit csak PIN-kóddal tud feloldani, ha rendelkezik vele.</string>
+  <string name="dt2s_admin_warning">A rendszergazda letiltásával, Ön nem lesz képes használni kezdőképernyőjén a dupla érintésre lezárás funkciót.</string>
 </resources>

@@ -309,9 +309,6 @@
   <string name="keep_scroll_state_pref_summary">Scrollpositie onthouden in de applicatielade</string>
   <string name="home_opens_drawer_pref_title">Thuisknop opent applicatielade</string>
   <string name="home_opens_drawer_pref_summary">Thuisknop drukken op het startscherm opent de applicatielade</string>
-  <string name="show_hidden_pref_title">Toon verborgen apps</string>
-  <string name="show_hidden_pref_on">Verborgen apps worden getoond om zichtbaarheidsinstellingen te wijzigen</string>
-  <string name="show_hidden_pref_off">Verborgen apps worden niet getoond</string>
   <string name="export_db_title">Exporteer database</string>
   <string name="import_db_title">Importeer database</string>
   <string name="export_prefs_title">Instellingen exporteren</string>
@@ -422,4 +419,6 @@
   <!-- About screen -->
   <string name="title_attribouter_email">E-mail</string>
   <string name="title_attribouter_license_permissions">Machtigingen</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Uitgeschakeld</string>
 </resources>

@@ -315,9 +315,6 @@
   <string name="keep_scroll_state_pref_summary">Захоўвае становішча пракруткі ў меню праграм</string>
   <string name="home_opens_drawer_pref_title">Кнопка «Хатоўка» адкрывае меню праграм</string>
   <string name="home_opens_drawer_pref_summary">Націск кнопкі «Хатоўка» на галоўным экране адкрые меню праграм</string>
-  <string name="show_hidden_pref_title">Паказваць схаваныя праграмы</string>
-  <string name="show_hidden_pref_on">Адлюстровываюцца схаваныя праграмы для змены налад бачнасці</string>
-  <string name="show_hidden_pref_off">Схаваныя праграмы не будуць адлюстроўвацца</string>
   <string name="export_db_title">База дадзеных</string>
   <string name="import_db_title">База дадзеных</string>
   <string name="export_prefs_title">Налады</string>
@@ -493,4 +490,6 @@
   <string name="about_bio_deletescape">Android распрацоўшчык; энтузіясты, любіць мемы (трохі занадта шмат на самай справе). Заснавальнік Lawnchair праекта.</string>
   <string name="about_bio_divadsn">18 гадоў, пераўтварае кафеін і піцу ў код. Акрамя таго, раней вядомы як Codebucket.</string>
   <string name="about_bio_josh">Пазаштатны графічны дызайнер.</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Выключана</string>
 </resources>

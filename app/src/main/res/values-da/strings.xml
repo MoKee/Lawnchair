@@ -297,9 +297,6 @@
   <string name="keep_scroll_state_pref_summary">Gem sidste rulleposition i applikationsoversigten</string>
   <string name="home_opens_drawer_pref_title">Hjem-knappen åbner dine appoversigten</string>
   <string name="home_opens_drawer_pref_summary">Pressing the home button while on the homescreen will open the app drawer</string>
-  <string name="show_hidden_pref_title">Vis skjulte apps</string>
-  <string name="show_hidden_pref_on">Skjulte apps bliver vist til at ændre indstillinger for synlighed</string>
-  <string name="show_hidden_pref_off">Skjulte apps vil ikke være synlige</string>
   <string name="export_db_title">Export database</string>
   <string name="import_db_title">Import database</string>
   <string name="export_prefs_title">Export settings</string>
@@ -377,4 +374,6 @@
   <!-- Preference Category Misc Title -->
   <!-- About screen -->
   <string name="title_attribouter_email">E-mail</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Inaktiv</string>
 </resources>

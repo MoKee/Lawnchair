@@ -309,9 +309,6 @@
   <string name="keep_scroll_state_pref_summary">Αποθήκευση της θέσης κύλισης στο συρτάρι εφαρμογών</string>
   <string name="home_opens_drawer_pref_title">Το κουμπί αρχικής οθόνης θα ανοίγει το συρτάρι εφαρμογών</string>
   <string name="home_opens_drawer_pref_summary">Pressing the home button while on the homescreen will open the app drawer</string>
-  <string name="show_hidden_pref_title">Εμφάνιση κρυφών εφαρμογών</string>
-  <string name="show_hidden_pref_on">Οι κρυφές εφαρμογές θα επανεμφανίζονται για να αλλάξετε τις ρυθμίσεις ορατότητας</string>
-  <string name="show_hidden_pref_off">Οι κρυφές εφαρμογές δεν θα είναι ορατές</string>
   <string name="export_db_title">Export database</string>
   <string name="import_db_title">Import database</string>
   <string name="export_prefs_title">Export settings</string>
@@ -422,4 +419,6 @@
   <!-- About screen -->
   <string name="title_attribouter_email">Ηλεκτρονικό ταχυδρομείο</string>
   <string name="title_attribouter_license_permissions">Άδειες</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Απενεργοποιημένο</string>
 </resources>

@@ -313,9 +313,6 @@
   <string name="keep_scroll_state_pref_summary">Mantieni la posizione di scorrimento nel menù delle applicazioni</string>
   <string name="home_opens_drawer_pref_title">Il tasto home apre il menù delle applicazioni</string>
   <string name="home_opens_drawer_pref_summary">Pressing the home button while on the homescreen will open the app drawer</string>
-  <string name="show_hidden_pref_title">Mostra le app nascoste</string>
-  <string name="show_hidden_pref_on">Le app nascoste verranno mostrate per cambiare le impostazioni di visibilità</string>
-  <string name="show_hidden_pref_off">Le app nascoste non saranno visibili</string>
   <string name="export_db_title">Export database</string>
   <string name="import_db_title">Import database</string>
   <string name="export_prefs_title">Export settings</string>
@@ -501,4 +498,6 @@
   <string name="about_bio_josh">Designer grafico indipendente.</string>
   <string name="about_bio_chris">Mente Creativa, Influencer &amp; Creatore di Contenuti. Social Media e PR Manager.</string>
   <string name="about_bio_msfjarvis">Sviluppatore principale di halogenOS e sviluppatore di applicazioni di substratum.</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Disabilitata</string>
 </resources>

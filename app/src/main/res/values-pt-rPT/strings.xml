@@ -311,9 +311,6 @@
   <string name="keep_scroll_state_pref_summary">Salvar a posição na gaveta de aplicações</string>
   <string name="home_opens_drawer_pref_title">Botão Home abre a gaveta de aplicações</string>
   <string name="home_opens_drawer_pref_summary">Pressionar o botão Home na tela inicial irá abrir a gaveta de aplicações</string>
-  <string name="show_hidden_pref_title">Mostrar aplicações ocultas</string>
-  <string name="show_hidden_pref_on">Aplicações ocultas serão visíveis para alterar as definições de visibilidade</string>
-  <string name="show_hidden_pref_off">Aplicações ocultas não serão visíveis</string>
   <string name="export_db_title">Base de Dados</string>
   <string name="import_db_title">Importar Base de Dados</string>
   <string name="export_prefs_title">Exportar Definições</string>
@@ -422,4 +419,5 @@
   <!-- About screen -->
   <string name="title_attribouter_email">E-mail</string>
   <string name="title_attribouter_license_permissions">Permissões</string>
+  <!-- DT2S -->
 </resources>

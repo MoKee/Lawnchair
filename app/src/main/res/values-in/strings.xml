@@ -316,9 +316,6 @@
   <string name="keep_scroll_state_pref_summary">Mengingat posisi gulir di laci</string>
   <string name="home_opens_drawer_pref_title">Tombol beranda membuka laci aplikasi</string>
   <string name="home_opens_drawer_pref_summary">Menekan tombol beranda saat berada di layar awal akan membuka laci aplikasi</string>
-  <string name="show_hidden_pref_title">Tampilkan aplikasi tersembunyi</string>
-  <string name="show_hidden_pref_on">Aplikasi tersembunyi akan ditampilkan untuk mengubah setelan keterlihatan</string>
-  <string name="show_hidden_pref_off">Aplikasi tersembunyi tidak akan terlihat</string>
   <string name="export_db_title">Basis Data</string>
   <string name="import_db_title">Basis Data</string>
   <string name="export_prefs_title">Setelan</string>
@@ -498,4 +495,6 @@
   <string name="about_bio_josh">Desainer grafis freelance.</string>
   <string name="about_bio_chris">Pikiran kreatif, pencipta konten &amp; Influencer. Media sosial dan PR Manager.</string>
   <string name="about_bio_msfjarvis">Pengembang inti di halogenOS dan pengembang aplikasi di substratum.</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Dinonaktifkan</string>
 </resources>

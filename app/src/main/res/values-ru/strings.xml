@@ -315,9 +315,6 @@
   <string name="keep_scroll_state_pref_summary">Сохраняет положение прокрутки в меню приложений</string>
   <string name="home_opens_drawer_pref_title">Кнопка «Домой» открывает меню приложений</string>
   <string name="home_opens_drawer_pref_summary">Нажатие кнопки «Домой» на главном экране откроет меню приложений</string>
-  <string name="show_hidden_pref_title">Показывать скрытые приложения</string>
-  <string name="show_hidden_pref_on">Отображаются скрытые приложения для изменения настроек видимости</string>
-  <string name="show_hidden_pref_off">Скрытые приложения не будут отображаться</string>
   <string name="export_db_title">База данных</string>
   <string name="import_db_title">База данных</string>
   <string name="export_prefs_title">Настройки</string>
@@ -503,4 +500,12 @@
   <string name="about_bio_josh">Внештатный графический дизайнер.</string>
   <string name="about_bio_chris">Творческий разум, контент-менеджер, социальный и PR-менеджер.</string>
   <string name="about_bio_msfjarvis">Главный разработчик halogenOS и приложения для Substratum.</string>
+  <!-- DT2S -->
+  <string name="dt2s_title">Двойное нажатие для отключения экрана</string>
+  <string name="dt2s_disabled">Отключено</string>
+  <string name="dt2s_deviceadmin">Использование прав администратора</string>
+  <string name="dt2s_timeout">Использование тайм-аута экрана</string>
+  <string name="dt2s_root">Использование root-прав</string>
+  <string name="dt2s_admin_hint">Чтобы иметь возможность использовать двойное нажатие для блокировки, вы должны предоставить права администратора для Lawnchair. Это защитный механизм, по которому требуется ввести PIN-код для последующей разблокировки, если он установлен.</string>
+  <string name="dt2s_admin_warning">Отключив права администратора, вы не сможете использовать двойное нажатие для блокировки на вашем главном экране.</string>
 </resources>

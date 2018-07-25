@@ -308,9 +308,6 @@
   <string name="keep_scroll_state_pref_summary">Desa la posició de desplaçament al calaix</string>
   <string name="home_opens_drawer_pref_title">El botó Inici obre el calaix d\'aplicacions</string>
   <string name="home_opens_drawer_pref_summary">Prémer el botó d\'inici en la pantalla d\'inici obrirà el calaix d\'aplicacions</string>
-  <string name="show_hidden_pref_title">Mostra aplicacions ocultes</string>
-  <string name="show_hidden_pref_on">Les aplicacions amagades es mostraran per canviar la configuració de visibilitat</string>
-  <string name="show_hidden_pref_off">Les aplicacions ocultes no seran visibles</string>
   <string name="export_db_title">Base de dades</string>
   <string name="import_db_title">Base de dades</string>
   <string name="export_prefs_title">Configuració</string>
@@ -417,4 +414,6 @@
   <!-- Preference Category Misc Title -->
   <!-- About screen -->
   <string name="title_attribouter_email">Correu electrònic</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Desactivat</string>
 </resources>

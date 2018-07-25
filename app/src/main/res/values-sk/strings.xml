@@ -315,9 +315,6 @@
   <string name="keep_scroll_state_pref_summary">Uloží pozíciu rolovania v menu aplikácie</string>
   <string name="home_opens_drawer_pref_title">Tlačidlom Domov sa otvorí ponuka aplikácií</string>
   <string name="home_opens_drawer_pref_summary">Stlačením tlačidla Domov, keď je zobrazená domovská obrazovka sa otvorí ponuka nastavení aplikácie</string>
-  <string name="show_hidden_pref_title">Zobraziť skryté aplikácie</string>
-  <string name="show_hidden_pref_on">Ukázať skryté aplikácie, pre zmenu nastavenia viditeľnosti</string>
-  <string name="show_hidden_pref_off">Skryté aplikácie nebudú zobrazené</string>
   <string name="export_db_title">Databáza</string>
   <string name="import_db_title">Databáza</string>
   <string name="export_prefs_title">Nastavenia</string>
@@ -503,4 +500,6 @@
   <string name="about_bio_josh">Externý grafik.</string>
   <string name="about_bio_chris">Tvorca myšlienky, vplyvná osoba &amp; tvorca obsahu. Vedúci sociálnych médií a PR manažér.</string>
   <string name="about_bio_msfjarvis">Hlavný vývojár HalogenOS a vývojár aplikácie Substratum.</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Nezobrazovať</string>
 </resources>

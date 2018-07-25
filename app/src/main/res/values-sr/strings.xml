@@ -309,9 +309,6 @@
   <string name="keep_scroll_state_pref_summary">Сачувај позицију у drawer-у</string>
   <string name="home_opens_drawer_pref_title">Home дугме отвара drawer</string>
   <string name="home_opens_drawer_pref_summary">Притиском на home дугме док се налазите на почетном екрану отвара drawer</string>
-  <string name="show_hidden_pref_title">Прикажи скривене апликације</string>
-  <string name="show_hidden_pref_on">Скривене апликације ће бити приказане да би променили поставке видљивости</string>
-  <string name="show_hidden_pref_off">Скривене апликације неће бити видљиве</string>
   <string name="export_db_title">База података</string>
   <string name="import_db_title">База података</string>
   <string name="export_prefs_title">Подешавања</string>
@@ -420,4 +417,6 @@
   <!-- About screen -->
   <string name="title_attribouter_email">Е-пошта</string>
   <string name="title_attribouter_license_permissions">Дозволе</string>
+  <!-- DT2S -->
+  <string name="dt2s_disabled">Онемогућено</string>
 </resources>
