@@ -305,7 +305,7 @@
   <string name="rebuild_icondb_pref_title">Ikon adatbázis újraépítése</string>
   <string name="pinch_to_overview_pref_title">Csípő mozdulat az áttekintéshez</string>
   <string name="pinch_to_overview_pref_summary">Csípő mozdulat a kezdőképernyőn az áttekintő nézet megnyitásához</string>
-  <string name="light_statusbar_pref_title">Világos állapotsáv</string>
+  <string name="light_statusbar_pref_title">Világos állapotsor</string>
   <string name="light_statusbar_pref_force">Az állapotsor mindig sötét ikonokat fog mutatni</string>
   <string name="light_statusbar_pref_off">Az állapotsor mindig világos ikonokat fog mutatni</string>
   <string name="keep_scroll_state_pref_title">Görgetési pozíció mentése</string>
