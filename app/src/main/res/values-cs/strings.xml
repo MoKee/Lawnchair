@@ -501,5 +501,11 @@
   <string name="about_bio_chris">Tvůrce myšlenky, vlivná osoba &amp; tvůrce obsahu. Vedoucí sociálních médií a PR manažer.</string>
   <string name="about_bio_msfjarvis">Hlavní vývojář HalogenOS a vývojář aplikace Substratum.</string>
   <!-- DT2S -->
-  <string name="dt2s_disabled">Nezobrazovat</string>
+  <string name="dt2s_title">Dvojím poklepáním uspat</string>
+  <string name="dt2s_disabled">Zakázáno</string>
+  <string name="dt2s_deviceadmin">Použít jako správce zařízení</string>
+  <string name="dt2s_timeout">Použít režim spánku</string>
+  <string name="dt2s_root">Použít root</string>
+  <string name="dt2s_admin_hint">Aby bylo možné použít DT2S, musíte Lawnchair nastavit jako administrátora zařízení. Toto je zabezpečené zamčení, tudíž budete muset zadat kód k odemčení, pakliže jste nějaký nastavili.</string>
+  <string name="dt2s_admin_warning">Pokud vypněte administrátora zařízení, nebudete schopni používat DT2S.</string>
 </resources>
