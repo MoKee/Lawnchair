@@ -504,5 +504,5 @@
   <string name="dt2s_timeout">使用螢幕時間</string>
   <string name="dt2s_root">使用root權限</string>
   <string name="dt2s_admin_hint">要使用輕觸兩下鎖定功能，必須先在設定中允許 Lawnchair 用裝置管理員權限。這是安全鎖定方式，這意味著您必須在下次解鎖時輸入您的PIN（如果您有的话）。</string>
-  <string name="dt2s_admin_warning">禁用裝置管理員權限時，將會無法使用輕觸兩下鎖定功能。</string>
+  <string name="dt2s_admin_warning">停用裝置管理員權限時，將會無法使用輕觸兩下鎖定功能。</string>
 </resources>
