@@ -442,9 +442,44 @@
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
+  <string name="pref_category_misc">Verschiedenes</string>
+  <string name="blur_oom">Lawnchair hat nicht mehr genug freien Arbeitsspeicher um dein Hintergrundbild unscharf zu stellen! Möglichweise kann eine Reduzierung der Bildauflösung das Problem beheben.</string>
+  <string name="legacy_backup">Alte Sicherungsdatei</string>
   <!-- About screen -->
+  <string name="title_attribouter_licenses">Open-Source-Lizenzen</string>
   <string name="title_attribouter_email">E-Mail</string>
+  <string name="title_attribouter_website">Webseite</string>
+  <string name="title_attribouter_rate">Bewerten</string>
+  <string name="title_attribouter_version">Version %1$s</string>
+  <string name="title_attribouter_license">Lizenz</string>
   <string name="title_attribouter_license_permissions">Berechtigungen</string>
+  <string name="title_attribouter_license_conditions">Bedingungen</string>
+  <string name="title_attribouter_license_limitations">Einschränkungen</string>
+  <string name="title_attribouter_more_info">Weitere Infos</string>
+  <string name="title_attribouter_translators">Übersetzer</string>
+  <string name="about_our_team">Unser Team</string>
+  <string name="about_our_contributors">Unsere Haupt-Mitarbeiter</string>
+  <string name="about_our_family">Unsere weiteren Familienmitglieder</string>
+  <string name="about_role_lead">Führende/r Entwickler/in</string>
+  <string name="about_role_devops">DevOps</string>
+  <string name="about_role_dev">Entwickler</string>
+  <string name="about_role_dev_mod">Entwickler / Moderator</string>
+  <string name="about_role_designer">Designer</string>
+  <string name="about_role_special_snowflake">PR-Manager / Moderator</string>
+  <string name="about_role_mod_support">Moderator / Support</string>
+  <string name="about_role_family_member">Familienmitglied</string>
+  <string name="about_bio_deletescape">Android-Entwickler &amp; Enthusiast, liebt Memes (vielleicht ein wenig zu sehr). Gründer der Lawnchair Projekts.</string>
+  <string name="about_bio_divadsn">18 Jahre alt, verwandelt Koffein und Pizza in Code. Früher auch bekannt als Codebucket.</string>
+  <string name="about_bio_recoded">Nebenbei coder und Graphik-Designer.</string>
+  <string name="about_bio_josh">Freiberuflicher Grafik-Designer.</string>
+  <string name="about_bio_chris">Kreativer Kopf, Influencer &amp; Content Creator. Social Media und PR-Manager.</string>
+  <string name="about_bio_msfjarvis">Hauptentwickler und halogenOS und App-Entwickler bei substratum.</string>
   <!-- DT2S -->
+  <string name="dt2s_title">Zweimal tippen für Standby-Modus</string>
   <string name="dt2s_disabled">Deaktiviert</string>
+  <string name="dt2s_deviceadmin">Geräte Administrator verwenden</string>
+  <string name="dt2s_timeout">Bildschirm-Timeout verwenden</string>
+  <string name="dt2s_root">Root verwenden</string>
+  <string name="dt2s_admin_hint">Um \"Doppeltippen zum Sperren\" nutzen zu können, musst du Lawnchair als Geräteadministrator aktivieren. Dabei handelt es sich um eine sichere Sperre, so dass beim nächsten Entsperren deine PIN, wenn eingerichtet, eingegeben werden muss.</string>
+  <string name="dt2s_admin_warning">Wenn du für Lawnchair den Geräteadministrator deaktivierst, kannst du \"Doppeltippen zum Sperren\" nicht mehr benutzen.</string>
 </resources>

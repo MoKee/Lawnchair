@@ -504,5 +504,11 @@
   <string name="about_bio_chris">Yaratıcı Akıl, Etkileyici &amp; İçerik yaratıcı. Sosyal Medya ve Halkla İlişkiler Müdürü.</string>
   <string name="about_bio_msfjarvis">Halojenlerde çekirdek geliştirici ve substratumda uygulama geliştiricisi.</string>
   <!-- DT2S -->
+  <string name="dt2s_title">Çift dokunuşla uyutma</string>
   <string name="dt2s_disabled">Devre dışı</string>
+  <string name="dt2s_deviceadmin">Cihaz yöneticisini kullan</string>
+  <string name="dt2s_timeout">Ekran zaman aşımını kullan</string>
+  <string name="dt2s_root">Kök erişimini kullan</string>
+  <string name="dt2s_admin_hint">Çift dokunmayı kullanarak kilitlemek için, Lawnchair cihaz yöneticisinden etkinleştirmeniz gerekiyor. Bu güvenli bir kilitleme, yani bir sonraki kilidinizde PIN\'inizi girmeniz gerektiği anlamına gelir.</string>
+  <string name="dt2s_admin_warning">Cihaz yöneticisini devre dışı bırakarak, ana ekranınızı kilitlemek için çift dokunma özelliğini kullanamazsınız.</string>
 </resources>
