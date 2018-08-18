@@ -294,6 +294,8 @@
   <string name="debug_pref_summary">Starte oder bilde die Icon-Datenbank neu</string>
   <string name="show_pixel_bar_pref_title">Pixel-Leiste (oben) anzeigen</string>
   <string name="use_wide_searchbar_pref_title">Breite Suchleiste verwenden</string>
+  <string name="show_search_pill_title">Zeige Google-Suchleiste</string>
+  <string name="show_date_or_weather_title">Datum/Wetter auf der rechten Seite anzeigen</string>
   <string name="show_mic_pref_title">Google Assistant-Button anzeigen</string>
   <string name="use_round_searhbar">Runde Suchleiste verwenden</string>
   <string name="pixel_style_icons_pref_title">Pixel-Icons verwenden</string>
@@ -335,6 +337,12 @@
   <string name="pull_down_search">Suche öffnen</string>
   <string name="pull_down_apps_search">App-Suche</string>
   <string name="enable_screen_rotation">Bildschirmrotation aktivieren</string>
+  <string name="use_system_fonts_title">Systemschriftart für Beschriftungen verwenden</string>
+  <string name="auto_add_shortcuts_label">Symbol zum Startbildschirm hinzufügen</string>
+  <string name="auto_add_shortcuts_description">Für neue Apps</string>
+  <string name="shortcut_blacklist">App-Verknüpfungen blockieren</string>
+  <string name="shortcut_blacklist_sum">Verhindern Sie, dass Apps Symbole zum Startbildschirm hinzufügen</string>
+  <string name="blacklist_app">Blockierte App</string>
   <string name="blacklist_app_selected">&#160;ausgewählt</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">importieren</string>
@@ -408,9 +416,17 @@
   <string name="two_row_dock">Zwei-Reihen Dock</string>
   <string name="reset_alternative_icons_title">Alternative App-Icons zurücksetzen?</string>
   <string name="reset_alternative_icons">Du hast %1$d Apps mit alternativen Icons, möchtest du sie zurücksetzen?</string>
+  <string name="error_no_browser">Keine Aktivität gefunden, um URLs zu behandeln</string>
+  <string name="error_no_calendar">Calendar App nicht gefunden</string>
   <!-- Strings for popup dialogs -->
+  <string name="lawnfeed_not_enabled_title">Lawnfeed nicht aktiviert</string>
+  <string name="lawnfeed_not_enabled">Es sieht aus, als würdest du versuchen die Google Now-Seite zu öffnen, aber du hast die Option nicht in den Verhaltens-Optionen aktiviert.\n\nMöchtest du sie jetzt aktivieren?</string>
+  <string name="lawnfeed_outdated_title">Lawnfeed-Update erforderlich</string>
+  <string name="lawnfeed_outdated">Eine neuere Version von Lawnfeed ist erforderlich, um mit dieser Version von Lawnchair zu funktionieren.\n\nVor der Installation des Updates müssen Sie wahrscheinlich die aktuelle Version von Lawnfeed deinstallieren.\n\nMöchten sie es jetzt herunterladen?</string>
   <string name="title_storage_permission_required">Speicherzugriff erforderlich</string>
   <string name="content_storage_permission_required">Auf Android 8.1 und neuer ist Speicherzugriff benötigt für Apps um auf das Hintergrundbild zuzugreifen. Ohne diese Berechtigung kann es sein das Lawnchair abstürzt oder sich unerwartet verhaltet.</string>
+  <string name="disable_popup">Nicht erneut anzeigen</string>
+  <string name="backups">Sicherungen</string>
   <string name="new_backup">Erstellen</string>
   <string name="restore_backup">Wiederherstellen</string>
   <string name="backup_name">Name: </string>
@@ -438,9 +454,17 @@
   <string name="restore_failed">Wiederherstellen fehlgeschlagen</string>
   <string name="restore_read_meta_fail">Ungültige backup-Datei</string>
   <string name="backup_share_title">Sicherung teilen</string>
+  <string name="backup_share_text">Lawnchair Sicherungsdatei</string>
+  <string name="read_external_storage_required">Speicherzugriff ist notwendig um eine Sicherung zu erstellen</string>
+  <string name="local_backups">Lokale Sicherungen</string>
+  <string name="backup_location_device_storage">Gerätespeicher</string>
+  <string name="backup_location_documents_storage">Dokumentenspeicher</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <string name="pref_category_pixel_searchbar">Pixel Suchleiste</string>
   <!-- Preference Category Icons Title -->
+  <string name="pref_category_icons">Symbole</string>
   <!-- Preference Category Drawer Title -->
+  <string name="pref_category_drawer">App-Übersicht</string>
   <!-- Preference Category Misc Title -->
   <string name="pref_category_misc">Verschiedenes</string>
   <string name="blur_oom">Lawnchair hat nicht mehr genug freien Arbeitsspeicher um dein Hintergrundbild unscharf zu stellen! Möglichweise kann eine Reduzierung der Bildauflösung das Problem beheben.</string>

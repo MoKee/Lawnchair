@@ -502,5 +502,6 @@ Brez omenjenega dovoljenja se lahko Lawnchair sesuje ali pa se lahko nepričakov
   <string name="about_bio_chris">Ustvarjalni um, vpliv &amp; avtor vsebine. Socialni mediji in PR vodja.</string>
   <string name="about_bio_msfjarvis">Razvijalec jedra pri halogenOS in razvijalec programa pri substratum.</string>
   <!-- DT2S -->
+  <string name="dt2s_title">Dvojni tap za spanje</string>
   <string name="dt2s_disabled">Onemogočeno</string>
 </resources>

@@ -294,6 +294,8 @@
   <string name="debug_pref_summary">Reiniciar o reconstruir la base de datos de los iconos</string>
   <string name="show_pixel_bar_pref_title">Mostrar barra superior al estilo Pixel</string>
   <string name="use_wide_searchbar_pref_title">Usar barra de busqueda amplia</string>
+  <string name="show_search_pill_title">Mostrar píldora de Google Search</string>
+  <string name="show_date_or_weather_title">Mostrar fecha/tiempo del lado derecho</string>
   <string name="show_mic_pref_title">Mostrar botón del asistente de Google</string>
   <string name="use_round_searhbar">Utilizar barra de búsqueda redondeada</string>
   <string name="pixel_style_icons_pref_title">Usar iconos estilo Pixel</string>
@@ -335,6 +337,12 @@
   <string name="pull_down_search">Búsqueda abierta</string>
   <string name="pull_down_apps_search">Buscar aplicación</string>
   <string name="enable_screen_rotation">Habilitar la rotación de la pantalla</string>
+  <string name="use_system_fonts_title">Usar fuentes del sistema para las etiquetas</string>
+  <string name="auto_add_shortcuts_label">Agregar iconos a la pantalla principal</string>
+  <string name="auto_add_shortcuts_description">Para nuevas aplicaciones</string>
+  <string name="shortcut_blacklist">Lista negra de accesos directos</string>
+  <string name="shortcut_blacklist_sum">Evitar que las aplicaciones agreguen iconos a la pantalla de inicio</string>
+  <string name="blacklist_app">Apps bloqueadas</string>
   <string name="blacklist_app_selected">&#160;seleccionado</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Restaurar</string>
@@ -408,22 +416,94 @@
   <string name="two_row_dock">Dos filas en el dock</string>
   <string name="reset_alternative_icons_title">¿Restablecer los iconos alternativos de las apps?</string>
   <string name="reset_alternative_icons">Tienes %1$d aplicaciones con iconos alternativos, ¿deseas restablecerlos?</string>
+  <string name="error_no_browser">Ninguna actividad para manejar URLs</string>
+  <string name="error_no_calendar">No hay instalada ninguna aplicación de calendario</string>
   <!-- Strings for popup dialogs -->
+  <string name="lawnfeed_not_enabled_title">Lawnfeed no está activado</string>
+  <string name="lawnfeed_not_enabled">Parece que estás intentando abrir la página de Google Now, pero no has activado la opción en las configuraciones.\n\n Deseas activarlo ahora?</string>
+  <string name="lawnfeed_outdated_title">Actualización de Lawnfeed requerida</string>
+  <string name="lawnfeed_outdated">Una nueva versión de Lawnfeed es necesaria para trabajar con esta versión de Lawnchair.\n\nAntes de instalar la actualización, probablemente necesitarás desinstalar la versión actual de Lawnfeed.\n\n¿Deseas descargarlo ahora?</string>
   <string name="title_storage_permission_required">Permiso de Almacenamiento requerido</string>
   <string name="content_storage_permission_required">En 8.1 Android y superior el Permiso de Almacenamiento se requiere para que las aplicaciones puedan acceder a los fondos. Sin dicho permiso Lawnchair podría dejar de funcionar o mostrar comportamientos inesperados.</string>
+  <string name="disable_popup">No volver a mostrar</string>
+  <string name="backups">Copias de seguridad</string>
+  <string name="new_backup">Crear</string>
   <string name="restore_backup">Restaurar</string>
   <string name="backup_name">Nombre </string>
   <string name="backup_location">Ubicación</string>
+  <string name="choose_backup_path">Buscar</string>
+  <string name="backup_homescreen">Pantalla de inicio</string>
+  <string name="backup_contents">Contenido de la copia de seguridad</string>
   <string name="backup_settings">Configuración</string>
   <string name="backup_wallpaper">Papel tapiz</string>
+  <string name="backup_error_blank_name">El nombre no debe estar en blanco</string>
+  <string name="backup_error_blank_location">La ubicación no debe estar en blanco</string>
+  <string name="backup_error_blank_contents">El contenido no debe ser en blanco</string>
+  <string name="backup_creating">Creando copia de seguridad</string>
+  <string name="no_recent_backups">No hay copias de seguridad recientes</string>
+  <string name="backup_loading">Cargando...</string>
+  <string name="backup_invalid">No disponible</string>
+  <string name="backup_remove_from_recents">Eliminar de la lista</string>
   <string name="backup_share">Compartir</string>
+  <string name="backup_timestamp">Creado el</string>
+  <string name="backup_restoring">Restaurando copia de seguridad</string>
+  <string name="backup_restarting">Reiniciando</string>
+  <string name="restore_contents">Restaurar el contenido</string>
+  <string name="restore_success">Restauración exitosa</string>
+  <string name="backup_failed">Copia de seguridad fallida</string>
+  <string name="restore_failed">Restauración fallida</string>
+  <string name="restore_read_meta_fail">Archivo de copia de seguridad no válido</string>
+  <string name="backup_share_title">Compartir copia de seguridad</string>
+  <string name="backup_share_text">Archivo de copia de seguridad de Lawnchair</string>
+  <string name="read_external_storage_required">El permiso de almacenamiento se requiere para crear copias de seguridad</string>
+  <string name="local_backups">Copias de seguridad locales</string>
+  <string name="backup_location_device_storage">Almacenamiento del dispositivo</string>
+  <string name="backup_location_documents_storage">Almacenamiento de documentos</string>
   <!-- Preference Category Pixel Searchbar Title -->
+  <string name="pref_category_pixel_searchbar">Barra de búsqueda Pixel</string>
   <!-- Preference Category Icons Title -->
+  <string name="pref_category_icons">Iconos</string>
   <!-- Preference Category Drawer Title -->
+  <string name="pref_category_drawer">Cajón de aplicaciones</string>
   <!-- Preference Category Misc Title -->
+  <string name="pref_category_misc">Otros</string>
+  <string name="blur_oom">¡Lawnchair corrió fuera de la memoria tratando de desenfocar el fondo de pantalla! Bajar la resolución del fondo de pantalla podría posiblemente solucionar este problema.</string>
+  <string name="legacy_backup">Archivo de copia de seguridad obsoleta</string>
   <!-- About screen -->
+  <string name="title_attribouter_licenses">Licencias de código abierto</string>
   <string name="title_attribouter_email">Correo electrónico</string>
+  <string name="title_attribouter_website">Sitio web</string>
+  <string name="title_attribouter_rate">Calificar</string>
+  <string name="title_attribouter_version">Versión %1$s</string>
+  <string name="title_attribouter_license">Licencia</string>
   <string name="title_attribouter_license_permissions">Permisos</string>
+  <string name="title_attribouter_license_conditions">Condiciones</string>
+  <string name="title_attribouter_license_limitations">Limitaciones</string>
+  <string name="title_attribouter_more_info">Más Info</string>
+  <string name="title_attribouter_translators">Traductores</string>
+  <string name="about_our_team">Nuestro equipo</string>
+  <string name="about_our_contributors">Nuestros principales colaboradores</string>
+  <string name="about_our_family">Otros miembros de nuestras familia</string>
+  <string name="about_role_lead">Desarrollador principal</string>
+  <string name="about_role_devops">DevOps</string>
+  <string name="about_role_dev">Desarrollador</string>
+  <string name="about_role_dev_mod">Desarrollador / Moderador</string>
+  <string name="about_role_designer">Diseñador</string>
+  <string name="about_role_special_snowflake">Administrador de PR / Moderador</string>
+  <string name="about_role_mod_support">Moderador / Soporte</string>
+  <string name="about_role_family_member">Miembro de la familia</string>
+  <string name="about_bio_deletescape">Desarrollador de Android &amp; entusiastas, amante de memes (un poco demasiado actualmente). Fundador del proyecto Lawnchair.</string>
+  <string name="about_bio_divadsn">18 años de edad, convierte pizza y cafeína en código. También conocido como Codebucket.</string>
+  <string name="about_bio_recoded">Coder suave y diseñador de gráficos.</string>
+  <string name="about_bio_josh">Diseñador Gráfico Freelance.</string>
+  <string name="about_bio_chris">Mente creativa, influyente &amp; creador de contenidos. Administrador de medios de comunicación y PR.</string>
+  <string name="about_bio_msfjarvis">Desarrollador base en halogenOS y desarrollador de aplicaciones en substratum.</string>
   <!-- DT2S -->
+  <string name="dt2s_title">Doble toque para suspender</string>
   <string name="dt2s_disabled">Deshabilitado</string>
+  <string name="dt2s_deviceadmin">Administrador de uso del dispositivo</string>
+  <string name="dt2s_timeout">Tiempo de espera de la pantalla</string>
+  <string name="dt2s_root">Utilizando root</string>
+  <string name="dt2s_admin_hint">Para ser capaz de usar doble toque para bloquear, tienes que habilitar el administrador de dispositivo para Lawnchair. Se trata de un bloqueo seguro, significa que tienes que ingresar tu PIN en el siguiente desbloqueo, si tienes alguno.</string>
+  <string name="dt2s_admin_warning">Al deshabilitar el administrador del dispositivo, no podrás usar el doble toque para bloquear la pantalla de inicio.</string>
 </resources>
