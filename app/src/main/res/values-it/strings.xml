@@ -499,5 +499,11 @@
   <string name="about_bio_chris">Mente Creativa, Influencer &amp; Creatore di Contenuti. Social Media e PR Manager.</string>
   <string name="about_bio_msfjarvis">Sviluppatore principale di halogenOS e sviluppatore di applicazioni di substratum.</string>
   <!-- DT2S -->
+  <string name="dt2s_title">Doppio tocco per spegnere</string>
   <string name="dt2s_disabled">Disabilitata</string>
+  <string name="dt2s_deviceadmin">Utilizza l\'amministratore del dispositivo</string>
+  <string name="dt2s_timeout">Utilizzo del tempo dello schermo</string>
+  <string name="dt2s_root">Usa il root</string>
+  <string name="dt2s_admin_hint">Per poter utilizzare il doppio tocco per bloccare il telefono, è necessario abilitare l\'accesso da amministratore a Lawnchair. Questo è un blocco di sicurezza, ciò vuol dire che, al prossimo sblocco, dovrai inserire un pin, se ne hai uno.</string>
+  <string name="dt2s_admin_warning">Disabilitando l\'accesso amministratore, non sarai in grado di usare il doppio tocco sulla schermata home per bloccare il dispositivo.</string>
 </resources>
