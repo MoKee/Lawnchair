@@ -501,5 +501,8 @@
   <string name="about_bio_chris">Creative Mind, Influencer &amp; Twórca treści. Media społecznościowe i PR Manager.</string>
   <string name="about_bio_msfjarvis">Programista rdzenia w halogenOS oraz programista aplikacji substratum.</string>
   <!-- DT2S -->
+  <string name="dt2s_title">Stuknij dwukrotnie aby uśpić</string>
   <string name="dt2s_disabled">Wyłączone</string>
+  <string name="dt2s_deviceadmin">Używając administratora urządzenia</string>
+  <string name="dt2s_timeout">Używając wygaszania ekranu</string>
 </resources>

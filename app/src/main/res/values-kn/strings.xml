@@ -222,7 +222,9 @@
   <!-- Title of activity for cropping wallpapers -->
   <string name="crop_wallpaper">ವಾಲ್‌ಪೇಪರ್‌ ಕತ್ತರಿಸಿ</string>
   <!-- Option for setting the wallpaper only on the home screen. -->
+  <string name="which_wallpaper_option_home_screen">ಮುಖ್ಯ ಪರದೆ</string>
   <!-- Option for setting the wallpaper only on the lock screen. -->
+  <string name="which_wallpaper_option_lock_screen">ಪರದೆ ಲಾಕ್ ಮಾಡಿ</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="export_prefs_title">ಸಂಯೋಜನೆಗಳು</string>
@@ -249,4 +251,5 @@
   <!-- Preference Category Misc Title -->
   <!-- About screen -->
   <!-- DT2S -->
+  <string name="dt2s_disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
 </resources>

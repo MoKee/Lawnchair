@@ -196,6 +196,7 @@
   <string name="action_deep_shortcut">ทางลัด</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
   <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> ทางลัดสำหรับ <xliff:g id="APP_NAME">%2$s</xliff:g></string>
+  <string name="edit_drop_target_label">แก้ไข</string>
   <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
   <string name="wallpaper_instructions">ตั้งวอลเปเปอร์</string>
   <!-- Error message when an image is selected as a wallpaper,
@@ -230,8 +231,11 @@
   <string name="crop_wallpaper">ครอบตัดวอลเปเปอร์</string>
   <!-- Option for setting the wallpaper only on the home screen. -->
   <!-- Option for setting the wallpaper only on the lock screen. -->
+  <string name="which_wallpaper_option_lock_screen">ล็อคหน้าจอ</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">ค้นหา</string>
   <!-- About Lawnchair -->
+  <string name="default_text">ค่าเริ่มต้น</string>
   <string name="edit_icon_reset">รีเซ็ต</string>
   <string name="theme_dark">มืด</string>
   <!-- Import/Export Strings -->
@@ -251,5 +255,6 @@
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
   <!-- About screen -->
+  <string name="title_attribouter_email">อีเมล</string>
   <!-- DT2S -->
 </resources>
