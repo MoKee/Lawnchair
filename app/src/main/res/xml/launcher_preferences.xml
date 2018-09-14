@@ -51,10 +51,10 @@
         app:content="@xml/launcher_debug_preferences"
         app:longClickContent="@xml/launcher_hidden_preferences" />
 
-    <Preference
-        android:key="about"
-        android:title="@string/about_title"
-        android:summary="@string/about_pref_summary"
-        android:icon="@drawable/ic_information"/>
+    <!--<Preference-->
+        <!--android:key="about"-->
+        <!--android:title="@string/about_title"-->
+        <!--android:summary="@string/about_pref_summary"-->
+        <!--android:icon="@drawable/ic_information"/>-->
 
 </android.support.v7.preference.PreferenceScreen>
