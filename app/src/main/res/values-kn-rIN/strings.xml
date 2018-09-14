@@ -231,13 +231,16 @@
   <!-- Title of activity for cropping wallpapers -->
   <string name="crop_wallpaper">ವಾಲ್‌ಪೇಪರ್‌ ಕತ್ತರಿಸಿ</string>
   <!-- Option for setting the wallpaper only on the home screen. -->
+  <string name="which_wallpaper_option_home_screen">ಮುಖ್ಯ ಪರದೆ</string>
   <!-- Option for setting the wallpaper only on the lock screen. -->
+  <string name="which_wallpaper_option_lock_screen">ಪರದೆ ಲಾಕ್ ಮಾಡಿ</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="export_prefs_title">ಸಂಯೋಜನೆಗಳು</string>
   <string name="import_prefs_title">ಸಂಯೋಜನೆಗಳು</string>
   <string name="default_text">ಪೂರ್ವನಿಯೋಜಿತ</string>
   <string name="edit_icon_reset">ಮರುಹೊಂದಿಸು</string>
+  <string name="pref_cat_homescreen">ಮುಖ್ಯ ಪರದೆ</string>
   <string name="theme_dark">ಗಾಢ ಹಿನ್ನೆಲೆ</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">ಮರುಸಂಗ್ರಹಿಸಿ</string>
@@ -245,6 +248,7 @@
   <string name="none">ಯಾವುದೂ ಇಲ್ಲ</string>
   <string name="icon_shape_none">ಯಾವುದೂ ಇಲ್ಲ</string>
   <string name="about_version">ಆವೃತ್ತಿ</string>
+  <string name="about_changelog">ಬದಲಾವಣೆ ಲಾಗ್</string>
   <!-- Time format for Weather Widget -->
   <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
   <string name="hide_app_apply">ಅನ್ವಯಿಸು</string>
