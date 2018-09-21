@@ -246,6 +246,7 @@
   <string name="about_title">Lawnchair について</string>
   <string name="about_pref_summary">Lawnchair チームについてもっと知りましょう</string>
   <string name="changelog_title">ビルド #%d のための変更履歴</string>
+  <string name="week_day_format">%1$s、%2$s</string>
   <string name="icon_pack_preference_title">アイコンパック</string>
   <string name="icon_pack_preference_summary">アイコンパックを選択</string>
   <string name="hotseat_uses_extracted_colors_pref_title">ドックは壁紙の色を使用する</string>
@@ -269,6 +270,8 @@
   <string name="num_hotseat_icons_pref_title">ドック内のアイコン数</string>
   <string name="icon_scale_pref_title">アイコンスケール</string>
   <string name="hotseat_height_scale">高さの単位</string>
+  <string name="hotseat_custom_opacity">ドックの透明度</string>
+  <string name="hotseat_uses_custom_opacity">ドックの透明度調整を有効にする</string>
   <string name="icon_text_scale_pref_title">アイコンのテキストスケール</string>
   <string name="icon_text_padding_scale_pref_title">アイコンの空き単位</string>
   <string name="full_width_width_widgets_pref_title">全幅ウィジェット</string>
@@ -398,6 +401,7 @@
   <string name="lock_desktop">デスクトップをロック</string>
   <string name="lawnfeed_not_found">Lawnfeed はインストールされていません</string>
   <string name="google_app_not_found">Google アプリはインストールされていません</string>
+  <string name="lawnfeed_incompatible">互換性がないバージョンのLawnfeedがインストールされています</string>
   <string name="set_default_launcher">既定のランチャーにセット</string>
   <string name="enable_spring_pref_title">スプリング効果を有効にする</string>
   <string name="hide_app">アプリを隠す</string>
@@ -410,4 +414,12 @@
   <string name="two_row_dock">ドックを2行表示にする</string>
   <string name="reset_alternative_icons_title">別のアプリアイコンをリセットしますか？</string>
   <string name="reset_alternative_icons">アイコンが変更されているアプリが %1$d 個有ります。リセットしますか？</string>
+  <string name="snowfall_title">降雪</string>
+  <string name="enable_snowfall_title">ホーム画面に雪を降らす</string>
+  <string name="enable_snowfall_summary">パフォーマンスに影響を及ぼす場合が有ります</string>
+  <string name="snowfall_enabled">雪よ降れ降れ、もっと降れ！</string>
+  <string name="snowflake_size_scale">雪の大きさを調整</string>
+  <string name="snowflakes_num">降雪量の調整</string>
+  <string name="title_storage_permission_required">ストレージへのアクセス許可が必要です</string>
+  <string name="content_storage_permission_required">Android 8.1以上ではアプリで壁紙を設定する時にストレージへのアクセス許可が必要です。アクセス許可をしていない場合、Lawnchairがクラッシュしたり予期しない動作をします。</string>
 </resources>

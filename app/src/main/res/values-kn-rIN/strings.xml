@@ -235,6 +235,7 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">ಪರದೆ ಲಾಕ್ ಮಾಡಿ</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">ಹುಡುಕಿ</string>
   <!-- About Lawnchair -->
   <string name="export_prefs_title">ಸಂಯೋಜನೆಗಳು</string>
   <string name="import_prefs_title">ಸಂಯೋಜನೆಗಳು</string>
