@@ -22,6 +22,7 @@
   <!-- Application name -->
   <!-- Default folder name -->
   <!-- Work folder name -->
+  <string name="work_folder_name">ಕಾರ್ಯ</string>
   <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
   <string name="activity_not_found">ಅಪ್ಲಿಕೇಶನ್‌ ಅನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ</string>
   <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
@@ -59,6 +60,7 @@
   <string name="all_apps_button_label">ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ಪಟ್ಟಿ</string>
   <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
+  <string name="all_apps_home_button_label">ಮನೆ</string>
   <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
   <string name="remove_drop_target_label">ತೆಗೆದುಹಾಕಿ</string>
   <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
@@ -131,6 +133,7 @@
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
   <string name="abandoned_clean_this">ತೆಗೆದುಹಾಕಿ</string>
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+  <string name="abandoned_search">ಹುಡುಕಿ</string>
   <!-- Title for abandoned promise dialog. -->
   <string name="abandoned_promises_title">ಈ ಅಪ್ಲಿಕೇಶನ್ ಸ್ಥಾಪನೆಗೊಂಡಿಲ್ಲ</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
@@ -195,6 +198,7 @@
   <string name="shortcuts_menu_description"><xliff:g id="APP_NAME">%2$s</xliff:g> ಗೆ <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು</string>
   <string name="edit_drop_target_label">ಪರಿಷ್ಕರಿಸಿ</string>
   <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
+  <string name="wallpaper_instructions">ಪರದೆ ಚಿತ್ರವನ್ನು ಹೊಂದಿಸಿ</string>
   <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
   <string name="image_load_fail">ಚಿತ್ರವನ್ನು ಲೋಡ್‌ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
@@ -215,6 +219,7 @@
   <!-- Accessibility string used to announce that a wallpaper has been selected. -->
   <string name="announce_selection"><xliff:g id="LABEL">%1$s</xliff:g> ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
   <!-- Label on button to delete wallpaper(s) -->
+  <string name="wallpaper_delete">ಅಳಿಸು</string>
   <!-- Label on button in Wallpaper Picker to pick an image -->
   <string name="pick_image">ನನ್ನ ಫೋಟೋಗಳು</string>
   <!-- Option in "Select wallpaper from" dialog box -->
@@ -226,7 +231,10 @@
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <string name="which_wallpaper_option_lock_screen">ಪರದೆ ಲಾಕ್ ಮಾಡಿ</string>
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">ಹುಡುಕಿ</string>
+  <string name="label_voice_search">ಧ್ವನಿ ಹುಡುಕು</string>
   <!-- About Lawnchair -->
+  <string name="about_title">ಕುರಿತು</string>
   <string name="export_prefs_title">ಸಂಯೋಜನೆಗಳು</string>
   <string name="import_prefs_title">ಸಂಯೋಜನೆಗಳು</string>
   <string name="default_text">ಪೂರ್ವನಿಯೋಜಿತ</string>
@@ -243,13 +251,17 @@
   <string name="list_app_reset">ಮರುಹೊಂದಿಸು</string>
   <!-- Strings for popup dialogs -->
   <string name="restore_backup">ಮರುಸಂಗ್ರಹಿಸಿ</string>
+  <string name="backup_name">ಹೆಸರು</string>
   <string name="backup_location">ಸ್ಥಳ</string>
   <string name="backup_settings">ಸಂಯೋಜನೆಗಳು</string>
+  <string name="backup_wallpaper">ಪರದೆ ಚಿತ್ರಗಳು</string>
+  <string name="backup_share">ಹಂಚಿಕೊಳ್ಳಿ</string>
   <!-- Preference Category Pixel Searchbar Title -->
   <!-- Preference Category Icons Title -->
   <!-- Preference Category Drawer Title -->
   <!-- Preference Category Misc Title -->
   <!-- About screen -->
+  <string name="title_attribouter_email">ಇಮೇಲ್</string>
   <!-- DT2S -->
   <string name="dt2s_disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
 </resources>

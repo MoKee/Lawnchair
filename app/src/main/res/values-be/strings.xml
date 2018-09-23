@@ -340,6 +340,11 @@
   <string name="pull_down_apps_search">Пошук праграм</string>
   <string name="enable_screen_rotation">Уключыць кручэнне экрана</string>
   <string name="use_system_fonts_title">Выкарыстоўваць сістэмныя шрыфты для цэтлікаў</string>
+  <string name="auto_add_shortcuts_label">Дадаваць значкі</string>
+  <string name="auto_add_shortcuts_description">Для новых праграм</string>
+  <string name="shortcut_blacklist">Чорны спіс значкоў</string>
+  <string name="shortcut_blacklist_sum">Забараніць праграмам дадаваць значкі на галоўны экран</string>
+  <string name="blacklist_app">Заблакаваныя праграмы</string>
   <string name="blacklist_app_selected">&#160;абрана</string>
   <!-- Import/Export Strings -->
   <string name="backup_import_title">Аднавіць з рэзервовай копіі</string>
@@ -414,6 +419,7 @@
   <string name="reset_alternative_icons_title">Скінуць альтэрнатыўныя значкі праграм?</string>
   <string name="reset_alternative_icons">У вас %1$d праграм з альтэрнатыўнымі значкамі, хочаце скінуць іх?</string>
   <string name="error_no_browser">Ніякай дзейнасці не знойдзена для апрацоўкі URL-адрасоў</string>
+  <string name="error_no_calendar">Праграма каляндар не ўстаноўлена</string>
   <!-- Strings for popup dialogs -->
   <string name="lawnfeed_not_enabled_title">Lawnfeed не ўключаны</string>
   <string name="lawnfeed_not_enabled">Падобна на тое, вы спрабуеце адкрыць старонку Google Now, але не ўключылі яе ў наладах.\n\nЖадаеце ўключыць яе зараз?</string>
@@ -481,6 +487,7 @@
   <string name="about_our_contributors">Нашы галоўныя фундатары</string>
   <string name="about_our_family">Іншыя члены нашай сям\'і</string>
   <string name="about_role_lead">Вядучы распрацоўшчык</string>
+  <string name="about_role_devops">Аперацыйныя распрацоўкі</string>
   <string name="about_role_dev">Распрацоўшчыкі</string>
   <string name="about_role_dev_mod">Распрацоўшчык / Мадэратар</string>
   <string name="about_role_designer">Дызайнер</string>
