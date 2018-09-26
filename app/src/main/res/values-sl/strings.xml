@@ -329,7 +329,7 @@
   <string name="pref_category_homescreen">Domači zaslon</string>
   <string name="theme_pref_title">Tema</string>
   <string name="theme_light">Svetla</string>
-  <string name="theme_dark">Temno</string>
+  <string name="theme_dark">Temna</string>
   <string name="theme_black">Črna</string>
   <string name="hide_hotseat_pref_title">Skrij dock</string>
   <string name="all_icons">Vse ikone</string>
@@ -433,7 +433,7 @@ Brez omenjenega dovoljenja se lahko Lawnchair sesuje ali pa se lahko nepričakov
   <string name="new_backup">Ustvari</string>
   <string name="restore_backup">Obnovi</string>
   <string name="backup_name">Ime</string>
-  <string name="backup_location">Mesto</string>
+  <string name="backup_location">Lokacija</string>
   <string name="choose_backup_path">Prebrskaj</string>
   <string name="backup_homescreen">Domači zaslon</string>
   <string name="backup_contents">Vsebina varnostne kopije</string>

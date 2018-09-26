@@ -503,5 +503,11 @@
   <string name="about_bio_chris">المبدع، المؤثر منشئ المحتوى. مدير العلاقات العامة والإعلام الاجتماعي.</string>
   <string name="about_bio_msfjarvis">المطور الأساسي في halogenOS و مطور التطبيق في substratum.</string>
   <!-- DT2S -->
+  <string name="dt2s_title">الضغط المزدوج لإسبات الجهاز</string>
   <string name="dt2s_disabled">معطل</string>
+  <string name="dt2s_deviceadmin">استخدام صلاحيات مشرف الجهاز</string>
+  <string name="dt2s_timeout">استخدام مهلة قفل الشاشة</string>
+  <string name="dt2s_root">استخدام صلاحيات الروت</string>
+  <string name="dt2s_admin_hint">لتتمكن من استخدام النقر المزدوج للقفل عليك تمكين اذونات المسؤول لـ Lawnchair. هذا قفل تأمين، مما يعني أنه عليك ادخال الرمز لفتح القفل في المرة القادمة، وذلك اذا كان لديك واحد.</string>
+  <string name="dt2s_admin_warning">عن طريق تعطيل مشرف الجهاز، لن تكون قادراً على استخدام الاستفادة من النقر المزدوج لقفل الشاشة الرئيسية الخاصة بك.</string>
 </resources>
