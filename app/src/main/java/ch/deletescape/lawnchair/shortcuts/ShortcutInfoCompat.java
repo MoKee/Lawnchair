@@ -23,6 +23,7 @@ import android.content.pm.ShortcutInfo;
 import android.graphics.drawable.Drawable;
 import android.os.UserHandle;
 
+import ch.deletescape.lawnchair.BuildConfig;
 import ch.deletescape.lawnchair.ItemInfo;
 import ch.deletescape.lawnchair.Utilities;
 import ch.deletescape.lawnchair.compat.LauncherActivityInfoCompat;
@@ -34,7 +35,7 @@ import ch.deletescape.lawnchair.compat.UserManagerCompat;
  * Not to be confused with {@link ch.deletescape.lawnchair.ShortcutInfo}.
  */
 public class ShortcutInfoCompat {
-    private static final String INTENT_CATEGORY = "ch.deletescape.lawnchair.DEEP_SHORTCUT";
+    private static final String INTENT_CATEGORY = BuildConfig.APPLICATION_ID + ".DEEP_SHORTCUT";
     public static final String EXTRA_SHORTCUT_ID = "shortcut_id";
     private String packageName;
     private String id;

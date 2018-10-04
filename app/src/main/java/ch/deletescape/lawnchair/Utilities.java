@@ -155,7 +155,7 @@ public final class Utilities {
             Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1;
 
     // An intent extra to indicate the horizontal scroll of the wallpaper.
-    public static final String EXTRA_WALLPAPER_OFFSET = "ch.deletescape.lawnchair.WALLPAPER_OFFSET";
+    public static final String EXTRA_WALLPAPER_OFFSET = BuildConfig.APPLICATION_ID + ".WALLPAPER_OFFSET";
 
     // These values are same as that in {@link AsyncTask}.
     private static final int CPU_COUNT = Runtime.getRuntime().availableProcessors();
