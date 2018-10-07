@@ -196,6 +196,7 @@
   <string name="action_deep_shortcut">Otseteed</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
   <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> otseteed rakenduse <xliff:g id="APP_NAME">%2$s</xliff:g> jaoks</string>
+  <string name="edit_drop_target_label">Muuda</string>
   <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
   <string name="wallpaper_instructions">Taustapildiks määr.</string>
   <!-- Error message when an image is selected as a wallpaper,
@@ -223,11 +224,13 @@
   <string name="pick_wallpaper">Taustapildid</string>
   <!-- Title of activity for cropping wallpapers -->
   <!-- Option for setting the wallpaper only on the home screen. -->
+  <string name="which_wallpaper_option_home_screen">Avakuva</string>
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <!-- About Lawnchair -->
   <string name="default_text">Vaikimisi</string>
   <string name="edit_icon_reset">Lähtesta</string>
+  <string name="pref_cat_homescreen">Avakuva</string>
   <!-- Import/Export Strings -->
   <!-- Default units to use, either 'metric' or 'imperial' -->
   <string name="none">Mitte ühtegi</string>
