@@ -35,7 +35,7 @@
   <string name="shortcut_not_available">Ярлык недаступны</string>
   <!-- Widgets -->
   <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
-  <string name="long_press_widget_to_add">Дакраніцеся і ўтрымлiвайце віджэт, каб выбр. яго.</string>
+  <string name="long_press_widget_to_add">Дакраніцеся і ўтрымлiвайце віджэт, каб выбраць яго.</string>
   <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
   <string name="long_accessible_way_to_add">Дакраніцеся двойчы і ўтрымлівайце, каб выбраць віджэт або выкарыстоўваць карыстальніцкія дзеянні.</string>
   <!-- The format string for the dimensions of a widget in the drawer -->
@@ -69,19 +69,19 @@
   <string name="app_info_drop_target_label">Звесткі пра праграму</string>
   <!-- Permissions: -->
   <!-- Permission short label -->
-  <string name="permlab_install_shortcut">усталёўваць ярлыкі</string>
+  <string name="permlab_install_shortcut">стварэнне ярлыкоў</string>
   <!-- Permission description -->
-  <string name="permdesc_install_shortcut">Дазваляе праграмам дадаваць ярлыкі без умяшання карыстальніка.</string>
+  <string name="permdesc_install_shortcut">Праграма зможа самастойна дадаваць ярлыкі.</string>
   <!-- Permission short label -->
-  <string name="permlab_read_settings">счытваць налады і ярлыкі на Галоўнай старонцы</string>
+  <string name="permlab_read_settings">доступ да налад і ярлыкоў галоўнага экрана</string>
   <!-- Permission description -->
-  <string name="permdesc_read_settings">Дазваляе праграме счытваць налады і ярлыкі на Галоўнай старонцы.</string>
+  <string name="permdesc_read_settings">Дазволіць праграме счытваць налады і цэтлікі на галоўным экране.</string>
   <!-- Permission short label -->
-  <string name="permlab_write_settings">запісваць налады і ярлыкі на галоўнай старонцы</string>
+  <string name="permlab_write_settings">змена налад і ярлыкоў галоўнага экрана</string>
   <!-- Permission description -->
-  <string name="permdesc_write_settings">Дазваляе праграме змяняць налады і ярлыкі на Галоўнай старонцы.</string>
+  <string name="permdesc_write_settings">Дазволіць праграме змяняць налады і ярлыкі на Галоўным экране.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
-  <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> не мае дазволу на здзяйсненне тэлефонных званкоў</string>
+  <string name="msg_no_phone_permission">Праграма <xliff:g example="Launcher3" id="app_name">%1$s</xliff:g> не можа рабіць тэлефонныя званкі</string>
   <!-- Widgets: -->
   <!-- Text to show user in place of a gadget when we can't display it properly -->
   <string name="gadget_error_text">Праблема загрузкі віджэта</string>
@@ -93,7 +93,7 @@
   <string name="folder_hint_text">Папка без назвы</string>
   <!-- Accessibility -->
   <!-- The format string for when an app is temporarily disabled. -->
-  <string name="disabled_app_label"><xliff:g id="APP_NAME">%1$s</xliff:g> адключана</string>
+  <string name="disabled_app_label">Праграма <xliff:g example="Messenger" id="app_name">%1$s</xliff:g> адключана</string>
   <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
   <string name="default_scroll_format">Старонка %1$d з %2$d</string>
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
@@ -140,7 +140,7 @@
     The second "it" refers to the app. -->
   <string name="abandoned_promise_explanation">Праграма для гэтага значка не ўсталявана. Вы можаце выдаліць яе або выканаць пошук і ўсталяваць яе ўручную.</string>
   <!-- Title for an app which is being downloaded. -->
-  <string name="app_downloading_title">Ідзе спампоўка <xliff:g id="NAME">%1$s</xliff:g>, <xliff:g id="PROGRESS">%2$s</xliff:g> завершана</string>
+  <string name="app_downloading_title"><xliff:g id="Name">%1$s</xliff:g> спампоўваецца, <xliff:g id="Progress">%2$s</xliff:g></string>
   <!-- Title for an app whose download has been started. -->
   <string name="app_waiting_download_title"><xliff:g id="NAME">%1$s</xliff:g> чакае ўсталёўкі</string>
   <!-- Strings for accessibility actions -->
@@ -159,7 +159,7 @@
   <!-- Accessibility description to move item inside a folder. -->
   <string name="move_to_position">Перамясціць у пазіцыю <xliff:g id="NUMBER">%1$s</xliff:g></string>
   <!-- Accessibility description to move item to the hotseat. -->
-  <string name="move_to_hotseat_position">Перамясціць у абранае, у пазіцыю <xliff:g id="NUMBER">%1$s</xliff:g></string>
+  <string name="move_to_hotseat_position">Перамясціць у Абранае <xliff:g id="number">%1$d</xliff:g></string>
   <!-- Accessibility confirmation for item move. -->
   <string name="item_moved">Элемент перамешчаны</string>
   <!-- Accessibility description to move item into an existing folder. -->
@@ -239,10 +239,10 @@
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
   <string name="which_wallpaper_option_home_screen_and_lock_screen">Галоўны экран і экран блакіроўкі</string>
   <string name="title_show_google_app">Паказаць %1$s</string>
-  <string name="title_show_google_app_default">Паказаць прыкладанні Google</string>
+  <string name="title_show_google_app_default">Паказаць праграмы Google</string>
   <string name="label_search">Пошук</string>
   <string name="label_voice_search">Галасавы пошук</string>
-  <string name="shortcuts_menu_with_notifications_description">%1$d шорткаты і %2$d апавяшчэнняў для %3$s</string>
+  <string name="shortcuts_menu_with_notifications_description">%1$d ярлыкоў і %2$d апавяшчэнняў для %3$s</string>
   <string name="notifications_header">Апавяшчэнні</string>
   <string name="widgets_bottom_sheet_title">%1$s віджэтаў</string>
   <!-- About Lawnchair -->
@@ -255,7 +255,7 @@
   <string name="hotseat_uses_extracted_colors_pref_title">Докбар выкарыстоўвае колер шпалер</string>
   <string name="hotseat_show_arrow">Паказаць стрэлку</string>
   <string name="hotseat_show_page_indicator">Паказаць індыкатар старонкі</string>
-  <string name="hotseat_uses_extracted_colors_pref_on">Докбар будзе афарбаваны ў колер, выняты з шпалер</string>
+  <string name="hotseat_uses_extracted_colors_pref_on">Докбар будзе афарбаваны ў колер з шпалер</string>
   <string name="hotseat_uses_extracted_colors_pref_off">Колер докбара будзе шэрым, але яркасць будзе наладжана яркасцю шпалер</string>
   <string name="transparent_hotseat_pref_title">Празрысты докбар</string>
   <string name="dynamic_ui_pref_title">Выняць колер акцэнту з шпалер</string>
