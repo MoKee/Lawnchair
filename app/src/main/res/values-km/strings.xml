@@ -129,6 +129,7 @@
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
   <string name="abandoned_clean_this">យកចេញ</string>
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+  <string name="abandoned_search">ស្វែងរក</string>
   <!-- Title for abandoned promise dialog. -->
   <string name="abandoned_promises_title">មិន​បាន​ដំឡើង​កម្មវិធី​នេះ</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
@@ -226,6 +227,7 @@
   <!-- Option for setting the wallpaper only on the home screen. -->
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">ស្វែងរក</string>
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">កំណត់​ឡើងវិញ</string>
   <!-- Import/Export Strings -->

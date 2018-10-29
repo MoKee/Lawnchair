@@ -232,6 +232,7 @@
   <!-- Option for setting the wallpaper only on the home screen. -->
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">ፍለጋ</string>
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">ዳግም አስጀምር</string>
   <!-- Import/Export Strings -->

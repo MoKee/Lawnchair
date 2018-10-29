@@ -231,6 +231,7 @@
   <!-- Option for setting the wallpaper only on the home screen. -->
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">Tafuta</string>
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">Weka upya</string>
   <!-- Import/Export Strings -->

@@ -232,6 +232,7 @@
   <!-- Option for setting the wallpaper only on the home screen. -->
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">جستجو</string>
   <!-- About Lawnchair -->
   <string name="blur_pref_title">فعالسازی بلور</string>
   <string name="pref_iconLabelsInTwoLines">نمایش برچسب آیکن‌ها در دو خط</string>

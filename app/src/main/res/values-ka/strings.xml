@@ -129,6 +129,7 @@
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
   <string name="abandoned_clean_this">ამოშლა</string>
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+  <string name="abandoned_search">ძიება</string>
   <!-- Title for abandoned promise dialog. -->
   <string name="abandoned_promises_title">ეს აპი დაყენებული არ არის</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
@@ -227,6 +228,7 @@
   <!-- Option for setting the wallpaper only on the home screen. -->
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">ძიება</string>
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">საწყის პრამეტრებზე დაბრუნება</string>
   <!-- Import/Export Strings -->

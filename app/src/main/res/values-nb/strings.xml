@@ -233,6 +233,7 @@
   <!-- Option for setting the wallpaper only on the home screen. -->
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">Søk</string>
   <string name="label_voice_search">Talesøk</string>
   <!-- About Lawnchair -->
   <string name="export_prefs_title">Innstillinger</string>

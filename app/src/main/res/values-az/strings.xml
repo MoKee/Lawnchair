@@ -132,6 +132,7 @@
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
   <string name="abandoned_clean_this">Silin</string>
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+  <string name="abandoned_search">Axtarış</string>
   <!-- Title for abandoned promise dialog. -->
   <string name="abandoned_promises_title">Bu tətbiq quraşdırılmayıb</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
@@ -231,6 +232,7 @@
   <!-- Option for setting the wallpaper only on the home screen. -->
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">Axtarış</string>
   <!-- About Lawnchair -->
   <string name="default_text">Susmaya görə</string>
   <string name="edit_icon_reset">Sıfırla</string>

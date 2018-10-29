@@ -85,6 +85,7 @@
   <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+  <string name="abandoned_search">گه‌ڕان</string>
   <!-- Title for abandoned promise dialog. -->
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
@@ -145,6 +146,7 @@
   <!-- Option for setting the wallpaper only on the home screen. -->
   <!-- Option for setting the wallpaper only on the lock screen. -->
   <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+  <string name="label_search">گه‌ڕان</string>
   <!-- About Lawnchair -->
   <string name="edit_icon_reset">ڕێکخستنەوە</string>
   <!-- Import/Export Strings -->
