@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About Lawnchair -->
-  <string name="about_text_mk">Lawnchair là một ứng dụng Launcher được tạo bởi Till Kottmann (aka deletescape), được sửa đổi cho ROM MoKee. Nó dựa trên Launcher3 từ AOSP.</string>
-  <string name="about_localization_title">Địa phương hóa</string>
-  <string name="about_localization_summary">Dịch Lawnchair Launcher</string>
+    <!-- About Lawnchair -->
+    <string name="about_text_mk">Lawnchair là một ứng dụng Launcher được tạo bởi Till Kottmann (aka deletescape), được sửa đổi cho ROM MoKee. Nó dựa trên Launcher3 từ AOSP.</string>
+    <string name="about_localization_title">Địa phương hóa</string>
+    <string name="about_localization_summary">Dịch Lawnchair Launcher</string>
 </resources>

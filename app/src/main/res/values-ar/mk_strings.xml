@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About Lawnchair -->
-  <string name="about_text_mk">Lawnchair هو تطبيق واجهة مستخدم تم إنشاؤه بواسطة Till Kottmann (الملقب ب deletescape). تم تعديله للتناسب مع نظام MoKee. هذا التطبيق يستند على Launcher3 من AOSP.</string>
-  <string name="about_localization_title">الأقلمة</string>
-  <string name="about_localization_summary">ترجمة تطبيق واجهة المستخدم Lawnchair</string>
+    <!-- About Lawnchair -->
+    <string name="about_text_mk">Lawnchair هو تطبيق واجهة مستخدم تم إنشاؤه بواسطة Till Kottmann (الملقب ب deletescape). تم تعديله للتناسب مع نظام MoKee. هذا التطبيق يستند على Launcher3 من AOSP.</string>
+    <string name="about_localization_title">الأقلمة</string>
+    <string name="about_localization_summary">ترجمة تطبيق واجهة المستخدم Lawnchair</string>
 </resources>

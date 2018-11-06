@@ -18,243 +18,243 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General -->
-  <!-- Application name -->
-  <!-- Default folder name -->
-  <!-- Work folder name -->
-  <string name="work_folder_name">İş</string>
-  <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
-  <string name="activity_not_found">Tətbiq quraşdırılmayıb.</string>
-  <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
-  <string name="activity_not_available">Tətbiq əlçatmazdır</string>
-  <!-- SafeMode shortcut error string -->
-  <string name="safemode_shortcut_error">Güvənli rejimdə icazə verilməyən tətbiq endirildi</string>
-  <!-- SafeMode widget error string -->
-  <string name="safemode_widget_error">Vidcetlər Güvənli rejimdə deaktiv edilib</string>
-  <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
-  <string name="shortcut_not_available">Qısayol əlçatan deyil</string>
-  <!-- Widgets -->
-  <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
-  <string name="long_press_widget_to_add">Vidceti götürmək üçün toxunub saxlayın.</string>
-  <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
-  <string name="long_accessible_way_to_add">Vidceti götürmək üçün &amp; iki dəfə toxunub saxlayın və ya fərdi fəaliyyətləri istifadə edin.</string>
-  <!-- The format string for the dimensions of a widget in the drawer -->
-  <!-- There is a special version of this format string for Farsi -->
-  <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
-  <string name="widget_accessible_dims_format">%2$d hündürlük %1$d enində</string>
-  <!-- All Apps -->
-  <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_bar_hint">Tətbiq Axtarın</string>
-  <!-- Loading apps text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_loading_message">Tətbiqlər endirilir…</string>
-  <!-- No-search-results text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_no_search_results">\"<xliff:g id="QUERY">%1$s</xliff:g>\" sorğusuna uyğun Tətbiqlər tapılmadı</string>
-  <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_market_message">Daha çox tətbiq üçün axtarış edin</string>
-  <!-- Drag and drop -->
-  <!-- Error message when user has filled a page -->
-  <string name="out_of_space">Bu Əsas ekranda boş yer yoxdur.</string>
-  <!-- Error message when user has filled the hotseat -->
-  <string name="hotseat_out_of_space">Favoritlər-də yer yoxdur</string>
-  <!-- All applications label -->
-  <string name="all_apps_button_label">Tətbiq siyahısı</string>
-  <!-- Label for button in all applications label to go back home (to the workspace / desktop)
+    <!-- General -->
+    <!-- Application name -->
+    <!-- Default folder name -->
+    <!-- Work folder name -->
+    <string name="work_folder_name">İş</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
+    <string name="activity_not_found">Tətbiq quraşdırılmayıb.</string>
+    <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
+    <string name="activity_not_available">Tətbiq əlçatmazdır</string>
+    <!-- SafeMode shortcut error string -->
+    <string name="safemode_shortcut_error">Güvənli rejimdə icazə verilməyən tətbiq endirildi</string>
+    <!-- SafeMode widget error string -->
+    <string name="safemode_widget_error">Vidcetlər Güvənli rejimdə deaktiv edilib</string>
+    <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
+    <string name="shortcut_not_available">Qısayol əlçatan deyil</string>
+    <!-- Widgets -->
+    <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
+    <string name="long_press_widget_to_add">Vidceti götürmək üçün toxunub saxlayın.</string>
+    <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
+    <string name="long_accessible_way_to_add">Vidceti götürmək üçün &amp; iki dəfə toxunub saxlayın və ya fərdi fəaliyyətləri istifadə edin.</string>
+    <!-- The format string for the dimensions of a widget in the drawer -->
+    <!-- There is a special version of this format string for Farsi -->
+    <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
+    <string name="widget_accessible_dims_format">%2$d hündürlük %1$d enində</string>
+    <!-- All Apps -->
+    <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
+    <string name="all_apps_search_bar_hint">Tətbiq Axtarın</string>
+    <!-- Loading apps text. [CHAR_LIMIT=50] -->
+    <string name="all_apps_loading_message">Tətbiqlər endirilir…</string>
+    <!-- No-search-results text. [CHAR_LIMIT=50] -->
+    <string name="all_apps_no_search_results">\"<xliff:g id="QUERY">%1$s</xliff:g>\" sorğusuna uyğun Tətbiqlər tapılmadı</string>
+    <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
+    <string name="all_apps_search_market_message">Daha çox tətbiq üçün axtarış edin</string>
+    <!-- Drag and drop -->
+    <!-- Error message when user has filled a page -->
+    <string name="out_of_space">Bu Əsas ekranda boş yer yoxdur.</string>
+    <!-- Error message when user has filled the hotseat -->
+    <string name="hotseat_out_of_space">Favoritlər-də yer yoxdur</string>
+    <!-- All applications label -->
+    <string name="all_apps_button_label">Tətbiq siyahısı</string>
+    <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
-  <string name="all_apps_home_button_label">Ev</string>
-  <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
-  <string name="remove_drop_target_label">Silin</string>
-  <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
-  <string name="uninstall_drop_target_label">Sistemdən sil</string>
-  <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
-  <string name="app_info_drop_target_label">Tətbiq məlumatı</string>
-  <!-- Permissions: -->
-  <!-- Permission short label -->
-  <string name="permlab_install_shortcut">qısayolları quraşdır</string>
-  <!-- Permission description -->
-  <string name="permdesc_install_shortcut">Tətbiqə istifadəçi müdaxiləsi olmadan qısayolları əlavə etməyə icazə verir.</string>
-  <!-- Permission short label -->
-  <string name="permlab_read_settings">Əsas Səhifə ayarlarını və qısayolları oxuyun</string>
-  <!-- Permission description -->
-  <string name="permdesc_read_settings">Tətbiqə Əsas Səhifədə parametrləri və qısayolları oxumağa icazə verir.</string>
-  <!-- Permission short label -->
-  <string name="permlab_write_settings">Əsas Səhifə ayarlarını və qısayolları yazın</string>
-  <!-- Permission description -->
-  <string name="permdesc_write_settings">Tətbiqə Əsas Səhifədə ayarları və qısayolları dəyişməyə icazə verir.</string>
-  <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
-  <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> tətbiqinə telefon zəngləri etmək üçün icazə verilmir</string>
-  <!-- Widgets: -->
-  <!-- Text to show user in place of a gadget when we can't display it properly -->
-  <string name="gadget_error_text">Vidcet yükləmə problemi</string>
-  <!-- Text to show user in place of a gadget when it is not yet initialized. -->
-  <string name="gadget_setup_text">Quraşdırma</string>
-  <!-- Text to inform the user that they can't uninstall a system application -->
-  <string name="uninstall_system_app_text">Bu sistem tətbiqi olduğu üçün sistemdən silinə bilməz.</string>
-  <!-- Default folder title -->
-  <string name="folder_hint_text">Adsız Qovluq</string>
-  <!-- Accessibility -->
-  <!-- The format string for when an app is temporarily disabled. -->
-  <string name="disabled_app_label"><xliff:g id="APP_NAME">%1$s</xliff:g> deaktiv edildi</string>
-  <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
-  <string name="default_scroll_format">Səhifə %1$d of %2$d</string>
-  <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
-  <string name="workspace_scroll_format">Əsas Səhifə ekranı %1$d of %2$d</string>
-  <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
-  <string name="workspace_new_page">Yeni əsas ekran səhifəsi</string>
-  <!-- Folder accessibility -->
-  <!-- The format string for when a folder is opened, speaks the dimensions -->
-  <string name="folder_opened">Qovluq açıldı, <xliff:g id="HEIGHT">%2$d</xliff:g> hündürlük ilə <xliff:g id="WIDTH">%1$d</xliff:g> enində</string>
-  <!-- Instruction that clicking outside will close folder -->
-  <string name="folder_tap_to_close">Qovluq bağlamaq üçün toxunun</string>
-  <!-- Instruction that clicking outside will commit folder rename -->
-  <string name="folder_tap_to_rename">Ad dəyişikliyini yadda saxlamaq üçün toxunun</string>
-  <!-- Indication that folder closed -->
-  <string name="folder_closed">Qovluq bağlıdır</string>
-  <!-- Folder renamed format -->
-  <string name="folder_renamed">Qovluq adı <xliff:g id="NAME">%1$s</xliff:g> ilə dəyişdirildi</string>
-  <!-- Folder name format -->
-  <string name="folder_name_format">Qovluq: <xliff:g id="NAME">%1$s</xliff:g></string>
-  <!-- Strings for the customization mode -->
-  <!-- Text for widget add button -->
-  <string name="widget_button_text">Vidcet</string>
-  <!-- Text for wallpaper change button -->
-  <string name="wallpaper_button_text">Divar kağızları</string>
-  <!-- Text for settings button -->
-  <!-- Message shown when a feature is disabled by the administrator -->
-  <string name="msg_disabled_by_admin">Admininiz tərəfindən deaktiv edilib</string>
-  <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
-  <string name="accessibility_action_overview">İcmal</string>
-  <!-- Strings for settings -->
-  <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-  <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-  <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
-  <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
-  <string name="package_state_unknown">Bilinməyən</string>
-  <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
-  <string name="abandoned_clean_this">Silin</string>
-  <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
-  <string name="abandoned_search">Axtarış</string>
-  <!-- Title for abandoned promise dialog. -->
-  <string name="abandoned_promises_title">Bu tətbiq quraşdırılmayıb</string>
-  <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
+    <string name="all_apps_home_button_label">Ev</string>
+    <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
+    <string name="remove_drop_target_label">Silin</string>
+    <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
+    <string name="uninstall_drop_target_label">Sistemdən sil</string>
+    <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
+    <string name="app_info_drop_target_label">Tətbiq məlumatı</string>
+    <!-- Permissions: -->
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">qısayolları quraşdır</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Tətbiqə istifadəçi müdaxiləsi olmadan qısayolları əlavə etməyə icazə verir.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">Əsas Səhifə ayarlarını və qısayolları oxuyun</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Tətbiqə Əsas Səhifədə parametrləri və qısayolları oxumağa icazə verir.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">Əsas Səhifə ayarlarını və qısayolları yazın</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Tətbiqə Əsas Səhifədə ayarları və qısayolları dəyişməyə icazə verir.</string>
+    <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
+    <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> tətbiqinə telefon zəngləri etmək üçün icazə verilmir</string>
+    <!-- Widgets: -->
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Vidcet yükləmə problemi</string>
+    <!-- Text to show user in place of a gadget when it is not yet initialized. -->
+    <string name="gadget_setup_text">Quraşdırma</string>
+    <!-- Text to inform the user that they can't uninstall a system application -->
+    <string name="uninstall_system_app_text">Bu sistem tətbiqi olduğu üçün sistemdən silinə bilməz.</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Adsız Qovluq</string>
+    <!-- Accessibility -->
+    <!-- The format string for when an app is temporarily disabled. -->
+    <string name="disabled_app_label"><xliff:g id="APP_NAME">%1$s</xliff:g> deaktiv edildi</string>
+    <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
+    <string name="default_scroll_format">Səhifə %1$d of %2$d</string>
+    <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
+    <string name="workspace_scroll_format">Əsas Səhifə ekranı %1$d of %2$d</string>
+    <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
+    <string name="workspace_new_page">Yeni əsas ekran səhifəsi</string>
+    <!-- Folder accessibility -->
+    <!-- The format string for when a folder is opened, speaks the dimensions -->
+    <string name="folder_opened">Qovluq açıldı, <xliff:g id="HEIGHT">%2$d</xliff:g> hündürlük ilə <xliff:g id="WIDTH">%1$d</xliff:g> enində</string>
+    <!-- Instruction that clicking outside will close folder -->
+    <string name="folder_tap_to_close">Qovluq bağlamaq üçün toxunun</string>
+    <!-- Instruction that clicking outside will commit folder rename -->
+    <string name="folder_tap_to_rename">Ad dəyişikliyini yadda saxlamaq üçün toxunun</string>
+    <!-- Indication that folder closed -->
+    <string name="folder_closed">Qovluq bağlıdır</string>
+    <!-- Folder renamed format -->
+    <string name="folder_renamed">Qovluq adı <xliff:g id="NAME">%1$s</xliff:g> ilə dəyişdirildi</string>
+    <!-- Folder name format -->
+    <string name="folder_name_format">Qovluq: <xliff:g id="NAME">%1$s</xliff:g></string>
+    <!-- Strings for the customization mode -->
+    <!-- Text for widget add button -->
+    <string name="widget_button_text">Vidcet</string>
+    <!-- Text for wallpaper change button -->
+    <string name="wallpaper_button_text">Divar kağızları</string>
+    <!-- Text for settings button -->
+    <!-- Message shown when a feature is disabled by the administrator -->
+    <string name="msg_disabled_by_admin">Admininiz tərəfindən deaktiv edilib</string>
+    <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
+    <string name="accessibility_action_overview">İcmal</string>
+    <!-- Strings for settings -->
+    <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
+    <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
+    <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
+    <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">Bilinməyən</string>
+    <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
+    <string name="abandoned_clean_this">Silin</string>
+    <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+    <string name="abandoned_search">Axtarış</string>
+    <!-- Title for abandoned promise dialog. -->
+    <string name="abandoned_promises_title">Bu tətbiq quraşdırılmayıb</string>
+    <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
-  <string name="abandoned_promise_explanation">Bu ikona üçün tətbiq quraşdırılmayıb. Onu silə bilərsiniz, və ya tətbiqi taparaq manual yol ilə quraşdıra bilərsiniz.</string>
-  <!-- Title for an app which is being downloaded. -->
-  <string name="app_downloading_title"><xliff:g id="NAME">%1$s</xliff:g> endirilir, <xliff:g id="PROGRESS">%2$s</xliff:g> tamamlandı</string>
-  <!-- Title for an app whose download has been started. -->
-  <string name="app_waiting_download_title"><xliff:g id="NAME">%1$s</xliff:g> yüklənmək üçün gözləyir</string>
-  <!-- Strings for accessibility actions -->
-  <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_add_to_workspace">Əsas ekrana əlavə edin</string>
-  <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
-  <string name="action_move_here">Elementi bura köçürün</string>
-  <!-- Accessibility confirmation for item added to workspace. -->
-  <string name="item_added_to_workspace">Element əsas ekrana əlavə edildi</string>
-  <!-- Accessibility confirmation for item removed. -->
-  <string name="item_removed">Element silindi</string>
-  <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move">Elementi köçürün</string>
-  <!-- Accessibility description to move item to empty cell. -->
-  <string name="move_to_empty_cell">Sıra <xliff:g id="NUMBER_0">%1$s</xliff:g> sütun <xliff:g id="NUMBER_1">%2$s</xliff:g> köçürün</string>
-  <!-- Accessibility description to move item inside a folder. -->
-  <string name="move_to_position"><xliff:g id="NUMBER">%1$s</xliff:g> mövqeyinə köçürün</string>
-  <!-- Accessibility description to move item to the hotseat. -->
-  <string name="move_to_hotseat_position"><xliff:g id="NUMBER">%1$s</xliff:g> sevimlilər mövqeyinə köçürün</string>
-  <!-- Accessibility confirmation for item move. -->
-  <string name="item_moved">Elementin yeri dəyişildi</string>
-  <!-- Accessibility description to move item into an existing folder. -->
-  <string name="add_to_folder">Qovluğa əlavə edin: <xliff:g id="NAME">%1$s</xliff:g></string>
-  <!-- Accessibility description to move item into an existing folder containing an app. -->
-  <string name="add_to_folder_with_app"><xliff:g id="NAME">%1$s</xliff:g> adlı qovluğa əlavə edin</string>
-  <!-- Accessibility confirmation for item added to folder. -->
-  <string name="added_to_folder">Element qovluğa əlavə edildi</string>
-  <!-- Accessibility description to create folder with another item. -->
-  <string name="create_folder_with">Qovluq yaradın: <xliff:g id="NAME">%1$s</xliff:g></string>
-  <!-- Accessibility confirmation for folder created. -->
-  <string name="folder_created">Qovluq yaradıldı</string>
-  <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move_to_workspace">Əsas ekrana köçürün</string>
-  <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_left">Ekranı sola köçürün</string>
-  <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_right">Ekranı sağa köçürün</string>
-  <!-- Accessibility confirmation when a screen was moved. -->
-  <string name="screen_moved">Ekran köçürülüb</string>
-  <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
-  <string name="action_resize">Ölçüsünü dəyişin</string>
-  <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_width">Eni artırın</string>
-  <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_height">Hündürlüyü artırın</string>
-  <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_width">Eni azaldın</string>
-  <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_height">Hündürlüyü azaldın</string>
-  <!-- Accessibility confirmation for widget resize. -->
-  <string name="widget_resized">Vidcetin eni <xliff:g id="NUMBER_0">%1$s</xliff:g> hündürlüyü <xliff:g id="NUMBER_1">%2$s</xliff:g> kimi ölçüləndirildi</string>
-  <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_deep_shortcut">Qısa yollar</string>
-  <!-- Accessibility description for the shortcuts menu shown for an app. -->
-  <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> üçün <xliff:g id="APP_NAME">%2$s</xliff:g> qısa yolu</string>
-  <string name="edit_drop_target_label">Dəyiş</string>
-  <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
-  <string name="wallpaper_instructions">Divar kağızı ayarlayın</string>
-  <!-- Error message when an image is selected as a wallpaper,
+    <string name="abandoned_promise_explanation">Bu ikona üçün tətbiq quraşdırılmayıb. Onu silə bilərsiniz, və ya tətbiqi taparaq manual yol ilə quraşdıra bilərsiniz.</string>
+    <!-- Title for an app which is being downloaded. -->
+    <string name="app_downloading_title"><xliff:g id="NAME">%1$s</xliff:g> endirilir, <xliff:g id="PROGRESS">%2$s</xliff:g> tamamlandı</string>
+    <!-- Title for an app whose download has been started. -->
+    <string name="app_waiting_download_title"><xliff:g id="NAME">%1$s</xliff:g> yüklənmək üçün gözləyir</string>
+    <!-- Strings for accessibility actions -->
+    <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
+    <string name="action_add_to_workspace">Əsas ekrana əlavə edin</string>
+    <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
+    <string name="action_move_here">Elementi bura köçürün</string>
+    <!-- Accessibility confirmation for item added to workspace. -->
+    <string name="item_added_to_workspace">Element əsas ekrana əlavə edildi</string>
+    <!-- Accessibility confirmation for item removed. -->
+    <string name="item_removed">Element silindi</string>
+    <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
+    <string name="action_move">Elementi köçürün</string>
+    <!-- Accessibility description to move item to empty cell. -->
+    <string name="move_to_empty_cell">Sıra <xliff:g id="NUMBER_0">%1$s</xliff:g> sütun <xliff:g id="NUMBER_1">%2$s</xliff:g> köçürün</string>
+    <!-- Accessibility description to move item inside a folder. -->
+    <string name="move_to_position"><xliff:g id="NUMBER">%1$s</xliff:g> mövqeyinə köçürün</string>
+    <!-- Accessibility description to move item to the hotseat. -->
+    <string name="move_to_hotseat_position"><xliff:g id="NUMBER">%1$s</xliff:g> sevimlilər mövqeyinə köçürün</string>
+    <!-- Accessibility confirmation for item move. -->
+    <string name="item_moved">Elementin yeri dəyişildi</string>
+    <!-- Accessibility description to move item into an existing folder. -->
+    <string name="add_to_folder">Qovluğa əlavə edin: <xliff:g id="NAME">%1$s</xliff:g></string>
+    <!-- Accessibility description to move item into an existing folder containing an app. -->
+    <string name="add_to_folder_with_app"><xliff:g id="NAME">%1$s</xliff:g> adlı qovluğa əlavə edin</string>
+    <!-- Accessibility confirmation for item added to folder. -->
+    <string name="added_to_folder">Element qovluğa əlavə edildi</string>
+    <!-- Accessibility description to create folder with another item. -->
+    <string name="create_folder_with">Qovluq yaradın: <xliff:g id="NAME">%1$s</xliff:g></string>
+    <!-- Accessibility confirmation for folder created. -->
+    <string name="folder_created">Qovluq yaradıldı</string>
+    <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
+    <string name="action_move_to_workspace">Əsas ekrana köçürün</string>
+    <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
+    <string name="action_move_screen_left">Ekranı sola köçürün</string>
+    <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
+    <string name="action_move_screen_right">Ekranı sağa köçürün</string>
+    <!-- Accessibility confirmation when a screen was moved. -->
+    <string name="screen_moved">Ekran köçürülüb</string>
+    <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
+    <string name="action_resize">Ölçüsünü dəyişin</string>
+    <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_increase_width">Eni artırın</string>
+    <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_increase_height">Hündürlüyü artırın</string>
+    <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_decrease_width">Eni azaldın</string>
+    <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_decrease_height">Hündürlüyü azaldın</string>
+    <!-- Accessibility confirmation for widget resize. -->
+    <string name="widget_resized">Vidcetin eni <xliff:g id="NUMBER_0">%1$s</xliff:g> hündürlüyü <xliff:g id="NUMBER_1">%2$s</xliff:g> kimi ölçüləndirildi</string>
+    <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
+    <string name="action_deep_shortcut">Qısa yollar</string>
+    <!-- Accessibility description for the shortcuts menu shown for an app. -->
+    <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> üçün <xliff:g id="APP_NAME">%2$s</xliff:g> qısa yolu</string>
+    <string name="edit_drop_target_label">Dəyiş</string>
+    <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">Divar kağızı ayarlayın</string>
+    <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
-  <string name="image_load_fail">Şəkli yükləmək alınmadı</string>
-  <!-- Error message when an image is selected as a wallpaper,
+    <string name="image_load_fail">Şəkli yükləmək alınmadı</string>
+    <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper cropper cannot load it. The user will
          usually see this when using another app and trying to set
          an image as the wallpaper -->
-  <string name="wallpaper_load_fail">Şəkli divar kağızı olaraq yükləmək alınmadı</string>
-  <!-- Error message when an image is selected as a wallpaper,
+    <string name="wallpaper_load_fail">Şəkli divar kağızı olaraq yükləmək alınmadı</string>
+    <!-- Error message when an image is selected as a wallpaper,
          but something goes wrong when the user clicks "Set wallpaper" -->
-  <string name="wallpaper_set_fail">Şəkli divar kağızı olaraq quraşdırmaq alınmadı</string>
-  <!-- Shown when wallpapers are selected in Wallpaper picker -->
-  <!-- String indicating how many media item(s) is(are) selected
+    <string name="wallpaper_set_fail">Şəkli divar kağızı olaraq quraşdırmaq alınmadı</string>
+    <!-- Shown when wallpapers are selected in Wallpaper picker -->
+    <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
-  <plurals name="number_of_items_selected">
-    <item quantity="one">%1$d seçildi</item>
-    <item quantity="other">%1$d seçilib</item>
-  </plurals>
-  <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
+    <plurals name="number_of_items_selected">
+        <item quantity="one">%1$d seçildi</item>
+        <item quantity="other">%1$d seçilib</item>
+    </plurals>
+    <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
-  <string name="wallpaper_accessibility_name">Divar kağızı %1$d of %2$d</string>
-  <!-- Accessibility string used to announce that a wallpaper has been selected. -->
-  <string name="announce_selection"><xliff:g id="LABEL">%1$s</xliff:g> seçilib</string>
-  <!-- Label on button to delete wallpaper(s) -->
-  <string name="wallpaper_delete">Silin</string>
-  <!-- Label on button in Wallpaper Picker to pick an image -->
-  <string name="pick_image">Fotolarım</string>
-  <!-- Option in "Select wallpaper from" dialog box -->
-  <string name="pick_wallpaper">Divar kağızları</string>
-  <!-- Title of activity for cropping wallpapers -->
-  <string name="crop_wallpaper">Divar kağızını kəsin</string>
-  <!-- Option for setting the wallpaper only on the home screen. -->
-  <!-- Option for setting the wallpaper only on the lock screen. -->
-  <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
-  <string name="label_search">Axtarış</string>
-  <!-- About Lawnchair -->
-  <string name="default_text">Susmaya görə</string>
-  <string name="edit_icon_reset">Sıfırla</string>
-  <!-- Import/Export Strings -->
-  <string name="backup_import_title">Bərpa et</string>
-  <!-- Default units to use, either 'metric' or 'imperial' -->
-  <string name="none">Heç biri</string>
-  <string name="icon_shape_none">Heç biri</string>
-  <!-- Time format for Weather Widget -->
-  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="list_app_apply">Tətbiq et</string>
-  <string name="list_app_reset">Sıfırla</string>
-  <!-- Strings for popup dialogs -->
-  <string name="restore_backup">Bərpa et</string>
-  <string name="backup_location">Yer</string>
-  <string name="backup_wallpaper">Divar kağızı</string>
-  <string name="backup_share">Paylaşın</string>
-  <!-- Preference Category Pixel Searchbar Title -->
-  <!-- Preference Category Icons Title -->
-  <!-- Preference Category Drawer Title -->
-  <!-- Preference Category Misc Title -->
-  <!-- About screen -->
-  <string name="title_attribouter_email">E-poçt</string>
-  <!-- DT2S -->
+    <string name="wallpaper_accessibility_name">Divar kağızı %1$d of %2$d</string>
+    <!-- Accessibility string used to announce that a wallpaper has been selected. -->
+    <string name="announce_selection"><xliff:g id="LABEL">%1$s</xliff:g> seçilib</string>
+    <!-- Label on button to delete wallpaper(s) -->
+    <string name="wallpaper_delete">Silin</string>
+    <!-- Label on button in Wallpaper Picker to pick an image -->
+    <string name="pick_image">Fotolarım</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">Divar kağızları</string>
+    <!-- Title of activity for cropping wallpapers -->
+    <string name="crop_wallpaper">Divar kağızını kəsin</string>
+    <!-- Option for setting the wallpaper only on the home screen. -->
+    <!-- Option for setting the wallpaper only on the lock screen. -->
+    <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+    <string name="label_search">Axtarış</string>
+    <!-- About Lawnchair -->
+    <string name="default_text">Susmaya görə</string>
+    <string name="edit_icon_reset">Sıfırla</string>
+    <!-- Import/Export Strings -->
+    <string name="backup_import_title">Bərpa et</string>
+    <!-- Default units to use, either 'metric' or 'imperial' -->
+    <string name="none">Heç biri</string>
+    <string name="icon_shape_none">Heç biri</string>
+    <!-- Time format for Weather Widget -->
+    <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+    <string name="list_app_apply">Tətbiq et</string>
+    <string name="list_app_reset">Sıfırla</string>
+    <!-- Strings for popup dialogs -->
+    <string name="restore_backup">Bərpa et</string>
+    <string name="backup_location">Yer</string>
+    <string name="backup_wallpaper">Divar kağızı</string>
+    <string name="backup_share">Paylaşın</string>
+    <!-- Preference Category Pixel Searchbar Title -->
+    <!-- Preference Category Icons Title -->
+    <!-- Preference Category Drawer Title -->
+    <!-- Preference Category Misc Title -->
+    <!-- About screen -->
+    <string name="title_attribouter_email">E-poçt</string>
+    <!-- DT2S -->
 </resources>

@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About Lawnchair -->
-  <string name="about_text_mk">Lawnchair ay isang Launcher na app na nilikha ni Till Kottmann (aka deletescape), binago para sa MoKee ROM. Ito ay batay sa Launcher3 mula sa AOSP.</string>
-  <string name="about_localization_title">Lokalisasyon</string>
-  <string name="about_localization_summary">Isalin ang Lawnchair Launcher</string>
+    <!-- About Lawnchair -->
+    <string name="about_text_mk">Lawnchair ay isang Launcher na app na nilikha ni Till Kottmann (aka deletescape), binago para sa MoKee ROM. Ito ay batay sa Launcher3 mula sa AOSP.</string>
+    <string name="about_localization_title">Lokalisasyon</string>
+    <string name="about_localization_summary">Isalin ang Lawnchair Launcher</string>
 </resources>
