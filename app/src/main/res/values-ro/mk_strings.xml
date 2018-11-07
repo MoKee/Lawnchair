@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About Lawnchair -->
-  <string name="about_text_mk">Lawnchair este un lansator creat de Till Kottmann (aka deletescape), modificat pentru ROM-ul MoKee. E bazat pe Launcher3 din AOSP.</string>
-  <string name="about_localization_title">Localizare</string>
-  <string name="about_localization_summary">Tradu Lawnchair Launcher</string>
+    <!-- About Lawnchair -->
+    <string name="about_text_mk">Lawnchair este un lansator creat de Till Kottmann (aka deletescape), modificat pentru ROM-ul MoKee. E bazat pe Launcher3 din AOSP.</string>
+    <string name="about_localization_title">Localizare</string>
+    <string name="about_localization_summary">Tradu Lawnchair Launcher</string>
 </resources>

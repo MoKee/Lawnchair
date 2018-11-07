@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About Lawnchair -->
-  <string name="about_text_mk">Lawnchair jest stworzony przez Till Kottmann\'a (aka deletescape), zmodyfikowany pod system MoKee. Bazuje na Launcher3 AOSP.</string>
-  <string name="about_localization_title">Lokalizacja</string>
-  <string name="about_localization_summary">Tłumaczenie Lawnchair Launcher</string>
+    <!-- About Lawnchair -->
+    <string name="about_text_mk">Lawnchair jest stworzony przez Till Kottmann\'a (aka deletescape), zmodyfikowany pod system MoKee. Bazuje na Launcher3 AOSP.</string>
+    <string name="about_localization_title">Lokalizacja</string>
+    <string name="about_localization_summary">Tłumaczenie Lawnchair Launcher</string>
 </resources>

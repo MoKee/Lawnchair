@@ -18,260 +18,260 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General -->
-  <!-- Application name -->
-  <!-- Default folder name -->
-  <!-- Work folder name -->
-  <string name="work_folder_name">Работа</string>
-  <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
-  <string name="activity_not_found">Приложението не е инсталирано.</string>
-  <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
-  <string name="activity_not_available">Приложението не е налично</string>
-  <!-- SafeMode shortcut error string -->
-  <string name="safemode_shortcut_error">Изтегленото приложение е деактивирано в безопасния режим</string>
-  <!-- SafeMode widget error string -->
-  <string name="safemode_widget_error">Приспособленията са деактивирани в безопасния режим</string>
-  <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
-  <string name="shortcut_not_available">Няма достъп до прекия път</string>
-  <!-- Widgets -->
-  <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
-  <string name="long_press_widget_to_add">Докоснете и задръжте за избор на приспособление.</string>
-  <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
-  <string name="long_accessible_way_to_add">Докоснете двукратно и задръжте за избор на приспособление или използвайте персонализирани действия.</string>
-  <!-- The format string for the dimensions of a widget in the drawer -->
-  <!-- There is a special version of this format string for Farsi -->
-  <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
-  <string name="widget_accessible_dims_format">Ширина %1$d и височина %2$d</string>
-  <!-- All Apps -->
-  <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_bar_hint">Търсене в приложенията</string>
-  <!-- Loading apps text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_loading_message">Приложенията се зареждат…</string>
-  <!-- No-search-results text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_no_search_results">Няма намерени приложения, съответстващи на „<xliff:g id="QUERY">%1$s</xliff:g>“</string>
-  <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_market_message">Търсене на още приложения</string>
-  <!-- Drag and drop -->
-  <!-- Error message when user has filled a page -->
-  <string name="out_of_space">На този начален екран няма повече място.</string>
-  <!-- Error message when user has filled the hotseat -->
-  <string name="hotseat_out_of_space">Няма повече място в областта с любимите</string>
-  <!-- All applications label -->
-  <string name="all_apps_button_label">Списък с приложения</string>
-  <!-- Label for button in all applications label to go back home (to the workspace / desktop)
+    <!-- General -->
+    <!-- Application name -->
+    <!-- Default folder name -->
+    <!-- Work folder name -->
+    <string name="work_folder_name">Работа</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
+    <string name="activity_not_found">Приложението не е инсталирано.</string>
+    <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
+    <string name="activity_not_available">Приложението не е налично</string>
+    <!-- SafeMode shortcut error string -->
+    <string name="safemode_shortcut_error">Изтегленото приложение е деактивирано в безопасния режим</string>
+    <!-- SafeMode widget error string -->
+    <string name="safemode_widget_error">Приспособленията са деактивирани в безопасния режим</string>
+    <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
+    <string name="shortcut_not_available">Няма достъп до прекия път</string>
+    <!-- Widgets -->
+    <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
+    <string name="long_press_widget_to_add">Докоснете и задръжте за избор на приспособление.</string>
+    <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
+    <string name="long_accessible_way_to_add">Докоснете двукратно и задръжте за избор на приспособление или използвайте персонализирани действия.</string>
+    <!-- The format string for the dimensions of a widget in the drawer -->
+    <!-- There is a special version of this format string for Farsi -->
+    <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
+    <string name="widget_accessible_dims_format">Ширина %1$d и височина %2$d</string>
+    <!-- All Apps -->
+    <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
+    <string name="all_apps_search_bar_hint">Търсене в приложенията</string>
+    <!-- Loading apps text. [CHAR_LIMIT=50] -->
+    <string name="all_apps_loading_message">Приложенията се зареждат…</string>
+    <!-- No-search-results text. [CHAR_LIMIT=50] -->
+    <string name="all_apps_no_search_results">Няма намерени приложения, съответстващи на „<xliff:g id="QUERY">%1$s</xliff:g>“</string>
+    <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
+    <string name="all_apps_search_market_message">Търсене на още приложения</string>
+    <!-- Drag and drop -->
+    <!-- Error message when user has filled a page -->
+    <string name="out_of_space">На този начален екран няма повече място.</string>
+    <!-- Error message when user has filled the hotseat -->
+    <string name="hotseat_out_of_space">Няма повече място в областта с любимите</string>
+    <!-- All applications label -->
+    <string name="all_apps_button_label">Списък с приложения</string>
+    <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
-  <string name="all_apps_home_button_label">Начало</string>
-  <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
-  <string name="remove_drop_target_label">Премахване</string>
-  <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
-  <string name="uninstall_drop_target_label">Деинсталиране</string>
-  <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
-  <string name="app_info_drop_target_label">Данни за прилож.</string>
-  <!-- Permissions: -->
-  <!-- Permission short label -->
-  <string name="permlab_install_shortcut">инсталиране на преки пътища</string>
-  <!-- Permission description -->
-  <string name="permdesc_install_shortcut">Разрешава на приложението да добавя преки пътища без намеса на потребителя.</string>
-  <!-- Permission short label -->
-  <string name="permlab_read_settings">четене на настройките и преките пътища в Начало</string>
-  <!-- Permission description -->
-  <string name="permdesc_read_settings">Разрешава на приложението да чете настройките и преките пътища в Начало.</string>
-  <!-- Permission short label -->
-  <string name="permlab_write_settings">запис на настройките и преките пътища в Начало</string>
-  <!-- Permission description -->
-  <string name="permdesc_write_settings">Разрешава на приложението да променя настройките и преките пътища в Начало.</string>
-  <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
-  <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> няма разрешение да извършва телефонни обаждания</string>
-  <!-- Widgets: -->
-  <!-- Text to show user in place of a gadget when we can't display it properly -->
-  <string name="gadget_error_text">Проблем при зареждане на приспособлението</string>
-  <!-- Text to show user in place of a gadget when it is not yet initialized. -->
-  <string name="gadget_setup_text">Настройване</string>
-  <!-- Text to inform the user that they can't uninstall a system application -->
-  <string name="uninstall_system_app_text">Това е системно приложение и не може да се деинсталира.</string>
-  <!-- Default folder title -->
-  <string name="folder_hint_text">Папка без име</string>
-  <!-- Accessibility -->
-  <!-- The format string for when an app is temporarily disabled. -->
-  <string name="disabled_app_label">Деактивирахте <xliff:g id="APP_NAME">%1$s</xliff:g></string>
-  <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
-  <string name="default_scroll_format">Страница %1$d от %2$d</string>
-  <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
-  <string name="workspace_scroll_format">Начален екран %1$d от %2$d</string>
-  <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
-  <string name="workspace_new_page">Нова страница на началния екран</string>
-  <!-- Folder accessibility -->
-  <!-- The format string for when a folder is opened, speaks the dimensions -->
-  <string name="folder_opened">Папката е отворена – <xliff:g id="WIDTH">%1$d</xliff:g> на <xliff:g id="HEIGHT">%2$d</xliff:g></string>
-  <!-- Instruction that clicking outside will close folder -->
-  <string name="folder_tap_to_close">Докоснете, за да затворите папката</string>
-  <!-- Instruction that clicking outside will commit folder rename -->
-  <string name="folder_tap_to_rename">Докоснете, за да запазите новото име</string>
-  <!-- Indication that folder closed -->
-  <string name="folder_closed">Папката бе затворена</string>
-  <!-- Folder renamed format -->
-  <string name="folder_renamed">Папката е преименувана на „<xliff:g id="NAME">%1$s</xliff:g>“</string>
-  <!-- Folder name format -->
-  <string name="folder_name_format">Папка: „<xliff:g id="NAME">%1$s</xliff:g>“</string>
-  <!-- Strings for the customization mode -->
-  <!-- Text for widget add button -->
-  <string name="widget_button_text">Приспособления</string>
-  <!-- Text for wallpaper change button -->
-  <string name="wallpaper_button_text">Тапети</string>
-  <!-- Text for settings button -->
-  <string name="settings_button_text">Настройки</string>
-  <!-- Message shown when a feature is disabled by the administrator -->
-  <string name="msg_disabled_by_admin">Деактивирано от администратора ви</string>
-  <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
-  <string name="accessibility_action_overview">Общ преглед</string>
-  <!-- Strings for settings -->
-  <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-  <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-  <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
-  <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
-  <string name="package_state_unknown">Няма информация</string>
-  <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
-  <string name="abandoned_clean_this">Премахване</string>
-  <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
-  <string name="abandoned_search">Търсене</string>
-  <!-- Title for abandoned promise dialog. -->
-  <string name="abandoned_promises_title">Това приложение не е инсталирано</string>
-  <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
+    <string name="all_apps_home_button_label">Начало</string>
+    <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
+    <string name="remove_drop_target_label">Премахване</string>
+    <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
+    <string name="uninstall_drop_target_label">Деинсталиране</string>
+    <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
+    <string name="app_info_drop_target_label">Данни за прилож.</string>
+    <!-- Permissions: -->
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">инсталиране на преки пътища</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Разрешава на приложението да добавя преки пътища без намеса на потребителя.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">четене на настройките и преките пътища в Начало</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Разрешава на приложението да чете настройките и преките пътища в Начало.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">запис на настройките и преките пътища в Начало</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Разрешава на приложението да променя настройките и преките пътища в Начало.</string>
+    <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
+    <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> няма разрешение да извършва телефонни обаждания</string>
+    <!-- Widgets: -->
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Проблем при зареждане на приспособлението</string>
+    <!-- Text to show user in place of a gadget when it is not yet initialized. -->
+    <string name="gadget_setup_text">Настройване</string>
+    <!-- Text to inform the user that they can't uninstall a system application -->
+    <string name="uninstall_system_app_text">Това е системно приложение и не може да се деинсталира.</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Папка без име</string>
+    <!-- Accessibility -->
+    <!-- The format string for when an app is temporarily disabled. -->
+    <string name="disabled_app_label">Деактивирахте <xliff:g id="APP_NAME">%1$s</xliff:g></string>
+    <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
+    <string name="default_scroll_format">Страница %1$d от %2$d</string>
+    <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
+    <string name="workspace_scroll_format">Начален екран %1$d от %2$d</string>
+    <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
+    <string name="workspace_new_page">Нова страница на началния екран</string>
+    <!-- Folder accessibility -->
+    <!-- The format string for when a folder is opened, speaks the dimensions -->
+    <string name="folder_opened">Папката е отворена – <xliff:g id="WIDTH">%1$d</xliff:g> на <xliff:g id="HEIGHT">%2$d</xliff:g></string>
+    <!-- Instruction that clicking outside will close folder -->
+    <string name="folder_tap_to_close">Докоснете, за да затворите папката</string>
+    <!-- Instruction that clicking outside will commit folder rename -->
+    <string name="folder_tap_to_rename">Докоснете, за да запазите новото име</string>
+    <!-- Indication that folder closed -->
+    <string name="folder_closed">Папката бе затворена</string>
+    <!-- Folder renamed format -->
+    <string name="folder_renamed">Папката е преименувана на „<xliff:g id="NAME">%1$s</xliff:g>“</string>
+    <!-- Folder name format -->
+    <string name="folder_name_format">Папка: „<xliff:g id="NAME">%1$s</xliff:g>“</string>
+    <!-- Strings for the customization mode -->
+    <!-- Text for widget add button -->
+    <string name="widget_button_text">Приспособления</string>
+    <!-- Text for wallpaper change button -->
+    <string name="wallpaper_button_text">Тапети</string>
+    <!-- Text for settings button -->
+    <string name="settings_button_text">Настройки</string>
+    <!-- Message shown when a feature is disabled by the administrator -->
+    <string name="msg_disabled_by_admin">Деактивирано от администратора ви</string>
+    <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
+    <string name="accessibility_action_overview">Общ преглед</string>
+    <!-- Strings for settings -->
+    <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
+    <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
+    <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
+    <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">Няма информация</string>
+    <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
+    <string name="abandoned_clean_this">Премахване</string>
+    <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+    <string name="abandoned_search">Търсене</string>
+    <!-- Title for abandoned promise dialog. -->
+    <string name="abandoned_promises_title">Това приложение не е инсталирано</string>
+    <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
-  <string name="abandoned_promise_explanation">Приложението за тази икона не е инсталирано. Можете да я премахнете или да потърсите приложението и да го инсталирате ръчно.</string>
-  <!-- Title for an app which is being downloaded. -->
-  <string name="app_downloading_title"><xliff:g id="NAME">%1$s</xliff:g> се изтегля. Завършено: <xliff:g id="PROGRESS">%2$s</xliff:g></string>
-  <!-- Title for an app whose download has been started. -->
-  <string name="app_waiting_download_title"><xliff:g id="NAME">%1$s</xliff:g> изчаква инсталиране</string>
-  <!-- Strings for accessibility actions -->
-  <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_add_to_workspace">Добавяне към началния екран</string>
-  <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
-  <string name="action_move_here">Преместване на елемента тук</string>
-  <!-- Accessibility confirmation for item added to workspace. -->
-  <string name="item_added_to_workspace">Елементът е добавен към началния екран</string>
-  <!-- Accessibility confirmation for item removed. -->
-  <string name="item_removed">Елементът е премахнат</string>
-  <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move">Преместване на елемента</string>
-  <!-- Accessibility description to move item to empty cell. -->
-  <string name="move_to_empty_cell">Преместване към ред <xliff:g id="NUMBER_0">%1$s</xliff:g>, колона <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
-  <!-- Accessibility description to move item inside a folder. -->
-  <string name="move_to_position">Преместване към позиция <xliff:g id="NUMBER">%1$s</xliff:g></string>
-  <!-- Accessibility description to move item to the hotseat. -->
-  <string name="move_to_hotseat_position">Преместване към позиция <xliff:g id="NUMBER">%1$s</xliff:g> в любимите</string>
-  <!-- Accessibility confirmation for item move. -->
-  <string name="item_moved">Елементът е преместен</string>
-  <!-- Accessibility description to move item into an existing folder. -->
-  <string name="add_to_folder">Добавяне към папката „<xliff:g id="NAME">%1$s</xliff:g>“</string>
-  <!-- Accessibility description to move item into an existing folder containing an app. -->
-  <string name="add_to_folder_with_app">Добавяне към папката, съдържаща <xliff:g id="NAME">%1$s</xliff:g></string>
-  <!-- Accessibility confirmation for item added to folder. -->
-  <string name="added_to_folder">Елементът е добавен към папката</string>
-  <!-- Accessibility description to create folder with another item. -->
-  <string name="create_folder_with">Създаване на папка с елемента „<xliff:g id="NAME">%1$s</xliff:g>“</string>
-  <!-- Accessibility confirmation for folder created. -->
-  <string name="folder_created">Папката е създадена</string>
-  <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move_to_workspace">Преместване към началния екран</string>
-  <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_left">Преместване на екрана наляво</string>
-  <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_right">Преместване на екрана надясно</string>
-  <!-- Accessibility confirmation when a screen was moved. -->
-  <string name="screen_moved">Екранът е преместен</string>
-  <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
-  <string name="action_resize">Преоразмеряване</string>
-  <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_width">Увеличаване на ширината</string>
-  <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_height">Увеличаване на височината</string>
-  <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_width">Намаляване на ширината</string>
-  <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_height">Намаляване на височината</string>
-  <!-- Accessibility confirmation for widget resize. -->
-  <string name="widget_resized">Приспособлението е преоразмерено към ширина <xliff:g id="NUMBER_0">%1$s</xliff:g> и височина <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
-  <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_deep_shortcut">Преки пътища</string>
-  <!-- Accessibility description for the shortcuts menu shown for an app. -->
-  <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> преки пътища за <xliff:g id="APP_NAME">%2$s</xliff:g></string>
-  <string name="edit_drop_target_label">Редактиране</string>
-  <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
-  <string name="wallpaper_instructions">Задаване на тапета</string>
-  <!-- Error message when an image is selected as a wallpaper,
+    <string name="abandoned_promise_explanation">Приложението за тази икона не е инсталирано. Можете да я премахнете или да потърсите приложението и да го инсталирате ръчно.</string>
+    <!-- Title for an app which is being downloaded. -->
+    <string name="app_downloading_title"><xliff:g id="NAME">%1$s</xliff:g> се изтегля. Завършено: <xliff:g id="PROGRESS">%2$s</xliff:g></string>
+    <!-- Title for an app whose download has been started. -->
+    <string name="app_waiting_download_title"><xliff:g id="NAME">%1$s</xliff:g> изчаква инсталиране</string>
+    <!-- Strings for accessibility actions -->
+    <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
+    <string name="action_add_to_workspace">Добавяне към началния екран</string>
+    <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
+    <string name="action_move_here">Преместване на елемента тук</string>
+    <!-- Accessibility confirmation for item added to workspace. -->
+    <string name="item_added_to_workspace">Елементът е добавен към началния екран</string>
+    <!-- Accessibility confirmation for item removed. -->
+    <string name="item_removed">Елементът е премахнат</string>
+    <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
+    <string name="action_move">Преместване на елемента</string>
+    <!-- Accessibility description to move item to empty cell. -->
+    <string name="move_to_empty_cell">Преместване към ред <xliff:g id="NUMBER_0">%1$s</xliff:g>, колона <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
+    <!-- Accessibility description to move item inside a folder. -->
+    <string name="move_to_position">Преместване към позиция <xliff:g id="NUMBER">%1$s</xliff:g></string>
+    <!-- Accessibility description to move item to the hotseat. -->
+    <string name="move_to_hotseat_position">Преместване към позиция <xliff:g id="NUMBER">%1$s</xliff:g> в любимите</string>
+    <!-- Accessibility confirmation for item move. -->
+    <string name="item_moved">Елементът е преместен</string>
+    <!-- Accessibility description to move item into an existing folder. -->
+    <string name="add_to_folder">Добавяне към папката „<xliff:g id="NAME">%1$s</xliff:g>“</string>
+    <!-- Accessibility description to move item into an existing folder containing an app. -->
+    <string name="add_to_folder_with_app">Добавяне към папката, съдържаща <xliff:g id="NAME">%1$s</xliff:g></string>
+    <!-- Accessibility confirmation for item added to folder. -->
+    <string name="added_to_folder">Елементът е добавен към папката</string>
+    <!-- Accessibility description to create folder with another item. -->
+    <string name="create_folder_with">Създаване на папка с елемента „<xliff:g id="NAME">%1$s</xliff:g>“</string>
+    <!-- Accessibility confirmation for folder created. -->
+    <string name="folder_created">Папката е създадена</string>
+    <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
+    <string name="action_move_to_workspace">Преместване към началния екран</string>
+    <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
+    <string name="action_move_screen_left">Преместване на екрана наляво</string>
+    <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
+    <string name="action_move_screen_right">Преместване на екрана надясно</string>
+    <!-- Accessibility confirmation when a screen was moved. -->
+    <string name="screen_moved">Екранът е преместен</string>
+    <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
+    <string name="action_resize">Преоразмеряване</string>
+    <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_increase_width">Увеличаване на ширината</string>
+    <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_increase_height">Увеличаване на височината</string>
+    <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_decrease_width">Намаляване на ширината</string>
+    <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_decrease_height">Намаляване на височината</string>
+    <!-- Accessibility confirmation for widget resize. -->
+    <string name="widget_resized">Приспособлението е преоразмерено към ширина <xliff:g id="NUMBER_0">%1$s</xliff:g> и височина <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
+    <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
+    <string name="action_deep_shortcut">Преки пътища</string>
+    <!-- Accessibility description for the shortcuts menu shown for an app. -->
+    <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> преки пътища за <xliff:g id="APP_NAME">%2$s</xliff:g></string>
+    <string name="edit_drop_target_label">Редактиране</string>
+    <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">Задаване на тапета</string>
+    <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
-  <string name="image_load_fail">Изображението не можа да бъде заредено</string>
-  <!-- Error message when an image is selected as a wallpaper,
+    <string name="image_load_fail">Изображението не можа да бъде заредено</string>
+    <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper cropper cannot load it. The user will
          usually see this when using another app and trying to set
          an image as the wallpaper -->
-  <string name="wallpaper_load_fail">Изображението не можа да бъде заредено като тапет</string>
-  <!-- Error message when an image is selected as a wallpaper,
+    <string name="wallpaper_load_fail">Изображението не можа да бъде заредено като тапет</string>
+    <!-- Error message when an image is selected as a wallpaper,
          but something goes wrong when the user clicks "Set wallpaper" -->
-  <string name="wallpaper_set_fail">Изображението не можа да бъде зададено като тапет</string>
-  <!-- Shown when wallpapers are selected in Wallpaper picker -->
-  <!-- String indicating how many media item(s) is(are) selected
+    <string name="wallpaper_set_fail">Изображението не можа да бъде зададено като тапет</string>
+    <!-- Shown when wallpapers are selected in Wallpaper picker -->
+    <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
-  <plurals name="number_of_items_selected">
-    <item quantity="one">Избрахте %1$d</item>
-    <item quantity="other">Избрахте %1$d</item>
-  </plurals>
-  <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
+    <plurals name="number_of_items_selected">
+        <item quantity="one">Избрахте %1$d</item>
+        <item quantity="other">Избрахте %1$d</item>
+    </plurals>
+    <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
-  <string name="wallpaper_accessibility_name">Тапет %1$d от %2$d</string>
-  <!-- Accessibility string used to announce that a wallpaper has been selected. -->
-  <string name="announce_selection">Избрахте <xliff:g id="LABEL">%1$s</xliff:g></string>
-  <!-- Label on button to delete wallpaper(s) -->
-  <string name="wallpaper_delete">Изтриване</string>
-  <!-- Label on button in Wallpaper Picker to pick an image -->
-  <string name="pick_image">Моите снимки</string>
-  <!-- Option in "Select wallpaper from" dialog box -->
-  <string name="pick_wallpaper">Тапети</string>
-  <!-- Title of activity for cropping wallpapers -->
-  <string name="crop_wallpaper">Подрязване на тапета</string>
-  <!-- Option for setting the wallpaper only on the home screen. -->
-  <string name="which_wallpaper_option_home_screen">Начален екран</string>
-  <!-- Option for setting the wallpaper only on the lock screen. -->
-  <string name="which_wallpaper_option_lock_screen">Екран за заключване</string>
-  <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
-  <string name="which_wallpaper_option_home_screen_and_lock_screen">Начален и заключен екран</string>
-  <string name="title_show_google_app">Покажи %1$s</string>
-  <string name="label_search">Търсене</string>
-  <string name="label_voice_search">Гласово търсене</string>
-  <string name="notifications_header">Уведомления</string>
-  <!-- About Lawnchair -->
-  <string name="about_title">Относно</string>
-  <string name="icon_pack_preference_title">Пакет икони</string>
-  <string name="icon_pack_preference_summary">Изберете пакет икони</string>
-  <string name="hotseat_show_page_indicator">Покажи индикатор на страниците</string>
-  <string name="pixel_ui_pref_title">Тема</string>
-  <string name="export_db_title">База данни</string>
-  <string name="import_db_title">База данни</string>
-  <string name="export_prefs_title">Настройки</string>
-  <string name="import_prefs_title">Настройки</string>
-  <string name="default_text">Основен</string>
-  <string name="edit_icon_reset">Нулиране</string>
-  <string name="pref_cat_homescreen">Начален екран</string>
-  <string name="theme_pref_title">Тема</string>
-  <string name="theme_dark">Тъмен</string>
-  <string name="theme_black">Черно</string>
-  <string name="pull_down_do_nothing">Не прави нищо</string>
-  <!-- Import/Export Strings -->
-  <string name="backup_import_title">Възстанови</string>
-  <string name="backup_export_title">Архивиране</string>
-  <!-- Default units to use, either 'metric' or 'imperial' -->
-  <string name="pref_cat_weather">Прогноза за времето</string>
-  <string name="none">Без</string>
-  <string name="folder">Папка</string>
-  <string name="loading">Зареждане…</string>
-  <string name="icon_shape_none">Без</string>
-  <string name="icon_shape_circle">Кръг</string>
-  <string name="about_version">Версия</string>
-  <string name="about_contributors_title">Сътрудници</string>
-  <string name="about_changelog">История на промените</string>
-  <!-- Time format for Weather Widget -->
-  <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
-  <string name="hide_app_apply">Прилагане</string>
-  <string name="hide_app_reset">Нулиране</string>
+    <string name="wallpaper_accessibility_name">Тапет %1$d от %2$d</string>
+    <!-- Accessibility string used to announce that a wallpaper has been selected. -->
+    <string name="announce_selection">Избрахте <xliff:g id="LABEL">%1$s</xliff:g></string>
+    <!-- Label on button to delete wallpaper(s) -->
+    <string name="wallpaper_delete">Изтриване</string>
+    <!-- Label on button in Wallpaper Picker to pick an image -->
+    <string name="pick_image">Моите снимки</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">Тапети</string>
+    <!-- Title of activity for cropping wallpapers -->
+    <string name="crop_wallpaper">Подрязване на тапета</string>
+    <!-- Option for setting the wallpaper only on the home screen. -->
+    <string name="which_wallpaper_option_home_screen">Начален екран</string>
+    <!-- Option for setting the wallpaper only on the lock screen. -->
+    <string name="which_wallpaper_option_lock_screen">Екран за заключване</string>
+    <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+    <string name="which_wallpaper_option_home_screen_and_lock_screen">Начален и заключен екран</string>
+    <string name="title_show_google_app">Покажи %1$s</string>
+    <string name="label_search">Търсене</string>
+    <string name="label_voice_search">Гласово търсене</string>
+    <string name="notifications_header">Уведомления</string>
+    <!-- About Lawnchair -->
+    <string name="about_title">Относно</string>
+    <string name="icon_pack_preference_title">Пакет икони</string>
+    <string name="icon_pack_preference_summary">Изберете пакет икони</string>
+    <string name="hotseat_show_page_indicator">Покажи индикатор на страниците</string>
+    <string name="pixel_ui_pref_title">Тема</string>
+    <string name="export_db_title">База данни</string>
+    <string name="import_db_title">База данни</string>
+    <string name="export_prefs_title">Настройки</string>
+    <string name="import_prefs_title">Настройки</string>
+    <string name="default_text">Основен</string>
+    <string name="edit_icon_reset">Нулиране</string>
+    <string name="pref_cat_homescreen">Начален екран</string>
+    <string name="theme_pref_title">Тема</string>
+    <string name="theme_dark">Тъмен</string>
+    <string name="theme_black">Черно</string>
+    <string name="pull_down_do_nothing">Не прави нищо</string>
+    <!-- Import/Export Strings -->
+    <string name="backup_import_title">Възстанови</string>
+    <string name="backup_export_title">Архивиране</string>
+    <!-- Default units to use, either 'metric' or 'imperial' -->
+    <string name="pref_cat_weather">Прогноза за времето</string>
+    <string name="none">Без</string>
+    <string name="folder">Папка</string>
+    <string name="loading">Зареждане…</string>
+    <string name="icon_shape_none">Без</string>
+    <string name="icon_shape_circle">Кръг</string>
+    <string name="about_version">Версия</string>
+    <string name="about_contributors_title">Сътрудници</string>
+    <string name="about_changelog">История на промените</string>
+    <!-- Time format for Weather Widget -->
+    <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+    <string name="hide_app_apply">Прилагане</string>
+    <string name="hide_app_reset">Нулиране</string>
 </resources>

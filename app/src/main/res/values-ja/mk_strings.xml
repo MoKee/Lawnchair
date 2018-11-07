@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About Lawnchair -->
-  <string name="about_text_mk">Lawnchair は Till Kottmann（deletescape としても知られています）によって作成され、MoKee ROM によって改修たランチャーアプリです。AOSP の Launcher3 に基づいて出来ています。</string>
-  <string name="about_localization_title">現地語化</string>
-  <string name="about_localization_summary">Lawnchair Launcherを翻訳</string>
+    <!-- About Lawnchair -->
+    <string name="about_text_mk">Lawnchair は Till Kottmann（deletescape としても知られています）によって作成され、MoKee ROM によって改修たランチャーアプリです。AOSP の Launcher3 に基づいて出来ています。</string>
+    <string name="about_localization_title">現地語化</string>
+    <string name="about_localization_summary">Lawnchair Launcherを翻訳</string>
 </resources>
