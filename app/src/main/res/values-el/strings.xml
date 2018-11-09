@@ -407,7 +407,7 @@
     <string name="reset_alternative_icons">Έχετε %1$d εφαρμογή/ες με τροποποιημένα εικονίδια, είστε βέβαιοι ότι θέλετε να τα επαναφέρετε στην αρχική τους μορφή;</string>
     <!-- Strings for popup dialogs -->
     <string name="restore_backup">Επαναφορά</string>
-    <string name="backup_name">Όνομα:</string>
+    <string name="backup_name">Όνομα: </string>
     <string name="backup_location">Τοποθεσία</string>
     <string name="backup_settings">Ρυθμίσεις</string>
     <string name="backup_wallpaper">Ταπετσαρία</string>

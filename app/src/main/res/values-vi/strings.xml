@@ -428,7 +428,7 @@
     <string name="backups">Sao lưu</string>
     <string name="new_backup">Tạo mới</string>
     <string name="restore_backup">Khôi phục</string>
-    <string name="backup_name">Tên:</string>
+    <string name="backup_name">Tên: </string>
     <string name="backup_location">Vị trí</string>
     <string name="choose_backup_path">Duyệt</string>
     <string name="backup_homescreen">Màn hình chính</string>
