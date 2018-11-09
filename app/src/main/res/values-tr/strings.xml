@@ -142,7 +142,8 @@
     <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
     <string name="abandoned_promise_explanation">Bu simgenin uygulaması yüklü değil.
-         Bunu kaldırabilir veya uygulamayı arayabilir ve elle yükleyebilirsiniz.</string>
+         Bunu kaldırabilir veya uygulamayı arayabilir ve elle yükleyebilirsiniz.
+    </string>
     <!-- Title for an app which is being downloaded. -->
     <string name="app_downloading_title"><xliff:g example="Messenger" id="name">%1$s</xliff:g> indiriliyor, <xliff:g example="30%" id="progress">%2$s</xliff:g> tamamlandı</string>
     <!-- Title for an app whose download has been started. -->
