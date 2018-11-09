@@ -408,7 +408,7 @@
     <string name="reset_alternative_icons">대체 아이콘으로 설정 된 %1$d개의 앱을 재 설정 하 시겠습니까?</string>
     <!-- Strings for popup dialogs -->
     <string name="restore_backup">복구하기</string>
-    <string name="backup_name">이름:</string>
+    <string name="backup_name">이름: </string>
     <string name="backup_location">위치</string>
     <string name="backup_settings">설정</string>
     <string name="backup_wallpaper">배경화면</string>

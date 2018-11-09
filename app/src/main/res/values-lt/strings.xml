@@ -247,7 +247,7 @@
     <string name="list_app_apply">Taikyti</string>
     <string name="list_app_reset">Nust. iš naujo</string>
     <!-- Strings for popup dialogs -->
-    <string name="backup_name">Pavadinimas:</string>
+    <string name="backup_name">Pavadinimas: </string>
     <string name="backup_location">Vietovė</string>
     <string name="backup_wallpaper">Darbalaukio fonas</string>
     <string name="backup_share">Bendrinti</string>

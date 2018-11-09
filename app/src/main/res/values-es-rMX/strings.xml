@@ -408,7 +408,7 @@
     <string name="reset_alternative_icons">Tienes %1$d de apps con iconos alternativos, ¿quieres restablecerlos?</string>
     <!-- Strings for popup dialogs -->
     <string name="restore_backup">Restaurar</string>
-    <string name="backup_name">Nombre</string>
+    <string name="backup_name">Nombre </string>
     <string name="backup_location">Ubicación</string>
     <string name="backup_settings">Ajustes</string>
     <string name="backup_wallpaper">Fondo de pantalla</string>

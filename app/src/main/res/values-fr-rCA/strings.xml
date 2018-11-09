@@ -432,7 +432,7 @@
     <string name="backups">Sauvegardes</string>
     <string name="new_backup">Nouvelle sauvegarde</string>
     <string name="restore_backup">Restaurer</string>
-    <string name="backup_name">Nom:</string>
+    <string name="backup_name">Nom: </string>
     <string name="backup_location">Lieu</string>
     <string name="choose_backup_path">Parcourir</string>
     <string name="backup_homescreen">Ecran d\'accueil</string>

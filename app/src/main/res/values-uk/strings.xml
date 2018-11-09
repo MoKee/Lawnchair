@@ -388,7 +388,7 @@
     <string name="list_app_reset">Скинути</string>
     <!-- Strings for popup dialogs -->
     <string name="restore_backup">Відновити</string>
-    <string name="backup_name">Ім\'я:</string>
+    <string name="backup_name">Ім\'я: </string>
     <string name="backup_location">Розташування</string>
     <string name="backup_settings">Налаштування</string>
     <string name="backup_wallpaper">Шпалери</string>
