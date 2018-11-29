@@ -507,4 +507,6 @@ Brez omenjenega dovoljenja se lahko Lawnchair sesuje ali pa se lahko nepričakov
     <string name="dt2s_deviceadmin">Z uporabo admin naprave</string>
     <string name="dt2s_timeout">Z uporabo časovne omejitve zaslona</string>
     <string name="dt2s_root">Z uporabo root</string>
+    <string name="dt2s_admin_hint">Da bi lahko uporabili dvojni tap za zaklepanje naprave, morate najprej omogočiti administratorja naprave za Lawnchair. To je varno zaklepanje, kar pomeni, da boste pri naslednjem odklepanju morali vnesti PIN, če je nastavljen.</string>
+    <string name="dt2s_admin_warning">Z onemogočanjem administratorja naprave, ne boste mogli uporabljati zaklepanja z dvojnim tapom na domačem zaslonu.</string>
 </resources>
