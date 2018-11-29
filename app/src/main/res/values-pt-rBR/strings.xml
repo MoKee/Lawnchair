@@ -142,7 +142,8 @@
     <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
     <string name="abandoned_promise_explanation">O aplicativo deste ícone não está instalado.
-        Você pode remover o ícone, ou procurar o aplicativo e instalá-lo manualmente.</string>
+        Você pode remover o ícone, ou procurar o aplicativo e instalá-lo manualmente.   
+    </string>
     <!-- Title for an app which is being downloaded. -->
     <string name="app_downloading_title">Fazendo download de <xliff:g example="Messenger" id="name">%1$s</xliff:g>. <xliff:g example="30%" id="progress">%2$s</xliff:g> completo</string>
     <!-- Title for an app whose download has been started. -->

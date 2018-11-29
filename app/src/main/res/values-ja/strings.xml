@@ -299,7 +299,7 @@
     <string name="pixel_style_icons_pref_title">Pixel アイコンを使用する</string>
     <string name="pixel_style_icons_pref_summary">有効になっている場合は可能な限り円形のアイコンが使用されます</string>
     <string name="show_google_now_tab_pref_title">Google Now ページを表示する</string>
-    <string name="restart_lawnchair_pref_title">Lawnchair を再起動</string>
+    <string name="restart_lawnchair_pref_title"> Lawnchair を再起動</string>
     <string name="restart_lawnchair_pref_summary">一部の設定が正しく適用されない場合に役立ちます</string>
     <string name="rebuild_icondb_pref_title">アイコンデータベースを再構築する</string>
     <string name="pinch_to_overview_pref_title">概要にピンチ</string>
