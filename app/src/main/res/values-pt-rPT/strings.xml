@@ -420,4 +420,5 @@
     <string name="title_attribouter_email">E-mail</string>
     <string name="title_attribouter_license_permissions">Permissões</string>
     <!-- DT2S -->
+    <string name="dt2s_disabled">Desativado</string>
 </resources>
