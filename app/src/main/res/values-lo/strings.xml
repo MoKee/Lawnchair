@@ -22,6 +22,7 @@
     <!-- Application name -->
     <!-- Default folder name -->
     <!-- Work folder name -->
+    <string name="work_folder_name">ບ່ອນເຮັດວຽກ</string>
     <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
     <string name="activity_not_found">ແອັບຯບໍ່ໄດ້ຖືກຕິດຕັ້ງ.</string>
     <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
@@ -59,6 +60,7 @@
     <string name="all_apps_button_label">ລາຍຊື່ແອັບ</string>
     <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_home_button_label">ບ້ານ</string>
     <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
     <string name="remove_drop_target_label">ເອົາ​ອອກ</string>
     <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
@@ -126,6 +128,7 @@
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
     <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">ບໍ່ຮູ້ຈັກ</string>
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <string name="abandoned_clean_this">ເອົາ​ອອກ</string>
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
@@ -191,6 +194,7 @@
     <string name="action_deep_shortcut">ທາງລັດ</string>
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> ທາງລັດສຳລັບ <xliff:g id="APP_NAME">%2$s</xliff:g></string>
+    <string name="edit_drop_target_label">ແກ້ໄຂ</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
     <string name="wallpaper_instructions">ຕັ້ງເປັນພາບພື້ນຫຼັງ</string>
     <!-- Error message when an image is selected as a wallpaper,
@@ -228,8 +232,11 @@
     <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
     <string name="label_search">ຊອກຫາ</string>
     <!-- About Lawnchair -->
+    <string name="about_title">ກ່ຽວກັບ</string>
+    <string name="default_text">ຄ່າເລີ່ມຕົ້ນ</string>
     <string name="edit_icon_reset">ຄືນຄ່າ</string>
     <!-- Import/Export Strings -->
+    <string name="backup_import_title">ຄືນຄ່າ</string>
     <!-- Default units to use, either 'metric' or 'imperial' -->
     <string name="none">ບໍ່ໃຊ້</string>
     <string name="icon_shape_none">ບໍ່ໃຊ້</string>
@@ -238,6 +245,8 @@
     <string name="list_app_apply">ນຳໃຊ້</string>
     <string name="list_app_reset">ຄືນຄ່າ</string>
     <!-- Strings for popup dialogs -->
+    <string name="restore_backup">ຄືນຄ່າ</string>
+    <string name="backup_location">ສະຖານທີ່</string>
     <string name="backup_wallpaper">ຮູບພື້ນຫຼັງ</string>
     <string name="backup_share">ແບ່ງປັນ</string>
     <!-- Preference Category Pixel Searchbar Title -->
@@ -245,5 +254,7 @@
     <!-- Preference Category Drawer Title -->
     <!-- Preference Category Misc Title -->
     <!-- About screen -->
+    <string name="title_attribouter_email">ອີເມວ</string>
     <!-- DT2S -->
+    <string name="dt2s_disabled">ປິດໃຊ້ງານ</string>
 </resources>
