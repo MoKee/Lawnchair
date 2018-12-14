@@ -852,7 +852,7 @@ public final class Utilities {
     public static void setDefaultLauncher(@NotNull Context context) {
         PackageManager packageManager = context.getPackageManager();
         ComponentName fakeLauncher =
-                new ComponentName(context.getPackageName(), context.getPackageName() + ".FakeLauncher");
+                new ComponentName(context.getPackageName(), "ch.deletescape.lawnchair.FakeLauncher");
         ComponentName launcher = new ComponentName(context, Launcher.class);
 
         packageManager.setComponentEnabledSetting(fakeLauncher, PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP);

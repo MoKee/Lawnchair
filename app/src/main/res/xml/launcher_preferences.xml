@@ -40,7 +40,7 @@
         android:icon="@drawable/ic_import_export">
 
         <intent
-            android:targetPackage="@string/application_id"
+            android:targetPackage="org.mokee.lawnchair"
             android:targetClass="ch.deletescape.lawnchair.backup.BackupListActivity"/>
     </Preference>
 
