@@ -241,11 +241,15 @@
     <string name="default_text">Standard</string>
     <string name="edit_icon_reset">Tilbakestill</string>
     <string name="theme_dark">Mørkt</string>
+    <string name="pull_down_do_nothing">Ikke gjør noe</string>
     <!-- Import/Export Strings -->
     <string name="backup_import_title">Gjenopprett</string>
     <!-- Default units to use, either 'metric' or 'imperial' -->
+    <string name="pref_cat_weather">Vær</string>
+    <string name="pref_weather_title">Vær</string>
     <string name="none">Ingen</string>
     <string name="icon_shape_none">Ingen</string>
+    <string name="icon_shape_circle">Sirkel</string>
     <!-- Time format for Weather Widget -->
     <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
     <string name="list_app_apply">Bruk</string>
@@ -263,6 +267,7 @@
     <!-- Preference Category Misc Title -->
     <!-- About screen -->
     <string name="title_attribouter_email">E-post</string>
+    <string name="title_attribouter_license_permissions">Tillatelser</string>
     <!-- DT2S -->
     <string name="dt2s_disabled">Deaktivert</string>
 </resources>

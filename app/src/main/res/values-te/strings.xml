@@ -22,6 +22,7 @@
     <!-- Application name -->
     <!-- Default folder name -->
     <!-- Work folder name -->
+    <string name="work_folder_name">కార్యాలయం</string>
     <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
     <string name="activity_not_found">అనువర్తనం ఇన్‌స్టాల్ చేయబడలేదు.</string>
     <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
@@ -59,6 +60,7 @@
     <string name="all_apps_button_label">అనువర్తనాల జాబితా</string>
     <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_home_button_label">హోమ్</string>
     <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
     <string name="remove_drop_target_label">తీసివేయి</string>
     <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
@@ -126,6 +128,7 @@
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
     <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">తెలియదు</string>
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <string name="abandoned_clean_this">తీసివేయి</string>
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
@@ -191,7 +194,9 @@
     <string name="action_deep_shortcut">సత్వరమార్గాలు</string>
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description"><xliff:g id="APP_NAME">%2$s</xliff:g> కోసం <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> సత్వరమార్గాలు</string>
+    <string name="edit_drop_target_label">సవరించు</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">వాల్‌పేపర్‌ను సెట్ చేయి</string>
     <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
     <string name="image_load_fail">చిత్రాన్ని లోడ్ చేయడం సాధ్యపడలేదు</string>
@@ -206,6 +211,10 @@
     <!-- Shown when wallpapers are selected in Wallpaper picker -->
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_items_selected">
+        <item quantity="one">%1$d ఎంపికైంది</item>
+        <item quantity="other">%1$d ఎంపికైంది</item>
+    </plurals>
     <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
     <string name="wallpaper_accessibility_name">%2$dలో %1$dవ వాల్‌పేపర్</string>
@@ -241,5 +250,6 @@
     <!-- Preference Category Drawer Title -->
     <!-- Preference Category Misc Title -->
     <!-- About screen -->
+    <string name="title_attribouter_email">ఈమెయిల్‌</string>
     <!-- DT2S -->
 </resources>

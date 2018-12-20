@@ -196,6 +196,7 @@
     <string name="action_deep_shortcut">Prečaci</string>
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description">Prečaca za aplikaciju <xliff:g id="APP_NAME">%2$s</xliff:g>: <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g></string>
+    <string name="edit_drop_target_label">Uređivanje</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
     <string name="wallpaper_instructions">Postavi pozadinu</string>
     <!-- Error message when an image is selected as a wallpaper,
@@ -212,6 +213,11 @@
     <!-- Shown when wallpapers are selected in Wallpaper picker -->
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_items_selected">
+        <item quantity="one">%1$d odabran</item>
+        <item quantity="few">%1$d odabranih</item>
+        <item quantity="other">%1$d označene</item>
+    </plurals>
     <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
     <string name="wallpaper_accessibility_name">%1$d. pozadinska slika od %2$d</string>
@@ -231,6 +237,9 @@
     <string name="label_search">Pretraživanje</string>
     <string name="label_voice_search">Glasovno pretraživanje</string>
     <!-- About Lawnchair -->
+    <string name="export_prefs_title">Postavke</string>
+    <string name="import_prefs_title">Postavke</string>
+    <string name="default_text">Zadano</string>
     <string name="edit_icon_reset">Poništi</string>
     <string name="theme_dark">Tamno</string>
     <!-- Import/Export Strings -->
@@ -247,6 +256,7 @@
     <!-- Strings for popup dialogs -->
     <string name="backup_name">Naziv</string>
     <string name="backup_location">Lokacija</string>
+    <string name="backup_settings">Postavke</string>
     <string name="backup_wallpaper">Pozadinska slika</string>
     <string name="backup_share">Podijeli</string>
     <!-- Preference Category Pixel Searchbar Title -->
@@ -254,5 +264,8 @@
     <!-- Preference Category Drawer Title -->
     <!-- Preference Category Misc Title -->
     <!-- About screen -->
+    <string name="title_attribouter_email">E-pošta</string>
+    <string name="title_attribouter_license_permissions">Dopuštenja</string>
     <!-- DT2S -->
+    <string name="dt2s_disabled">Onemogućeno</string>
 </resources>

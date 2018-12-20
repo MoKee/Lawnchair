@@ -196,6 +196,7 @@
     <string name="action_deep_shortcut">Kortpaaie</string>
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> kortpaaie vir <xliff:g id="APP_NAME">%2$s</xliff:g></string>
+    <string name="edit_drop_target_label">Redigeer</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
     <string name="wallpaper_instructions">Stel muurpapier</string>
     <!-- Error message when an image is selected as a wallpaper,
@@ -233,19 +234,29 @@
     <!-- Option for setting the wallpaper only on the lock screen. -->
     <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
     <string name="label_search">Soek</string>
+    <string name="label_voice_search">Stem soektog</string>
     <!-- About Lawnchair -->
+    <string name="export_prefs_title">Instellings</string>
+    <string name="import_prefs_title">Instellings</string>
+    <string name="default_text">Verstek</string>
     <string name="edit_icon_reset">Stel terug</string>
     <string name="theme_dark">Donker</string>
+    <string name="pull_down_do_nothing">Doen niks nie</string>
     <!-- Import/Export Strings -->
     <!-- Default units to use, either 'metric' or 'imperial' -->
+    <string name="pref_cat_weather">Weer</string>
+    <string name="pref_weather_title">Weer</string>
     <string name="none">Geen</string>
     <string name="icon_shape_none">Geen</string>
+    <string name="icon_shape_circle">Sirkel</string>
     <!-- Time format for Weather Widget -->
     <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
     <string name="list_app_apply">Pas toe</string>
     <string name="list_app_reset">Stel terug</string>
     <!-- Strings for popup dialogs -->
+    <string name="backup_name">Naam</string>
     <string name="backup_location">Ligging</string>
+    <string name="backup_settings">Instellings</string>
     <string name="backup_wallpaper">Muurpapier</string>
     <string name="backup_share">Deling</string>
     <!-- Preference Category Pixel Searchbar Title -->
@@ -253,5 +264,8 @@
     <!-- Preference Category Drawer Title -->
     <!-- Preference Category Misc Title -->
     <!-- About screen -->
+    <string name="title_attribouter_email">Epos</string>
+    <string name="title_attribouter_license_permissions">Toestemmings</string>
     <!-- DT2S -->
+    <string name="dt2s_disabled">Gedeaktiveer</string>
 </resources>

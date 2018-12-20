@@ -22,6 +22,7 @@
     <!-- Application name -->
     <!-- Default folder name -->
     <!-- Work folder name -->
+    <string name="work_folder_name">Trabayu</string>
     <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
     <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
     <!-- SafeMode shortcut error string -->
@@ -59,6 +60,7 @@
     <!-- Widgets: -->
     <!-- Text to show user in place of a gadget when we can't display it properly -->
     <!-- Text to show user in place of a gadget when it is not yet initialized. -->
+    <string name="gadget_setup_text">Configuración</string>
     <!-- Text to inform the user that they can't uninstall a system application -->
     <!-- Default folder title -->
     <!-- Accessibility -->
@@ -76,7 +78,9 @@
     <!-- Strings for the customization mode -->
     <!-- Text for widget add button -->
     <!-- Text for wallpaper change button -->
+    <string name="wallpaper_button_text">Fondos de pantalla</string>
     <!-- Text for settings button -->
+    <string name="settings_button_text">Axustes</string>
     <!-- Message shown when a feature is disabled by the administrator -->
     <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
     <!-- Strings for settings -->
@@ -86,6 +90,7 @@
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+    <string name="abandoned_search">Guetar</string>
     <!-- Title for abandoned promise dialog. -->
     <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
@@ -118,6 +123,7 @@
     <!-- Accessibility confirmation for widget resize. -->
     <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
+    <string name="edit_drop_target_label">Editar</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
     <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
@@ -125,42 +131,66 @@
          but the wallpaper cropper cannot load it. The user will
          usually see this when using another app and trying to set
          an image as the wallpaper -->
+    <string name="wallpaper_load_fail">Nun pudo cargase la imaxe como fondu de pantalla</string>
     <!-- Error message when an image is selected as a wallpaper,
          but something goes wrong when the user clicks "Set wallpaper" -->
+    <string name="wallpaper_set_fail">Nun pudo afitase la imaxe como fondu de pantalla</string>
     <!-- Shown when wallpapers are selected in Wallpaper picker -->
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_items_selected">
+        <item quantity="one">%1$d esbilláu</item>
+        <item quantity="other">%1$d esbillaos</item>
+    </plurals>
     <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
     <!-- Accessibility string used to announce that a wallpaper has been selected. -->
     <!-- Label on button to delete wallpaper(s) -->
+    <string name="wallpaper_delete">Desaniciar</string>
     <!-- Label on button in Wallpaper Picker to pick an image -->
+    <string name="pick_image">Les mios semeyes</string>
     <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">Fondos de pantalla</string>
     <!-- Title of activity for cropping wallpapers -->
     <!-- Option for setting the wallpaper only on the home screen. -->
+    <string name="which_wallpaper_option_home_screen">Pantalla d\'aniciu</string>
     <!-- Option for setting the wallpaper only on the lock screen. -->
+    <string name="which_wallpaper_option_lock_screen">Pantalla de bloquéu</string>
     <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+    <string name="which_wallpaper_option_home_screen_and_lock_screen">Pantalles d\'aniciu y bloquéu</string>
+    <string name="label_search">Guetar</string>
+    <string name="label_voice_search">Gueta per voz</string>
     <!-- About Lawnchair -->
     <string name="pixel_ui_pref_title">Tema</string>
     <string name="export_db_title">Base de datos</string>
     <string name="import_db_title">Base de datos</string>
+    <string name="export_prefs_title">Axustes</string>
+    <string name="import_prefs_title">Axustes</string>
+    <string name="edit_icon_reset">Reafitar</string>
     <string name="theme_pref_title">Tema</string>
     <string name="theme_black">Prietu</string>
+    <string name="pull_down_do_nothing">Nun facer nada</string>
     <!-- Import/Export Strings -->
     <string name="backup_export_title">Respaldar</string>
     <!-- Default units to use, either 'metric' or 'imperial' -->
     <string name="folder">Carpeta</string>
     <string name="loading">Cargando…</string>
+    <string name="icon_shape_circle">Círculu</string>
     <!-- Time format for Weather Widget -->
     <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
+    <string name="list_app_reset">Reafitar</string>
     <!-- Strings for popup dialogs -->
     <string name="backup_name">Nome:</string>
     <string name="backup_location">Allugamientu</string>
+    <string name="backup_settings">Axustes</string>
+    <string name="backup_share">Compartir</string>
     <!-- Preference Category Pixel Searchbar Title -->
     <!-- Preference Category Icons Title -->
     <!-- Preference Category Drawer Title -->
     <!-- Preference Category Misc Title -->
     <!-- About screen -->
+    <string name="title_attribouter_email">Corréu</string>
     <string name="title_attribouter_license_permissions">Permisos</string>
     <!-- DT2S -->
+    <string name="dt2s_disabled">Deshabilitóse</string>
 </resources>

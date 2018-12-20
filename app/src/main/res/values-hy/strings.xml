@@ -126,6 +126,7 @@
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
     <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">Անհայտ</string>
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <string name="abandoned_clean_this">Հեռացնել</string>
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
@@ -192,6 +193,7 @@
     <string name="action_deep_shortcut">Դյուրանցումներ</string>
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> դյուրանցումներ <xliff:g id="APP_NAME">%2$s</xliff:g> հավելվածի համար</string>
+    <string name="edit_drop_target_label">Խմբագրել</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
     <string name="wallpaper_instructions">Սահմանել պաստառ</string>
     <!-- Error message when an image is selected as a wallpaper,
@@ -240,6 +242,7 @@
     <string name="list_app_apply">Կիրառել</string>
     <string name="list_app_reset">Վերակայել</string>
     <!-- Strings for popup dialogs -->
+    <string name="backup_location">Տեղադրություն</string>
     <string name="backup_wallpaper">Պաստառ</string>
     <string name="backup_share">Կիսվել</string>
     <!-- Preference Category Pixel Searchbar Title -->

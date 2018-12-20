@@ -58,6 +58,7 @@
     <!-- Widgets: -->
     <!-- Text to show user in place of a gadget when we can't display it properly -->
     <!-- Text to show user in place of a gadget when it is not yet initialized. -->
+    <string name="gadget_setup_text">دامه‌زراندن</string>
     <!-- Text to inform the user that they can't uninstall a system application -->
     <!-- Default folder title -->
     <!-- Accessibility -->

@@ -119,6 +119,7 @@
     <!-- Text for wallpaper change button -->
     <string name="wallpaper_button_text">Horma-paperak</string>
     <!-- Text for settings button -->
+    <string name="settings_button_text">Ezarpenak</string>
     <!-- Message shown when a feature is disabled by the administrator -->
     <string name="msg_disabled_by_admin">Administratzaileak desgaitu du</string>
     <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
@@ -128,9 +129,11 @@
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
     <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">Ezezaguna</string>
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <string name="abandoned_clean_this">Kendu</string>
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+    <string name="abandoned_search">Bilatu</string>
     <!-- Title for abandoned promise dialog. -->
     <string name="abandoned_promises_title">Aplikazio hau ez dago instalatuta</string>
     <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
@@ -195,6 +198,7 @@
     <string name="shortcuts_menu_description"><xliff:g id="APP_NAME">%2$s</xliff:g> aplikazioaren <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> lasterbide</string>
     <string name="edit_drop_target_label">Editatu</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">Ezarri horma-papera</string>
     <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
     <string name="image_load_fail">Ezin izan da irudia kargatu</string>
@@ -209,12 +213,17 @@
     <!-- Shown when wallpapers are selected in Wallpaper picker -->
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_items_selected">
+        <item quantity="one">%1$d hautatuta</item>
+        <item quantity="other">%1$d hautatuta</item>
+    </plurals>
     <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
     <string name="wallpaper_accessibility_name">%1$d/%2$d horma-papera</string>
     <!-- Accessibility string used to announce that a wallpaper has been selected. -->
     <string name="announce_selection"><xliff:g id="LABEL">%1$s</xliff:g> hautatu da</string>
     <!-- Label on button to delete wallpaper(s) -->
+    <string name="wallpaper_delete">Ezabatu</string>
     <!-- Label on button in Wallpaper Picker to pick an image -->
     <string name="pick_image">Nire argazkiak</string>
     <!-- Option in "Select wallpaper from" dialog box -->
@@ -224,11 +233,15 @@
     <!-- Option for setting the wallpaper only on the home screen. -->
     <!-- Option for setting the wallpaper only on the lock screen. -->
     <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+    <string name="label_search">Bilatu</string>
     <string name="label_voice_search">Ahots bidezko bilaketa</string>
     <!-- About Lawnchair -->
+    <string name="export_prefs_title">Ezarpenak</string>
+    <string name="import_prefs_title">Ezarpenak</string>
     <string name="default_text">Lehenetsia</string>
     <string name="edit_icon_reset">Berrezarri</string>
     <string name="theme_dark">Iluna</string>
+    <string name="pull_down_do_nothing">Ez egin ezer</string>
     <!-- Import/Export Strings -->
     <!-- Default units to use, either 'metric' or 'imperial' -->
     <string name="pref_cat_weather">Eguraldia</string>
@@ -243,6 +256,8 @@
     <!-- Strings for popup dialogs -->
     <string name="backup_name">Izena</string>
     <string name="backup_location">Kokalekua</string>
+    <string name="backup_settings">Ezarpenak</string>
+    <string name="backup_share">Partekatu</string>
     <!-- Preference Category Pixel Searchbar Title -->
     <!-- Preference Category Icons Title -->
     <!-- Preference Category Drawer Title -->
@@ -251,4 +266,5 @@
     <string name="title_attribouter_email">Eposta</string>
     <string name="title_attribouter_license_permissions">Baimenak</string>
     <!-- DT2S -->
+    <string name="dt2s_disabled">Desgaituta</string>
 </resources>

@@ -22,6 +22,7 @@
     <!-- Application name -->
     <!-- Default folder name -->
     <!-- Work folder name -->
+    <string name="work_folder_name">Në punë</string>
     <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
     <string name="activity_not_found">Aplikacioni nuk është i instaluar.</string>
     <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
@@ -59,6 +60,7 @@
     <string name="all_apps_button_label">Lista e aplikacioneve</string>
     <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_home_button_label">Në shtëpi</string>
     <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
     <string name="remove_drop_target_label">Hiqe</string>
     <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
@@ -117,6 +119,7 @@
     <!-- Text for wallpaper change button -->
     <string name="wallpaper_button_text">Imazhet e sfondit</string>
     <!-- Text for settings button -->
+    <string name="settings_button_text">Parametrat</string>
     <!-- Message shown when a feature is disabled by the administrator -->
     <string name="msg_disabled_by_admin">Çaktivizuar nga administratori</string>
     <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
@@ -129,6 +132,7 @@
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <string name="abandoned_clean_this">Hiqe</string>
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+    <string name="abandoned_search">Kërko</string>
     <!-- Title for abandoned promise dialog. -->
     <string name="abandoned_promises_title">Aplikacioni nuk është i instaluar</string>
     <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
@@ -191,7 +195,9 @@
     <string name="action_deep_shortcut">Shkurtoret</string>
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> shkurtesa për <xliff:g id="APP_NAME">%2$s</xliff:g></string>
+    <string name="edit_drop_target_label">Redakto</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">Cakto imazhin e sfondit</string>
     <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
     <string name="image_load_fail">Nuk mund të ngarkonte imazhin</string>
@@ -206,12 +212,17 @@
     <!-- Shown when wallpapers are selected in Wallpaper picker -->
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_items_selected">
+        <item quantity="one">%1$d e zgjedhur</item>
+        <item quantity="other">%1$d të zgjedhura</item>
+    </plurals>
     <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
     <string name="wallpaper_accessibility_name">Imazhi i sfondit: %1$d nga gjithsej %2$d</string>
     <!-- Accessibility string used to announce that a wallpaper has been selected. -->
     <string name="announce_selection"><xliff:g id="LABEL">%1$s</xliff:g> u përzgjodh</string>
     <!-- Label on button to delete wallpaper(s) -->
+    <string name="wallpaper_delete">Fshi</string>
     <!-- Label on button in Wallpaper Picker to pick an image -->
     <string name="pick_image">Fotografitë e mia</string>
     <!-- Option in "Select wallpaper from" dialog box -->
@@ -221,18 +232,30 @@
     <!-- Option for setting the wallpaper only on the home screen. -->
     <!-- Option for setting the wallpaper only on the lock screen. -->
     <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+    <string name="label_search">Kërko</string>
+    <string name="label_voice_search">Kërkimi me zë</string>
     <!-- About Lawnchair -->
+    <string name="export_prefs_title">Parametrat</string>
+    <string name="import_prefs_title">Parametrat</string>
+    <string name="default_text">E paracaktuar</string>
     <string name="edit_icon_reset">Rivendos</string>
+    <string name="pull_down_do_nothing">Mos bëj asgjë</string>
     <!-- Import/Export Strings -->
     <!-- Default units to use, either 'metric' or 'imperial' -->
+    <string name="pref_cat_weather">Moti</string>
+    <string name="pref_weather_title">Moti</string>
     <string name="none">Asnjë</string>
     <string name="icon_shape_none">Asnjë</string>
+    <string name="icon_shape_circle">Rreth</string>
     <!-- Time format for Weather Widget -->
     <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
     <string name="list_app_apply">Zbato</string>
     <string name="list_app_reset">Rivendos</string>
     <!-- Strings for popup dialogs -->
+    <string name="backup_name">Emri</string>
     <string name="backup_location">Vendndodhja</string>
+    <string name="backup_settings">Parametrat</string>
+    <string name="backup_share">Ndaj</string>
     <!-- Preference Category Pixel Searchbar Title -->
     <!-- Preference Category Icons Title -->
     <!-- Preference Category Drawer Title -->
@@ -240,4 +263,5 @@
     <!-- About screen -->
     <string name="title_attribouter_license_permissions">Lejet</string>
     <!-- DT2S -->
+    <string name="dt2s_disabled">E çaktivizuar</string>
 </resources>

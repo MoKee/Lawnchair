@@ -406,6 +406,7 @@
     <string name="reset_alternative_icons">קיימים %1$d אפליקציות עם סמלים חלופיים, האם ברצונך לאפס אותם?</string>
     <!-- Strings for popup dialogs -->
     <string name="restore_backup">שחזר</string>
+    <string name="backup_name">שם</string>
     <string name="backup_location">מיקום</string>
     <string name="backup_settings">הגדרות</string>
     <string name="backup_wallpaper">טפט</string>
@@ -416,6 +417,7 @@
     <!-- Preference Category Misc Title -->
     <!-- About screen -->
     <string name="title_attribouter_email">דוא\"ל</string>
+    <string name="title_attribouter_license_permissions">הרשאות</string>
     <!-- DT2S -->
     <string name="dt2s_disabled">מבוטל</string>
 </resources>

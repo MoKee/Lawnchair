@@ -117,6 +117,7 @@
     <!-- Text for wallpaper change button -->
     <string name="wallpaper_button_text">Позадини</string>
     <!-- Text for settings button -->
+    <string name="settings_button_text">Поставки</string>
     <!-- Message shown when a feature is disabled by the administrator -->
     <string name="msg_disabled_by_admin">Оневозможено од администраторот</string>
     <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
@@ -129,6 +130,7 @@
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <string name="abandoned_clean_this">Отстрани</string>
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+    <string name="abandoned_search">Пребарај</string>
     <!-- Title for abandoned promise dialog. -->
     <string name="abandoned_promises_title">Апликацијата не е инсталирана</string>
     <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
@@ -192,6 +194,7 @@
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> кратенки за <xliff:g id="APP_NAME">%2$s</xliff:g></string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">Подеси тапет</string>
     <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
     <string name="image_load_fail">Сликата не можеше да се вчита</string>
@@ -212,6 +215,7 @@
     <!-- Accessibility string used to announce that a wallpaper has been selected. -->
     <string name="announce_selection">Избран <xliff:g id="LABEL">%1$s</xliff:g></string>
     <!-- Label on button to delete wallpaper(s) -->
+    <string name="wallpaper_delete">Избриши</string>
     <!-- Label on button in Wallpaper Picker to pick an image -->
     <string name="pick_image">Моите фотографии</string>
     <!-- Option in "Select wallpaper from" dialog box -->
@@ -221,21 +225,33 @@
     <!-- Option for setting the wallpaper only on the home screen. -->
     <!-- Option for setting the wallpaper only on the lock screen. -->
     <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+    <string name="label_search">Пребарај</string>
+    <string name="label_voice_search">Гласовно пребарување</string>
     <!-- About Lawnchair -->
+    <string name="export_prefs_title">Поставки</string>
+    <string name="import_prefs_title">Поставки</string>
+    <string name="default_text">Стандардно</string>
     <string name="edit_icon_reset">Ресетирај</string>
+    <string name="pull_down_do_nothing">Не прави ништо</string>
     <!-- Import/Export Strings -->
     <!-- Default units to use, either 'metric' or 'imperial' -->
+    <string name="pref_cat_weather">Време</string>
+    <string name="pref_weather_title">Време</string>
     <string name="none">Нема</string>
     <string name="icon_shape_none">Нема</string>
+    <string name="icon_shape_circle">Круг</string>
     <!-- Time format for Weather Widget -->
     <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
     <string name="list_app_apply">Примени</string>
     <string name="list_app_reset">Ресетирај</string>
     <!-- Strings for popup dialogs -->
+    <string name="backup_name">Име</string>
+    <string name="backup_settings">Поставки</string>
     <!-- Preference Category Pixel Searchbar Title -->
     <!-- Preference Category Icons Title -->
     <!-- Preference Category Drawer Title -->
     <!-- Preference Category Misc Title -->
     <!-- About screen -->
     <!-- DT2S -->
+    <string name="dt2s_disabled">Оневозможено</string>
 </resources>

@@ -196,6 +196,7 @@
     <string name="shortcuts_menu_description"><xliff:g id="APP_NAME">%2$s</xliff:g> အတွက် အမြန်နည်း <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> ခု</string>
     <string name="edit_drop_target_label">တည်းဖြတ်မည်</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">နောက်ခံအား သတ်မှတ်ရန်</string>
     <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
     <string name="image_load_fail">ပုံရိပ် တင် မရပါ</string>

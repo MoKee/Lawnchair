@@ -404,6 +404,7 @@
     <string name="reset_alternative_icons_title">वैकल्पिक एप्लिकेशन आइकन रीसेट करें?</string>
     <string name="reset_alternative_icons">आपके पास वैकल्पिक आइकन के साथ%1$d ऐप्स हैं, क्या आप उन्हें रीसेट करना चाहते हैं?</string>
     <!-- Strings for popup dialogs -->
+    <string name="restore_backup">आयात</string>
     <string name="backup_location">स्थान</string>
     <string name="backup_wallpaper">वॉलपेपर</string>
     <string name="backup_share">साझा करें</string>

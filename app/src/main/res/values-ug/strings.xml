@@ -22,6 +22,7 @@
     <!-- Application name -->
     <!-- Default folder name -->
     <!-- Work folder name -->
+    <string name="work_folder_name">ئىش</string>
     <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
     <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
     <!-- SafeMode shortcut error string -->
@@ -44,6 +45,7 @@
     <!-- All applications label -->
     <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_home_button_label">باش ئېكران</string>
     <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
     <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
     <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
@@ -173,5 +175,6 @@
     <!-- Preference Category Drawer Title -->
     <!-- Preference Category Misc Title -->
     <!-- About screen -->
+    <string name="title_attribouter_email">ئېلخەت</string>
     <!-- DT2S -->
 </resources>

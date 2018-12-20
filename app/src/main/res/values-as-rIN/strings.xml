@@ -22,6 +22,7 @@
     <!-- Application name -->
     <!-- Default folder name -->
     <!-- Work folder name -->
+    <string name="work_folder_name">কৰ্ম</string>
     <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
     <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
     <!-- SafeMode shortcut error string -->
@@ -44,6 +45,7 @@
     <!-- All applications label -->
     <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_home_button_label">হোম</string>
     <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
     <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
     <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
@@ -83,6 +85,7 @@
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
     <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">অজ্ঞাত</string>
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
     <!-- Title for abandoned promise dialog. -->
@@ -117,6 +120,7 @@
     <!-- Accessibility confirmation for widget resize. -->
     <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
+    <string name="edit_drop_target_label">সম্পাদনা</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
     <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
@@ -129,6 +133,10 @@
     <!-- Shown when wallpapers are selected in Wallpaper picker -->
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_items_selected">
+        <item quantity="one">%1$d বাচনি কৰা হল</item>
+        <item quantity="other">%1$d বাচনি কৰা হল</item>
+    </plurals>
     <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
     <!-- Accessibility string used to announce that a wallpaper has been selected. -->
@@ -143,6 +151,8 @@
     <string name="theme_dark">আন্ধাৰ</string>
     <!-- Import/Export Strings -->
     <!-- Default units to use, either 'metric' or 'imperial' -->
+    <string name="none">হাল্লা</string>
+    <string name="icon_shape_none">হাল্লা</string>
     <!-- Time format for Weather Widget -->
     <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
     <!-- Strings for popup dialogs -->
@@ -152,5 +162,6 @@
     <!-- Preference Category Drawer Title -->
     <!-- Preference Category Misc Title -->
     <!-- About screen -->
+    <string name="title_attribouter_email">ইমেইল</string>
     <!-- DT2S -->
 </resources>

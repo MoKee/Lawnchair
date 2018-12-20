@@ -374,6 +374,7 @@
     <!-- Preference Category Misc Title -->
     <!-- About screen -->
     <string name="title_attribouter_email">E-mail</string>
+    <string name="title_attribouter_license_permissions">Tilladelser</string>
     <!-- DT2S -->
     <string name="dt2s_disabled">Inaktiv</string>
 </resources>

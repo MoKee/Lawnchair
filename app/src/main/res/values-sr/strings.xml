@@ -406,8 +406,10 @@
     <string name="reset_alternative_icons_title">Поништи алтернативне апликације икона?</string>
     <string name="reset_alternative_icons">Имате %1$d апликација са алтернативним иконама, желите ли да поништите их?</string>
     <!-- Strings for popup dialogs -->
+    <string name="restore_backup">Увези</string>
     <string name="backup_name">Име: </string>
     <string name="backup_location">Локација</string>
+    <string name="backup_settings">Подешавања</string>
     <string name="backup_wallpaper">Позадина</string>
     <string name="backup_share">Дели</string>
     <!-- Preference Category Pixel Searchbar Title -->

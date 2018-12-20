@@ -195,6 +195,7 @@
     <string name="action_deep_shortcut">Njia za mkato</string>
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description">Njia <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> za mkato za <xliff:g id="APP_NAME">%2$s</xliff:g></string>
+    <string name="edit_drop_target_label">Badilisha</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
     <string name="wallpaper_instructions">Weka mandhari</string>
     <!-- Error message when an image is selected as a wallpaper,
@@ -243,6 +244,7 @@
     <string name="list_app_apply">Tekeleza</string>
     <string name="list_app_reset">Weka upya</string>
     <!-- Strings for popup dialogs -->
+    <string name="backup_location">Eneo</string>
     <string name="backup_wallpaper">Mandhari</string>
     <string name="backup_share">Shiriki</string>
     <!-- Preference Category Pixel Searchbar Title -->

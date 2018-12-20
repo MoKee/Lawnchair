@@ -404,8 +404,10 @@
     <string name="reset_alternative_icons_title">Voleu restablir les icones d\'aplicacions alternatives?</string>
     <string name="reset_alternative_icons">Teniu %1$d aplicacions amb icones alternatives, voleu reiniciar-les?</string>
     <!-- Strings for popup dialogs -->
+    <string name="restore_backup">Restaura</string>
     <string name="backup_name">Nom</string>
     <string name="backup_location">Ubicació</string>
+    <string name="backup_settings">Configuració</string>
     <string name="backup_wallpaper">Fons de pantalla</string>
     <string name="backup_share">Comparteix</string>
     <!-- Preference Category Pixel Searchbar Title -->
@@ -414,6 +416,7 @@
     <!-- Preference Category Misc Title -->
     <!-- About screen -->
     <string name="title_attribouter_email">Correu electrònic</string>
+    <string name="title_attribouter_license_permissions">Permisos</string>
     <!-- DT2S -->
     <string name="dt2s_disabled">Desactivat</string>
 </resources>

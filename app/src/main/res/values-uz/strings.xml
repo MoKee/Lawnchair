@@ -193,6 +193,7 @@
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description"><xliff:g id="APP_NAME">%2$s</xliff:g> ilovasi uchun <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> ta tezkor tugma</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">Fonga rasm o‘rnatish</string>
     <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
     <string name="image_load_fail">Rasm yuklanmadi</string>

@@ -85,6 +85,7 @@
     <!-- Strings for the customization mode -->
     <!-- Text for widget add button -->
     <!-- Text for wallpaper change button -->
+    <string name="wallpaper_button_text">வால்பேப்பர்கள்</string>
     <!-- Text for settings button -->
     <!-- Message shown when a feature is disabled by the administrator -->
     <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
@@ -130,24 +131,35 @@
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="edit_drop_target_label">திருத்தம்</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">வால்பேப்பரை அமை</string>
     <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
     <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper cropper cannot load it. The user will
          usually see this when using another app and trying to set
          an image as the wallpaper -->
+    <string name="wallpaper_load_fail">படத்தை வால்பேப்பராக ஏற்ற முடியவில்லை</string>
     <!-- Error message when an image is selected as a wallpaper,
          but something goes wrong when the user clicks "Set wallpaper" -->
+    <string name="wallpaper_set_fail">படத்தை வால்பேப்பராக அமைக்க முடியவில்லை</string>
     <!-- Shown when wallpapers are selected in Wallpaper picker -->
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_items_selected">
+        <item quantity="one">%1$d தேர்ந்தெடுக்கப்பட்டது</item>
+        <item quantity="other">%1$d தேர்ந்தெடுக்கப்பட்டது</item>
+    </plurals>
     <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
+    <string name="wallpaper_accessibility_name">வால்பேப்பர் %1$d / %2$d</string>
     <!-- Accessibility string used to announce that a wallpaper has been selected. -->
     <!-- Label on button to delete wallpaper(s) -->
     <!-- Label on button in Wallpaper Picker to pick an image -->
+    <string name="pick_image">எனது படங்கள்</string>
     <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">வால்பேப்பர்கள்</string>
     <!-- Title of activity for cropping wallpapers -->
+    <string name="crop_wallpaper">வால்பேப்பரைச் செதுக்கு</string>
     <!-- Option for setting the wallpaper only on the home screen. -->
     <!-- Option for setting the wallpaper only on the lock screen. -->
     <!-- Option for setting the wallpaper on both the home screen and lock screen. -->

@@ -60,6 +60,7 @@
     <!-- Widgets: -->
     <!-- Text to show user in place of a gadget when we can't display it properly -->
     <!-- Text to show user in place of a gadget when it is not yet initialized. -->
+    <string name="gadget_setup_text">Astellen</string>
     <!-- Text to inform the user that they can't uninstall a system application -->
     <!-- Default folder title -->
     <!-- Accessibility -->
@@ -85,6 +86,7 @@
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
     <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">Onbekannt</string>
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
     <string name="abandoned_search">Sichen</string>
@@ -120,6 +122,7 @@
     <!-- Accessibility confirmation for widget resize. -->
     <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
+    <string name="edit_drop_target_label">Änneren</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
     <string name="wallpaper_instructions">Hannergrondbild setzen</string>
     <!-- Error message when an image is selected as a wallpaper,

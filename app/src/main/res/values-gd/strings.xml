@@ -83,6 +83,7 @@
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
     <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">Chan eil fhios</string>
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
     <!-- Title for abandoned promise dialog. -->
@@ -142,6 +143,8 @@
     <!-- About Lawnchair -->
     <!-- Import/Export Strings -->
     <!-- Default units to use, either 'metric' or 'imperial' -->
+    <string name="none">Chan eil gin</string>
+    <string name="icon_shape_none">Chan eil gin</string>
     <!-- Time format for Weather Widget -->
     <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
     <!-- Strings for popup dialogs -->

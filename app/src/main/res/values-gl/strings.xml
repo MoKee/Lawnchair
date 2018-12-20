@@ -22,6 +22,7 @@
     <!-- Application name -->
     <!-- Default folder name -->
     <!-- Work folder name -->
+    <string name="work_folder_name">Traballo</string>
     <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
     <string name="activity_not_found">A aplicación non está instalada</string>
     <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
@@ -59,6 +60,7 @@
     <string name="all_apps_button_label">Lista de aplicacións</string>
     <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_home_button_label">Inicio</string>
     <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
     <string name="remove_drop_target_label">Eliminar</string>
     <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
@@ -116,6 +118,7 @@
     <!-- Text for wallpaper change button -->
     <string name="wallpaper_button_text">Fondos de pantalla</string>
     <!-- Text for settings button -->
+    <string name="settings_button_text">Configuración</string>
     <!-- Message shown when a feature is disabled by the administrator -->
     <string name="msg_disabled_by_admin">Función desactivada polo administrador</string>
     <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
@@ -125,9 +128,11 @@
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
     <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">Non se coñece</string>
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <string name="abandoned_clean_this">Eliminar</string>
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+    <string name="abandoned_search">Procurar</string>
     <!-- Title for abandoned promise dialog. -->
     <string name="abandoned_promises_title">Esta aplicación non está instalada</string>
     <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
@@ -190,7 +195,9 @@
     <string name="action_deep_shortcut">Atallos</string>
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> atallos para <xliff:g id="APP_NAME">%2$s</xliff:g></string>
+    <string name="edit_drop_target_label">Editar</string>
     <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">Establecer fondo de pantalla</string>
     <!-- Error message when an image is selected as a wallpaper,
          but the wallpaper picker cannot load it -->
     <string name="image_load_fail">Non se puido cargar a imaxe</string>
@@ -205,12 +212,17 @@
     <!-- Shown when wallpapers are selected in Wallpaper picker -->
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_items_selected">
+        <item quantity="one">%1$d seleccionado</item>
+        <item quantity="other">%1$d seleccionados</item>
+    </plurals>
     <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
     <string name="wallpaper_accessibility_name">Fondo de pantalla %1$d de %2$d</string>
     <!-- Accessibility string used to announce that a wallpaper has been selected. -->
     <string name="announce_selection">Seleccionaches <xliff:g id="LABEL">%1$s</xliff:g></string>
     <!-- Label on button to delete wallpaper(s) -->
+    <string name="wallpaper_delete">Eliminar</string>
     <!-- Label on button in Wallpaper Picker to pick an image -->
     <string name="pick_image">As miñas fotos</string>
     <!-- Option in "Select wallpaper from" dialog box -->
@@ -220,23 +232,38 @@
     <!-- Option for setting the wallpaper only on the home screen. -->
     <!-- Option for setting the wallpaper only on the lock screen. -->
     <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
+    <string name="label_search">Procurar</string>
+    <string name="label_voice_search">Busca con voz</string>
     <!-- About Lawnchair -->
+    <string name="export_prefs_title">Configuración</string>
+    <string name="import_prefs_title">Configuración</string>
+    <string name="default_text">Defecto</string>
     <string name="edit_icon_reset">Restablecer</string>
     <string name="theme_dark">Escuro</string>
+    <string name="pull_down_do_nothing">Non facer nada</string>
     <!-- Import/Export Strings -->
     <!-- Default units to use, either 'metric' or 'imperial' -->
+    <string name="pref_cat_weather">Tempo</string>
+    <string name="pref_weather_title">Tempo</string>
     <string name="none">Ningún</string>
     <string name="icon_shape_none">Ningún</string>
+    <string name="icon_shape_circle">Círculo</string>
     <!-- Time format for Weather Widget -->
     <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
     <string name="list_app_apply">Aplicar</string>
     <string name="list_app_reset">Restablecer</string>
     <!-- Strings for popup dialogs -->
+    <string name="backup_name">Nome</string>
     <string name="backup_location">Localización</string>
+    <string name="backup_settings">Configuración</string>
+    <string name="backup_share">Compartir</string>
     <!-- Preference Category Pixel Searchbar Title -->
     <!-- Preference Category Icons Title -->
     <!-- Preference Category Drawer Title -->
     <!-- Preference Category Misc Title -->
     <!-- About screen -->
+    <string name="title_attribouter_email">Correo electrónico</string>
+    <string name="title_attribouter_license_permissions">Permisos</string>
     <!-- DT2S -->
+    <string name="dt2s_disabled">Desactivado</string>
 </resources>

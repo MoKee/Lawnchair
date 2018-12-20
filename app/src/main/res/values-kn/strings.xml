@@ -213,6 +213,10 @@
     <!-- Shown when wallpapers are selected in Wallpaper picker -->
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_items_selected">
+        <item quantity="one">%1$d ಆಯ್ಕೆಯಾಗಿದೆ</item>
+        <item quantity="other">%1$d ಆಯ್ಕೆಯಾಗಿದೆ</item>
+    </plurals>
     <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" -->
     <string name="wallpaper_accessibility_name">%2$d ರಲ್ಲಿ %1$d ವಾಲ್‌ಪೇಪರ್‌</string>
