@@ -468,6 +468,7 @@
     <string name="title_attribouter_licenses">Licences Open Source</string>
     <string name="title_attribouter_email">Courriel</string>
     <string name="title_attribouter_website">Site Web</string>
+    <string name="title_attribouter_rate">Évaluer</string>
     <string name="title_attribouter_version">Version %1$s</string>
     <string name="title_attribouter_license">Licence</string>
     <string name="title_attribouter_license_permissions">Permissions</string>
@@ -478,6 +479,7 @@
     <string name="about_our_team">Notre équipe</string>
     <string name="about_our_contributors">Nos principaux contributeurs</string>
     <string name="about_our_family">Autre membre de la famille</string>
+    <string name="about_role_lead">Développeur en chef</string>
     <string name="about_role_dev">Développeur</string>
     <string name="about_role_dev_mod">Développeur / modérateur</string>
     <string name="about_role_designer">Designer</string>
@@ -486,4 +488,5 @@
     <string name="about_bio_divadsn">18 ans, transforme le café et la pizza en code. Aussi, anciennement connu comme Codebucket.</string>
     <!-- DT2S -->
     <string name="dt2s_disabled">Désactivé</string>
+    <string name="dt2s_root">Utiliser le Root</string>
 </resources>
