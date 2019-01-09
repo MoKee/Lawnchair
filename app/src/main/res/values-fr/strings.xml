@@ -437,6 +437,8 @@
     <string name="backup_settings">Préférences</string>
     <string name="backup_wallpaper">Fond d\'écran</string>
     <string name="backup_error_blank_name">Le nom ne doit pas être vide</string>
+    <string name="backup_error_blank_location">L\'emplacement ne doit pas être vide</string>
+    <string name="backup_error_blank_contents">Le contenu ne doit pas être vide</string>
     <string name="backup_creating">Création d\'une sauvegarde</string>
     <string name="no_recent_backups">Aucune sauvegarde récente</string>
     <string name="backup_loading">Chargement en cours…</string>
@@ -456,6 +458,7 @@
     <string name="read_external_storage_required">L\'autorisation d\'accès au stockage est nécessaire pour créer une sauvegarde</string>
     <string name="local_backups">Sauvegardes locales</string>
     <string name="backup_location_device_storage">Mémoire de l\'appareil</string>
+    <string name="backup_location_documents_storage">Stockage des documents</string>
     <!-- Preference Category Pixel Searchbar Title -->
     <string name="pref_category_pixel_searchbar">Barre de recherche pixel</string>
     <!-- Preference Category Icons Title -->
@@ -464,6 +467,8 @@
     <string name="pref_category_drawer">Liste d\'applications</string>
     <!-- Preference Category Misc Title -->
     <string name="pref_category_misc">Divers</string>
+    <string name="blur_oom">Lawnchair a manqué de mémoire en essayant de rendre votre arrière-plan flou. Abaisser la résolution de votre arrière-plan pourrait résoudre ce problème.</string>
+    <string name="legacy_backup">Ancien fichier de sauvegarde</string>
     <!-- About screen -->
     <string name="title_attribouter_licenses">Licences Open Source</string>
     <string name="title_attribouter_email">Courriel</string>
@@ -480,13 +485,25 @@
     <string name="about_our_contributors">Nos principaux contributeurs</string>
     <string name="about_our_family">Autre membre de la famille</string>
     <string name="about_role_lead">Développeur en chef</string>
+    <string name="about_role_devops">DevOps</string>
     <string name="about_role_dev">Développeur</string>
     <string name="about_role_dev_mod">Développeur / modérateur</string>
     <string name="about_role_designer">Designer</string>
+    <string name="about_role_special_snowflake">Responsable des relations publiques / Modérateur</string>
     <string name="about_role_mod_support">Modérateur / Support</string>
     <string name="about_role_family_member">Membre de la famille</string>
+    <string name="about_bio_deletescape">Développeur Android &amp; motivé, aime les mèmes (un peu trop en ce moment). Fondateur du projet Lawnchair.</string>
     <string name="about_bio_divadsn">18 ans, transforme le café et la pizza en code. Aussi, anciennement connu comme Codebucket.</string>
+    <string name="about_bio_recoded">Programmeur et designer graphique.</string>
+    <string name="about_bio_josh">Designer graphique indépendant.</string>
+    <string name="about_bio_chris">Esprit créatif, influenceur &amp; et créateur de contenu. Responsable des médias sociaux et des relations publiques.</string>
+    <string name="about_bio_msfjarvis">Développeur principal pour halogenOS et développeur d\'application pour Substratum.</string>
     <!-- DT2S -->
+    <string name="dt2s_title">Appui double pour mettre en veille</string>
     <string name="dt2s_disabled">Désactivé</string>
+    <string name="dt2s_deviceadmin">Utiliser l\'administrateur de l\'appareil</string>
+    <string name="dt2s_timeout">Utiliser le délai d’extinction de l\'écran</string>
     <string name="dt2s_root">Utiliser le Root</string>
+    <string name="dt2s_admin_hint">Pour pouvoir utiliser le double-tap pour verrouiller, vous devez autoriser l’accès d\'administration à Lawnchair. C\'est un verrouillage sécurisé, cela veut dire que vous devrez entrer votre PIN, si vous en avez un, au prochain déverrouillage.</string>
+    <string name="dt2s_admin_warning">En désactivant l\'accès d\'administration, vous ne pourrez plus utiliser le double-tap sur l\'écran d\'accueil pour verrouiller votre appareil.</string>
 </resources>

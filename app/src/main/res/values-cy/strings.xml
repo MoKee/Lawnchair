@@ -159,6 +159,7 @@
     <string name="export_prefs_title">Gosodiadau</string>
     <string name="import_prefs_title">Gosodiadau</string>
     <string name="edit_icon_reset">Ailosod</string>
+    <string name="theme_dark">Tywyll</string>
     <!-- Import/Export Strings -->
     <!-- Default units to use, either 'metric' or 'imperial' -->
     <!-- Time format for Weather Widget -->
