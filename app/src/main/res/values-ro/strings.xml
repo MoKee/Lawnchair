@@ -464,7 +464,9 @@
     <string name="legacy_backup">Fișier vechi copie rezervă</string>
     <!-- About screen -->
     <string name="title_attribouter_email">Email</string>
+    <string name="title_attribouter_license">Licenţă</string>
     <string name="title_attribouter_license_permissions">Permisiuni</string>
+    <string name="about_role_dev">Dezvoltator</string>
     <!-- DT2S -->
     <string name="dt2s_disabled">Dezactivat</string>
 </resources>

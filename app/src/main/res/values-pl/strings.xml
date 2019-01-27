@@ -505,4 +505,7 @@
     <string name="dt2s_disabled">Wyłączone</string>
     <string name="dt2s_deviceadmin">Używając administratora urządzenia</string>
     <string name="dt2s_timeout">Używając wygaszania ekranu</string>
+    <string name="dt2s_root">Używając root</string>
+    <string name="dt2s_admin_hint">Aby móc korzystać z blokowania ekranu dwuklikiem, musisz włączyć dostęp administracyjny dla Lawnchair. Jest to bezpieczna blokada, co oznacza, że ​​musisz podać kod PIN przy następnym odblokowaniu, jeśli go posiadasz.</string>
+    <string name="dt2s_admin_warning">Wyłączając administratora urządzenia, nie będziesz w stanie użyć podwójnego dotknięcia, aby zablokować ekran główny.</string>
 </resources>
