@@ -342,6 +342,11 @@
     <string name="pull_down_apps_search">Pesquisa de aplicativos</string>
     <string name="enable_screen_rotation">Ativar a rotação de tela</string>
     <string name="use_system_fonts_title">Use fontes do sistema para rótulos</string>
+    <string name="auto_add_shortcuts_label">Adicionar ícone à tela inicial</string>
+    <string name="auto_add_shortcuts_description">Para novos apps</string>
+    <string name="shortcut_blacklist">Lista negra de atalhos</string>
+    <string name="shortcut_blacklist_sum">Impedir que aplicativos adicionem ícones à tela inicial</string>
+    <string name="blacklist_app">Apps bloqueados</string>
     <string name="blacklist_app_selected">&#160;selecionado</string>
     <!-- Import/Export Strings -->
     <string name="backup_import_title">Restaurar</string>
@@ -416,6 +421,7 @@
     <string name="reset_alternative_icons_title">Restaurar os ícones do aplicativo?</string>
     <string name="reset_alternative_icons">Você tem %1$d aplicativos com ícones alternativos, quer restaurá-los?</string>
     <string name="error_no_browser">Nenhuma atividade encontrada para lidar com URLs</string>
+    <string name="error_no_calendar">Nenhum aplicativo de calendário instalado</string>
     <!-- Strings for popup dialogs -->
     <string name="lawnfeed_not_enabled_title">Lawnfeed não ativado</string>
     <string name="lawnfeed_not_enabled">Parece que você está tentando abrir a página do Google Now, mas não ativou a opção de comportamento nas configurações.\n\nVocê quer ativa-lo agora?</string>
@@ -455,13 +461,53 @@
     <string name="backup_share_text">Arquivo de cópia de segurança do Lawnchair</string>
     <string name="read_external_storage_required">Permissão de armazenamento é necessária para criar cópia de segurança</string>
     <string name="local_backups">Local da cópia de segurança</string>
+    <string name="backup_location_device_storage">Armazenamento do dispositivo</string>
+    <string name="backup_location_documents_storage">Armazenamento de documentos</string>
     <!-- Preference Category Pixel Searchbar Title -->
+    <string name="pref_category_pixel_searchbar">Barra de pesquisa do Pixel</string>
     <!-- Preference Category Icons Title -->
+    <string name="pref_category_icons">Ícones</string>
     <!-- Preference Category Drawer Title -->
+    <string name="pref_category_drawer">Gaveta</string>
     <!-- Preference Category Misc Title -->
+    <string name="pref_category_misc">Diversos</string>
+    <string name="blur_oom">Lawnchair ficou sem memória tentando desfocar o seu papel de parede! Reduzir o recurso do papel de parede poderia consertar isso.</string>
+    <string name="legacy_backup">Arquivo de backup legado</string>
     <!-- About screen -->
+    <string name="title_attribouter_licenses">Licenças de código aberto</string>
     <string name="title_attribouter_email">E-mail</string>
+    <string name="title_attribouter_website">Site da Web</string>
+    <string name="title_attribouter_rate">Avaliar</string>
+    <string name="title_attribouter_version">Versão %1$s</string>
+    <string name="title_attribouter_license">Licença</string>
     <string name="title_attribouter_license_permissions">Permissões</string>
+    <string name="title_attribouter_license_conditions">Condições</string>
+    <string name="title_attribouter_license_limitations">Limitações</string>
+    <string name="title_attribouter_more_info">Mais informações</string>
+    <string name="title_attribouter_translators">Tradutores</string>
+    <string name="about_our_team">Nossa equipe</string>
+    <string name="about_our_contributors">Principais colaboradores</string>
+    <string name="about_our_family">Outros membros da família</string>
+    <string name="about_role_lead">Desenvolvedor-chefe</string>
+    <string name="about_role_devops">DevOps</string>
+    <string name="about_role_dev">Desenvolvedor</string>
+    <string name="about_role_dev_mod">Desenvolvedor / Moderador</string>
+    <string name="about_role_designer">Designer</string>
+    <string name="about_role_special_snowflake">Gestor de PR / Moderador</string>
+    <string name="about_role_mod_support">Moderador / Suporte</string>
+    <string name="about_role_family_member">Membro da família</string>
+    <string name="about_bio_deletescape">Programador Android &amp; entusiasta, adora memes (até demais). Criador do projeto Lawnchair.</string>
+    <string name="about_bio_divadsn">18 anos, transforma cafeína e pizza em código. Também conhecido como Codebucket.</string>
+    <string name="about_bio_recoded">Programador e designer gráfico.</string>
+    <string name="about_bio_josh">Designer gráfico independente.</string>
+    <string name="about_bio_chris">Mente criativa, influenciador &amp; Criador de conteúdos. Redes sociais e gestor de PR.</string>
+    <string name="about_bio_msfjarvis">Principal programador do halogenOS e programador de aplicações em substratum.</string>
     <!-- DT2S -->
+    <string name="dt2s_title">Toque duplo para dormir</string>
     <string name="dt2s_disabled">Desativado</string>
+    <string name="dt2s_deviceadmin">Usando administrador do dispositivo</string>
+    <string name="dt2s_timeout">Usando o tempo limite da tela</string>
+    <string name="dt2s_root">Usando root</string>
+    <string name="dt2s_admin_hint">Para poder usar o toque duplo para bloquear, você precisa habilitar o administrador do dispositivo para o Lawnchair. Esse é um bloqueio seguro, o que significa que você precisa inserir seu PIN no próximo desbloqueio, se tiver algum.</string>
+    <string name="dt2s_admin_warning">Ao desativar o administrador do dispositivo, você não poderá usar o toque duplo para bloquear a tela inicial.</string>
 </resources>
