@@ -17,4 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About Lawnchair -->
+    <string name="about_text_mk">ಲಾವ್ನ್ ಚೇರ್ ಲಾಂಚರ್ ತಂತ್ರಾಂಶವು ಟಿಲ್ ಕೊಟ್ಮನ್ನ (ಅಲಿಯಾಸ ಡಿಲಿಟ್ಸ್ಕೇಪ್), ಇವರಿಂದ ರಚಿಸಲ್ಪಟ್ಟಿದ್ದು, MoKee ROM ಗೋಸ್ಕರ ಮಾರ್ಪಾಡಿಸಲಾಗಿದೆ. ಇದು AOSP ನಿಂದ ಲಾಂಚರ್3 ಮೇಲೆ ಆಧಾರಿತವಾಗಿದೆ.</string>
+    <string name="about_localization_title">ಸ್ಥಳೀಕರಣ</string>
+    <string name="about_localization_summary">ಲಾವ್ನಚೇರ್ ಲಾಂಚರ್ ಭಾಷಾಂತರಿಸು</string>
 </resources>
