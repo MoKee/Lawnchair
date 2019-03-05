@@ -18,222 +18,101 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General -->
-    <!-- Application name -->
-    <!-- Default folder name -->
-    <!-- Work folder name -->
     <string name="work_folder_name">工作</string>
-    <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
     <string name="activity_not_found">應用程式未安裝。</string>
-    <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
     <string name="activity_not_available">應用程式目前無法使用</string>
-    <!-- SafeMode shortcut error string -->
     <string name="safemode_shortcut_error">在安全模式中無法使用「已下載的應用程式」功能</string>
-    <!-- SafeMode widget error string -->
     <string name="safemode_widget_error">在安全模式下無法使用小工具</string>
-    <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
     <string name="shortcut_not_available">目前無法使用捷徑</string>
-    <!-- Widgets -->
-    <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
     <string name="long_press_widget_to_add">輕觸並按住小工具即可選取。</string>
-    <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
     <string name="long_accessible_way_to_add">輕觸兩下並按住小工具即可選取，您也可以使用自訂動作。</string>
-    <!-- The format string for the dimensions of a widget in the drawer -->
-    <!-- There is a special version of this format string for Farsi -->
-    <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
     <string name="widget_accessible_dims_format">寬度為 %1$d，高度為 %2$d</string>
-    <!-- All Apps -->
-    <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
     <string name="all_apps_search_bar_hint">搜尋應用程式</string>
-    <!-- Loading apps text. [CHAR_LIMIT=50] -->
-    <string name="all_apps_loading_message">正在載入應用程式&#8230;</string>
-    <!-- No-search-results text. [CHAR_LIMIT=50] -->
+    <string name="all_apps_loading_message">正在載入應用程式…</string>
     <string name="all_apps_no_search_results">找不到符合「<xliff:g example="Android" id="query">%1$s</xliff:g>」的應用程式</string>
-    <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
     <string name="all_apps_search_market_message">搜尋更多應用程式</string>
-    <!-- Drag and drop -->
-    <!-- Error message when user has filled a page -->
     <string name="out_of_space">這個主畫面已無空間。</string>
-    <!-- Error message when user has filled the hotseat -->
     <string name="hotseat_out_of_space">「我的最愛」欄中已無可用空間</string>
-    <!-- All applications label -->
     <string name="all_apps_button_label">應用程式清單</string>
-    <!-- Label for button in all applications label to go back home (to the workspace / desktop)
-         for accessibilty (spoken when the button gets focus). -->
     <string name="all_apps_home_button_label">主畫面</string>
-    <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
     <string name="remove_drop_target_label">移除</string>
-    <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
     <string name="uninstall_drop_target_label">解除安裝</string>
-    <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
     <string name="app_info_drop_target_label">應用程式資訊</string>
-    <!-- Permissions: -->
-    <!-- Permission short label -->
     <string name="permlab_install_shortcut">安裝捷徑</string>
-    <!-- Permission description -->
     <string name="permdesc_install_shortcut">允許應用程式自動新增捷徑。</string>
-    <!-- Permission short label -->
     <string name="permlab_read_settings">讀取主畫面的設定和捷徑</string>
-    <!-- Permission description -->
     <string name="permdesc_read_settings">允許應用程式讀取主畫面中的設定和捷徑。</string>
-    <!-- Permission short label -->
     <string name="permlab_write_settings">寫入主畫面設定和捷徑</string>
-    <!-- Permission description -->
     <string name="permdesc_write_settings">允許應用程式變更主畫面中的設定和捷徑。</string>
-    <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
     <string name="msg_no_phone_permission"><xliff:g example="Launcher3" id="app_name">%1$s</xliff:g> 無法撥打電話</string>
-    <!-- Widgets: -->
-    <!-- Text to show user in place of a gadget when we can't display it properly -->
     <string name="gadget_error_text">載入小工具時發生問題</string>
-    <!-- Text to show user in place of a gadget when it is not yet initialized. -->
     <string name="gadget_setup_text">設定</string>
-    <!-- Text to inform the user that they can't uninstall a system application -->
     <string name="uninstall_system_app_text">這是系統應用程式，不可解除安裝。</string>
-    <!-- Default folder title -->
     <string name="folder_hint_text">未命名的資料夾</string>
-    <!-- Accessibility -->
-    <!-- The format string for when an app is temporarily disabled. -->
     <string name="disabled_app_label">已停用 <xliff:g example="Messenger" id="app_name">%1$s</xliff:g></string>
-    <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
     <string name="default_scroll_format">第 %1$d 頁，共 %2$d 頁</string>
-    <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
     <string name="workspace_scroll_format">主畫面：第 %1$d 頁，共 %2$d 頁</string>
-    <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
     <string name="workspace_new_page">新的主畫面頁面</string>
-    <!-- Folder accessibility -->
-    <!-- The format string for when a folder is opened, speaks the dimensions -->
     <string name="folder_opened">資料夾已開啟 （<xliff:g example="5" id="width">%1$d</xliff:g> x <xliff:g example="3" id="height">%2$d</xliff:g>）</string>
-    <!-- Instruction that clicking outside will close folder -->
     <string name="folder_tap_to_close">輕觸即可關閉資料夾</string>
-    <!-- Instruction that clicking outside will commit folder rename -->
     <string name="folder_tap_to_rename">輕觸即可儲存新名稱</string>
-    <!-- Indication that folder closed -->
     <string name="folder_closed">資料夾已關閉</string>
-    <!-- Folder renamed format -->
     <string name="folder_renamed">已將資料夾重新命名為「<xliff:g example="Games" id="name">%1$s</xliff:g>」</string>
-    <!-- Folder name format -->
     <string name="folder_name_format">資料夾：<xliff:g example="Games" id="name">%1$s</xliff:g></string>
-    <!-- Strings for the customization mode -->
-    <!-- Text for widget add button -->
     <string name="widget_button_text">小工具</string>
-    <!-- Text for wallpaper change button -->
     <string name="wallpaper_button_text">桌布</string>
-    <!-- Text for settings button -->
     <string name="settings_button_text">設定</string>
-    <!-- Message shown when a feature is disabled by the administrator -->
     <string name="msg_disabled_by_admin">已由您的管理員停用</string>
-    <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
     <string name="accessibility_action_overview">總覽</string>
-    <!-- Strings for settings -->
-    <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-    <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-    <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
-    <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
     <string name="package_state_unknown">不明</string>
-    <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <string name="abandoned_clean_this">移除</string>
-    <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
     <string name="abandoned_search">搜尋</string>
-    <!-- Title for abandoned promise dialog. -->
     <string name="abandoned_promises_title">尚未安裝這個應用程式</string>
-    <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
-    The second "it" refers to the app. -->
     <string name="abandoned_promise_explanation">您尚未安裝這個圖示代表的應用程式。您可以移除這個圖示，也可以搜尋該應用程式並手動安裝。</string>
-    <!-- Title for an app which is being downloaded. -->
     <string name="app_downloading_title">正在下載 <xliff:g example="Messenger" id="name">%1$s</xliff:g>，已完成 <xliff:g example="30%" id="progress">%2$s</xliff:g></string>
-    <!-- Title for an app whose download has been started. -->
     <string name="app_waiting_download_title"><xliff:g example="Messenger" id="name">%1$s</xliff:g> 正在等待安裝</string>
-    <!-- Strings for accessibility actions -->
-    <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
     <string name="action_add_to_workspace">新增至主畫面</string>
-    <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
     <string name="action_move_here">將項目移至這裡</string>
-    <!-- Accessibility confirmation for item added to workspace. -->
     <string name="item_added_to_workspace">已將項目新增到主畫面</string>
-    <!-- Accessibility confirmation for item removed. -->
     <string name="item_removed">已移除項目</string>
-    <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
     <string name="action_move">移動項目</string>
-    <!-- Accessibility description to move item to empty cell. -->
     <string name="move_to_empty_cell">移至第 <xliff:g example="1" id="number">%1$s</xliff:g> 列第 <xliff:g example="1" id="number">%2$s</xliff:g> 欄</string>
-    <!-- Accessibility description to move item inside a folder. -->
     <string name="move_to_position">移至位置 <xliff:g example="1" id="number">%1$s</xliff:g></string>
-    <!-- Accessibility description to move item to the hotseat. -->
     <string name="move_to_hotseat_position">移至的最愛位置 <xliff:g example="1" id="number">%1$s</xliff:g></string>
-    <!-- Accessibility confirmation for item move. -->
     <string name="item_moved">已移動項目</string>
-    <!-- Accessibility description to move item into an existing folder. -->
     <string name="add_to_folder">新增到「<xliff:g example="Games" id="name">%1$s</xliff:g>」資料夾</string>
-    <!-- Accessibility description to move item into an existing folder containing an app. -->
     <string name="add_to_folder_with_app">新增到「<xliff:g example="Messenger" id="name">%1$s</xliff:g>」所在資料夾</string>
-    <!-- Accessibility confirmation for item added to folder. -->
     <string name="added_to_folder">已將項目新增到資料夾</string>
-    <!-- Accessibility description to create folder with another item. -->
     <string name="create_folder_with">建立「<xliff:g example="Game" id="name">%1$s</xliff:g>」資料夾</string>
-    <!-- Accessibility confirmation for folder created. -->
     <string name="folder_created">已建立資料夾</string>
-    <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
     <string name="action_move_to_workspace">移至主畫面</string>
-    <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
     <string name="action_move_screen_left">將畫面往左移</string>
-    <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
     <string name="action_move_screen_right">將畫面往右移</string>
-    <!-- Accessibility confirmation when a screen was moved. -->
     <string name="screen_moved">已移動畫面</string>
-    <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
     <string name="action_resize">調整大小</string>
-    <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
     <string name="action_increase_width">增加寬度</string>
-    <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
     <string name="action_increase_height">增加高度</string>
-    <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
     <string name="action_decrease_width">減少寬度</string>
-    <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
     <string name="action_decrease_height">減少高度</string>
-    <!-- Accessibility confirmation for widget resize. -->
     <string name="widget_resized">已將小工具的寬度和高度分別調整為 <xliff:g example="2" id="number">%1$s</xliff:g> 和 <xliff:g example="1" id="number">%2$s</xliff:g></string>
-    <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
     <string name="action_deep_shortcut">捷徑</string>
-    <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description">「<xliff:g example="3" id="number_of_shortcuts">%1$d</xliff:g>」有 <xliff:g example="Messenger" id="app_name">%2$s</xliff:g> 個捷徑</string>
     <string name="edit_drop_target_label">編輯</string>
-    <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
     <string name="wallpaper_instructions">設定桌布</string>
-    <!-- Error message when an image is selected as a wallpaper,
-         but the wallpaper picker cannot load it -->
     <string name="image_load_fail">無法載入圖片</string>
-    <!-- Error message when an image is selected as a wallpaper,
-         but the wallpaper cropper cannot load it. The user will
-         usually see this when using another app and trying to set
-         an image as the wallpaper -->
     <string name="wallpaper_load_fail">無法載入您要設為桌布的圖片</string>
-    <!-- Error message when an image is selected as a wallpaper,
-         but something goes wrong when the user clicks "Set wallpaper" -->
     <string name="wallpaper_set_fail">無法將圖片設為桌布</string>
-    <!-- Shown when wallpapers are selected in Wallpaper picker -->
-    <!-- String indicating how many media item(s) is(are) selected
-            eg. 1 selected [CHAR LIMIT=30] -->
     <plurals name="number_of_items_selected">
         <item quantity="other">已選取 %1$d 個</item>
     </plurals>
-    <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
-         e.g. "Wallpaper 3 of 10" -->
     <string name="wallpaper_accessibility_name">第 %1$d 張桌布，共 %2$d 張</string>
-    <!-- Accessibility string used to announce that a wallpaper has been selected. -->
     <string name="announce_selection">已選取 <xliff:g example="Wallpaper 3 of 10" id="label">%1$s</xliff:g></string>
-    <!-- Label on button to delete wallpaper(s) -->
     <string name="wallpaper_delete">刪除</string>
-    <!-- Label on button in Wallpaper Picker to pick an image -->
     <string name="pick_image">我的相片</string>
-    <!-- Option in "Select wallpaper from" dialog box -->
     <string name="pick_wallpaper">桌布</string>
-    <!-- Title of activity for cropping wallpapers -->
     <string name="crop_wallpaper">裁剪桌布</string>
-    <!-- Option for setting the wallpaper only on the home screen. -->
     <string name="which_wallpaper_option_home_screen">主畫面</string>
-    <!-- Option for setting the wallpaper only on the lock screen. -->
     <string name="which_wallpaper_option_lock_screen">鎖定畫面</string>
-    <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
     <string name="which_wallpaper_option_home_screen_and_lock_screen">主畫面和鎖定畫面</string>
     <string name="title_show_google_app">顯示 %1$s</string>
     <string name="title_show_google_app_default">顯示 Google 應用程式</string>
@@ -242,7 +121,6 @@
     <string name="shortcuts_menu_with_notifications_description">%1$d 捷徑和 %3$s 的 %2$d 通知</string>
     <string name="notifications_header">通知</string>
     <string name="widgets_bottom_sheet_title">%1$s 小工具</string>
-    <!-- About Lawnchair -->
     <string name="about_title">關於</string>
     <string name="about_pref_summary">瞭解 Lawnchair 團隊</string>
     <string name="week_day_format">%1$s：%2$s</string>
@@ -342,8 +220,7 @@
     <string name="shortcut_blacklist">捷徑黑名單</string>
     <string name="shortcut_blacklist_sum">防止應用程式將圖示新增至主畫面中</string>
     <string name="blacklist_app">已攔截的應用程式</string>
-    <string name="blacklist_app_selected">&#160; 已選取</string>
-    <!-- Import/Export Strings -->
+    <string name="blacklist_app_selected">  已選取</string>
     <string name="backup_import_title">還原</string>
     <string name="backup_export_title">備份</string>
     <string name="settings_export_success">設定備份成功</string>
@@ -357,7 +234,6 @@
     <string name="imexport_external_storage_unwritable">在「設定」中允許外部儲存空間寫入權限</string>
     <string name="units_metric">公制</string>
     <string name="units_imperial">英制</string>
-    <!-- Default units to use, either 'metric' or 'imperial' -->
     <string name="pref_cat_weather">天氣</string>
     <string name="pref_weather_title">啟用天氣</string>
     <string name="pref_weather_units">天氣單位</string>
@@ -368,7 +244,7 @@
     <string name="pref_applyBlur">套用模糊效果</string>
     <string name="search_bar">搜尋列</string>
     <string name="folder">資料夾</string>
-    <string name="dock_allapps"><![CDATA[Dock欄與所有應用程式]]></string>
+    <string name="dock_allapps">Dock欄與所有應用程式</string>
     <string name="app_shortcuts">應用程式捷徑</string>
     <string name="blur_effect">模糊效果</string>
     <string name="pref_weather_provider">天氣供應商</string>
@@ -396,8 +272,6 @@
     <string name="center_wallpaper_pref_title">當僅有一頁時，置中桌布</string>
     <string name="center_wallpaper_pref_summary">當僅有一頁時才有效</string>
     <string name="vertical_drawer_layout_pref_title">顯示為縱向清單</string>
-    <!-- Time format for Weather Widget -->
-    <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
     <string name="full_wday_month_day_no_year">M月d日EEEE</string>
     <string name="lock_desktop">鎖定桌面</string>
     <string name="lawnfeed_not_found">Lawnfeed 未安裝</string>
@@ -408,7 +282,7 @@
     <string name="hide_app">隱藏應用程式</string>
     <string name="hide_app_sum">從應用程式清單中隱藏應用程式</string>
     <string name="hidden_app">隱藏的應用程式</string>
-    <string name="hidden_app_selected">&#160; 已選取</string>
+    <string name="hidden_app_selected">  已選取</string>
     <string name="list_app_apply">套用</string>
     <string name="list_app_reset">重設</string>
     <string name="unauthorized_device">此裝置安裝了一些盜版工具，請解除安裝它們以便繼續。</string>
@@ -417,7 +291,6 @@
     <string name="reset_alternative_icons">您有 %1$d 個替代圖示的應用程式，您想重置它們？</string>
     <string name="error_no_browser">找不到處理網址的應用程式活動</string>
     <string name="error_no_calendar">沒有安裝日曆應用程式</string>
-    <!-- Strings for popup dialogs -->
     <string name="lawnfeed_not_enabled_title">未啟用 Lawnfeed</string>
     <string name="lawnfeed_not_enabled">您好像正在嘗試開啟 Google 即時頁面，但您尚未在功能設定中啟用該選項。\n\n您想現在開啟嗎？</string>
     <string name="lawnfeed_outdated_title">需要更新 Lawnfeed</string>
@@ -458,17 +331,12 @@
     <string name="local_backups">本機備份</string>
     <string name="backup_location_device_storage">裝置儲存空間</string>
     <string name="backup_location_documents_storage">文件儲存</string>
-    <!-- Preference Category Pixel Searchbar Title -->
     <string name="pref_category_pixel_searchbar">Pixel 搜尋列</string>
-    <!-- Preference Category Icons Title -->
     <string name="pref_category_icons">圖示</string>
-    <!-- Preference Category Drawer Title -->
     <string name="pref_category_drawer">清單</string>
-    <!-- Preference Category Misc Title -->
     <string name="pref_category_misc">更多其他</string>
     <string name="blur_oom">在記憶體用盡時，Lawnchair　將會試著模糊您的桌布！降低桌布的解析度有可能解決這個問題</string>
     <string name="legacy_backup">遺留的備份檔案</string>
-    <!-- About screen -->
     <string name="title_attribouter_licenses">開放原始碼授權</string>
     <string name="title_attribouter_email">電子郵件</string>
     <string name="title_attribouter_website">網站</string>
@@ -497,7 +365,6 @@
     <string name="about_bio_josh">自由的平面設計師。</string>
     <string name="about_bio_chris">創造性思維、影響力與內容建立者。社交媒體和公關經理人。</string>
     <string name="about_bio_msfjarvis">halogenOS 的核心開發人員和底層的應用程式開發人員。</string>
-    <!-- DT2S -->
     <string name="dt2s_title">輕觸兩下即可休眠</string>
     <string name="dt2s_disabled">停用</string>
     <string name="dt2s_deviceadmin">使用裝置管理員</string>

@@ -18,225 +18,104 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General -->
-    <!-- Application name -->
-    <!-- Default folder name -->
-    <!-- Work folder name -->
     <string name="work_folder_name">Práca</string>
-    <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
     <string name="activity_not_found">Aplikácia nie je nainštalovaná.</string>
-    <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
     <string name="activity_not_available">Aplikácia nie je k dispozícii</string>
-    <!-- SafeMode shortcut error string -->
     <string name="safemode_shortcut_error">Stiahnutá aplikácia je v núdzovom režime zakázaná</string>
-    <!-- SafeMode widget error string -->
     <string name="safemode_widget_error">Miniaplikácie sú v núdzovom režime zakázané</string>
-    <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
     <string name="shortcut_not_available">Odkazy nie sú k dispozícii</string>
-    <!-- Widgets -->
-    <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
     <string name="long_press_widget_to_add">Miniaplikáciu pridáte stlačením a podržaním.</string>
-    <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
     <string name="long_accessible_way_to_add">Miniaplikáciu pridáte dvojitým kliknutím a pridržaním alebo pomocou vlastných akcií.</string>
-    <!-- The format string for the dimensions of a widget in the drawer -->
-    <!-- There is a special version of this format string for Farsi -->
-    <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
     <string name="widget_accessible_dims_format">šírka %1$d, výška %2$d</string>
-    <!-- All Apps -->
-    <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
     <string name="all_apps_search_bar_hint">Hľadať aplikácie</string>
-    <!-- Loading apps text. [CHAR_LIMIT=50] -->
     <string name="all_apps_loading_message">Načítavajú sa aplikácie…</string>
-    <!-- No-search-results text. [CHAR_LIMIT=50] -->
     <string name="all_apps_no_search_results">Nenašli sa žiadne aplikácie zodpovedajúce <xliff:g id="query">%1$s</xliff:g></string>
-    <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
     <string name="all_apps_search_market_message">Hľadať ďalšie aplikácie</string>
-    <!-- Drag and drop -->
-    <!-- Error message when user has filled a page -->
     <string name="out_of_space">Na tejto ploche už nie je miesto</string>
-    <!-- Error message when user has filled the hotseat -->
     <string name="hotseat_out_of_space">Na paneli Obľúbené položky už nie je miesto</string>
-    <!-- All applications label -->
     <string name="all_apps_button_label">Zoznam aplikácií</string>
-    <!-- Label for button in all applications label to go back home (to the workspace / desktop)
-         for accessibilty (spoken when the button gets focus). -->
     <string name="all_apps_home_button_label">Domov</string>
-    <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
     <string name="remove_drop_target_label">Odstrániť</string>
-    <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
     <string name="uninstall_drop_target_label">Odinštalovať</string>
-    <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
     <string name="app_info_drop_target_label">Info o aplikácii</string>
-    <!-- Permissions: -->
-    <!-- Permission short label -->
     <string name="permlab_install_shortcut">nainštalovať odkazy</string>
-    <!-- Permission description -->
     <string name="permdesc_install_shortcut">Povoľuje aplikácii pridať odkazy bez zásahu používateľa.</string>
-    <!-- Permission short label -->
     <string name="permlab_read_settings">čítanie nastavení a odkazov plochy</string>
-    <!-- Permission description -->
     <string name="permdesc_read_settings">Povoľuje aplikácii čítať nastavenia a odkazy na ploche.</string>
-    <!-- Permission short label -->
     <string name="permlab_write_settings">zápis nastavení a odkazov plochy</string>
-    <!-- Permission description -->
     <string name="permdesc_write_settings">Povoľuje aplikácii zmeniť nastavenia a odkazy na ploche.</string>
-    <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
     <string name="msg_no_phone_permission">Aplikácia <xliff:g id="app_name">%1$s</xliff:g> nemá povolenie uskutočňovať telefonické hovory</string>
-    <!-- Widgets: -->
-    <!-- Text to show user in place of a gadget when we can't display it properly -->
     <string name="gadget_error_text">Problém s načítaním miniaplikácie</string>
-    <!-- Text to show user in place of a gadget when it is not yet initialized. -->
     <string name="gadget_setup_text">Nastavenie</string>
-    <!-- Text to inform the user that they can't uninstall a system application -->
     <string name="uninstall_system_app_text">Toto je systémová aplikácia a nedá sa odinštalovať.</string>
-    <!-- Default folder title -->
     <string name="folder_hint_text">Nepomenovaný priečinok</string>
-    <!-- Accessibility -->
-    <!-- The format string for when an app is temporarily disabled. -->
     <string name="disabled_app_label">Aplikácia <xliff:g id="APP_NAME">%1$s</xliff:g> je zakázaná</string>
-    <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
     <string name="default_scroll_format">Stránka %1$d z %2$d</string>
-    <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
     <string name="workspace_scroll_format">Domáca obrazovka %1$d z %2$d</string>
-    <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
     <string name="workspace_new_page">Nová stránka domácej obrazovky</string>
-    <!-- Folder accessibility -->
-    <!-- The format string for when a folder is opened, speaks the dimensions -->
     <string name="folder_opened">Otvorený priečinok, <xliff:g id="WIDTH">%1$d</xliff:g> x <xliff:g id="HEIGHT">%2$d</xliff:g></string>
-    <!-- Instruction that clicking outside will close folder -->
     <string name="folder_tap_to_close">Priečinok zavriete kliknutím</string>
-    <!-- Instruction that clicking outside will commit folder rename -->
     <string name="folder_tap_to_rename">Nový názov uložíte kliknutím</string>
-    <!-- Indication that folder closed -->
     <string name="folder_closed">Priečinok je uzavretý</string>
-    <!-- Folder renamed format -->
     <string name="folder_renamed">Priečinok bol premenovaný na <xliff:g id="NAME">%1$s</xliff:g></string>
-    <!-- Folder name format -->
     <string name="folder_name_format">Priečinok: <xliff:g id="NAME">%1$s</xliff:g></string>
-    <!-- Strings for the customization mode -->
-    <!-- Text for widget add button -->
     <string name="widget_button_text">Miniaplikácie</string>
-    <!-- Text for wallpaper change button -->
     <string name="wallpaper_button_text">Tapety plochy</string>
-    <!-- Text for settings button -->
     <string name="settings_button_text">Nastavenia</string>
-    <!-- Message shown when a feature is disabled by the administrator -->
     <string name="msg_disabled_by_admin">Zakázané vaším správcom</string>
-    <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
     <string name="accessibility_action_overview">Prehľad</string>
-    <!-- Strings for settings -->
-    <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-    <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-    <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
-    <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
     <string name="package_state_unknown">Neznáme</string>
-    <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <string name="abandoned_clean_this">Odstrániť</string>
-    <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
     <string name="abandoned_search">Vyhľadať</string>
-    <!-- Title for abandoned promise dialog. -->
     <string name="abandoned_promises_title">Táto aplikácia nie je nainštalovaná</string>
-    <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
-    The second "it" refers to the app. -->
     <string name="abandoned_promise_explanation">Aplikácia, ktorú zastupuje táto ikona, nie je nainštalovaná. Ikonu môžete odstrániť alebo vyhľadajte aplikáciu a ručne ju nainštalujte.</string>
-    <!-- Title for an app which is being downloaded. -->
     <string name="app_downloading_title">Sťahuje sa aplikácia <xliff:g id="NAME">%1$s</xliff:g>. Stiahnuté: <xliff:g id="PROGRESS">%2$s</xliff:g></string>
-    <!-- Title for an app whose download has been started. -->
     <string name="app_waiting_download_title">Aplikácia <xliff:g id="NAME">%1$s</xliff:g> čaká na inštaláciu</string>
-    <!-- Strings for accessibility actions -->
-    <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
     <string name="action_add_to_workspace">Pridať na domovskú obrazovku</string>
-    <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
     <string name="action_move_here">Presunúť položku sem</string>
-    <!-- Accessibility confirmation for item added to workspace. -->
     <string name="item_added_to_workspace">Položka bola pridaná na domovskú obrazovku</string>
-    <!-- Accessibility confirmation for item removed. -->
     <string name="item_removed">Položka bola odstránená</string>
-    <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
     <string name="action_move">Presunúť položku</string>
-    <!-- Accessibility description to move item to empty cell. -->
     <string name="move_to_empty_cell">Presunúť na riadok <xliff:g example="1" id="number">%1$d</xliff:g> do stĺpca <xliff:g example="1" id="number">%2$d</xliff:g></string>
-    <!-- Accessibility description to move item inside a folder. -->
     <string name="move_to_position">Presunúť na pozíciu <xliff:g example="1" id="number">%1$d</xliff:g></string>
-    <!-- Accessibility description to move item to the hotseat. -->
     <string name="move_to_hotseat_position">Presunúť do obľúbených položiek na pozíciu <xliff:g example="1" id="number">%1$d</xliff:g></string>
-    <!-- Accessibility confirmation for item move. -->
     <string name="item_moved">Položka bola presunutá</string>
-    <!-- Accessibility description to move item into an existing folder. -->
     <string name="add_to_folder">Pridať do priečinka: <xliff:g id="NAME">%1$s</xliff:g></string>
-    <!-- Accessibility description to move item into an existing folder containing an app. -->
     <string name="add_to_folder_with_app">Pridať do priečinka s aplikáciou <xliff:g id="name">%1$s</xliff:g></string>
-    <!-- Accessibility confirmation for item added to folder. -->
     <string name="added_to_folder">Položka bola pridaná do priečinka</string>
-    <!-- Accessibility description to create folder with another item. -->
     <string name="create_folder_with">Vytvoriť priečinok pomocou: <xliff:g id="NAME">%1$s</xliff:g></string>
-    <!-- Accessibility confirmation for folder created. -->
     <string name="folder_created">Priečinok bol vytvorený</string>
-    <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
     <string name="action_move_to_workspace">Presunúť na domovskú obrazovku</string>
-    <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
     <string name="action_move_screen_left">Presunúť obrazovku doľava</string>
-    <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
     <string name="action_move_screen_right">Presunúť obrazovku doprava</string>
-    <!-- Accessibility confirmation when a screen was moved. -->
     <string name="screen_moved">Obrazovka bola posunutá</string>
-    <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
     <string name="action_resize">Zmeniť veľkosť</string>
-    <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
     <string name="action_increase_width">Zväčšiť šírku</string>
-    <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
     <string name="action_increase_height">Zväčšiť výšku</string>
-    <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
     <string name="action_decrease_width">Zmenšiť šírku</string>
-    <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
     <string name="action_decrease_height">Zmenšiť výšku</string>
-    <!-- Accessibility confirmation for widget resize. -->
     <string name="widget_resized">Veľkosť miniaplikácie bola upravená na: šírka <xliff:g example="2" id="number">%1$d</xliff:g>, výška <xliff:g example="1" id="number">%2$d</xliff:g></string>
-    <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
     <string name="action_deep_shortcut">Odkazy</string>
-    <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description">Počet odkazov aplikácie <xliff:g id="app_name">%2$s</xliff:g>: <xliff:g id="number_of_shortcuts">%1$d</xliff:g></string>
     <string name="edit_drop_target_label">Editovať</string>
-    <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
     <string name="wallpaper_instructions">Nastaviť tapetu plochy</string>
-    <!-- Error message when an image is selected as a wallpaper,
-         but the wallpaper picker cannot load it -->
     <string name="image_load_fail">Obrázok sa nepodarilo načítať</string>
-    <!-- Error message when an image is selected as a wallpaper,
-         but the wallpaper cropper cannot load it. The user will
-         usually see this when using another app and trying to set
-         an image as the wallpaper -->
     <string name="wallpaper_load_fail">Obrázok nie je možné načítať ako tapetu</string>
-    <!-- Error message when an image is selected as a wallpaper,
-         but something goes wrong when the user clicks "Set wallpaper" -->
     <string name="wallpaper_set_fail">Obrázok nie je možné nastaviť ako tapetu</string>
-    <!-- Shown when wallpapers are selected in Wallpaper picker -->
-    <!-- String indicating how many media item(s) is(are) selected
-            eg. 1 selected [CHAR LIMIT=30] -->
     <plurals name="number_of_items_selected">
         <item quantity="one">%1$d vybraná</item>
         <item quantity="few">%1$d vybrané</item>
         <item quantity="many">%1$d vybraných</item>
         <item quantity="other">%1$d vybraných</item>
     </plurals>
-    <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
-         e.g. "Wallpaper 3 of 10" -->
     <string name="wallpaper_accessibility_name">Tapeta %1$d z %2$d</string>
-    <!-- Accessibility string used to announce that a wallpaper has been selected. -->
     <string name="announce_selection">Vybraná položka <xliff:g example="Wallpaper 3 of 10" id="label">%1$s</xliff:g></string>
-    <!-- Label on button to delete wallpaper(s) -->
     <string name="wallpaper_delete">Vymazať</string>
-    <!-- Label on button in Wallpaper Picker to pick an image -->
     <string name="pick_image">Moje fotografie</string>
-    <!-- Option in "Select wallpaper from" dialog box -->
     <string name="pick_wallpaper">Tapety</string>
-    <!-- Title of activity for cropping wallpapers -->
     <string name="crop_wallpaper">Orezanie tapety</string>
-    <!-- Option for setting the wallpaper only on the home screen. -->
     <string name="which_wallpaper_option_home_screen">Domovská obrazovka</string>
-    <!-- Option for setting the wallpaper only on the lock screen. -->
     <string name="which_wallpaper_option_lock_screen">Obrazovka uzamknutia</string>
-    <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
     <string name="which_wallpaper_option_home_screen_and_lock_screen">Domovská a obrazovka uzamknutia</string>
     <string name="title_show_google_app">Zobraziť %1$s</string>
     <string name="title_show_google_app_default">Zobraziť Google aplikácie</string>
@@ -245,7 +124,6 @@
     <string name="shortcuts_menu_with_notifications_description">%1$d odkazy a %2$d upozornenia pre %3$s</string>
     <string name="notifications_header">Upozornenia</string>
     <string name="widgets_bottom_sheet_title">%1$s miniaplikácií</string>
-    <!-- About Lawnchair -->
     <string name="about_title">O aplikaci</string>
     <string name="about_pref_summary">Zoznámte sa s týmom Lawnchair</string>
     <string name="week_day_format">%1$s, %2$s</string>
@@ -345,8 +223,7 @@
     <string name="shortcut_blacklist">Zástupca čiernej listiny</string>
     <string name="shortcut_blacklist_sum">Zabrániť aplikáciám pridávať ikony na domovskú obrazovku</string>
     <string name="blacklist_app">Blokované aplikácie</string>
-    <string name="blacklist_app_selected">&#160;vybrané</string>
-    <!-- Import/Export Strings -->
+    <string name="blacklist_app_selected"> vybrané</string>
     <string name="backup_import_title">Obnovenie</string>
     <string name="backup_export_title">Záloha</string>
     <string name="settings_export_success">Nastavenia boli úspešne zálohované</string>
@@ -360,7 +237,6 @@
     <string name="imexport_external_storage_unwritable">Uistite sa, že externé úložisko je nastavené pre zápis</string>
     <string name="units_metric">Metrické</string>
     <string name="units_imperial">Imperiálne</string>
-    <!-- Default units to use, either 'metric' or 'imperial' -->
     <string name="pref_cat_weather">Počasie</string>
     <string name="pref_weather_title">Povoliť počasie</string>
     <string name="pref_weather_units">Jednotky počasia</string>
@@ -371,7 +247,7 @@
     <string name="pref_applyBlur">Použiť rozostrenia na</string>
     <string name="search_bar">Vyhľadávací panel</string>
     <string name="folder">Priečinok</string>
-    <string name="dock_allapps"><![CDATA[Dock & všetky aplikácie]]></string>
+    <string name="dock_allapps">Dock &amp; všetky aplikácie</string>
     <string name="app_shortcuts">Zástupca aplikácií</string>
     <string name="blur_effect">Efekt rozostrenia</string>
     <string name="pref_weather_provider">Poskytovateľ počasia</string>
@@ -399,8 +275,6 @@
     <string name="center_wallpaper_pref_title">Tapeta na stred</string>
     <string name="center_wallpaper_pref_summary">Funguje len vtedy, ak domovská obrazovka používa iba jednu stranu</string>
     <string name="vertical_drawer_layout_pref_title">Zobraziť ako zvislý zoznam</string>
-    <!-- Time format for Weather Widget -->
-    <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
     <string name="full_wday_month_day_no_year">EEEE, d. MMMM</string>
     <string name="lock_desktop">Uzamknutie pracovnej plochy</string>
     <string name="lawnfeed_not_found">Lawnfeed nie je nainštalovaný</string>
@@ -411,7 +285,7 @@
     <string name="hide_app">Skryté aplikácie</string>
     <string name="hide_app_sum">Skryť aplikácie zo zoznamu aplikácií</string>
     <string name="hidden_app">Skrytá aplikácia</string>
-    <string name="hidden_app_selected">&#160;vybrané</string>
+    <string name="hidden_app_selected"> vybrané</string>
     <string name="list_app_apply">Použiť</string>
     <string name="list_app_reset">Resetovať</string>
     <string name="unauthorized_device">Toto zariadenie má nainštalované nástroje pre pirátstvo. Odinštalujte ich a pokračujte.</string>
@@ -420,7 +294,6 @@
     <string name="reset_alternative_icons">Máte %1$d aplikácií s alternativnymi ikonami, chcete ich obnoviž?</string>
     <string name="error_no_browser">Nepodarilo sa zistiť žiadnu aktivitu na spracovanie URL adries</string>
     <string name="error_no_calendar">Nie je nainštalovaná žiadna aplikácia Kalendár</string>
-    <!-- Strings for popup dialogs -->
     <string name="lawnfeed_not_enabled_title">Lawnfeed nie je povolený</string>
     <string name="lawnfeed_not_enabled">Zdá sa, že sa pokúšate otvoriť stránku Google Now, avšak v nastaveniach správania ste túto možnosť nepovolili.\n\nChcete túto možnosť povoliť teraz?</string>
     <string name="lawnfeed_outdated_title">Vyžaduje sa aktualizácia Lawnfeed</string>
@@ -461,17 +334,12 @@
     <string name="local_backups">Miestna záloha</string>
     <string name="backup_location_device_storage">Úložisko zariadenia</string>
     <string name="backup_location_documents_storage">Úložisko dokumentov</string>
-    <!-- Preference Category Pixel Searchbar Title -->
     <string name="pref_category_pixel_searchbar">Vyhľadávací panel Pixel</string>
-    <!-- Preference Category Icons Title -->
     <string name="pref_category_icons">Ikony</string>
-    <!-- Preference Category Drawer Title -->
     <string name="pref_category_drawer">Ponuka aplikácií</string>
-    <!-- Preference Category Misc Title -->
     <string name="pref_category_misc">Rôzne</string>
     <string name="blur_oom">Lawnchair vyčerpal pamäť pri tom, ako sa snažil sa rozmazať tapetu! Zníženie rozlíšenia tapety by to mohlo vyriešiť.</string>
     <string name="legacy_backup">Starší súbor zálohy</string>
-    <!-- About screen -->
     <string name="title_attribouter_licenses">Open Source licencie</string>
     <string name="title_attribouter_email">Email</string>
     <string name="title_attribouter_website">Webové stránky</string>
@@ -500,7 +368,6 @@
     <string name="about_bio_josh">Externý grafik.</string>
     <string name="about_bio_chris">Tvorca myšlienky, vplyvná osoba &amp; tvorca obsahu. Vedúci sociálnych médií a PR manažér.</string>
     <string name="about_bio_msfjarvis">Hlavný vývojár HalogenOS a vývojár aplikácie Substratum.</string>
-    <!-- DT2S -->
     <string name="dt2s_title">Uspať dvojitým kliknutím</string>
     <string name="dt2s_disabled">Nezobrazovať</string>
     <string name="dt2s_deviceadmin">Použiť ako správcu zariadenia</string>

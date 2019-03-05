@@ -18,225 +18,104 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General -->
-    <!-- Application name -->
-    <!-- Default folder name -->
-    <!-- Work folder name -->
     <string name="work_folder_name">Праца</string>
-    <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
     <string name="activity_not_found">Праграма не ўсталявана.</string>
-    <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
     <string name="activity_not_available">Праграма недаступная</string>
-    <!-- SafeMode shortcut error string -->
     <string name="safemode_shortcut_error">Спампаваная праграма адключана ў Бяспечным рэжыме</string>
-    <!-- SafeMode widget error string -->
     <string name="safemode_widget_error">Віджэты адключаны ў Бяспечным рэжыме</string>
-    <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
     <string name="shortcut_not_available">Ярлык недаступны</string>
-    <!-- Widgets -->
-    <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
     <string name="long_press_widget_to_add">Дакраніцеся і ўтрымлiвайце віджэт, каб выбр. яго.</string>
-    <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
     <string name="long_accessible_way_to_add">Дакраніцеся двойчы і ўтрымлівайце, каб выбраць віджэт або выкарыстоўваць карыстальніцкія дзеянні.</string>
-    <!-- The format string for the dimensions of a widget in the drawer -->
-    <!-- There is a special version of this format string for Farsi -->
-    <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
     <string name="widget_accessible_dims_format">Шырына: %1$d, вышыня: %2$d</string>
-    <!-- All Apps -->
-    <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
     <string name="all_apps_search_bar_hint">Пошук у Праграмах</string>
-    <!-- Loading apps text. [CHAR_LIMIT=50] -->
     <string name="all_apps_loading_message">Ідзе загрузка праграм…</string>
-    <!-- No-search-results text. [CHAR_LIMIT=50] -->
     <string name="all_apps_no_search_results">Праграм, якія адпавядаюць запыту \"<xliff:g id="QUERY">%1$s</xliff:g>\", не знойдзена</string>
-    <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
     <string name="all_apps_search_market_message">Шукаць іншыя праграмы</string>
-    <!-- Drag and drop -->
-    <!-- Error message when user has filled a page -->
     <string name="out_of_space">На гэтым Галоўным экране больш няма месца.</string>
-    <!-- Error message when user has filled the hotseat -->
     <string name="hotseat_out_of_space">У латку \"Абранае\" больш няма месца</string>
-    <!-- All applications label -->
     <string name="all_apps_button_label">Спіс праграм</string>
-    <!-- Label for button in all applications label to go back home (to the workspace / desktop)
-         for accessibilty (spoken when the button gets focus). -->
     <string name="all_apps_home_button_label">Дом</string>
-    <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
     <string name="remove_drop_target_label">Выдаліць</string>
-    <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
     <string name="uninstall_drop_target_label">Выдаліць</string>
-    <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
     <string name="app_info_drop_target_label">Звесткі пра праграму</string>
-    <!-- Permissions: -->
-    <!-- Permission short label -->
     <string name="permlab_install_shortcut">усталёўваць ярлыкі</string>
-    <!-- Permission description -->
     <string name="permdesc_install_shortcut">Дазваляе праграмам дадаваць ярлыкі без умяшання карыстальніка.</string>
-    <!-- Permission short label -->
     <string name="permlab_read_settings">счытваць налады і ярлыкі на Галоўнай старонцы</string>
-    <!-- Permission description -->
     <string name="permdesc_read_settings">Дазваляе праграме счытваць налады і ярлыкі на Галоўнай старонцы.</string>
-    <!-- Permission short label -->
     <string name="permlab_write_settings">запісваць налады і ярлыкі на галоўнай старонцы</string>
-    <!-- Permission description -->
     <string name="permdesc_write_settings">Дазваляе праграме змяняць налады і ярлыкі на Галоўнай старонцы.</string>
-    <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
     <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> не мае дазволу на здзяйсненне тэлефонных званкоў</string>
-    <!-- Widgets: -->
-    <!-- Text to show user in place of a gadget when we can't display it properly -->
     <string name="gadget_error_text">Праблема загрузкі віджэта</string>
-    <!-- Text to show user in place of a gadget when it is not yet initialized. -->
     <string name="gadget_setup_text">Наладжванне</string>
-    <!-- Text to inform the user that they can't uninstall a system application -->
     <string name="uninstall_system_app_text">Гэта сістэмная праграма, яе нельга выдаліць.</string>
-    <!-- Default folder title -->
     <string name="folder_hint_text">Папка без назвы</string>
-    <!-- Accessibility -->
-    <!-- The format string for when an app is temporarily disabled. -->
     <string name="disabled_app_label"><xliff:g id="APP_NAME">%1$s</xliff:g> адключана</string>
-    <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
     <string name="default_scroll_format">Старонка %1$d з %2$d</string>
-    <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
     <string name="workspace_scroll_format">Галоўны экран %1$d з %2$d</string>
-    <!-- Description for a new page on home screen[CHAR_LIMIT=none] -->
     <string name="workspace_new_page">Новая старонка галоўнага экрана</string>
-    <!-- Folder accessibility -->
-    <!-- The format string for when a folder is opened, speaks the dimensions -->
     <string name="folder_opened">Папка адкрыта, <xliff:g id="WIDTH">%1$d</xliff:g> на <xliff:g id="HEIGHT">%2$d</xliff:g></string>
-    <!-- Instruction that clicking outside will close folder -->
     <string name="folder_tap_to_close">Краніце, каб закрыць папку</string>
-    <!-- Instruction that clicking outside will commit folder rename -->
     <string name="folder_tap_to_rename">Краніце, каб захаваць новую назву</string>
-    <!-- Indication that folder closed -->
     <string name="folder_closed">Папка закрыта</string>
-    <!-- Folder renamed format -->
     <string name="folder_renamed">Папка перайменавана ў <xliff:g id="NAME">%1$s</xliff:g></string>
-    <!-- Folder name format -->
     <string name="folder_name_format">Папка: <xliff:g id="NAME">%1$s</xliff:g></string>
-    <!-- Strings for the customization mode -->
-    <!-- Text for widget add button -->
     <string name="widget_button_text">Віджэты</string>
-    <!-- Text for wallpaper change button -->
     <string name="wallpaper_button_text">Шпалеры</string>
-    <!-- Text for settings button -->
     <string name="settings_button_text">Налады</string>
-    <!-- Message shown when a feature is disabled by the administrator -->
     <string name="msg_disabled_by_admin">Адключаная адміністратарам</string>
-    <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
     <string name="accessibility_action_overview">Агляд</string>
-    <!-- Strings for settings -->
-    <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-    <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-    <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
-    <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
     <string name="package_state_unknown">Невядома</string>
-    <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
     <string name="abandoned_clean_this">Выдаліць</string>
-    <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
     <string name="abandoned_search">Пошук</string>
-    <!-- Title for abandoned promise dialog. -->
     <string name="abandoned_promises_title">Гэта праграма не ўсталявана</string>
-    <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
-    The second "it" refers to the app. -->
     <string name="abandoned_promise_explanation">Праграма для гэтага значка не ўсталявана. Вы можаце выдаліць яе або выканаць пошук і ўсталяваць яе ўручную.</string>
-    <!-- Title for an app which is being downloaded. -->
     <string name="app_downloading_title">Ідзе спампоўка <xliff:g id="NAME">%1$s</xliff:g>, <xliff:g id="PROGRESS">%2$s</xliff:g> завершана</string>
-    <!-- Title for an app whose download has been started. -->
     <string name="app_waiting_download_title"><xliff:g id="NAME">%1$s</xliff:g> чакае ўсталёўкі</string>
-    <!-- Strings for accessibility actions -->
-    <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
     <string name="action_add_to_workspace">Дадаць на Галоўны экран</string>
-    <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
     <string name="action_move_here">Перамясціць элемент сюды</string>
-    <!-- Accessibility confirmation for item added to workspace. -->
     <string name="item_added_to_workspace">Элемент дададзены на галоўны экран</string>
-    <!-- Accessibility confirmation for item removed. -->
     <string name="item_removed">Элемент выдалены</string>
-    <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
     <string name="action_move">Перамясціць элемент</string>
-    <!-- Accessibility description to move item to empty cell. -->
     <string name="move_to_empty_cell">Перамясціць у радок <xliff:g id="NUMBER_0">%1$s</xliff:g> слупок <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
-    <!-- Accessibility description to move item inside a folder. -->
     <string name="move_to_position">Перамясціць у пазіцыю <xliff:g id="NUMBER">%1$s</xliff:g></string>
-    <!-- Accessibility description to move item to the hotseat. -->
     <string name="move_to_hotseat_position">Перамясціць у абранае, у пазіцыю <xliff:g id="NUMBER">%1$s</xliff:g></string>
-    <!-- Accessibility confirmation for item move. -->
     <string name="item_moved">Элемент перамешчаны</string>
-    <!-- Accessibility description to move item into an existing folder. -->
     <string name="add_to_folder">Дадаць у папку: <xliff:g id="NAME">%1$s</xliff:g></string>
-    <!-- Accessibility description to move item into an existing folder containing an app. -->
     <string name="add_to_folder_with_app">Дадаць у папку з <xliff:g id="NAME">%1$s</xliff:g></string>
-    <!-- Accessibility confirmation for item added to folder. -->
     <string name="added_to_folder">Элемент дададзены ў папку</string>
-    <!-- Accessibility description to create folder with another item. -->
     <string name="create_folder_with">Стварыць папку з: <xliff:g id="NAME">%1$s</xliff:g></string>
-    <!-- Accessibility confirmation for folder created. -->
     <string name="folder_created">Папка створана</string>
-    <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
     <string name="action_move_to_workspace">Перамясціць на Галоўны экран</string>
-    <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
     <string name="action_move_screen_left">Перамясціць экран налева</string>
-    <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
     <string name="action_move_screen_right">Перамясціць экран направа</string>
-    <!-- Accessibility confirmation when a screen was moved. -->
     <string name="screen_moved">Экран перамешчаны</string>
-    <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
     <string name="action_resize">Змяніць памер</string>
-    <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
     <string name="action_increase_width">Павялічыць шырыню</string>
-    <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
     <string name="action_increase_height">Павялічыць вышыню</string>
-    <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
     <string name="action_decrease_width">Паменшыць шырыню</string>
-    <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
     <string name="action_decrease_height">Паменшыць вышыню</string>
-    <!-- Accessibility confirmation for widget resize. -->
     <string name="widget_resized">Памеры віджэта зменены на: шырыня <xliff:g id="NUMBER_0">%1$s</xliff:g>, вышыня <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
-    <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
     <string name="action_deep_shortcut">Ярлыкі</string>
-    <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description">Ярлыкі (<xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g>) для <xliff:g id="APP_NAME">%2$s</xliff:g></string>
     <string name="edit_drop_target_label">Рэдагаваць</string>
-    <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
     <string name="wallpaper_instructions">Усталяваць шпалеры</string>
-    <!-- Error message when an image is selected as a wallpaper,
-         but the wallpaper picker cannot load it -->
     <string name="image_load_fail">Не атрымалася загрузіць выяву</string>
-    <!-- Error message when an image is selected as a wallpaper,
-         but the wallpaper cropper cannot load it. The user will
-         usually see this when using another app and trying to set
-         an image as the wallpaper -->
     <string name="wallpaper_load_fail">Не атрымалася загрузіць выяву</string>
-    <!-- Error message when an image is selected as a wallpaper,
-         but something goes wrong when the user clicks "Set wallpaper" -->
     <string name="wallpaper_set_fail">Не атрымалася змяніць шпалеры</string>
-    <!-- Shown when wallpapers are selected in Wallpaper picker -->
-    <!-- String indicating how many media item(s) is(are) selected
-            eg. 1 selected [CHAR LIMIT=30] -->
     <plurals name="number_of_items_selected">
         <item quantity="one">Выбрана: %1$d</item>
         <item quantity="few">Выбрана: %1$d</item>
         <item quantity="many">Выбрана: %1$d</item>
         <item quantity="other">Выбрана: %1$d</item>
     </plurals>
-    <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
-         e.g. "Wallpaper 3 of 10" -->
     <string name="wallpaper_accessibility_name">Выява %1$d з %2$d</string>
-    <!-- Accessibility string used to announce that a wallpaper has been selected. -->
     <string name="announce_selection">Абрана <xliff:g example="Wallpaper 3 of 10" id="label">%1$s</xliff:g></string>
-    <!-- Label on button to delete wallpaper(s) -->
     <string name="wallpaper_delete">Выдаліць</string>
-    <!-- Label on button in Wallpaper Picker to pick an image -->
     <string name="pick_image">Мае фота</string>
-    <!-- Option in "Select wallpaper from" dialog box -->
     <string name="pick_wallpaper">Шпалеры</string>
-    <!-- Title of activity for cropping wallpapers -->
     <string name="crop_wallpaper">Абрэзаць шпалеры</string>
-    <!-- Option for setting the wallpaper only on the home screen. -->
     <string name="which_wallpaper_option_home_screen">Хатні экран</string>
-    <!-- Option for setting the wallpaper only on the lock screen. -->
     <string name="which_wallpaper_option_lock_screen">Экран блакіроўкі</string>
-    <!-- Option for setting the wallpaper on both the home screen and lock screen. -->
     <string name="which_wallpaper_option_home_screen_and_lock_screen">Галоўны экран і экран блакіроўкі</string>
     <string name="title_show_google_app">Паказаць %1$s</string>
     <string name="title_show_google_app_default">Паказаць прыкладанні Google</string>
@@ -245,7 +124,6 @@
     <string name="shortcuts_menu_with_notifications_description">%1$d шорткаты і %2$d апавяшчэнняў для %3$s</string>
     <string name="notifications_header">Апавяшчэнні</string>
     <string name="widgets_bottom_sheet_title">%1$s віджэтаў</string>
-    <!-- About Lawnchair -->
     <string name="about_title">Аб праграме</string>
     <string name="about_pref_summary">Даведацца аб камандзе Lawnchair</string>
     <string name="week_day_format">%1$s, %2$s</string>
@@ -345,8 +223,7 @@
     <string name="shortcut_blacklist">Чорны спіс значкоў</string>
     <string name="shortcut_blacklist_sum">Забараніць праграмам дадаваць значкі на галоўны экран</string>
     <string name="blacklist_app">Заблакаваныя праграмы</string>
-    <string name="blacklist_app_selected">&#160;абрана</string>
-    <!-- Import/Export Strings -->
+    <string name="blacklist_app_selected"> абрана</string>
     <string name="backup_import_title">Аднавіць з рэзервовай копіі</string>
     <string name="backup_export_title">Рэзервовая копія</string>
     <string name="settings_export_success">Налады рэзервовага капіявання створаны</string>
@@ -360,7 +237,6 @@
     <string name="imexport_external_storage_unwritable">Пераканайцеся, што знешні назапашвальнік усталяваны для запісу</string>
     <string name="units_metric">Метрычная</string>
     <string name="units_imperial">Імперская</string>
-    <!-- Default units to use, either 'metric' or 'imperial' -->
     <string name="pref_cat_weather">Надвор\'е</string>
     <string name="pref_weather_title">Уключыць надвор\'е</string>
     <string name="pref_weather_units">Адзінкі вымярэння надвор\'я</string>
@@ -371,7 +247,7 @@
     <string name="pref_applyBlur">Прымяніць размыццё на</string>
     <string name="search_bar">Радок пошуку</string>
     <string name="folder">Тэчка</string>
-    <string name="dock_allapps"><![CDATA[Док-панэль і меню праграм]]></string>
+    <string name="dock_allapps">Док-панэль і меню праграм</string>
     <string name="app_shortcuts">Цэтлікі праграм</string>
     <string name="blur_effect">Эфект размыцця</string>
     <string name="pref_weather_provider">Пастаўшчыкі надвор\'я</string>
@@ -399,8 +275,6 @@
     <string name="center_wallpaper_pref_title">Цэнтраваць шпалеры, калі маецца толькі адзін экран</string>
     <string name="center_wallpaper_pref_summary">Працуе, калі на працоўным стале выкарыстоўваецца толькі адна старонка</string>
     <string name="vertical_drawer_layout_pref_title">Адлюстроўваць у выглядзе вертыкальнага спісу</string>
-    <!-- Time format for Weather Widget -->
-    <!-- EEEE is the weekday name, MMMM the month name and d the day of the month -->
     <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
     <string name="lock_desktop">Блакаванне працоўнага стала</string>
     <string name="lawnfeed_not_found">Lawnfeed не ўсталяваны</string>
@@ -411,7 +285,7 @@
     <string name="hide_app">Схаваць праграму</string>
     <string name="hide_app_sum">Схаваць праграму ў спісе праграм</string>
     <string name="hidden_app">Схаваныя праграма</string>
-    <string name="hidden_app_selected">&#160;абрана</string>
+    <string name="hidden_app_selected"> абрана</string>
     <string name="list_app_apply">Ужыць</string>
     <string name="list_app_reset">Скінуць</string>
     <string name="unauthorized_device">Гэта прылада мае некалькі ўсталяваных пірацкіх сродкаў. Калі ласка, выдаліце ​​іх, каб працягнуць.</string>
@@ -420,7 +294,6 @@
     <string name="reset_alternative_icons">У вас %1$d праграм з альтэрнатыўнымі значкамі, хочаце скінуць іх?</string>
     <string name="error_no_browser">Ніякай дзейнасці не знойдзена для апрацоўкі URL-адрасоў</string>
     <string name="error_no_calendar">Праграма каляндар не ўстаноўлена</string>
-    <!-- Strings for popup dialogs -->
     <string name="lawnfeed_not_enabled_title">Lawnfeed не ўключаны</string>
     <string name="lawnfeed_not_enabled">Падобна на тое, вы спрабуеце адкрыць старонку Google Now, але не ўключылі яе ў наладах.\n\nЖадаеце ўключыць яе зараз?</string>
     <string name="lawnfeed_outdated_title">Патрабуецца абнаўленне Lawnfeed</string>
@@ -461,17 +334,12 @@
     <string name="local_backups">Лакальныя рэзервовыя копіі</string>
     <string name="backup_location_device_storage">Сховішча прылады</string>
     <string name="backup_location_documents_storage">Сховішча дакументаў</string>
-    <!-- Preference Category Pixel Searchbar Title -->
     <string name="pref_category_pixel_searchbar">Радок пошуку Pixel</string>
-    <!-- Preference Category Icons Title -->
     <string name="pref_category_icons">Значкі</string>
-    <!-- Preference Category Drawer Title -->
     <string name="pref_category_drawer">Меню праграм</string>
-    <!-- Preference Category Misc Title -->
     <string name="pref_category_misc">Іншае</string>
     <string name="blur_oom">Адбылася памылка пры спробе Lawnchair размыць вашы шпалеры! Памяншэнне разрозненні шпалер магло б выправіць гэта.</string>
     <string name="legacy_backup">Састарэлы файл рэзервовай копіі</string>
-    <!-- About screen -->
     <string name="title_attribouter_licenses">Ліцэнзіі Open Source</string>
     <string name="title_attribouter_email">Email</string>
     <string name="title_attribouter_website">Сайт</string>
@@ -500,7 +368,6 @@
     <string name="about_bio_josh">Пазаштатны графічны дызайнер.</string>
     <string name="about_bio_chris">Творчы розум, кантэнт-менеджэр, сацыяльны і PR-менеджэр.</string>
     <string name="about_bio_msfjarvis">Галоўны распрацоўшчык halogenOS і праграм для Substratum.</string>
-    <!-- DT2S -->
     <string name="dt2s_title">Выключаць экран пры падвойным націску</string>
     <string name="dt2s_disabled">Выключана</string>
     <string name="dt2s_deviceadmin">Выкарыстанне правоў адміністратара</string>
