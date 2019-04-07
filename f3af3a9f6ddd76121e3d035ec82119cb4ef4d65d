@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher 2ECD2531 1554660607 +0800\npushee ssh://mokeedev.review:29418/MoKee/android_packages_apps_Lawnchair\nnonce 1554660607-6B541B0E124039CAA7A97EFCA18D84E87AC7C249\n\n0000000000000000000000000000000000000000 f3af3a9f6ddd76121e3d035ec82119cb4ef4d65d refs/for/mkp\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1\n\niQEcBAABAgAGBQJcqjz/AAoJEPIi9OYuzSUxX8YH/2xjKJL+sw9ml6Bpu+OgVv+Y\nhI6bZlXObRlueZSdCXQweJrvvzpQs576oRsEVrkbL9r6t2PW0fY+MHn1x9jNqiM1\nbUK9M9XXDWCA9PITKugO1BC36vnovoyHqeCifBysOxIkwugtZDY/m4YQuA/G0zZ7\ntq4KiBxw7uFvO4mjeg1CfPMiifAM6FTUAVeh3Emtf/pPYfnc+bLHu9Ox/pwuGPKm\nNcBojIPpuxhaMILj1bx2rNu7wjKeEtNYnvILdwtw71GHy6KKagyOk8i/VpjJJROr\nddSpi5Kx7vaUwMYtmF/0v47tf8Ub1Y7g28Nt1NuhkcOzNOdeUZSSmK5rsMzPoUQ\u003d\n\u003dnakm\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
