@@ -1,4 +1,4 @@
-# Lawnchair - [![Crowdin](https://d322cqt584bo4o.cloudfront.net/lawnchairandroid/localized.svg)](http://translate.lawnchair.info)
+# Lawnchair - [![Crowdin](https://d322cqt584bo4o.cloudfront.net/lawnchairandroid/localized.svg)](https://translate.lawnchair.app)
 
 ![Lawnchair](banner.png)
 
@@ -21,6 +21,10 @@ After registering it in `ch.deletescape.lawnchair.globalsearch.SearchProviderCon
 
 Alright, I admit it, our build variants are a bit of a mess right now. Make sure to choose one of the variants prefixed `quickstepLawnchair*`
 from the "Build Variants" menu in Android Studio. Our team is usually always on the latest canary version of Android Studio, builds are not guaranteed to work in the Stable channel.
+
+## Translations
+
+Wanna help us by translating Lawnchair to your own language? Just take a look at [our Crowdin page](https://translate.lawnchair.app/).
 
 ## Source releases
 
@@ -45,6 +49,7 @@ make sure to inform yourself before creating your own project based on Lawnchair
 
  The official Lawnchair graphics were designed by [Josh Baldassarre](https://www.uplabs.com/jshbldssrr) & [Lumiq Creative](https://lumiqcreative.com). Thanks a lot to those awesome designers!
 
-## Links
+## Useful links
 
-[Website](https://lawnchair.app) - [Twitter](https://twitter.com/lawnchairapp) - [Telegram](https://t.me/lawnchair)
+[Website](https://lawnchair.app) - [Twitter](https://twitter.com/lawnchairapp) - [Telegram](https://t.me/lawnchair) - 
+[XDA Thread](https://forum.xda-developers.com/android/apps-games/lawnchair-customizable-pixel-launcher-t3627137) - [APK Mirror](https://www.apkmirror.com/apk/deletescape/lawnchair/)
