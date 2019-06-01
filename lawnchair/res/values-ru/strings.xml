@@ -361,8 +361,6 @@
     <string name="sesame_enable_integration_description">Обеспечивает обмен данными между Lawnchair и Sesame. Вы можете изменить параметр в настройках Lawnchair или Sesame.</string>
     <string name="sesame_version">Версия интеграции</string>
     <string name="sesame_shortcut_disabled">Значки Sesame недоступны</string>
-    <string name="pref_sesame_sync_icon_pack">Поделиться набором иконок</string>
-    <string name="pref_sesame_sync_icon_pack_summary">Синхронизировать набор иконок Lawnchair с Sesame</string>
     <string name="font_variant_italic">Курсив</string>
     <string name="font_weight_thin">Тонкий</string>
     <string name="font_weight_extra_light">Очень тонький</string>
