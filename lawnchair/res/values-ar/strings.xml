@@ -365,8 +365,6 @@
     <string name="sesame_enable_integration_description">يتيح مشاركة البيانات بين Lawnchair و Sesame. يمكنك تغيير هذا في إعدادات Lawnchair أو Sesame.</string>
     <string name="sesame_version">نسخة التكامل</string>
     <string name="sesame_shortcut_disabled">اختصارات Sesame غير متوفرة</string>
-    <string name="pref_sesame_sync_icon_pack">مشاركة حزمة الرموز</string>
-    <string name="pref_sesame_sync_icon_pack_summary">مزامنة حزمة رموز Lawnchair مع Sesame</string>
     <string name="font_variant_italic">مائل</string>
     <string name="font_weight_thin">نحيف</string>
     <string name="font_weight_extra_light">خفيف جداً</string>

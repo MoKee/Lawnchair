@@ -355,8 +355,6 @@
     <string name="sesame_enable_integration_description">開啟 Lawnchair 和 Sesame 之間的資料分享功能。您可在 Lawnchair 或 Sesame 設定中變更。</string>
     <string name="sesame_version">整合版本</string>
     <string name="sesame_shortcut_disabled">Sesame 捷徑無法使用</string>
-    <string name="pref_sesame_sync_icon_pack">分享圖示包</string>
-    <string name="pref_sesame_sync_icon_pack_summary">同步 Lawnchair 圖示套件至 Sesame</string>
     <string name="font_variant_italic">斜體</string>
     <string name="font_weight_thin">細字體</string>
     <string name="font_weight_extra_light">特細</string>

@@ -16,9 +16,11 @@
     <string name="dock_pref_title">Ancorar</string>
     <string name="restore_backup">Importar</string>
     <string name="backup_location">Localização</string>
+    <string name="choose_backup_path">Explorar</string>
     <string name="backup_settings">Definições</string>
     <string name="homescreen">Ecrã Principal</string>
     <string name="backup_wallpaper">Imagem de fundo</string>
+    <string name="backup_loading">A carregar...</string>
     <string name="backup_share">Partilhar</string>
     <string name="grid_size">Tamanho de grelha</string>
     <string name="grid_size_height">Altura</string>
@@ -28,12 +30,27 @@
     <string name="dock_style_hidden">Oculto</string>
     <string name="icon_pack_default">Ícones do sistema</string>
     <string name="loading">Carregando…</string>
+    <string name="pref_category_icons">Ícones</string>
     <string name="pref_category_weather">Meteorologia</string>
     <string name="pref_category_misc">Outro</string>
     <string name="pref_category_theme">Estilo</string>
     <string name="pref_category_searchbar">Barra de pesquisa</string>
+    <string name="title_attribouter_licenses">Licenças de Código Aberto</string>
     <string name="title_attribouter_email">E-mail</string>
+    <string name="title_attribouter_website">Site da Web</string>
+    <string name="title_attribouter_version">Versão %1$s</string>
+    <string name="title_attribouter_license">Licença</string>
     <string name="title_attribouter_license_permissions">Permissões</string>
+    <string name="title_attribouter_license_conditions">Condições</string>
+    <string name="title_attribouter_license_limitations">Limitações</string>
+    <string name="title_attribouter_more_info">Mais Informação</string>
+    <string name="title_attribouter_translators">Tradutores</string>
+    <string name="about_our_team">A nossa equipa</string>
+    <string name="about_our_contributors">Os nossos melhores colaboradores</string>
+    <string name="about_our_family">Os nossos outros membros da família</string>
+    <string name="about_role_lead">Programador Principal</string>
+    <string name="about_role_dev">Programador</string>
+    <string name="about_role_designer">Desenhador</string>
     <string name="action_none">Não fazer nada</string>
     <string name="gesture_press_home">Botão Página Inicial</string>
     <string name="gesture_press_back">Botão Anterior</string>
@@ -53,6 +70,7 @@
     <string name="theme_title">Pixel UI</string>
     <string name="theme_automatic">Automático</string>
     <string name="theme_default">Padrão</string>
+    <string name="transparent">Transparente</string>
     <string name="pref_open_source_licenses_title">Licenças </string>
     <string name="custom">Personalizado</string>
     <string name="pref_hide_statusbar">Ocultar a barra de estado</string>
@@ -65,6 +83,7 @@
     <string name="theme_black">Preto</string>
     <string name="pref_qsb_color">Cor</string>
     <string name="title_app_suggestions">Aplicações</string>
+    <string name="feed_theme_pref_title">Cor de fundo</string>
     <string name="add_new_tab">Adicionar</string>
     <string name="rename_tab">Mudar nome</string>
     <string name="selected_count">%1$d selecionados</string>
@@ -79,4 +98,5 @@
     <string name="font_weight_light">Claro</string>
     <string name="font_weight_medium">Médio</string>
     <string name="font_weight_extra_black">Preto</string>
+    <string name="pref_fonts_category_drawer">Menu</string>
 </resources>

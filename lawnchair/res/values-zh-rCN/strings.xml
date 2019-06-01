@@ -11,6 +11,7 @@
     <string name="in_smartspace">在“速览”微件内</string>
     <string name="smartspace_time">时间</string>
     <string name="smartspace_date">日期</string>
+    <string name="customize">自定义</string>
     <string name="smartspace_preferences_in_settings">速览</string>
     <string name="smartspace_preferences_in_settings_desc">时间、日期、天气信息源</string>
     <string name="search">搜索</string>
@@ -34,8 +35,10 @@
     <string name="hide_app_sum">从应用抽屉隐藏</string>
     <string name="hide_app">隐藏应用</string>
     <string name="icon_shape_rounded_square">圆角正方形</string>
+    <string name="pixel_ui_pref_summary">图标包、模糊、颜色</string>
     <string name="app_drawer_pref_title">应用抽屉</string>
     <string name="app_drawer_pref_summary">不透明度，建议，隐藏应用</string>
+    <string name="search_pref_summary">颜色、搜索引擎、图标</string>
     <string name="general_pref_title">桌面</string>
     <string name="general_pref_summary">网格，图标布局，状态栏</string>
     <string name="about_pref_summary">开发团队、链接、许可</string>
@@ -92,6 +95,7 @@
     <string name="blur_pref_title">开启模糊效果</string>
     <string name="blur_pref_summary">应用抽屉，Dock 栏，设置背景的模糊效果</string>
     <string name="blur_radius_pref_title">模糊强度</string>
+    <string name="dock_colored_google">图标着色</string>
     <string name="hotseat_show_arrow">箭头</string>
     <string name="hotseat_show_page_indicator">页面指示器</string>
     <string name="dock_style_pref_title">Dock 栏样式</string>
@@ -151,6 +155,7 @@
     <string name="about_bio_deletescape">安卓开发者 &amp; 爱好者，喜欢玩梗 (玩得有点过火了)。Lawnchair 项目的创始人。</string>
     <string name="about_bio_recoded">温和的程序员和图形设计师。</string>
     <string name="about_bio_josh">自由的图像设计师。</string>
+    <string name="about_bio_chris">拥有创造性思维的影响者、内容创造者。社交媒体和公关总监。让我们在@lawnchairapp 畅游✨</string>
     <string name="about_bio_msfjarvis">halogenOS的核心开发者和substratum的应用程序开发者。</string>
     <string name="debug_crash_launcher">模拟崩溃桌面</string>
     <string name="gestures_pref_title">手势</string>
@@ -267,6 +272,8 @@
     <string name="enabled_icon_packs">已启用</string>
     <string name="pref_icon_pack_masking">图标遮罩</string>
     <string name="pref_icon_pack_masking_summary">使未应用主题的图标适应已应用的图标包</string>
+    <string name="pref_legacy_colored_backgrounds">背景着色</string>
+    <string name="pref_legacy_colored_backgrounds_summary">为自适应图标生成彩色背景</string>
     <string name="pref_white_only_treatment">替换白色背景</string>
     <string name="smartspace_provider_bridge">Rootless Pixel Bridge</string>
     <string name="dismiss_drop_target_label">"不显示"</string>
@@ -325,6 +332,7 @@
     <string name="tab_manage_apps">管理应用</string>
     <string name="tab_bottom_sheet_save">保存</string>
     <string name="tab_hide_from_main">从抽屉中隐藏</string>
+    <string name="tab_color">标签页颜色</string>
     <string name="delete">删除</string>
     <string name="none">无</string>
     <string name="undo">撤销</string>
@@ -346,8 +354,6 @@
     <string name="sesame_enable_integration_description">启用 Lawnchair 与 Sesame 之间的数据共享。 您可以在 Lawnchair 或 Sesame 设置中更改此设置。</string>
     <string name="sesame_version">集成版本</string>
     <string name="sesame_shortcut_disabled">Sesame 快捷方式不可用</string>
-    <string name="pref_sesame_sync_icon_pack">分享图标包</string>
-    <string name="pref_sesame_sync_icon_pack_summary">与 Sesame 同步 Lawnchair 图标包</string>
     <string name="font_variant_italic">斜体</string>
     <string name="font_weight_thin">细体</string>
     <string name="font_weight_extra_light">极细体</string>
@@ -392,4 +398,5 @@
     <string name="about_app_description">一个可自定义的 Pixel Launcher 替代品。</string>
     <string name="about_bio_paphonb">18岁的学生，Android 开发者，Lawnchair 启动器首席开发者之一。</string>
     <string name="dock_scale">Dock 栏大小</string>
+    <string name="adaptify_pack_title">为图标包创建自适应图标</string>
 </resources>
