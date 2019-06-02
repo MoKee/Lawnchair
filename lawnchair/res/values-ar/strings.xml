@@ -176,7 +176,6 @@
     <string name="action_open_app_with_target">فتح %s</string>
     <string name="action_open_app_select_app">اختيار تطبيق</string>
     <string name="action_none">لا تفعل شيئا</string>
-    <string name="action_despacito">تشغيل YouTube Rewind 2018 (earrape)</string>
     <string name="gesture_press_home">زر الصفحة الرئيسية</string>
     <string name="gesture_press_back">زر الرجوع</string>
     <string name="gesture_double_tap">ضغط مزدوج</string>
@@ -411,4 +410,6 @@
     <string name="dock_scale">مقياس الشريط السفلي</string>
     <string name="adaptify_pack_title">انشاء أيقونات مكيفة لحزمة الأيقونات</string>
     <string name="adaptify_pack_summary">انشاء رمز متكيفة للأيقونات من حزمة الأيقونات</string>
+    <string name="pref_sesame_sync_look_and_feel">مشاركة الشكل والمظهر</string>
+    <string name="pref_sesame_sync_look_and_feel_summary">تزامن إعدادات بحث Lawnchair مع سمسم</string>
 </resources>

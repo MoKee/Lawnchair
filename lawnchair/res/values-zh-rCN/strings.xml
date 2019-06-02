@@ -176,7 +176,6 @@
     <string name="action_open_app_with_target">打开 %s</string>
     <string name="action_open_app_select_app">选择应用</string>
     <string name="action_none">不进行任何操作</string>
-    <string name="action_despacito">播放 YouTube Rewind 2018 (earrape)</string>
     <string name="gesture_press_home">Home 键</string>
     <string name="gesture_press_back">返回键</string>
     <string name="gesture_double_tap">双击</string>

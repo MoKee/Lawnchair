@@ -176,7 +176,6 @@
     <string name="action_open_app_with_target">%s megnyitása</string>
     <string name="action_open_app_select_app">Alkalmazás kijelölése</string>
     <string name="action_none">Nincs művelet</string>
-    <string name="action_despacito">Youtube-os időutazás 2018-ba (fülsértő)</string>
     <string name="gesture_press_home">Kezdőgomb</string>
     <string name="gesture_press_back">Vissza gomb</string>
     <string name="gesture_double_tap">Dupla érintés</string>
