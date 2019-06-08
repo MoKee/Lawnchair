@@ -176,6 +176,7 @@
     <string name="action_open_app_with_target">打开 %s</string>
     <string name="action_open_app_select_app">选择应用</string>
     <string name="action_none">不进行任何操作</string>
+    <string name="action_despacito">播放 YouTube Rewind 2018 (高能预警)</string>
     <string name="gesture_press_home">Home 键</string>
     <string name="gesture_press_back">返回键</string>
     <string name="gesture_double_tap">双击</string>
@@ -274,6 +275,7 @@
     <string name="pref_legacy_colored_backgrounds">背景着色</string>
     <string name="pref_legacy_colored_backgrounds_summary">为自适应图标生成彩色背景</string>
     <string name="pref_white_only_treatment">替换白色背景</string>
+    <string name="pref_white_only_treatment_summary">所有自适应图标均使用彩色背景</string>
     <string name="smartspace_provider_bridge">Rootless Pixel Bridge</string>
     <string name="dismiss_drop_target_label">"不显示"</string>
     <string name="suggested_action_content_description">在 %2$s 中打开 %1$s</string>
@@ -398,4 +400,7 @@
     <string name="about_bio_paphonb">18岁的学生，Android 开发者，Lawnchair 启动器首席开发者之一。</string>
     <string name="dock_scale">Dock 栏大小</string>
     <string name="adaptify_pack_title">为图标包创建自适应图标</string>
+    <string name="adaptify_pack_summary">为出自图标包的图标创建自适应图标</string>
+    <string name="pref_sesame_sync_look_and_feel">分享外观和风格</string>
+    <string name="pref_sesame_sync_look_and_feel_summary">与 Sesame 同步 Lawnchair 搜索设置</string>
 </resources>

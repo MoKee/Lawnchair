@@ -176,6 +176,7 @@
     <string name="action_open_app_with_target">%s\'i Aç</string>
     <string name="action_open_app_select_app">Uygulama seç</string>
     <string name="action_none">Hiçbir şey yapma</string>
+    <string name="action_despacito">Play YouTube Rewind 2018 (bozuk)</string>
     <string name="gesture_press_home">Ana ekran tuşu</string>
     <string name="gesture_press_back">Geri tuşu</string>
     <string name="gesture_double_tap">Çift dokunma</string>
@@ -402,4 +403,6 @@
     <string name="dock_scale">Alt panel boyutu</string>
     <string name="adaptify_pack_title">Simge paketleri için uyarlanabilir simgeler oluştur</string>
     <string name="adaptify_pack_summary">Simge paketlerinden simgeler için uyarlanabilir simgeler oluştur</string>
+    <string name="pref_sesame_sync_look_and_feel">Görünümü paylaş</string>
+    <string name="pref_sesame_sync_look_and_feel_summary">Lawnchair arama ayarlarını Sesame ile senkronize et</string>
 </resources>

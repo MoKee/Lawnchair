@@ -175,6 +175,7 @@
     <string name="action_open_app_with_target">開啟 %s</string>
     <string name="action_open_app_select_app">選擇應用程式</string>
     <string name="action_none">無動作</string>
+    <string name="action_despacito">播放 YouTube Rewind 2018</string>
     <string name="gesture_press_home">主畫面鍵</string>
     <string name="gesture_press_back">返回鍵</string>
     <string name="gesture_double_tap">雙點 / 雙按</string>
