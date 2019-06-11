@@ -41,6 +41,7 @@ import android.support.v4.graphics.ColorUtils
 import android.support.v4.graphics.drawable.DrawableCompat
 import android.support.v4.view.PagerAdapter
 import android.support.v7.app.AlertDialog
+import android.support.v7.graphics.Palette
 import android.support.v7.preference.Preference
 import android.support.v7.preference.PreferenceGroup
 import android.text.TextUtils
@@ -438,6 +439,10 @@ fun dpToPx(size: Float): Float {
     return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, size, Resources.getSystem().displayMetrics)
 }
 
+fun pxToDp(size: Float): Float {
+    return size / dpToPx(1f)
+}
+
 fun Drawable.toBitmap(): Bitmap? {
     return Utilities.drawableToBitmap(this)
 }
@@ -750,3 +755,11 @@ inline fun avg(vararg of: Float) = of.average()
 inline fun avg(vararg of: Int) = of.average()
 inline fun avg(vararg of: Long) = of.average()
 inline fun avg(vararg of: Double) = of.average()
+
+fun Context.checkLocationAccess(): Boolean {
+    return Utilities.hasPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) ||
+            Utilities.hasPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION)
+}
+
+val Int.foregroundColor
+    get() = Palette.Swatch(ColorUtils.setAlphaComponent(this, 0xFF), 1).bodyTextColor

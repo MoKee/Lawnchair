@@ -18,12 +18,20 @@
 package ch.deletescape.lawnchair.colors
 
 import android.content.Context
+import android.graphics.Color
+import android.graphics.Color.*
+import android.support.annotation.ColorRes
 import android.support.v4.graphics.ColorUtils
 import android.support.v7.graphics.Palette
 import android.text.TextUtils
+import android.view.ContextThemeWrapper
 import ch.deletescape.lawnchair.*
 import ch.deletescape.lawnchair.colors.resolvers.DockQsbAutoResolver
+import ch.deletescape.lawnchair.colors.resolvers.DrawerLabelAutoResolver
 import ch.deletescape.lawnchair.colors.resolvers.DrawerQsbAutoResolver
+import ch.deletescape.lawnchair.colors.resolvers.WorkspaceLabelAutoResolver
+import ch.deletescape.lawnchair.theme.ThemeManager
+import ch.deletescape.lawnchair.theme.ThemeOverride
 import ch.deletescape.lawnchair.util.SingletonHolder
 import com.android.launcher3.R
 import com.android.launcher3.Utilities
@@ -112,10 +120,32 @@ class ColorEngine private constructor(val context: Context) : LawnchairPreferenc
         }
     }
 
+    @JvmOverloads
     fun getOrCreateResolver(key: String, defaultValue: ColorResolver = Resolvers.getDefaultResolver(key, context, this)): LawnchairPreferences.StringBasedPref<ColorResolver> {
         return resolverMap[key] ?: createResolverPref(key, defaultValue).also {
             resolverMap[key] = it
         }
+    }
+
+    fun setColor(resolver: String, color: Int) {
+        prefs.sharedPrefs.edit().putString(resolver, (if (alpha(color) < 0xFF) {
+            // ARGB
+            arrayOf(
+                    ARGBColorResolver::class.java.name,
+                    alpha(color).toString(),
+                    red(color).toString(),
+                    green(color).toString(),
+                    blue(color).toString()
+            )
+        } else {
+            // RGB
+            arrayOf(
+                    RGBColorResolver::class.java.name,
+                    red(color).toString(),
+                    green(color).toString(),
+                    blue(color).toString()
+            )
+        }).joinToString("|")).apply()
     }
 
     companion object : SingletonHolder<ColorEngine, Context>(ensureOnMainThread(useApplicationContext(::ColorEngine))) {
@@ -132,6 +162,8 @@ class ColorEngine private constructor(val context: Context) : LawnchairPreferenc
             const val ACCENT = "pref_accentColorResolver"
             const val HOTSEAT_QSB_BG = "pref_hotseatQsbColorResolver"
             const val ALLAPPS_QSB_BG = "pref_allappsQsbColorResolver"
+            const val ALLAPPS_ICON_LABEL = "pref_allAppsLabelColorResolver"
+            const val WORKSPACE_ICON_LABEL = "pref_workspaceLabelColorResolver"
             fun getDefaultResolver(key: String, context: Context, engine: ColorEngine): ColorResolver {
                 return when (key) {
                     HOTSEAT_QSB_BG -> {
@@ -139,6 +171,12 @@ class ColorEngine private constructor(val context: Context) : LawnchairPreferenc
                     }
                     ALLAPPS_QSB_BG -> {
                         DrawerQsbAutoResolver(ColorResolver.Config(key, engine, engine::onColorChanged))
+                    }
+                    ALLAPPS_ICON_LABEL -> {
+                        DrawerLabelAutoResolver(ColorResolver.Config(key, engine, engine::onColorChanged))
+                    }
+                    WORKSPACE_ICON_LABEL -> {
+                        WorkspaceLabelAutoResolver(ColorResolver.Config(key, engine, engine::onColorChanged))
                     }
                     ACCENT -> engine.createColorResolver(key, LawnchairConfig.getInstance(context).defaultColorResolver)
                     else -> engine.createColorResolver(key, LawnchairConfig.getInstance(context).defaultColorResolver)
@@ -154,15 +192,16 @@ class ColorEngine private constructor(val context: Context) : LawnchairPreferenc
         val args get() = config.args
         open val isCustom = false
 
+        val context get() = engine.context
+        val launcherThemeContext get() = ContextThemeWrapper(context, ThemeOverride.Launcher().getTheme(context))
+
         abstract fun resolveColor(): Int
 
         abstract fun getDisplayName(): String
 
         override fun toString() = TextUtils.join("|", listOf(this::class.java.name) + args) as String
 
-        open fun computeForegroundColor(): Int {
-            return Palette.Swatch(ColorUtils.setAlphaComponent(resolveColor(), 0xFF), 1).bodyTextColor
-        }
+        open fun computeForegroundColor() = resolveColor().foregroundColor
 
         open fun startListening() {
             listening = true

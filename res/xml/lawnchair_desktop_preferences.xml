@@ -37,6 +37,25 @@
             android:persistent="true" />
 
         <ch.deletescape.lawnchair.preferences.SeekbarPreference
+            android:key="pref_iconTextScaleSB"
+            android:persistent="true"
+            android:title="@string/icon_text_scale_pref_title"
+            android:dependency="pref_hideAppLabels"
+            app:defaultSeekbarValue="1.0"
+            app:maxValue="1.8"
+            app:minValue="0.3"
+            app:steps="150"
+            app:summaryFormat="%.0f%%"
+            app:summaryMultiplier="100"/>
+
+        <ch.deletescape.lawnchair.colors.preferences.ColorPickerPreference
+            android:key="pref_workspaceLabelColorResolver"
+            android:title="@string/text_color"
+            android:dependency="pref_hideAppLabels"
+            app:colorMode="RGB"
+            app:resolvers="@array/resolvers_workspace_labels"/>
+
+        <ch.deletescape.lawnchair.preferences.SeekbarPreference
             android:key="pref_iconSize"
             android:persistent="true"
             android:title="@string/icon_scale_pref_title"
@@ -75,11 +94,22 @@
         </com.android.launcher3.views.ButtonPreference>
 
         <ch.deletescape.lawnchair.preferences.StyledSwitchPreferenceCompat
+            android:key="pref_displayNotificationCount"
+            android:persistent="true"
+            android:title="@string/pref_notification_count_title"
+            android:summary="@string/pref_notification_count_title"/>
+
+        <ch.deletescape.lawnchair.preferences.StyledSwitchPreferenceCompat
             android:defaultValue="@bool/allow_rotation"
             android:key="pref_allowRotation"
             android:persistent="true"
             android:title="@string/allow_rotation_title"
             app:controllerClass=".AllowRotationController"/>
+
+        <ch.deletescape.lawnchair.preferences.StyledSwitchPreferenceCompat
+            android:key="pref_centerWallpaper"
+            android:title="@string/pref_center_wallpaper"
+            android:summary="@string/pref_center_wallpaper_summary"/>
 
         <ch.deletescape.lawnchair.preferences.StyledSwitchPreferenceCompat
             android:defaultValue="@bool/config_hide_statusbar"

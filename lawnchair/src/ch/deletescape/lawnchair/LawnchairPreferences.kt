@@ -24,11 +24,10 @@ import android.net.Uri
 import android.os.Looper
 import android.provider.Settings
 import android.text.TextUtils
-import android.util.TypedValue
 import ch.deletescape.lawnchair.globalsearch.SearchProviderController
+import ch.deletescape.lawnchair.groups.DrawerTabs
 import ch.deletescape.lawnchair.iconpack.IconPackManager
 import ch.deletescape.lawnchair.preferences.DockStyle
-import ch.deletescape.lawnchair.groups.DrawerTabs
 import ch.deletescape.lawnchair.sesame.Sesame
 import ch.deletescape.lawnchair.settings.GridSize
 import ch.deletescape.lawnchair.settings.GridSize2D
@@ -105,8 +104,9 @@ class LawnchairPreferences(val context: Context) : SharedPreferences.OnSharedPre
     val hideStatusBar by BooleanPref("pref_hideStatusBar", lawnchairConfig.hideStatusBar, doNothing)
     val iconPackMasking by BooleanPref("pref_iconPackMasking", true, reloadIcons)
     val adaptifyIconPacks by BooleanPref("pref_generateAdaptiveForIconPack", false, reloadIcons)
-    val showVoiceSearchIcon by BooleanPref("opa_enabled")
-    val showAssistantIcon by BooleanPref("opa_assistant")
+    var showVoiceSearchIcon by BooleanPref("opa_enabled")
+    var showAssistantIcon by BooleanPref("opa_assistant")
+    val displayNotificationCount by BooleanPref("pref_displayNotificationCount", false, reloadAll)
 
     // Desktop
     val allowFullWidthWidgets by BooleanPref("pref_fullWidthWidgets", false, restart)
@@ -118,6 +118,8 @@ class LawnchairPreferences(val context: Context) : SharedPreferences.OnSharedPre
     private val homeMultilineLabel by BooleanPref("pref_homeIconLabelsInTwoLines", false, recreate)
     val homeLabelRows get() = if(homeMultilineLabel) 2 else 1
     val allowOverlap by BooleanPref("pref_allowOverlap", false, reloadAll)
+    val desktopTextScale by FloatPref("pref_iconTextScaleSB", 1f, reloadAll)
+    val centerWallpaper by BooleanPref("pref_centerWallpaper")
 
     // Smartspace
     val enableSmartspace by BooleanPref("pref_smartspace", lawnchairConfig.enableSmartspace)
@@ -178,6 +180,7 @@ class LawnchairPreferences(val context: Context) : SharedPreferences.OnSharedPre
     val drawerTabs by lazy { DrawerTabs(this) }
     val showActions by BooleanPref("pref_show_suggested_actions", true, doNothing)
     val sortDrawerByColors by BooleanPref("pref_allAppsColorSorted", false, reloadAll)
+    val drawerTextScale by FloatPref("pref_allAppsIconTextScale", 1f, recreate)
 
     // Dev
     var developerOptionsEnabled by BooleanPref("pref_showDevOptions", false, doNothing)
@@ -207,6 +210,9 @@ class LawnchairPreferences(val context: Context) : SharedPreferences.OnSharedPre
         SearchProviderController.getInstance(context).onSearchProviderChanged()
     }
     val dualBubbleSearch by BooleanPref("pref_bubbleSearchStyle", false, doNothing)
+    // This purely exists to abuse preference change listeners, the value is never actually read.
+    var sesameIconColor by IntPref("pref_sesameIconColor", -1)
+    var searchBarRadius by DimensionPref("pref_searchbarRadius", -1f)
 
     // Quickstep
     var swipeUpToSwitchApps by BooleanPref("pref_swipe_up_to_switch_apps_enabled", true, doNothing)
@@ -533,7 +539,7 @@ class LawnchairPreferences(val context: Context) : SharedPreferences.OnSharedPre
         override fun onGetValue(): Float = dpToPx(sharedPrefs.getFloat(getKey(), defaultValue))
 
         override fun onSetValue(value: Float) {
-            TODO("not implemented")
+            edit { putFloat(getKey(), pxToDp(value.toFloat())) }
         }
     }
 
