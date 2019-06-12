@@ -22,6 +22,7 @@ import android.support.v4.graphics.ColorUtils
 import ch.deletescape.lawnchair.LawnchairLauncher
 import ch.deletescape.lawnchair.LawnchairPreferences
 import ch.deletescape.lawnchair.colors.ColorEngine
+import ch.deletescape.lawnchair.colors.ThemeAttributeColorResolver
 import ch.deletescape.lawnchair.colors.WallpaperColorResolver
 import ch.deletescape.lawnchair.theme.ThemeManager
 import com.android.launcher3.R
@@ -60,20 +61,11 @@ class DrawerQsbAutoResolver(config: Config) : ColorEngine.ColorResolver(config),
 @Keep
 class DrawerQsbLightResolver(config: Config) : WallpaperColorResolver(config), LawnchairPreferences.OnPreferenceChangeListener {
 
+    override val themeAware = true
     private val isDark get() = ThemeManager.getInstance(engine.context).isDark
-
-    override fun startListening() {
-        super.startListening()
-        LawnchairPreferences.getInstanceNoCreate().addOnPreferenceChangeListener(this, "pref_launcherTheme")
-    }
 
     override fun onValueChanged(key: String, prefs: LawnchairPreferences, force: Boolean) {
         notifyChanged()
-    }
-
-    override fun stopListening() {
-        super.stopListening()
-        LawnchairPreferences.getInstanceNoCreate().removeOnPreferenceChangeListener(this, "pref_launcherTheme")
     }
 
     override fun resolveColor() = engine.context.resources.getColor(
@@ -93,6 +85,7 @@ class DrawerQsbLightResolver(config: Config) : WallpaperColorResolver(config), L
 @Keep
 class DrawerQsbDarkResolver(config: Config) : WallpaperColorResolver(config) {
 
+    override val themeAware = true
     val color = engine.context.resources.getColor(R.color.qsb_background_drawer_dark_bar)
 
     override fun resolveColor() = ColorUtils.compositeColors(ColorUtils
@@ -100,4 +93,10 @@ class DrawerQsbDarkResolver(config: Config) : WallpaperColorResolver(config) {
             colorInfo.mainColor)
 
     override fun getDisplayName() = engine.context.resources.getString(R.string.theme_dark)
+}
+
+@Keep
+class ShelfBackgroundAutoResolver(config: Config) : ThemeAttributeColorResolver(config) {
+
+    override val colorAttr = R.attr.allAppsScrimColor
 }

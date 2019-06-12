@@ -18,24 +18,13 @@
 package ch.deletescape.lawnchair.colors
 
 import android.content.Context
-import android.graphics.Color
 import android.graphics.Color.*
-import android.support.annotation.ColorRes
-import android.support.v4.graphics.ColorUtils
-import android.support.v7.graphics.Palette
 import android.text.TextUtils
-import android.view.ContextThemeWrapper
 import ch.deletescape.lawnchair.*
-import ch.deletescape.lawnchair.colors.resolvers.DockQsbAutoResolver
-import ch.deletescape.lawnchair.colors.resolvers.DrawerLabelAutoResolver
-import ch.deletescape.lawnchair.colors.resolvers.DrawerQsbAutoResolver
-import ch.deletescape.lawnchair.colors.resolvers.WorkspaceLabelAutoResolver
-import ch.deletescape.lawnchair.theme.ThemeManager
-import ch.deletescape.lawnchair.theme.ThemeOverride
+import ch.deletescape.lawnchair.colors.resolvers.*
 import ch.deletescape.lawnchair.util.SingletonHolder
-import com.android.launcher3.R
+import ch.deletescape.lawnchair.util.ThemedContextProvider
 import com.android.launcher3.Utilities
-import java.util.HashSet
 
 class ColorEngine private constructor(val context: Context) : LawnchairPreferences.OnPreferenceChangeListener {
 
@@ -52,14 +41,12 @@ class ColorEngine private constructor(val context: Context) : LawnchairPreferenc
 
     override fun onValueChanged(key: String, prefs: LawnchairPreferences, force: Boolean) {
         if (!force) {
-            val resolver by getOrCreateResolver(key)
-            resolver.startListening()
             onColorChanged(key, getOrCreateResolver(key).onGetValue())
         }
     }
 
     private fun onColorChanged(key: String, colorResolver: ColorResolver) {
-        runOnMainThread { colorListeners[key]?.forEach { it.onColorChange(key, colorResolver.resolveColor(), colorResolver.computeForegroundColor()) } }
+        runOnMainThread { colorListeners[key]?.forEach { it.onColorChange(ResolveInfo(key, colorResolver)) } }
     }
 
     fun addColorChangeListeners(listener: OnColorChangeListener, vararg keys: String) {
@@ -68,12 +55,12 @@ class ColorEngine private constructor(val context: Context) : LawnchairPreferenc
         }
         for (key in keys) {
             if (colorListeners[key] == null) {
-                colorListeners[key] = HashSet()
+                colorListeners[key] = createWeakSet()
                 prefs.addOnPreferenceChangeListener(this, key)
             }
             colorListeners[key]?.add(listener)
             val resolver by getOrCreateResolver(key)
-            listener.onColorChange(key, resolver.resolveColor(), resolver.computeForegroundColor())
+            listener.onColorChange(ResolveInfo(key, resolver))
         }
     }
 
@@ -83,7 +70,8 @@ class ColorEngine private constructor(val context: Context) : LawnchairPreferenc
         }
         for (key in keys) {
             colorListeners[key]?.remove(listener)
-            if (colorListeners[key]?.isEmpty() != false) {
+            if (colorListeners[key]?.isEmpty() == true) {
+                colorListeners.remove(key)
                 prefs.removeOnPreferenceChangeListener(key, this)
             }
         }
@@ -113,10 +101,11 @@ class ColorEngine private constructor(val context: Context) : LawnchairPreferenc
     fun createColorResolver(key: String, string: String): ColorResolver {
         val cacheKey = "$key@$string"
         // Prevent having to expensively use reflection every time
-        if (resolverCache.containsKey(cacheKey)) return resolverCache[cacheKey]!!
+        if (resolverCache.containsKey(cacheKey)) return resolverCache[cacheKey]!!.also { it.ensureIsListening() }
         val resolver = createColorResolverNullable(key, string)
         return (resolver ?: Resolvers.getDefaultResolver(key, context, this)).also {
             resolverCache[cacheKey] = it
+            it.ensureIsListening()
         }
     }
 
@@ -154,7 +143,8 @@ class ColorEngine private constructor(val context: Context) : LawnchairPreferenc
     }
 
     interface OnColorChangeListener {
-        fun onColorChange(resolver: String, color: Int, foregroundColor: Int)
+
+        fun onColorChange(resolveInfo: ResolveInfo)
     }
 
     internal class Resolvers {
@@ -164,36 +154,48 @@ class ColorEngine private constructor(val context: Context) : LawnchairPreferenc
             const val ALLAPPS_QSB_BG = "pref_allappsQsbColorResolver"
             const val ALLAPPS_ICON_LABEL = "pref_allAppsLabelColorResolver"
             const val WORKSPACE_ICON_LABEL = "pref_workspaceLabelColorResolver"
+            const val DOCK_BACKGROUND = "pref_dockBackgroundColorResolver"
+            const val ALLAPPS_BACKGROUND = "pref_allAppsBackgroundColorResolver"
+
             fun getDefaultResolver(key: String, context: Context, engine: ColorEngine): ColorResolver {
                 return when (key) {
                     HOTSEAT_QSB_BG -> {
-                        DockQsbAutoResolver(ColorResolver.Config(key, engine, engine::onColorChanged))
+                        DockQsbAutoResolver(createConfig(key, engine))
                     }
                     ALLAPPS_QSB_BG -> {
-                        DrawerQsbAutoResolver(ColorResolver.Config(key, engine, engine::onColorChanged))
+                        DrawerQsbAutoResolver(createConfig(key, engine))
                     }
                     ALLAPPS_ICON_LABEL -> {
-                        DrawerLabelAutoResolver(ColorResolver.Config(key, engine, engine::onColorChanged))
+                        DrawerLabelAutoResolver(createConfig(key, engine))
                     }
                     WORKSPACE_ICON_LABEL -> {
-                        WorkspaceLabelAutoResolver(ColorResolver.Config(key, engine, engine::onColorChanged))
+                        WorkspaceLabelAutoResolver(createConfig(key, engine))
+                    }
+                    DOCK_BACKGROUND, ALLAPPS_BACKGROUND -> {
+                        ShelfBackgroundAutoResolver(createConfig(key, engine))
                     }
                     ACCENT -> engine.createColorResolver(key, LawnchairConfig.getInstance(context).defaultColorResolver)
                     else -> engine.createColorResolver(key, LawnchairConfig.getInstance(context).defaultColorResolver)
                 }
             }
+
+            private fun createConfig(key: String, engine: ColorEngine)
+                    = ColorResolver.Config(key, engine, engine::onColorChanged)
         }
     }
 
-    abstract class ColorResolver(val config: Config) {
+    abstract class ColorResolver(val config: Config) : ThemedContextProvider.Listener {
 
         private var listening = false
         val engine get() = config.engine
         val args get() = config.args
         open val isCustom = false
+        open val themeAware = false
 
         val context get() = engine.context
-        val launcherThemeContext get() = ContextThemeWrapper(context, ThemeOverride.Launcher().getTheme(context))
+
+        private val themedContextProvider by lazy { ThemedContextProvider(context, this) }
+        val launcherThemeContext get() = themedContextProvider.get()
 
         abstract fun resolveColor(): Int
 
@@ -201,14 +203,30 @@ class ColorEngine private constructor(val context: Context) : LawnchairPreferenc
 
         override fun toString() = TextUtils.join("|", listOf(this::class.java.name) + args) as String
 
-        open fun computeForegroundColor() = resolveColor().foregroundColor
+        fun computeForegroundColor() = resolveColor().foregroundColor
+
+        fun computeLuminance() = resolveColor().luminance
+
+        fun computeIsDark() = resolveColor().isDark
+
+        fun ensureIsListening() {
+            if (!listening) {
+                startListening()
+            }
+        }
 
         open fun startListening() {
             listening = true
+            if (themeAware) {
+                themedContextProvider.startListening()
+            }
         }
 
         open fun stopListening() {
             listening = false
+            if (themeAware) {
+                themedContextProvider.stopListening()
+            }
         }
 
         fun notifyChanged() {
@@ -221,10 +239,24 @@ class ColorEngine private constructor(val context: Context) : LawnchairPreferenc
             }
         }
 
+        override fun onThemeChanged() {
+            notifyChanged()
+        }
+
         class Config(
                 val key: String,
                 val engine: ColorEngine,
                 val listener: ((String, ColorResolver) -> Unit)? = null,
                 val args: List<String> = emptyList())
+    }
+
+    class ResolveInfo(val key: String, resolver: ColorResolver) {
+
+        val color = resolver.resolveColor()
+        val foregroundColor by lazy { color.foregroundColor }
+        val luminance = color.luminance
+        val isDark = luminance < 0.5f
+
+        val resolverClass = resolver::class.java
     }
 }

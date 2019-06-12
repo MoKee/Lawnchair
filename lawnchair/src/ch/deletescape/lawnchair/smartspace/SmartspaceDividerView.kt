@@ -15,20 +15,21 @@
  *     along with Lawnchair Launcher.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package ch.deletescape.lawnchair.colors.resolvers
+package ch.deletescape.lawnchair.smartspace
 
-import android.support.annotation.Keep
-import ch.deletescape.lawnchair.colors.ThemeAttributeColorResolver
-import com.android.launcher3.R
+import android.content.Context
+import android.util.AttributeSet
+import android.view.View
+import ch.deletescape.lawnchair.colors.ColorEngine
 
-@Keep
-class DrawerLabelAutoResolver(config: Config) : ThemeAttributeColorResolver(config) {
+class SmartspaceDividerView(context: Context, attrs: AttributeSet?) : View(context, attrs),
+        ColorEngine.OnColorChangeListener {
 
-    override val colorAttr = android.R.attr.textColorSecondary
-}
+    init {
+        ColorEngine.getInstance(context).addColorChangeListeners(this, ColorEngine.Resolvers.WORKSPACE_ICON_LABEL)
+    }
 
-@Keep
-class WorkspaceLabelAutoResolver(config: Config) : ThemeAttributeColorResolver(config) {
-
-    override val colorAttr = R.attr.workspaceTextColor
+    override fun onColorChange(resolveInfo: ColorEngine.ResolveInfo) {
+        setBackgroundColor(resolveInfo.color)
+    }
 }
