@@ -38,6 +38,8 @@
     <string name="searchbar_appearance_title">Izgled</string>
     <string name="enabled_icon_packs">Omogućeno</string>
     <string name="theme_dark">Tamno</string>
+    <string name="theme_dark_theme_mode_on">Uključeno</string>
+    <string name="theme_dark_theme_mode_off">Isključen</string>
     <string name="pref_qsb_color">Boja</string>
     <string name="title_app_suggestions">Aplikacije</string>
     <string name="feed_theme_pref_title">Boja pozadine</string>
@@ -51,4 +53,6 @@
     <string name="name">Naziv</string>
     <string name="shortcut_sesame">Prečaci</string>
     <string name="font_weight_medium">Srednje</string>
+    <string name="text_color">Boja teksta</string>
+    <string name="background_color">Boja pozadine</string>
 </resources>

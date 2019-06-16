@@ -63,6 +63,8 @@
     <string name="theme_light">밝은 테마</string>
     <string name="theme_dark">어두움</string>
     <string name="theme_black">검은색</string>
+    <string name="theme_dark_theme_mode_on">켜기</string>
+    <string name="theme_dark_theme_mode_off">끄기</string>
     <string name="pref_qsb_color">색상</string>
     <string name="title_app_suggestions">앱</string>
     <string name="add_new_tab">추가</string>

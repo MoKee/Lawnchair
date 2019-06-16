@@ -61,6 +61,8 @@
     <string name="theme_light">Vaalea</string>
     <string name="theme_dark">Tumma</string>
     <string name="theme_black">Musta</string>
+    <string name="theme_dark_theme_mode_on">Käytössä</string>
+    <string name="theme_dark_theme_mode_off">Pois</string>
     <string name="pref_qsb_color">Väri</string>
     <string name="title_app_suggestions">Sovellukset</string>
     <string name="feed_theme_pref_title">Taustaväri</string>
@@ -78,4 +80,6 @@
     <string name="font_weight_light">Vaalea</string>
     <string name="font_weight_medium">Keskitaso</string>
     <string name="font_weight_extra_black">Musta</string>
+    <string name="text_color">Tekstin väri</string>
+    <string name="background_color">Taustaväri</string>
 </resources>

@@ -32,6 +32,8 @@
     <string name="theme_default">Asal</string>
     <string name="custom">Peribadi</string>
     <string name="pref_drawer_columns">Bilangan lajur</string>
+    <string name="theme_dark_theme_mode_on">Hidupkan</string>
+    <string name="theme_dark_theme_mode_off">Dimatikan</string>
     <string name="pref_qsb_color">Warna</string>
     <string name="tab_bottom_sheet_save">Simpan</string>
     <string name="delete">Padam</string>

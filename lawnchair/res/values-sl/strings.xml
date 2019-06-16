@@ -91,6 +91,8 @@
     <string name="theme_light">Svetla</string>
     <string name="theme_dark">Temno</string>
     <string name="theme_black">Črna</string>
+    <string name="theme_dark_theme_mode_on">Vklopljeno</string>
+    <string name="theme_dark_theme_mode_off">Izklopljen</string>
     <string name="pref_qsb_color">Barva</string>
     <string name="search_clear_history">Počisti zgodovino</string>
     <string name="title_app_suggestions">Aplikacije</string>
@@ -110,4 +112,6 @@
     <string name="font_weight_medium">Srednja</string>
     <string name="font_weight_extra_black">Črna</string>
     <string name="pref_fonts_category_drawer">Predal</string>
+    <string name="text_color">Barva besedila</string>
+    <string name="background_color">Barva ozadja</string>
 </resources>

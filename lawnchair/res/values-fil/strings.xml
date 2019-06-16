@@ -60,6 +60,8 @@
     <string name="theme_light">Liwanag</string>
     <string name="theme_dark">Madalim</string>
     <string name="theme_black">Itim</string>
+    <string name="theme_dark_theme_mode_on">Naka-on</string>
+    <string name="theme_dark_theme_mode_off">Patay</string>
     <string name="pref_qsb_color">Kulay</string>
     <string name="title_app_suggestions">Mga app</string>
     <string name="add_new_tab">Idagdag</string>

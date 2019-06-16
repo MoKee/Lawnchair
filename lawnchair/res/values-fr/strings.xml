@@ -105,6 +105,8 @@
     <string name="theme_light">Clair</string>
     <string name="theme_dark">Sombre</string>
     <string name="theme_black">Noir</string>
+    <string name="theme_dark_theme_mode_on">Activé</string>
+    <string name="theme_dark_theme_mode_off">Désactivé</string>
     <string name="pref_qsb_color">Couleur</string>
     <string name="search_clear_history">Effacer l\'historique</string>
     <string name="title_app_suggestions">Applications</string>
@@ -124,4 +126,6 @@
     <string name="font_weight_medium">Moyenne</string>
     <string name="font_weight_extra_black">Noir</string>
     <string name="pref_fonts_category_drawer">Liste d\'applications</string>
+    <string name="text_color">Couleur du texte</string>
+    <string name="background_color">Couleur d\'arrière-plan</string>
 </resources>

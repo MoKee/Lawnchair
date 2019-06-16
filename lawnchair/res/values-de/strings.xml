@@ -91,6 +91,8 @@
     <string name="theme_light">Hell</string>
     <string name="theme_dark">Dunkel</string>
     <string name="theme_black">Schwarz</string>
+    <string name="theme_dark_theme_mode_on">An</string>
+    <string name="theme_dark_theme_mode_off">Deaktiviert</string>
     <string name="pref_qsb_color">Farbe</string>
     <string name="title_app_suggestions">Anwendungen</string>
     <string name="feed_theme_pref_title">Hintergrundfarbe</string>
@@ -109,4 +111,6 @@
     <string name="font_weight_medium">Mittel</string>
     <string name="font_weight_extra_black">Schwarz</string>
     <string name="pref_fonts_category_drawer">App-Übersicht</string>
+    <string name="text_color">Schriftfarbe</string>
+    <string name="background_color">Hintergrundfarbe</string>
 </resources>

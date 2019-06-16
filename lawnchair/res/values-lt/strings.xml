@@ -24,6 +24,8 @@
     <string name="custom">Tinkintas</string>
     <string name="automatic_short">Automobiliai</string>
     <string name="theme_black">Juodas</string>
+    <string name="theme_dark_theme_mode_on">Įjungta</string>
+    <string name="theme_dark_theme_mode_off">Išjungti</string>
     <string name="pref_qsb_color">Spalva</string>
     <string name="feed_theme_pref_title">Fono spalva</string>
     <string name="add_new_tab">Pridėti</string>
@@ -36,4 +38,6 @@
     <string name="shortcut_sesame">Spartieji klavišai</string>
     <string name="allow">Leisti</string>
     <string name="font_weight_extra_black">Juodas</string>
+    <string name="text_color">Teksto spalva</string>
+    <string name="background_color">Fono spalva</string>
 </resources>

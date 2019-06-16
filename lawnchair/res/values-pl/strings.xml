@@ -91,6 +91,8 @@
     <string name="theme_light">Jasny</string>
     <string name="theme_dark">Ciemność</string>
     <string name="theme_black">Czarny</string>
+    <string name="theme_dark_theme_mode_on">Włączono</string>
+    <string name="theme_dark_theme_mode_off">Wyłącz</string>
     <string name="pref_qsb_color">Kolor</string>
     <string name="search_clear_history">Wyczyść historię</string>
     <string name="title_app_suggestions">Aplikacje</string>
@@ -110,4 +112,6 @@
     <string name="font_weight_medium">Średnia czułość</string>
     <string name="font_weight_extra_black">Czarny</string>
     <string name="pref_fonts_category_drawer">Szuflada</string>
+    <string name="text_color">Tekst</string>
+    <string name="background_color">Tło</string>
 </resources>

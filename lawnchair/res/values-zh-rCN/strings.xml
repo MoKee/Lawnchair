@@ -293,6 +293,8 @@
     <string name="theme_dark_dark_text">暗色主题 + 暗色文字</string>
     <string name="theme_black">黑色</string>
     <string name="theme_black_dark_text">黑色主题 + 暗色文字</string>
+    <string name="theme_dark_theme_mode_on">开启</string>
+    <string name="theme_dark_theme_mode_off">关闭</string>
     <string name="pref_qsb_color">颜色</string>
     <string name="hide_from_predictions">从建议中隐藏</string>
     <string name="hide_from_predictions_summary">不再显示于抽屉建议中</string>
@@ -403,4 +405,6 @@
     <string name="adaptify_pack_summary">为出自图标包的图标创建自适应图标</string>
     <string name="pref_sesame_sync_look_and_feel">分享外观和风格</string>
     <string name="pref_sesame_sync_look_and_feel_summary">与 Sesame 同步 Lawnchair 搜索设置</string>
+    <string name="text_color">文本颜色</string>
+    <string name="background_color">背景色</string>
 </resources>

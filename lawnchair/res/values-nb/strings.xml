@@ -35,6 +35,8 @@
     <string name="pref_hide_statusbar">Skjul statuslinjen</string>
     <string name="enabled_icon_packs">Aktivert</string>
     <string name="theme_dark">Mørkt</string>
+    <string name="theme_dark_theme_mode_on">På</string>
+    <string name="theme_dark_theme_mode_off">Av</string>
     <string name="pref_qsb_color">Farge</string>
     <string name="title_app_suggestions">Apper</string>
     <string name="feed_theme_pref_title">Bakgrunnsfarge</string>
@@ -48,4 +50,6 @@
     <string name="shortcut_sesame">Snarveier</string>
     <string name="allow">Tillat</string>
     <string name="font_weight_medium">Middels</string>
+    <string name="text_color">Tekstfarge</string>
+    <string name="background_color">Bakgrunnsfarge</string>
 </resources>

@@ -56,6 +56,8 @@
     <string name="theme_light">Clar</string>
     <string name="theme_dark">Fosca</string>
     <string name="theme_black">Negre</string>
+    <string name="theme_dark_theme_mode_on">Activat</string>
+    <string name="theme_dark_theme_mode_off">Desactivat</string>
     <string name="title_app_suggestions">Aplicacions</string>
     <string name="feed_theme_pref_title">Color del fons</string>
     <string name="add_new_tab">Afegeix</string>
@@ -71,4 +73,6 @@
     <string name="font_weight_light">Clar</string>
     <string name="font_weight_medium">Mitja</string>
     <string name="font_weight_extra_black">Negre</string>
+    <string name="text_color">Color del text</string>
+    <string name="background_color">Color del fons</string>
 </resources>

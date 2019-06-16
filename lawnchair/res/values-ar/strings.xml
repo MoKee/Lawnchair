@@ -293,6 +293,8 @@
     <string name="theme_dark_dark_text">داكن مع نص داكن</string>
     <string name="theme_black">أسود</string>
     <string name="theme_black_dark_text">أسود مع نص داكن</string>
+    <string name="theme_dark_theme_mode_on">تشغيل</string>
+    <string name="theme_dark_theme_mode_off">إيقاف</string>
     <string name="pref_qsb_color">اللون</string>
     <string name="hide_from_predictions">إخفاء من الإقتراحات</string>
     <string name="hide_from_predictions_summary">لا تظهر أبداً في اقتراحات درج التطبيقات</string>
@@ -413,4 +415,6 @@
     <string name="adaptify_pack_summary">انشاء رمز متكيفة للأيقونات من حزمة الأيقونات</string>
     <string name="pref_sesame_sync_look_and_feel">مشاركة الشكل والمظهر</string>
     <string name="pref_sesame_sync_look_and_feel_summary">تزامن إعدادات بحث Lawnchair مع سمسم</string>
+    <string name="text_color">لون النص</string>
+    <string name="background_color">لون الخلفية</string>
 </resources>

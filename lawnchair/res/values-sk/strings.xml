@@ -91,6 +91,8 @@
     <string name="theme_light">Svetlá</string>
     <string name="theme_dark">Tmavý</string>
     <string name="theme_black">Čierna</string>
+    <string name="theme_dark_theme_mode_on">Zapnuté</string>
+    <string name="theme_dark_theme_mode_off">Vypnuté</string>
     <string name="pref_qsb_color">Farba</string>
     <string name="title_app_suggestions">Aplikácie</string>
     <string name="feed_theme_pref_title">Farba pozadia</string>
@@ -109,4 +111,6 @@
     <string name="font_weight_medium">Stredná</string>
     <string name="font_weight_extra_black">Čierna</string>
     <string name="pref_fonts_category_drawer">Ponuka aplikácií</string>
+    <string name="text_color">Farba textu</string>
+    <string name="background_color">Farba pozadia</string>
 </resources>

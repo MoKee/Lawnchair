@@ -91,6 +91,8 @@
     <string name="theme_light">Chiaro</string>
     <string name="theme_dark">Scuro</string>
     <string name="theme_black">Nero</string>
+    <string name="theme_dark_theme_mode_on">ON</string>
+    <string name="theme_dark_theme_mode_off">Spenta</string>
     <string name="pref_qsb_color">Colore</string>
     <string name="search_clear_history">Cancella cronologia</string>
     <string name="title_app_suggestions">Applicazioni</string>
@@ -110,4 +112,6 @@
     <string name="font_weight_medium">Media</string>
     <string name="font_weight_extra_black">Nero</string>
     <string name="pref_fonts_category_drawer">Drawer</string>
+    <string name="text_color">Colore del testo</string>
+    <string name="background_color">Colore di sfondo</string>
 </resources>

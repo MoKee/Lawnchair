@@ -16,6 +16,7 @@
     <string name="reset">යළි පිහිටුවන්න</string>
     <string name="custom">අභිරුචි</string>
     <string name="automatic_short">ස්වයංක්‍රීය</string>
+    <string name="theme_dark_theme_mode_on">සක්‍රීයයි</string>
     <string name="pref_qsb_color">වර්ණය</string>
     <string name="tab_bottom_sheet_save">සුරකින්න</string>
     <string name="delete">මකන්න</string>

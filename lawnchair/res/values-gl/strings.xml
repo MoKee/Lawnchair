@@ -47,4 +47,6 @@
     <string name="shortcut_sesame">Atallos</string>
     <string name="allow">Permitir</string>
     <string name="font_weight_medium">Medio</string>
+    <string name="text_color">Color del texto</string>
+    <string name="background_color">Color del fondo</string>
 </resources>

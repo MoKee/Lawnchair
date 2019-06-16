@@ -81,6 +81,8 @@
     <string name="theme_light">Claro</string>
     <string name="theme_dark">Escuro</string>
     <string name="theme_black">Preto</string>
+    <string name="theme_dark_theme_mode_on">Ativado</string>
+    <string name="theme_dark_theme_mode_off">Desativado</string>
     <string name="pref_qsb_color">Cor</string>
     <string name="title_app_suggestions">Aplicações</string>
     <string name="feed_theme_pref_title">Cor de fundo</string>
@@ -99,4 +101,6 @@
     <string name="font_weight_medium">Médio</string>
     <string name="font_weight_extra_black">Preto</string>
     <string name="pref_fonts_category_drawer">Menu</string>
+    <string name="text_color">Cor do texto</string>
+    <string name="background_color">Cor de fundo</string>
 </resources>

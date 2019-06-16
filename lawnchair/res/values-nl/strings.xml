@@ -64,6 +64,8 @@
     <string name="theme_light">Licht</string>
     <string name="theme_dark">Donker</string>
     <string name="theme_black">Zwart</string>
+    <string name="theme_dark_theme_mode_on">Aan</string>
+    <string name="theme_dark_theme_mode_off">Uit</string>
     <string name="pref_qsb_color">Kleur</string>
     <string name="title_app_suggestions">Apps</string>
     <string name="feed_theme_pref_title">Achtergrondkleur</string>
@@ -81,4 +83,6 @@
     <string name="font_weight_light">Licht</string>
     <string name="font_weight_medium">Middel</string>
     <string name="font_weight_extra_black">Zwart</string>
+    <string name="text_color">Tekstkleur</string>
+    <string name="background_color">Achtergrondkleur</string>
 </resources>
