@@ -289,10 +289,19 @@
     <string name="theme_auto_night_mode">Järgige süsteemi teemat</string>
     <string name="theme_light">Hele</string>
     <string name="theme_dark_text">Hele tumeda tekstiga</string>
+    <string name="theme_with_dark_text">tume tekst</string>
     <string name="theme_dark">Tume</string>
     <string name="theme_dark_dark_text">Tume tumeda tekstiga</string>
     <string name="theme_black">Must</string>
     <string name="theme_black_dark_text">Must tumeda tekstiga</string>
+    <string name="theme_dark_theme_mode">Tume teema</string>
+    <string name="theme_dark_theme_mode_on">Sees</string>
+    <string name="theme_dark_theme_mode_off">Väljas</string>
+    <string name="theme_dark_theme_mode_follow_wallpaper">@string/theme_auto</string>
+    <string name="theme_dark_theme_mode_follow_system">@string/theme_auto_night_mode</string>
+    <string name="theme_dark_theme_mode_follow_daylight">Päevavalguse järgi</string>
+    <string name="theme_use_black">Kasuta puhast musta</string>
+    <string name="theme_use_dark_text">Kasuta tumedat teksti</string>
     <string name="pref_qsb_color">Värv</string>
     <string name="hide_from_predictions">Peida soovitustest</string>
     <string name="hide_from_predictions_summary">Ärge kunagi näidake soovituste sahtlis</string>
@@ -405,4 +414,12 @@
     <string name="adaptify_pack_summary">Loo ikoonipakettide jaoks adaptiivsed ikoonid</string>
     <string name="pref_sesame_sync_look_and_feel">Jaga välimust ja tundeid</string>
     <string name="pref_sesame_sync_look_and_feel_summary">Sünkroonige Lawnchairi otsingusätted Sesame\'iga</string>
+    <string name="pref_search_bar_radius">Otsinguriba raadius</string>
+    <string name="icon_text_scale_pref_title">Teksti suurus</string>
+    <string name="text_color">Teksti värv</string>
+    <string name="background_color">Tausta värv</string>
+    <string name="pref_notification_count_title">Näita tevituste arvu</string>
+    <string name="pref_notification_count_summary">Näita punkti sees teavituste arvu</string>
+    <string name="pref_center_wallpaper">Joonda taustapilt alati keskele</string>
+    <string name="pref_center_wallpaper_summary">See keelab taustapildi kerimise efekti</string>
 </resources>
