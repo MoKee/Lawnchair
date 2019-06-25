@@ -261,10 +261,15 @@ public class Folder extends AbstractFloatingView implements DragSource,
         mFooter.measure(measureSpec, measureSpec);
         mFooterHeight = mFooter.getMeasuredHeight();
 
-        findViewById(R.id.settings_button).setOnClickListener(v -> {
-            animateClosed();
-            CustomBottomSheet.show(mLauncher, mInfo);
-        });
+        View settingsButton = findViewById(R.id.settings_button);
+        if (Utilities.getLawnchairPrefs(mLauncher).getLockDesktop()) {
+            settingsButton.setVisibility(View.GONE);
+        } else {
+            settingsButton.setOnClickListener(v -> {
+                animateClosed();
+                CustomBottomSheet.show(mLauncher, mInfo);
+            });
+        }
     }
 
     public boolean onLongClick(View v) {
@@ -307,6 +312,9 @@ public class Folder extends AbstractFloatingView implements DragSource,
             return;
         }
 
+        if (isInAppDrawer()) {
+            close(true);
+        }
         mContent.removeItem(mCurrentDragView);
         if (dragObject.dragInfo instanceof ShortcutInfo) {
             mItemsInvalidated = true;
@@ -452,10 +460,15 @@ public class Folder extends AbstractFloatingView implements DragSource,
             mFolderName.setHint(sHintText);
         }
 
+        if (isInAppDrawer()) {
+            // TODO: Allow editing title for drawer folder & sync with group backend
+            mFolderName.setEnabled(false);
+        }
+
         // In case any children didn't come across during loading, clean up the folder accordingly
         mFolderIcon.post(new Runnable() {
             public void run() {
-                if (getItemCount() <= 1) {
+                if (getItemCount() <= 1 && !isInAppDrawer()) {
                     replaceFolderWithFinalItem();
                 }
             }
@@ -682,7 +695,7 @@ public class Folder extends AbstractFloatingView implements DragSource,
             mRearrangeOnClose = false;
         }
         if (getItemCount() <= 1) {
-            if (!mDragInProgress && !mSuppressFolderDeletion) {
+            if (!mDragInProgress && !mSuppressFolderDeletion && !isInAppDrawer()) {
                 replaceFolderWithFinalItem();
             } else if (mDragInProgress) {
                 mDeleteFolderOnDropCompleted = true;
@@ -796,6 +809,12 @@ public class Folder extends AbstractFloatingView implements DragSource,
     };
 
     public void completeDragExit() {
+        if (isInAppDrawer()) {
+            // This is faster and more straightforward than trying to get the dragged app reliably
+            // back into the folder in any other way
+            mLauncher.getAppsView().getApps().reset();
+            return;
+        }
         if (mIsOpen) {
             close(true);
             mRearrangeOnClose = true;
@@ -1266,6 +1285,9 @@ public class Folder extends AbstractFloatingView implements DragSource,
     }
 
     public void onRemove(ShortcutInfo item) {
+        if (isInAppDrawer()) {
+            return;
+        }
         mItemsInvalidated = true;
         View v = getViewForInfo(item);
         mContent.removeItem(v);
@@ -1508,5 +1530,9 @@ public class Folder extends AbstractFloatingView implements DragSource,
             }
         }
         return false;
+    }
+
+    public boolean isInAppDrawer() {
+        return mInfo.container == ItemInfo.NO_ID;
     }
 }
