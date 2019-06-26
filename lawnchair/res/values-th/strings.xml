@@ -28,4 +28,7 @@
     <string name="none">ไม่มี</string>
     <string name="undo">เลิกทำ</string>
     <string name="shortcut_sesame">ทางลัด</string>
+    <string name="pref_appcategorization_style_text">รูปแบบ</string>
+    <string name="action_share">แบ่งปัน</string>
+    <string name="animation_type_default">ค่าเริ่มต้น</string>
 </resources>

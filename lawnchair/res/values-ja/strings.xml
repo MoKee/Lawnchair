@@ -107,10 +107,21 @@
     <string name="shortcut_sesame">ショートカット</string>
     <string name="pref_sesame_show_shortcuts">アプリ ショートカット</string>
     <string name="allow">許可</string>
+    <string name="deny">拒否</string>
     <string name="font_weight_light">明るい</string>
     <string name="font_weight_medium">標準</string>
     <string name="font_weight_extra_black">黒</string>
     <string name="pref_fonts_category_drawer">ドロワー</string>
     <string name="text_color">文字色</string>
     <string name="background_color">背景色</string>
+    <string name="pref_appcategorization_style_text">スタイル</string>
+    <string name="pref_app_groups_create">作成</string>
+    <string name="pref_appcategorization_folders_title">フォルダ</string>
+    <string name="drawer_folders">フォルダ</string>
+    <string name="category_photography">写真</string>
+    <string name="lock_desktop">デスクトップをロック</string>
+    <string name="action_copy">コピー</string>
+    <string name="action_share">共有</string>
+    <string name="animation_type_default">デフォルト</string>
+    <string name="animation_type_blink">点滅</string>
 </resources>

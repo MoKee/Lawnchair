@@ -122,10 +122,21 @@
     <string name="shortcut_sesame">Raccourcis</string>
     <string name="pref_sesame_show_shortcuts">Raccourcis d\'application</string>
     <string name="allow">Autoriser</string>
+    <string name="deny">Refuser</string>
     <string name="font_weight_light">Clair</string>
     <string name="font_weight_medium">Moyenne</string>
     <string name="font_weight_extra_black">Noir</string>
     <string name="pref_fonts_category_drawer">Liste d\'applications</string>
     <string name="text_color">Couleur du texte</string>
     <string name="background_color">Couleur d\'arrière-plan</string>
+    <string name="pref_appcategorization_style_text">Style</string>
+    <string name="pref_app_groups_create">Nouvelle sauvegarde</string>
+    <string name="pref_appcategorization_folders_title">Dossiers</string>
+    <string name="drawer_folders">Dossiers</string>
+    <string name="category_photography">Photographie</string>
+    <string name="lock_desktop">Verrouiller l\'écran d\'accueil</string>
+    <string name="action_copy">Copier</string>
+    <string name="action_share">Partager</string>
+    <string name="animation_type_default">Par Défaut</string>
+    <string name="animation_type_blink">Clignoter</string>
 </resources>

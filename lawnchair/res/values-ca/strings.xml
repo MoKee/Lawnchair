@@ -70,9 +70,17 @@
     <string name="shortcut_sesame">Dreceres</string>
     <string name="pref_sesame_show_shortcuts">Draceres d\'aplicació</string>
     <string name="allow">Permet</string>
+    <string name="deny">Denega</string>
     <string name="font_weight_light">Clar</string>
     <string name="font_weight_medium">Mitja</string>
     <string name="font_weight_extra_black">Negre</string>
     <string name="text_color">Color del text</string>
     <string name="background_color">Color del fons</string>
+    <string name="pref_appcategorization_style_text">Estil</string>
+    <string name="category_photography">Fotografia</string>
+    <string name="lock_desktop">Bloqueja l\'escriptori</string>
+    <string name="action_copy">Copiar</string>
+    <string name="action_share">Comparteix</string>
+    <string name="animation_type_default">Per defecte</string>
+    <string name="animation_type_blink">Pipelleig</string>
 </resources>

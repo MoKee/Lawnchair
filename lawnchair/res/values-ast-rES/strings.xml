@@ -32,4 +32,6 @@
     <string name="delete">Desaniciar</string>
     <string name="name">Nome</string>
     <string name="font_weight_extra_black">Prietu</string>
+    <string name="category_photography">Fotografía</string>
+    <string name="action_share">Compartir</string>
 </resources>

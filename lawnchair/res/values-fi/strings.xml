@@ -77,9 +77,19 @@
     <string name="shortcut_sesame">Pikakuvakkeet</string>
     <string name="pref_sesame_show_shortcuts">Sovelluspikakuvakkeet</string>
     <string name="allow">Salli</string>
+    <string name="deny">Estä</string>
     <string name="font_weight_light">Vaalea</string>
     <string name="font_weight_medium">Keskitaso</string>
     <string name="font_weight_extra_black">Musta</string>
     <string name="text_color">Tekstin väri</string>
     <string name="background_color">Taustaväri</string>
+    <string name="pref_appcategorization_style_text">Tyyli</string>
+    <string name="pref_appcategorization_folders_title">Kansiot</string>
+    <string name="drawer_folders">Kansiot</string>
+    <string name="category_photography">Valokuvaus</string>
+    <string name="lock_desktop">Lukitse työpöytä</string>
+    <string name="action_copy">Kopioi</string>
+    <string name="action_share">Jaa</string>
+    <string name="animation_type_default">Oletus</string>
+    <string name="animation_type_blink">Vilkuta</string>
 </resources>

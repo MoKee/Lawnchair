@@ -26,4 +26,7 @@
     <string name="delete">Läschen</string>
     <string name="none">Keen</string>
     <string name="undo">Réckgängeg maachen</string>
+    <string name="pref_appcategorization_style_text">Stil</string>
+    <string name="action_share">Deelen</string>
+    <string name="animation_type_default">Standard</string>
 </resources>

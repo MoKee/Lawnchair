@@ -40,4 +40,8 @@
     <string name="font_weight_extra_black">Juodas</string>
     <string name="text_color">Teksto spalva</string>
     <string name="background_color">Fono spalva</string>
+    <string name="pref_appcategorization_style_text">Stilius</string>
+    <string name="action_copy">Kopijuoti</string>
+    <string name="action_share">Bendrinti</string>
+    <string name="animation_type_default">Numatytasis</string>
 </resources>

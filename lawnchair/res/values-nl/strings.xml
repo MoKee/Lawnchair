@@ -80,9 +80,19 @@
     <string name="shortcut_sesame">Snelkoppelingen</string>
     <string name="pref_sesame_show_shortcuts">App snelkoppelingen</string>
     <string name="allow">Toestaan</string>
+    <string name="deny">Weigeren</string>
     <string name="font_weight_light">Licht</string>
     <string name="font_weight_medium">Middel</string>
     <string name="font_weight_extra_black">Zwart</string>
     <string name="text_color">Tekstkleur</string>
     <string name="background_color">Achtergrondkleur</string>
+    <string name="pref_appcategorization_style_text">Stijl</string>
+    <string name="pref_appcategorization_folders_title">Mappen</string>
+    <string name="drawer_folders">Mappen</string>
+    <string name="category_photography">Fotografie</string>
+    <string name="lock_desktop">Bureaublad vergrendelen</string>
+    <string name="action_copy">Kopiëren</string>
+    <string name="action_share">Delen</string>
+    <string name="animation_type_default">Standaard</string>
+    <string name="animation_type_blink">Knipperen</string>
 </resources>

@@ -347,7 +347,6 @@
     <string name="selected_count">Vybráno: %1$d</string>
     <string name="tab_manage_apps">Spravovat aplikace</string>
     <string name="tab_bottom_sheet_save">Uložit</string>
-    <string name="tab_hide_from_main">Skrýt v roletě</string>
     <string name="tab_color">Barva záložky</string>
     <string name="delete">Smazat</string>
     <string name="none">Žádný</string>
@@ -366,6 +365,7 @@
     <string name="pref_sesame_show_shortcuts">Zástupce aplikací</string>
     <string name="pref_sesame_show_shortcuts_summary">Zobrazit zkratky Sesame v bublinkových ikonách</string>
     <string name="allow">Povolit</string>
+    <string name="deny">Zamítnout</string>
     <string name="sesame_enable_integration_title">Povolit integraci</string>
     <string name="sesame_enable_integration_description">Dovolí sdílení dat mezi Lawnchair a Sesame. Můžete to změnit v nastavení Lawnchair nebo Sesame.</string>
     <string name="sesame_version">Verze integrace</string>
@@ -418,7 +418,6 @@
     <string name="adaptify_pack_summary">Vytvořit adaptivní ikony pro ikony z balíčků ikon</string>
     <string name="pref_sesame_sync_look_and_feel">Sdílet vzhled a pocit</string>
     <string name="pref_sesame_sync_look_and_feel_summary">Synchronizujte nastavení vyhledávání Lawnchair pomocí Sesame</string>
-    <string name="pref_search_bar_radius">Rádius vyhledávacího panelu</string>
     <string name="icon_text_scale_pref_title">Velikost textu</string>
     <string name="text_color">Barva textu</string>
     <string name="background_color">Barva pozadí</string>
@@ -426,4 +425,16 @@
     <string name="pref_notification_count_summary">Zobrazení počtu oznámení uvnitř teček</string>
     <string name="pref_center_wallpaper">Vždy centrovat tapetu</string>
     <string name="pref_center_wallpaper_summary">Tím se zakáže efekt posouvání tapet</string>
+    <string name="pref_appcategorization_style_text">Styl</string>
+    <string name="pref_app_groups_create">Vytvořit</string>
+    <string name="pref_appcategorization_folders_title">Složky </string>
+    <string name="pref_appcategorization_tabs_title">Záložky</string>
+    <string name="drawer_folders">Složky </string>
+    <string name="category_photography">Fotografie</string>
+    <string name="lock_desktop">Uzamčení pracovní plochy</string>
+    <string name="copied_toast">Zkopírováno</string>
+    <string name="action_copy">Kopírovat</string>
+    <string name="action_share">Sdílet</string>
+    <string name="animation_type_default">Výchozí</string>
+    <string name="animation_type_blink">Blikání</string>
 </resources>

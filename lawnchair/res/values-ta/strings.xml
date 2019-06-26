@@ -23,4 +23,7 @@
     <string name="tab_bottom_sheet_save">சேமி</string>
     <string name="none">ஏதுமில்லை</string>
     <string name="undo">செயல்தவிர்</string>
+    <string name="pref_appcategorization_style_text">நடை</string>
+    <string name="animation_type_default">இயல்புநிலை</string>
+    <string name="animation_type_blink">இமை</string>
 </resources>

@@ -55,4 +55,12 @@
     <string name="font_weight_medium">Srednje</string>
     <string name="text_color">Boja teksta</string>
     <string name="background_color">Boja pozadine</string>
+    <string name="pref_appcategorization_style_text">Stil</string>
+    <string name="pref_appcategorization_folders_title">Mape</string>
+    <string name="drawer_folders">Mape</string>
+    <string name="category_photography">Fotografije</string>
+    <string name="action_copy">Kopiraj</string>
+    <string name="action_share">Podijeli</string>
+    <string name="animation_type_default">Zadano</string>
+    <string name="animation_type_blink">Treperenje</string>
 </resources>

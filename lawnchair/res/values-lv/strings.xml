@@ -23,4 +23,7 @@
     <string name="none">Nav</string>
     <string name="undo">Atsaukt</string>
     <string name="shortcut_sesame">Saīsnes</string>
+    <string name="pref_appcategorization_style_text">Stils</string>
+    <string name="action_share">Dalies</string>
+    <string name="animation_type_blink">Mirgot</string>
 </resources>

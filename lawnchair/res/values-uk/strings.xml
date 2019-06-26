@@ -82,4 +82,12 @@
     <string name="font_weight_light">Світла</string>
     <string name="font_weight_medium">Середнє</string>
     <string name="font_weight_extra_black">Чорна</string>
+    <string name="pref_appcategorization_style_text">Стиль</string>
+    <string name="pref_appcategorization_folders_title">Папки</string>
+    <string name="drawer_folders">Папки</string>
+    <string name="category_photography">Фотографія</string>
+    <string name="lock_desktop">Блокування робочого стола</string>
+    <string name="action_share">Поділитися</string>
+    <string name="animation_type_default">За замовчуванням</string>
+    <string name="animation_type_blink">Блимання</string>
 </resources>

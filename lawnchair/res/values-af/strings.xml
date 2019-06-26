@@ -49,4 +49,9 @@
     <string name="name">Naam</string>
     <string name="shortcut_sesame">Kortpaaie</string>
     <string name="font_weight_medium">Gemiddeld</string>
+    <string name="pref_appcategorization_style_text">Styl</string>
+    <string name="category_photography">Fotografie</string>
+    <string name="action_share">Deel</string>
+    <string name="animation_type_default">Verstek</string>
+    <string name="animation_type_blink">Flikker</string>
 </resources>

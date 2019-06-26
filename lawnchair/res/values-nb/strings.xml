@@ -52,4 +52,9 @@
     <string name="font_weight_medium">Middels</string>
     <string name="text_color">Tekstfarge</string>
     <string name="background_color">Bakgrunnsfarge</string>
+    <string name="pref_appcategorization_style_text">Stil</string>
+    <string name="category_photography">Fotografi</string>
+    <string name="action_copy">Kopier</string>
+    <string name="action_share">Del</string>
+    <string name="animation_type_default">Standard</string>
 </resources>

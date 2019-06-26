@@ -43,4 +43,8 @@
     <string name="name">Emri</string>
     <string name="shortcut_sesame">Shkurtoret</string>
     <string name="font_weight_medium">Mesatar</string>
+    <string name="pref_appcategorization_style_text">Stili</string>
+    <string name="category_photography">Fotografi</string>
+    <string name="action_share">Ndaj</string>
+    <string name="animation_type_default">E paracaktuar</string>
 </resources>

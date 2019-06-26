@@ -341,7 +341,6 @@
     <string name="selected_count">已选择 %1$d</string>
     <string name="tab_manage_apps">管理应用</string>
     <string name="tab_bottom_sheet_save">保存</string>
-    <string name="tab_hide_from_main">从抽屉中隐藏</string>
     <string name="tab_color">标签页颜色</string>
     <string name="delete">删除</string>
     <string name="none">无</string>
@@ -360,6 +359,7 @@
     <string name="pref_sesame_show_shortcuts">应用快捷方式</string>
     <string name="pref_sesame_show_shortcuts_summary">在图标气泡中显示 Sesame 快捷方式</string>
     <string name="allow">允许</string>
+    <string name="deny">拒绝</string>
     <string name="sesame_enable_integration_title">启用集成</string>
     <string name="sesame_enable_integration_description">启用 Lawnchair 与 Sesame 之间的数据共享。 您可以在 Lawnchair 或 Sesame 设置中更改此设置。</string>
     <string name="sesame_version">集成版本</string>
@@ -412,7 +412,6 @@
     <string name="adaptify_pack_summary">为出自图标包的图标创建自适应图标</string>
     <string name="pref_sesame_sync_look_and_feel">分享外观和风格</string>
     <string name="pref_sesame_sync_look_and_feel_summary">与 Sesame 同步 Lawnchair 搜索设置</string>
-    <string name="pref_search_bar_radius">搜索栏圆角幅度</string>
     <string name="icon_text_scale_pref_title">文字大小</string>
     <string name="text_color">文本颜色</string>
     <string name="background_color">背景色</string>
@@ -420,4 +419,16 @@
     <string name="pref_notification_count_summary">显示通知计数</string>
     <string name="pref_center_wallpaper">始终居中壁纸</string>
     <string name="pref_center_wallpaper_summary">这将禁用壁纸滚动效果</string>
+    <string name="pref_appcategorization_style_text">样式</string>
+    <string name="pref_app_groups_create">创建</string>
+    <string name="pref_appcategorization_folders_title">文件夹</string>
+    <string name="pref_appcategorization_tabs_title">标签页</string>
+    <string name="drawer_folders">文件夹</string>
+    <string name="category_photography">摄影</string>
+    <string name="lock_desktop">锁定桌面</string>
+    <string name="copied_toast">已复制</string>
+    <string name="action_copy">复制</string>
+    <string name="action_share">分享</string>
+    <string name="animation_type_default">默认</string>
+    <string name="animation_type_blink">闪烁</string>
 </resources>

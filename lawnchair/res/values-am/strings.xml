@@ -22,4 +22,6 @@
     <string name="none">ምንም</string>
     <string name="undo">ቀልብስ</string>
     <string name="shortcut_sesame">አቋራጮች</string>
+    <string name="pref_appcategorization_style_text">ቅጥ</string>
+    <string name="action_share">አጋራ</string>
 </resources>

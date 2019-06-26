@@ -108,10 +108,21 @@
     <string name="shortcut_sesame">Pintasan</string>
     <string name="pref_sesame_show_shortcuts">Pintasan aplikasi</string>
     <string name="allow">Izinkan</string>
+    <string name="deny">Tolak</string>
     <string name="font_weight_light">Terang</string>
     <string name="font_weight_medium">Sedang</string>
     <string name="font_weight_extra_black">Hitam</string>
     <string name="pref_fonts_category_drawer">Laci</string>
     <string name="text_color">Warna teks</string>
     <string name="background_color">Warna latar belakang</string>
+    <string name="pref_appcategorization_style_text">Gaya</string>
+    <string name="pref_app_groups_create">Buat</string>
+    <string name="pref_appcategorization_folders_title">Map-map</string>
+    <string name="drawer_folders">Map-map</string>
+    <string name="category_photography">Fotografi</string>
+    <string name="lock_desktop">Kunci desktop</string>
+    <string name="action_copy">Salin</string>
+    <string name="action_share">Bagikan</string>
+    <string name="animation_type_default">Standar</string>
+    <string name="animation_type_blink">Berkedip</string>
 </resources>

@@ -21,4 +21,6 @@
     <string name="delete">سڕینه‌وه‌</string>
     <string name="none">هیچیان</string>
     <string name="undo">پاشگەزبوون</string>
+    <string name="pref_appcategorization_style_text">شێواز</string>
+    <string name="action_share">به‌شداری پێکردن</string>
 </resources>

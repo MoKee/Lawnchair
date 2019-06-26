@@ -10,4 +10,6 @@
     <string name="custom">Propra</string>
     <string name="tab_bottom_sheet_save">Konservi</string>
     <string name="delete">Forigi</string>
+    <string name="pref_appcategorization_style_text">Stilo</string>
+    <string name="action_share">Konigi</string>
 </resources>

@@ -22,4 +22,6 @@
     <string name="none">कुनै पनि होइन</string>
     <string name="undo">अन्डु गर्नुहोस्</string>
     <string name="shortcut_sesame">सर्टकटहरू</string>
+    <string name="pref_appcategorization_style_text">शैली</string>
+    <string name="action_share">साझेदारी गर्नुहोस्</string>
 </resources>

@@ -22,4 +22,6 @@
     <string name="none">Ոչ մեկը</string>
     <string name="undo">Հետարկել</string>
     <string name="shortcut_sesame">Դյուրանցումներ</string>
+    <string name="pref_appcategorization_style_text">Ոճը</string>
+    <string name="action_share">Կիսվել</string>
 </resources>

@@ -14,4 +14,5 @@
     <string name="none">တစ်ခုမှမဟုတ်ပါ</string>
     <string name="undo">နောက်ပြန်လုပ်ပါ</string>
     <string name="shortcut_sesame">ဖြတ်လမ်းများ</string>
+    <string name="pref_appcategorization_style_text">စတိုင်လ်</string>
 </resources>

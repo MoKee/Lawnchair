@@ -107,10 +107,21 @@
     <string name="shortcut_sesame">Verknüpfungen</string>
     <string name="pref_sesame_show_shortcuts">App-Verknüpfungen</string>
     <string name="allow">Erlauben</string>
+    <string name="deny">Verweigern</string>
     <string name="font_weight_light">Hell</string>
     <string name="font_weight_medium">Mittel</string>
     <string name="font_weight_extra_black">Schwarz</string>
     <string name="pref_fonts_category_drawer">App-Übersicht</string>
     <string name="text_color">Schriftfarbe</string>
     <string name="background_color">Hintergrundfarbe</string>
+    <string name="pref_appcategorization_style_text">Stil</string>
+    <string name="pref_app_groups_create">Erstellen</string>
+    <string name="pref_appcategorization_folders_title">Ordner</string>
+    <string name="drawer_folders">Ordner</string>
+    <string name="category_photography">Fotografie</string>
+    <string name="lock_desktop">Desktop sperren</string>
+    <string name="action_copy">Kopieren</string>
+    <string name="action_share">Teilen</string>
+    <string name="animation_type_default">Standard</string>
+    <string name="animation_type_blink">Blinken</string>
 </resources>

@@ -78,7 +78,16 @@
     <string name="shortcut_sesame">바로가기</string>
     <string name="pref_sesame_show_shortcuts">앱 바로가기</string>
     <string name="allow">허용</string>
+    <string name="deny">거부</string>
     <string name="font_weight_light">밝은 테마</string>
     <string name="font_weight_medium">중간</string>
     <string name="font_weight_extra_black">검은색</string>
+    <string name="pref_appcategorization_style_text">스타일</string>
+    <string name="pref_appcategorization_folders_title">폴더</string>
+    <string name="drawer_folders">폴더</string>
+    <string name="category_photography">사진</string>
+    <string name="lock_desktop">바탕화면 잠금</string>
+    <string name="action_share">공유</string>
+    <string name="animation_type_default">기본값</string>
+    <string name="animation_type_blink">깜박임</string>
 </resources>

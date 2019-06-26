@@ -22,4 +22,6 @@
     <string name="none">Lutho</string>
     <string name="undo">Hlehlisa</string>
     <string name="shortcut_sesame">Izinqamuleli</string>
+    <string name="pref_appcategorization_style_text">Isitayela</string>
+    <string name="action_share">Yabelana</string>
 </resources>

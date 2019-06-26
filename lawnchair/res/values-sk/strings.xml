@@ -107,10 +107,21 @@
     <string name="shortcut_sesame">Odkazy</string>
     <string name="pref_sesame_show_shortcuts">Zástupca aplikácií</string>
     <string name="allow">Povoliť</string>
+    <string name="deny">Zakázať</string>
     <string name="font_weight_light">Svetlá</string>
     <string name="font_weight_medium">Stredná</string>
     <string name="font_weight_extra_black">Čierna</string>
     <string name="pref_fonts_category_drawer">Ponuka aplikácií</string>
     <string name="text_color">Farba textu</string>
     <string name="background_color">Farba pozadia</string>
+    <string name="pref_appcategorization_style_text">Štýl</string>
+    <string name="pref_app_groups_create">Vytvoriť</string>
+    <string name="pref_appcategorization_folders_title">Priečinky</string>
+    <string name="drawer_folders">Priečinky</string>
+    <string name="category_photography">Fotografia</string>
+    <string name="lock_desktop">Uzamknutie pracovnej plochy</string>
+    <string name="action_copy">Kopírovať</string>
+    <string name="action_share">Zdieľať</string>
+    <string name="animation_type_default">Predvolené</string>
+    <string name="animation_type_blink">Blikanie</string>
 </resources>

@@ -108,10 +108,21 @@
     <string name="shortcut_sesame">Bližnjice</string>
     <string name="pref_sesame_show_shortcuts">Bljižnice aplikacij</string>
     <string name="allow">Dovoli</string>
+    <string name="deny">Zavrni</string>
     <string name="font_weight_light">Svetla</string>
     <string name="font_weight_medium">Srednja</string>
     <string name="font_weight_extra_black">Črna</string>
     <string name="pref_fonts_category_drawer">Predal</string>
     <string name="text_color">Barva besedila</string>
     <string name="background_color">Barva ozadja</string>
+    <string name="pref_appcategorization_style_text">Slog</string>
+    <string name="pref_app_groups_create">Ustvari</string>
+    <string name="pref_appcategorization_folders_title">Mape</string>
+    <string name="drawer_folders">Mape</string>
+    <string name="category_photography">Fotografija</string>
+    <string name="lock_desktop">Zakleni namizje</string>
+    <string name="action_copy">Kopiraj</string>
+    <string name="action_share">Souporaba</string>
+    <string name="animation_type_default">Privzeta</string>
+    <string name="animation_type_blink">Utrip</string>
 </resources>

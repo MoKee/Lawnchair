@@ -22,4 +22,6 @@
     <string name="none">Хоосон</string>
     <string name="undo">Буцаах</string>
     <string name="shortcut_sesame">Товчлол</string>
+    <string name="pref_appcategorization_style_text">Загвар</string>
+    <string name="action_share">Хуваалцах</string>
 </resources>

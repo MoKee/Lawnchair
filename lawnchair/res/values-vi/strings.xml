@@ -107,8 +107,18 @@
     <string name="shortcut_sesame">Lối tắt</string>
     <string name="pref_sesame_show_shortcuts">Lối tắt ứng dụng</string>
     <string name="allow">Cho phép</string>
+    <string name="deny">Từ chối</string>
     <string name="font_weight_light">Sáng</string>
     <string name="font_weight_medium">Trung bình</string>
     <string name="font_weight_extra_black">Đen</string>
     <string name="pref_fonts_category_drawer">Ngăn chứa ứng dụng</string>
+    <string name="pref_appcategorization_style_text">Kiểu</string>
+    <string name="pref_app_groups_create">Tạo mới</string>
+    <string name="pref_appcategorization_folders_title">Thư mục</string>
+    <string name="drawer_folders">Thư mục</string>
+    <string name="category_photography">Nhiếp ảnh</string>
+    <string name="lock_desktop">Khóa màn hình chính</string>
+    <string name="action_share">Chia sẻ</string>
+    <string name="animation_type_default">Mặc định</string>
+    <string name="animation_type_blink">Nhấp nháy</string>
 </resources>

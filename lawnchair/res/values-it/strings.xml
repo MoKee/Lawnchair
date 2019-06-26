@@ -108,10 +108,21 @@
     <string name="shortcut_sesame">Scorciatoie</string>
     <string name="pref_sesame_show_shortcuts">Scorciatoie app</string>
     <string name="allow">Consenti</string>
+    <string name="deny">Nega</string>
     <string name="font_weight_light">Chiaro</string>
     <string name="font_weight_medium">Media</string>
     <string name="font_weight_extra_black">Nero</string>
     <string name="pref_fonts_category_drawer">Drawer</string>
     <string name="text_color">Colore del testo</string>
     <string name="background_color">Colore di sfondo</string>
+    <string name="pref_appcategorization_style_text">Stile</string>
+    <string name="pref_app_groups_create">Crea</string>
+    <string name="pref_appcategorization_folders_title">Cartelle</string>
+    <string name="drawer_folders">Cartelle</string>
+    <string name="category_photography">Fotografia</string>
+    <string name="lock_desktop">Blocca la schermata home</string>
+    <string name="action_copy">Copia</string>
+    <string name="action_share">Condividi</string>
+    <string name="animation_type_default">Predefinito</string>
+    <string name="animation_type_blink">Pulsante</string>
 </resources>

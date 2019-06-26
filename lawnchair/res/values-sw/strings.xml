@@ -22,4 +22,6 @@
     <string name="none">Hamna</string>
     <string name="undo">Tendua</string>
     <string name="shortcut_sesame">Njia za mkato</string>
+    <string name="pref_appcategorization_style_text">Mtindo</string>
+    <string name="action_share">Shiriki</string>
 </resources>

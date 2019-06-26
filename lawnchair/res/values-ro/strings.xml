@@ -87,7 +87,18 @@
     <string name="shortcut_sesame">Comenzi rapide</string>
     <string name="pref_sesame_show_shortcuts">Scurtături aplicații</string>
     <string name="allow">Permiteți</string>
+    <string name="deny">Refuzați</string>
     <string name="font_weight_light">Luminoasă</string>
     <string name="font_weight_medium">Medie</string>
     <string name="font_weight_extra_black">Neagră</string>
+    <string name="pref_appcategorization_style_text">Stil</string>
+    <string name="pref_app_groups_create">Creare</string>
+    <string name="pref_appcategorization_folders_title">Dosare</string>
+    <string name="drawer_folders">Dosare</string>
+    <string name="category_photography">Fotografie</string>
+    <string name="lock_desktop">Blocare desktop</string>
+    <string name="action_copy">Copiați</string>
+    <string name="action_share">Distribuiți</string>
+    <string name="animation_type_default">Implicit</string>
+    <string name="animation_type_blink">Clipire</string>
 </resources>

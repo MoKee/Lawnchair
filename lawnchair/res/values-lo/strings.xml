@@ -29,4 +29,7 @@
     <string name="none">ບໍ່ມີ</string>
     <string name="undo">ຍົກເລີກ</string>
     <string name="shortcut_sesame">ທາງລັດ</string>
+    <string name="pref_appcategorization_style_text">ຮູບແບບ</string>
+    <string name="action_share">ແບ່ງປັນ</string>
+    <string name="animation_type_default">ຄ່າເລີ່ມຕົ້ນ</string>
 </resources>

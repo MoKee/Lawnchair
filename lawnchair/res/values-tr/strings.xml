@@ -300,7 +300,7 @@
     <string name="theme_dark_theme_mode_follow_wallpaper">@string/theme_auto</string>
     <string name="theme_dark_theme_mode_follow_system">@string/theme_auto_night_mode</string>
     <string name="theme_dark_theme_mode_follow_daylight">Gün ışığını takip et</string>
-    <string name="theme_use_black">Saf siyah kullanın</string>
+    <string name="theme_use_black">Saf siyah kullan</string>
     <string name="theme_use_dark_text">Koyu metin kullan</string>
     <string name="pref_qsb_color">Renk</string>
     <string name="hide_from_predictions">Önerilerden gizle</string>
@@ -343,7 +343,6 @@
     <string name="selected_count">%1$d seçildi</string>
     <string name="tab_manage_apps">Uygulamaları yönet</string>
     <string name="tab_bottom_sheet_save">Kaydet</string>
-    <string name="tab_hide_from_main">Çekmeceden gizle</string>
     <string name="tab_color">Sekme rengi</string>
     <string name="delete">Sil</string>
     <string name="none">Yok</string>
@@ -362,6 +361,7 @@
     <string name="pref_sesame_show_shortcuts">Uygulama kısayolları</string>
     <string name="pref_sesame_show_shortcuts_summary">Simge balonlarında susam kısayollarını göster</string>
     <string name="allow">İzin ver</string>
+    <string name="deny">Reddet</string>
     <string name="sesame_enable_integration_title">Entegrasyonu etkinleştir</string>
     <string name="sesame_enable_integration_description">Lawnchair ve Susam arasında veri paylaşımını sağlar. Bunu Lawnchair veya Susam ayarlarında değiştirebilirsiniz.</string>
     <string name="sesame_version">Entegrasyon sürümü</string>
@@ -414,12 +414,23 @@
     <string name="adaptify_pack_summary">Simge paketlerinden simgeler için uyarlanabilir simgeler oluştur</string>
     <string name="pref_sesame_sync_look_and_feel">Görünümü paylaş</string>
     <string name="pref_sesame_sync_look_and_feel_summary">Lawnchair arama ayarlarını Sesame ile senkronize et</string>
-    <string name="pref_search_bar_radius">Arama çubuğu yarıçapı</string>
-    <string name="icon_text_scale_pref_title">Metin Boyutu</string>
+    <string name="icon_text_scale_pref_title">Metin boyutu</string>
     <string name="text_color">Metin rengi</string>
     <string name="background_color">Arka plan rengi</string>
     <string name="pref_notification_count_title">Bildirim sayısını göster</string>
     <string name="pref_notification_count_summary">Noktaların içinde bildirim sayısını görüntüle</string>
     <string name="pref_center_wallpaper">Duvar kağıdı her zaman ortada</string>
     <string name="pref_center_wallpaper_summary">Duvar kağıdı kaydırma efektini devre dışı bırakacaktır</string>
+    <string name="pref_appcategorization_style_text">Stil</string>
+    <string name="pref_app_groups_create">Oluştur</string>
+    <string name="pref_appcategorization_folders_title">Klasörler</string>
+    <string name="pref_appcategorization_tabs_title">Sekmeler</string>
+    <string name="drawer_folders">Klasörler</string>
+    <string name="category_photography">Fotoğrafçılık</string>
+    <string name="lock_desktop">Ana ekranı kilitle</string>
+    <string name="copied_toast">Kopyalandı</string>
+    <string name="action_copy">Kopyala</string>
+    <string name="action_share">Paylaş</string>
+    <string name="animation_type_default">Varsayılan</string>
+    <string name="animation_type_blink">Yanıp sönme</string>
 </resources>

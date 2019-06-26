@@ -101,8 +101,16 @@
     <string name="shortcut_sesame">Ярлыкі</string>
     <string name="pref_sesame_show_shortcuts">Цэтлікі праграм</string>
     <string name="allow">Дазволіць</string>
+    <string name="deny">Адхiлiць</string>
     <string name="font_weight_light">Светлая</string>
     <string name="font_weight_medium">Сярэдні</string>
     <string name="font_weight_extra_black">Чорны</string>
     <string name="pref_fonts_category_drawer">Меню праграм</string>
+    <string name="pref_appcategorization_style_text">Стыль</string>
+    <string name="pref_app_groups_create">Стварыць</string>
+    <string name="category_photography">Фотаздымак</string>
+    <string name="lock_desktop">Блакаванне працоўнага стала</string>
+    <string name="action_share">Падзяліцца</string>
+    <string name="animation_type_default">Па змаўчанні</string>
+    <string name="animation_type_blink">Мігацець</string>
 </resources>

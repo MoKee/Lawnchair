@@ -20,4 +20,7 @@
     <string name="none">কোনো কিছুই নয়</string>
     <string name="undo">পূর্বাবস্থায় ফিরুন</string>
     <string name="shortcut_sesame">শর্টকাট</string>
+    <string name="pref_appcategorization_style_text">শৈলী</string>
+    <string name="animation_type_default">Default</string>
+    <string name="animation_type_blink">ঝিক্মিক্</string>
 </resources>

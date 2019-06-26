@@ -74,4 +74,10 @@
     <string name="font_weight_light">Светло</string>
     <string name="font_weight_medium">Средње</string>
     <string name="font_weight_extra_black">Црно</string>
+    <string name="pref_appcategorization_style_text">Стил</string>
+    <string name="category_photography">Фотографија</string>
+    <string name="lock_desktop">Закључај радну површину</string>
+    <string name="action_share">Дели</string>
+    <string name="animation_type_default">Подразумевано</string>
+    <string name="animation_type_blink">Трептајуће</string>
 </resources>

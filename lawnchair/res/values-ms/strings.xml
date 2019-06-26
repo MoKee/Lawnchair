@@ -40,4 +40,8 @@
     <string name="none">Tiada</string>
     <string name="undo">Buat asal</string>
     <string name="shortcut_sesame">Pintasan</string>
+    <string name="pref_appcategorization_style_text">Gaya</string>
+    <string name="action_share">Kongsi</string>
+    <string name="animation_type_default">Asal</string>
+    <string name="animation_type_blink">Berkelip</string>
 </resources>

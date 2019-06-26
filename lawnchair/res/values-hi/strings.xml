@@ -50,4 +50,9 @@
     <string name="pref_sesame_show_shortcuts">एप्लिकेशन शॉर्टकट</string>
     <string name="font_weight_light">हल्का</string>
     <string name="font_weight_extra_black">काली</string>
+    <string name="pref_appcategorization_style_text">शैली</string>
+    <string name="category_photography">फोटोग्राफी</string>
+    <string name="lock_desktop">डेस्कटॉप बंद करे</string>
+    <string name="action_share">साझा करें</string>
+    <string name="animation_type_blink">झपकना</string>
 </resources>

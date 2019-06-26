@@ -79,9 +79,18 @@
     <string name="shortcut_sesame">Συντομεύσεις</string>
     <string name="pref_sesame_show_shortcuts">Συντομεύσεις εφαρμογών</string>
     <string name="allow">Αποδοχή</string>
+    <string name="deny">Απόρριψη</string>
     <string name="font_weight_light">Φωτεινό</string>
     <string name="font_weight_medium">Μέτρια</string>
     <string name="font_weight_extra_black">Μαύρο</string>
     <string name="text_color">Χρώμα κειμένου</string>
     <string name="background_color">Χρώμα φόντου</string>
+    <string name="pref_appcategorization_style_text">Στυλ</string>
+    <string name="pref_appcategorization_folders_title">תיקיות</string>
+    <string name="drawer_folders">תיקיות</string>
+    <string name="category_photography">Φωτογραφία</string>
+    <string name="lock_desktop">Κλείδωμα αρχικής οθόνης</string>
+    <string name="action_copy">Αντιγραφή</string>
+    <string name="action_share">Κοινή χρήση</string>
+    <string name="animation_type_default">Προεπιλογή</string>
 </resources>

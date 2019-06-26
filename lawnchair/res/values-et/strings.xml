@@ -343,7 +343,6 @@
     <string name="selected_count">Valitud on %1$d</string>
     <string name="tab_manage_apps">Halda rakendusi</string>
     <string name="tab_bottom_sheet_save">Salvesta</string>
-    <string name="tab_hide_from_main">Peida sahtel</string>
     <string name="tab_color">Kaardi värv</string>
     <string name="delete">Kustuta</string>
     <string name="none">Puudub</string>
@@ -362,6 +361,7 @@
     <string name="pref_sesame_show_shortcuts">Rakenduste otseteed</string>
     <string name="pref_sesame_show_shortcuts_summary">Näita ikoonimullides Sesame\'i otseteid</string>
     <string name="allow">Luba</string>
+    <string name="deny">Keela</string>
     <string name="sesame_enable_integration_title">Luba lõimimine</string>
     <string name="sesame_enable_integration_description">Võimaldab Lawnchairi ja Sesame'i vahel andmete jagamist. Seda saab muuta seadetes Lawnchair või Sesame.</string>
     <string name="sesame_version">Integratsiooni versioon</string>
@@ -414,7 +414,6 @@
     <string name="adaptify_pack_summary">Loo ikoonipakettide jaoks adaptiivsed ikoonid</string>
     <string name="pref_sesame_sync_look_and_feel">Jaga välimust ja tundeid</string>
     <string name="pref_sesame_sync_look_and_feel_summary">Sünkroonige Lawnchairi otsingusätted Sesame\'iga</string>
-    <string name="pref_search_bar_radius">Otsinguriba raadius</string>
     <string name="icon_text_scale_pref_title">Teksti suurus</string>
     <string name="text_color">Teksti värv</string>
     <string name="background_color">Tausta värv</string>
@@ -422,4 +421,16 @@
     <string name="pref_notification_count_summary">Näita punkti sees teavituste arvu</string>
     <string name="pref_center_wallpaper">Joonda taustapilt alati keskele</string>
     <string name="pref_center_wallpaper_summary">See keelab taustapildi kerimise efekti</string>
+    <string name="pref_appcategorization_style_text">Stiil</string>
+    <string name="pref_app_groups_create">Loo</string>
+    <string name="pref_appcategorization_folders_title">Kaustad</string>
+    <string name="pref_appcategorization_tabs_title">Lehed</string>
+    <string name="drawer_folders">Kaustad</string>
+    <string name="category_photography">Fotograafia</string>
+    <string name="lock_desktop">Lukusta töölaud</string>
+    <string name="copied_toast">Kopeeritud</string>
+    <string name="action_copy">Kopeeri</string>
+    <string name="action_share">Jaga</string>
+    <string name="animation_type_default">Vaikimisi</string>
+    <string name="animation_type_blink">Vilkuv</string>
 </resources>

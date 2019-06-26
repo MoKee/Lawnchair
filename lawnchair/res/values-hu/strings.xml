@@ -343,7 +343,6 @@
     <string name="selected_count">%1$d kiválasztva</string>
     <string name="tab_manage_apps">Alkalmazások kezelése</string>
     <string name="tab_bottom_sheet_save">Mentés</string>
-    <string name="tab_hide_from_main">Elrejtés az alkalmazásfiókból</string>
     <string name="tab_color">A lap színe</string>
     <string name="delete">Törlés</string>
     <string name="none">Nincs</string>
@@ -362,6 +361,7 @@
     <string name="pref_sesame_show_shortcuts">Alkalmazás-parancsikonok</string>
     <string name="pref_sesame_show_shortcuts_summary">Megjeleníti a Sesame-parancsikont az ikonbuborékokban</string>
     <string name="allow">Engedélyezés</string>
+    <string name="deny">Elutasítás</string>
     <string name="sesame_enable_integration_title">Egységesítés engedélyezése</string>
     <string name="sesame_enable_integration_description">Lehetővé teszi az adatmegosztást a Lawnchair és a Sesame között. Ezt mindkét alkalmazás beállításában megváltoztathatja.</string>
     <string name="sesame_version">Az egységesítés verziója</string>
@@ -414,7 +414,6 @@
     <string name="adaptify_pack_summary">Alkalmazkodó ikonok készítése az ikoncsomagok ikonjaihoz</string>
     <string name="pref_sesame_sync_look_and_feel">Ossza meg a megjelenést és az érzést</string>
     <string name="pref_sesame_sync_look_and_feel_summary">A Lawnchair keresési beállításainak szinkonizálása Sesame-mal</string>
-    <string name="pref_search_bar_radius">A Keresési sáv lekerekítése</string>
     <string name="icon_text_scale_pref_title">Szövegméret</string>
     <string name="text_color">Szövegszín</string>
     <string name="background_color">Háttérszín</string>
@@ -422,4 +421,16 @@
     <string name="pref_notification_count_summary">Értesítési számlálók kijelzése a pontokban</string>
     <string name="pref_center_wallpaper">Mindig középre igazított háttérkép</string>
     <string name="pref_center_wallpaper_summary">Ez kifogja kapcsolni a háttérgörgetés lehetőségét</string>
+    <string name="pref_appcategorization_style_text">Stílus</string>
+    <string name="pref_app_groups_create">Létrehozás</string>
+    <string name="pref_appcategorization_folders_title">Mappák</string>
+    <string name="pref_appcategorization_tabs_title">Lapok</string>
+    <string name="drawer_folders">Mappák</string>
+    <string name="category_photography">Fényképészet</string>
+    <string name="lock_desktop">Asztalzárolás</string>
+    <string name="copied_toast">Lemásolva</string>
+    <string name="action_copy">Másolás</string>
+    <string name="action_share">Megosztás</string>
+    <string name="animation_type_default">Alapértelmezett</string>
+    <string name="animation_type_blink">Villogás</string>
 </resources>

@@ -73,4 +73,10 @@
     <string name="font_weight_light">Liwanag</string>
     <string name="font_weight_medium">Ang kaayusan</string>
     <string name="font_weight_extra_black">Itim</string>
+    <string name="pref_appcategorization_style_text">Istilo</string>
+    <string name="category_photography">Pagkuha ng larawan</string>
+    <string name="lock_desktop">I-lock ang desktop</string>
+    <string name="action_share">Ibahagi</string>
+    <string name="animation_type_default">Pangunahin</string>
+    <string name="animation_type_blink">Kislap</string>
 </resources>

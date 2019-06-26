@@ -94,4 +94,13 @@
     <string name="font_weight_extra_black">Svart</string>
     <string name="text_color">Textfärg</string>
     <string name="background_color">Bakgrundsfärg</string>
+    <string name="pref_appcategorization_style_text">Stil</string>
+    <string name="pref_app_groups_create">Skapa</string>
+    <string name="pref_appcategorization_folders_title">Mappar</string>
+    <string name="drawer_folders">Mappar</string>
+    <string name="category_photography">Fotografering</string>
+    <string name="lock_desktop">Lås startskärmen</string>
+    <string name="action_copy">Kopiera</string>
+    <string name="action_share">Dela</string>
+    <string name="animation_type_default">Standard</string>
 </resources>

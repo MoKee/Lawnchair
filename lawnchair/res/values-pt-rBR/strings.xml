@@ -107,10 +107,21 @@
     <string name="shortcut_sesame">Atalhos</string>
     <string name="pref_sesame_show_shortcuts">Atalhos de aplicativos</string>
     <string name="allow">Permitir</string>
+    <string name="deny">Negar</string>
     <string name="font_weight_light">Claro</string>
     <string name="font_weight_medium">Média</string>
     <string name="font_weight_extra_black">Preto</string>
     <string name="pref_fonts_category_drawer">Gaveta</string>
     <string name="text_color">Cor do texto</string>
     <string name="background_color">Cor de fundo</string>
+    <string name="pref_appcategorization_style_text">Estilo</string>
+    <string name="pref_app_groups_create">Criar</string>
+    <string name="pref_appcategorization_folders_title">Pastas</string>
+    <string name="drawer_folders">Pastas</string>
+    <string name="category_photography">Fotografia</string>
+    <string name="lock_desktop">Bloquear área de trabalho</string>
+    <string name="action_copy">Copiar</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="animation_type_default">Padrão</string>
+    <string name="animation_type_blink">Piscar</string>
 </resources>

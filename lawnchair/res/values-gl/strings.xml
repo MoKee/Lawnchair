@@ -46,7 +46,13 @@
     <string name="name">Nome</string>
     <string name="shortcut_sesame">Atallos</string>
     <string name="allow">Permitir</string>
+    <string name="deny">Denegar</string>
     <string name="font_weight_medium">Medio</string>
     <string name="text_color">Color del texto</string>
     <string name="background_color">Color del fondo</string>
+    <string name="pref_appcategorization_style_text">Estilo</string>
+    <string name="category_photography">Fotografía</string>
+    <string name="action_copy">Copiar</string>
+    <string name="action_share">Compartir</string>
+    <string name="animation_type_default">Defecto</string>
 </resources>

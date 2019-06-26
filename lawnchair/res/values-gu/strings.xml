@@ -21,4 +21,5 @@
     <string name="none">કોઈ નહીં</string>
     <string name="undo">પૂર્વવત્ કરો</string>
     <string name="shortcut_sesame">શૉર્ટકટ્સ</string>
+    <string name="pref_appcategorization_style_text">શૈલી</string>
 </resources>

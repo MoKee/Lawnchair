@@ -66,7 +66,15 @@
     <string name="name">Име</string>
     <string name="shortcut_sesame">Преки пътища</string>
     <string name="allow">Разрешаване</string>
+    <string name="deny">Забрани</string>
     <string name="font_weight_light">Светло</string>
     <string name="font_weight_medium">Средно</string>
     <string name="font_weight_extra_black">Черно</string>
+    <string name="pref_appcategorization_style_text">Стил</string>
+    <string name="pref_appcategorization_folders_title">Папки</string>
+    <string name="drawer_folders">Папки</string>
+    <string name="category_photography">Фотография</string>
+    <string name="action_share">Споделяне</string>
+    <string name="animation_type_default">Стандартен</string>
+    <string name="animation_type_blink">Премигване</string>
 </resources>
