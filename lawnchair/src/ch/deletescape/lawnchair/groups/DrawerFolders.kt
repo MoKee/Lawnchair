@@ -44,48 +44,29 @@ class DrawerFolders(private val manager: AppGroupsManager) : AppGroups<DrawerFol
         changeCallback.reloadDrawer()
     }
 
-    fun getFolderInfos(apps: AlphabeticalAppsList): List<FolderInfo> = getGroups().map { it.toFolderInfo(apps) }
+    fun getFolderInfos(apps: AlphabeticalAppsList): List<FolderInfo> = getGroups()
+            .filter { !it.isEmpty }
+            .map { it.toFolderInfo(apps) }
 
-    abstract class Folder(protected val context: Context, type: Int, val titleRes: Int) : Group(type, context, titleRes), FolderInfo.FolderListener {
+    fun getHiddenComponents() = getGroups()
+            .filterIsInstance<CustomFolder>()
+            .filter { it.hideFromAllApps.value() }
+            .flatMap { it.contents.value() }
+
+    abstract class Folder(val context: Context, type: Int, titleRes: Int) : Group(type, context, titleRes) {
         // Ensure icon customization sticks across group changes
         val id = LongCustomization(KEY_ID, Long.random + 9999L)
+        open val isEmpty = true
 
         init {
             // DO NOT actually change this ever
             addCustomization(id)
         }
 
-        open fun toFolderInfo(apps: AlphabeticalAppsList) = FolderInfo().apply {
+        open fun toFolderInfo(apps: AlphabeticalAppsList) = DrawerFolderInfo(this).apply {
             setTitle(this@Folder.getTitle())
             id = this@Folder.id.value()
             contents = ArrayList()
-            addListener(this@Folder)
-        }
-
-        override fun onAdd(item: ShortcutInfo?, rank: Int) {
-            // not implemented
-        }
-
-        override fun onRemove(item: ShortcutInfo?) {
-            // not implemented
-        }
-
-        override fun onTitleChanged(title: CharSequence?) {
-            // TODO: implement allowing title changing from folder editing UI
-        }
-
-        override fun onItemsChanged(animate: Boolean) {
-            // not implemented
-        }
-
-        override fun prepareAutoUpdate() {
-            // not implemented
-        }
-
-        override fun onIconChanged() {
-            context.lawnchairPrefs.withChangeCallback {
-                it.reloadDrawer()
-            }
         }
     }
 
@@ -94,6 +75,9 @@ class DrawerFolders(private val manager: AppGroupsManager) : AppGroups<DrawerFol
         val hideFromAllApps = SwitchRow(R.drawable.tab_hide_from_main, R.string.tab_hide_from_main,
                 KEY_HIDE_FROM_ALL_APPS, true)
         val contents = AppsRow(KEY_ITEMS, mutableSetOf())
+        override val isEmpty get() = contents.value.isNullOrEmpty()
+
+        val comparator = ShortcutInfoComparator(context)
 
         init {
             addCustomization(hideFromAllApps)
@@ -111,7 +95,9 @@ class DrawerFolders(private val manager: AppGroupsManager) : AppGroups<DrawerFol
 
         override fun toFolderInfo(apps: AlphabeticalAppsList) = super.toFolderInfo(apps).apply {
             // ✨
-            contents = ArrayList(this@CustomFolder.contents.value!!.mapNotNull { key -> apps.apps.firstOrNull() { it.toComponentKey() == key }?.makeShortcut() })
+            this@CustomFolder.contents.value?.mapNotNullTo(contents) { key ->
+                apps.apps.firstOrNull { it.toComponentKey() == key }?.makeShortcut()
+            }?.sortWith(comparator)
         }
     }
 
