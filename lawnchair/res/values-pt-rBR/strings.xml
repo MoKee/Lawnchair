@@ -84,7 +84,7 @@
     <string name="pref_open_source_licenses_title">Licenças</string>
     <string name="custom">Personalizado</string>
     <string name="pref_hide_statusbar">Ocultar barra de status</string>
-    <string name="automatic_short">Automático</string>
+    <string name="automatic_short">Auto</string>
     <string name="searchbar_appearance_title">Aparência</string>
     <string name="enabled_icon_packs">Habilitado</string>
     <string name="pref_drawer_columns">Número de colunas</string>

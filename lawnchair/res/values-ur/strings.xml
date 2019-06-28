@@ -10,4 +10,5 @@
     <string name="none">کوئی نہیں</string>
     <string name="undo">کالعدم کریں</string>
     <string name="shortcut_sesame">شارٹ کٹس</string>
+    <string name="pref_appcategorization_style_text">طرز</string>
 </resources>

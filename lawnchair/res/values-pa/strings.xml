@@ -10,4 +10,5 @@
     <string name="none">ਕੋਈ ਨਹੀਂ</string>
     <string name="undo">ਪਹਿਲਾਂ ਵਰਗਾ ਕਰੋ</string>
     <string name="shortcut_sesame">ਸ਼ਾਰਟਕੱਟ</string>
+    <string name="pref_appcategorization_style_text">ਸਟਾਈਲ</string>
 </resources>

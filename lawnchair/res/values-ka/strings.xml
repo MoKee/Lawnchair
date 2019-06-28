@@ -22,4 +22,6 @@
     <string name="none">არც ერთი</string>
     <string name="undo">მოქმედების გაუქმება</string>
     <string name="shortcut_sesame">მალსახმობები</string>
+    <string name="pref_appcategorization_style_text">სტილი</string>
+    <string name="action_share">გაზიარება</string>
 </resources>

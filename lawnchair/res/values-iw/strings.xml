@@ -75,7 +75,15 @@
     <string name="shortcut_sesame">קיצורי דרך</string>
     <string name="pref_sesame_show_shortcuts">קיצורי דרך של אפליקציות</string>
     <string name="allow">אישור</string>
+    <string name="deny">ביטול</string>
     <string name="font_weight_light">בהיר</string>
     <string name="font_weight_medium">בינוני</string>
     <string name="font_weight_extra_black">שחור</string>
+    <string name="pref_appcategorization_style_text">סגנון</string>
+    <string name="pref_appcategorization_folders_title">תיקיות</string>
+    <string name="drawer_folders">תיקיות</string>
+    <string name="category_photography">צילום</string>
+    <string name="lock_desktop">נעל את מסך הבית</string>
+    <string name="action_share">שיתוף</string>
+    <string name="animation_type_default">ברירת מחדל</string>
 </resources>

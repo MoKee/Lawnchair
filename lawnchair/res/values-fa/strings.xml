@@ -36,4 +36,6 @@
     <string name="name">نام:</string>
     <string name="shortcut_sesame">میان‌برها</string>
     <string name="font_weight_extra_black">سیاه</string>
+    <string name="pref_appcategorization_style_text">سبک</string>
+    <string name="action_share">اشتراک‌گذاری</string>
 </resources>
