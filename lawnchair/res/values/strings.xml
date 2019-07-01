@@ -653,4 +653,15 @@
     <string name="tab_type_custom_desc">Manually pick apps for this tab.</string>
     <string name="tab_type_smart">Smart tab</string>
     <string name="categorization">Categorization</string>
+
+    <string name="folder_cover_mode">Cover mode</string>
+    <string name="folder_cover_mode_desc">Tap to open first app, swipe up to open folder</string>
+
+    <string name="pref_smartspace_event_providers">Events sources</string>
+    <string name="event_provider_now_playing">Now playing</string>
+    <string name="battery_status">Battery status</string>
+    <string name="battery_charging">Battery charging</string>
+    <string name="battery_low">Battery low</string>
+    <string name="event_provider_unread_notifications">Unread notifications</string>
+    <string name="event_provider_missing_notification_access">To use <xliff:g example="My Provider" id="providerName">%1$s</xliff:g>, turn on app notifications for <xliff:g example="My App" id="name">%2$s</xliff:g></string>
 </resources>

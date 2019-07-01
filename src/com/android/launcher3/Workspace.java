@@ -1612,6 +1612,12 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
                     + "View: " + child + "  tag: " + child.getTag();
             throw new IllegalStateException(msg);
         }
+
+        if (child instanceof FolderIcon && ((FolderIcon) child).isCoverMode()) {
+            child.setVisibility(View.VISIBLE);
+            child = ((FolderIcon) child).getFolderName();
+        }
+
         beginDragShared(child, source, (ItemInfo) dragObject,
                 new DragPreviewProvider(child), options);
     }
@@ -1660,6 +1666,8 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
         if (child instanceof BubbleTextView) {
             BubbleTextView icon = (BubbleTextView) child;
             icon.clearPressedBackground();
+        } else if (child instanceof FolderIcon) {
+            ((FolderIcon) child).clearPressedBackground();
         }
 
         if (child.getParent() instanceof ShortcutAndWidgetContainer) {
@@ -3342,11 +3350,7 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
             public boolean evaluate(ItemInfo info, View v) {
                 if (info instanceof FolderInfo && folderIds.contains(info.id)
                         && v instanceof FolderIcon) {
-                    FolderBadgeInfo folderBadgeInfo = new FolderBadgeInfo();
-                    for (ShortcutInfo si : ((FolderInfo) info).contents) {
-                        folderBadgeInfo.addBadgeInfo(mLauncher.getBadgeInfoForItem(si));
-                    }
-                    ((FolderIcon) v).setBadgeInfo(folderBadgeInfo);
+                    ((FolderIcon) v).updateIconBadges(updatedBadges, packageUserKey);
                 }
                 // process all the shortcuts
                 return false;

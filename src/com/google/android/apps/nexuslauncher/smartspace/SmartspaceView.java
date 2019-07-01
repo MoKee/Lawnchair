@@ -25,6 +25,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 import ch.deletescape.lawnchair.LawnchairAppKt;
 import ch.deletescape.lawnchair.LawnchairPreferences;
@@ -61,6 +63,8 @@ public class SmartspaceView extends FrameLayout implements ISmartspace, ValueAni
     private final OnClickListener mCalendarClickListener;
     private final OnClickListener mClockClickListener;
     private final OnClickListener mWeatherClickListener;
+    private final OnClickListener mEventClickListener;
+    private View mSubtitleLine;
     private ImageView mSubtitleIcon;
     private TextView mSubtitleText;
     private ViewGroup mSubtitleWeatherContent;
@@ -116,6 +120,11 @@ public class SmartspaceView extends FrameLayout implements ISmartspace, ValueAni
         mWeatherClickListener = v -> {
             if (mController != null)
                 mController.openWeather(v);
+        };
+
+        mEventClickListener = v -> {
+            if (mController != null)
+                mController.openEvent(v);
         };
 
         dp = SmartspaceController.get(context);
@@ -193,6 +202,7 @@ public class SmartspaceView extends FrameLayout implements ISmartspace, ValueAni
 
     @SuppressWarnings("ConstantConditions")
     private void loadDoubleLine(final LawnchairSmartspaceController.DataContainer data) {
+        setOnClickListener(mEventClickListener);
         setBackgroundResource(mSmartspaceBackgroundRes);
         mTitleText.setText(data.getCard().getTitle());
         mTitleText.setEllipsize(data.getCard().getTitleEllipsize());
@@ -206,9 +216,38 @@ public class SmartspaceView extends FrameLayout implements ISmartspace, ValueAni
 
     @SuppressWarnings("ConstantConditions")
     private void loadSingleLine(final LawnchairSmartspaceController.DataContainer data) {
+        setOnClickListener(null);
         setBackgroundResource(0);
         bindWeather(data, mTitleWeatherContent, mTitleWeatherText, mTitleWeatherIcon);
         bindClockAndSeparator(false);
+        int clockAboveTextSize;
+        float clockAboveWeight;
+        if (data.isCardAvailable()) {
+            mSubtitleLine.setVisibility(View.VISIBLE);
+            mSubtitleText.setText(data.getCard().getTitle());
+            mSubtitleText.setEllipsize(data.getCard().getTitleEllipsize());
+            mSubtitleText.setOnClickListener(mEventClickListener);
+
+            Bitmap icon = data.getCard().getIcon();
+            if (icon != null) {
+                mSubtitleIcon.setVisibility(View.VISIBLE);
+                mSubtitleIcon.setImageTintList(dH);
+                mSubtitleIcon.setImageBitmap(icon);
+                mSubtitleIcon.setOnClickListener(mEventClickListener);
+            } else {
+                mSubtitleIcon.setVisibility(View.GONE);
+            }
+
+            clockAboveTextSize = R.dimen.smartspace_title_size;
+            clockAboveWeight = 0f;
+        } else {
+            mSubtitleLine.setVisibility(View.GONE);
+            clockAboveTextSize = R.dimen.smartspace_clock_above_size;
+            clockAboveWeight = 1.25f;
+        }
+        mClockAboveView.setTextSize(TypedValue.COMPLEX_UNIT_PX,
+                getResources().getDimensionPixelSize(clockAboveTextSize));
+        ((LinearLayout.LayoutParams) mClockAboveView.getLayoutParams()).weight = clockAboveWeight;
     }
 
     private void bindClockAndSeparator(boolean forced) {
@@ -277,6 +316,7 @@ public class SmartspaceView extends FrameLayout implements ISmartspace, ValueAni
 
     private void loadViews() {
         mTitleText = findViewById(R.id.title_text);
+        mSubtitleLine = findViewById(R.id.subtitle_line);
         mSubtitleText = findViewById(R.id.subtitle_text);
         mSubtitleIcon = findViewById(R.id.subtitle_icon);
         mTitleWeatherIcon = findViewById(R.id.title_weather_icon);
