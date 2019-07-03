@@ -101,4 +101,6 @@
     <string name="action_share">Distribuiți</string>
     <string name="animation_type_default">Implicit</string>
     <string name="animation_type_blink">Clipire</string>
+    <string name="event_provider_now_playing">Redare acum</string>
+    <string name="battery_low">Baterie descărcată</string>
 </resources>

@@ -125,4 +125,6 @@
     <string name="action_share">Udostępnij</string>
     <string name="animation_type_default">Domyślne</string>
     <string name="animation_type_blink">Migać</string>
+    <string name="event_provider_now_playing">Obecnie Grane</string>
+    <string name="battery_low">Bateria na wyczerpaniu</string>
 </resources>

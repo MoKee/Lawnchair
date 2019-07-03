@@ -90,4 +90,6 @@
     <string name="action_share">Поділитися</string>
     <string name="animation_type_default">За замовчуванням</string>
     <string name="animation_type_blink">Блимання</string>
+    <string name="event_provider_now_playing">Відтворюється</string>
+    <string name="battery_low">Батарея розряджена</string>
 </resources>

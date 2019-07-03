@@ -57,4 +57,5 @@
     <string name="action_copy">Kopier</string>
     <string name="action_share">Del</string>
     <string name="animation_type_default">Standard</string>
+    <string name="battery_low">Batteri lavt</string>
 </resources>

@@ -125,4 +125,6 @@
     <string name="action_share">Condividi</string>
     <string name="animation_type_default">Predefinito</string>
     <string name="animation_type_blink">Pulsante</string>
+    <string name="event_provider_now_playing">Schermata in riproduzione</string>
+    <string name="battery_low">Batteria scarica</string>
 </resources>

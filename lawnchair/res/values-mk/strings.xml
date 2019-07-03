@@ -35,4 +35,5 @@
     <string name="pref_appcategorization_style_text">Стил</string>
     <string name="category_photography">Фотографија</string>
     <string name="animation_type_default">Стандардно</string>
+    <string name="battery_low">Празна батерија</string>
 </resources>

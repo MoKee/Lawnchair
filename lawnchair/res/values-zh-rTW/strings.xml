@@ -482,4 +482,6 @@
     <string name="tab_type_custom_desc">手動選擇此分頁的應用程式。</string>
     <string name="tab_type_smart">智慧分頁</string>
     <string name="categorization">類別</string>
+    <string name="event_provider_now_playing">播放面板</string>
+    <string name="battery_low">電量不足</string>
 </resources>

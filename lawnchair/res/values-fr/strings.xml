@@ -139,4 +139,6 @@
     <string name="action_share">Partager</string>
     <string name="animation_type_default">Par Défaut</string>
     <string name="animation_type_blink">Clignoter</string>
+    <string name="event_provider_now_playing">Lecture en cours</string>
+    <string name="battery_low">La pile est faible</string>
 </resources>

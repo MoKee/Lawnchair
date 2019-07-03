@@ -83,4 +83,5 @@
     <string name="action_share">Comparteix</string>
     <string name="animation_type_default">Per defecte</string>
     <string name="animation_type_blink">Pipelleig</string>
+    <string name="battery_low">Bateria baixa</string>
 </resources>

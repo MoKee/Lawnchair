@@ -492,4 +492,6 @@
     <string name="tab_type_custom_desc">اختر التطبيقات يدويًا لعلامة التبويب هذه.</string>
     <string name="tab_type_smart">تبويب ذكي</string>
     <string name="categorization">التصنيف</string>
+    <string name="event_provider_now_playing">مشغل الآن</string>
+    <string name="battery_low">البطارية منخفضة</string>
 </resources>

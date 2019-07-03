@@ -485,4 +485,6 @@ A művelet nem visszavonható.</string>
     <string name="tab_type_custom_desc">Manuális alkalmazásválasztás ehhez a laphoz.</string>
     <string name="tab_type_smart">Okos lap</string>
     <string name="categorization">Kategorizálás</string>
+    <string name="event_provider_now_playing">Most hallható </string>
+    <string name="battery_low">Alacsony töltöttség</string>
 </resources>

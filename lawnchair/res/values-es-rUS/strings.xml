@@ -125,4 +125,6 @@
     <string name="action_share">Compartir</string>
     <string name="animation_type_default">Predeterminado</string>
     <string name="animation_type_blink">Abrir y cerrar</string>
+    <string name="event_provider_now_playing">Reproduciendo ahora</string>
+    <string name="battery_low">Batería baja</string>
 </resources>

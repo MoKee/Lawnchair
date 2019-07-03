@@ -95,4 +95,6 @@
     <string name="action_share">Delen</string>
     <string name="animation_type_default">Standaard</string>
     <string name="animation_type_blink">Knipperen</string>
+    <string name="event_provider_now_playing">Afspeelscherm</string>
+    <string name="battery_low">Lage accuspanning</string>
 </resources>

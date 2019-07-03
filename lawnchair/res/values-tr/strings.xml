@@ -484,4 +484,6 @@
     <string name="tab_type_custom_desc">Bu sekme için uygulamaları el ile seçin.</string>
     <string name="tab_type_smart">Akıllı sekme</string>
     <string name="categorization">Sınıflandırma</string>
+    <string name="event_provider_now_playing">Şimdi oynatılıyor</string>
+    <string name="battery_low">Düşük pil</string>
 </resources>

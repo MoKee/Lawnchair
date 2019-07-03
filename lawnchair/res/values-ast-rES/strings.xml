@@ -34,4 +34,5 @@
     <string name="font_weight_extra_black">Prietu</string>
     <string name="category_photography">Fotografía</string>
     <string name="action_share">Compartir</string>
+    <string name="battery_low">Batería baxa</string>
 </resources>

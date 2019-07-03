@@ -93,4 +93,6 @@
     <string name="action_copy">Αντιγραφή</string>
     <string name="action_share">Κοινή χρήση</string>
     <string name="animation_type_default">Προεπιλογή</string>
+    <string name="event_provider_now_playing">מנגן כעת</string>
+    <string name="battery_low">Χαμηλή μπαταρία</string>
 </resources>

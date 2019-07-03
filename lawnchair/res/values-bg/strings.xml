@@ -77,4 +77,6 @@
     <string name="action_share">Споделяне</string>
     <string name="animation_type_default">Стандартен</string>
     <string name="animation_type_blink">Премигване</string>
+    <string name="event_provider_now_playing">Текуща песен</string>
+    <string name="battery_low">Изтощена батерия</string>
 </resources>

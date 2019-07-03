@@ -488,4 +488,6 @@
     <string name="tab_type_custom_desc">Ručně vyberte aplikace pro tuto záložku.</string>
     <string name="tab_type_smart">Chytrá záložka</string>
     <string name="categorization">Kategorizace</string>
+    <string name="event_provider_now_playing">Právě hraje</string>
+    <string name="battery_low">Vybitá baterie</string>
 </resources>

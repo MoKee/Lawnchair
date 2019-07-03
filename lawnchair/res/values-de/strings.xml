@@ -124,4 +124,6 @@
     <string name="action_share">Teilen</string>
     <string name="animation_type_default">Standard</string>
     <string name="animation_type_blink">Blinken</string>
+    <string name="event_provider_now_playing">Aktuelle Wiedergabe</string>
+    <string name="battery_low">Akku schwach</string>
 </resources>

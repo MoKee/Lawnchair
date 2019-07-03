@@ -121,4 +121,6 @@
     <string name="action_share">Chia sẻ</string>
     <string name="animation_type_default">Mặc định</string>
     <string name="animation_type_blink">Nhấp nháy</string>
+    <string name="event_provider_now_playing">Đang phát</string>
+    <string name="battery_low">Pin yếu</string>
 </resources>

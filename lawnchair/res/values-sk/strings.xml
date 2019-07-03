@@ -124,4 +124,6 @@
     <string name="action_share">Zdieľať</string>
     <string name="animation_type_default">Predvolené</string>
     <string name="animation_type_blink">Blikanie</string>
+    <string name="event_provider_now_playing">Prehráva sa</string>
+    <string name="battery_low">Vybitá batéria</string>
 </resources>

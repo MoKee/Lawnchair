@@ -57,4 +57,5 @@
     <string name="action_share">ಹಂಚಿಕೊಳ್ಳಿ</string>
     <string name="animation_type_default">ಪೂರ್ವನಿಯೋಜಿತ</string>
     <string name="animation_type_blink">ಮಿನುಗು</string>
+    <string name="battery_low">ಬ್ಯಾಟರಿ ಕಡಿಮೆ</string>
 </resources>

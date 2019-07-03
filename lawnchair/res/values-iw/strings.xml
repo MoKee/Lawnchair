@@ -86,4 +86,6 @@
     <string name="lock_desktop">נעל את מסך הבית</string>
     <string name="action_share">שיתוף</string>
     <string name="animation_type_default">ברירת מחדל</string>
+    <string name="event_provider_now_playing">מנגן כעת</string>
+    <string name="battery_low">סוללה חלשה</string>
 </resources>

@@ -80,4 +80,5 @@
     <string name="action_share">Дели</string>
     <string name="animation_type_default">Подразумевано</string>
     <string name="animation_type_blink">Трептајуће</string>
+    <string name="battery_low">Батерија на измаку</string>
 </resources>

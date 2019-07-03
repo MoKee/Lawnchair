@@ -180,4 +180,6 @@
     <string name="animation_type_default">Privzeta</string>
     <string name="animation_type_blink">Utrip</string>
     <string name="pref_appcategorization_flowerpot_title">Kategorija</string>
+    <string name="event_provider_now_playing">Predvaja se</string>
+    <string name="battery_low">Nizko stanje akumulatorja</string>
 </resources>

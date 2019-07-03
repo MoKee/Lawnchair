@@ -56,6 +56,7 @@
     <string name="about_role_devops">DevOps</string>
     <string name="about_role_dev">Desarrollador</string>
     <string name="about_role_designer">Diseñador</string>
+    <string name="about_bio_josh">Diseñador gráfico independiente.</string>
     <string name="action_none">Sin Acción</string>
     <string name="gesture_press_home">Botón de inicio</string>
     <string name="gesture_press_back">Botón de retroceso</string>
@@ -115,4 +116,5 @@
     <string name="action_share">Compartir</string>
     <string name="animation_type_default">Predeterminado</string>
     <string name="animation_type_blink">Parpadeo</string>
+    <string name="battery_low">Batería baja</string>
 </resources>

@@ -113,4 +113,5 @@
     <string name="action_share">Падзяліцца</string>
     <string name="animation_type_default">Па змаўчанні</string>
     <string name="animation_type_blink">Мігацець</string>
+    <string name="battery_low">Жывелька: крытычны ўзровень</string>
 </resources>

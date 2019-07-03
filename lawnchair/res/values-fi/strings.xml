@@ -92,4 +92,6 @@
     <string name="action_share">Jaa</string>
     <string name="animation_type_default">Oletus</string>
     <string name="animation_type_blink">Vilkuta</string>
+    <string name="event_provider_now_playing">Toistetaan parhaillaan</string>
+    <string name="battery_low">Akku lähes tyhjä</string>
 </resources>

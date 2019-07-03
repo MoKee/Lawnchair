@@ -124,4 +124,6 @@
     <string name="action_share">Compartilhar</string>
     <string name="animation_type_default">Padrão</string>
     <string name="animation_type_blink">Piscar</string>
+    <string name="event_provider_now_playing">Tocando agora</string>
+    <string name="battery_low">Bateria baixa</string>
 </resources>

@@ -484,4 +484,6 @@
     <string name="tab_type_custom_desc">Vali rakendused käsitsi sellelt kaardilt.</string>
     <string name="tab_type_smart">Nutikas kaart</string>
     <string name="categorization">Kategoriseerimine</string>
+    <string name="event_provider_now_playing">Nüüd esitamisel</string>
+    <string name="battery_low">Aku tühjeneb</string>
 </resources>

@@ -90,4 +90,6 @@
     <string name="action_share">공유</string>
     <string name="animation_type_default">기본값</string>
     <string name="animation_type_blink">깜박임</string>
+    <string name="event_provider_now_playing">지금 재생 중</string>
+    <string name="battery_low">배터리 부족</string>
 </resources>
