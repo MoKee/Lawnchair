@@ -1,4 +1,6 @@
 /*
+ *     Copyright (C) 2019 Lawnchair Team.
+ *
  *     This file is part of Lawnchair Launcher.
  *
  *     Lawnchair Launcher is free software: you can redistribute it and/or modify
@@ -15,30 +17,21 @@
  *     along with Lawnchair Launcher.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package ch.deletescape.lawnchair.preferences
+package ch.deletescape.lawnchair.iconpack
 
 import android.content.Context
-import android.support.annotation.Keep
-import android.util.AttributeSet
-import com.android.launcher3.R
+import ch.deletescape.lawnchair.util.LawnchairSingletonHolder
+import com.android.launcher3.graphics.IconShapeOverride
 
-@Keep
-open class AutoModeSeekbarPreference @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) : SeekbarPreference(context, attrs, defStyleAttr) {
+class IconShapeManager(private val context: Context) {
 
-    protected val low: Float = min
-
-    init {
-        min -= (max - min) / steps
-        steps += 1
-        defaultValue = min
+    fun getOverride(): String? {
+        return IconShapeOverride.getAppliedValue(context)
     }
 
-    override fun updateSummary() {
-        if (current < low) {
-            mValueText!!.text = context.getString(R.string.automatic_short)
-        } else {
-            super.updateSummary()
-        }
-    }
+    companion object : LawnchairSingletonHolder<IconShapeManager>(::IconShapeManager) {
 
+        @JvmStatic
+        fun getInstanceNoCreate() = dangerousGetInstance()
+    }
 }

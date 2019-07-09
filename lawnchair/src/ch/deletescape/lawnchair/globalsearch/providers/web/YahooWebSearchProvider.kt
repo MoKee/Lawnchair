@@ -1,4 +1,6 @@
 /*
+ *     Copyright (C) 2019 Lawnchair Team.
+ *
  *     This file is part of Lawnchair Launcher.
  *
  *     Lawnchair Launcher is free software: you can redistribute it and/or modify
@@ -15,30 +17,15 @@
  *     along with Lawnchair Launcher.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package ch.deletescape.lawnchair.preferences
+package ch.deletescape.lawnchair.globalsearch.providers.web
 
 import android.content.Context
-import android.support.annotation.Keep
-import android.util.AttributeSet
 import com.android.launcher3.R
 
-@Keep
-open class AutoModeSeekbarPreference @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) : SeekbarPreference(context, attrs, defStyleAttr) {
+class YahooWebSearchProvider(context: Context) : WebSearchProvider(context) {
+    override val searchUrl = "https://search.yahoo.com/search?q=%s"
+    override val suggestionsUrl = "https://ff.search.yahoo.com/gossip?output=fxjson&command=%s"
+    override val name = context.getString(R.string.web_search_yahoo)
 
-    protected val low: Float = min
-
-    init {
-        min -= (max - min) / steps
-        steps += 1
-        defaultValue = min
-    }
-
-    override fun updateSummary() {
-        if (current < low) {
-            mValueText!!.text = context.getString(R.string.automatic_short)
-        } else {
-            super.updateSummary()
-        }
-    }
-
+    override fun getIcon() = context.getDrawable(R.drawable.ic_yahoo)!!
 }

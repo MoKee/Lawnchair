@@ -118,7 +118,7 @@ public class IconShapeOverride {
         return Resources.getSystem().getIdentifier("system_icon_masks", "array", "android");
     }
 
-    private static String getAppliedValue(Context context) {
+    public static String getAppliedValue(Context context) {
         String devValue = getDevicePrefs(context).getString(KEY_PREFERENCE, "");
         if (!TextUtils.isEmpty(devValue)) {
             // Migrate to general preferences to back up shape overrides
@@ -194,16 +194,6 @@ public class IconShapeOverride {
 //                        mContext.getString(R.string.icon_shape_override_progress),
 //                        true /* indeterminate */,
 //                        false /* cancelable */);
-
-                if (Utilities.isMiui()) {
-                    AlertDialog dialog = new AlertDialog.Builder(mContext)
-                            .setTitle(R.string.icon_shape_override_label)
-                            .setMessage(R.string.icon_shape_override_miui_explaination)
-                            .setPositiveButton(android.R.string.ok, null)
-                            .setCancelable(false)
-                            .show();
-                    LawnchairUtilsKt.applyAccent(dialog);
-                }
 
                 if (preference instanceof ListPreference) {
                     ((ListPreference) preference).setValue(newValue);
