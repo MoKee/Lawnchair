@@ -484,6 +484,14 @@
     <string name="tab_type_custom_desc">Vali rakendused käsitsi sellelt kaardilt.</string>
     <string name="tab_type_smart">Nutikas kaart</string>
     <string name="categorization">Kategoriseerimine</string>
+    <string name="folder_cover_mode">Kaane režiim</string>
+    <string name="folder_cover_mode_desc">Vajuta esimese rakenduse avamiseks. Kausta avamiseks libista üles</string>
+    <string name="pref_smartspace_event_providers">Sündmuste allikad</string>
     <string name="event_provider_now_playing">Nüüd esitamisel</string>
+    <string name="battery_status">Aku olek</string>
+    <string name="battery_charging">Akut laaditakse</string>
     <string name="battery_low">Aku tühjeneb</string>
+    <string name="event_provider_unread_notifications">Lugemata teavitused</string>
+    <string name="event_provider_missing_notification_access">Et kasutada <xliff:g example="My Provider" id="providerName">%1$s</xliff:g>, lülitage rakenduse <xliff:g example="My App" id="name">%2$s</xliff:g> teatised sisse</string>
+    <string name="zen_mode_enabled">Mitte segada on lubatud</string>
 </resources>

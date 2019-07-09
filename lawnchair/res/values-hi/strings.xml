@@ -33,7 +33,7 @@
     <string name="reset">रीसेट करें</string>
     <string name="theme_title">पिक्सेल UI</string>
     <string name="custom">कस्टम</string>
-    <string name="automatic_short">स्वत:</string>
+    <string name="automatic_short">अपने-आप</string>
     <string name="pref_drawer_columns">स्तंभों की संख्या</string>
     <string name="theme_light">हल्का</string>
     <string name="theme_black">काली</string>
@@ -54,5 +54,5 @@
     <string name="category_photography">फोटोग्राफी</string>
     <string name="lock_desktop">डेस्कटॉप बंद करे</string>
     <string name="action_share">साझा करें</string>
-    <string name="animation_type_blink">झपकना</string>
+    <string name="animation_type_blink">टिमटिमाना</string>
 </resources>

@@ -492,6 +492,14 @@
     <string name="tab_type_custom_desc">اختر التطبيقات يدويًا لعلامة التبويب هذه.</string>
     <string name="tab_type_smart">تبويب ذكي</string>
     <string name="categorization">التصنيف</string>
+    <string name="folder_cover_mode">وضع الغلاف</string>
+    <string name="folder_cover_mode_desc">انقر لفتح التطبيق الأول، إسحب لفتح المجلد</string>
+    <string name="pref_smartspace_event_providers">مصادر الأحداث</string>
     <string name="event_provider_now_playing">مشغل الآن</string>
+    <string name="battery_status">حالة البطارية</string>
+    <string name="battery_charging">يتم شحن البطارية</string>
     <string name="battery_low">البطارية منخفضة</string>
+    <string name="event_provider_unread_notifications">إشعارات غير مقروءة</string>
+    <string name="event_provider_missing_notification_access">لإستخدام <xliff:g example="My Provider" id="providerName">%1$s</xliff:g>، قم بتشغيل إشعارات التطبيق لـ<xliff:g example="My App" id="name">%2$s</xliff:g></string>
+    <string name="zen_mode_enabled">عدم الإزعاج قيد التشغيل</string>
 </resources>
