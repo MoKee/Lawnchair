@@ -17,24 +17,15 @@
  *     along with Lawnchair Launcher.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package ch.deletescape.lawnchair.preferences
+package ch.deletescape.lawnchair.settings.ui.controllers
 
 import android.content.Context
 import android.support.annotation.Keep
-import android.util.AttributeSet
+import ch.deletescape.lawnchair.settings.ui.PreferenceController
+import com.android.launcher3.BuildConfig
 
 @Keep
-class DockScalePreference @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) :
-        AutoModeSeekbarPreference(context, attrs, defStyleAttr) {
+class LeakCanaryController(context: Context) : PreferenceController(context) {
 
-    override fun updateDisplayedValue() {
-        super.updateDisplayedValue()
-        if (current < low && current != -1f) {
-            persistFloat(current)
-        }
-    }
-
-    override fun persistFloat(value: Float): Boolean {
-        return super.persistFloat(if (value < low) -1f else value)
-    }
+    override val isVisible = BuildConfig.HAS_LEAKCANARY
 }
