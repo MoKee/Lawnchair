@@ -71,4 +71,8 @@ class LawnchairPreferencesChangeCallback(val launcher: LawnchairLauncher) {
     fun updateSmartspace() {
         launcher.refreshGrid()
     }
+
+    fun updateWeatherData() {
+        launcher.lawnchairApp.smartspace.forceUpdateWeather()
+    }
 }
