@@ -80,4 +80,5 @@
     <string name="animation_type_default">Pangunahin</string>
     <string name="animation_type_blink">Kislap</string>
     <string name="battery_low">Mababa ang baterya</string>
+    <string name="weather_icons_default">Pangunahin</string>
 </resources>

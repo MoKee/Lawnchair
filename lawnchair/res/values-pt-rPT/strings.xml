@@ -114,4 +114,5 @@
     <string name="animation_type_blink">Piscar</string>
     <string name="event_provider_now_playing">A reproduzir</string>
     <string name="battery_low">Bateria fraca</string>
+    <string name="weather_icons_default">Padrão</string>
 </resources>

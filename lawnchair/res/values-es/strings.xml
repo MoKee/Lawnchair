@@ -117,4 +117,5 @@
     <string name="animation_type_default">Por defecto</string>
     <string name="animation_type_blink">Parpadeo</string>
     <string name="battery_low">Batería baja</string>
+    <string name="weather_icons_default">Por defecto</string>
 </resources>

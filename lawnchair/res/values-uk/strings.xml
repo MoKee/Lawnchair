@@ -78,7 +78,8 @@
     <string name="name">Назва</string>
     <string name="shortcut_sesame">Ярлики</string>
     <string name="pref_sesame_show_shortcuts">Ярлики додатків</string>
-    <string name="allow">ДОЗВОЛИТИ</string>
+    <string name="allow">Дозволити</string>
+    <string name="deny">Відхилити</string>
     <string name="font_weight_light">Світла</string>
     <string name="font_weight_medium">Середнє</string>
     <string name="font_weight_extra_black">Чорна</string>
@@ -92,4 +93,5 @@
     <string name="animation_type_blink">Блимання</string>
     <string name="event_provider_now_playing">Відтворюється</string>
     <string name="battery_low">Батарея розряджена</string>
+    <string name="weather_icons_default">За замовчуванням</string>
 </resources>

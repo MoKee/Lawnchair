@@ -534,4 +534,8 @@
     <string name="web_search_baidu">Baidu (web)</string>
     <string name="icon_shape_override_miui_explaination">Kvůli omezení systému MIUI se nemusí změnit tvar vašich ikon a zůstanou čtvercové.\nNenahlašujte nám prosím toto chování jako chybu.</string>
     <string name="button_organize_screens">Uspořádat obrazovky</string>
+    <string name="weather_icons_default">Výchozí</string>
+    <string name="pref_weather_icon_pack">Ikony počasí</string>
+    <string name="weather_icon_packs_not_supported">Nejsou podporovány vaším aktuálně nastaveným poskytovatelem informací o počasí</string>
+    <string name="lawnchair_settings">Nastavení Lawnchair</string>
 </resources>

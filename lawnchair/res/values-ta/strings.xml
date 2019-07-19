@@ -26,4 +26,5 @@
     <string name="pref_appcategorization_style_text">நடை</string>
     <string name="animation_type_default">இயல்புநிலை</string>
     <string name="animation_type_blink">இமை</string>
+    <string name="weather_icons_default">இயல்புநிலை</string>
 </resources>

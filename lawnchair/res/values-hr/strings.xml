@@ -65,4 +65,5 @@
     <string name="animation_type_blink">Treperenje</string>
     <string name="event_provider_now_playing">Trenutna reprodukcija</string>
     <string name="battery_low">Baterija slaba</string>
+    <string name="weather_icons_default">Zadano</string>
 </resources>

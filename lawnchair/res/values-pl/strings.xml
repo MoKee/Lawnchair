@@ -127,4 +127,5 @@
     <string name="animation_type_blink">Migać</string>
     <string name="event_provider_now_playing">Obecnie Grane</string>
     <string name="battery_low">Bateria na wyczerpaniu</string>
+    <string name="weather_icons_default">Domyślne</string>
 </resources>

@@ -350,10 +350,10 @@
     <string name="undo">Visszavonás</string>
     <string name="name">Név</string>
     <string name="shortcut_sesame">Parancsikonok</string>
-    <string name="pref_integrations">Egységesítések</string>
+    <string name="pref_integrations">Egyesítések</string>
     <string name="pref_integrations_summary">Keresés, Sesame, Google</string>
     <string name="sesame">Sesame</string>
-    <string name="sesame_data_integration">Adategységesítés</string>
+    <string name="sesame_data_integration">Adategyesítés</string>
     <string name="sesame_upsell">Érintse meg a Sesame telepítéséhez</string>
     <string name="sesame_search_upsell_on">A Sesame lett beállítva keresőszolgáltatónak</string>
     <string name="sesame_search_upsell_off">A Sesame nem lett beállítva keresőszolgáltatónak</string>
@@ -531,4 +531,8 @@ A művelet nem visszavonható.</string>
     <string name="web_search_baidu">Baidu (web)</string>
     <string name="icon_shape_override_miui_explaination">A MIUI korlátozása miatt előfordulhat, hogy az ikon alakja nem változik, és négyzet marad.\nKérjük, ne jelentse ezt hibaként.</string>
     <string name="button_organize_screens">Képernyők rendezése</string>
+    <string name="weather_icons_default">Alapértelmezett</string>
+    <string name="pref_weather_icon_pack">Időjárásikonok</string>
+    <string name="weather_icon_packs_not_supported">Az Ön jelenlegi időjárás-forrása nem támogatja</string>
+    <string name="lawnchair_settings">Lawnchair-beállítások</string>
 </resources>

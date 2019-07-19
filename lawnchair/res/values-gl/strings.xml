@@ -56,4 +56,5 @@
     <string name="action_share">Compartir</string>
     <string name="animation_type_default">Defecto</string>
     <string name="battery_low">Batería baixa</string>
+    <string name="weather_icons_default">Defecto</string>
 </resources>

@@ -3,4 +3,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="theme_default">Default</string>
     <string name="animation_type_default">Default</string>
+    <string name="weather_icons_default">Default</string>
 </resources>

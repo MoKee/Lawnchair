@@ -538,4 +538,5 @@
     <string name="web_search_baidu">Baidu (web)</string>
     <string name="icon_shape_override_miui_explaination">نظراً لتقييد MIUI ، فقد لا يتغير شكل الأيقونة ويظل مربعاً.\n الرجاء عدم الإبلاغ عن هذا على أنه خطأ.</string>
     <string name="button_organize_screens">تنظيم الشاشات</string>
+    <string name="weather_icons_default">الإفتراضي</string>
 </resources>

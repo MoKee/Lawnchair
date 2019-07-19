@@ -81,4 +81,5 @@
     <string name="animation_type_default">Подразумевано</string>
     <string name="animation_type_blink">Трептајуће</string>
     <string name="battery_low">Батерија на измаку</string>
+    <string name="weather_icons_default">Подразумевано</string>
 </resources>

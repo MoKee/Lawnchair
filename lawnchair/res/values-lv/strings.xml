@@ -17,6 +17,7 @@
     <string name="custom">Pielāgots</string>
     <string name="automatic_short">Automātiski</string>
     <string name="theme_dark_theme_mode_on">Ieslēgts</string>
+    <string name="theme_dark_theme_mode_off">Izslēgt</string>
     <string name="pref_qsb_color">Krāsa</string>
     <string name="tab_bottom_sheet_save">Saglabāt</string>
     <string name="delete">Dzēst</string>
