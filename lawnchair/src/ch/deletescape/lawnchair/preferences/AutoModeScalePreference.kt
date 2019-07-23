@@ -1,4 +1,6 @@
 /*
+ *     Copyright (C) 2019 Lawnchair Team.
+ *
  *     This file is part of Lawnchair Launcher.
  *
  *     Lawnchair Launcher is free software: you can redistribute it and/or modify
@@ -15,32 +17,24 @@
  *     along with Lawnchair Launcher.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package ch.deletescape.lawnchair.util
+package ch.deletescape.lawnchair.preferences
 
-fun Int.hasFlag(flag: Int): Boolean {
-    return (this and flag) != 0
-}
+import android.content.Context
+import android.support.annotation.Keep
+import android.util.AttributeSet
 
-fun Int.hasFlags(vararg flags: Int): Boolean {
-    return flags.all { hasFlag(it) }
-}
+@Keep
+class AutoModeScalePreference @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) :
+        AutoModeSeekbarPreference(context, attrs, defStyleAttr) {
 
-fun Int.addFlag(flag: Int): Int {
-    return this or flag
-}
+    override fun updateDisplayedValue() {
+        super.updateDisplayedValue()
+        if (current < low && current != -1f) {
+            persistFloat(current)
+        }
+    }
 
-fun Int.removeFlag(flag: Int): Int {
-    return this and flag.inv()
-}
-
-fun Int.toggleFlag(flag: Int): Int {
-    return if (hasFlag(flag)) removeFlag(flag) else addFlag(flag)
-}
-
-fun Int.setFlag(flag: Int, value: Boolean): Int {
-    return if (value) {
-        addFlag(flag)
-    } else {
-        removeFlag(flag)
+    override fun persistFloat(value: Float): Boolean {
+        return super.persistFloat(if (value < low) -1f else value)
     }
 }

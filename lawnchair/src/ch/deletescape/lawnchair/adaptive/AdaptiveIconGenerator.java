@@ -50,7 +50,7 @@ public class AdaptiveIconGenerator {
     // Found after some experimenting, might be improved with some more testing
     private static final float FULL_BLEED_ICON_SCALE = 1.44f;
     // Found after some experimenting, might be improved with some more testing
-    private static final float NO_MIXIN_ICON_SCALE = 1.39f;
+    private static final float NO_MIXIN_ICON_SCALE = 1.40f;
     // Icons with less than 5 colors are considered as "single color"
     private static final int SINGLE_COLOR_LIMIT = 5;
     // Minimal alpha to be considered opaque
@@ -58,8 +58,6 @@ public class AdaptiveIconGenerator {
 
     private Context context;
     private Drawable icon;
-    private final String identifier;
-    private final LawnchairPreferences prefs;
 
     private final boolean extractColor;
     private final boolean treatWhite;
@@ -67,7 +65,6 @@ public class AdaptiveIconGenerator {
     private boolean ranLoop;
     private boolean shouldWrap;
     private int backgroundColor = Color.WHITE;
-    private boolean isAID;
     private boolean isFullBleed;
     private boolean noMixinNeeded;
     private boolean fullBleedChecked;
@@ -82,12 +79,10 @@ public class AdaptiveIconGenerator {
 
     private AdaptiveIconCompat tmp;
 
-    public AdaptiveIconGenerator(Context context, @NonNull Drawable icon, String identifier) {
+    public AdaptiveIconGenerator(Context context, @NonNull Drawable icon) {
         this.context = context;
         this.icon = AdaptiveIconCompat.wrap(icon);
-        // useful for caching or dirty hacks
-        this.identifier = identifier;
-        prefs = Utilities.getLawnchairPrefs(context);
+        LawnchairPreferences prefs = Utilities.getLawnchairPrefs(context);
         shouldWrap = prefs.getEnableLegacyTreatment();
         extractColor = shouldWrap && prefs.getColorizedLegacyTreatment();
         treatWhite = extractColor && prefs.getEnableWhiteOnlyTreatment();
@@ -140,9 +135,8 @@ public class AdaptiveIconGenerator {
 
             // Check if the icon is squareish
             final float ratio = aHeight / aWidth;
-            // todo: invert these variables so they stop confusing me so much
-            boolean isSquareish = 0.99 < ratio && ratio < 1.001;
-            boolean almostSquarish = isSquareish || (0.95 < ratio && ratio < 1.01);
+            boolean isSquareish = 0.999 < ratio && ratio < 1.0001;
+            boolean almostSquarish = isSquareish || (0.97 < ratio && ratio < 1.005);
             if (!isSquareish) {
                 isFullBleed = false;
                 fullBleedChecked = true;
@@ -185,8 +179,8 @@ public class AdaptiveIconGenerator {
 
             // Any icon with less than 10% transparent pixels (padding excluded) is considered "full-bleed-ish"
             final int maxTransparent = (int) (round(size * .10) + addPixels);
-            // Any icon with less than 25% transparent pixels (padding excluded) doesn't need a color mix-in
-            final int noMixinScore = (int) (round(size * .30) + addPixels);
+            // Any icon with less than 27% transparent pixels (padding excluded) doesn't need a color mix-in
+            final int noMixinScore = (int) (round(size * .27) + addPixels);
 
             int highScore = 0;
             int bestRGB = 0;

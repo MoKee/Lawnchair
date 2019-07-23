@@ -807,6 +807,9 @@ public final class Utilities {
     }
 
     public static String upperCaseFirstLetter(String str) {
+        if (TextUtils.isEmpty(str)) {
+            return str;
+        }
         return str.substring(0, 1).toUpperCase(Locale.US) + str.substring(1);
     }
 
@@ -854,8 +857,11 @@ public final class Utilities {
     }
 
     public static Boolean isOnePlusStock() {
-        return !TextUtils.isEmpty(getSystemProperty("ro.oxygen.version", "")) || !TextUtils
-                .isEmpty(getSystemProperty("ro.hydrogen.version", ""));
+        return !TextUtils.isEmpty(getSystemProperty("ro.oxygen.version", ""))
+                || !TextUtils.isEmpty(getSystemProperty("ro.hydrogen.version", ""))
+                // ro.{oxygen|hydrogen}.version has been removed from the 7 series onwards
+                || getSystemProperty("ro.rom.version", "").contains("Oxygen OS")
+                || getSystemProperty("ro.rom.version", "").contains("Hydrogen OS");
     }
 
     public static Boolean isMiui(){
