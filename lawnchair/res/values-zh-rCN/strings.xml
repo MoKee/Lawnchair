@@ -532,4 +532,8 @@
     <string name="pref_weather_icon_pack">天气图标</string>
     <string name="weather_icon_packs_not_supported">您当前的天气提供商不支持此功能</string>
     <string name="lawnchair_settings">Lawnchair 设置</string>
+    <string name="customnavbar">自定义导航栏</string>
+    <string name="customnavbar_install">点击以安装自定义导航栏</string>
+    <string name="customnavbar_back_hiding">隐藏后退按钮</string>
+    <string name="customnavbar_back_hiding_desc">不需要时隐藏后台按钮</string>
 </resources>

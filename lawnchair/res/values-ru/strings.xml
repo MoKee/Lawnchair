@@ -538,4 +538,8 @@
     <string name="pref_weather_icon_pack">Значки погоды</string>
     <string name="weather_icon_packs_not_supported">Не поддерживается вашим текущим источником погоды</string>
     <string name="lawnchair_settings">Настройки Lawnchair</string>
+    <string name="customnavbar">Пользовательская панель навигации</string>
+    <string name="customnavbar_install">Нажмите, чтобы установить пользовательскую панель навигации</string>
+    <string name="customnavbar_back_hiding">Скрытие кнопки назад</string>
+    <string name="customnavbar_back_hiding_desc">Скрыть кнопку назад, когда она не нужна</string>
 </resources>

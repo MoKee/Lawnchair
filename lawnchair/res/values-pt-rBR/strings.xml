@@ -534,4 +534,8 @@
     <string name="pref_weather_icon_pack">Ícones do tempo</string>
     <string name="weather_icon_packs_not_supported">Não suportado pela sua fonte climática atual</string>
     <string name="lawnchair_settings">Configurações do Lawnchair</string>
+    <string name="customnavbar">Barra de Navegação Personalizada</string>
+    <string name="customnavbar_install">Toque para instalar a Barra de Navegação Personalizada</string>
+    <string name="customnavbar_back_hiding">Ocultar botão voltar</string>
+    <string name="customnavbar_back_hiding_desc">Ocultar o botão voltar quando desnecessário</string>
 </resources>

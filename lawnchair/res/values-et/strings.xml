@@ -534,4 +534,8 @@
     <string name="pref_weather_icon_pack">Ilmateate ikoonid</string>
     <string name="weather_icon_packs_not_supported">Teie praegune ilmateade ei toeta seda</string>
     <string name="lawnchair_settings">Lawnchairi seaded</string>
+    <string name="customnavbar">Kohandatud navigeerimisriba</string>
+    <string name="customnavbar_install">Klõpsake kohandatud navigeerimisriba installimiseks</string>
+    <string name="customnavbar_back_hiding">Peida tagasi nupp</string>
+    <string name="customnavbar_back_hiding_desc">Peida tagasi nupp, kui seda pole vaja</string>
 </resources>
