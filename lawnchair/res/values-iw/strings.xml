@@ -89,4 +89,5 @@
     <string name="event_provider_now_playing">מנגן כעת</string>
     <string name="battery_low">סוללה חלשה</string>
     <string name="weather_icons_default">ברירת מחדל</string>
+    <string name="icon_shape_corner_squircle">עיגובוע</string>
 </resources>

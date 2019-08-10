@@ -128,4 +128,5 @@
     <string name="event_provider_now_playing">Reproduciendo ahora</string>
     <string name="battery_low">Batería baja</string>
     <string name="weather_icons_default">Predeterminado</string>
+    <string name="icon_shape_corner_squircle">Squircle</string>
 </resources>

@@ -508,13 +508,15 @@ A művelet nem visszavonható.</string>
         <item>Legyen szép napja!</item>
     </string-array>
     <string-array name="greetings_evening">
+        <item>Milyen volt a mai napja?</item>
+        <item>Miket csinált ma?</item>
+    </string-array>
+    <string-array name="greetings_night">
         <item>Jó éjszakát!</item>
         <item>Aludjon jól!</item>
         <item>Holnap találkozunk!</item>
         <item>Szép álmokat!</item>
         <item>Ne maradjon ébren túl későig</item>
-        <item>Milyen volt a mai napja?</item>
-        <item>Miket csinált ma?</item>
     </string-array>
     <string name="onbording">\"Felszállás\"</string>
     <string name="onbording_settings_title">%s beállítása</string>
@@ -535,4 +537,16 @@ A művelet nem visszavonható.</string>
     <string name="pref_weather_icon_pack">Időjárásikonok</string>
     <string name="weather_icon_packs_not_supported">Az Ön jelenlegi időjárás-forrása nem támogatja</string>
     <string name="lawnchair_settings">Lawnchair-beállítások</string>
+    <string name="customnavbar">Egyéni Navigációs sáv</string>
+    <string name="customnavbar_install">Érintse meg egy egyéni Navigációs sáv telepítéséhez</string>
+    <string name="customnavbar_back_hiding">Rejtett Vissza-gomb</string>
+    <string name="customnavbar_back_hiding_desc">Amikor nincs szükség rá, rejtse el a Vissza-gombot</string>
+    <string name="icon_shape_top_left">Bal fent</string>
+    <string name="icon_shape_top_right">Jobb fent</string>
+    <string name="icon_shape_bottom_left">Bal alul</string>
+    <string name="icon_shape_bottom_right">Jobb alul</string>
+    <string name="icon_shape_corner_round">Kerek</string>
+    <string name="icon_shape_corner_squircle">Négyzetes kör</string>
+    <string name="icon_shape_corner_cut">Vágott</string>
+    <string name="smartspace_add_to_home">Hozzáadás a kezdőképernyőhöz</string>
 </resources>

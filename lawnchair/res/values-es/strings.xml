@@ -56,6 +56,7 @@
     <string name="about_role_devops">DevOps</string>
     <string name="about_role_dev">Desarrollador</string>
     <string name="about_role_designer">Diseñador</string>
+    <string name="about_bio_recoded">Codificador y diseñador gráfico.</string>
     <string name="about_bio_josh">Diseñador gráfico independiente.</string>
     <string name="action_none">No hacer nada</string>
     <string name="gesture_press_home">Botón de inicio</string>
@@ -118,4 +119,5 @@
     <string name="animation_type_blink">Parpadeo</string>
     <string name="battery_low">Batería baja</string>
     <string name="weather_icons_default">Por defecto</string>
+    <string name="icon_shape_corner_squircle">Esquinas redondeadas</string>
 </resources>

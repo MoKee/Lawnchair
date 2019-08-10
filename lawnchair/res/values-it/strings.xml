@@ -129,4 +129,5 @@
     <string name="event_provider_now_playing">Schermata in riproduzione</string>
     <string name="battery_low">Batteria scarica</string>
     <string name="weather_icons_default">Predefinito</string>
+    <string name="icon_shape_corner_squircle">Quadrato-Cerchio</string>
 </resources>

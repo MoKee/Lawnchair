@@ -96,4 +96,5 @@
     <string name="event_provider_now_playing">מנגן כעת</string>
     <string name="battery_low">Χαμηλή μπαταρία</string>
     <string name="weather_icons_default">Προεπιλογή</string>
+    <string name="icon_shape_corner_squircle">Οβάλ τετράγωνο</string>
 </resources>

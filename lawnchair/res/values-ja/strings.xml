@@ -127,4 +127,5 @@
     <string name="event_provider_now_playing">再生画面</string>
     <string name="battery_low">残量低下</string>
     <string name="weather_icons_default">デフォルト</string>
+    <string name="icon_shape_corner_squircle">丸い四角形</string>
 </resources>

@@ -85,4 +85,5 @@
     <string name="animation_type_blink">Pipelleig</string>
     <string name="battery_low">Bateria baixa</string>
     <string name="weather_icons_default">Per defecte</string>
+    <string name="icon_shape_corner_squircle">Vores arrodonides</string>
 </resources>

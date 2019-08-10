@@ -514,15 +514,6 @@
         <item>ألم تنظر إلى الخارج بعد؟</item>
         <item>أتمنى لك يوماً عظيماً!</item>
     </string-array>
-    <string-array name="greetings_evening">
-        <item>ليلة سعيدة!</item>
-        <item>نوماً هنيئاً!</item>
-        <item>أراك غداً!</item>
-        <item>أحلام جميلة!</item>
-        <item>لا تبقى مستيقظاً طويلاً</item>
-        <item>كيف كان يومك؟</item>
-        <item>ماذا فعلت اليوم؟</item>
-    </string-array>
     <string name="onbording">التأهيل</string>
     <string name="onbording_settings_title">إعداد %s</string>
     <string name="onbording_settings_summary">اضغط لفترة طويلة على الشاشة الرئيسية</string>
@@ -542,4 +533,5 @@
     <string name="pref_weather_icon_pack">أيقونات الطقس</string>
     <string name="weather_icon_packs_not_supported">غير مدعوم من مصدر الطقس الحالي</string>
     <string name="lawnchair_settings">إعدادات Lawnchair</string>
+    <string name="icon_shape_corner_squircle">ايقونة مربعة الشكل</string>
 </resources>

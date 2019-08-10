@@ -105,4 +105,5 @@
     <string name="animation_type_default">Standard</string>
     <string name="battery_low">Låg batterinivå</string>
     <string name="weather_icons_default">Standard</string>
+    <string name="icon_shape_corner_squircle">Kvirkel</string>
 </resources>

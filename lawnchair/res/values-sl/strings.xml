@@ -199,4 +199,5 @@
     <string name="event_provider_now_playing">Predvaja se</string>
     <string name="battery_low">Nizko stanje akumulatorja</string>
     <string name="weather_icons_default">Privzeta</string>
+    <string name="icon_shape_corner_squircle">Zaobljen kvadrat</string>
 </resources>

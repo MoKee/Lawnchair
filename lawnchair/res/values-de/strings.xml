@@ -127,4 +127,5 @@
     <string name="event_provider_now_playing">Aktuelle Wiedergabe</string>
     <string name="battery_low">Akku schwach</string>
     <string name="weather_icons_default">Standard</string>
+    <string name="icon_shape_corner_squircle">Kreis</string>
 </resources>

@@ -506,15 +506,6 @@
         <item>Oled sa juba välja vaadanud?</item>
         <item>Ilusat päeva!</item>
     </string-array>
-    <string-array name="greetings_evening">
-        <item>Head ööd!</item>
-        <item>Head und!</item>
-        <item>Näeme homme!</item>
-        <item>Ilusaid unenägusid!</item>
-        <item>Ära ole üleval liiga kaua</item>
-        <item>Kuidas sinu päeva läks?</item>
-        <item>Mida sa täna tegid?</item>
-    </string-array>
     <string name="onbording">Alustamine</string>
     <string name="onbording_settings_title">Seadista %s</string>
     <string name="onbording_settings_summary">Pikk vajutus koduekraanil</string>
@@ -538,4 +529,5 @@
     <string name="customnavbar_install">Klõpsake kohandatud navigeerimisriba installimiseks</string>
     <string name="customnavbar_back_hiding">Peida tagasi nupp</string>
     <string name="customnavbar_back_hiding_desc">Peida tagasi nupp, kui seda pole vaja</string>
+    <string name="icon_shape_corner_squircle">Ümarruut</string>
 </resources>

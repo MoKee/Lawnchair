@@ -128,4 +128,5 @@
     <string name="event_provider_now_playing">Sedang diputar</string>
     <string name="battery_low">Baterai lemah</string>
     <string name="weather_icons_default">Standar</string>
+    <string name="icon_shape_corner_squircle">Kotak melengkung</string>
 </resources>

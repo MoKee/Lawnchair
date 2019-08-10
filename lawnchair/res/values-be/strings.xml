@@ -115,4 +115,5 @@
     <string name="animation_type_blink">Мігацець</string>
     <string name="battery_low">Жывелька: крытычны ўзровень</string>
     <string name="weather_icons_default">Па змаўчанні</string>
+    <string name="icon_shape_corner_squircle">Круглявы квадрат</string>
 </resources>

@@ -98,4 +98,5 @@
     <string name="event_provider_now_playing">Afspeelscherm</string>
     <string name="battery_low">Lage accuspanning</string>
     <string name="weather_icons_default">Standaard</string>
+    <string name="icon_shape_corner_squircle">Vierkantcirkel</string>
 </resources>

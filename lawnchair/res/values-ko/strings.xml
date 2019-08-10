@@ -93,4 +93,5 @@
     <string name="event_provider_now_playing">지금 재생 중</string>
     <string name="battery_low">배터리 부족</string>
     <string name="weather_icons_default">기본값</string>
+    <string name="icon_shape_corner_squircle">둥근 사각형</string>
 </resources>

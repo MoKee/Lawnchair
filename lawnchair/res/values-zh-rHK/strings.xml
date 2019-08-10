@@ -503,13 +503,15 @@
         <item>祝你今天過得開心！</item>
     </string-array>
     <string-array name="greetings_evening">
+        <item>你今天過得好嗎？</item>
+        <item>你今天都做了什麼？</item>
+    </string-array>
+    <string-array name="greetings_night">
         <item>晚安！</item>
         <item>祝您睡得香甜！</item>
         <item>明天見！</item>
         <item>祝您有個好夢</item>
         <item>不要熬夜太久</item>
-        <item>你今天過得好嗎？</item>
-        <item>你今天都做了什麼？</item>
     </string-array>
     <string name="onbording">新手上路</string>
     <string name="onbording_settings_title">設定 %s</string>
@@ -534,4 +536,12 @@
     <string name="customnavbar_install">點選安裝自定義導覽列</string>
     <string name="customnavbar_back_hiding">返回鍵隱藏</string>
     <string name="customnavbar_back_hiding_desc">不需要時隱藏返回鍵</string>
+    <string name="icon_shape_top_left">左上方</string>
+    <string name="icon_shape_top_right">右上方</string>
+    <string name="icon_shape_bottom_left">左下方</string>
+    <string name="icon_shape_bottom_right">右下方</string>
+    <string name="icon_shape_corner_round">圓形</string>
+    <string name="icon_shape_corner_squircle">圓角正方形</string>
+    <string name="icon_shape_corner_cut">直接轉場</string>
+    <string name="smartspace_add_to_home">新增至主畫面</string>
 </resources>

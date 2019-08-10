@@ -14,6 +14,8 @@
     <string name="general_pref_title">Geral</string>
     <string name="hide_app_apply">Aplicar</string>
     <string name="dock_pref_title">Ancorar</string>
+    <string name="backups">Cópias de Segurança</string>
+    <string name="new_backup">Criar</string>
     <string name="restore_backup">Importar</string>
     <string name="backup_location">Localização</string>
     <string name="choose_backup_path">Explorar</string>
@@ -38,6 +40,7 @@
     <string name="title_attribouter_licenses">Licenças de Código Aberto</string>
     <string name="title_attribouter_email">E-mail</string>
     <string name="title_attribouter_website">Site da Web</string>
+    <string name="title_attribouter_rate">Avaliar</string>
     <string name="title_attribouter_version">Versão %1$s</string>
     <string name="title_attribouter_license">Licença</string>
     <string name="title_attribouter_license_permissions">Permissões</string>
@@ -105,14 +108,17 @@
     <string name="text_color">Cor do texto</string>
     <string name="background_color">Cor de fundo</string>
     <string name="pref_appcategorization_style_text">Estilo</string>
+    <string name="pref_app_groups_create">Criar</string>
     <string name="pref_appcategorization_folders_title">Pastas</string>
     <string name="drawer_folders">Pastas</string>
     <string name="category_photography">Fotografia</string>
     <string name="lock_desktop">Bloquear ambiente de trabalho</string>
+    <string name="action_copy">Copiar</string>
     <string name="action_share">Partilhar</string>
     <string name="animation_type_default">Padrão</string>
     <string name="animation_type_blink">Piscar</string>
     <string name="event_provider_now_playing">A reproduzir</string>
     <string name="battery_low">Bateria fraca</string>
     <string name="weather_icons_default">Padrão</string>
+    <string name="icon_shape_corner_squircle">Quacirculo</string>
 </resources>

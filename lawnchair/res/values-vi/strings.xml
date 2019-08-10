@@ -124,4 +124,5 @@
     <string name="event_provider_now_playing">Đang phát</string>
     <string name="battery_low">Pin yếu</string>
     <string name="weather_icons_default">Mặc định</string>
+    <string name="icon_shape_corner_squircle">Vuông bo tròn</string>
 </resources>
