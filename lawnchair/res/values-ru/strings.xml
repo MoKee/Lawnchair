@@ -511,13 +511,15 @@
         <item>Отличного дня!</item>
     </string-array>
     <string-array name="greetings_evening">
+        <item>Как прошёл Ваш день?</item>
+        <item>Что Вы сегодня делали?</item>
+    </string-array>
+    <string-array name="greetings_night">
         <item>Доброй ночи!</item>
         <item>Спокойной ночи!</item>
         <item>Увидимся завтра!</item>
         <item>Сладких снов!</item>
         <item>Не засиживайся слишком долго</item>
-        <item>Как прошёл ваш день?</item>
-        <item>Что вы сегодня делали?</item>
     </string-array>
     <string name="onbording">Введение</string>
     <string name="onbording_settings_title">Настройка %s</string>
@@ -538,8 +540,16 @@
     <string name="pref_weather_icon_pack">Значки погоды</string>
     <string name="weather_icon_packs_not_supported">Не поддерживается вашим текущим источником погоды</string>
     <string name="lawnchair_settings">Настройки Lawnchair</string>
-    <string name="customnavbar">Пользовательская панель навигации</string>
-    <string name="customnavbar_install">Нажмите, чтобы установить пользовательскую панель навигации</string>
-    <string name="customnavbar_back_hiding">Скрытие кнопки назад</string>
-    <string name="customnavbar_back_hiding_desc">Скрыть кнопку назад, когда она не нужна</string>
+    <string name="customnavbar">Пользовательская Навигационная Панель</string>
+    <string name="customnavbar_install">Нажмите, чтобы установить Пользовательскую Навигационную Панель</string>
+    <string name="customnavbar_back_hiding">Скрытие кнопки возврата</string>
+    <string name="customnavbar_back_hiding_desc">Скрыть кнопку возврата, когда она не нужна</string>
+    <string name="icon_shape_top_left">Сверху слева</string>
+    <string name="icon_shape_top_right">Сверху справа</string>
+    <string name="icon_shape_bottom_left">Снизу слева</string>
+    <string name="icon_shape_bottom_right">Снизу справа</string>
+    <string name="icon_shape_corner_round">Круг</string>
+    <string name="icon_shape_corner_squircle">Округлый квадрат</string>
+    <string name="icon_shape_corner_cut">Вырезать</string>
+    <string name="smartspace_add_to_home">Добавить на главный экран</string>
 </resources>

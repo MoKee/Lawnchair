@@ -506,6 +506,17 @@
         <item>Oled sa juba välja vaadanud?</item>
         <item>Ilusat päeva!</item>
     </string-array>
+    <string-array name="greetings_evening">
+        <item>Kuidas sinu päeva läks?</item>
+        <item>Mida sa täna tegid?</item>
+    </string-array>
+    <string-array name="greetings_night">
+        <item>Head ööd!</item>
+        <item>Head und!</item>
+        <item>Näeme homme!</item>
+        <item>Ilusaid unenägusid!</item>
+        <item>Ära ole üleval liiga kaua</item>
+    </string-array>
     <string name="onbording">Alustamine</string>
     <string name="onbording_settings_title">Seadista %s</string>
     <string name="onbording_settings_summary">Pikk vajutus koduekraanil</string>
@@ -529,5 +540,12 @@
     <string name="customnavbar_install">Klõpsake kohandatud navigeerimisriba installimiseks</string>
     <string name="customnavbar_back_hiding">Peida tagasi nupp</string>
     <string name="customnavbar_back_hiding_desc">Peida tagasi nupp, kui seda pole vaja</string>
+    <string name="icon_shape_top_left">Üleval vasakul</string>
+    <string name="icon_shape_top_right">Üleval paremal</string>
+    <string name="icon_shape_bottom_left">All vasakul</string>
+    <string name="icon_shape_bottom_right">All paremal</string>
+    <string name="icon_shape_corner_round">Ring</string>
     <string name="icon_shape_corner_squircle">Ümarruut</string>
+    <string name="icon_shape_corner_cut">Lõika</string>
+    <string name="smartspace_add_to_home">Lisa avaekraanile</string>
 </resources>

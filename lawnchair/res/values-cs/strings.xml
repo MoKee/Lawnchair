@@ -511,13 +511,15 @@
         <item>Mějte krásný den!</item>
     </string-array>
     <string-array name="greetings_evening">
+        <item>Jaký jste měli den?</item>
+        <item>Co jste dnes dělali?</item>
+    </string-array>
+    <string-array name="greetings_night">
         <item>Dobrou noc!</item>
         <item>Dobře se vyspěte!</item>
         <item>Uvidíme se zítra!</item>
         <item>Sladké sny!</item>
         <item>Moc dlouho neponocuj</item>
-        <item>Jaký jste měli den?</item>
-        <item>Co jste dnes dělali?</item>
     </string-array>
     <string name="onbording">Zapojení</string>
     <string name="onbording_settings_title">Nastavit %s</string>
@@ -538,4 +540,16 @@
     <string name="pref_weather_icon_pack">Ikony počasí</string>
     <string name="weather_icon_packs_not_supported">Nejsou podporovány vaším aktuálně nastaveným poskytovatelem informací o počasí</string>
     <string name="lawnchair_settings">Nastavení Lawnchair</string>
+    <string name="customnavbar">Vlastní navigační panel</string>
+    <string name="customnavbar_install">Klepnutím nainstalovat vlastní navigační panel</string>
+    <string name="customnavbar_back_hiding">Skrytí tlačítka Zpět</string>
+    <string name="customnavbar_back_hiding_desc">Skryje tlačítko Zpět, pokud není potřebné</string>
+    <string name="icon_shape_top_left">Vlevo nahoře</string>
+    <string name="icon_shape_top_right">Vpravo nahoře</string>
+    <string name="icon_shape_bottom_left">Vlevo dole</string>
+    <string name="icon_shape_bottom_right">Vpravo dole</string>
+    <string name="icon_shape_corner_round">Kruh</string>
+    <string name="icon_shape_corner_squircle">Čtverec a kruh</string>
+    <string name="icon_shape_corner_cut">Řez</string>
+    <string name="smartspace_add_to_home">Přidat na plochu</string>
 </resources>

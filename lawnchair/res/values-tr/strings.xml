@@ -507,13 +507,15 @@
         <item>İyi günler!</item>
     </string-array>
     <string-array name="greetings_evening">
+        <item>Günün nasıldı?</item>
+        <item>Bugün ne yaptın?</item>
+    </string-array>
+    <string-array name="greetings_night">
         <item>İyi geceler!</item>
         <item>İyi uykular!</item>
         <item>Yarın görüşürüz!</item>
         <item>Tatlı rüyalar!</item>
         <item>Çok uzun süre kalma</item>
-        <item>Günün nasıldı?</item>
-        <item>Bugün ne yaptın?</item>
     </string-array>
     <string name="onbording">İşe uyum süreci</string>
     <string name="onbording_settings_title">%s ayarla</string>
@@ -534,4 +536,16 @@
     <string name="pref_weather_icon_pack">Hava durumu simgeleri</string>
     <string name="weather_icon_packs_not_supported">Mevcut hava durumu kaynağınız tarafından desteklenmiyor</string>
     <string name="lawnchair_settings">Lawnchair Ayarları</string>
+    <string name="customnavbar">Özel gezinme çubuğu</string>
+    <string name="customnavbar_install">Özel gezinme çubuğu yüklemek için dokunun</string>
+    <string name="customnavbar_back_hiding">Geri tuşunu gizle</string>
+    <string name="customnavbar_back_hiding_desc">Gerekmediğinde geri tuşunu gizle</string>
+    <string name="icon_shape_top_left">Sol üst</string>
+    <string name="icon_shape_top_right">Sağ üst</string>
+    <string name="icon_shape_bottom_left">Sol alt</string>
+    <string name="icon_shape_bottom_right">Sağ alt</string>
+    <string name="icon_shape_corner_round">Yuvarlak</string>
+    <string name="icon_shape_corner_squircle">Köşeli daire</string>
+    <string name="icon_shape_corner_cut">Kes</string>
+    <string name="smartspace_add_to_home">Ana ekrana ekle</string>
 </resources>
