@@ -435,7 +435,7 @@
     <string name="pref_app_groups_create">Создать</string>
     <string name="pref_appcategorization_folders_title">Папки</string>
     <string name="pref_appcategorization_folders_summary">Нажмите, чтобы открыть всплывающее меню</string>
-    <string name="pref_appcategorization_tabs_title">Вкладки</string>
+    <string name="pref_appcategorization_tabs_title">Tabs</string>
     <string name="pref_appcategorization_tabs_summary">Свайп между группами</string>
     <string name="default_folder_name">Новая папка</string>
     <string name="drawer_folders">Папки</string>
@@ -468,7 +468,7 @@
     <string name="action_dogbin_upload_error">Ошибка загрузки</string>
     <string name="action_dogbin_copy_link">Копировать ссылку</string>
     <string name="lawnchair_bug_report">Отчет об ошибках Lawnchair</string>
-    <string name="copied_toast">Скопировано</string>
+    <string name="copied_toast">Copied</string>
     <string name="action_copy">Копировать</string>
     <string name="action_copy_link">Копировать ссылку</string>
     <string name="action_share">Отправить</string>
@@ -480,7 +480,7 @@
     <string name="animation_type_slide_up">Слайд вверх</string>
     <string name="animation_type_scale_up">Приближение</string>
     <string name="animation_type_blink">Мигать</string>
-    <string name="animation_type_fade">Затухание</string>
+    <string name="animation_type_fade">Fade</string>
     <string name="permission_iplocate">Разрешить доступ к местоположению на основе сетевых данных?</string>
     <string name="permission_iplocate_twilight_explanation">Это позволяет более точно рассчитывать время суток, не зная вашего точного местоположения.</string>
     <string name="pref_appcategorization_flowerpot_title">Категория</string>
@@ -511,15 +511,15 @@
         <item>Отличного дня!</item>
     </string-array>
     <string-array name="greetings_evening">
-        <item>Как прошёл Ваш день?</item>
-        <item>Что Вы сегодня делали?</item>
+        <item>How was your day?</item>
+        <item>What did you do today?</item>
     </string-array>
     <string-array name="greetings_night">
-        <item>Доброй ночи!</item>
-        <item>Спокойной ночи!</item>
-        <item>Увидимся завтра!</item>
-        <item>Сладких снов!</item>
-        <item>Не засиживайся слишком долго</item>
+        <item>Good night!</item>
+        <item>Sleep well!</item>
+        <item>See you tomorrow!</item>
+        <item>Sweet dreams!</item>
+        <item>Don\'t stay up too long</item>
     </string-array>
     <string name="onbording">Введение</string>
     <string name="onbording_settings_title">Настройка %s</string>
@@ -544,12 +544,12 @@
     <string name="customnavbar_install">Нажмите, чтобы установить Пользовательскую Навигационную Панель</string>
     <string name="customnavbar_back_hiding">Скрытие кнопки возврата</string>
     <string name="customnavbar_back_hiding_desc">Скрыть кнопку возврата, когда она не нужна</string>
-    <string name="icon_shape_top_left">Сверху слева</string>
-    <string name="icon_shape_top_right">Сверху справа</string>
-    <string name="icon_shape_bottom_left">Снизу слева</string>
-    <string name="icon_shape_bottom_right">Снизу справа</string>
-    <string name="icon_shape_corner_round">Круг</string>
+    <string name="icon_shape_top_left">Top left</string>
+    <string name="icon_shape_top_right">Top right</string>
+    <string name="icon_shape_bottom_left">Bottom left</string>
+    <string name="icon_shape_bottom_right">Bottom right</string>
+    <string name="icon_shape_corner_round">Round</string>
     <string name="icon_shape_corner_squircle">Округлый квадрат</string>
-    <string name="icon_shape_corner_cut">Вырезать</string>
-    <string name="smartspace_add_to_home">Добавить на главный экран</string>
+    <string name="icon_shape_corner_cut">Cut</string>
+    <string name="smartspace_add_to_home">Add to homescreen</string>
 </resources>
