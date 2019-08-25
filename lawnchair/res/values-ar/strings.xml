@@ -514,6 +514,13 @@
         <item>ألم تنظر إلى الخارج بعد؟</item>
         <item>أتمنى لك يوماً عظيماً!</item>
     </string-array>
+    <string-array name="greetings_night">
+        <item>Good night!</item>
+        <item>Sleep well!</item>
+        <item>See you tomorrow!</item>
+        <item>أحلام جميلة!</item>
+        <item>لا تبقى مستيقظاً طويلاً</item>
+    </string-array>
     <string name="onbording">التأهيل</string>
     <string name="onbording_settings_title">إعداد %s</string>
     <string name="onbording_settings_summary">اضغط لفترة طويلة على الشاشة الرئيسية</string>
@@ -533,5 +540,12 @@
     <string name="pref_weather_icon_pack">أيقونات الطقس</string>
     <string name="weather_icon_packs_not_supported">غير مدعوم من مصدر الطقس الحالي</string>
     <string name="lawnchair_settings">إعدادات Lawnchair</string>
+    <string name="icon_shape_top_left">أعلى اليسار</string>
+    <string name="icon_shape_top_right">اعلي اليمين</string>
+    <string name="icon_shape_bottom_left">أسفل اليسار</string>
+    <string name="icon_shape_bottom_right">أسفل اليمين</string>
+    <string name="icon_shape_corner_round">جولة</string>
     <string name="icon_shape_corner_squircle">ايقونة مربعة الشكل</string>
+    <string name="icon_shape_corner_cut">قص</string>
+    <string name="smartspace_add_to_home">اضف الى الشاشة الرئيسية</string>
 </resources>

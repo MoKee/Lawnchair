@@ -504,6 +504,17 @@
         <item>有没有看看外面的风光呢？</item>
         <item>祝您生活愉快！</item>
     </string-array>
+    <string-array name="greetings_evening">
+        <item>今天过的还好吗？</item>
+        <item>今天做了什么呢？</item>
+    </string-array>
+    <string-array name="greetings_night">
+        <item>晚上好！</item>
+        <item>晚安！</item>
+        <item>明天见！</item>
+        <item>祝您好梦！</item>
+        <item>不要睡得太晚了哦</item>
+    </string-array>
     <string name="onbording">新手上路</string>
     <string name="onbording_settings_title">设置 %s</string>
     <string name="onbording_settings_summary">长按你的主屏幕</string>
@@ -527,5 +538,12 @@
     <string name="customnavbar_install">点击以安装自定义导航栏</string>
     <string name="customnavbar_back_hiding">隐藏后退按钮</string>
     <string name="customnavbar_back_hiding_desc">不需要时隐藏后台按钮</string>
+    <string name="icon_shape_top_left">左上方</string>
+    <string name="icon_shape_top_right">右上方</string>
+    <string name="icon_shape_bottom_left">左下方</string>
+    <string name="icon_shape_bottom_right">右下方</string>
+    <string name="icon_shape_corner_round">圆角</string>
     <string name="icon_shape_corner_squircle">圆角矩形</string>
+    <string name="icon_shape_corner_cut">剪切</string>
+    <string name="smartspace_add_to_home">添加到主屏幕</string>
 </resources>
