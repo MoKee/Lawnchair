@@ -320,6 +320,8 @@
     <string name="app_actions_pref_title">Műveletek</string>
     <string name="app_actions_pref_title_in_search">Műveletjavaslatok</string>
     <string name="app_actions_pref_desc">Gyakran megnyitott képernyők parancsikonjai</string>
+    <string name="app_actions_reset_pref_title">Az elrejtett műveletek visszaállítása</string>
+    <string name="app_actions_reset_pref_summary">Visszaállítja azokat a korábban elrejtett műveleteket, amelyeket a \'Ne jelenítse meg\' gombbal elrejtett</string>
     <string name="change_default_home">Beállítás kezdőképernyőként</string>
     <string name="recent_task_option_popup_window">Párbeszédablak</string>
     <string name="feed_theme_pref_title">Háttérszín</string>
@@ -549,4 +551,7 @@ A művelet nem visszavonható.</string>
     <string name="icon_shape_corner_squircle">Négyzetes kör</string>
     <string name="icon_shape_corner_cut">Vágott</string>
     <string name="smartspace_add_to_home">Hozzáadás a kezdőképernyőhöz</string>
+    <string name="pref_hide_statusbar_clock">Az állapotsori óra elrejtése</string>
+    <string name="root_access_required">Rendszergazda-hozzáférés szükséges</string>
+    <string name="smartspace_setup_text">Érintse meg a beállításhoz</string>
 </resources>

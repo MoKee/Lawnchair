@@ -318,6 +318,8 @@
     <string name="app_actions_pref_title">動作</string>
     <string name="app_actions_pref_title_in_search">動作建議</string>
     <string name="app_actions_pref_desc">為經常使用的功能產生建議</string>
+    <string name="app_actions_reset_pref_title">重設隱藏的操作</string>
+    <string name="app_actions_reset_pref_summary">透過將以前隱藏的操作拖曳到「不顯示」按鈕來重設這些操作</string>
     <string name="change_default_home">設定為主畫面</string>
     <string name="recent_task_option_popup_window">對話方塊</string>
     <string name="feed_theme_pref_title">背景顏色</string>
@@ -544,4 +546,7 @@
     <string name="icon_shape_corner_squircle">圓角正方形</string>
     <string name="icon_shape_corner_cut">直接轉場</string>
     <string name="smartspace_add_to_home">新增至主畫面</string>
+    <string name="pref_hide_statusbar_clock">隱藏狀態列時鐘</string>
+    <string name="root_access_required">Root 存取被拒絕</string>
+    <string name="smartspace_setup_text">輕觸以設定</string>
 </resources>
