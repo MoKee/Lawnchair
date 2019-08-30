@@ -320,6 +320,8 @@
     <string name="app_actions_pref_title">Eylemler</string>
     <string name="app_actions_pref_title_in_search">Eylem önerileri</string>
     <string name="app_actions_pref_desc">Sık açılan ekranları için kısayollar</string>
+    <string name="app_actions_reset_pref_title">Gizli eylemleri sıfırla</string>
+    <string name="app_actions_reset_pref_summary">Önceden gizlenmiş olan eylemleri, \"gösterme\" tuşuna sürükleyerek sıfırlar</string>
     <string name="change_default_home">Ana ekran olarak ayarla</string>
     <string name="recent_task_option_popup_window">İletişim penceresi</string>
     <string name="feed_theme_pref_title">Arka plan rengi</string>
@@ -548,4 +550,7 @@
     <string name="icon_shape_corner_squircle">Köşeli daire</string>
     <string name="icon_shape_corner_cut">Kes</string>
     <string name="smartspace_add_to_home">Ana ekrana ekle</string>
+    <string name="pref_hide_statusbar_clock">Durum çubuğu saatini gizle</string>
+    <string name="root_access_required">Root erişimi gerekli</string>
+    <string name="smartspace_setup_text">Ayarlamak için dokunun</string>
 </resources>

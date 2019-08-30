@@ -320,6 +320,8 @@
     <string name="app_actions_pref_title">Действия</string>
     <string name="app_actions_pref_title_in_search">Предлагаемые действия</string>
     <string name="app_actions_pref_desc">Ярлыки на часто открываемых экранах</string>
+    <string name="app_actions_reset_pref_title">Сбросить скрытые действия</string>
+    <string name="app_actions_reset_pref_summary">Сбрасывает действия, которые ранее были скрыты, перетаскивая их на кнопку \"не показывать\"</string>
     <string name="change_default_home">Установить как главный экран</string>
     <string name="recent_task_option_popup_window">Диалоговое окно</string>
     <string name="feed_theme_pref_title">Цвет фона</string>
@@ -552,4 +554,7 @@
     <string name="icon_shape_corner_squircle">Округлый квадрат</string>
     <string name="icon_shape_corner_cut">Cut</string>
     <string name="smartspace_add_to_home">Add to homescreen</string>
+    <string name="pref_hide_statusbar_clock">Скрыть часы в строке состояния</string>
+    <string name="root_access_required">Требуется Root доступ</string>
+    <string name="smartspace_setup_text">Нажмите, чтобы настроить</string>
 </resources>
