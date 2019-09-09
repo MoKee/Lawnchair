@@ -372,7 +372,7 @@
     <string name="font_variant_italic">Dőlt</string>
     <string name="font_weight_thin">Vékony</string>
     <string name="font_weight_extra_light">ExtraLight</string>
-    <string name="font_weight_light">Világos</string>
+    <string name="font_weight_light">Vékony</string>
     <string name="font_weight_regular">Hagyományos</string>
     <string name="font_weight_medium">Közepes</string>
     <string name="font_weight_semi_bold">Félkövér</string>
