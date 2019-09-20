@@ -295,7 +295,7 @@
     <string name="theme_black">Црно</string>
     <string name="theme_black_dark_text">Црна са тамним текстом</string>
     <string name="theme_dark_theme_mode">Тамна тема</string>
-    <string name="theme_dark_theme_mode_on">Укључено</string>
+    <string name="theme_dark_theme_mode_on">Укљ</string>
     <string name="theme_dark_theme_mode_off">Искључене</string>
     <string name="theme_dark_theme_mode_follow_wallpaper">@string/theme_auto</string>
     <string name="theme_dark_theme_mode_follow_system">@string/theme_auto_night_mode</string>
