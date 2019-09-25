@@ -286,8 +286,10 @@
     <string name="pref_mutliline_labels">Nomi di app multilinea</string>
     <string name="lawnchair_actions">Azioni</string>
     <string name="theme_light">Chiaro</string>
+    <string name="theme_with_dark_text">testo scuro</string>
     <string name="theme_dark">Scuro</string>
     <string name="theme_black">Nero</string>
+    <string name="theme_dark_theme_mode">Tema scuro</string>
     <string name="theme_dark_theme_mode_on">ON</string>
     <string name="theme_dark_theme_mode_off">Spenta</string>
     <string name="theme_use_dark_text">Usa testo scuro</string>
@@ -342,9 +344,15 @@
     <string name="pref_sesame_show_shortcuts">Scorciatoie app</string>
     <string name="allow">Consenti</string>
     <string name="deny">Nega</string>
+    <string name="font_variant_italic">Corsivo</string>
     <string name="font_weight_light">Chiaro</string>
+    <string name="font_weight_regular">Normale</string>
     <string name="font_weight_medium">Media</string>
+    <string name="font_weight_bold">Grassetto</string>
     <string name="font_weight_extra_black">Nero</string>
+    <string name="search_provider_firefox">Firefox</string>
+    <string name="search_provider_edge">Edge</string>
+    <string name="pref_fonts_title">Caratteri</string>
     <string name="pref_fonts_category_drawer">Drawer</string>
     <string name="text_color">Colore del testo</string>
     <string name="background_color">Colore di sfondo</string>
@@ -361,8 +369,14 @@
     <string name="animation_type_default">Predefinito</string>
     <string name="animation_type_blink">Pulsante</string>
     <string name="animation_type_fade">Dissolvenza</string>
+    <string name="pref_appcategorization_flowerpot_title">Categoria</string>
     <string name="event_provider_now_playing">Schermata in riproduzione</string>
+    <string name="battery_status">Stato batteria</string>
     <string name="battery_low">Batteria scarica</string>
+    <string name="web_search_ecosia">Ecosia (web)</string>
+    <string name="web_search_yandex">Yandex (web)</string>
+    <string name="web_search_naver">Naver (web)</string>
+    <string name="web_search_baidu">Baidu (web)</string>
     <string name="weather_icons_default">Predefinito</string>
     <string name="icon_shape_corner_squircle">Quadrato-Cerchio</string>
 </resources>
