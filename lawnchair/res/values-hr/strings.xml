@@ -17,6 +17,7 @@
     <string name="grid_size_width">Širina</string>
     <string name="dock_style_n">Ravno</string>
     <string name="dock_style_hidden">Skriveno</string>
+    <string name="icon_pack_default">Sustavne ikone</string>
     <string name="pref_category_weather">Vrijeme</string>
     <string name="pref_category_misc">Ostalo</string>
     <string name="pref_category_theme">Stil</string>
@@ -28,6 +29,7 @@
     <string name="apps_label">Aplikacije</string>
     <string name="pref_weather_units">Jedinica temperature</string>
     <string name="units_metric">Celzij</string>
+    <string name="units_imperial">Fahrenheit</string>
     <string name="reset">Poništi</string>
     <string name="theme_automatic">Automatski</string>
     <string name="theme_default">Zadano</string>
