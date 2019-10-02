@@ -72,6 +72,7 @@
     <string name="about_role_designer">Diseñador</string>
     <string name="about_bio_recoded">Codificador y diseñador gráfico.</string>
     <string name="about_bio_josh">Diseñador gráfico independiente.</string>
+    <string name="about_bio_msfjarvis">Desarrollador principal de HalogenOS y desarrollador de la aplicación Substratum.</string>
     <string name="action_none">Sin Acción</string>
     <string name="gesture_press_home">Botón de inicio</string>
     <string name="gesture_press_back">Botón de retroceso</string>
