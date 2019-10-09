@@ -647,7 +647,7 @@ public abstract class RecentsView<T extends BaseDraggingActivity> extends PagedV
         startHome();
     }
 
-    protected abstract void startHome();
+    public abstract void startHome();
 
     public void reset() {
         mRunningTaskId = -1;
@@ -693,6 +693,15 @@ public abstract class RecentsView<T extends BaseDraggingActivity> extends PagedV
             taskView.bind(mTmpRunningTask);
         }
         setCurrentTask(runningTaskId);
+    }
+
+    public @Nullable TaskView getRunningTaskView() {
+        return getTaskView(mRunningTaskId);
+    }
+
+    public int getRunningTaskIndex() {
+        TaskView tv = getRunningTaskView();
+        return tv == null ? -1 : indexOfChild(tv);
     }
 
     /**
