@@ -320,6 +320,8 @@
     <string name="app_actions_pref_title">Akce</string>
     <string name="app_actions_pref_title_in_search">Návrhy akcí</string>
     <string name="app_actions_pref_desc">Zkratky k často otevíraným obrazovkám</string>
+    <string name="app_actions_reset_pref_title">Obnovit skryté akce</string>
+    <string name="app_actions_reset_pref_summary">Obnoví akce, které byly v\u00a0minulosti skryté přesunutím na tlačítko „Nezobrazovat“</string>
     <string name="change_default_home">Nastavit jako domácí obrazovku</string>
     <string name="recent_task_option_popup_window">Dialogové okno</string>
     <string name="feed_theme_pref_title">Barva pozadí</string>
@@ -552,4 +554,7 @@
     <string name="icon_shape_corner_squircle">Čtverec a kruh</string>
     <string name="icon_shape_corner_cut">Řez</string>
     <string name="smartspace_add_to_home">Přidat na plochu</string>
+    <string name="pref_hide_statusbar_clock">Skrýt hodiny na stavovém řádku</string>
+    <string name="root_access_required">Je vyžadováno oprávnění root</string>
+    <string name="smartspace_setup_text">Klepnutím nastavit</string>
 </resources>
