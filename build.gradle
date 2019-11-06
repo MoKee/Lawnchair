@@ -49,6 +49,12 @@ android {
             keyAlias "Lawnchair"
             keyPassword localProps.getProperty("keyPass") ?:System.getenv("KEY_PASSWORD")
         }
+        mokee {
+            storeFile file("mokee.jks")
+            storePassword localProps.getProperty("storePass") ?: System.getenv("STORE_PASSWORD")
+            keyAlias "release"
+            keyPassword localProps.getProperty("keyPass") ?:System.getenv("KEY_PASSWORD")
+        }
     }
     defaultConfig {
         minSdkVersion 21
@@ -190,6 +196,14 @@ android {
         plah {
             dimension "build"
             applicationIdSuffix ".plah"
+
+            buildConfigField "boolean", "SIGNATURE_VERIFICATION", "true"
+        }
+
+        mokee {
+            dimension "build"
+            applicationIdSuffix ".mokee"
+            versionNameSuffix "-mokee-" + (localProps.getProperty("branch") ?: System.getenv("DRONE_BRANCH"))
 
             buildConfigField "boolean", "SIGNATURE_VERIFICATION", "true"
         }
