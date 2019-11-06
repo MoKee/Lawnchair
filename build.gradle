@@ -30,9 +30,16 @@ if (localPropsFile.exists()) {
     localProps.load(localPropsFile.newDataInputStream())
 }
 
+Properties mokeeProps = new Properties()
+File mokeePropsFile = project.rootProject.file('mokee.properties')
+if (mokeePropsFile.exists()) {
+    mokeeProps.load(mokeePropsFile.newDataInputStream())
+}
+
 def publicBranches = ["alpha", "beta"]
 def ciBuild = localProps.getProperty("ciBuild") == "true" || System.getenv("CI_BUILD") == "true"
-def isPublicBuild = localProps.getProperty("public") == "true" || (ciBuild && publicBranches.contains(System.getenv("DRONE_BRANCH")))
+def mkBuild = mokeeProps.getProperty("mkBuild") == "true" || System.getenv("MK_BUILD") == "true"
+def isPublicBuild = mokeeProps.getProperty("public") == "true" || (ciBuild && publicBranches.contains(System.getenv("DRONE_BRANCH")))
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
@@ -51,9 +58,9 @@ android {
         }
         mokee {
             storeFile file("mokee.jks")
-            storePassword localProps.getProperty("storePass") ?: System.getenv("STORE_PASSWORD")
+            storePassword mokeeProps.getProperty("storePass") ?: System.getenv("STORE_PASSWORD")
             keyAlias "release"
-            keyPassword localProps.getProperty("keyPass") ?:System.getenv("KEY_PASSWORD")
+            keyPassword mokeeProps.getProperty("keyPass") ?:System.getenv("KEY_PASSWORD")
         }
     }
     defaultConfig {
@@ -67,7 +74,7 @@ android {
             def drone = localProps.getProperty("public") == "true" || System.getenv("DRONE")
             versionName = majorMinor + (drone ? "-" : ".") + ciBuildNumber
         } else {
-            versionCode 1
+            versionCode gitVersionCode()
             versionName "2.0"
         }
 
@@ -79,7 +86,7 @@ android {
         buildConfigField "boolean", "DEBUG_STRICT_MODE", isPublicBuild ? "false" : "true"
         buildConfigField "boolean", "HAS_LEAKCANARY", "false"
 
-        def githubToken = localProps.getProperty('githubToken') ?: '"' + System.getenv("GITHUB_TOKEN") + '"'
+        def githubToken = mokeeProps.getProperty('githubToken') ?: '"' + System.getenv("GITHUB_TOKEN") + '"'
         buildConfigField "String", "GITHUB_TOKEN", githubToken
 
         buildConfigField "boolean", "SIGNATURE_VERIFICATION", "false"
@@ -87,7 +94,7 @@ android {
         def debugMenuCode = System.getenv("DEBUG_MENU_CODE") ?: "veryperu"
         buildConfigField "String", "DEBUG_MENU_CODE_HASH", '"' + debugMenuCode.digest('SHA-1') + '"'
 
-        def accuWeatherKey = localProps.getProperty('accu_key') ?: '"' + System.getenv("ACCU_KEY") + '"'
+        def accuWeatherKey = mokeeProps.getProperty('accu_key') ?: '"' + System.getenv("ACCU_KEY") + '"'
         buildConfigField "String", "ACCUWEATHER_KEY", accuWeatherKey
 
         ndk {
@@ -101,6 +108,8 @@ android {
                 if (System.getenv("CI_EVENT_TYPE") != "pull_request") {
                     signingConfig signingConfigs.ci
                 }
+            } else if (mkBuild) {
+                signingConfig signingConfigs.mokee
             }
 
             dexOptions {
@@ -119,6 +128,8 @@ android {
                 if (System.getenv("CI_EVENT_TYPE") != "pull_request") {
                     signingConfig signingConfigs.ci
                 }
+            } else if (mkBuild) {
+                signingConfig signingConfigs.mokee
             }
         }
 
@@ -130,6 +141,8 @@ android {
                 if (System.getenv("CI_EVENT_TYPE") != "pull_request") {
                     signingConfig signingConfigs.ci
                 }
+            } else if (mkBuild) {
+                signingConfig signingConfigs.mokee
             }
 
             dexOptions {
@@ -203,9 +216,9 @@ android {
         mokee {
             dimension "build"
             applicationIdSuffix ".mokee"
-            versionNameSuffix "-mokee-" + (localProps.getProperty("branch") ?: System.getenv("DRONE_BRANCH"))
+            versionNameSuffix "-mokee-" + gitVersionCode()
 
-            buildConfigField "boolean", "SIGNATURE_VERIFICATION", "true"
+            buildConfigField "boolean", "SIGNATURE_VERIFICATION", "false"
         }
     }
 
@@ -369,6 +382,11 @@ protobuf {
             }
         }
     }
+}
+
+private static gitVersionCode() {
+    def cmd = 'git rev-list HEAD --first-parent --count'
+    cmd.execute().text.trim().toInteger()
 }
 
 apply plugin: 'kotlin-android-extensions'
