@@ -35,12 +35,12 @@ class FeedBridge(private val context: Context) {
             BridgeInfo("ch.deletescape.lawnchair.lawnfeed", R.integer.lawnfeed_signature_hash)) }
 
     fun resolveBridge(): BridgeInfo? {
-        if (!useBridge) return null
+        if (useBridge) return null
         return bridgePackages.firstOrNull { it.isAvailable() }
     }
 
     fun isInstalled(): Boolean {
-        return !useBridge || bridgePackages.any { it.isAvailable() }
+        return useBridge || bridgePackages.any { it.isAvailable() }
     }
 
     fun resolveSmartspace(): String {
