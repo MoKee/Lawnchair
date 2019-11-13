@@ -85,6 +85,7 @@ android {
         buildConfigField "boolean", "FEATURE_SETTINGS_SEARCH", "true"
         buildConfigField "boolean", "DEBUG_STRICT_MODE", isPublicBuild ? "false" : "true"
         buildConfigField "boolean", "HAS_LEAKCANARY", "false"
+        buildConfigField "boolean", "FEATURE_BUG_REPORTER", "true"
 
         def githubToken = mokeeProps.getProperty('githubToken') ?: '"' + System.getenv("GITHUB_TOKEN") + '"'
         buildConfigField "String", "GITHUB_TOKEN", githubToken
@@ -96,6 +97,8 @@ android {
 
         def accuWeatherKey = mokeeProps.getProperty('accu_key') ?: '"' + System.getenv("ACCU_KEY") + '"'
         buildConfigField "String", "ACCUWEATHER_KEY", accuWeatherKey
+
+        buildConfigField "String", "BRIDGE_DOWNLOAD_URL", "\"https://lawnchair.app/getlawnfeed.html?ref=lawnchair\""
 
         ndk {
             abiFilters "armeabi-v7a", "x86", "x86_64", "arm64-v8a"
@@ -211,6 +214,9 @@ android {
             applicationIdSuffix ".plah"
 
             buildConfigField "boolean", "SIGNATURE_VERIFICATION", "true"
+            buildConfigField "boolean", "FEATURE_BUG_REPORTER", "false"
+            buildConfigField "boolean", "HAS_LEAKCANARY", "false"
+            buildConfigField "boolean", "DEBUG_STRICT_MODE", "false"
         }
 
         mokee {
@@ -219,6 +225,9 @@ android {
             versionNameSuffix "-mokee-" + gitVersionCode()
 
             buildConfigField "boolean", "SIGNATURE_VERIFICATION", "false"
+            buildConfigField "boolean", "FEATURE_BUG_REPORTER", "false"
+            buildConfigField "boolean", "HAS_LEAKCANARY", "false"
+            buildConfigField "boolean", "DEBUG_STRICT_MODE", "false"
         }
     }
 
