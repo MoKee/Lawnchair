@@ -66,10 +66,10 @@ android {
 
     signingConfigs {
         ci {
-            storeFile file("debug.jks")
-            storePassword localProps.getProperty("storePass") ?: System.getenv("STORE_PASSWORD")
-            keyAlias "Lawnchair"
-            keyPassword localProps.getProperty("keyPass") ?:System.getenv("KEY_PASSWORD")
+            storeFile file("release.jks")
+            storePassword localProps.getProperty("storePassword") ?: System.getenv("STORE_PASSWORD")
+            keyAlias "release"
+            keyPassword localProps.getProperty("keyPassword") ?:System.getenv("KEY_PASSWORD")
         }
     }
     defaultConfig {
